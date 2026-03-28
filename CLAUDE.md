@@ -1,51 +1,51 @@
 # CLAUDE.md
 
-This file provides guidance for AI assistants (Claude and others) working in this repository.
+Этот файл содержит инструкции для ИИ-ассистентов (Claude и других), работающих в данном репозитории.
 
-## Project Overview
+## Обзор проекта
 
-**my-first-project** is a newly initialized repository with no source code yet. It currently contains only a README.md. Development conventions below should be followed as the project grows.
+**my-first-project** — только что созданный репозиторий без исходного кода. На данный момент содержит только README.md. По мере развития проекта необходимо следовать приведённым ниже соглашениям.
 
-## Repository Structure
+## Структура репозитория
 
 ```
 my-first-project/
-├── CLAUDE.md       # This file — AI assistant guidance
-└── README.md       # Project introduction
+├── CLAUDE.md       # Этот файл — инструкции для ИИ-ассистента
+└── README.md       # Введение в проект
 ```
 
-## Git Workflow
+## Git-процесс
 
-- The default branch is `main`.
-- Feature and task branches follow the pattern: `<prefix>/<short-description>-<id>` (e.g., `claude/add-claude-documentation-DMirb`).
-- Commit messages should be short, imperative, and descriptive (e.g., `Add login page`, `Fix null pointer in auth handler`).
-- Never push directly to `main` without explicit permission.
-- Always use `git push -u origin <branch-name>` when pushing a new branch.
+- Основная ветка — `main`.
+- Ветки для задач и функций именуются по шаблону: `<префикс>/<краткое-описание>-<id>` (например, `claude/add-claude-documentation-DMirb`).
+- Сообщения коммитов должны быть краткими, в повелительном наклонении и информативными (например, `Добавить страницу входа`, `Исправить NPE в обработчике авторизации`).
+- Без явного разрешения не пушить напрямую в `main`.
+- При первом пуше новой ветки всегда использовать `git push -u origin <имя-ветки>`.
 
-## Development Conventions
+## Соглашения по разработке
 
-Since no language or framework has been chosen yet, apply these general rules and update this file once a stack is selected:
+Поскольку язык и фреймворк ещё не выбраны, придерживаться следующих общих правил и обновить этот файл после выбора стека:
 
-- Keep commits small and focused on a single concern.
-- Do not commit secrets, credentials, or `.env` files.
-- Add a `.gitignore` appropriate for the chosen language/framework before adding source files.
-- Write tests alongside new features, not as an afterthought.
+- Коммиты должны быть небольшими и касаться одной конкретной задачи.
+- Не коммитить секреты, учётные данные или `.env`-файлы.
+- Добавить `.gitignore`, подходящий для выбранного языка/фреймворка, до добавления исходных файлов.
+- Писать тесты вместе с новым функционалом, а не откладывать на потом.
 
-## Adding a Stack
+## Добавление стека
 
-When a language or framework is introduced, update this file to include:
+При выборе языка или фреймворка обновить этот файл, добавив:
 
-1. **Language & runtime version** (e.g., `Node.js 20`, `Python 3.12`)
-2. **Package manager** (e.g., `npm`, `pip`, `cargo`)
-3. **How to install dependencies** (e.g., `npm install`)
-4. **How to run the project** (e.g., `npm start`)
-5. **How to run tests** (e.g., `npm test`)
-6. **Linting / formatting tools and commands**
-7. **Build steps** if applicable
+1. **Язык и версия среды выполнения** (например, `Node.js 20`, `Python 3.12`)
+2. **Менеджер пакетов** (например, `npm`, `pip`, `cargo`)
+3. **Как установить зависимости** (например, `npm install`)
+4. **Как запустить проект** (например, `npm start`)
+5. **Как запустить тесты** (например, `npm test`)
+6. **Инструменты линтинга и форматирования и команды для их запуска**
+7. **Шаги сборки** при необходимости
 
-## AI Assistant Notes
+## Заметки для ИИ-ассистента
 
-- This is an early-stage project. Prefer simple solutions over complex abstractions.
-- Do not add frameworks, dependencies, or boilerplate unless explicitly asked.
-- When introducing new files, update this CLAUDE.md to reflect the new structure.
-- Follow the git workflow described above: develop on the designated branch, commit with clear messages, then push.
+- Это проект на ранней стадии. Предпочитать простые решения сложным абстракциям.
+- Не добавлять фреймворки, зависимости или шаблонный код без явного запроса.
+- При добавлении новых файлов обновлять этот CLAUDE.md, отражая новую структуру.
+- Следовать описанному выше git-процессу: разрабатывать на назначенной ветке, коммитить с понятными сообщениями, затем пушить.
