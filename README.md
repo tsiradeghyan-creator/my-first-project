@@ -1,3 +1,20 @@
-# My First Project
+# Мой первый проект
 
-This is my first project repository.
+Это репозиторий моего первого проекта.
+
+## Настроенные рабочие процессы (Workflows)
+
+### 1. Автоматический код-ревью от Claude (`claude-code-review.yml`)
+
+Автоматически запускается при открытии, обновлении или переоткрытии pull request.
+Claude Opus 4.6 анализирует diff и публикует ревью в виде комментария к PR.
+
+**Необходимый секрет:** `ANTHROPIC_API_KEY` — добавьте в настройках репозитория (Settings → Secrets → Actions).
+`GITHUB_TOKEN` предоставляется GitHub Actions автоматически.
+
+### 2. Интерактивный помощник Claude (`claude-code.yml`)
+
+Реагирует на упоминания `@claude` в issues, комментариях к PR и ревью.
+Использует официальный экшен `anthropics/claude-code-action@v1`.
+
+**Необходимый секрет:** `CLAUDE_CODE_OAUTH_TOKEN` — добавьте в настройках репозитория.

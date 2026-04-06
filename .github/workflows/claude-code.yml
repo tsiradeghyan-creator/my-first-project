@@ -23,27 +23,27 @@ jobs:
       pull-requests: read
       issues: read
       id-token: write
-      actions: read # Required for Claude to read CI results on PRs
+      actions: read # Необходимо для чтения результатов CI на PR
     steps:
-      - name: Checkout repository
+      - name: Клонирование репозитория
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
-      - name: Run Claude Code
+      - name: Запуск Claude Code
         id: claude
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
 
-          # This is an optional setting that allows Claude to read CI results on PRs
+          # Необязательная настройка, позволяющая Claude читать результаты CI на PR
           additional_permissions: |
             actions: read
 
-          # Optional: Give a custom prompt to Claude. If this is not specified, Claude will perform the instructions specified in the comment that tagged it.
-          # prompt: 'Update the pull request description to include a summary of changes.'
+          # Необязательно: задать пользовательский промпт для Claude. Если не указан, Claude выполнит инструкции из комментария, в котором его упомянули.
+          # prompt: 'Обновить описание pull request, добавив краткое содержание изменений.'
 
-          # Optional: Add claude_args to customize behavior and configuration
-          # See https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md
-          # or https://code.claude.com/docs/en/cli-reference for available options
+          # Необязательно: добавить claude_args для настройки поведения и конфигурации
+          # См. https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md
+          # или https://code.claude.com/docs/en/cli-reference для доступных опций
           # claude_args: '--allowed-tools Bash(gh pr:*)'

@@ -12,20 +12,20 @@ jobs:
       pull-requests: write
 
     steps:
-      - name: Checkout code
+      - name: Клонирование репозитория
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set up Python
+      - name: Установка Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Установка зависимостей
         run: pip install anthropic
 
-      - name: Run Claude code review
+      - name: Запуск код-ревью Claude
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -41,7 +41,7 @@ jobs:
           import urllib.request
           import json
 
-          # Get the diff
+          # Получение diff
           result = subprocess.run(
               ["git", "diff", os.environ["BASE_SHA"], os.environ["HEAD_SHA"]],
               capture_output=True, text=True
@@ -49,12 +49,12 @@ jobs:
           diff = result.stdout
 
           if not diff.strip():
-              print("No diff found, skipping review.")
+              print("Diff не найден, пропускаем ревью.")
               exit(0)
 
-          # Truncate if too large (keep under ~150K chars)
+          # Обрезка, если слишком большой (не более ~150K символов)
           if len(diff) > 150_000:
-              diff = diff[:150_000] + "\n\n[diff truncated due to size]"
+              diff = diff[:150_000] + "\n\n[diff обрезан из-за размера]"
 
           client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
@@ -78,12 +78,12 @@ jobs:
 
           review_text = next(
               (block.text for block in response.content if block.type == "text"),
-              "No review generated."
+              "Ревью не сгенерировано."
           )
 
           comment_body = f"## Claude Code Review\n\n{review_text}"
 
-          # Post comment to PR via GitHub API
+          # Публикация комментария к PR через GitHub API
           repo = os.environ["REPO"]
           pr_number = os.environ["PR_NUMBER"]
           token = os.environ["GITHUB_TOKEN"]
@@ -102,5 +102,5 @@ jobs:
               method="POST"
           )
           with urllib.request.urlopen(req) as resp:
-              print(f"Comment posted: HTTP {resp.status}")
+              print(f"Комментарий опубликован: HTTP {resp.status}")
           EOF
