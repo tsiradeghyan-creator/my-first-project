@@ -7,6 +7,7 @@ Skill-ի «source of truth»՝ account-ի մասին։ Բոլոր մյուս mod
 | | |
 |---|---|
 | **Username** | @maghakianscripts |
+| **Founder / Lead Writer** | **Ani Maghakian / Անի Մաղաքյան** (user-confirmed via «Երկուսով» carousel credits) |
 | **Niche** | Հայկական սցենարային գործակալություն (Armenian scriptwriting agency) |
 | **Founded** | ~2017 (9 տարի operating) |
 | **Track record** | 47 նախագիծ • 2,264+ սերիա/մաս • ~80,000 էջ սցենար |
@@ -110,15 +111,18 @@ Skill-ի «source of truth»՝ account-ի մասին։ Բոլոր մյուս mod
 ## 🎨 Voice & Tone
 
 ### Voice Modes (Hybrid)
+«Personal Maghakian» = **Ani Maghakian's** first-person voice (founder + lead writer)։
+
 | Post type | Voice mode | Pronoun |
 |-----------|-----------|---------|
 | Project announcement | Agency | «մենք» |
 | Track record / milestone | Agency | «մենք», «մեր» |
-| Behind-the-scenes | Personal Maghakian | «ես» |
-| Scriptwriting tips / education | Personal Maghakian (mentor) | «ես», «դու» |
-| Industry commentary | Personal Maghakian | «ես» |
-| Nostalgia / emotional hook | Personal Maghakian | «ես», «մենք բոլորս» |
+| Behind-the-scenes | Personal Ani | «ես» |
+| Scriptwriting tips / education | Personal Ani (mentor) | «ես», «դու» |
+| Industry commentary | Personal Ani | «ես» |
+| Nostalgia / emotional hook | Personal Ani | «ես», «մենք բոլորս» |
 | Recruitment / partnership | Agency | «մենք» |
+| Founder credit on project posts | Both («գրել եմ ես / գործակալությունից») | hybrid |
 
 ### Tone Attributes
 - **Confident** (9 տարի, 80K էջ – proof speaks)

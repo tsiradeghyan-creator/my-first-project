@@ -124,24 +124,24 @@ Legend: 🟢 complete / 🟡 partial / 🔴 not researched
 
 ### 05. Երկուսով (Yerkusov / Erkusov)
 
-- **Status**: aired (50+ episodes broadcast)
-- **Years**: premiere October 21 (year TBD via user)
-- **Channel**: Shant TV / Shant Premium
+- **Status**: aired and concluded
+- **Years**: **2019—2021** (user-confirmed via carousel 2026-05-15)
+- **Channel**: **Shant TV** (main channel)
 - **Streaming**: Shant Digital TV app, ArmKino, YouTube
 - **Production**: Shant Production
-- **Director**: Mher Khachaturyan (Մհեր Խաչատուրյան)
-- **Episode count**: 147+ confirmed in search results (episodes 147, 148 referenced)
-- **Genre**: Drama (love-triangle premise visible from poster)
+- **Writer (Սցենարիստ)**: **Ani Maghakian** ⭐ (user-confirmed — agency owner)
+- **Director (Ռեժիսոր)**: **Mher Khachatryan / Մհեր Խաչատրյան** (spelling confirmed)
+- **Episode count**: **198 մաս** (user-confirmed; previous web data was incomplete)
+- **Genre**: **Drama** (user-confirmed)
 - **Plot premise**: **Forced marriage drama** (user-confirmed 2026-05-15)։ Bride caught in arranged/forced marriage scenario, two-man tension, suitcase represents her stakes (baggage / departure / what she carries into forced union)։
-- **Main characters** (actor names found, character names unknown):
-  - Inna Khojamiryan / Իննա Խոջամիրյան
-  - Vahe Ziroyan / Վահե Զիրոյան
-  - Marinka Khachatryan / Մարինկա Խաչատրյան
-  - David Akobyan / Դավիթ Հակոբյան
-  - Varuzhan Margaryan / Վարուժան Մարգարյան
-  - Mary Yeremyan / Մերի Երեմյան
-  - Nelly Heranyan / Նելլի Հերանյան
-  - Gagik Madoyan / Գագիկ Մադոյան
+- **Main characters → actors** (user-confirmed via carousel):
+  - **Մանե** — Inna Khojamiryan / Իննա Խոջամիրյան (lead, the bride)
+  - **Մարկ** — Vahe Ziroyan / Վահե Զիրոյան
+  - **Լիլի** — Mary Yeremyan / Մերի Երեմյան
+  - **Սամվել** — Varuzhan Margaryan / Վարուժան Մարգարյան
+  - **Ալեն** — Hayk Hovhannisyan / Հայկ Հովհաննիսյան
+  - **Մագա** — Marinka Khachatryan / Մարինկա Խաչատրյան
+- **Other cast (from web research, smaller roles)**: David Akobyan, Nelly Heranyan, Gagik Madoyan
 - **Cast IG handles**: ⚠️ Unknown — needs verification
 - **Iconic moments / lines**: **NONE confirmed (user 2026-05-15)** ❌ — must use hypothetical framing only («Եթե character X-ը...», «Պատկերացրու scene...»)։ Do NOT claim specific lines are iconic.
 - **Deleted scenes / BTS**: **NONE real available (user 2026-05-15)** ❌ — DM lead magnet must be hypothetical «alt-cut» scene framed as «What we'd write today» or «Writers' room alternative», NOT «scene that didn't air»։
