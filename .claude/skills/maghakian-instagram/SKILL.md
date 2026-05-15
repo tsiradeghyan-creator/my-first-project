@@ -110,6 +110,10 @@ Skill-ը ունի մոդուլային arsenal։ Կախված task-ից՝ բաց
 | Account-ի detail-ներ | `ACCOUNT_CONTEXT.md` – analytics, voice, manifesto |
 | Poster / image / visual սարքել | `IMAGE_PROMPTS.md` – AI image prompt generator (brand-locked aesthetic, Armenian typography, 7 poster templates, 4 AI tools) |
 | **Project research** (ՊԱՐՏԱԴԻՐ նախքան copy) | **`RESEARCH_PROTOCOL.md`** – web search + ask user + verify before write |
+| Project facts cache | `PROJECT_LIBRARY.md` – 47-project research cache, structured |
+| Bio + Highlights optimization (conversion #1) | `BIO_HIGHLIGHTS.md` – profile playbook |
+| DM trigger funnel templates | `DM_RESPONSES.md` – 8 keywords, response flows, SLAs |
+| Pre-publish quality gate | `QUALITY_GATE.md` – 30-check audit, 4-gate system |
 
 ---
 
