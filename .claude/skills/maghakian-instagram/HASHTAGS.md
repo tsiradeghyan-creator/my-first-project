@@ -1,5 +1,9 @@
 # HASHTAGS.md – 3 Curated Hashtag Sets × 30 hashtags each
 
+> ⚠️ **2026 update (per KEYWORD_SEO.md)**: Hashtags-ի discovery-power-ը զգալի **drop է եղել**։ Keywords-ը caption-ում և profile-ում հիմա ավելի կարևոր են։ Hashtags-ը դեռ helpful, բայց որպես **secondary signal**, ոչ primary։ Հիմա prioritize-արա caption-ի առաջին 125 նիշերում keyword-ները, **հետո** hashtags-ները։
+> 
+> Տես **KEYWORD_SEO.md** primary discovery strategy-ի համար։
+
 Instagram-ը թույլ է տալիս մինչև 30 hashtag։ Mix-ը՝ 5 large + 15 medium + 10 niche = optimal։
 
 ## 🚫 Banned / Shadow-Banned (NEVER use)

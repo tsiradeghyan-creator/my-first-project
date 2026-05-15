@@ -2,13 +2,16 @@
 
 «Measure twice, post once»։ Բայց ոչ daily – noise-ն ուռչում է։ Weekly cadence, monthly review։
 
-## What to Track (priority order)
+## What to Track (priority order) — 2026 UPDATED
+
+> ⚠️ **Major 2026 shift (per ALGORITHM_2026.md)**: **DM sends (shares-to-friend) are now the #1 ranking signal for Reels**, not Saves։ Update CTA priority accordingly։
 
 ### Tier 1: Primary signals (track ամեն հրապարակվող post)
-1. **Saves** — strongest algorithm signal
-2. **Shares (sends)** — viral potential
-3. **Profile visits** — conversion intent
-4. **Follows from post** — content quality indicator
+1. **Sends (DMs / shares-to-friend)** — 🥇 NEW #1 algorithm signal for distribution
+2. **Saves** — strong algorithm signal (was #1, now #2)
+3. **Shares** (public reposts) — viral potential
+4. **Profile visits** — conversion intent
+5. **Follows from post** — content quality indicator
 
 ### Tier 2: Secondary signals
 5. **Reach** — սա outcome է, ոչ input
@@ -19,6 +22,26 @@
 - Follower count alone (vanity)
 - Likes / view ratio (low fidelity)
 - Story views (high variance)
+
+---
+
+## 📊 Carousel-Specific Metrics (NEW 2026)
+
+> Per ALGORITHM_2026.md: Instagram tracks carousels slide-by-slide։ Critical metrics.
+
+| Metric | Stop signal | Healthy | Excellent |
+|--------|-------------|---------|-----------|
+| Swipe-through to slide 2 | <50% | 65%+ | 80%+ |
+| **Completion rate** (reach last slide) | <60% (algo stops re-serving) | 70%+ | 80%+ |
+| Active dwell time per slide | <2 sec | 3-5 sec | 6+ sec |
+| Save rate (carousel-specific) | <0.8% | 1.5%+ | 3%+ |
+| Send rate (carousel-specific) | <0.5% | 1%+ | 2%+ |
+
+**Strategic implications**:
+- Sweet spot = **5-8 slides** (or 8-10 max for deep content)
+- **Slide 3 = «retention checkpoint»** — viewers who reach slide 3 have 80% likelihood to complete
+- Place **strongest insight on slide 3**, not slide 1
+- Last slide = CTA stack (Comment + Save + Send)
 
 ---
 

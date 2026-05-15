@@ -114,6 +114,10 @@ Skill-ը ունի մոդուլային arsenal։ Կախված task-ից՝ բաց
 | Bio + Highlights optimization (conversion #1) | `BIO_HIGHLIGHTS.md` – profile playbook |
 | DM trigger funnel templates | `DM_RESPONSES.md` – 8 keywords, response flows, SLAs |
 | Pre-publish quality gate | `QUALITY_GATE.md` – 30-check audit, 4-gate system |
+| **2026 algorithm signals** | **`ALGORITHM_2026.md`** – DM sends = #1, keywords > hashtags, originality score, 3-sec hook |
+| **Keyword SEO** (paradigm shift) | **`KEYWORD_SEO.md`** – profile/caption SEO optimization, replaces hashtag-first thinking |
+| Trial Reels playbook (at 1K+ followers) | `TRIAL_REELS.md` – test reels with non-followers first |
+| Broadcast Channel (inner circle, 5K+) | `BROADCAST_CHANNEL.md` – Maghakian Writers' Room channel strategy |
 
 ---
 
