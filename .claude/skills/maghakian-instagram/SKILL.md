@@ -109,10 +109,75 @@ Skill-ը ունի մոդուլային arsenal։ Կախված task-ից՝ բաց
 | Analytics գնահատել | `METRICS.md` – tracking + A/B test rules |
 | Account-ի detail-ներ | `ACCOUNT_CONTEXT.md` – analytics, voice, manifesto |
 | Poster / image / visual սարքել | `IMAGE_PROMPTS.md` – AI image prompt generator (brand-locked aesthetic, Armenian typography, 7 poster templates, 4 AI tools) |
+| **Project research** (ՊԱՐՏԱԴԻՐ նախքան copy) | **`RESEARCH_PROTOCOL.md`** – web search + ask user + verify before write |
 
 ---
 
 ## 🔄 Workflow – Ինչպես աշխատել
+
+### Քայլ 0 — Research Protocol (ՊԱՐՏԱԴԻՐ – ՈՉ ՄԻ ԲԱՑԱՌՈՒԹՅՈՒՆ) 🔒🔒🔒
+
+**Mandate by user (locked-in policy)**:
+> **«Բոլոր project-ների համար գնալ ինտերնետում research անել։ Եթե բավարար info չկա, հարցնել user-ին։ Միայն դրանից հետո անել task-ը»։**
+
+Այս կանոնը կիրառվում է **բացառապես ամեն** post-ի համար, որը հղում է անում որևէ project-ի (47-list-ից կամ նոր upcoming)։
+
+**Կանոն #0**: Երբեք մի՛ հորինիր կոնկրետ բաներ իրական project-ի մասին (plot detail, character name, line, deleted scene, behind-the-scenes story, cast member, episode number, premiere date)։ Հանդիսատեսը հիշում է – fabrication-ը trust է սպանում մեկ post-ից։
+
+**Process** (հետևիր կարգով, մի՛ բաց թողնի).
+
+1. **Identify project status**:
+   - Արդեն եթեր ե՞լ է (completed/aired): yes / no / unknown
+   - Եթե **yes** → գնա քայլ 2
+   - Եթե **no** (upcoming) → գնա ուղիղ քայլ 4
+   - Եթե **unknown** → հարցրու user-ին
+
+2. **Web research** (եթե aired)։ Օգտագործիր WebSearch.
+   - Հարցումներ` հայերեն ԵՎ ռուսերեն ԵՎ անգլերեն («[project] սերիալ», «"[project name]" Shant», «"[project]" Armenian series cast plot»)
+   - Փնտրիր: cast names, premiere year, channel, episode count, plot summary, iconic moments, reception, official Instagram presence
+   - Աղբյուրներ priority. Shant.am, Wikipedia, Armenian press (1in.am, ArmenPress, Yerevan.today), IMDB, fan blogs, YouTube clip titles
+
+3. **Sufficiency check**.
+   Ի՞նչ research-ից բավարար տվյալ ստացա.
+   - ☐ Plot premise (1 sentence)
+   - ☐ Main characters' names (առնվազն 2-3)
+   - ☐ Cast (lead actors)
+   - ☐ Premiere year / season info
+   - ☐ Channel / production company
+   - ☐ Mood / genre confirmed
+   - ☐ Մի iconic moment / scene reference
+
+   Եթե **≥5 / 7 ☐ լրացված են** → proceed to քայլ 5։
+   Եթե **<5** → գնա քայլ 4։
+
+4. **Ask user (քայլ 4)**։ AskUserQuestion-ով հարցրու **միայն այն, ինչ չես գտել**։ Մի՛ հարցրու ամեն ինչ – միայն gap-ները։ Maximum 4 հարց։
+
+   Standard gap questions (ընտրիր relevant-ները)՝
+   - «Ո՞ր լավագույն/iconic scene-ից կուզե՞ս, որ սկսեմ»
+   - «Ի՞նչ iconic line / phrase, որ հանդիսատեսը հիշում է»
+   - «Ո՞ր character-ին կուզե՞ս center stage»
+   - «Կա՞ deleted/cut scene, որ կարող ենք reference անել»
+   - «Cast-ի handles ո՞ր actor-ներին ենք tag-ելու»
+   - «Ի՞նչ ընդհանուր մասսային հիշում Instagram audience-ը այս project-ից»
+
+5. **Verify provenance before each fabrication-able claim**.
+   Մինչ ցանկացած կոնկրետ բան գրելու copy-ում, ստուգիր.
+   - Այս բանը գա՞ց է research-ից կամ user-ից, թե՞ հորինված է
+   - Եթե հորինված է → կամ մաքրիր, կամ նշիր որպես «hypothetical scene» / «if we wrote it today»
+   - **Acceptable**: «Եթե [character] ճշմարտությունը գիտեր...» (hypothetical confession marker)
+   - **NOT acceptable**: «Writers' room-ում 6 ժամ վիճեցինք X line-ի շուրջ» (specific false claim)
+
+6. **Document research in output**.
+   Output-ի վերջում նշիր.
+   ```
+   📚 Research sources: [list]
+   ❓ User-provided info: [list]
+   ⚠️ Assumptions made: [list — anything not verified]
+   ```
+
+Մանրամասներ` `RESEARCH_PROTOCOL.md`։
+
+---
 
 ### Քայլ 1 — Հասկանալ task-ը
 Եթե անհրաժեշտ է, հարցրու.
@@ -226,6 +291,7 @@ Stories ամեն օր (3-7 հատ)։ Live՝ 1-2 ամսական (AMA from writers
 - Emoji-overload caption (max 5-7)
 - Long preamble մինչ scene/hook
 - Engagement-bait առանց value («Like if you agree»)
+- **Հորինել կոնկրետ detail իրական project-ի մասին** (line, scene, character, BTS story) – TRUST KILLER, ՈՉ ՄԻ ՊԱՐԱԳԱՅՈՒՄ
 
 ---
 
