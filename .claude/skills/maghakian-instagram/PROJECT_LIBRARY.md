@@ -41,7 +41,7 @@ Skill-ի **research cache**։ Մեկ անգամ research-ից հետո, project-
 | 02 | Ելենի օրագիրը | 🔴 not researched |
 | 03 | Ելենի օրագիրը 2 | 🔴 not researched |
 | 04 | Թղթե երազանք | 🔴 not researched |
-| 05 | **Երկուսով** | 🟡 partial (cast + channel) |
+| 05 | **Երկուսով** | 🟢 sufficient (research + user-confirmed) |
 | 06 | Երկուստով | 🔴 not researched |
 | 07 | Խաղալիք | 🔴 not researched |
 | 08 | Կհանդիպենք աստղի տակից | 🔴 not researched |
@@ -75,7 +75,7 @@ Legend: 🟢 complete / 🟡 partial / 🔴 not researched
 - **Director**: Mher Khachaturyan (Մհեր Խաչատուրյան)
 - **Episode count**: 147+ confirmed in search results (episodes 147, 148 referenced)
 - **Genre**: Drama (love-triangle premise visible from poster)
-- **Plot premise**: ⚠️ Not confirmed from web — poster suggests bride caught between two men + suitcase = baggage/secrets/departure motif. **Needs user confirmation.**
+- **Plot premise**: **Forced marriage drama** (user-confirmed 2026-05-15)։ Bride caught in arranged/forced marriage scenario, two-man tension, suitcase represents her stakes (baggage / departure / what she carries into forced union)։
 - **Main characters** (actor names found, character names unknown):
   - Inna Khojamiryan / Իննա Խոջամիրյան
   - Vahe Ziroyan / Վահե Զիրոյան
@@ -86,8 +86,9 @@ Legend: 🟢 complete / 🟡 partial / 🔴 not researched
   - Nelly Heranyan / Նելլի Հերանյան
   - Gagik Madoyan / Գագիկ Մադոյան
 - **Cast IG handles**: ⚠️ Unknown — needs verification
-- **Iconic moments / lines**: ⚠️ Unknown — needs user
-- **Deleted scenes / BTS**: ⚠️ Unknown — needs user
+- **Iconic moments / lines**: **NONE confirmed (user 2026-05-15)** ❌ — must use hypothetical framing only («Եթե character X-ը...», «Պատկերացրու scene...»)։ Do NOT claim specific lines are iconic.
+- **Deleted scenes / BTS**: **NONE real available (user 2026-05-15)** ❌ — DM lead magnet must be hypothetical «alt-cut» scene framed as «What we'd write today» or «Writers' room alternative», NOT «scene that didn't air»։
+- **Cast tagging policy**: Tag **only 3 lead actors** (user-confirmed 2026-05-15): Inna Khojamiryan, Vahe Ziroyan, Marinka Khachatryan։ Handles need user verification before publish.
 - **Last researched**: 2026-05-15
 - **Sources**:
   - https://www.facebook.com/ShantDigitalTV/videos/677822796043399/
@@ -96,15 +97,16 @@ Legend: 🟢 complete / 🟡 partial / 🔴 not researched
   - https://hayertv.com/en/armenian-series/
   - https://www.youtube.com/watch?v=c95cHmGGdk4 (Episode 17)
   - https://www.youtube.com/watch?v=2goApSjMi_k (Episode 60)
-- **User-confirmed**: [pending]
-- **⚠️ Gaps**:
-  - Plot premise (specific)
-  - Main characters' names in show (not actors)
-  - Iconic line / scene reference
-  - Deleted scene availability for DM lead magnet
-  - Premiere year
-  - Cast IG handles
-  - Production team (writers, executive producers from Maghakian side)
+- **User-confirmed (2026-05-15)**:
+  - Plot = forced marriage drama
+  - No iconic line — hypothetical framing only
+  - No real deleted scene — hypothetical alt-cut for DM magnet
+  - Tag lead 3 actors only
+- **⚠️ Gaps (still open)**:
+  - Main characters' names in show (vs actor names) — pending
+  - Premiere year — pending
+  - Cast IG handles — pending user verification before publish
+  - Production team Maghakian-side credits — pending
 
 ---
 
