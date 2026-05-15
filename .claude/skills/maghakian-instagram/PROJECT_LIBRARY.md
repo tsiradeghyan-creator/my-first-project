@@ -42,28 +42,85 @@ Skill-ի **research cache**։ Մեկ անգամ research-ից հետո, project-
 | 03 | Ելենի օրագիրը 2 | 🔴 not researched |
 | 04 | Թղթե երազանք | 🔴 not researched |
 | 05 | **Երկուսով** | 🟢 sufficient (research + user-confirmed) |
-| 06 | Երկուստով | 🔴 not researched |
-| 07 | Խաղալիք | 🔴 not researched |
-| 08 | Կհանդիպենք աստղի տակից | 🔴 not researched |
-| 09 | Բեկորներ | 🔴 not researched |
-| 10 | Բռնիր ձեռքս | 🔴 not researched |
-| 11 | Երկու քույր ենք | 🔴 not researched |
-| 12 | Հատուկ դասարան | 🔴 not researched |
-| 13 | Հատուկ դասարան 2 | 🔴 not researched |
-| 14 | Ապրիր ինձ հետ | 🔴 not researched |
-| 15 | Մենա ինձ հետ | 🔴 not researched |
-| 16 | 4 երազանք | 🔴 not researched |
-| 17 | Կհանդիպենք աստղի տակից 2 | 🔴 not researched |
-| 18 | Hotel Grand | 🔴 not researched |
-| 19 | Hotel Grand 2 | 🔴 not researched |
-| 20 | Hotel Grand 3 | 🔴 not researched |
-| 21-47 | (rest) | 🔴 not researched |
+| 06 | Խաղալիք | 🔴 not researched |
+| 07 | Կհանդիպենք աստղի տակից | 🔴 not researched |
+| 08 | **Բեկորներ** | 🟢 sufficient (plot + cast + dates + user-confirmed) |
+| 09 | Բռնիր ձեռքս | 🔴 not researched |
+| 10 | Երկու քույր ենք | 🔴 not researched |
+| 11 | Հատուկ դասարան | 🔴 not researched |
+| 12 | Հատուկ դասարան 2 | 🔴 not researched |
+| 13 | Ապրիր ինձ հետ | 🔴 not researched |
+| 14 | Մենա ինձ հետ | 🔴 not researched |
+| 15 | 4 երազանք | 🔴 not researched |
+| 16 | Կհանդիպենք աստղի տակից 2 | 🔴 not researched |
+| 17 | Hotel Grand | 🔴 not researched |
+| 18 | Hotel Grand 2 | 🔴 not researched |
+| 19 | Hotel Grand 3 | 🔴 not researched |
+| 20-47 | (rest) | 🔴 not researched |
 
 Legend: 🟢 complete / 🟡 partial / 🔴 not researched
 
 ---
 
 ## Project Cache Entries
+
+### 08. Բեկորներ (Bekorner / "Fragments / Shards")
+
+- **Status**: aired and concluded
+- **Premiere**: June 19, 2021 (Wikipedia-confirmed)
+- **Finale**: February 8, 2022 (Wikipedia-confirmed)
+- **Channel**: Shant TV / Shant Premium
+- **Streaming**: masistv.com, hayertv.com, erevanjan.com, Shant Digital TV
+- **Production**: Shant Production
+- **Episode count**: 100+ confirmed (episode 100, 91, 86, 16 referenced)
+- **Title translation**: «Բեկորներ» = «Fragments» / «Shards»
+- **Genre**: **Dramatic series** (Wikipedia-confirmed) — user-classified as **"broken relationships" drama** (2026-05-15)
+- **Plot premise** (Wikipedia-confirmed, post-research):
+  - Setting: **post-war Armenia** (post-2020 war era)
+  - 3 women and their school-age children
+  - Each character undergoes a transformative period
+  - Series breaks down deeply rooted societal stereotypes
+  - The 3 heroines learn to stand independently and overcome difficulties
+  - Core theme: women rebuilding lives from fragments
+- **Main characters in show**: ⚠️ 3 lead women — specific names still unknown (search did not return character names, only actor names)
+- **Cast (actor names confirmed)**:
+  - Anna Elbakyan / Աննա Էլբակյան
+  - Nelli Khberyan / Նելլի Խբերյան
+  - Ani Petrosyan / Անի Պետրոսյան
+  - **Inna Khodjamiryan / Իննա Խոջամիրյան** ⭐ (recurring from «Երկուսով»)
+  - Irina Aivazyan / Իրինա Այվազյան
+  - Murad Nadiryan / Մուրադ Նադիրյան
+  - Mika Ghaplaryan / Միկա Ղափլարյան
+  - **Varuzhan Margaryan / Վարուժան Մարգարյան** ⭐ (recurring from «Երկուսով»)
+  - Lilith Sargsyan / Լիլիթ Սարգսյան
+  - Suren Tumasyan / Սուրեն Թումասյան
+- **Cast IG handles**: ⚠️ Unknown — needs verification
+- **Iconic moments / lines**: ⚠️ Unknown — needs user
+- **Deleted scenes / BTS**: ⚠️ Unknown — needs user
+- **Cross-project connections (LEGITIMATE)** ✨:
+  - **Inna Khodjamiryan** appears in BOTH «Բեկորներ» AND «Երկուսով» — Tactic 11 fuel
+  - **Varuzhan Margaryan** appears in BOTH «Բեկորներ» AND «Երկուսով» — Tactic 11 fuel
+- **Last researched**: 2026-05-15
+- **Sources**:
+  - https://mediamax.am/am/news/society/4118/
+  - https://hayertv.com/en/armenian-series/bekorner
+  - https://masistv.com/watch/bekorner/
+  - https://erevanjan.com/category/tv-series/en-armenian-tv-series/en-bekorner/
+- **User-confirmed (2026-05-15)**:
+  - Plot type = «broken relationships» drama (aligns with Wikipedia 3-women rebuilding theme)
+  - Iconic line/scene EXISTS in audience memory (but specific quote not shared with skill — must use generic «scene-ը հիշում եք» framing)
+  - Cross-project play with «Երկուսով» recurring actors = **NO** (user wants standalone post)
+- **Strategic notes**:
+  - This is **post-war drama** — heaviest emotional territory @maghakianscripts can touch
+  - Top performer pattern «Քանի՞ տարեկան» applies perfectly here (identity + nostalgia + collective trauma)
+  - Voice = strictly Personal Maghakian (this content cannot be agency-speak)
+- **⚠️ Gaps still open**:
+  - Specific iconic line / scene reference (user said exists, didn't share)
+  - 3 main characters' names in show
+  - Cast IG handles
+  - Director / writer credits
+
+---
 
 ### 05. Երկուսով (Yerkusov / Erkusov)
 
