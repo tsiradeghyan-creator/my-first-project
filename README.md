@@ -110,3 +110,31 @@ generation, text pipelines, and other community-built glifs).
 | `IGNORE_DISCOVERY_TOOLS` | Set to `true` to disable discovery capabilities |
 | `AGENT_TOOLS` | Set to `true` to enable agent functionality |
 
+## Chrome DevTools MCP Server
+
+This repository is also configured to use the official
+[Chrome DevTools MCP server](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+via `.mcp.json`. It gives Claude Code access to the full power of Chrome
+DevTools — performance traces, network inspection, console/JS debugging,
+screenshots, and DOM inspection in a real Chrome browser.
+
+### Setup
+
+No API key is required. The server is launched automatically via `npx`:
+
+```
+npx -y chrome-devtools-mcp@latest
+```
+
+Requirements: Node.js and a Chrome installation. On first use, Claude Code will
+prompt you to approve the `chrome-devtools` server.
+
+### Optional flags / environment variables
+
+| Option | Description |
+| --- | --- |
+| `--slim --headless` (args) | Lightweight, headless mode for basic tasks |
+| `--browser-url=http://127.0.0.1:9222` (arg) | Connect to an existing Chrome instance |
+| `CHROME_DEVTOOLS_MCP_NO_USAGE_STATISTICS` | Disable telemetry |
+| `CHROME_DEVTOOLS_MCP_NO_UPDATE_CHECKS` | Disable version checks |
+

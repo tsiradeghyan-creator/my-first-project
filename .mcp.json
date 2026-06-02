@@ -24,6 +24,10 @@
       "env": {
         "GLIF_API_TOKEN": "${GLIF_API_TOKEN}"
       }
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp@latest"]
     }
   }
 }
