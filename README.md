@@ -31,3 +31,22 @@ via the project-scoped `.mcp.json` file. It exposes the `perplexity_search`,
 | `PERPLEXITY_BASE_URL` | Custom API endpoint |
 | `PERPLEXITY_LOG_LEVEL` | Logging verbosity |
 | `PERPLEXITY_PROXY` | Proxy configuration for corporate networks |
+
+## Playwright MCP Server
+
+This repository is also configured to use the
+[Playwright MCP server](https://github.com/microsoft/playwright-mcp) via
+`.mcp.json`. It lets Claude Code drive a real browser — navigate pages, click,
+fill forms, take screenshots, and inspect the accessibility tree.
+
+### Setup
+
+No API key is required. The server is launched automatically via `npx`:
+
+```
+npx @playwright/mcp@latest
+```
+
+Requirements: Node.js 18 or newer. On first use, Claude Code will prompt you to
+approve the `playwright` server.
+
