@@ -2,6 +2,30 @@
 
 This is my first project repository.
 
+## MCP Servers — at a glance
+
+This repository configures five [MCP](https://modelcontextprotocol.io) servers
+in `.mcp.json`. **Servers that require a key will not start at all until the key
+is set** — export it before launching Claude Code.
+
+| Server | Purpose | Required secret | Works out of the box? |
+| --- | --- | --- | --- |
+| `playwright` | Universal browser automation | — | ✅ Yes (needs a browser) |
+| `chrome-devtools` | Chrome debugging / performance | — | ✅ Yes (needs Chrome) |
+| `perplexity` | Web search & research | `PERPLEXITY_API_KEY` | ⚠️ Only with key |
+| `firecrawl-mcp` | Web scraping / crawling | `FIRECRAWL_API_KEY` | ⚠️ Only with key |
+| `glif` | glif.app AI workflows | `GLIF_API_TOKEN` | ⚠️ Only with key |
+
+Quick setup for all keyed servers:
+
+```bash
+export PERPLEXITY_API_KEY="your_key_here"
+export FIRECRAWL_API_KEY="fc-your_key_here"
+export GLIF_API_TOKEN="your-token-here"
+```
+
+Verify connection status anytime with the `/mcp` command inside Claude Code.
+
 ## Perplexity MCP Server
 
 This repository is configured to use the [Perplexity MCP server](https://github.com/perplexityai/modelcontextprotocol)
