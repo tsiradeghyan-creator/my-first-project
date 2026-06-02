@@ -81,3 +81,32 @@ websites.
 | `FIRECRAWL_RETRY_MAX_DELAY` | Maximum retry delay in ms (default: 10000) |
 | `FIRECRAWL_CREDIT_WARNING_THRESHOLD` | Credit alert threshold (default: 1000) |
 
+## Glif MCP Server
+
+This repository is also configured to use the
+[Glif MCP server](https://github.com/glifxyz/glif-mcp-server) via `.mcp.json`.
+It lets Claude Code run [glif.app](https://glif.app) AI workflows (image
+generation, text pipelines, and other community-built glifs).
+
+### Setup
+
+1. Get an API token from [glif.app/settings/api-tokens](https://glif.app/settings/api-tokens).
+2. Export it in your shell before launching Claude Code:
+
+   ```bash
+   export GLIF_API_TOKEN="your-token-here"
+   ```
+
+3. Start Claude Code in this directory and approve the `glif` server.
+
+> The token is **not** stored in the repository — `.mcp.json` only references
+> the `GLIF_API_TOKEN` environment variable.
+
+### Optional environment variables
+
+| Variable | Description |
+| --- | --- |
+| `GLIF_IDS` | Comma-separated workflow IDs to auto-load |
+| `IGNORE_DISCOVERY_TOOLS` | Set to `true` to disable discovery capabilities |
+| `AGENT_TOOLS` | Set to `true` to enable agent functionality |
+
