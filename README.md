@@ -50,3 +50,34 @@ npx @playwright/mcp@latest
 Requirements: Node.js 18 or newer. On first use, Claude Code will prompt you to
 approve the `playwright` server.
 
+## Firecrawl MCP Server
+
+This repository is also configured to use the
+[Firecrawl MCP server](https://github.com/firecrawl/firecrawl-mcp-server) via
+`.mcp.json`. It lets Claude Code scrape, crawl, and extract structured data from
+websites.
+
+### Setup
+
+1. Get an API key from [Firecrawl](https://www.firecrawl.dev/).
+2. Export it in your shell before launching Claude Code:
+
+   ```bash
+   export FIRECRAWL_API_KEY="fc-your_key_here"
+   ```
+
+3. Start Claude Code in this directory and approve the `firecrawl-mcp` server.
+
+> The API key is **not** stored in the repository — `.mcp.json` only references
+> the `FIRECRAWL_API_KEY` environment variable.
+
+### Optional environment variables
+
+| Variable | Description |
+| --- | --- |
+| `FIRECRAWL_API_URL` | Self-hosted instance endpoint (overrides cloud API) |
+| `FIRECRAWL_RETRY_MAX_ATTEMPTS` | Retry count (default: 3) |
+| `FIRECRAWL_RETRY_INITIAL_DELAY` | First retry delay in ms (default: 1000) |
+| `FIRECRAWL_RETRY_MAX_DELAY` | Maximum retry delay in ms (default: 10000) |
+| `FIRECRAWL_CREDIT_WARNING_THRESHOLD` | Credit alert threshold (default: 1000) |
+
