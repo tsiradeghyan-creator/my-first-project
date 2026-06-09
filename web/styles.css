@@ -1,0 +1,108 @@
+:root {
+  --bg: #0b1020;
+  --panel: #141a2e;
+  --panel-2: #1c2440;
+  --text: #e8ecf7;
+  --muted: #8a93b2;
+  --accent: #5b8cff;
+  --accent-2: #28e0a8;
+  --border: #263054;
+  --radius: 16px;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+  background: radial-gradient(1200px 600px at 80% -10%, #1b2547 0%, var(--bg) 60%);
+  color: var(--text);
+  min-height: 100vh;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 20px; position: sticky; top: 0; z-index: 5;
+  background: rgba(11,16,32,.7); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.brand { font-size: 20px; font-weight: 700; letter-spacing: .3px; }
+.rate-badge {
+  font-size: 12px; color: var(--muted);
+  border: 1px solid var(--border); border-radius: 999px; padding: 6px 12px;
+}
+.rate-badge.live { color: var(--accent-2); border-color: #1f5a47; }
+.rate-badge.stale { color: #ffcf6b; border-color: #5a4a1f; }
+
+.layout {
+  display: grid; grid-template-columns: 1fr 360px; gap: 20px;
+  max-width: 1100px; margin: 20px auto; padding: 0 16px;
+}
+@media (max-width: 860px) { .layout { grid-template-columns: 1fr; } }
+
+.panel {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 18px;
+}
+.panel-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+h2 { margin: 4px 0 14px; font-size: 18px; }
+
+.grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px;
+}
+.card {
+  background: var(--panel-2); border: 1px solid var(--border);
+  border-radius: 12px; padding: 14px; cursor: pointer; transition: transform .08s, border-color .15s;
+}
+.card:hover { transform: translateY(-2px); border-color: var(--accent); }
+.card .emoji { font-size: 34px; }
+.card .title { margin-top: 8px; font-weight: 600; }
+.card .price { color: var(--muted); font-size: 14px; margin-top: 2px; }
+
+.field { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); }
+select {
+  background: var(--panel-2); color: var(--text);
+  border: 1px solid var(--border); border-radius: 10px; padding: 8px 10px; font-size: 14px;
+}
+
+.cart-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.cart-item { display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  background: var(--panel-2); border: 1px solid var(--border); border-radius: 10px; padding: 8px 10px; }
+.cart-item .x { color: var(--muted); cursor: pointer; border: none; background: none; font-size: 16px; }
+.cart-item .x:hover { color: #ff6b6b; }
+
+.checkout { margin-top: 14px; border-top: 1px solid var(--border); padding-top: 14px; }
+.totals { margin: 14px 0; }
+.row { display: flex; justify-content: space-between; align-items: baseline; padding: 4px 0; }
+.row.big { font-size: 20px; }
+.accent { color: var(--accent-2); }
+
+.pay-btn {
+  width: 100%; padding: 13px; border: none; border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent), #7a5bff); color: white;
+  font-size: 16px; font-weight: 600; cursor: pointer;
+}
+.pay-btn:disabled { opacity: .45; cursor: not-allowed; }
+.ghost { background: transparent; color: var(--text); border: 1px solid var(--border);
+  border-radius: 12px; padding: 13px; cursor: pointer; }
+
+.muted { color: var(--muted); }
+.small { font-size: 12px; }
+
+.modal-backdrop {
+  position: fixed; inset: 0; background: rgba(4,7,16,.7);
+  display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 20;
+}
+.modal {
+  background: var(--panel); border: 1px solid var(--border); border-radius: 18px;
+  padding: 22px; width: 100%; max-width: 380px; text-align: center;
+}
+.pay-amount { font-size: 24px; font-weight: 700; color: var(--accent-2); margin: 8px 0; }
+.qr { width: 160px; height: 160px; margin: 12px auto; border-radius: 12px; background: white; padding: 8px; }
+.qr img { width: 100%; height: 100%; }
+.addr { display: block; word-break: break-all; background: var(--panel-2);
+  border: 1px solid var(--border); border-radius: 10px; padding: 8px; font-size: 12px; margin: 8px 0; }
+.modal-actions { display: flex; gap: 10px; margin-top: 14px; }
+.modal-actions > * { flex: 1; }
+
+.foot { text-align: center; padding: 24px 16px 40px; max-width: 700px; margin: 0 auto; }

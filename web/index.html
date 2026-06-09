@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1020" />
+  <title>CoinPay — Pay anywhere with crypto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">◈ CoinPay</div>
+    <div class="rate-badge" id="rateBadge" title="Exchange-rate source">…</div>
+  </header>
+
+  <main class="layout">
+    <!-- Shop -->
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Shop</h2>
+        <label class="field">
+          <span>Show prices in</span>
+          <select id="displayCurrency"></select>
+        </label>
+      </div>
+      <div id="productGrid" class="grid"></div>
+    </section>
+
+    <!-- Cart / Checkout -->
+    <aside class="panel cart">
+      <h2>Your order</h2>
+      <ul id="cartList" class="cart-list"></ul>
+      <p id="cartEmpty" class="muted">Cart is empty. Tap a product to add it.</p>
+
+      <div class="checkout">
+        <label class="field">
+          <span>Pay with</span>
+          <select id="payCrypto"></select>
+        </label>
+
+        <div class="totals">
+          <div class="row">
+            <span>Total</span>
+            <strong id="totalFiat">—</strong>
+          </div>
+          <div class="row big">
+            <span>You pay</span>
+            <strong id="totalCrypto" class="accent">—</strong>
+          </div>
+          <p class="muted small" id="rateNote"></p>
+        </div>
+
+        <button id="payBtn" class="pay-btn" disabled>Pay with crypto</button>
+      </div>
+    </aside>
+  </main>
+
+  <!-- Payment modal -->
+  <div class="modal-backdrop" id="payModal" hidden>
+    <div class="modal" role="dialog" aria-modal="true">
+      <h3>Complete your payment</h3>
+      <p class="muted small">Send exactly this amount. The rate is locked for
+        <span id="lockTimer">15:00</span>.</p>
+      <div class="pay-amount" id="payAmount">—</div>
+      <div class="qr" id="qr"></div>
+      <code class="addr" id="payAddr"></code>
+      <p class="muted small">Demo address — no real funds are moved.</p>
+      <div class="modal-actions">
+        <button class="ghost" id="cancelPay">Cancel</button>
+        <button class="pay-btn" id="confirmPay">I've sent it</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="foot muted small">
+    Prototype / MVP. Real deployment needs a licensed payment provider,
+    KYC/AML, and secure custody. No real funds are handled here.
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
