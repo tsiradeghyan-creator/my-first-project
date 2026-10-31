@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (Script lesson 01, story version)
+**Did:** narrative version of lesson 01 (reels/lesson-01-story/): Lilit's 30-second story drawn as hand-sketched doodles (dream → contest 19:00 → loses her voice, 1000 people → curtain, silence, heartbeat → sings without fear), VHS rewind, then each scene labelled with its plot element on a tension curve, summary, logo. Armenian kinetic text, original score, no voice yet. ELEVENLABS_TEXT.md has the voice text + timing. Comp StoryLesson in src/Story.tsx.
+
+**Left:** Tigran generates the voice in ElevenLabs and sends it; then re-time scenes to the voice, mix, re-render.
+
 ## 2026-10-31 — Cloud (Script lesson 01)
 **Did:** "Սցենարի դաս 01 · Ի՞նչ է դրամատուրգիան" — 45 s Armenian animated lesson (reels/lesson-01-dramaturgy/): grunge-editorial style, Noto Serif/Sans Armenian, tension curve drawn through the 5 plot elements (էքսպոզիցիա, հանգույց, զարգացում, գագաթնակետ, հանգուցալուծում), word-by-word Armenian subtitles, original music, logo. Script with timecodes in SCENARI_DAS_01.md. The earlier English "Dramaturgy in 40 seconds" (G63 example) was a misunderstanding; kept in reels/dramaturgy-40s/.
 
