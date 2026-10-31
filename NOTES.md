@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (Story Codes #01 · four Italian studio approaches)
+**Did:** Tigran rejected the liquid-glass prototype and asked for the brief solved the way 4 Italian studios would. Researched each (Ditroit: pristine abstract 3D; Ocular Lab: "high contrast, ultra textured, moody, optical"; Emanuele Colombo: flat 2D character animation; AWolff: little public info, interpreted as broadcast/comic 2D). Built Kod01 in all four: reels/story-codes/studios/Kod01_{ditroit,ocular,colombo,awolff}.mp4 (20 s each, same script), each with its own score. Studio names are not used inside the videos.
+
+**Left:** Tigran picks a direction; then season 1 (12 codes) + ElevenLabs VO + DM PDF.
+
 ## 2026-10-31 — Cloud (Story Codes: liquid glass + neon prototype)
 **Did:** new direction for creators under 25: series "Սցենարի կոդեր" (one dramaturgy hack per reel, comment ԿՈԴ → DM). reels/story-codes/: PROPOSAL.md (format, season-1 list, ManyChat funnel, 6 image prompts, VO for #01) and Kod01_Anveradardz_ket_prototype.mp4 (21 s): real 3D refractive glass (Remotion + @react-three/drei MeshTransmissionMaterial, rendered with --gl=swangle), neon glows, liquid-glass UI pills/chat bubbles, kinetic Armenian neon type, trap score.
 
