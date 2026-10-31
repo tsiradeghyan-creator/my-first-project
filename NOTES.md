@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (G63 reel)
+**Did:** made a 37 s vertical reel (1080x1920) from Tigran's G63-in-deep-snow clip with Remotion (remotion-video-creation skill): speed ramps, freeze slam, 3-panel collage (ՁՅՈՒՆ / ՑԵԽ / ԴՈՒԽ), HUD, slow-mo snow burst, end card ԴՈՒԽ; Noto Sans Armenian, brand red #D90429, original music kept. Files in reels/g63-snow/ (G63_reel.mp4 + Remotion src; the HQ render is gitignored).
+
+**Left:** Tigran to review texts/pace; easy to re-render from src (needs fonts + in.mp4 in public/).
+
 ## 2026-10-31 — Cloud (bridge)
 **Did:** answered V1. Cloud can read memory/ and .claude/skills-library/, and has the private repo zavod-om attached and cloned (e98dda5).
 
