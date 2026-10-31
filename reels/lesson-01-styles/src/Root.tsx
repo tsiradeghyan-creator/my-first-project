@@ -9,6 +9,7 @@ import {StoryLesson, S_TOTAL} from './Story';
 import {Greece, G_TOTAL} from './Greece';
 import {Vox} from './Vox';
 import {Opera} from './Opera';
+import {Manim} from './Manim';
 export const Root: React.FC = () => (
   <>
     <Composition id="G63" component={Reel} durationInFrames={TOTAL} fps={30} width={1080} height={1920} />
@@ -20,5 +21,6 @@ export const Root: React.FC = () => (
     <Composition id="Greece" component={Greece} durationInFrames={G_TOTAL} fps={30} width={1080} height={1920} />
     <Composition id="Vox" component={Vox} durationInFrames={G_TOTAL} fps={30} width={1080} height={1920} />
     <Composition id="Opera" component={Opera} durationInFrames={G_TOTAL} fps={30} width={1080} height={1920} />
+    <Composition id="Manim" component={Manim} durationInFrames={G_TOTAL} fps={30} width={1080} height={1920} />
   </>
 );

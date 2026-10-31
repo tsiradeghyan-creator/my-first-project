@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (Lesson 01 · three styles)
+**Did:** honest trend check (Reddit unreachable from cloud; X: Vox-style paper-collage + 3b1b-style explainers; Pinterest Predicts 2026: Opera Aesthetic, Poetcore, Neo Deco). Built the same lesson (script/timeline from src/Greece.tsx) in 3 styles in reels/lesson-01-styles/: Style1_Vox_collage.mp4, Style2_Opera.mp4, Style3_3b1b.mp4, each with its own original score. Marble busts rendered from the three.js "Lee Perry-Smith" head scan (CC BY 3.0, credit in README). One ElevenLabs voice (../lesson-01-greece/ELEVENLABS_TEXT.md) fits all four versions.
+
+**Left:** Tigran picks a style and sends the voice; re-time + mix + final render. Image archives (Wikimedia/museums) are blocked in cloud — real photos would need the laptop.
+
 ## 2026-10-31 — Cloud (Script lesson 01, Ancient Greece version)
 **Did:** Tigran rejected the story version as colourless; made "Ի՞նչ է դրամատուրգիան" as a rich illustrated history (reels/lesson-01-greece/, 55.5 s): sunset amphitheatre with 17 000 crowd, marble columns + etymology δρᾶμα+ἔργον, red-figure vases (Aeschylus/Sophocles/Euripides), gold masks, Aristotle's Poetics scroll, temple = beginning/middle/end, peripeteia, catharsis, film strip today, columns → film frames. Lyre/drum score (audio/greece_synth.py), Armenian captions. ELEVENLABS_TEXT.md has the voice text (numbers spelled out) + timing. Comp Greece in src/Greece.tsx.
 
