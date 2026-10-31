@@ -2,6 +2,8 @@
 
 This is my first project repository.
 
+**Maghakian Roast Room** lives in [`maghakian-roast-room/`](maghakian-roast-room/README.md): an AI advisory council for Maghakian Scripts decisions (script sales, productions, co-productions, children's books). Run it from that folder with `npm start` and `claude`.
+
 ## MCP Servers — at a glance
 
 This repository configures five [MCP](https://modelcontextprotocol.io) servers
