@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (Script lesson 01)
+**Did:** "Սցենարի դաս 01 · Ի՞նչ է դրամատուրգիան" — 45 s Armenian animated lesson (reels/lesson-01-dramaturgy/): grunge-editorial style, Noto Serif/Sans Armenian, tension curve drawn through the 5 plot elements (էքսպոզիցիա, հանգույց, զարգացում, գագաթնակետ, հանգուցալուծում), word-by-word Armenian subtitles, original music, logo. Script with timecodes in SCENARI_DAS_01.md. The earlier English "Dramaturgy in 40 seconds" (G63 example) was a misunderstanding; kept in reels/dramaturgy-40s/.
+
+**Left:** voice — Ani or Tigran records the script (no Armenian TTS in cloud), then re-mix and re-render (comp Lesson01). Next lesson: types of conflict.
+
 ## 2026-10-31 — Cloud (Dramaturgy reel)
 **Did:** "Dramaturgy in 40 seconds" reel for the studio page (reels/dramaturgy-40s/): grunge-editorial style from Tigran's reference, brand colours + logo, G63 clip as the worked example of 5 beats, English VO (Piper) + original music, CTA maghakianscripts.com.
 
