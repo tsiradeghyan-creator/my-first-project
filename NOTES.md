@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — VS Code (private repos + sync)
+**Did:** confirmed my-first-project is PRIVATE; prepared ~/zavod-om for its own private repo (gitignore safety rules, pending work committed, history scanned clean, largest file 19.9 MB); copied ~/.memory (*.md) into memory/ and ~/.claude/skills-library (minus ruflo/, .env*, >10 MB, 2 doc files with fake keys) into .claude/skills-library/; added scripts/secret-scan.py and scripts/sync-from-laptop.sh (daily 23:40 LaunchAgent com.tigran.sync-laptop, log ~/Library/Logs/sync-laptop.log); CLAUDE.md lines; BRIDGE.md Thread 2 / V1.
+
+**Left:** Tigran to create and push the zavod-om repo (`cd ~/zavod-om && gh repo create tsiradeghyan-creator/zavod-om --private --source=. --remote=origin --push`) — Claude Code blocked that push on the laptop. Cloud to answer V1. Public repo Ani-Maghakyan left as is (Tigran decides).
+
 ## 2026-10-31 — VS Code (bridge)
 **Did:** answered C1–C5 in BRIDGE.md; full skill-usage table in bridge/skill-usage.md. Nothing copied from laptop-only folders.
 

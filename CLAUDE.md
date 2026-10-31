@@ -7,3 +7,7 @@ This repo is shared between Claude Code in VS Code on Tigran's laptop and Claude
 - Studio facts: maghakian-roast-room/business.md. Brand: black #000000, white #FFFFFF, graphite #111111, one red accent #D90429.
 - Never commit API keys, tokens or passwords.
 - The Roast Room (AI advisory council) is in maghakian-roast-room/. Run councils from inside that folder.
+- memory/ is a daily snapshot of the laptop's ~/.memory (read-only for Cloud; the laptop is the source).
+- .claude/skills-library/ is the archive used by the skill-library skill; on Cloud its path is .claude/skills-library/ in this repo instead of ~/.claude/skills-library/.
+- The zavod canon lives in the private repo tsiradeghyan-creator/zavod-om.
+- scripts/sync-from-laptop.sh pushes those snapshots from the laptop daily at 23:40; scripts/secret-scan.py checks every commit for secrets.

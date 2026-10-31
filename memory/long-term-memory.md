@@ -1,0 +1,762 @@
+# Long-Term Memory — Key Facts, Preferences, Patterns
+<!-- Auto-updated by consolidate-memory skill. -->
+<!-- Facts here persist indefinitely until explicitly removed. -->
+
+---
+
+## User Profile
+
+- **Primary language:** Armenian (Eastern), Russian, English
+- **Role:** Works with Maghakian Script Writing Agency (Ani Maghakyan's brand)
+- **Platform:** macOS (Darwin 21.6.0), shell: zsh
+
+---
+
+## Critical Rules (Never Violate)
+
+1. **Armenian text** — always proper Eastern Armenian Unicode only. Never transliteration. Never Latin-script Armenian.
+2. **"Ֆon"** → always write **"Background"** in visual directions
+3. **Captions** — always in Armenian Unicode when writing Armenian content
+
+---
+
+## Maghakian Brand — Core Facts
+
+### Identity
+- **Full name:** Maghakian Script Writing Agency
+- **Founder:** Ani Maghakyan (Անի Մաղաքյան)
+- **Born:** June 3, 1988, Vanadzor, Armenia
+- **Roles:** Screenwriter, author, journalist, producer, educator
+
+### Brand Colors
+- Primary: `#6450D2` (Maghakian Purple)
+- Base: `#0D0D0D` (Deep Black)
+- Surface: `#FAFAFA` (Off-White)
+
+### Typography
+- Display: GHEA Aragast Bold Italic / Mardoto Bold
+- Body: Noto Sans Armenian / GHEA Mariam
+- Label: GHEA Grapalat (tracked uppercase)
+
+### Tone
+Cinematic · Warm · Confident · Nostalgic · Precise
+
+### Languages
+Armenian (primary) · English · Russian
+
+### Official Social Accounts
+- Instagram personal: @ani_maghaqia — https://www.instagram.com/ani_maghaqia/
+- Instagram agency: @maghakianscripts — https://www.instagram.com/maghakianscripts/
+- Facebook: ani.maghaqyan — https://www.facebook.com/ani.maghaqyan
+- LinkedIn: https://www.linkedin.com/in/ani-maghaqyan-5ba6804b/
+- IMDb: https://www.imdb.com/name/nm9250160/
+- Wikipedia (RU): https://ru.wikipedia.org/wiki/Магакян,_Ани
+
+### Key Works
+| Year | Title | Role |
+|---|---|---|
+| 2015 | The Last Father | Screenwriter |
+| 2018 | Diary of Helen (Էլենի օրագիրը) | Head screenwriter — #1 Armenian Google search 2018 |
+| 2019 | Paper Dream | Screenwriter |
+| 2024 | 84-ի ամառը (Summer of '84) | Screenwriter + Producer — first outsourced mini-series in Armenia |
+| 2024 | Լոսխնամախոս | Writer |
+| 2021 | Upside-Down (Տակնուվրա) | Author (novel, 160pp, Yerevanyan Eskiz) |
+| 2025 | Blockade / Блокада | Theatrical script — Stanislavsky Theatre Yerevan |
+
+### Agency
+- Founded: 2024 (as formal agency; earlier as "Maghakyan Scripts")
+- Model: Outsourcing screenplay production
+- Services: TV series writing, script development, screenplay consulting
+
+---
+
+## SEO Keywords (Maghakian)
+
+Primary: `armenian screenwriter` · `armenian script writer` · `script writing agency armenia` · `ani maghakyan`
+Secondary: `armenian drama series` · `armenian storytelling` · `tv screenplay writer`
+Long-tail: `armenian screenwriter for hire` · `hire armenian screenwriter`
+
+---
+
+## Content Strategy Notes
+
+- Posting cadence: Instagram 3×/week + daily stories · LinkedIn 3×/week · Telegram 2-3×/week
+- Highest-engagement formats: Carousel (0.55%) · Reels (reach) · Document carousel (LinkedIn)
+- A24 model: extend story worlds onto social (character-perspective posts)
+- Reddit trends to leverage: AI vs Human writing · Armenian storytelling · Lived experience
+
+---
+
+## Wikipedia Status
+- English article: drafted (2026-04-07), ready to submit via AfC
+- Russian Wikipedia: exists at https://ru.wikipedia.org/wiki/Магакян,_Ани
+- Wikidata: not yet created — submit after English article approval
+- Goal: Google Knowledge Panel for "Ani Maghakyan"
+
+---
+
+## Mac Environment
+- Cleaned (2026-04-07): Arc, BraveSoftware, Chromium, Vivaldi, Opera (App Support), HP Easy Start cache, Tenorshare ReiBootNet, com.qtproject.plist, MobileMeAccounts.plist
+- Installed apps: Canva, Claude, Comet, Figma, Google apps, Grammarly, HP Easy Scan, Microsoft Office, OneDrive, Safari, Scenarist, Telegram, Urban VPN, WhatsApp, Yandex, Zoom
+
+---
+
+## Patterns & Preferences
+
+- Prefers concise responses without trailing summaries
+- Wants Armenian text in proper Unicode always
+- Works iteratively — adds sections to SKILL.md one at a time
+- Approves parallel web searches for research tasks
+- Prefers structured tables and clear visual hierarchy in responses
+
+---
+
+> Full structured knowledge now lives as topic notes in the Obsidian vault:
+> `~/Documents/Obsidian Vault/Claude/` (start at `index.md`, drill into `wiki/`).
+
+---
+
+### Auto-promoted from New Learnings
+- [2026-07-26 10:31] Here’s how it evolved: Earlier, it was a newspaper. ([source](https://www.reddit.com/r/digital_marketing/comments/1otbyfu/is_digital_marketing_actually_a_good_career_in))
+- [2026-07-26 10:31] Take the 10% best-performing tweets and expand on them as LinkedIn posts (something like 250 to 300 words max, or if you like Twitter, do threads and then take those and rework them into LinkedIn posts). ([source](https://www.reddit.com/r/Entrepreneur/comments/10wlod2/if_you_were_to_start_building_your_personal_brand))
+- [2026-07-26 10:31] series, based on a dark, disturbing true story, could also satisfy a growing appetite for historically flavored drama, often set in a near past that helps explain the present. ([source](https://variety.com/2023/film/global/vin-diesel-jude-law-liam-neeson-berlin-1235533280))
+- [2026-07-26 10:31] Armenian Filmmakers Taking Part … will produce high-end, short-format scripted series in Spanish will produce two 10-15 segment series before ([source](https://variety.com/2017/tv/spotlight/latin-american-tv-drama-production-1202020306))
+- [2026-07-26 10:31] In order to create an articles, you only need two good sources (for general notability). ([source](https://www.reddit.com/r/wikipedia/comments/1mpz6e1/the_wikipedia_article_creation_and_deletion))
+- [2026-07-26 10:31] The Articles for Creation (AfC) process exists to give new submissions a structured review by experienced editors before they appear in the ([source](https://medium.com/wikiblueprint/how-to-get-a-wikipedia-page-a-complete-honest-guide-bce131abfdc6))
+- [2026-07-26 10:31] There’s a documentary in progress called “The Grind.” It’s about an Asian male porn star. ([source](https://www.indiewire.com/news/analysis/nonfiction-hot-list-adam-neuhaus-documentary-1235190113))
+- [2026-07-26 10:31] What is your LinkedIn content creation strategy? ([source](https://www.reddit.com/r/linkedin/comments/1ic9kbt/what_is_your_linkedin_content_creation_strategy))
+- [2026-07-26 10:31] Just to get the facts and figures out of the way — I watched 701 films in 2025; 383 of these films were new releases. ([source](https://medium.com/@_Ruckerish/favorite-fifteen-2025-in-film-60d09be9fb0d))
+- [2026-07-26 10:31] The algorithm on Instagram has been gamed to the point where it won ... ([source](https://www.reddit.com/r/Filmmakers/comments/1o1b4cg/indie_film_distribution_in_2025_filmhub_amazon))
+- [2026-07-26 10:31] 2025 film festivals and markets calendar: latest dates | News | Screen ([source](https://www.screendaily.com/news/2025-film-festivals-and-markets-calendar-latest-dates/5200079.article))
+- [2026-07-26 10:31] Karlovy Vary Film Festival unveils 2025 official selection | News | Screen ([source](https://www.screendaily.com/news/karlovy-vary-film-festival-unveils-2025-official-selection/5205652.article))
+
+### Auto-promoted from New Learnings
+- [2026-08-01 11:05] New changes you would love to see in 2025? ([source](https://www.reddit.com/r/eurovision/comments/1d2l8fb/new_changes_you_would_love_to_see_in_2025))
+- [2026-08-01 11:05] From Jan, 1 2024 through April 30, 2025, of 802 Netflix premieres – first-run commissioning, both new & returning shows – 338 were produced in the U.S. ([source](https://variety.com/2025/film/global/netflix-spain-ester-exposito-alvaro-morte-ursula-corbero-1236432770))
+- [2026-08-01 11:05] or advice of an editor or group of editors. ([source](https://www.quora.com/How-do-I-start-a-new-article-on-Wikipedia-as-a-draft-and-publish-it-when-it-is-ready))
+- [2026-08-01 11:05] AFTER CLASS / DUPĂ ORE, Marius Papară (Romania, 2025, 18 min.) – World premiere   2.FOUND & LOST, Reza Rasouli (Austria, 2025, 17 min.) – World premiere   3. ([source](https://deadline.com/2025/07/sarajevo-film-festival-competition-2025-15-world-premieres-1236465828))
+- [2026-08-01 11:05] 2025 – Page 696 – Deadline ([source](https://deadline.com/2025/page/696))
+- [2026-07-31 13:55] [...] The first, focused on market trends, brought together Catherine Ying (CMC Inc./Pearl Studio), Francesco Prandoni (Production I.G.), Kang Yu ([source](https://variety.com/2025/film/news/hong-kong-filmart-2025-top-takeaways-global-trends-ai-1236344589))
+- [2026-07-31 13:55] Fantasia's Frontières Market 2025 Lineup: Highlights, Trends ([source](https://variety.com/2025/film/global/fantasia-frontieres-co-production-market-1236459858))
+- [2026-07-31 13:55] at-will-employment contracts that allowed for 15-minute notice both sides and make a nonsense of any old school medical, pension or other workman's benefits. ([source](https://www.reddit.com/r/FilmIndustryLA/comments/1hpn8xi/hows_2025_going_to_play_out_and_as_a_newcomer_how))
+- [2026-07-31 13:55] Start a consistent series (e.g., “Monday __________ Tips,” “Tuesday ______ Story,” etc.). ([source](https://www.reddit.com/r/linkedin/comments/1hn14xj/best_guideresources_on_creating_content_selling))
+- [2026-07-31 13:55] Maybe it has to do with the super-addictive algorithm that knows your deepest and darkest impulses/wishes/fantasies and serves them up. ([source](https://www.reddit.com/user/ManfredLopezGrem/submitted))
+- [2026-07-31 13:55] The contemplative work, executive produced by Hungarian auteur Béla Tarr, world premiered at Sheffield DocFest 2025 in the I ([source](https://variety.com/2025/film/markets-festivals/bela-tarr-lullaby-for-the-mountains-clip-iffi-1236586516))
+- [2026-07-31 13:55] Busan Project Market 2025 Winners Unveiled ([source](https://variety.com/2025/film/news/busan-project-market-winners-2025-1236526814))
+- [2026-07-30 13:27] A generation or 2 ago, you are pounding the pavement printing ad media (flyers, newspapers, business cards, etc) to get the word out about you. ([source](https://www.reddit.com/r/videography/comments/1lcqcsw/freelancers_do_you_struggle_having_to_share_your))
+- [2026-07-30 13:27] they dont give you any filming recommendations other tha ([source](https://www.reddit.com/r/SocialMediaMarketing/comments/1j775jh/has_anyone_used_personal_brand_launch_by_ava))
+- [2026-07-30 13:27] [...] PARIS, FRANCE - JUNE 20: Kavinsky performs live on stage during the Festiv4L Signé Renault Festival at Chalet des Iles on Jun ([source](https://variety.com/2025/tv/news/japan-nippon-tv-president-1236279231))
+- [2026-07-30 13:27] In the first quarter of 2025, TV drama production declined again, down 38.9% to 440 shoot days. ([source](https://variety.com/2025/biz/news/l-a-location-shoots-plummeted-by-22-quarter-one-2025-film-la-1236367548))
+- [2026-07-30 13:27] # How to create Wikipedia personal page? ([source](https://www.reddit.com/r/wikipedia/comments/1ivivx2/how_to_create_wikipedia_personal_page))
+- [2026-07-30 13:27] # [US] Our company got scammed out of $3,100 by a "Wikipedia Page" creation service  ## Post details r/wikipedia | 25 upvotes | 25 comments | Posted by u/SherlockOwl on 2025-10-28T07:57:14.594Z ([source](https://www.reddit.com/r/wikipedia/comments/1oi3gbv/us_our_company_got_scammed_out_of_3100_by_a))
+- [2026-07-30 13:27] Christy Cherniss, Matt Cherniss at the 77th Primetime Emmy Awards held at the Peacock Theater on September 14, 2025 in Los Angeles, California. ([source](https://variety.com/2025/film/news/rob-williams-president-content-strategy-sumerian-1236555630))
+- [2026-07-30 13:27] - The "hook" is by far the most important component for an LI post. ([source](https://www.reddit.com/r/linkedin/comments/1nhwhpo/what_type_of_content_actually_performs_well_on))
+- [2026-07-30 13:26] I’ve submitted to a few festivals and researched “indie” platforms. ([source](https://www.reddit.com/r/filmmaking/comments/1ojnt2n/i_feel_like_my_film_has_hit_a_dead_end_looking))
+- [2026-07-30 13:26] ## Post details r/Filmmakers | 15 upvotes | 50 comments | Posted by u/AlphaZetaMail on 2025-11-22T17:20:11.703Z [...] - Yeah we’re gonna need more actual artists to combat this AI garbage. ([source](https://www.reddit.com/r/Filmmakers/comments/1p3yqdu/do_you_want_more_filmmakers))
+- [2026-07-30 13:26] The honor will be presented on the concluding day of the 2025 Armenian Film Festival held in Los Angeles from Sept. ([source](https://deadline.com/2025/08/ryan-coogler-sev-ohanian-armenian-film-society-1236477470))
+- [2026-07-30 13:26] Armenian Berlinale title ‘After Dreaming’ picked up for sales | News | Screen ([source](https://www.screendaily.com/news/armenian-berlinale-title-after-dreaming-picked-up-for-sales/5204146.article))
+- [2026-07-29 12:56] The above step will give you a glimpse of how much more work is required to build a stellar personal brand. ([source](https://medium.com/reputation-management/doing-personal-branding-the-right-way-84062e8beefb))
+- [2026-07-29 12:56] When you Google a company or individual, their social profiles are some of the first results to appear. ([source](https://medium.com/@marcapple/20-tips-to-fuel-your-social-growth-with-seo-and-social-media-ef7f7f75c382))
+- [2026-07-29 12:56] ## TV Shows 📺  Well… I did not watch any TV show in 2025. ([source](https://medium.com/yo-lo/yolo-report-2025-485c37d5a0fa))
+- [2026-07-29 12:56] It also received a Special Mention in the Short Cuts Nest competition at the Golden Apricot International Film Fest ([source](https://variety.com/2026/film/global/cannes-critics-week-armenian-filmmakers-next-step-studio-1236814545))
+- [2026-07-29 12:56] Wikimedia Foundation: Home ([source](https://wikimediafoundation.org))
+- [2026-07-29 12:56] Archived from the original on July 19, 2025. ([source](https://en.wikipedia.org/wiki/Wikipedia))
+- [2026-07-29 12:55] This is the full list of 2025 NFMLA NewNarratives grant winners for 2025:  Enrique Pedraza-Botero – funding to support the development of his documentary short film S.E.C.T.O.R. ([source](https://deadline.com/2025/09/newfilmmakers-los-angeles-2025-newnarratives-grant-winners-1236503705))
+- [2026-07-29 12:55] With this in mind, any creative spin you can put on it in 2025 will likely benefit your engagement. ([source](https://busocial.medium.com/bus-social-media-growth-2024-wins-and-2025-experiments-2f5538be04c0))
+- [2026-07-29 12:55] Writer/Director of The Warehouse Phase, a 6 episode dark comedy TV show, now streaming exclusively on Peacock, released May 2025. ([source](https://www.reddit.com/r/Screenwriting/comments/1luw1b5/with_no_previous_credits_wrotedirected_a_scripted))
+- [2026-07-29 12:55] [...] “For a century, this industry has bought tools that promise to control the inherent uncertainty in an arts-based business. ([source](https://variety.com/2026/film/global/locarno-stepin-power-people-data-future-of-film-1236821623))
+- [2026-07-29 12:55] Skip to main contentWhere to get industry news : r/Screenwriting. ([source](https://www.reddit.com/r/Screenwriting/comments/1mce2xp/where_to_get_industry_news))
+- [2026-07-29 12:55] Title: Screenwriting Screenwriting https://www.indiewire.com The Voice of Creative Independence Wed, 15 Apr 2026 16:06:39 +0000 en-US  hourly   1  https://wordpress.org/? ([source](https://www.indiewire.com/t/screenwriting/feed))
+- [2026-07-28 11:44] Should I focus on SEO or social media in 2025? ([source](https://www.quora.com/Should-I-focus-on-SEO-or-social-media-in-2025))
+- [2026-07-28 11:44] In 2025, is SEO still worth investing in, or should brands focus more on social media marketing? ([source](https://www.quora.com/In-2025-is-SEO-still-worth-investing-in-or-should-brands-focus-more-on-social-media-marketing))
+- [2026-07-28 11:44] Independent podcasters often have life interfere with podcasting. ([source](https://medium.com/ear-worthy/uncovering-roots-recounting-overlooked-historical-tales-of-pain-suffering-20b4808b9eb7))
+- [2026-07-28 11:44] unfortunately, you're right about that but Im going to remain hopeful that someday Armenian will be used much more in the digital world and the ([source](https://www.reddit.com/r/armenia/comments/1tn7c7h/grand_parade_ill_say_insane_row_of_new_equipment))
+- [2026-07-28 11:44] How would the process of getting my Wikipedia page approved be like? ([source](https://www.reddit.com/r/wikipedia/comments/1iweg66/how_would_the_process_of_getting_my_wikipedia))
+- [2026-07-28 11:44] What is the easiest way to get a Wikipedia article written about you as an Australian in 2025? ([source](https://www.quora.com/What-is-the-easiest-way-to-get-a-Wikipedia-article-written-about-you-as-an-Australian-in-2025))
+- [2026-07-28 11:44] due diligence, deal execution, and understanding of complex corporate structures. ([source](https://www.reddit.com/r/Filmmakers/comments/1fiaga2/what_does_the_future_of_the_film_industry_look))
+- [2026-07-28 11:44] Whether you’re a global powerhouse or a growing startup, the way you approach content strategy, social media trends, and digital storytelling will define your success over the next five years. ([source](https://medium.com/@chisomebenezer76/the-future-of-social-media-marketing-what-2025-means-for-brands-6dcf6659e472))
+- [2026-07-28 11:44] Scripts are outsourced from Chinese screenwriting companies. ([source](https://www.reddit.com/r/Filmmakers/comments/1hj8rww/short_dramas_please_help_me_understand))
+- [2026-07-28 11:44] The algorithm rewards engaging films and content. ([source](https://www.reddit.com/r/Filmmakers/comments/1sronp4/i_made_a_2minute_short_film_and_it_changed_my_life))
+- [2026-07-28 11:44] Set between Jerusalem, Armenia and Paris, the story will follow a woman who enlists in a war after her life begins to crumble. ([source](https://www.screendaily.com/news/christine-haroutounians-black-star-angel-leads-busans-apm-winners/5209218.article))
+- [2026-07-28 11:44] Integral Film, Aramit Company, Al Jazeera Documentary (Nor-Libya-Qa ([source](https://www.screendaily.com/news/dok-leipzig-sets-roman-bondarchuk-gal-rosenbluth-projects-among-2025-co-pro-market-selection/5208852.article))
+- [2026-07-27 14:26] - Organic is better than ever for our clients. ([source](https://www.reddit.com/r/AskMarketing/comments/1m1ub27/what_are_the_best_platforms_for_digital_marketing))
+- [2026-07-27 14:26] I'm on the hunt for a social media marketing/personal branding management service that specializes in virality and growth. ([source](https://www.reddit.com/r/advertising/comments/1inufvk/looking_for_a_social_media_marketingpersonal))
+- [2026-07-27 14:26] 12 acts will compete for representing Armenia in Basel on May. ([source](https://www.reddit.com/r/eurovision/comments/1iqu0rv/depi_evratesil_2025_1700_cet))
+- [2026-07-27 14:26] This is the first time Armenia have sent an act with a male vocalist since 2018. ([source](https://www.reddit.com/r/eurovision/comments/1iqyw79/armenia_parg_wins_depi_evratesil_and_heads_to))
+- [2026-07-27 14:26] Software agent — Wikipedia, accessed February 12, 2025,   6. ([source](https://medium.com/@senpubali7/the-future-of-software-automation-a-technical-deep-dive-into-agents-and-workflows-7d0d3d816b9a))
+- [2026-07-27 14:26] Sanger re-gained interest in Wikipedia in 2025, but still far more interested in how an encyclopaedia should be governed, which motivated the creation of Citizendium in the first place, than in actually writing one. ([source](https://news.ycombinator.com/item?id=48643407))
+- [2026-07-27 14:26] There remains one group we’ve yet to hear from when it comes to the best films of 2025: the directors who made them. ([source](https://www.indiewire.com/gallery/directors-pick-best-movies-2025))
+- [2026-07-27 14:26] Crowdfunding is a strategy, not an emergency. ([source](https://www.indiewire.com/news/analysis/why-filmmakers-should-rethink-crowdfunding-in-2025-1235161529))
+- [2026-07-27 14:26] “Content Creation” changes everytime an algorithm gets tweaked, Instagram becomes TikTok. ([source](https://www.reddit.com/r/Filmmakers/comments/1juxdng/what_is_the_future_of_content_creation))
+- [2026-07-27 14:26] AI will end the social media influence as it's obvious there's nothing genuine about it. ([source](https://www.reddit.com/r/Filmmakers/comments/1ox07dh/social_media_killed_the_hollywood_star))
+- [2026-07-27 14:26] It is a very peaceful place with very low crime rates and statistically they have the happiest teenagers in the ...Read more ([source](https://www.quora.com/I-want-to-go-to-a-safe-country-to-be-safe-with-my-four-children-Can-you-show-me-any-path-that-will-really-be-good-for-a-mother-with-four-children))
+- [2026-07-27 14:26] How to watch 2026 F1 Hungarian Grand Prix live online, livestream Apple TV. ([source](https://variety.com/2024/film/global/annecy-residency-animation-celine-sciamma-heirloom-1236039021))
+
+### Auto-promoted from New Learnings
+- [2026-08-09 12:11] Title: How to Build Your Personal Brand on Social Media | by Casey Botticello | Digital Marketing Lab | Medium ## Digital Marketing Lab. ([source](https://medium.com/digital-marketing-lab/how-to-build-your-personal-brand-on-social-media-6e981d975858))
+- [2026-08-09 12:11] ## Leverage Social Media for Personal Brand-Building  Social media is a great way to boost your personal brand and connect with people. ([source](https://medium.com/@simonhogben/boost-your-personal-brand-with-seo-strategies-1dcc53883aab))
+- [2026-08-09 12:11] I may be stupid, but I don't really understand what people mean when they say 'this NF is well produced' or 'the production in this NF was ([source](https://www.reddit.com/r/eurovision/comments/1szs531/what_does_a_shows_good_or_bad_production_mean))
+- [2026-08-09 12:11] Bot never approved : r/wikipedia - Reddit ([source](https://www.reddit.com/r/wikipedia/comments/1kwauyb/bot_never_approved))
+- [2026-08-09 12:11] What tips do you have on how to get Wikipedia to approve your article by recent standards (as of 2021)? ([source](https://www.quora.com/What-tips-do-you-have-on-how-to-get-Wikipedia-to-approve-your-article-by-recent-standards-as-of-2021))
+- [2026-08-09 12:10] ph: Melinda Sue Gordon / © Universal Pictures / Courtesy Everett Collection  ## Most Popular  ## You may also like [...] AI slop out there, and t ([source](https://www.indiewire.com/news/business/ai-production-platform-filmmakers-analysis-1235197860))
+- [2026-08-09 12:10] Content remains king on LinkedIn in 2025, with native documents and short videos driving 42 percent of engagement, per Hootsuite’s mid-year report, necessitating tools that blend AI efficiency with human touch to produce resonant posts. ([source](https://medium.com/@amin-writes/linkedin-marketing-tools-for-business-growth-in-2025-essential-strategies-and-innovations-d65d8a74668c))
+- [2026-08-09 12:10] People can upload photos or videos to our service and share them with their followers or with a select group of friends. ([source](https://help.instagram.com/424737657584573))
+- [2026-08-09 12:10] The developer provided this information and may update it over time. ([source](https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_US))
+- [2026-08-09 12:10] [...] The very first screenplay I ever wrote placed in the quarter finals of The Austin Film Festival. ([source](https://medium.com/@plemons516/the-screenwriting-industry-is-a-brutal-beast-to-break-into-7b9e64da62f5))
+- [2026-08-09 12:10] Screenwriting guru Syd Field dies | News | Screen ([source](https://www.screendaily.com/news/screenwriting-guru-syd-field-dies/5063748.article))
+- [2026-08-07 16:06] It takes 6-12 months to see the effects of good SEO strategy. ([source](https://www.reddit.com/r/smallbusiness/comments/1i63h52/what_did_you_pay_for_seo_services_was_it_worth_it))
+- [2026-08-07 16:06] The best way, in my opinion, to have visibility is to create a community around your brand or project. ([source](https://medium.com/authority-magazine/60-strategies-to-help-your-content-go-viral-7a88edaa514d))
+- [2026-08-07 16:06] THE ODYSSEY, from left: Matt Damon, Himesh Patel, 2026. ([source](https://variety.com/2025/film/global/biopic-photographer-ara-guler-coproduction-turkey-armenia-1236400322))
+- [2026-08-07 16:06] The Wikipedia page is for Ronald Norman Davis, recently he passed away and I would like to make a Wikipedia page for him as a favor for my friend. ([source](https://www.reddit.com/r/wikipedia/comments/1k4nhay/how_can_i_make_a_wikipedia_page_for_someone_and))
+- [2026-08-07 16:06] The $100,000 production took place in and around Austin, Texas in February 2025 and Reisinger collaborated with the distribution marketplace Attend. ([source](https://www.screendaily.com/features/how-content-creators-are-branching-out-into-film-theres-talent-on-the-internet/5215496.article))
+- [2026-08-07 16:06] At the time I write with intentional line breaks, simple structure, and an authentic voice, posts consistently outperform the long, formal updates. ([source](https://medium.com/@alemeyer/linkedin-in-2026-formats-hooks-and-posting-cadence-3d279be9d71e))
+- [2026-08-07 16:06] AI Adoption Rises Among Indian Screenwriters as Pay Gaps Persist ([source](https://variety.com/2026/film/news/ai-indian-screenwriters-pay-credit-gaps-1236663159))
+- [2026-08-07 16:06] (Photo by JUSTIN TALLIS / AFP) (Photo by JUSTIN TALLIS/AFP via Getty Images) [...] Colin Trevorrow on Product ([source](https://www.indiewire.com/features/interviews/colin-trevorrow-production-company-star-wars-1235131479))
+- [2026-08-07 16:06] Barry & Me     News    ### Locarno launches cash rebate to attract film and TV produc ([source](https://www.screendaily.com/news/letter-to-the-king-director-zaman-plans-armenia-story/5101142.article))
+- [2026-08-05 14:31] [...] Global media and entertainment revenues reached $1.1 ([source](https://variety.com/2026/tv/global/microdramas-online-video-growth-global-media-omdia-1236635447))
+- [2026-08-05 14:31] FAMILY GUY, center: Stewie Griffin (voice: Seth MacFarlane), right: Rupert, Martian Meg', (Season 23, ep. ([source](https://variety.com/2025/film/news/australian-drama-production-record-1236599470))
+- [2026-08-05 14:31] Trustworthy Wikipedia editors for hire? : r/PublicRelations ([source](https://www.reddit.com/r/PublicRelations/comments/1ll4zj1/trustworthy_wikipedia_editors_for_hire))
+- [2026-08-04 10:44] Who is the best personal branding strategist for creators in India right now? ([source](https://www.quora.com/Who-is-the-best-personal-branding-strategist-for-creators-in-India-right-now-I-m-specifically-looking-for-someone-who-understands-Organic-Visibility-Would-love-genuine-recommendations-especially-for-creators-and))
+- [2026-08-04 10:44] She serves on the PGA’s New Media Council and has been featured as a fresh voice on strategy, branding and pop culture in Inc. ([source](https://medium.com/thrive-global/20-top-marketers-share-their-3-most-powerful-digital-marketing-strategies-39f9ca214f8c))
+- [2026-08-04 10:44] ### The CW Picks Up Additional Seasons of 'Scrabble,' 'Trivial Pursuit,' 'Police 24/7'  The 11th edition of the Key Trends report specifically exami ([source](https://variety.com/2026/tv/global/streaming-pay-tv-european-audiovisual-observatory-1236698719))
+- [2026-08-04 10:44] For Anna Shchur of Siesta Entertainment, whose current project “Black Moth” is animated in Armenia with creative leadership in the U.S., this strategy is about quality and survival. ([source](https://variety.com/2025/film/global/catalonia-global-animation-powerhouse-annecy-1236418846))
+- [2026-08-04 10:44] How do you post your new page without going through the approval process on Wikipedia? ([source](https://www.quora.com/How-do-you-post-your-new-page-without-going-through-the-approval-process-on-Wikipedia))
+- [2026-08-04 10:44] ### Related Stories  Rupert Everett on the set of 'Fortitude Valley'  [News  ### Rupert Everett Joins ([source](https://deadline.com/2025/10/leif-entertainment-launches-to-align-brands-and-filmmakers-1236582459))
+- [2026-08-04 10:44] You can check out the 62 160+ of the best screenwriting fellowships, labs, grants, contests, and other opportunities, updated for 2025 ([source](https://www.reddit.com/r/Screenwriting/comments/1s768be/so_many_screenwriting_competitions_out_there))
+- [2026-08-03 16:35] Find DIY reputation management tutorials to control and repair your reputation, brand name, and presence online. ([source](https://medium.com/reputation-management/the-hesitation-of-a-personal-brand-41d9461f21c8))
+- [2026-08-03 16:35] Yet in 2025, personal websites remain not only viable but essential. ([source](https://medium.com/@ElektricTea/why-personal-websites-are-still-viable-in-2025-18a9fdf8a9b9))
+- [2026-08-03 16:35] These are just some of the trends shaping the European film and TV industry that are highlighted in a new report from the European Audiovisua ([source](https://www.screendaily.com/news/10-key-trends-shaping-the-european-film-and-tv-industries/5203286.article))
+- [2026-08-03 16:35] [...] Examining these and other trends in t ([source](https://variety.com/vip-special-reports/production-pipelines-tv-film-content-in-flux-1236282428))
+- [2026-08-03 16:35] I’m a copywriter employed by a fintech company that was tasked with creating the company’s Wikipedia page. ([source](https://www.reddit.com/r/wikipedia/comments/tdvpox/can_i_create_a_wikipedia_page_for_my_company))
+
+### Auto-promoted from New Learnings
+- [2026-08-13 11:32] Another advantage of working with a Wikipedia page creation agency is access to a network of experienced editors and reviewers. ([source](https://medium.com/@riyachaudhary2999/navigating-the-world-of-wikipedia-page-creation-agencies-14b1efec3042))
+- [2026-08-13 11:32] Light Wiki offers exclusive consultation services alongside Wikipedia creation services. ([source](https://medium.com/@evansleroy11/top-15-places-to-find-wikipedia-page-creation-services-7890f4b78a02))
+- [2026-08-13 11:32] Image 3: Fizza Batool  Fizza Batool  4 min read  ·  Oct 7, 2025    A content strategy is more than posting blogs or videos — it’s the _why_ behind what you create. ([source](https://medium.com/marketing-strategy-guide/the-ultimate-guide-to-building-a-content-strategy-that-actually-works-728bf4ab471b))
+- [2026-08-13 11:32] Where it fell short [...] Jasper was my secret weapon for repurposing big chunks of content-like blog posts or newsletters-into LinkedIn-ready ([source](https://medium.com/@claraneumann/10-best-linkedin-content-creation-ai-tools-in-2025-5b0b2258533e))
+- [2026-08-13 11:32] Daily holiday updates, delivered to your feed. ([source](https://medium.com/@checkiday/its-national-screenwriters-day-january-5-2025-ebfa89e00031))
+- [2026-08-13 11:32] [...] “We are honored to welcome a new group of visionary filmmakers who have created powerful, culture-changing stories t ([source](https://deadline.com/2025/01/sundance-screenwriters-lab-2025-fellows-1236257911))
+- [2026-08-13 11:32] Continue in app  Or, continue in mobile web  Sign up with Google  Sign up with Facebook  Sign up with email  Already have an account? ([source](https://medium.com/ifilmthings/screenwriting-tips-for-beginners-78d60051d820))
+- [2026-08-13 11:32] Screenwriting: cracking the code | News | Screen ([source](https://www.screendaily.com/screenwriting-cracking-the-code/4033627.article))
+- [2026-08-12 12:43] ·  Sep 15, 2018   mainly because of the popularity of the social media in today’s modern era. ([source](https://medium.com/digital-marketing-lab/5-high-authority-social-media-platforms-to-improve-your-seo-6687a011ecd1))
+- [2026-08-12 12:43] FilmLA, the city and county’s film permitting office, said Tuesday that on-location production in the greater Los Angeles area declined 13.2% from July through September 2025 compared to the same period last year. ([source](https://deadline.com/2025/10/los-angeles-film-tv-production-q3-2025-1236584450))
+- [2026-08-12 12:43] London TV Screenings' Top Series This Year ([source](https://variety.com/2025/tv/global/london-tv-screenings-top-series-1236315181))
+- [2026-08-12 12:43] Basically just write a draft page for your company, and then get it approved. ([source](https://www.reddit.com/r/wikipedia/comments/1opu82g/urgent_how_a_company_can_have_a_wikipedia_page))
+- [2026-08-12 12:43] Best tools for social media management Tips for creating engaging content marketing Open App ・ ([source](https://www.reddit.com/r/AskMarketing/comments/1mva9ex/how_do_i_get_a_company_wikipedia_page_approved))
+- [2026-08-12 12:43] April 5, 2019 - Could you give me a couple of examples as to how your work is laid out on your Linkedin? ([source](https://www.reddit.com/r/Filmmakers/comments/b9u001/gotta_make_your_linkedin))
+- [2026-08-12 12:43] In 2025, the contest celebrated writers across five categories: feature film, horror/thriller, TV pilot, short film, and screenplay mentorship. ([source](https://www.indiewire.com/awards/results/slamdance-2025-screenplay-competition-winners-1235157948))
+- [2026-08-11 10:43] Continue Reading  The Wikipedia:WikiProject Articles for creation process is the project which reviews draft articles, created in the Draft: namespace or as space of a user page in the User: namespace. ([source](https://www.quora.com/Who-reviews-Wikipedia-articles-for-submission))
+- [2026-08-11 10:43] Discuss your goals with the company and set realistic expectations about the approval process. ([source](https://medium.com/@digitalfreelance1134/discover-the-best-wikipedia-page-creation-company-for-reliable-and-professional-service-e575d3321106))
+- [2026-08-11 10:43] Answer (1 of 6): You need to get an agent. ([source](https://www.quora.com/Can-LinkedIn-help-an-aspiring-filmmaker-like-me-get-a-producer-to-make-my-movie-happen))
+- [2026-08-11 10:43] How to grow a new LinkedIn page in 2025 - Quora ([source](https://www.quora.com/How-do-I-grow-a-new-LinkedIn-page-in-2025))
+- [2026-08-11 10:43] [...] Related Stories  Betty Gilpin at Netflix's "Office Romance" New York Premi ([source](https://www.indiewire.com/awards/results/pedro-almodovar-film-at-lincoln-center-2025-chaplin-award-1235053392))
+- [2026-08-11 10:43] The 2025 fellowship class includes Emily Everhard, Fedna Jacquet, Aditya Joshi & Sid Gopinath, Alexandra Joyce, Thaddeus McCants, Zuri Rice and Naya James Sonnad. ([source](https://deadline.com/2025/06/wga-east-filmnation-2025-new-york-screenwriting-fellows-1236431110))
+- [2026-08-11 10:43] also received an Online Industry Pass to Sundance 2025. ([source](https://deadline.com/2025/02/natalie-baseman-named-cassian-elwes-independent-screenwriting-fellow-2025-1236285692))
+
+### Auto-promoted from New Learnings
+- [2026-08-18 14:53] Image 1  # Prove your humanity  We’re committed to safety and security. ([source](https://www.reddit.com/r/DigitalMarketing))
+- [2026-08-18 14:53] The main part of social media SEO is keyword and hashtag research. ([source](https://www.quora.com/Should-a-new-brand-focus-on-building-a-massive-social-media-following-before-they-even-think-about-starting-an-SEO-strategy))
+- [2026-08-18 14:52] See with them what changes can occur on the schedule and the assignations prior to taking any decision. ([source](https://medium.com/cgwire/the-main-indicators-of-a-cartoon-tv-series-production-1d0e9c0bc0ac))
+- [2026-08-18 14:52] Many key TV players look set to continue ramping up their drama production. ([source](https://variety.com/2016/tv/news/mipcom-2016-premium-drama-trends-challenges-1201890168))
+- [2026-08-18 14:52] Title: How do you contribute to the creation of articles? ([source](https://www.reddit.com/r/wikipedia/comments/lzp1u0/how_do_you_contribute_to_the_creation_of_articles))
+- [2026-08-18 14:52] Why does Wikipedia have so many articles on professional athletes? ([source](https://www.reddit.com/r/wikipedia/comments/1ekt73q/why_does_wikipedia_have_so_many_articles_on))
+- [2026-08-18 14:52] 1 if States Refuse to Negotiate Settlement in Antitrust Suit  Paramount, a Skydance Corporation Press Conference at 1515 Broadway on August 7, 2025. ([source](https://variety.com/2026/biz/news/variety-entertainment-marketing-summit-recap-1236727891))
+- [2026-08-18 14:52] Jordan Waunch is an award-winning Métis filmmaker based in the Coast Salish territories. ([source](https://deadline.com/2025/04/sundance-2025-lab-fellows-1236376265))
+- [2026-08-18 14:52] of their work from industry-leading filmmakers such as Greg Kwedar and Clint Bentley (“Sing Sings”), Sean Wang (“Dìdi”), Pamela Adlon (“Better Things”) and Marcus Gardley (“The Color Purple”). ([source](https://www.indiewire.com/news/breaking-news/antigravity-academy-2025-screenwriters-camp-projects-1235114735))
+- [2026-08-18 14:52] ### Latest International News  ### English Football Giants Liverpool Confirm Sale Of Stake To Jeff Bezos & Facebook Co-Founde ([source](https://deadline.com/2025/07/global-screenwriting-contest-hub-launched-stage-32-1236457432))
+
+### Auto-promoted from New Learnings
+- [2026-08-29 12:13] Google AI - How we're making AI helpful for everyone ([source](https://ai.google))
+- [2026-08-29 12:13] Explore our 2026 guide to AI agents  ## Benefits of AI  AI offers numerous benefits across various industries and applications. ([source](https://www.ibm.com/think/topics/artificial-intelligence))
+- [2026-08-29 12:13] 2026-06-28 🛠️ Agent Loop and TUI stability update: stronger LLM retries, persistent render sta ([source](https://github.com/hkuds/vimax))
+- [2026-08-29 12:13] A Publication of The Gotham  We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. ([source](https://filmmakermagazine.com/126607-ai-is-already-changing-filmmaking))
+- [2026-08-29 12:13] Filmmakers that have had a successful short film (either blew up on social media or got the attention of a producer etc) what was your marketing ([source](https://www.reddit.com/r/Filmmakers/comments/18csjj3/filmmakers_that_have_had_a_successful_short_film))
+- [2026-08-29 12:13] I mean, as much as any art form has ever been a viable career choice. ([source](https://www.reddit.com/r/Screenwriting/comments/1dxtfo5/but_i_want_to_move_to_la_is))
+- [2026-08-29 12:13] Looking for very long or multi part youtube videos or creators. ([source](https://www.reddit.com/r/ifyoulikeblank/comments/1107r8o/iil_youtube_channels_with_long_form_or_multi_part))
+- [2026-08-29 12:13] YouTube Podcast Users Top 1 Billion Monthly Viewers in 2025 ([source](https://variety.com/2025/digital/news/youtube-2025-monthly-podcast-listeners-viewers-1236319232))
+- [2026-08-29 12:13] Instagram has said it repeatedly: Reels with logos from other apps will get pushed down in the algorithm. ([source](https://buffer.com/resources/instagram-algorithms))
+- [2026-08-29 12:13] Instagram invites users to tweak the algorithm with categorical tags - Tubefilter ([source](https://www.tubefilter.com/2026/06/29/instagram-your-algorithm-adjust-category-tags))
+- [2026-08-29 12:13] Versus Adds Two Creative Leaders from Trollbäck+Company | LBBOnline ([source](https://lbbonline.com/news/Versus-Rosie-Garschina-and-Kevin-Anderson-Hires))
+- [2026-08-29 12:13] The New Face of Global Content Production | LBBOnline ([source](https://lbbonline.com/news/the-new-face-of-global-content-production))
+- [2026-08-29 12:13] Prioritize content that invites response, reflects shared values and leaves space for audiences to participate. ([source](https://www.thedrum.com/news/the-new-social-media-rules-3-trends-marketers-need-in-2026))
+- [2026-08-29 12:13] To capture insights from the jury rooms and the work submitted, we analyzed six emerging trends that stood out, reflecting the patterns of change in the wider world. ([source](https://www.thedrum.com/industry-insight/6-creative-industry-trends-that-are-making-waves))
+- [2026-08-29 12:13] Some 2,278 campaigns from 1,459 advertisers working with 1,076 agencies were analyzed to produce this year’s tables. ([source](https://www.thedrum.com/news/world-creative-rankings-2026-advertising-s-most-awarded-people-companies-and-campaigns))
+- [2026-08-29 12:13] 90 seconds, “with microdramas you’re not reinventing the wheel, you’re inventing a Gen Z telenovela,” says Caroline Servy at The Wit. ([source](https://variety.com/2026/tv/global/netflix-globo-wild-sheep-gaumont-usa-content-americas-1236634604))
+- [2026-08-29 12:13] Meet The New Wave Of Microdrama Apps Like Holywater, AppReel ([source](https://deadline.com/2026/01/microdrama-vertical-video-apps-international-new-wave-holywater-1236684224))
+- [2026-08-29 12:13] The 'Grandmonster' pitch     News    ### Zombie comedy ‘Grandmonster’, ‘Butterfly’ with Renate Reinsve among Haugesund winners    2026-08-27T17:30:00Z By Ben Dalton    ‘Grandmonster’ won the Best Pitch Award in the Nordic Co-Production Market. ([source](https://www.screendaily.com/skolimowski-lonsdale-specials-guests-at-paris-cinema-international-film-festival-/5026822.article))
+- [2026-08-29 12:13] Berlin’s European Film Market will run from February 11-18 next year. ([source](https://www.screendaily.com/news/berlin-film-festival-confirms-2026-dates/5204280.article))
+- [2026-08-29 12:12] Yuval Abraham Rachel Szor     News    ### Yuval Abraham and Rachel Szor’s Venice t ([source](https://www.screendaily.com/features/nine-talking-points-for-the-global-film-industry-in-2023/5177895.article))
+- [2026-08-29 12:12] ## 2026 film and high-end TV productions shooting in the UK and Ireland: latest updates  Screen reveals a snapshot of the latest high-end TV and film productions shooting in the UK for the big studios and streamers. ([source](https://www.screendaily.com/news))
+- [2026-08-28 13:35] The company now openly describes it as a widely used production tool for making content faster and more cheaply than with traditional methods. ([source](https://www.cartoonbrew.com/artificial-intelligence/netflix-genai-300-titles-in-first-half-2026-264631.html))
+- [2026-08-28 13:35] Smart Marketers will shift from discrete AI tools to connected workflows  “AI in the stack” is the wrong mental model. ([source](https://www.adweek.com/brand-marketing/10-ai-marketing-trends-for-2026-agentic-ai-and-search-shifts))
+- [2026-08-28 13:35] “It opens up possibilities for people with another background, with no knowledge of filmmaking, and I see that as a positive, because it also applied to myself, “ he says. ([source](https://lbbonline.com/news/artificial-intelligence-production-companies-2025-state-of-play))
+- [2026-08-28 13:35] What's everyone using for ai video in 2026?Image 26 r/aivideomaking•10d ago    ### What's everyone using for ai video in 2026? ([source](https://www.reddit.com/r/ProductMarketing/comments/1em8jrl/i_tried_5_ai_video_tools_so_you_dont_have_to))
+- [2026-08-28 13:35] Hub Title: GitHub - Final-Draft-Av-Premium/Final-Draft-Av-Screenwriting-Software: Discover Final Draft AV, the ultimate scriptwriting tool for filmmakers and content creators. ([source](https://github.com/Final-Draft-Av-Premium/Final-Draft-Av-Screenwriting-Software))
+- [2026-08-28 13:35] An assistant professor in Media Arts, Sciences and Studies at Ithaca College, Chrissy Guest also brings her background in documentary filmmaking and broadcasting to her directing and television production courses. ([source](https://variety.com/2019/film/features/entertainment-education-report-best-films-schools-for-2019-1203213637))
+- [2026-08-28 13:35] Join our newsletter to receive the latest news, trends, and features straight to your inbox! ([source](https://blog.youtube/creator-and-artist-stories/indian-podcast-trends))
+- [2026-08-28 13:35] Gen Z know what their passions are — they just want to find out more about them, and they will spend their time to explore. ([source](https://www.thinkwithgoogle.com/intl/en-emea/consumer-insights/consumer-trends/gen-z-long-form-videos))
+- [2026-08-28 13:35] Best for: Creators who can commit to longer-form or tutorial content, anyone building searchable evergreen value, and educators. ([source](https://buffer.com/resources/creator-growth-playbook))
+- [2026-08-28 13:35] It could be a good update, ensuring that original creators get more recognition, though this may also impact the overall IG ecosystem. ([source](https://www.socialmediatoday.com/news/instagram-updates-algorithm-to-benefit-original-creators/819016))
+- [2026-08-28 13:35] Time spent on Instagram is still climbing, but Meta’s own data reveals why: the algorithm is force-feeding short video into the feed. ([source](https://www.thedrum.com/opinion/mark-ritson-brands-are-all-in-on-creators-meanwhile-in-reality-the-economics-crash))
+- [2026-08-28 13:35] 6 minute read  The creator economy is entering a new chapter defined by structure, trust, and long-term leverage. ([source](https://later.com/blog/twenty-2026-creator-economy-predictions))
+- [2026-08-28 13:35] In 2025, Mama Hungara celebrates its tenth anniversary at a c ([source](https://lbbonline.com/news/Argentine-Creative-Production-Pushes-Boundaries-in-the-Cultural-Landscape))
+- [2026-08-28 13:35] Ampere Analysis Tracks Global Industry Trends at the EFM ([source](https://variety.com/2025/film/global/ampere-analysis-film-industry-trends-efm-1236309292))
+- [2026-08-28 13:34] Spot negative sentiment or potential crises fast and react immediately (sometimes even turning these situations into publicity wins). ([source](https://blog.hootsuite.com/social-listening-business))
+- [2026-08-28 13:34] As Threads continues to evolve and refine its algorithm, these trends may shift, but for now, a simple, effective approach is to mix in visuals alongside your text to give your posts an extra boost. ([source](https://buffer.com/resources/social-media-marketing-guide))
+- [2026-08-28 13:34] July 08, 2026 01:32 PM EDT  Image 15: Evan Levy  Load More Articles  ## Latest News  7 creative campaigns to know about today  Target apologi ([source](https://adage.com/on-the-move))
+- [2026-08-28 13:34] Tiny episodes, massive appeal: Short-form serials are gaining viewers and empowering independent studios&nbsp;&nbsp;Deloitte ([source](https://news.google.com/rss/articles/CBMizwFBVV95cUxOc3pZVUpxLU9TTVd5RGx5c24yamVfNDE1YjJ1OUtsQVUzZXJ2c1hmQ3NoNVdteFN1QjE0M0VidTNRQWl4V2JSanQ2SXhiWllOdXBQVV9BOW1VNWhURDh6Zzk2Wm5wbHVIZHBoQndxMDI4b2NIYWhDTnVFc19nTC04aV94eER1dDlUbldUSlg4N1dGaUpsTERhTVFNYm1zVElZRFI1NnBNZHg0ZjJyVmoxUFAyVTk0MDFmUG93RnhKdVZ6amoxWUNmM3dSLVhFSlU?oc=5))
+- [2026-08-28 13:34] Romance Becomes Latin America’s Top Scripted TV Genre as Microdramas Drive New Growth - Señal News&nbsp;&nbsp;Senal News ([source](https://news.google.com/rss/articles/CBMitAFBVV95cUxQcUN1LXhOV2tUdjdSVXdiS0xzeVlqLXMwX21RWXFqSHRlUThLZEgtcFgwMWh3dmNXNXZjaVZiLUpmNklRbkM1b0VoVjI4eVpPTldPSmIwc25jWUw4SG1mZlVqbGxjY0YzRGJRbVZBUkNoYUg5VHUyYjRIYzlESkZPV2tHc0gzbVdkTW94dDhULU9MSUJMaU1OdnpITlExUFlHaWRRaUY5ZVZYUXRGR3c1dktjUDLSAboBQVVfeXFMUE12Z2lvMVR2cWxULU9SMEFlZmNSUVNYRWRTWFRCSExjWWlUVUpXaFkwWmM1VnJmMWFNX2Fja2RsaGlzWkxPUjJRd180QVNCYTQwaEJSZEtGQXFRUmxUb2JIRXdjT1AxMkxRZ2kzQmQ4ZS1CLWM3azZESVE2bngyMWIxcUZKV1FUTWpGV3R2OWgtX1hISDRIQ1dqUWRVeTUzYmdZS1BMOVhmWXFhcGMxVWVlWm96VHJVTEdB?oc=5))
+- [2026-08-28 13:33] Cannes Film Festival Talking Points: AI To Academy Rules & Market Buzz ([source](https://deadline.com/2026/05/cannes-film-festival-market-talking-points-buzz-list-1236897173))
+- [2026-08-28 13:33] With the 2026 Cannes Film Festival comes the annual ritual of belief: A film’s value is determined in a concentrated moment, when buyers, press, and audiences converge. ([source](https://www.indiewire.com/news/analysis/film-festival-attendance-distribution-strategy-changing-1235192825))
+- [2026-08-28 13:33] Hollywood: Where Creativity Went to Die&nbsp;&nbsp;National Review ([source](https://news.google.com/rss/articles/CBMikAFBVV95cUxPV0xrUGhhVVZBbFRHV1pieFhUTmNKLVlNOVpJY3dBU19BQ3htcG1jZEM1N29OWnAtX25kZm5hZGZKZkZmUy1mSElGeHh1SnQ0X3pJYkF4Y1ctZXBmR3FPdi04N3RYRE01b1g3X3A2bDVYS2dVaGxuWFBYTHptZWtJNVhoU1lBNWxOaWRvMHZ4U2Q?oc=5))
+- [2026-08-28 13:33] ‘Digging the grave of my profession’: the Hollywood creatives training AI to do their jobs&nbsp;&nbsp;The Guardian ([source](https://news.google.com/rss/articles/CBMipgFBVV95cUxOaU41dWFiSTBtUllrMDA4VHZPUkVnU1VScGRVUmhvU2IwWl91eURsMFFuNFVXRGF6OVZFX0h6VF9NZTNjOHR3b1FfcHpWMFJ5VjNoUHR2c21UZjdsM2tuR19yMXJPN0daUTE5RE9jUnFzSlYtX193cklPdE9FLXB4RzFsUE42LVJYREUyUWJOdHZfako3bV9SMWhSNEtyN2JNYllqWVpn?oc=5))
+- [2026-08-27 12:41] What this means for marketers in 2026 planning cycles [...] This year’s AI‑in‑marketing cohort points to a pragmatic shift: fr ([source](https://www.thedrum.com/profile/the-brandtech-group/article/from-ai-to-agents))
+- [2026-08-27 12:41] ## How Creative Tools Are Evolving [...] Looking ahead, creators are excited ([source](https://techcrunch.com/sponsor/artlist/87-of-creators-now-use-ai-how-the-technology-is-reshaping-creative-workflows))
+- [2026-08-27 12:41] Amazon to begin testing AI tools for film and TV production next month | TechCrunch ([source](https://techcrunch.com/2026/02/04/amazon-to-begin-testing-ai-tools-for-film-and-tv-production-next-month))
+- [2026-08-27 12:41] Title: Beta Film & Film School Team To Shape Future Of AI Production # Beta Film & German Film School FABW Launch “Lab-To-Market” AI Production Initiative. ([source](https://deadline.com/2025/11/beta-film-tv-ai-initiative-filmakademie-baden-wurttemberg-1236621237))
+- [2026-08-27 12:41] From emerging to professional writers, we come together to teach, learn, and share everything about screenwriting for film and television. ([source](https://www.reddit.com/r/Screenwriting/comments/1hnj0zd/netflix_tells_writers_to_have_characters_announce))
+- [2026-08-27 12:41] From emerging to professional writers, we come together to teach, learn, and share everything about screenwriting for film and television. ([source](https://www.reddit.com/r/Screenwriting/comments/8v7d5f/i_always_feel_like_my_ideas_are_copying_other))
+- [2026-08-27 12:41] Google Trends data shows that global search interest for “video podcast” on YouTube has increased by 20% so far in 2025, compared to 2024. ([source](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/video/youtube-video-podcast-strategy))
+- [2026-08-27 12:41] This strategy maximizes the value of your core content and keeps your audience engaged between main episode releases. ([source](https://blog.youtube/creator-and-artist-stories/the-definitive-guide-to-creating-engaging-podcast-content))
+- [2026-08-27 12:41] The blend of familiar and new content is tailored meticulously to user preferences, making the social network addictive and fresh. ([source](https://buffer.com/resources/tiktok-algorithm))
+- [2026-08-27 12:41] In addition, Matt Rogers and Bowen Yang, co-hosts of the “Las Culturistas” podcast, will join the Milan Cortina Creator Collective and shoot a new Winter Games season of the “Two Guys, Five Rings” podcast, in p ([source](https://variety.com/2025/digital/news/nbc-2026-winter-olympics-youtube-instagram-tiktok-creators-1236597425))
+- [2026-08-27 12:41] Graham Alvarez-Jarratt, chief strategy officer --Dentsu Creative Australia: Two of the biggest films this year haven’t originated with Hollywood royalty. ([source](https://lbbonline.com/news/aunz-biggest-cultural-moments-2026))
+- [2026-08-27 12:41] On average, more than 1M channels used our AI creation tools daily in December. ([source](https://blog.youtube/inside-youtube/the-future-of-youtube-2026))
+- [2026-08-27 12:41] From the rise of nostalgia core to more conversations about AI content creation, these are the trends to keep on your radar:  ### #1: Long-form Content Returns  For the past three years, short-form content centered around trending aud ([source](https://later.com/blog/social-media-predictions))
+- [2026-08-27 12:41] Here are the 10 social media trends the Later marketing team expects to make waves in 2026. ([source](https://later.com/blog/social-media-trends))
+- [2026-08-27 12:40] (Ad Age)  JN  By  Jess Nagamoto  June 16, 2026 07:00 AM EDT  ## Featured Stories  Media  How Newell Brands’ global head of media is building a unified cross-channel operation [...] James Clarke, global head o ([source](https://adage.com/datacenter/aa-agency-report-2026-overview))
+- [2026-08-27 12:40] August 04, 2026 08:00 AM EDT  Image 6: TBWA refreshes global visual identity, emphasizing the hum ([source](https://adage.com/agencies/creative-agencies))
+- [2026-08-27 12:40] We’re hearing reports of Chinese microdrama services shopping daily (yes, daily) at trusted vertical video suppliers, going direct to the source. ([source](https://deadline.com/2026/02/microdrama-vertical-video-tv-distributors-1236714399))
+- [2026-08-27 12:40] Traditional Hollywood players are scrambling to get into the action. ([source](https://variety.com/2026/tv/news/microdramas-brands-cannes-lions-preview-1236770634))
+- [2026-08-27 12:40] Filmmaking  Columns  Festivals & Events  Interviews  Videos  Current Issue  25 New Faces  Newsletter  + Subscribe   + Advertise   + Support   + Issue Archive   + Privacy policy   + View Print Magazines  Filmmaker ([source](https://filmmakermagazine.com/95983-how-global-south-filmmakers-find-funding-through-film-festivals-in-the-global-north))
+- [2026-08-27 12:40] BUDGET CUTS: Almost every single major film festival is tightening their belt. ([source](https://www.reddit.com/r/Filmmakers/comments/17fnuxb/film_festival_trends))
+- [2026-08-27 12:40] Film & TV Market made a persuasive case that the screen business, for all its anxieties about AI and fragmentation, remains hungry for connection. ([source](https://variety.com/2026/film/markets-festivals/hong-kong-filmart-2026-takeaways-1236695795))
+- [2026-08-27 12:40] View on the marketplace: “We as an industry have to keep making these [types of films]. ([source](https://variety.com/lists/variety-10-producers-to-watch-2026))
+- [2026-08-25 11:58] I've been exploring AI Agents designed specifically for content creation — writing blogs, generating social media posts, even full video scripts. ([source](https://www.reddit.com/r/AI_Agents/comments/1k9ol6q/whats_your_take_on_ai_agents_in_content_creation))
+- [2026-08-25 11:58] AI agents are the ad industry's current obsession. Do they deliver? ([source](https://digiday.com/media-buying/how-agencies-publishers-and-platforms-are-actually-using-ai-agents))
+- [2026-08-25 11:58] Best for cinematic inserts that you cut into a larger edit. ([source](https://www.reddit.com/r/AIAssisted/comments/1p250oh/i_tested_6_ai_video_tools_for_product_marketing))
+- [2026-08-25 11:58] And the Clip maker does a lightweight version of what OpusClip charges for: upload a longer video and it splices out short, captioned clips of the best moments. ([source](https://buffer.com/resources/ai-video-tools))
+- [2026-08-25 11:58] Join the most real place on the internet   Continue with Email   By continuing, you agree to our User Agreement and acknowledge that you understand the Pri ([source](https://www.reddit.com/r/Filmmakers/comments/1qk3gyo/is_anyone_in_the_tv_film_industry_doing_well))
+- [2026-08-25 11:58] (Photo by Jason Mendez/Getty Images for Tribeca Festival)  ### ‘Barbie 2’ in Cr ([source](https://variety.com/2026/film/focus/education-impact-report-2026-1236726484))
+- [2026-08-25 11:58] 2026 operations will be even more expensive, CFO Anat Ashkenazi said. ([source](https://www.tubefilter.com/2025/10/29/shorts-now-make-more-money-for-youtube-than-long-form))
+- [2026-08-25 11:58] Trends and top creators to follow for Oscars 2026 - YouTube Blog ([source](https://blog.youtube/culture-and-trends/oscars-2026-youtube-creator-trends))
+- [2026-08-25 11:58] What marketers need to know: “The algorithm will start prioritizing and rewarding content that is original and creative,” says Eileen Kw ([source](https://blog.hootsuite.com/instagram-algorithm))
+- [2026-08-25 11:58] Key TikTok algorithm changes in 2026 showing five updates including search growth, longer video rewards, TikTok Shop signals, content diversity, and STEM feed expansion ## Content TikTok won’t recommend in 2 ([source](https://blog.hootsuite.com/tiktok-algorithm))
+- [2026-08-25 11:58] Zero-click Future  #### Zoom relies on creators to boost AI search results  August 10, 2026   Facebook  Twitter  LinkedIn  Reddit  As AI changes how brands are discovered, Zoom is leaning on creators and journalists to shape i ([source](https://digiday.com/marketing/the-four-trends-to-watch-in-the-2025-creator-economy))
+- [2026-08-25 11:58] Ivy Liu  In 2026 “content creator” is an umbrella term that could range in meaning from influencer, creator, journalist, blogger to streamer. ([source](https://digiday.com/media/not-all-creators-are-the-same-how-the-creator-economy-breaks-down-by-business-model))
+- [2026-08-25 11:58] Key elements of the strategic funding initiative include expanding the U.K. ([source](https://www.hollywoodreporter.com/business/business-news/uk-screen-growth-package-film-tv-creative-places-fund-1236295856))
+- [2026-08-25 11:58] LBB hands the mic to creative types around the world to hear which visual design trends they believe should be laid to rest in 2026. ([source](https://lbbonline.com/news/Which-Visual-Trend-Needs-to-Die-in-2026))
+- [2026-08-25 11:58] But how can you actually apply these shifts in your own strategy, and what other trends are worth noting for your plan? ([source](https://www.socialmediatoday.com/news/15-social-media-marketing-trends-for-2026-infographic/806734))
+- [2026-08-25 11:58] Gen Alpha chaos culture is shaping new content norms  11. ([source](https://blog.hootsuite.com/social-media-trends))
+- [2026-08-25 11:58] Nearly 20 years after Grey Goose and the USTA introduced the cocktail, sales are still rising—and the partners are investing to keep it growing. ([source](https://adage.com/ad-age-video-podcast/insider/aa-reporters-2026-marketing-trends-pivots))
+- [2026-08-25 11:58] It tracks the results of media award shows around the world, and acts as a benchmark for media excellence, allowing marketers to compare their performance with that of their peers. ([source](https://www.warc.com/en/data-benchmarks/rankings-media-100-overview))
+- [2026-08-25 11:58] Now, in phase three, countries around the world are developing their own microdrama ecosystems, producing content that reflects their unique cultures and local tastes. ([source](https://variety.com/2025/tv/news/global-microdrama-boom-1236560947))
+- [2026-08-25 11:58] MicroCo, which has set its sights on releasing its app in the first half of 2026, plans on keeping costs low in part by retaining the microdrama tradition of working with largely unknown actors. ([source](https://www.hollywoodreporter.com/business/business-news/microdrama-series-verticals-production-1236418912))
+- [2026-08-25 11:58] “AI is transforming film and entertainment content production and reshaping the future of storytelling,” says Yeung. ([source](https://www.hollywoodreporter.com/movies/movie-news/hong-kong-filmart-30-anniversary-marketplace-powerhouse-1236505458))
+- [2026-08-25 11:58] That’s as exhibitors and buyers do business, especially around pre-sales, from November 10 to 15 in and around the Fairmont Century Plaza and th ([source](https://www.hollywoodreporter.com/business/business-news/american-film-market-2026-edition-1236587229))
+- [2026-08-25 11:58] Nine talking points for the UK film industry in 2026 | Features | Screen ([source](https://www.screendaily.com/features/nine-talking-points-for-the-uk-film-industry-in-2026/5212353.article))
+- [2026-08-25 11:58] The genre has now become a staple for many OTT and streaming platforms in Taiwan, and even WeTV — the international streaming platform of China’s Tencent — made its first Taiwanese BL drama with 2021’s We Best Love. ([source](https://www.hollywoodreporter.com/movies/movie-news/taiwan-screen-industry-booms-streamers-1235151024))
+- [2026-08-25 10:29] Turning to international co-productions, Schneeberger noted that the share among high-end TV series had remained relatively stable over time and much lower than in the theatrical film sector. ([source](https://variety.com/2026/tv/global/european-audiovisual-observatory-series-mania-maipo-1236697571))
+- [2026-08-25 10:29] I got an offer to have one of my tv series done in Armenia, and when I saw the budget I declined. ([source](https://www.reddit.com/r/armenia/comments/hgwcfa/what_happened_to_our_filmmaking_industry_and))
+- [2026-08-25 10:29] For a bot task to be approved on the English Wikipedia, a request, called a Bot Request For Approval (BRFA), must be filed. ([source](https://medium.com/thesanddoctor-blog/the-changing-wikipedia-landscape-e82fba36b5bc))
+- [2026-08-25 10:28] The Consistency Crew (Building Long-Term Engagement):     Newsletters (NL): Cultivate a loyal following by delivering consistent, valuable insights directly to their inboxes. ([source](https://medium.com/@rajkundalia/frameworks-to-write-linkedin-posts-609792eb90a0))
+- [2026-08-25 10:29] For screenwriters, a place like this can be more valuable than a more polished platform. ([source](https://www.reddit.com/r/Screenwriting/comments/1u9aeu1/i_wanted_to_take_a_second_to_thank_this_community))
+- [2026-08-25 10:29] everything is OVERLY polished these days, OVERLY determined by the algorithm. ([source](https://www.reddit.com/r/Screenwriting/comments/yzw9nu/the_worst_era_of_film_making_ever))
+- [2026-08-25 10:29] 19, director Shih-Ching will be honored with the 2025 Breakthrough Director award following a screening of her film “Left-Handed Girl,” which has been selected as Taiwan’s submission for Best International Fe ([source](https://variety.com/2025/film/news/montclair-film-festival-2025-honorees-spike-lee-2-1236521225))
+- [2026-08-25 10:29] Armenian Film Society will be opening a new headquarters, featuring an office space and microcinema, with the help of the city of Glendale ([source](https://deadline.com/2025/09/armenian-film-society-new-hq-microcinema-glendale-1236551528))
+
+### Auto-promoted from New Learnings
+- [2026-09-04 12:57] Share  Expand  Image 3: Digital collaborative workspace with Designer, director, and marketer mouse cursors  ​ (Luma)   Image 4: PB By Prince Boucher  March 16, 2026 09:00 AM EDT  Creative teams are under more pressure than ever. ([source](https://adage.com/studio-30/aa-how-creative-agents-can-close-the-gap-between-ambition-and-production))
+- [2026-09-04 12:56] Television writers benefit from specialized features for multi-camera scripts, sitcom formatting, and episode structure templates. ([source](https://github.com/Final-Draft-Script-Writing-Software/Final-Draft-Screenwriting-Software))
+- [2026-09-04 12:56] By Mark Stenberg  [](  #### Anthropic Has Never Signed a Licensing Deal With a Digital Publisher, Yet Never Been Sued. ([source](https://www.adweek.com/media/youtube-gives-creators-another-way-to-incorporate-long-form-videos-into-shorts))
+- [2026-09-04 12:56] IFA 2026: the biggest tech and gadget announcements  Notifications Drawer  Sign in to see your notifications or create an account to join the conversation. ([source](https://www.theverge.com/2022/4/14/23024230/youtube-shorts-video-sampling-remixing))
+- [2026-09-04 12:56] CreatorIQ recently released their annual Influencer Marketing Trends Report, designed to shine a light on the most important trends in the field. ([source](https://www.thedrum.com/industry-insight/creator-marketings-changing-as-fast-as-its-growing-here-are-4-ways-to-keep-up))
+- [2026-09-04 12:56] Canne Lions Grand Prix Winners in Industry Craft, Digital Craft, Film Craft, Design, Entertainment, Entertainment for Media and Entertainment for Sport | LBBOnline ([source](https://lbbonline.com/news/canne-lions-grand-prix-winners-in-industry-craft-digital-craft-film-craft-design-entertainment-entertainment-for-media-and-entertainment-for-sport))
+- [2026-09-04 12:56] Cannes Lions Grand Prix Winners in Industry Craft, Digital Craft, Film Craft, Design, Entertainment, Entertainment for Media and Entertainment for Sport | LBBOnline ([source](https://lbbonline.com/news/cannes-lions-grand-prix-winners-in-industry-craft-digital-craft-film-craft-design-entertainment-entertainment-for-media-and-entertainment-for-sport))
+- [2026-09-04 12:56] Check out all of the top winners from this year’sThe Drum Honors, browsecase studies of all the winning workfromthis year’s The Drum Awards festival, and mark your calendar for February, when we’ll unveil2026’s World Creative Rankings. ([source](https://www.thedrum.com/news/the-drum-honors-health-shops-share-top-spot-in-top-20-advertising-agencies))
+- [2026-09-04 12:56] Check out all of the top winners from this year’s The Drum Honors, browse case studies of all the winning work from this year’s The Drum Awards festival, and mark your calendar for February, when we’ll unveil 2026’s World Creative Rankings. ([source](http://www.thedrum.com/news/the-drum-honors-health-shops-share-top-spot-in-top-20-advertising-agencies))
+- [2026-09-04 12:56] By Jesse Whittock  ### Actor & Singer Luke Charles Stafford Launches Dream United Studios With ‘Against The Wall’  By Jesse Whittock  ### L.A. ([source](https://deadline.com/tag/microdrama))
+- [2026-09-04 12:56] [...] Amid an ongoing decline in traditional linear TV networks, microdramas are forecast to generate $11 billion in global revenues in 2025, acco ([source](https://www.hollywoodreporter.com/business/business-news/vancouver-vertical-microdrama-factory-1236451859))
+- [2026-09-04 12:56] Diana Sanchez / Mara Gourd-Mercado     News    ### Hot Docs unveils executive leadership team restructure    2026-09-02 ([source](https://www.screendaily.com/news/olsbergspi-screen-experts-to-discuss-the-latest-trends-in-global-film-and-tv-production-incentives/5199523.article))
+- [2026-09-04 12:56] Streaming drove 16.4% rise in 2020 global production, licensing spend to $220bn (report) | News | Screen ([source](https://www.screendaily.com/news/streaming-drove-164-rise-in-2020-global-production-licensing-spend-to-220bn-report/5160937.article))
+- [2026-09-03 09:37] These agents are designed to handle manual, repetitive and time-consuming work, executing tasks inside systems like CRMs, analytics environments and marketing automation tools. ([source](https://digiday.com/sponsored/how-new-infrastructure-like-the-model-context-protocol-is-reshaping-marketing-workflows))
+- [2026-09-03 09:37] ai-marketing · GitHub Topics · GitHub ([source](https://github.com/topics/ai-marketing))
+- [2026-09-03 09:37] Ted Lasso cast, Juno Temple, Jason Sudeikis and Hannah Waddingham, photographed in New York, July 7th 2026  ### ‘Ted Lasso’ Was Finished. ([source](https://www.hollywoodreporter.com/business/business-news/openai-introduces-ai-video-tools-encroaches-hollywood-1235826527))
+- [2026-09-03 09:37] Deadline is a part of PMX Global, LLC, a subsidiary of Penske Media Corporation. ([source](https://deadline.com/2024/12/new-ai-tools-video-production-distribution-channel-1-1236192520))
+- [2026-09-03 09:37] Then Jason Sudeikis Had an Epiphany  From left: Vicki Gunvalson, Teresa Giudice, Kyle Richards, Gizelle Bryan ([source](https://www.hollywoodreporter.com/news/general-news/toronto-screenwriting-conference-head-talks-hosting-tvs-biggest-creators-1122295))
+- [2026-09-03 09:37] 'Like & Describe' can be found on all major podcast platforms, and of course on YouTube. ([source](https://blog.youtube/culture-and-trends/youtube-podcast-launch-like-and-describe))
+- [2026-09-03 09:37] At the same time, she noted that Shorts had lowered the barrier of entry for creators, and some of those newbies are not sure how to fit in long-form videos as well. ([source](https://www.tubefilter.com/2023/09/05/youtube-shorts-cannibalizing-long-form-views))
+- [2026-09-03 09:37] So given the demand and foundations exist in the US and UK, the vital factor in shaping the future of creative production across entertainment and advertising is the shift in balance between artist and technology. ([source](http://www.thedrum.com/opinion/will-technicolor-s-demise-be-the-start-brave-new-world-creative-production))
+- [2026-09-03 09:37] [...] From emerging technologies and innovative workflows, here are the trends that are redefining creative production: ([source](https://www.lbbonline.com/news/the-future-of-creative-production-trends-to-watch-in-2024-and-beyond))
+- [2026-09-03 09:37] Social Media Trends 2026 | Hootsuite ([source](https://www.hootsuite.com/research/social-trends))
+- [2026-09-03 09:36] Mier Liu’s Microdrama House SWZZ Media Hires Nathalie Sar-Shalom To Scale L.A. Production ([source](https://deadline.com/2026/03/swzz-media-hires-nathalie-sar-shalom-microdrama-production-1236756748))
+- [2026-09-03 09:36] Title: Microdrama Firm Onset Octopus Boards Micro-Series Certified Alliance # British Microdrama Firm Onset Octopus First To Board Irvin Gelb’s Standard-Setting Micro-Series Certified Alliance. ([source](https://deadline.com/2025/12/microdrama-onset-octopus-micro-series-certified-alliance-1236631601))
+- [2026-09-03 09:36] ### Raquel Lee Reached Secret Settlement With Mark Curry Years Before Suing Disney Over Alleged Sexual Abuse  Ted Lasso cast, Juno Temple, Jason Sudeikis and Hannah Waddingham, photographed in New York, July 7th 2026  ### ‘Ted Lasso’ Was Finished. ([source](https://www.hollywoodreporter.com/movies/movie-news/film-academy-nicholl-fellowships-screenwriting-1236544661))
+- [2026-09-03 09:36] ### Melinda French Gates Doubles Olivia Rodrigo’s Daisy Chain Fields Donation Sum Bringing Total to $20 Million  How to Watch Dolly Parton Entertainment Tonight Special Streaming Free  ### ‘Entertainment Tonight’ Presents New Dolly Parton TV Sp ([source](https://www.hollywoodreporter.com/business/business-news/production-in-2024-where-to-film-2025-1236123826))
+- [2026-09-01 14:39] 17 AI Tools for Social Media Content Creation in 2026 ([source](https://buffer.com/resources/ai-social-media-content-creation))
+- [2026-09-01 14:39] Star  0  AI creative production workflow for ad concepts, copy, video prompts, feedback loops, and Notion-backed campaign tracking. ([source](https://github.com/topics/marketing-ai?l=python))
+- [2026-09-01 14:39] On Thursday, the startup released Cinema Studio 2.0, an update to its AI video platform aimed at creators and ad teams trying to turn quick prompts into something closer to commercial-grade storytelling. ([source](https://www.adweek.com/media/exclusive-higgsfield-update-ai-cinema-studio-2))
+- [2026-09-01 14:39] Best AI content creation tools for 2026: Tested picks ([source](https://blog.hootsuite.com/ai-content-creation-tools))
+- [2026-09-01 14:38] Reality Checks: How Film Schools are Adapting to Entertainment Industry Changes - Filmmaker MagazineFilmmaker Magazine ([source](https://filmmakermagazine.com/126591-film-school-curriculum-changes-2024))
+- [2026-09-01 14:38] The Critical Debate Over Film Versus Television Rages On ([source](https://www.indiewire.com/news/general-news/the-critical-debate-over-film-versus-television-rages-on-130074))
+- [2026-09-01 14:38] Longtime creators of long form content constantly joke that they know most people have their videos in a second monitor or just as background ([source](https://www.reddit.com/r/podcasting/comments/1t4hvjq/is_video_actually_taking_over_podcasting_now_or))
+- [2026-09-01 14:38] “Conversational video formats are on the rise, especially as YouTube becomes a popular destination for podcasts.” A YouTube video of two content creators doing a podcast. ([source](https://www.thinkwithgoogle.com/intl/en-apac/future-of-marketing/creativity/youtube-meet-the-leaders-kevin-allocca))
+- [2026-09-01 14:38] [...] Most "creators" I see on insta/tiktok are just people with pretty fa ([source](https://news.ycombinator.com/item?id=38261666))
+- [2026-09-01 14:38] | Platform | Top ranking signals | Preferred format | Chronological option? ([source](https://blog.hootsuite.com/social-media-algorithm))
+- [2026-09-01 14:38] GitHub - j0hnm4r5/awesome-creative-technology: Curated list of Creative Technology groups, companies, studios, collectives, etc. · GitHub ([source](https://github.com/j0hnm4r5/awesome-creative-technology))
+- [2026-09-01 14:38] The survey found that younger consumers simply trust creators more, and feel a more personal connection to them, which in turn bolsters advertising engagement. ([source](https://www.hollywoodreporter.com/business/business-news/deloitte-gen-z-creator-content-streaming-price-1236171227))
+- [2026-09-01 14:38] Consumers are using tools such as Gemini’s Nano Banana to bring their ([source](https://www.thinkwithgoogle.com/consumer-insights/consumer-trends/local-search-conversion-statistics))
+- [2026-09-01 14:38] Leading agencies are using AI to develop, personalize, and analyze creative assets. ([source](https://www.thinkwithgoogle.com/marketing-strategies/automation/advertising-agency-partnership-ai-adoption))
+- [2026-09-01 14:38] Amp members pick the best ads of 2025 (so far) [ ([source](https://adage.com/creativity))
+- [2026-09-01 14:38] [...] For instance, CBS, whose scripted portfo ([source](https://deadline.com/2026/05/upfronts-2026-scripted-series-comeback-broadcast-networks-1236902290))
+- [2026-09-01 14:38] Microdrama revenues outside China are set to grow from $2.7bn to $3.6bn this year, rising to $9.5bn by 2031, MPA estimates. ([source](https://www.screendaily.com/news/microdrama-revenue-outside-china-to-hit-36bn-in-2026-says-report/5219165.article))
+- [2026-09-01 14:38] The festival also confirmed dates for its professional and industry activities. ([source](https://deadline.com/2025/04/berlin-film-festival-2026-dates-1236378671))
+- [2026-09-01 14:38] DGC and IATSE, digital cameras and now streaming have changed film immensely. ([source](https://www.reddit.com/r/Screenwriting/comments/1ek3iex/how_do_high_standards_for_screenwriters_result_in))
+- [2026-08-31 13:36] : r/AI_Agents  Open menu Open navigation:     Pneumatic: Workflow management tool focused on defining and running structured business processes. ([source](https://www.reddit.com/r/AI_Agents/comments/1szfsq4/ai_agents_for_automation_in_2026_sorted_by_use))
+- [2026-08-31 13:36] # The Future Competitive Landscape with Google AI Agen ([source](https://www.reddit.com/r/AISEOInsider/comments/1nf1qb1/why_google_ai_agents_will_replace_every_content))
+- [2026-08-31 13:36] Humanitas Prize Opens Applications Process for 2026 Awards ([source](https://variety.com/2026/tv/news/humanitas-prize-applications-process-2026-awards-1236666078))
+- [2026-08-31 13:36] Humanitas Prize Opens Applications Process for 2026 Awards ([source](https://variety.com/2026/film/news/humanitas-prize-applications-process-2026-awards-1236666078))
+- [2026-08-31 13:36] Rene's Top 5 on YouTube: Year in Review - YouTube Blog ([source](https://blog.youtube/creator-and-artist-stories/renes-top-5-on-youtube-2023))
+- [2026-08-31 13:36] “You should just be in this category, because if it were TV, you’d be picking this section of TV.”  Trending in The Creator Economy   01    The Creator Economy     The winners ([source](https://digiday.com/future-of-tv/long-form-creators-eye-taking-over-tvs-and-chasing-bigger-brand-budgets))
+- [2026-08-31 13:36] short-form video | TechCrunch ([source](https://techcrunch.com/tag/short-form-video))
+- [2026-08-31 13:36] The UK Creative Festival Announces Partnerships with Global, BA Diversity Media, Sparks and More | LBBOnline ([source](https://lbbonline.com/news/the-uk-creative-festival-announces-partnerships-with-global-ba-diversity-media-sparks-and-more))
+- [2026-08-31 13:36] Amir Sahba, founder, Thinkingbox: “There has been a quiet resurgence of experiential marketing, largely overshadowed by the nonstop conversations about AI. ([source](https://www.thedrum.com/news/are-these-the-biggest-creative-and-strategic-stories-we-missed-in-2025))
+- [2026-08-31 13:36] The average consumer now uses nearly seven platforms a month, as reported in our 2026 Global Digital Overview. ([source](https://www.socialmediatoday.com/spons/4-trends-shaping-social-media-marketing-in-2026/806512))
+- [2026-08-31 13:35] Marco Mueller Launching Film Festival and Market in Macau ([source](https://variety.com/2023/film/news/marco-mueller-asia-europe-young-cinema-festival-market-macau-1235805204))
+- [2026-08-31 13:35] “For certain movies there’s no upside in going to a festival,” says an awards strategist. ([source](https://www.screendaily.com/features/dublin-film-festival-head-grainne-humphreys-on-showcasing-world-cinema-and-celebrating-gilmore-girls/5202206.article))
+- [2026-08-31 13:35] Will we see one platform dominate, 2-3 share the pie or more? ([source](https://www.reddit.com/r/Screenwriting/comments/1217ipd/everything_aside_where_is_the_movie_industry))
+- [2026-08-31 13:35] 10 talking points for the US and international film industry in 2025 | Features | Screen ([source](https://www.screendaily.com/features/10-talking-points-for-the-us-and-international-film-industry-in-2025/5200880.article))
+
+### Auto-promoted from New Learnings
+- [2026-09-12 12:30] [...] Thanks to YouTube’s promotion on Clips, creators like Mark Rober have been able to reach new audiences on Shorts, often by cutting down memorable moments from longer uploads. ([source](https://www.tubefilter.com/2025/01/08/youtube-long-form-content-clip-shorts-tool))
+- [2026-09-12 12:30] May be an image of candy, fruitcake and text. ([source](https://www.instagram.com/instagram))
+- [2026-09-12 12:30] 58 people found this review helpful  Chantené Stadler   Flag inappropriate  April 15, 2026  I love Instagram, however, this new algorithm change is really bad and discouraging. ([source](https://play.google.com/store/apps/details?id=com.instagram.android&hl=en-US))
+- [2026-09-12 12:30] LinkedIn has already rolled out its dedicated video feed in some regions, making it easier to flip through video updates in the app. ([source](https://www.socialmediatoday.com/news/36-predictions-social-media-marketing-2026/802195))
+- [2026-09-11 13:54] GitHub - gtmagents/gtm-agents: Production-ready collection of GTM agents and specialized skills for claude code. Covers sales, marketing, customer success, and revenue operations w ([source](https://github.com/gtmagents/gtm-agents))
+- [2026-09-11 13:54] Now with After Effects, filmmakers can use AI-powered techniques to automate time-consuming manual tasks such as motion tracking and visual effects. ([source](https://variety.com/vip/how-artificial-intelligence-will-augment-human-creatives-in-film-and-video-production-1235672659))
+- [2026-09-11 13:54] The video reimagines production in this new age of AI video, created in collaboration with indie New York-based creative agency Gus and pioneering AI director Blair Vermette. ([source](https://lbbonline.com/news/This-invideo-Film-Tells-a-Human-Story-with-AI-Tools))
+- [2026-09-11 13:54] YouTube has cemented itself as the new frontier of the podcasting medium, presenting incredible opportunities for reach and audience connection. ([source](https://variety.com/2026/biz/news/youtube-podcasting-next-era-exclusive-sxsw-event-new-top-podcasts-lineups-for-brands-1236694329))
+- [2026-09-11 13:54] + “This digital-first interview series sees comedian and creator Morgan Jay using his music and humor to guide celebrity guests through light-hearted therapy sessions – blending improv, vulnerability and live songwriting into one seamless format. ([source](https://www.tubefilter.com/2026/05/13/youtube-brandcast-2026))
+- [2026-09-11 13:54] Social platforms have yet to figure out how to share ad revenue from short-form video. ([source](https://techcrunch.com/2023/08/10/7-vcs-explain-why-the-creator-economy-still-has-legs))
+- [2026-09-11 13:54] FilMart  As short-form video begins to dominate global viewing habits, a new monetization playbook is emerging — one driven by watch time, scalable content formats and increasingly, AI-generated storytelling. ([source](https://variety.com/2026/digital/news/short-form-video-ai-generated-dramas-filmart-1236692132))
+- [2026-09-11 13:54] The emotive screen  According to the Dentsu Gaming Report 2025, the gaming industry ([source](https://www.thedrum.com/open-mic/6-creative-industry-trends-that-are-making-waves))
+- [2026-09-11 13:54] The emotive screen  According to the Dentsu Gaming Report 2025, the gaming industry ([source](http://www.thedrum.com/industry-insight/6-creative-industry-trends-that-are-making-waves))
+- [2026-09-11 13:54] Strategies are evolving rapidly to meet global trends by focusing on authentic creator collaborations, live shopping experiences, interactive formats (polls, quizzes), and building strong, engaged communities around shared values. ([source](https://lbbonline.com/news/m25-Global-Creative-Series-Episode-3))
+- [2026-09-11 13:54] 10 Global Creative Leaders Who Are Reinventing Advertising, and the Ad Industry ([source](https://www.adweek.com/creativity/10-global-creative-leaders-who-are-reinventing-advertising-and-the-ad-industry))
+- [2026-09-11 13:53] In 2025, Fox Entertainment acquired an equity stake in Holywater and entered in active productive on a slate of 200 original microdramas and vertical series for the platform. ([source](https://deadline.com/2026/02/maksim-chmerkovskiy-vertical-series-wild-silence-my-drama-1236733868#comments))
+- [2026-09-11 13:53] In 2025, Fox Entertainment acquired an equity stake in Holywater and entered in active productive on a slate of 200 original microdramas and vertical series for the platform. ([source](https://deadline.com/2026/02/maksim-chmerkovskiy-vertical-series-wild-silence-my-drama-1236733868))
+- [2026-09-11 13:53] Cuban filmmaker Carlos Machado Quintela‘s Benjamin o el Planetario, produced by Argentine banner Rizoma with German partner M-Appeal and Paraguay’s Paz Encina‘s German backed documentary Ejercicios de la Memoria both score $47,000 (€35,000). ([source](https://www.hollywoodreporter.com/movies/movie-news/berlinale-world-cinema-fund-awards-657407))
+- [2026-09-11 13:53] Clair 'The Death Of Robin Hood', 'Spider-Man: Brand New Day', 'The Odyssey' 'The Odyssey', 'Spider-Man: Brand New Day' 'Spider-Man: Brand New Day', 'Toy Story 5', 'The Odyssey' 'Sentimental Value' Luca Guadagn ([source](https://www.screendaily.com/news/munich-film-festival-2024-secures-six-world-premieres-of-international-titles/5194433.article))
+
+### Auto-promoted from New Learnings
+- [2026-09-22 10:21] In this model, agentic systems don’t just execute tasks, but can reason ([source](https://adage.com/studio-30/publishing-partners/aa-how-marketers-can-scale-customer-experience-orchestration-in-the-agentic-era))
+- [2026-09-22 10:21] [...] # Storyteq’s New Updates Bring More AI-Powered Control for Marketers  28/04/2026  lbbonline.com  0  LIKE  ADD TO COLLECTIO ([source](https://lbbonline.com/news/Storyteqs-New-Updates-Bring-More-AI-Powered-Control-for-Marketers))
+- [2026-09-22 10:21] Car companies have massive marketing budgets. ([source](https://www.hollywoodreporter.com/business/digital/fiverr-ai-video-hub-commercials-1236545651))
+- [2026-09-22 10:21] Kling 3: The best I've found for image-to-video with audio. ([source](https://www.reddit.com/r/AI_UGC_Marketing/comments/1r7d2yw/my_top_4_ai_tools_for_video_creation_in_2026))
+- [2026-09-22 10:21] Title: Film/TV work to Video Game : r/Screenwriting # Film/TV work to Video Game : r/Screenwriting. ([source](https://www.reddit.com/r/Screenwriting/comments/1jgigrg/filmtv_work_to_video_game))
+- [2026-09-22 10:20] One key update includes Instagram completely overhauling their algorithm to support original content creation on the platform; a clear jab at TikTok’s powerful algorithm. ([source](https://lbbonline.com/news/preparing-for-a-post-tiktok-world))
+- [2026-09-22 10:20] It’s been amazing to see creators innovate with Shorts, experimenting with editing, filters, popular audio samples, music and more. ([source](https://blog.youtube/culture-and-trends/3-creator-economy-trends-2023))
+- [2026-09-22 10:20] Borders         Border Patrol Strategy: 2025-2029        Smart Wall Map        Border Patrol History        Border Patrol Sectors        Missing Alien Program  At Ports of Entry         OFO Strategy: 202 ([source](https://www.cbp.gov/travel/trusted-traveler-programs/global-entry))
+- [2026-09-22 10:20] The Trust gave an average of $705 million a year between 2020 and 2024, putting it in the lead among Asian philanthropic organizations, but just shy of the global top 10. ([source](https://www.merriam-webster.com/dictionary/global))
+- [2026-09-22 10:20] Venice Film Festival Remakes Market With New Co-Production Program ([source](https://www.hollywoodreporter.com/movies/movie-news/venice-film-festival-remakes-market-888764))
+- [2026-09-22 10:20] The talking points for the global film industry in 2021 | Features | Screen ([source](https://www.screendaily.com/features/the-talking-points-for-the-global-film-industry-in-2021/5155936.article))
+- [2026-09-18 12:38] Sponsored content is created for and in partnership with an advertiser and produced by the Drum Studios team. ([source](https://thedrum.com/news/the-ai-created-production-gap-is-real-here-s-how-to-close-it))
+- [2026-09-18 12:38] [19:53] So just didn't give it to us without his way to give it to us. ([source](https://www.youtube.com/watch?v=_GMgofd_Agw))
+- [2026-09-18 12:38] How To Learn To Code In 2026 ([source](https://www.youtube.com/watch?v=oshQg1uSRvg))
+- [2026-09-18 12:38] SHIFT 2026 WORKSHOP: Co‑Designing Dentsu Creative China | LBBOnline ([source](https://lbbonline.com/news/SHIFT-2026-WORKSHOP-CoDesigning-Dentsu-Creative-China))
+- [2026-09-18 12:38] Sports advertising predictions—top trends to watch in the TV upfronts - Ad Age ([source](https://adage.com/article/special-report-tv-upfront/sports-advertising-predictions-top-trends-watch-tv-upfronts/2556316))
+- [2026-09-18 12:37] Fiasco Global Media & Bonus Production Services Team For Scripted TV ([source](https://deadline.com/2026/06/fiasco-global-media-bonus-production-services-scripted-tv-1236969642#respond))
+- [2026-09-17 09:48] Cursor + Copilot + Claude Code = 70%+ share    Fastest repo: OpenClaw (9k to 188k stars in 60 days)    Model velocity: Frontier ([source](https://github.com/caramaschiHG/awesome-ai-agents-2026))
+- [2026-09-17 09:48] Key features:   Workflow automation for end-to-end content creation. ([source](https://blog.hootsuite.com/ai-copywriting))
+- [2026-09-17 09:48] We’ve launched new YouTube Ads campaigns that allow brands to align with the right audiences at the right moments. ([source](https://www.thinkwithgoogle.com/intl/en-emea/marketing-strategies/video/2026-moments-youtube-advertising))
+- [2026-09-17 09:48] Winners of Inaugural LMU School Of Film & Television MFA Screenwriting Competition Revealed ([source](https://deadline.com/2024/05/winners-inaugural-lmu-school-film-television-mfa-screenwriting-competition-revealed-1235908173))
+- [2026-09-17 09:48] Success today means pairing YouTube trends with the genres that creators define, and there’s no better guide than creators themselves. ([source](https://www.thinkwithgoogle.com/marketing-strategies/video/top-performing-youtube-genres-and-ads))
+- [2026-09-17 09:48] •10mo ago  It will definitely be Short Docos. ([source](https://www.reddit.com/r/SmallYTChannel/comments/1opdlhg/what_niche_do_you_think_will_explode_on_youtube))
+- [2026-09-17 09:48] Rewarding creators with in-app tokens has become a common practice, particularly in regions outside the U.S. ([source](https://techcrunch.com/2025/06/17/own-a-new-social-media-app-aims-to-tokenize-the-creator-economy))
+- [2026-09-17 09:48] Rankings can be viewed globally, as well as by region and country. ([source](https://www.lbbonline.com/news/VML-New-York-Tops-2026-One-Show-Global-Creative-Rankings))
+- [2026-09-17 09:48] Strong captions that encourage responses, trending hashtags that boost discoverability, and interactive elements like polls, Q&As, and user-generated content all help increase engagement. ([source](https://blog.hootsuite.com/social-media-marketing-strategy))
+- [2026-09-17 09:48] Onclusive's report ranks the top 15 agencies and top 15 brands by share of voice across the whole festi ([source](https://www.thedrum.com/profile/onclusive/article/cannes-lions-2026-a-deep-dive-into-award-winners-agencies-and-industry-trends))
+- [2026-09-17 09:47] Fiasco Global Media & Bonus Production Services Team For Scripted TV ([source](https://deadline.com/2026/06/fiasco-global-media-bonus-production-services-scripted-tv-1236969642))
+- [2026-09-17 09:47] 2026-09-15T22:04:00Z By Jeremy Kay  Industry-wide coalition hails MPA report prepared by Olswang SPI. ([source](https://www.screendaily.com/news/olsberg-spi-screen-experts-discuss-key-trends-in-global-film-and-tv-production-incentives/5211594.article))
+- [2026-09-16 10:55] If you're a film director, ad agency producer, or indie filmmaker, this list covers every serious tool we've found for generating, planning, or improving storyboards with AI. ([source](https://github.com/mcqx4/awesome-ai-storyboarding))
+- [2026-09-16 10:55] GitHub - danielrosehill/AI-Video-Tools: Collection of AI video production tools — ComfyUI, MCPs, agent skills, and agentic video frameworks · GitHub ([source](https://github.com/danielrosehill/AI-Video-Tools))
+- [2026-09-16 10:55] Film Independent / LMU unveil screenwriting Fellows | News | Screen ([source](https://www.screendaily.com/news/film-independent-/-lmu-unveil-screenwriting-fellows/5094462.article))
+- [2026-09-16 10:55] screenwriting · GitHub Topics · GitHub ([source](https://github.com/topics/screenwriting?o=desc&s=updated))
+- [2026-09-16 10:55] Rachel Answers The Web's Most Searched Questions  icon    ## Herpetologist ([source](https://www.wired.com/video/watch/absurd-creatures-hydra))
+- [2026-09-16 10:55] LONDON, ENGLAND - JULY 09: P!NK receives the O2 Silver Clef Award onstage during the Silver Clef Awards 2026 on July 09, 2026 in London, England. ([source](https://variety.com/exec))
+- [2026-09-16 10:55] Posted -  [VP Account Director [DTC - Pharma Advertising]](  Taylored Search   New York, NY [...] The job market is still very tight. ([source](https://jobs.adweek.com))
+- [2026-09-16 10:55] Sep 04, 2026 From weekly prep to beautifully arranged lunches, creators are turning meal preparation into a comforting art form. ([source](https://blog.youtube))
+- [2026-09-16 10:54] It also protects you from the coordination problems that grow with every new region, brand, and account you add. ([source](https://blog.hootsuite.com/enterprise-social-media-strategy#Enterprise_social_media_strategy_FAQ))
+- [2026-09-16 10:54] Incorporate SEO techniques in your social content. ([source](https://blog.hootsuite.com/social-media-trends#5_Shares_will_matter_more_than_likes_comments_or_followers))
+- [2026-09-16 10:54] 2026 is already confirming what many in the industry had already sensed – Miami is no longer an emerging creative hotspot. ([source](https://www.thedrum.com/news/the-drum-s-top-miami-creative-agencies-of-2026))
+- [2026-09-16 10:54] 2026 is already confirming what many in the industry had already sensed – Miami is no longer an emerging creative hotspot. ([source](http://www.thedrum.com/news/the-drum-s-top-miami-creative-agencies-of-2026))
+- [2026-09-16 10:54] Her advice: prioritize production efficiency, design for an acqui ([source](https://variety.com/2026/global/global/post-peak-tv-supply-chain-crunch-ampere-analysis-1236696837))
+- [2026-09-16 10:54] That’s projected to be a 42% gain over 2025. ([source](https://variety.com/2026/digital/news/vertical-media-150-billion-tiktok-microdramas-owl-co-1236840519))
+- [2026-09-16 10:54] What followed on the Croisette was not no ([source](https://www.hollywoodreporter.com/lists/cannes-film-festival-takeaways-ai-queer-cinema))
+- [2026-09-16 10:54] Its job-oriented syllabus includes the annual ECAM Series Market, in w ([source](https://www.hollywoodreporter.com/movies/movie-news/top-global-film-schools-2023-1235559015))
+- [2026-09-16 10:54] film-production · GitHub Topics · GitHub ([source](https://github.com/topics/film-production?l=tex&o=asc&s=stars))
+- [2026-09-15 10:01] Today’s TV landscape is an increasingly complex and challenging narrative. ([source](https://www.finaldraft.com/learn/how-to-write-a-screenplay-complete-guide))
+- [2026-09-15 10:01] Reel of film  Screenwriting or scriptwriting is the art and craft of writing scripts for mass media such as feature films, television productions or video games. ([source](https://en.wikipedia.org/wiki/Screenwriting))
+- [2026-09-15 10:01] For example, we use this information to provide, personalize and improve our products, including ads. ([source](https://www.instagram.com/accounts/emailsignup))
+- [2026-09-15 10:01] Search & Explore  Download for iOS/Android. ([source](https://about.instagram.com/features))
+- [2026-09-15 10:01] 2026 Media and Entertainment Industry Outlook&nbsp;&nbsp;deloitte.com ([source](https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbWNzMFVJWndsZ3RZSXBYbXRsUEdLM1pBLVhONFdiMkN1ZVB0NTRoeXQtYTE2T3o4MmFWMk9iTi1uSURqdUVHVmNrSUFrRDNqRXNTWnNuaElEU1dsSXBLbnBjd0U5c19Wc2EyS09NM1pjM1FQOHc5bDdQcVBDZklhS1c4RWZyaW42UTBlNXJWWEF5MFNpWFpiSWhTOTAwZnBqOTNfYU9acW9BV01ScHVMR2cteWhqajJ5aUJaLTVLSDVzNEdVWG01QXN2a0s0Nk05?oc=5))
+- [2026-09-15 10:01] Global Entertainment & Media Outlook 2026&nbsp;&nbsp;PwC ([source](https://news.google.com/rss/articles/CBMinwFBVV95cUxQbmVQQVNRY21zVjVjSWlIQUotUnhOMm5YbEY0c0JNS2Rremh2dlRLQ2h4UGZ3R2ZWQWJDUEdQaERHemJTLTllQnRQaE03RHZvNHNtbExRSV9FOTRCNGpUNUpNTnpnU1AtajZLRmZJSUJrZmVBUXk5MUN1Ujg5ZERhMTQyRFVEbXhuZFc3dm0zQXdYUTBzZXBWQmpZTEIxWm8?oc=5))
+- [2026-09-15 09:59] /Courtesy Everett Collection  ### Hideo Kojima’s ‘Physint’ Moves From PlayStatio ([source](https://variety.com/2026/digital/global/microdrama-reelshort-endemol-shine-brasil-1236723862))
+- [2026-09-15 09:59] Indonesia's Matta Cinema Unveils Six-Film Slate at Busan Market ([source](https://variety.com/2025/film/markets-festivals/indonesia-matta-cinema-slate-busan-market-1236525419))
+- [2026-09-15 09:59] Film Schools in 2026&nbsp;&nbsp;The Hollywood Reporter ([source](https://news.google.com/rss/articles/CBMidkFVX3lxTFBHN3NkV2x6a2hrTEszU25sZllTY25GMmhNU1pJTlQxU29jMnhlUDB6cFp4MUR1ZnhsanpEWERmc3VEZFYxOEVOU3p0SEVxZ2tQeVJGTWFvR0J6M3VUS1hUVFRTRFQ2TTZKUm5hMWZmbndfRVVhdEE?oc=5))
+- [2026-09-15 09:59] Julianne Forde • Producer, Tailored Films - Industry Report: Market Trends&nbsp;&nbsp;Cineuropa ([source](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xQWhaZ280MlRmaWI4dzY3Nmx4RDE1bnB6d2tPNjZwSDNzcmV5YmRHb0ozeE5NT193dWlncGtHZ0dNaDJfcktGQVp6ZDVJcXN1YlozLW9MM3J3LW0tOHJsblZiOXQ?oc=5))
+- [2026-09-14 10:35] The data reveals that the challenge isn't adoption anymore. ([source](https://github.com/dxtavz82/jasper))
+- [2026-09-14 10:35] Yet this rapid evolution has also brought new challenges, including how to best integrate AI into internal workflows and the complexity around agentic AI. ([source](https://digiday.com/marketing/digiday-research-marketing-workflows-benefit-from-ai-but-trust-is-still-a-barrier-to-adoption))
+- [2026-09-14 10:35] Inter Medya’s Can Okan on the “Turkish Formula” - TVDRAMA&nbsp;&nbsp;World Screen ([source](https://news.google.com/rss/articles/CBMigwFBVV95cUxQLUhvVjlLUHRkd3lHUXo5MDRpWVBCTi02OEY3cXRlc09MMENQeG5MNWlGMkd3bkEzZjlRcTByVWMxMlJKSVJKcER4NmxWUWtxdUJLS0tLUEo3YVd4MlBoLXAzOHVGTm1LZmRWSHZtVkoyT1hNWHpkejQzX1poT3kzU2ZFWQ?oc=5))
+- [2026-09-14 10:35] One Real Post-Peak TV Crunch: A Supply Chain That’s Too Slow&nbsp;&nbsp;Variety ([source](https://news.google.com/rss/articles/CBMioAFBVV95cUxQNVYwQ1JvaWFZb0NOTExLXzhFZGFONl85aGNfQlVXTHBrbmttTE9ONzBzZnZDY1FKWHpzNXhZaE1TU1lHRi1KTW9OMkJpbEVNS3RtbDdkVzRPSHBmX0haVktsa0EwNWRCSmpnZ29xSy10cmMxbjZoR1Y5Y3p3RjRtVGQxM21oendKeVVybG5XckJaM0hhTXVDb2pid1laZGRn?oc=5))
+- [2026-09-14 10:35] 2026-09-10T15:26:00Z By Screen staff  The production finance and media law experts will take part in a panel called ’Making Every Pound Count’. ([source](https://www.screendaily.com/news/africa-international-film-festival-launches-film-and-content-market-in-cannes/5205428.article))
+- [2026-09-14 10:34] It was how I got my sea legs, and I just don’t think new writers are getting that chance to try and fail and try again. ([source](https://www.hollywoodreporter.com/lists/top-tv-producers-2026-survey))
+- [2026-09-14 10:34] AI Is the Dominant Theme at 2026 Filmart ([source](https://www.hollywoodreporter.com/business/business-news/hong-kong-filmart-2026-ai-dominates-1236534390))
+
+### Auto-promoted from New Learnings
+- [2026-09-26 09:01] The workflow creates production-ready audio files for local news briefs, perfect for community-focused content creators. ([source](https://github.com/lucaswalter/n8n-ai-workflows))
+- [2026-09-26 09:01] # Who is actually building production AI agents (not just workflows)? ([source](https://www.reddit.com/r/AI_Agents/comments/1priwms/who_is_actually_building_production_ai_agents_not))
+- [2026-09-26 09:00] ai-film-production · GitHub Topics · GitHub ([source](https://github.com/topics/ai-film-production))
+- [2026-09-26 09:00] YouTube’s attention to podcast listeners is no surprise, as the platform has recently rolled out a slew of features related to long-form audio uploads. ([source](https://www.tubefilter.com/2024/08/09/youtube-premium-sleep-timer-experimental-feature-long-form-videos/amp))
+- [2026-09-26 09:00] [Hiring] AI Video Creators for Short Form Content, $300–$700 USD Per Week : r/PromptEngineering ([source](https://www.reddit.com/r/PromptEngineering/comments/1sq6ots/hiring_ai_video_creators_for_short_form_content))
+- [2026-09-25 09:00] To wrap up 2025, ADWEEK spoke with high-profile ad sales chiefs and senior bu ([source](https://www.adweek.com/convergent-tv/these-trends-will-define-the-tv-landscape-in-2026-according-to-experts))
+- [2026-09-25 09:00] Instead of optimizing purely for output, many are building workflows that support depth, rest, and repeatability. ([source](https://buffer.com/resources/2026-predictions-social-media))
+- [2026-09-25 09:00] [...] Sign up for our breaking news alerts  By providing your info ([source](https://deadline.com/2025/10/creator-economy-london-digital-content-forum-micro-drama-ai-1236601239))
+- [2026-09-24 10:14] GitHub - shawnmcrowley/n8n_workflows: N8N Agentic Workflows - Workflow Automation using AI Agents, API's, and MCP · GitHub ([source](https://github.com/shawnmcrowley/n8n_workflows))
+- [2026-09-24 10:14] ai pipeline video-generation film-productio ([source](https://github.com/topics/film-production?l=typescript&o=asc&s=updated))
+- [2026-09-24 10:14] This collection request tracks the rapidly evolving landscape of AI tools for video creation, editing, and film production workflows. ([source](https://github.com/pingcap/ossinsight/issues/2147))
+- [2026-09-24 10:14] Oscar winner Chloe Zhao among Film Independent Screenwriting Lab advisors | News | Screen ([source](https://www.screendaily.com/news/oscar-winner-chloe-zhao-among-film-independent-screenwriting-lab-advisors/5159413.article))
+- [2026-09-24 10:14] Tubefilter, Inc  Tubefilter The Streamy Awards Gospel Stats  About Contact Privacy Policy Terms of Use  © Copyright 2007 - 2026 Tubefilter, Inc. ([source](https://www.tubefilter.com/2023/12/21/creators-ai-shorts-youtube-2023-ad-trends))
+- [2026-09-24 10:14] The changes included a feed more focused on Instagram's content algorithms, full-screen photo and video posts, and changing the format of all of its videos to Reels. ([source](https://en.wikipedia.org/wiki/Instagram))
+- [2026-09-24 10:14] Trends in the creator economy with We Are Social | Warc ([source](https://www.warc.com/en/article/trends-in-the-creator-economy-with-we-are-social-7b5fc10dd031420eae196b5781ce96b1))
+- [2026-09-24 10:14] What’s going to be your key area of focus to advance your social media marketing strategy in 2025? ([source](https://www.socialmediatoday.com/news/key-trends-for-social-media-marketing-in-2026-infographic/806092))
+- [2026-09-24 10:13] Agreement covers annual production spend and output, with penalties for non-compliance including divestiture of Miramax. ([source](https://www.screendaily.com/news/arab-cinema-lab-to-launch-at-dubai-film-market/5111515.article))
+- [2026-09-24 10:13] La Bola Negra  ### Spain’s Movistar Plus vows to continue funding films after key management changes  2026-09-23T07:31:00Z By Elisabet Cabeza  Spanish pay-TV and streaming giant backed three Cannes competition titles this year. ([source](https://www.screendaily.com/news/global-production-guide-2026-digital-edition/5212114.article))
+- [2026-09-24 10:13] [...] Spain special 3x2 TIFF day 3 3x2 Aug-Sept 2026 3x2 Practical Magic 2 Mary Rose cast Ghost Song Shaun The She ([source](https://www.screendaily.com/news/ten-film-industry-stories-set-to-dominate-2026-the-screen-podcast/5212182.article))
+
+### Auto-promoted from New Learnings
+- [2026-10-05 10:27] In response, Media.Monks has switched up its content production offering, Carey says, relaunching its Studio.Monks brand with a promise to shave 20-30% from client budgets, supposedly without compromising on quality. ([source](http://www.thedrum.com/news/ai-workflows-and-asset-based-pricing-inside-mediamonks-s-production-studio-overhaul))
+- [2026-10-05 10:27] Sponsor   Star  0  Permission-aware AI campaign production with reviewable proof, cost controls, and provenance. ([source](https://github.com/topics/creative-production))
+- [2026-10-05 10:27] Fiona Lowe Dead: Daughter of Chad Lowe and Kim Painter Was 13 ([source](https://variety.com/2026/digital/people-news/fiona-hepler-lowe-dead-chad-lowe-daughter-1236885914))
+- [2026-10-05 10:27] Ken Urker Dead: Gypsy-Rose Blanchard's Partner Was 34 ([source](https://variety.com/2026/tv/news/ken-urker-dead-gypsy-rose-blanchard-partner-1236897303))
+- [2026-10-05 10:27] In China, more than 95 percent of microdrama titles in the first three months of 2026 were reportedly made using AI. ([source](https://www.hollywoodreporter.com/business/business-news/ai-hollywood-microdramas-1236694483))
+- [2026-10-04 11:32] Viral Content & Social Media Bots: AI agents that analyze trends to ideate and create viral social media content, and then manage the posting schedule. ([source](https://github.com/AICMO/AiCMO-Marketing-Prompt-Collection/tree/main/03_Content-%26-Creative))
+- [2026-10-04 11:31] Mexican filmmaker Iñárritu,a two-time best director Oscar winner, has teamed up with Tom Cruise on this comedy drama, about the most powerful man in the world as he races to undo a potential disaster that he has caused. ([source](https://www.screendaily.com/features/75-films-to-tempt-festival-directors-in-2026/5212473.article))
+- [2026-10-04 11:31] The stockpile of potential 2026 blockbusters is undoubtedly promising: waiting in the wings are new Spider-Man, Toy Story, Minions, Super Mario and Dune instalments, a Star Wars spin-off, Chri ([source](https://www.screendaily.com/features/eight-talking-points-for-the-us-film-industry-in-2026/5212421.article))
+- [2026-10-03 10:11] template pdf tex latex formatting writing typesetting screenwriting film fountain filmmaking creative-writing final-draft scriptwriting film-production   Updated Sep 30, 2026  TeX  ## Add this topi ([source](https://github.com/topics/film-production?l=tex&o=asc&s=updated))
+- [2026-10-01 11:55] GitHub - galmorduku/awesome-ai-agents-2026: Awesome AI Agents for 2026 - 300+ AI Agents, Frameworks & Coding • Creative • Voice • Research • Enterprise. Comparison guides, benchmar ([source](https://github.com/galmorduku/awesome-ai-agents-2026))
+- [2026-10-01 11:55] creator-economy · GitHub Topics · GitHub ([source](https://github.com/topics/creator-economy?o=desc&s=stars))
+- [2026-09-30 10:49] 7 Best AI Tools for Product Consistency in Ad Creatives (2026)&nbsp;&nbsp;Film Threat ([source](https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ1VqRlVLSVJuWnp0Tzc5Sy1YU3VOY3dmUmdtOTI0cU9QeFdlLUZHb3FOMVppQnJzTTdiUHBKRjZuMjhCa3FRaVZMLWpCSE9tMWhIdnFETHhDS1JqRGtYNHZpRTZDV2dndWZNRmw3YUtXMEhTLXh3R1A2NjJkV09lZTJRYUptRG5RT215MjhPblN3MXdKMFhoVA?oc=5))
+- [2026-09-30 10:49] AI Video Editing: Tools, Software, and How to Get Started&nbsp;&nbsp;Coursera ([source](https://news.google.com/rss/articles/CBMiX0FVX3lxTE91MG8xTy1LMWZoU3NkQll1Vld4QWkyT1ZNVlBDbzJxYnBCOEpVUkJ5WENELWh0RGo5dnZMLWMxaXBrNlNYblBTbGRvNDJXeG5GZEgxaXRVOEVBeDlvWE1r?oc=5))
+- [2026-09-30 10:49] As the platform leans even further into AI-generated content, it will make it clearer to viewers what is real and what is synthetic. ([source](https://www.hollywoodreporter.com/t/creator-economy))
+- [2026-09-30 10:49] Global VFX Leader DNEG and XR Entertainment Studio Dimension Announces Virtual Production Partnership — LBB ([source](https://lbbonline.com/news/global-vfx-leader-dneg-and-xr-entertainment-studio-dimension-announces-virtual-production-partnership))
+- [2026-09-29 13:07] Simplify the stack: aim for fewer, more connected systems that reduce fragmentation rather than add to it, and that plan, imagine and produce as part of one coherent cognitive process. ([source](https://www.thedrum.com/news/the-ai-created-production-gap-is-real-here-s-how-to-close-it))
+- [2026-09-29 13:06] We are integrating Gemini Omni into a conversational editing assistant for Shorts and the YouTube Create app. ([source](https://blog.youtube/topic-hub/made-on-youtube))
+- [2026-09-29 13:06] “It’s a new storytelling medium for us… immediately reaching a regional, if not global audience,” Poh said, noting that brand partners are already integrating into the short-form scripted format. ([source](https://variety.com/2025/tv/news/singapore-broadcaster-mediacorp-microdrama-strategy-1236533700))
+- [2026-09-29 13:06] Film Festival Directors Discuss Filmmaking ([source](https://variety.com/2016/film/festivals/film-festival-directors-discuss-state-of-cinema-1201934258))
+- [2026-09-29 13:06] Costs rise, timelines compress and production is being asked to solve strategy problems at execution speed.” The result? ([source](https://shots.net/news/view/production-in-2026-all-change))
+- [2026-09-29 13:06] As California’s new production incentives go into effect and start to raise optimism for production returning to Los Angeles, the last thing the industry needs is another labor stoppage from a strike. ([source](https://www.indiewire.com/news/business/bold-hollywood-predictions-2026-netflix-ai-box-office-1235161581))
+
+### Auto-promoted from New Learnings
+- [2026-10-10 10:22] Supercharged Marketing Workflows with AI - 1741985 ([source](https://adage.com/studio-30/webcasts/aa-supercharged-marketing-workflows-ai))
+- [2026-10-10 10:22] The results have been surprisingly practical: AI can surface multiple clip candidates from long videos based on transcripts and context. ([source](https://www.reddit.com/r/podcasting/comments/1qo8ftd/video_editing_in_2026_what_ai_tools_are_actually))
+- [2026-10-10 10:22] It took place from April 21-22 in Cannes. ([source](https://www.screendaily.com/news/seven-talking-points-from-the-world-ai-film-festival-in-cannes/5215914.article))
+- [2026-10-10 10:22] As microdramas explode in popularity, screenwriting, film and acting professors are jumping on the trend. ([source](https://www.hollywoodreporter.com/business/digital/universities-microdramas-1236454941))
+- [2026-10-10 10:22] Arvon's Screenwriting Programme is a new fully-funded talent development ([source](https://www.reddit.com/r/ScreenwritingUK))
+- [2026-10-10 10:22] From the CEO: What’s coming to YouTube in 2026&nbsp;&nbsp;YouTube Official Blog ([source](https://news.google.com/rss/articles/CBMicEFVX3lxTE1ickowemRBNmtWWUwxSVZqb2JSUDRtZ0x4TE1wUjdoNWNJMjlRdm9qRG9BTU4yYnVWX3ctTm85dVlFVkpEQ0VBYktvcFZOOXlkYXFDZWJUU3FlUFR1VUhBX0FrX1NqVUt5TmtmOGZLd3A?oc=5))
+- [2026-10-10 10:22] The Return of Long-Form — Why Podcasts and YouTube Essays Are Pulling Premium Sponsorships Back&nbsp;&nbsp;Agency Reporter ([source](https://news.google.com/rss/articles/CBMiggFBVV95cUxNamtRWkZzTnJ2Z0lQY2xBd2FUdGpOejRtRlJJdFBaRHM0MlIzd1V2MTBReDZ0aTV1MHI4ZDlqN1NSZXdjbGxRbnRiUVYxQWh1bWRuaTBOakZSOHBkckNRbzdGTTQtc1ZodE1VdWVBbEZrYmk2SHd2YktlT1JZdDIxd2Rn?oc=5))
+- [2026-10-10 10:21] Premium accounts do slightly better, with link posts reaching ~0.28% engagement, but they still lag behind text (~0.90%) and video (~0.85%). ([source](https://buffer.com/resources/twitter-timeline-algorithm))
+- [2026-10-10 10:21] But according to IMG’s Digital Trends 2026 report, this format alone will not build deep audience relationships, loyalty or long-term spend. ([source](https://aws2.campaignasia.com/article/what-stays-what-changes-what-breaks-trends-shaping-marketing-in-2026/506770))
+- [2026-10-10 10:21] ## Hootsuite is G2's #1 best software product for 2026 [...] Know what to do next. ([source](https://www.hootsuite.com))
+- [2026-10-10 10:21] Best Agencies: 2026 A-List Awards - Ad Age ([source](https://adage.com/events-awards/a-list-creativity/aa-a-list-winners-2026))
+- [2026-10-10 10:21] Microdramas skew younger  Holywater compiled the State of Microdrama Report with consulting firm Owl & Co, which pegged the global vertical video economy excluding China at a colossal $150B in 2026, up 41%. ([source](https://deadline.com/2026/07/microdrama-report-holywater-audience-younger-male-1237001059))
+- [2026-10-10 10:21] The streamer gave a limited theatrical release to Peaky Blinders: The Immortal Man in March, and the summer will heat up with superhero fare like Masters of the Universe, Supergirl and Spider-Man: Brand New Day. ([source](https://deadline.com/lists/most-anticipated-movies-2026))
+- [2026-10-10 10:21] The 15 Best New Movies that Premiered at the 2026 Fall Festivals ([source](https://www.indiewire.com/lists/best-fall-festival-movies-2026-venice-telluride-tiff))
+- [2026-10-10 10:21] Five talking points from Filmart 2026 | Features | Screen ([source](https://www.screendaily.com/features/five-talking-points-from-filmart-2026/5215023.article))
+- [2026-10-09 11:47] Best For: Developer workflows, multi-shot films, cinematic VFX. ([source](https://github.com/jayeshmepani/Media-AI))
+- [2026-10-09 11:47] Social Media News | Social Media Today ([source](https://www.socialmediatoday.com))
+- [2026-10-09 11:47] Pats McDonald, global chief strategy officer, Dentsu Creative added, “For the last few years, the industry has been preoccupied by scale, consolidation and efficiency. ([source](https://lbbonline.com/news/dentsu-reveals-2026-making-it-real-global-cmo-report))
+- [2026-10-09 11:47] Algorithms and user behavior feel very different lately. ([source](https://www.reddit.com/r/SocialMediaMarketing/comments/1r0u5yd/social_media_marketing_in_2026_what_strategies))
+- [2026-10-09 11:47] Facebook reaches over 3 billion monthly active users, still the largest social platform globally, and especially strong for Millennials, Gen X, and niche communities. ([source](https://buffer.com/resources/facebook-marketing))
+- [2026-10-09 11:46] Headshot of Marion Bernard, Head of Google and YouTube Ads Marketing, Google France  As consumers increasingly seek comfort and identity in a chaotic world, nostalgia has evolved from a feeling into a core economic engine. ([source](https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/voice-search-statistics))
+- [2026-10-09 11:46] First popularized in China, microdrama apps are poised to have a breakout year in the U.S. ([source](https://techcrunch.com/2026/05/11/bravo-is-creating-unscripted-microdramas-for-the-peacock-app))
+- [2026-10-09 11:46] around 66 million americans reportedly watched them in 2025, more ([source](https://www.reddit.com/r/FacelessVideos/comments/1wiso96/micro_dramas_are_quietly_becoming_a_massive))
+- [2026-10-09 11:46] Andrés Piñeros / Scrmbld Studio (Colombia)      Mine Land, dir. ([source](https://www.hollywoodreporter.com/movies/movie-news/idfa-forum-2026-projects-new-format-on-market-challenges-1236724373))
+- [2026-10-08 10:17] Generating agents will be faster and deliver better results than developing th ([source](https://lbbonline.com/news/5-Agentic-AI-Trends-to-Watch-in-2026))
+- [2026-10-08 10:17] Ad Age, a Crain Family brand Ad Age, a Crain Family brand  # AI video has a production problem  Add as a preferred source on Google Man and woman at dusk standing together in front of telephone booth and ML ([source](https://adage.com/studio-30/publishing-partners/aa-ai-video-has-a-production-problem))
+- [2026-10-08 10:17] “We’re using it for 3D, generating architectural renderings, simulating time lapses. ([source](https://variety.com/2026/film/asia/ai-disruption-dominates-filmart-1236690773))
+- [2026-10-08 10:17] Sweet Bobby: This British catfishing tale charts successful radio presenter Kirat’s relationship with handsome cardiologist Bobby, and things get impossibly weird. ([source](https://www.wired.com/story/best-podcasts))
+- [2026-10-08 10:16] Under global ECD Ashish Verma, Bloomberg Media Studios posted double-digit growth and expanded from New York, London, and Singapore to a new hub in Dubai. ([source](https://www.adweek.com/creativity/the-2026-creative-100-media-tv-streaming-innovators-know-how-to-win))
+- [2026-10-08 10:16] After decades as a top apparel brand, the fashion entrepreneur holds her own in any discussion of design and creativity. ([source](https://variety.com/lists/cannes-lions-2026-preview))
+- [2026-10-08 10:16] As holding companies invest heavily in AI, streamline structures and cut headcount in pursuit of efficiency, how will the agency landscape change during 2026 with legacy agency brands such as DDB and FCB set to disappear. ([source](https://www.thedrum.com/tv/video/the-shape-of-agencies-to-come))
+- [2026-10-08 10:16] by Staff Reporters  ### Sign In  Reset Password: Click here  Contact Customer Suppor ([source](https://www.campaignasia.com/article/global-adspend-to-hit-1-trillion-in-2026-as-apac-leads-charge/8c3st5pm8iyu0dcb24dvs6dusp))
+- [2026-10-08 10:16] 2026 film festivals and markets calendar: latest dates | News | Screen ([source](https://www.screendaily.com/news/2026-film-festivals-and-markets-calendar-latest-dates/5211872.article))
+- [2026-10-08 10:16] Advice to younger self: “If you work hard, you can be one of the lucky people who gets to help create the kind ([source](https://variety.com/lists/variety-womens-impact-report-2026))
+- [2026-10-07 09:51] #### How creatives are using AI today [...] Madansk ([source](https://www.adweek.com/creativity/ai-has-reached-creative-teamsnow-comes-the-hard-part))
+- [2026-10-07 09:51] Marketing agents: Jasper offers a library of 100+ marketing agents, each designed to handle a different part of the content pipeline. ([source](https://blog.hootsuite.com/ai-social-media-content-creation-tools))
+- [2026-10-07 09:51] (L to R) Miguel Bernardeau as Rafael and Guitarricadelafuente as Sebastián in La Bola Negra. ([source](https://variety.com/2026/biz/news/storytelling-sustainability-climate-hoppers-green-title-1236753655))
+- [2026-10-07 09:51] [...] remain central to storytelling.” [...] how advanced sound and picture technologies can elevate independent storytelling.” More intel here. ([source](https://www.hollywoodreporter.com/lists/sundance-film-festival-2026-roundup-parties-events-panels))
+- [2026-10-07 09:50] We are launching Ask Music, a conversational AI tool to help you customize your queues, and Podcast Lineup, an AI-audio guide that delivers weekly spoken previews of reco ([source](https://blog.youtube/madeonyoutube))
+- [2026-10-07 09:50] Google Data, Global, Jan 2025 - Jan 2026 7. ([source](https://blog.youtube/news-and-events/youtube-creator-partnerships-newfronts-2026))
+- [2026-10-07 09:50] ### VidSummit  Best for: Video creators, marketers, and entrepreneurs  VidSummit focuses on the business of content creation, with an emphasis on monetization, video marketing, and audience growth. ([source](https://buffer.com/resources/social-media-conference))
+- [2026-10-07 09:50] Nick Borenstein, General Manager of The Webby Awards, will present the 2026 Webby Trend Report, a playbook for creative excellence in the Intelligence Era. ([source](https://www.indiewire.com/news/festivals/sundance-film-festival-2026-beyond-film-talks-1235171784))
+- [2026-10-07 09:50] While the proposed acquisition has generated significant attention, many of the changes affecting production activity were already underway. ([source](https://deadline.com/wp-content/uploads/2026/08/papabros-la-county-DOE-aug-18-report-4.pdf))
+- [2026-10-07 09:50] Brands should use Gen Z statistics to shape both where their campaigns show up and what those campaigns look like. ([source](https://blog.hootsuite.com/gen-z-statistics))
+- [2026-10-07 09:50] The Knowledge | Campaign Asia ([source](https://www.campaignasia.com/the-knowledge))
+- [2026-10-07 09:50] All of this is to say, culture is moving faster than ever—and with it, so too are digital advertising trends. ([source](https://www.adweek.com/partner-articles/5-trends-continuing-to-shape-the-adtech-industry-in-2026))
+- [2026-10-07 09:50] Most of the revenue is coming from China, but about $3B will be generated elsewhere this year, with the U.S. ([source](https://deadline.com/2026/02/microdrama-more-time-cellphones-streaming-services-omdia-1236732921))
+- [2026-10-07 09:50] (Photo by Aurore Marechal/Getty Images)  ### Javie ([source](https://variety.com/2026/global/global/malaga-2026-industry-wrap-trends-titles-to-track-1236687829))
+- [2026-10-07 09:50] Killing Kelly Jason Isaacs and Thomasin McKenzie will star for Iain Softley in the Ireland-set dark comedy thriller about a taxidermist who kills his horrible boss and wears his skin. ([source](https://www.screendaily.com/news/cannes-2026-major-market-projects-latest-updates/5215772.article))
+- [2026-10-06 10:43] workflow-engine modular-architecture creator-tools media-pipeline content-publishing generative-ai creative-automation artwork-management creative-os workflow-first ([source](https://github.com/topics/creative-automation))
+- [2026-10-06 10:43] Star  0  Pre-production validation and continuity QA for structured AI video storyboards and shot plans. ([source](https://github.com/topics/film-production?l=python&o=asc&s=updated))
+- [2026-10-06 10:43] ## Navigation Menu  # storytelling-ai  ## Here are 8 public repositories matching this topic... ([source](https://github.com/topics/storytelling-ai))
+- [2026-10-06 10:43] Stage 32, Catalyst Studios Launch Social Impact Screenwriting Contest ([source](https://variety.com/2023/film/global/stage-32-catalyst-studios-screenwriting-contest-1235710462))
+- [2026-10-06 10:43] Each week, we handpick a selection of stories to give you a snapshot of trends,…  ### Recent Posts   Homepage Feature  ## WME’s new Creator Labs launched Haaland’s YouTube channel. ([source](https://www.tubefilter.com/2025/01/08/youtube-long-form-content-clip-shorts-tool/amp))
+- [2026-10-06 10:42] Dados próprios do YouTube, Global, 2022–2025  1  72% dos criadores que ganham dinheiro com o YouTube afirmam que a plataforma os ajuda a divulgar seu conteúdo para públicos internacionais aos quais, de outra forma, não teriam acesso. ([source](https://blog.youtube/impact))
+- [2026-10-06 10:42] See more  Sorry, we're having trouble fetching results from our se ([source](https://www.thinkwithgoogle.com))
+
+### Auto-promoted from New Learnings
+- [2026-10-15 09:28] [...] 14 October 2026  ### Big brands spend smaller share of revenue on advertisin ([source](https://www.warc.com/en))
+- [2026-10-15 09:28] More important: Marketing will shift from experimentation to integration. ([source](https://www.thinkwithgoogle.com/future-of-marketing/digital-transformation/marketing-predictions-guide-2026))
+- [2026-10-15 09:28] The Business  Locarno sparked a bevy of U.S. ([source](https://variety.com/2026/film/global/locarno-takeaways-olivia-wilde-zoe-saldana-james-gray-1236834754))
+- [2026-10-15 09:28] That isn’t to suggest the industry’s troubles are behind it. ([source](https://www.cartoonbrew.com/festivals/annecy-2026-festival-wrap-263908.html))
+- [2026-10-14 09:25] Best AI Video Tools for Ecommerce and Performance Marketing in 2026 from Real Experience. ([source](https://www.reddit.com/r/AI_UGC_Marketing/comments/1ta7mrk/best_ai_video_tools_for_ecommerce_and_performance))
+- [2026-10-14 09:25] Reinhart’s first TikTok post introducing Bateman as her co-star — participating in the “Nice to Meet You” trend — garnered 3.2 million likes, while their viral “scooping-up” video surpassed 12 million. ([source](https://www.hollywoodreporter.com/movies/movie-features/making-of-the-love-hypothesis-movie-1236679980))
+- [2026-10-14 09:25] drawn-out sagas and 'series Bibles' are the new trend lately. ([source](https://www.reddit.com/r/Screenwriting/comments/17ahnfd/story_as_a_tv_show_vs_film))
+- [2026-10-14 09:25] (It’s fun math, we promise.)  Keep reading to see the latest social media stats for Facebook, Instagram, YouTube, ([source](https://blog.hootsuite.com/social-media-statistics))
+- [2026-10-14 09:25] How the TikTok Algorithm Actually Works in 2026 (And How to Make It Work FOR You) : r/MrMarketing ([source](https://www.reddit.com/r/MrMarketing/comments/1qp7ywo/how_the_tiktok_algorithm_actually_works_in_2026))
+- [2026-10-14 09:24] How InDrive Merges AI Speed with Cultural Insight  Trends and Insight### How InDrive Merges AI Speed with Cultural InsightLBB Editorial · London, UK  09/10/2026 · 63 views  ## Stay in the Loop  Get the best of LBB delivered to your inbox. ([source](https://lbbonline.com/news/Cannes-Lions-2025-Grand-Prix-Winners-in-Entertainment-Gaming-Music-Sport-Design-Digital-Craft-Film-Craft-and-Industry-Craft))
+- [2026-10-14 09:24] Explore Ad Age Brand Report 2026, including the biggest U.S. ([source](https://adage.com/trends-predictions/business-forecast/aa-2026-media-buying-strategy))
+- [2026-10-14 09:24] Nippon TV Brings Two New Scripted Formats to Series Mania Forum ([source](https://variety.com/2026/global/news/nippon-tv-scripted-formats-series-mania-forum-1236676839))
+- [2026-10-14 09:24] DOK Leipzig co-production market 2026     News    ### DOK Leipzig 2026 reveals co-pro market selection    2026-10-13T12:47:00Z By Sarah Cooper ([source](https://www.screendaily.com/news/busans-acfm-names-japan-country-of-focus-for-producer-hub-2026/5219350.article))
+- [2026-10-14 09:24] BlueflyRussell Crowe and Priyanka Chopra Jones will star in the sci-fi action thriller about a secret mission to recover a downed aircraft in Central Africa. ([source](https://www.screendaily.com/news/tiff-the-market-2026-major-market-projects-latest-updates/5219953.article))
+- [2026-10-14 09:24] The upward trend also seems to indicate that above-the-line guilds’ push for improved streaming residual formulas has worked. ([source](https://deadline.com/2026/08/tv-film-writing-jobs-decline-2025-wga-report-1237018792))
+- [2026-10-13 17:56] React + Electron app with node pipelines, image/video generation ([source](https://github.com/topics/ai-filmmaking))
+- [2026-10-13 17:56] ## Exclusive podcast watching hasn’t changed much [...] 7 spots left to attend:  Join us Oct. ([source](https://digiday.com/media/in-graphic-detail-publishers-chase-video-podcast-growth-but-audio-still-leads))
+- [2026-10-13 17:56] “YouTube is demonstrating an important shift in influencer marketing in 2026. ([source](https://digiday.com/future-of-tv/future-of-tv-briefing-youtube-develops-new-program-to-pitch-brands-on-top-creators-shows))
+- [2026-10-13 17:56] While YouTube didn’t necessarily give away its secret sauce by publishing the algorithm details, as TikTok and Instagram have done, it did offer some high-level insights aimed at guiding creators making videos for Shorts. ([source](https://techcrunch.com/2023/08/25/youtube-demystifies-the-shorts-algorithm-views-and-answers-other-creator-questions))
+- [2026-10-13 17:56] [...] Publishers are pushing for AI transparency with a new SPUR standard to track how AI tools use content, and inviting frontier AI labs to help. ([source](https://digiday.com/media/from-vibes-to-data-why-some-brands-use-predictive-tech-to-vet-creators))
+- [2026-10-13 17:56] What is Content Marketing? | Reddit for Business ([source](https://www.business.reddit.com/marketing-glossary/content-marketing))
+- [2026-10-13 17:56] Monitor brand mentions, sentiment, and trends to refine your social media strategy and respond to audience conversations. ([source](https://buffer.com/resources/best-social-media-management-tools))
+- [2026-10-13 17:56] By compiling results from programs worldwide, the annual report showcases the brands, agencies, and campaigns that consistently push creative bounda ([source](https://www.thedrum.com/news/world-creative-rankings-2026-the-most-awarded-campaigns-by-sector))
+- [2026-10-13 17:56] By compiling results from programs worldwide, the annual report showcases the brands, agencies, and campaigns that consistently push creative bounda ([source](https://thedrum.com/news/world-creative-rankings-2026-the-most-awarded-campaigns-by-sector))
+- [2026-10-13 17:55] Title: Reality of Screenwriting in Kannada Film Industry. ([source](https://www.reddit.com/r/KannadaMovies/comments/1txiaey/reality_of_screenwriting_in_kannada_film_industry))
+- [2026-10-12 12:52] ``` Building AI Agents → Automating Workflows → Scaling Data Systems  ```  ## Popular repositories Loading  1. ([source](https://github.com/itsMuhammadtalha))
+- [2026-10-12 12:52] python text-to-speech automation ffmpeg developer-tools codex ai-agents video-generation content-creation local-first social-video ve ([source](https://github.com/topics/marketing-video))
+- [2026-10-12 12:52] From shorts to live-action with Hollywood-standard workflows. ([source](https://github.com/topics/video-generation))
+- [2026-10-12 12:52] nominated for best documentary feature at this year’s Oscars). ([source](https://www.hollywoodreporter.com/lists/best-film-schools-2026-u-s))
+- [2026-10-12 12:52] Yes No   ### Help us make GitHub Docs great! ([source](https://pages.github.com))
+- [2026-10-12 12:52] GitHub Learn: Your Personalized Learning Experience ([source](https://skills.github.com))
+- [2026-10-12 12:52] To master growth, a creator or brand must think like a performance marketer, a data engineer, and an entertainer at the same time—designing content as experiments, reading the algorithmic ([source](https://gist.github.com/YourAKShaw/650fb557d1e37e55bbe226ac93d3303c))
+- [2026-10-12 12:51] Global Production Network Launches GPN Entertainment — LBB ([source](https://lbbonline.com/news/global-production-network-launches-gpn-entertainment))
+- [2026-10-12 12:51] “VIVANTE (ALIVE),” directed by Sandrine Ray (France)      After being violently attacked, 20-year-old Claire takes risks to prove to   herself that she is still alive, all the while carrying the secret that is   tearing her apart. ([source](https://www.indiewire.com/news/general-news/2002-sundance-film-festival-world-cinema-80691))
+- [2026-10-12 12:51] Olivia Colman appears in 'Wicker' by Eleanor Wilson and Alex Huston Fischer, an official selection of the 2026 Sundance Film Festival. ([source](https://www.indiewire.com/news/general-news/2001-sundance-film-festival-world-cinema-lineup-81308))
+- [2026-10-12 12:51] The Business, Technology & Art Of Animation And VFX  © 2025 Animation Magazine. ([source](https://www.animationmagazine.net))
+
+
+## New Learnings
+<!-- Auto-updated by auto-learn. Reviewed weekly by --mode promote. -->
+
+- **[2026-10-31 12:45]** `AI agents content production marketing creative workflo` — | | status | Current | | last\_updated | 2026-07-02 | | audience | |  |  |  |  |  ---  - ([source](https://github.com/creativeengines/creative-engines-public/blob/main/comparisons/claude-code-and-ai-agents.md))
+
+- **[2026-10-31 12:45]** `AI video production tools film advertising 2026` — videoweb free-video-generator minimax-ai free-video-creation free-video-tool minimax-h3 minimax-h3-prompts minimax-h3-prompt-guide minimax-hailuo free-minimax-h3 videoweb-ai   Updated Sep 22, 2026  Python  ### maysunyou ([source](https://github.com/topics/free-video-generator))
+
+- **[2026-10-31 12:45]** `global film industry trends 2026 streaming production s` — – “Monk in Pieces” (5/7)      – “The Escapees” (5/21)      – “Legend of the Mountain” (5/28)  ## “Closed Curtain” (dir. ([source](https://www.indiewire.com/gallery/best-movies-new-streaming-may-2026))
+
+- **[2026-10-30 09:53]** `AI video production tools film advertising 2026` — The 7 Best AI Video Platforms to Start Your Creator Journey in 2026 ; Slop Club, Curated models, social remixing, prompt experimentation, ([source](https://www.reddit.com/r/AI_Music/comments/1qk4rp8/the_7_best_ai_video_platforms_to_start_your))
+
+- **[2026-10-30 09:53]** `AI video production tools film advertising 2026` — Best AI Video Generator Tools in 2026? Here's My Current ... ([source](https://www.reddit.com/r/AIToolsAndTips/comments/1urj8o0/best_ai_video_generator_tools_in_2026_heres_my))
+
+- **[2026-10-30 09:52]** `instagram tiktok youtube x algorithm updates creators 2` — Organic reach: What it is and how to improve it in 2026&nbsp;&nbsp;Sprout Social ([source](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ZNVdWZmFDaHVjU0p4NHFValFTRHZPbjNjRUo2ZnlmbjQ4RzJqWDd6MjVvenFfbnNoQU9hNEt4bmZjM2JyV0tFdmc3RThBSFMtRDU0ZGlCc3hHenNB0gFiQVVfeXFMTmJDOF9rUlhBSGNmT1dxZnp2MVUxZ01IcGVCR2ZUbFNLcXpGd1FwSk1oWElnV1pvaXN1LWNBSVhfc21kOU82X2I3TzZEdWJlRjlDTGxodFp5WUZ3djdBRG00U1E?oc=5))
+
+- **[2026-10-30 09:52]** `instagram tiktok youtube x algorithm updates creators 2` — Social Media and News Fact Sheet&nbsp;&nbsp;Pew Research Center ([source](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQY05HdWZjWVZxbnhZSlR3Qm5ROWllV09McUx0SzdoT3FGcXJWUS1QaEdJT0x5YmZMMmFXSjZSc0d0bUpEQUNJU1JvbmlJVXo3RjBwZDlvY3pEYTYwckRnWFRtOTNCaTh1YkxtTzduMFI5ZzF5dXZCb2toQXNUWVA2S0hRVkprV0s2b0Z3?oc=5))
+
+- **[2026-10-30 09:52]** `global creative industry trends 2026 design entertainme` — As consumers expect every touchpoint to feel connected and intentional, adapted creativity that shifts based on context increases brand relevance, creating a sense of being understood that builds trust and long-term connection. ([source](https://www.thedrum.com/industry-insight/adapting-to-a-world-in-motion-the-media-imperatives-defining-2026))
+
+- **[2026-10-30 09:52]** `global creative industry trends 2026 design entertainme` — From raw realism to imaginative rebellion, visual storytelling is shifting back to what feels instinctiv ([source](https://www.thedrum.com/news/signs-of-life-3-visual-trends-for-2026))
+
+- **[2026-10-30 09:52]** `global advertising industry trends 2026 creative campai` — Self-care, travel, and heartfelt connections move to the spotlight   Source: ([source](https://aws1.campaignasia.com/article/what-stays-what-changes-what-breaks-trends-shaping-marketing-in-2026/506770))
+
+- **[2026-10-30 09:52]** `global TV series production trends 2026 scripted drama ` — Soapy, salacious and steamy romance stories might have popularized the microdrama format globally, but the first episode of The Agency positions the series as an office comedy with quick cuts and wink-wink lines and visuals. ([source](https://www.hollywoodreporter.com/business/digital/banana-republic-first-scripted-microseries-jack-innanen-1236729327))
+
+- **[2026-10-30 09:52]** `global film industry trends 2026 streaming production s` — UK film production spend dips 11% year-on-year in first quarter of 2026 | News | Screen ([source](https://www.screendaily.com/news/uk-film-production-spend-dips-11-year-on-year-in-first-quarter-of-2026/5217202.article))
+
+- **[2026-10-29 10:06]** `AI agents content production marketing creative workflo` — AI content generation and orchestration: AI-powered caption writing and content suggestions are now table stakes. ([source](https://blog.hootsuite.com/content-calendar-tools))
+
+- **[2026-10-29 10:06]** `AI video production tools film advertising 2026` — How AI Is Transforming Modern Video Creation&nbsp;&nbsp;https://tech-insider.org/ ([source](https://news.google.com/rss/articles/CBMiekFVX3lxTE5TMEhRQzhEWmh0SGVXNVNaa0YxZzB1SFV2WFpsMVZxVlBYZDBPc0FKSVk0ZEJ1a19NSUF1UFplbm82TVlFTWRLbURDRW1sN2Vwc19VZzZDLU5McnN3dGk5eW91RW9qb0t2SGdUUlJQdENNNVhrMjBtdC1n?oc=5))
+
+- **[2026-10-29 10:06]** `AI video production tools film advertising 2026` — The 12 Best AI Avatar Tools for UGC Video Ads&nbsp;&nbsp;TechBullion ([source](https://news.google.com/rss/articles/CBMiekFVX3lxTE0yWHZYb0U1aVNsb2h0WXlSRTViWXhPb2U0elg5NG5LNkNDNkp2ZDlFY1NkSFVDc3JHeVh1bFdQYkczZkZqVDJDMjllMHpUZzNSc1Y1bFFILXZJekhCak8xMUk4eFVaeXh6d2JKOHFxejEzcjk5c01ubTJ3?oc=5))
+
+- **[2026-10-29 10:06]** `global content trends 2026 short form video creator eco` — Short-form video, the creator economy, and algorithm-driven feeds have dominated the 2016 to 2026 era. ([source](https://blog.hootsuite.com/history-social-media))
+
+- **[2026-10-29 10:06]** `global marketing trends 2026 social media content strat` — Skip to content         ## Navigation Menu  Sign in  Appearance settings  Sign in  Sign up  Appearance settings  You signed in with another tab or window. ([source](https://github.com/shootingallday))
+
+- **[2026-10-29 10:06]** `global marketing trends 2026 social media content strat` — Skip to content         ## Navigation Menu  Sign in  Appearance settings  Sign in  Sign up  Appearance settings  You signed in with another tab or window. ([source](https://github.com/torvalds))
+
+- **[2026-10-29 10:06]** `global advertising industry trends 2026 creative campai` — An overview of Ad Age’s 82nd annual report on the biggest agency companies. ([source](https://adage.com))
+
+- **[2026-10-28 09:41]** `global advertising industry trends 2026 creative campai` — [...] One in three ad dollars in 2026 will come from APAC  Source: Dentu's Gl ([source](https://www.campaignasia.com/article/what-stays-what-changes-what-breaks-trends-shaping-marketing-in-2026/yohws9mztae98g4q1h1eojl170))
+
+- **[2026-10-27 10:27]** `global creative industry trends 2026 design entertainme` — Global Creative Production Studio Happy Finish Launches in New York — LBB ([source](https://lbbonline.com/news/global-creative-production-studio-happy-finish-launches-in-new-york))
+
+- **[2026-10-27 10:27]** `global advertising industry trends 2026 creative campai` — The US creator economy is projected to nearly double from $12.33 billion in 2023 to $20.64 billion in 2025 to over $40 billion in 2026, with some estimates putting the global creator economy exceeding $230 billion in 2026. ([source](https://later.com/blog/where-are-creator-marketing-budgets-moving-in-2026))
+
+- **[2026-10-27 10:27]** `global TV series production trends 2026 scripted drama ` — Also in line with global TV trends, microdramas are starting to gain traction in Italy with ReelShort, DramaBox, NetShort, and DramaWave already among the country’s top fifteen entertainment apps in terms of user spend, the report said. ([source](https://variety.com/2026/film/global/italian-content-investment-dropped-uncertainty-tax-credits-1236918479))
+
+- **[2026-10-27 10:27]** `global TV series production trends 2026 scripted drama ` — Group, Linmon Media International and Yulele Media Group, pairing microdrama scale with policy backing, including a new visa-free regime for U.K. ([source](https://variety.com/2026/tv/global/london-tv-screenings-buzz-titles-baywatch-asia-microdramas-1236674474))
+
+- **[2026-10-26 10:49]** `AI video production tools film advertising 2026` — [...] creative-coding offline-rendering v ([source](https://github.com/topics/film-production?o=asc&s=updated))
+
+- **[2026-10-26 10:49]** `screenwriting storytelling trends 2026 television film ` — Selected works are eligible for the Grand Jury Prize for best episodic series. ([source](https://variety.com/2026/film/festivals/american-black-film-fest-2026-lineup-jamie-foxx-marsai-martin-1236711270))
+
+- **[2026-10-26 10:49]** `screenwriting storytelling trends 2026 television film ` — The Directors: Lawrence Lamont — LBB ([source](https://lbbonline.com/news/the-directors-lawrence-lamont))
+
+- **[2026-10-26 10:49]** `global content trends 2026 short form video creator eco` — (The company recently launched a new vertical video product and struck a sep ([source](https://www.hollywoodreporter.com/business/digital/the-creator-a-list-2026-influencers-hollywood-1236736475))
+
+- **[2026-10-26 10:49]** `global creative industry trends 2026 design entertainme` — Adam Gong Joins Midnight Creative Group as Global Production Director — LBB ([source](https://lbbonline.com/news/Adam-Gong-Midnight-Creative-Group-Global-Production-Director))
+
+- **[2026-10-26 10:49]** `world cinema festival market trends 2026 film productio` — Bangkok’s Talad Nang film market 2026 wraps with enthusiastic response | News | Screen ([source](https://www.screendaily.com/news/bangkoks-talad-nang-film-market-2026-wraps-with-enthusiastic-response/5220782.article))
+
+- **[2026-10-24 12:30]** `AI agents content production marketing creative workflo` — The AI product landscape on Product Hunt today is dominated by intelligent agents and developer-centric tools, reflecting a growing shift toward autonomous workflows and open-source innovation. ([source](https://github.com/duanyytop/agents-radar/issues/3790))
+- **[2026-10-24 12:30]** `AI video production tools film advertising 2026` — ## Example AI Filmmaking Workflow  A practical AI video production workflow can be organized into the following steps: [...] Most AI video tools are a prompt box behind a paywall. ([source](https://github.com/LudwigKienle/ai-video-production-editor))
+- **[2026-10-24 12:30]** `AI video production tools film advertising 2026` — [...] Workflow Stacking: The cleanest results almost never come from one tool an ([source](https://www.reddit.com/r/generativeAI/comments/1w0eebm/hello_everyone_what_is_the_best_ai_video))
+- **[2026-10-24 12:30]** `youtube long form podcast trends creators 2026` — YouTube Brandcast 2026: Trevor Noah and Chappell Roan to headline Lincoln Center event - YouTube Blog ([source](https://blog.youtube/news-and-events/youtube-brandcast-2026-lineup))
+- **[2026-10-24 12:29]** `global creative industry trends 2026 design entertainme` — De Longhi's Tiny Coffee Shops scooped the Grand Prix. ([source](https://shots.net/news/view/cannes-lions-2026-film-craft-digital-craft-industry-craft-and-design-winners))
+- **[2026-10-24 12:29]** `global advertising industry trends 2026 creative campai` — ArrowDown  # Creative 100  Inspiring excellence in creativity  Creative 100 2026 summary image  ### Results summary  A summary of the WARC Creative 100 results, including headline rankings and trends. ([source](https://www.warc.com/en/data-benchmarks/rankings-creative-100-overview))
+- **[2026-10-23 12:38]** `AI agents content production marketing creative workflo` — Star  0  Evidence-gated ecommerce creative workflow with a verified free fact-lock and claim QA sample. ([source](https://github.com/topics/ai-marketing?l=html&o=asc&s=stars))
+- **[2026-10-23 12:37]** `AI video production tools film advertising 2026` — African AI Film Festival Launches Inaugural Edition: Live in Hollywood, with a Screening in Kampala&nbsp;&nbsp;FinancialContent ([source](https://news.google.com/rss/articles/CBMi9gFBVV95cUxPU3htbjNXQ1REVDVteDVsTFozcHIzUU1MM3MwMHFuT1A4TTBzbDJ0VVVLYml5c21JQ0o3cTBhWFRpemtRNENkV0lKRGluQnM0THhRNG5KdUdPc2x4U1h4YXRUbm0wVUJGUXhteXR3cXBSN1pFektoLXNvZmNvRTJpTkRDa3V6MmlTUXdSM2ZGUzFsV3R4RjBSRGpJYkVhWmgwNENZRUQ4dVZNLXdyeXVuZ2M3XzhMa2pGZlU5cENUeU1YZkQ3a0M1Q0NwUkZ5RkctQnhPN0ZoSkQyZDVZdHZOSHJYdVEyTGJOXzBkbGJZN2xpSnlrQ1E?oc=5))
+- **[2026-10-23 12:37]** `AI video production tools film advertising 2026` — The Best Video Editing Software We've Tested for 2026&nbsp;&nbsp;PCMag ([source](https://news.google.com/rss/articles/CBMia0FVX3lxTFBoeXNic3V2WmdlN3YtZzZ0OUtneWIwQmN6cVZPWkF0SEdzRWNBaTczSDFHcGtoRTR0SWFDTW5jMi0tNV91ODV1aGtJOWpqRGhWUk5fR0VlbF8wSUtXZkszMXFObEQ0eUtONmRZ?oc=5))
+- **[2026-10-23 12:37]** `screenwriting storytelling trends 2026 television film ` — Why Victoria Rivera Is Always Looking for a Story, No Matter How Small — LBB ([source](https://lbbonline.com/news/Why-Victoria-Rivera-Is-Always-Looking-for-a-Story-No-Matter-How-Small))
+- **[2026-10-23 12:36]** `global creative industry trends 2026 design entertainme` — Thought Leaders### Useful But Soulless: Generative AI and Its Place in FilmmakingTaproot Pictures · Grand Rapids, US  22/10/2026 · 32 views  Advertising Is Getting Cheaper. ([source](https://lbbonline.com/news/Offf-Barcelona-2026-Future-of-Design))
+- **[2026-10-23 12:34]** `global advertising industry trends 2026 creative campai` — Best Global Influencer Marketing Agencies for Strategic Brand Growth&nbsp;&nbsp;Influencer Marketing Hub ([source](https://news.google.com/rss/articles/CBMiekFVX3lxTE5fXzhMeDJ2Wm5hdDdsSmRWOUFCSWU5TXdRSDBxNXVvUlN5M0N4eWZRNVhXbTJBTEtYel9hNnpzNmlxM3FsX1RzZnpSWjFybUVKSjBkSGhoaEJhT3ZlY0hxVXVaQlNYdVBFMDBfRXRDNFdLSHRTVkhHMEpn?oc=5))
+- **[2026-10-23 12:34]** `global advertising industry trends 2026 creative campai` — 165 Digital Marketing Statistics (2026) – Market Size & Growth&nbsp;&nbsp;DemandSage ([source](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsWFBzVzlvem1RaVJVdzZiR3NvaWRCQTNJQ0hhTnhlRnBMbmUweXUzQlowS1VuWXlkSzZSMGdNRFZXU1RJY1dhakc0WGktYm94Wk9FRm0wSXNDd1U5OVJxal9RdThlZUU?oc=5))
+- **[2026-10-23 12:34]** `world cinema festival market trends 2026 film productio` — From ‘Artificial Clouds’ to ‘Being North Korean’: IDFA Forum Unveils Slate, Rejigs Formats&nbsp;&nbsp;The Hollywood Reporter ([source](https://news.google.com/rss/articles/CBMivAFBVV95cUxOUzVXd01mdWJKTDNZU3FsUEZtSmtCSEgxcktmcy1vdzVOd3RPSTdJeVBUZWFucGl0UXVYTTdJZEwySHR2el9oU18xdTZRS0RPVWJLQ3o1U1JBUEI3YkdXY2VyMGk4WHZCbi16VlNQY3FWdV9UVGNoc1pnV1dqbmNHYUFuQTBrQjB0Uk51MWh6NmRnNFpncERjc2U3RVBBUDZGSE1SY0V3bk82SS1DaG9pUU0xZGdkazBmd3FrSg?oc=5))
+- **[2026-10-23 12:34]** `world cinema festival market trends 2026 film productio` — Marco Müller • Director, Film Arts Research Centre at Shanghai University - Industry Report: Film Festival Trends&nbsp;&nbsp;Cineuropa ([source](https://news.google.com/rss/articles/CBMiZEFVX3lxTE11aTJxQzlJVXptUkRuU0xLamZPZlp6bzVIeW0tc0hlMHF0WkNJQUx6d25HZVNZdS1pSHgtd3VjWEYyUUxYYm9MYWJra0tyRDc5bmtWN0RtQUN2Y1Jyc0dXTVBRcko?oc=5))
+- **[2026-10-23 12:33]** `global film industry trends 2026 streaming production s` — # People also ask about section   People also ask about   Movie industry trends for 2026  Physical media trends in the film in ([source](https://www.reddit.com/r/FilmIndustryLA/comments/1ptd3l4/how_are_we_all_feeling_going_into_2026))
+- **[2026-10-22 15:44]** `AI agents content production marketing creative workflo` — ‘The Machine’ OS unifies workflows and uses AI agents to enhance the data systems and tools marketers already use, including Figma, Slack, Teams, Adobe, and performance dashboards. ([source](https://lbbonline.com/news/ces-advertising-agencies-ai-marketing-news-disney-reddit))
+- **[2026-10-22 15:44]** `AI video production tools film advertising 2026` — Utopai Studios Launches PAI 2.0, New Version of AI Video Platform ([source](https://variety.com/2026/digital/tech/ai-utopai-studios-pai-2-generative-video-platform-1236764434))
+- **[2026-10-22 15:44]** `AI video production tools film advertising 2026` — Its tools have even been used in films such as “Everything Everywhere All At Once.”  Runway is now valued at $5.3 billion and, according to one of its founders, added $40 million in annual recurring revenue in the second q ([source](https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai))
+- **[2026-10-22 15:44]** `screenwriting storytelling trends 2026 television film ` — [News  ### 'Harry Potter' TV Series Due To Hit HBO Christmas 2026: Everything We Know About The Cast, Who's Creating It, What J.K. ([source](https://deadline.com/2017/08/film-independent-2017-screenwriting-lab-fellows-1202157884))
+- **[2026-10-22 15:44]** `global content trends 2026 short form video creator eco` — Creator Economy Job Radar – September 15, 2026 – Google, Coty, TP-Link, and More&nbsp;&nbsp;Net Influencer ([source](https://news.google.com/rss/articles/CBMipgFBVV95cUxPTngxekZFZkI5d2RZSjJHYmNKTERBMUZwdy1SMHE3SUxfMUNTUW05Z3Rxb05XbkZDcGFaZzVUTmdrZUtIVndpeFdUSkhieThJZ2ROS08zSlRSM0cyNmtERElpV3p1MVFOVDBWNmdDdmxzZXhLVDByUzRkTlF0UC04c3N3UDNSVFhvbldBV2xudHFLaUZQajF3U2pCM1hJT2dLWVFFNXB3?oc=5))
+- **[2026-10-22 15:44]** `global content trends 2026 short form video creator eco` — Creator Economy Market Size, Share & Growth Report 2035&nbsp;&nbsp;SNS Insider ([source](https://news.google.com/rss/articles/CBMib0FVX3lxTFB1SmYyc3JhQVZMUENBTWg5dTVEd2ZmZS1zU3MwZW9FamxzeDBfdHdocFM0UVlFek90SjlQRUtOV3JydFRNVm8yaVhlRHZHZlAzcXZ3UXloWERTYWJIMjRHUzBKU1VxaVhZRTVwTE1oVQ?oc=5))
+- **[2026-10-22 14:34]** `global creative industry trends 2026 design entertainme` — The diversity of campaigns in the top 100 stands out this year, in an industry where sheer choice of channel or platform could threaten to overwhelm, creatives are leaning in and finding new ways to engage and drive emotion within their audiences. ([source](https://www.warc.com/en/article/warc-rankings-2026-creative-100-summary-of-results-08b0c72f3fb34a60b9df7863a302f4b2))
+- **[2026-10-22 14:34]** `global creative industry trends 2026 design entertainme` — The rise of AI as a mediation layer means creative work must move people and survive machine ranking, retrieval and recommendation. ([source](https://www.warc.com/en/article/creative-impact-unpacked-10-effectiveness-trends-from-cannes-lions-2026-32ac44e0bd6a45b183bf96dd4737531b))
+- **[2026-10-22 14:33]** `global TV series production trends 2026 scripted drama ` — Release: Season 2 premieres Fall 2026  Channel: Dwyane Wade  Synopsis: 3x NBA Champion and 2x Hall of Famer, Dwyane Wade let's viewers be a fly on the wall of his life. ([source](https://blog.youtube/news-and-events/new-youtube-series-2026))
+- **[2026-10-22 14:33]** `global TV series production trends 2026 scripted drama ` — How that translates remains to be seen, but the direction of travel towards more development is also being replicated over at BBC Studios, where Global Production president Matt Forde said that he wanted to increase scripted revenues from 15% to 25%. ([source](https://www.screendaily.com/news/six-talking-points-from-series-mania-2026/5215238.article))
+- **[2026-10-20 12:43]** `AI agents content production marketing creative workflo` — TGS-2023036153-Multi-AI-Agents-Workflow-for-Content-Creation/CLAUDE.md at main · tertiarycourses/TGS-2023036153-Multi-AI-Agents-Workflow-for-Content-Creation · GitHub ([source](https://github.com/tertiarycourses/TGS-2023036153-Multi-AI-Agents-Workflow-for-Content-Creation/blob/main/CLAUDE.md))
+- **[2026-10-20 12:43]** `AI video production tools film advertising 2026` — awesome-ai-video-maker-prompts/README.md at main · cliprise/awesome-ai-video-maker-prompts · GitHub ([source](https://github.com/cliprise/awesome-ai-video-maker-prompts/blob/main/README.md))
+- **[2026-10-20 12:43]** `AI video production tools film advertising 2026` — This guide covers everything you need to know about AI photo and video generators in 2026 — the best tools, tech ([source](https://github.com/StalkerScholarSpirit/ai-photo-and-video-generator))
+- **[2026-10-20 12:43]** `screenwriting storytelling trends 2026 television film ` — In a crowded field of L.A.-area film programs, LMU continues to compete with updates to curriculum and an emphasis on financial aid. ([source](https://www.hollywoodreporter.com/lists/best-film-schools-2025))
+- **[2026-10-20 12:43]** `screenwriting storytelling trends 2026 television film ` — From his 2013 breakout film Neighborhood Sounds to 2025’s Oscars darling The Secret Agent, he’s continually exploring the lives of Recife’s people in the context of broader social and political upheaval in the country. ([source](https://www.adweek.com/creativity/the-2026-creative-100-directors-taking-genre-films-to-the-mainstream))
+- **[2026-10-20 12:43]** `global content trends 2026 short form video creator eco` — python open-source instagram social-media analytics claude apify virality tiktok content-creators creator-economy anthropic   Updated May 19, 2026  Python  ### thunderbit-operations / us-realtor-you ([source](https://github.com/topics/creator-economy?l=python&o=asc&s=updated))
+- **[2026-10-20 12:43]** `global TV series production trends 2026 scripted drama ` — MIPCOM Cannes is bringing in microdramas - Tubefilter ([source](https://www.tubefilter.com/2026/07/27/mipcom-cannes-microdramas-2026))
+- **[2026-10-20 12:43]** `global TV series production trends 2026 scripted drama ` — They depend on the stories told and where in the world they are being produced. ([source](https://www.hollywoodreporter.com/business/business-news/woody-allen-madrid-film-iberseries-platino-industria-wrap-1236714367))
+- **[2026-10-20 12:42]** `global film industry trends 2026 streaming production s` — Photo credit: Paramount+  ### 'Avatar: Seven Havens' Renewed for Seasons 3 and 4 at Paramount+ [...] ([source](https://variety.com/2026/tv/global/spanish-production-mipcom-rights-ip-services-partnerships-1236907351))
+- **[2026-10-19 14:02]** `AI video production tools film advertising 2026` — ffmpeg video-editing video-editing-software video-editing-tools   Updated Sep 28, 2026  Rust  ### shijincai / remove-veo-watermark  Star  18  Free AI tool to remove watermarks from Google Veo AI-generated videos. ([source](https://github.com/topics/video-editing-tools))
+- **[2026-10-19 14:02]** `AI video production tools film advertising 2026` — GitHub - cliprise/awesome-ai-video-maker-prompts: AI video maker prompts, AI video creator workflows, free AI video maker guide, AI clip maker ideas and video generation resources. ([source](https://github.com/cliprise/awesome-ai-video-maker-prompts))
+- **[2026-10-19 14:02]** `screenwriting storytelling trends 2026 television film ` — Title: How different is script writing for film and television? ([source](https://www.reddit.com/r/Screenwriting/comments/4k8ea0/how_different_is_script_writing_for_film_and))
+- **[2026-10-19 14:02]** `screenwriting storytelling trends 2026 television film ` — What the best AI for film screenwriting delivers: ✅ Framework-agnostic structural guidance (Sa ([source](https://www.reddit.com/r/jenova_ai/comments/1r2lwgw/best_ai_for_film_screenwriting_master_structure))
+- **[2026-10-19 14:02]** `instagram tiktok youtube x algorithm updates creators 2` — In a new series of videos, chief Adam Mosseri addresses concerns about algorithmic influence and suggests how creators can improve their results. ([source](https://www.socialmediatoday.com/news/instagram-chief-shares-algorithm-insights-and-posting-tips/831326))
+- **[2026-10-19 14:02]** `global marketing trends 2026 social media content strat` — Now in its 16th edition, dentsu's new annual trends report, Human Truths in the Algorithmic Era | 2026 Media Trends, decodes the shifts reshaping global marketing and media investment. ([source](https://lbbonline.com/news/2026-Media-Trends-Human-Truths-in-the-Algorithmic-Era))
+- **[2026-10-19 14:02]** `global marketing trends 2026 social media content strat` — The future belongs to those who let social write the strategy and let everything else t ([source](https://www.thedrum.com/news/marketing-leaders-tell-us-the-media-and-consumer-stories-we-missed-last-year))
+- **[2026-10-19 14:02]** `global TV series production trends 2026 scripted drama ` — The US financial company Bilt produced ‘Roomies’, its own mockumentary about young people, housing and life in New York. ([source](https://lbbonline.com/news/serviceplan-culture-franziska-gregor-2026-micro-dramas))
