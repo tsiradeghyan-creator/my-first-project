@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud
+**Did:** reviewed the 24 skills and 9 agents copied from the laptop (no secrets found by a second scan). Added BRIDGE.md (mailbox between VS Code and Cloud), the `/bridge` command in .claude/commands/, and a CLAUDE.md rule to check the bridge at session start. Posted questions C1 to C5 for VS Code.
+
+**Left:** VS Code to run `/bridge` and answer C1 to C5. Then decide which laptop-only data and which API keys the cloud side needs.
+
 ## 2026-10-31 — VS Code
 **Did:** shared-workspace setup — merged claude/epic-tesla-uhubne (Roast Room) into main with no conflicts (adds maghakian-roast-room/, 276 files, and 2 lines in README.md); copied personal skills and agents into .claude/ (no name clashes — the repo had no root .claude/ before); added CLAUDE.md rules, .gitignore and this log. Repo cloned on the laptop at ~/my-first-project.
 
