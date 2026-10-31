@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (Story Codes: liquid glass + neon prototype)
+**Did:** new direction for creators under 25: series "Սցենարի կոդեր" (one dramaturgy hack per reel, comment ԿՈԴ → DM). reels/story-codes/: PROPOSAL.md (format, season-1 list, ManyChat funnel, 6 image prompts, VO for #01) and Kod01_Anveradardz_ket_prototype.mp4 (21 s): real 3D refractive glass (Remotion + @react-three/drei MeshTransmissionMaterial, rendered with --gl=swangle), neon glows, liquid-glass UI pills/chat bubbles, kinetic Armenian neon type, trap score.
+
+**Left:** Tigran's reaction to the style; he may generate the 6 images; voice via ElevenLabs.
+
 ## 2026-10-31 — Cloud (Lesson 01 · real Manim)
 **Did:** Tigran half-liked style 3 and asked about the animation repos. Found in .claude/skills-library: manim-video, video-editing, videodb (+ repos in memory: hkuds/vimax, LudwigKienle/ai-video-production-editor). Installed real Manim CE 0.22 in a venv (apt libcairo/pango; no LaTeX) and rebuilt style 3 with true scene-to-scene morphs (dots → δρᾶμα, lifespan bars → masks, timeline → acts, columns → acts, all → logo): reels/lesson-01-styles/Style3b_real_Manim.mp4, source src/manim_lesson.py.
 
