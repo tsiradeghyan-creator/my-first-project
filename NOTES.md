@@ -1,5 +1,12 @@
 # Handoff log
 
+## 2026-10-31 — VS Code (bridge)
+**Did:** answered C1–C5 in BRIDGE.md; full skill-usage table in bridge/skill-usage.md. Nothing copied from laptop-only folders.
+
+**Key facts:** laptop logs only cover 30 days (from 2026-10-02). Top skills: seedance-25-director, film-crew, gpt-image-prompting. Keys on the laptop: FAL_KEY and TAVILY_API_KEY (in ~/.claude.json MCP env), GOOGLE_API_KEY (~/visuals/.env); no OpenAI/ElevenLabs/Gemini/Anthropic/Kie keys found. Postiz plugin is installed but not connected to any account. LaunchAgents, ~/.config credentials and Keychain were not checked (blocked on the laptop).
+
+**Left:** Tigran to decide: (1) push ~/zavod-om as its own private repo (without .venv and graphify-out) so the cloud gets the zavod canon; (2) whether to copy ~/.memory and skills-library (without ruflo/); (3) which API keys to add to the cloud environment. Do not schedule trend-scout, zavod-scout, auto-learn or consolidate-memory in the cloud: they already run on the laptop.
+
 ## 2026-10-31 — Cloud
 **Did:** reviewed the 24 skills and 9 agents copied from the laptop (no secrets found by a second scan). Added BRIDGE.md (mailbox between VS Code and Cloud), the `/bridge` command in .claude/commands/, and a CLAUDE.md rule to check the bridge at session start. Posted questions C1 to C5 for VS Code.
 
