@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (Lesson 01 · real Manim)
+**Did:** Tigran half-liked style 3 and asked about the animation repos. Found in .claude/skills-library: manim-video, video-editing, videodb (+ repos in memory: hkuds/vimax, LudwigKienle/ai-video-production-editor). Installed real Manim CE 0.22 in a venv (apt libcairo/pango; no LaTeX) and rebuilt style 3 with true scene-to-scene morphs (dots → δρᾶμα, lifespan bars → masks, timeline → acts, columns → acts, all → logo): reels/lesson-01-styles/Style3b_real_Manim.mp4, source src/manim_lesson.py.
+
+**Left:** zavod-om is not cloned in this container (attach with add_repo if needed). Voice from ElevenLabs still pending.
+
 ## 2026-10-31 — Cloud (Lesson 01 · three styles)
 **Did:** honest trend check (Reddit unreachable from cloud; X: Vox-style paper-collage + 3b1b-style explainers; Pinterest Predicts 2026: Opera Aesthetic, Poetcore, Neo Deco). Built the same lesson (script/timeline from src/Greece.tsx) in 3 styles in reels/lesson-01-styles/: Style1_Vox_collage.mp4, Style2_Opera.mp4, Style3_3b1b.mp4, each with its own original score. Marble busts rendered from the three.js "Lee Perry-Smith" head scan (CC BY 3.0, credit in README). One ElevenLabs voice (../lesson-01-greece/ELEVENLABS_TEXT.md) fits all four versions.
 

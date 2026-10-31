@@ -233,7 +233,7 @@ const S10: React.FC<{lf: number}> = ({lf}) => {
 };
 const SCENES = [S1, S2, S3, S4, S5, S6, S7, S8, S9, S10];
 
-const Subs: React.FC = () => {
+export const Subs: React.FC = () => {
   const f = useCurrentFrame();
   let cur = VO[0];
   for (const v of VO) if (f >= v.at) cur = v;

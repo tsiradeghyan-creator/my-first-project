@@ -6,6 +6,9 @@ Same script, same timeline (src/Greece.tsx `G`, `VO`), so one ElevenLabs voice f
 |---|---|---|---|
 | 1 | Vox-style paper collage | Most cited viral explainer format on X in 2026 (torn paper, cut-out type, halftone photos, one big board the camera travels across) | Style1_Vox_collage.mp4 |
 | 2 | Opera Aesthetic | Pinterest Predicts 2026 trend: red velvet, gold, theatrical | Style2_Opera.mp4 |
-| 3 | 3Blue1Brown-style | Clean dark explainer with drawn curves (X: "3b1b-style explainer" prompts) | Style3_3b1b.mp4 |
+| 3b | **Real Manim** (the engine 3Blue1Brown uses), via the manim-video skill from .claude/skills-library: objects morph from scene to scene | | Style3b_real_Manim.mp4 |
+| 3 | 3Blue1Brown-style (React imitation) | Clean dark explainer with drawn curves (X: "3b1b-style explainer" prompts) | Style3_3b1b.mp4 |
 
 Marble busts in img/ are renders of the "Lee Perry-Smith" head scan (Infinite-Realities, CC BY 3.0, via the three.js examples), rendered with a procedural marble material (src/bust.html + src/shoot.js). Credit if published: "Head scan: Lee Perry-Smith by Infinite-Realities, CC BY 3.0".
+
+Real Manim: src/manim_lesson.py (Manim CE 0.22, no LaTeX needed). Install: python3 -m venv v && v/bin/pip install manim (needs libcairo2-dev libpango1.0-dev), fonts Noto Serif/Sans Armenian in ~/.local/share/fonts. Render: manim -qh manim_lesson.py Lesson, then Remotion comp ManimReal adds subtitles + score.
