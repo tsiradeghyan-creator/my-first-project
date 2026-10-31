@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (Script lesson 01, Ancient Greece version)
+**Did:** Tigran rejected the story version as colourless; made "Ի՞նչ է դրամատուրգիան" as a rich illustrated history (reels/lesson-01-greece/, 55.5 s): sunset amphitheatre with 17 000 crowd, marble columns + etymology δρᾶμα+ἔργον, red-figure vases (Aeschylus/Sophocles/Euripides), gold masks, Aristotle's Poetics scroll, temple = beginning/middle/end, peripeteia, catharsis, film strip today, columns → film frames. Lyre/drum score (audio/greece_synth.py), Armenian captions. ELEVENLABS_TEXT.md has the voice text (numbers spelled out) + timing. Comp Greece in src/Greece.tsx.
+
+**Left:** Tigran sends the ElevenLabs voice; re-time + mix + render.
+
 ## 2026-10-31 — Cloud (Script lesson 01, story version)
 **Did:** narrative version of lesson 01 (reels/lesson-01-story/): Lilit's 30-second story drawn as hand-sketched doodles (dream → contest 19:00 → loses her voice, 1000 people → curtain, silence, heartbeat → sings without fear), VHS rewind, then each scene labelled with its plot element on a tension curve, summary, logo. Armenian kinetic text, original score, no voice yet. ELEVENLABS_TEXT.md has the voice text + timing. Comp StoryLesson in src/Story.tsx.
 
