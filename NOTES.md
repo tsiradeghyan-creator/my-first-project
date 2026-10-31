@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (G63 reel v2, fashion)
+**Did:** v2 of the G63 reel per Tigran: removed the ԴՈՒԽ end card; English fashion-editorial text (Bodoni Moda italic + Syncopate + Space Mono), magazine masthead "G—63 · The Winter Issue №01"; animated tachometer (needle, redline, digital RPM) + throttle gauge + gear readout; icy split-tone grade; transitions: cinema bars, whip-blur, zoom + RGB split, red/black blinds, light leak, glitch shake, iris wipe. File reels/g63-snow/G63_reel_v2_fashion.mp4, src updated (fonts not committed: download from google/fonts into public/).
+
+**Left:** Tigran's feedback on v2.
+
 ## 2026-10-31 — Cloud (G63 reel)
 **Did:** made a 37 s vertical reel (1080x1920) from Tigran's G63-in-deep-snow clip with Remotion (remotion-video-creation skill): speed ramps, freeze slam, 3-panel collage (ՁՅՈՒՆ / ՑԵԽ / ԴՈՒԽ), HUD, slow-mo snow burst, end card ԴՈՒԽ; Noto Sans Armenian, brand red #D90429, original music kept. Files in reels/g63-snow/ (G63_reel.mp4 + Remotion src; the HQ render is gitignored).
 
