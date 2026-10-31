@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (G63 reel v4, TikTok)
+**Did:** v4 TikTok cut (32.2 s, comp G63TikTok in src/TikTok.tsx): climax teaser hook in the first second ("585 HP vs. zero road."), richer blue/gold grade and coloured gradient canvases, all cuts on a 100 bpm grid, drop on the snow burst at 23.4 s, CTA "Would you take this road?", UI kept out of TikTok's button zones. Voiceover made locally with Piper (en-us-ryan-high, downloaded from GitHub releases); original music synthesized in numpy (audio/synth.py), music ducked under the voice, -14 LUFS. Also a VOICE_ONLY version for adding a trending TikTok sound in the app. Posting kit: reels/g63-snow/TIKTOK_POSTING.md.
+
+**Left:** cloud network blocks fal.ai, HuggingFace and Bing TTS, so there is no ElevenLabs-grade voice or AI music here; on the laptop (FAL_KEY) the voice/music can be upgraded. Trend radar lives on the laptop (Obsidian), not reachable from cloud.
+
 ## 2026-10-31 — Cloud (G63 reel v3, luxury-house / keynote)
 **Did:** v3 "Hiver — Collection No. 01" (40 s, comp G63Maison in src/Maison.tsx): cream #F2EDE4 / ink / one burnt-orange accent; Inter + Bodoni Moda italic; warm film grade; knockout "G63" type with zoom-through; full-bleed shot collapses into floating card; spec sheet with drawn tachometer + throttle dials and counting numbers (585 hp, 850 Nm, 3 diff locks); 3D triptych Snow/Steel/Nerve; middle card expands to full-bleed slow-mo burst ("Not driven." / "Felt."); finale card recedes into end titles. No Prada/Hermès names or logos (original style). File reels/g63-snow/G63_v3_maison.mp4.
 
