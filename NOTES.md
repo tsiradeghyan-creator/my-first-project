@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (G63 reel v3, luxury-house / keynote)
+**Did:** v3 "Hiver — Collection No. 01" (40 s, comp G63Maison in src/Maison.tsx): cream #F2EDE4 / ink / one burnt-orange accent; Inter + Bodoni Moda italic; warm film grade; knockout "G63" type with zoom-through; full-bleed shot collapses into floating card; spec sheet with drawn tachometer + throttle dials and counting numbers (585 hp, 850 Nm, 3 diff locks); 3D triptych Snow/Steel/Nerve; middle card expands to full-bleed slow-mo burst ("Not driven." / "Felt."); finale card recedes into end titles. No Prada/Hermès names or logos (original style). File reels/g63-snow/G63_v3_maison.mp4.
+
+**Left:** Tigran's feedback; ideally a calmer licensed music track for the luxury cut (still uses the clip's own audio).
+
 ## 2026-10-31 — Cloud (G63 reel v2, fashion)
 **Did:** v2 of the G63 reel per Tigran: removed the ԴՈՒԽ end card; English fashion-editorial text (Bodoni Moda italic + Syncopate + Space Mono), magazine masthead "G—63 · The Winter Issue №01"; animated tachometer (needle, redline, digital RPM) + throttle gauge + gear readout; icy split-tone grade; transitions: cinema bars, whip-blur, zoom + RGB split, red/black blinds, light leak, glitch shake, iris wipe. File reels/g63-snow/G63_reel_v2_fashion.mp4, src updated (fonts not committed: download from google/fonts into public/).
 
