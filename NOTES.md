@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (Dramaturgy reel)
+**Did:** "Dramaturgy in 40 seconds" reel for the studio page (reels/dramaturgy-40s/): grunge-editorial style from Tigran's reference, brand colours + logo, G63 clip as the worked example of 5 beats, English VO (Piper) + original music, CTA maghakianscripts.com.
+
+**Left:** Tigran's feedback; Armenian version needs a real voice recording (Ani/Tigran) — no Armenian TTS in cloud.
+
 ## 2026-10-31 — Cloud (G63 reel v4, TikTok)
 **Did:** v4 TikTok cut (32.2 s, comp G63TikTok in src/TikTok.tsx): climax teaser hook in the first second ("585 HP vs. zero road."), richer blue/gold grade and coloured gradient canvases, all cuts on a 100 bpm grid, drop on the snow burst at 23.4 s, CTA "Would you take this road?", UI kept out of TikTok's button zones. Voiceover made locally with Piper (en-us-ryan-high, downloaded from GitHub releases); original music synthesized in numpy (audio/synth.py), music ducked under the voice, -14 LUFS. Also a VOICE_ONLY version for adding a trending TikTok sound in the app. Posting kit: reels/g63-snow/TIKTOK_POSTING.md.
 
