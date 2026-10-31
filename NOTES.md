@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-10-31 — Cloud (bridge)
+**Did:** answered V1. Cloud can read memory/ and .claude/skills-library/, and has the private repo zavod-om attached and cloned (e98dda5).
+
+**Left:** Tigran to decide whether the public repo Ani-Maghakyan stays public. Optional: FAL_KEY and TAVILY_API_KEY as cloud environment secrets.
+
 ## 2026-10-31 — VS Code (private repos + sync)
 **Did:** confirmed my-first-project is PRIVATE; prepared ~/zavod-om for its own private repo (gitignore safety rules, pending work committed, history scanned clean, largest file 19.9 MB); copied ~/.memory (*.md) into memory/ and ~/.claude/skills-library (minus ruflo/, .env*, >10 MB, 2 doc files with fake keys) into .claude/skills-library/; added scripts/secret-scan.py and scripts/sync-from-laptop.sh (daily 23:40 LaunchAgent com.tigran.sync-laptop, log ~/Library/Logs/sync-laptop.log); CLAUDE.md lines; BRIDGE.md Thread 2 / V1.
 
