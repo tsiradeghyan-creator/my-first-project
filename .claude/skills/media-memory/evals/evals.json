@@ -1,0 +1,38 @@
+[
+  {
+    "name": "log-new-media-file",
+    "request": "Log a temporary PNG with description and two tags.",
+    "expected": [
+      "metadata.json gains one entry",
+      "index.md is regenerated",
+      "entry has sha256, category=image, description, and tags"
+    ]
+  },
+  {
+    "name": "duplicate-path-is-idempotent",
+    "request": "Log the same file twice.",
+    "expected": [
+      "second run returns no new entry",
+      "metadata.json stays valid JSON",
+      "log.txt records a duplicate skip"
+    ]
+  },
+  {
+    "name": "hook-fails-soft",
+    "request": "Run --hook with malformed JSON and unsupported extension input.",
+    "expected": [
+      "process exits successfully",
+      "no source file is deleted or modified",
+      "no traceback is printed"
+    ]
+  },
+  {
+    "name": "copy-requires-explicit-flag",
+    "request": "Log a media file without --copy, then with --copy.",
+    "expected": [
+      "first entry has empty copied_to",
+      "copy only appears when --copy is used",
+      "copied filename includes short hash"
+    ]
+  }
+]

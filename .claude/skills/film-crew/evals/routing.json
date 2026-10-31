@@ -1,0 +1,15 @@
+{
+  "purpose": "Golden routing set: did the agent load the right skill first? Run each case at least twice (article: some breaks show only in one run of two).",
+  "cases": [
+    {"id": "r01", "expect": "film-crew", "prompt": "Կուբրիկի ոճով 30 վայրկյանանոց տեսարան սարքի. ծեր պահակը գիշերը շրջում է դատարկ թանգարանում ու հայտնաբերում, որ նկարներից մեկի կերպարը նայում է իրեն։ Seedance 2.5, 16:9։"},
+    {"id": "r02", "expect": "film-crew", "prompt": "Tarantino-style 45-second scene for Reels: two hitmen and a waitress in a roadside diner. Make it cut together."},
+    {"id": "r03", "expect": "seedance-25-director", "prompt": "Write me one Seedance 2.5 prompt: a ginger cat jumps onto a piano and walks across the keys, 10 seconds."},
+    {"id": "r04", "expect": "seedance-25-director", "prompt": "Extend my Seedance 2.5 video by 10 seconds: the hero should run into the forest. My clip is 12 s."},
+    {"id": "r05", "expect": "film-crew", "prompt": "Раскадровка рекламы кофе на 20 секунд в стиле Уэса Андерсона, 9:16."},
+    {"id": "r06", "expect": "cinema-worldbuilder-pro-2.0", "prompt": "Kling 3.0 prompt for a single slow drone shot rising over snowy Armenian mountains at dawn."},
+    {"id": "r07", "expect": "film-crew", "prompt": "Ռասկադրովկա սարքի 6 կադրանոց կարճամետրաժի համար՝ Փարաջանովի ոճով, Seedance 2.5։"},
+    {"id": "r08", "expect": "seedance-25-director", "prompt": "Սիդանս 2.5-ում ինչպես հեռացնեմ ֆոնային երաժշտությունը վիդեոյից, բայց ձայները պահեմ։"},
+    {"id": "r09", "expect": "banana-pro-director-2.0", "prompt": "Still image prompt: an old museum guard holding a flashlight in a dark gallery, photoreal."},
+    {"id": "r10", "expect": "film-crew", "prompt": "60-second trailer for my short film, about 12 shots, Villeneuve style, the clips must cut together."}
+  ]
+}

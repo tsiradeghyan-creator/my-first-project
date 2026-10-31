@@ -1,0 +1,62 @@
+{
+  "skill": "seedance-25-director",
+  "cases": [
+    {
+      "id": "omni-armenian-request",
+      "prompt": "Սիդանս 2.5-ի համար պրոմպտ գրի. տատիկը առավոտյան խոհանոցում գաթա է թխում, 15 վայրկյան, ռիլսի համար",
+      "expect": [
+        "replies in Armenian Unicode, prompt block in English",
+        "mode omni, 15 s, 9:16 stated as assumption",
+        "time slices continuous and summing to 15 s",
+        "explicit sound policy (ambience, music or 'no background music', subtitles)",
+        "settings block lists Omni Reference, 15 s, 9:16, 720p"
+      ]
+    },
+    {
+      "id": "thirty-second-drama",
+      "prompt": "30-second one-take, a daughter says goodbye to her father at a bus stop at dawn, realistic, no music",
+      "expect": [
+        "mode timeline-30, not long",
+        "three-module structure: reference layer skipped or noted, global settings with specific bans, timestamped storyboard with a why-line per slice",
+        "realistic human formula with the pores/skin-texture clause",
+        "bans name concrete collapse points (e.g. early tears, extra dialogue, BGM)"
+      ]
+    },
+    {
+      "id": "extend-ambiguous",
+      "prompt": "Extend my Seedance video by 10 seconds, the hero should run into the forest. @Video 1 is 12 s.",
+      "expect": [
+        "uses extend mode; checks 12 s < 30 s and result 22 s ≤ 30 s",
+        "prompt describes only the new 10 s, states 'after the last frame' (default of the Extend button) or asks before/after once",
+        "includes natural-extension continuity clause"
+      ]
+    },
+    {
+      "id": "edit-with-marks",
+      "prompt": "In my uploaded video I drew a red box around the man's jacket. Make it a black leather jacket but only from 4 to 9 seconds.",
+      "expect": [
+        "edit formula: annotation (inside the red box) + target + change + effective time 4-9 s",
+        "lists what stays unchanged",
+        "notes source ≤ 20 s for stability if length unknown"
+      ]
+    },
+    {
+      "id": "armenian-dialogue-risk",
+      "prompt": "Write a Seedance 2.5 prompt where two friends argue in Armenian in a Yerevan cafe, 20 seconds.",
+      "expect": [
+        "flags that Armenian is not on the official language list and recommends a test",
+        "offers a fallback (no dialogue + voice in post, or off-screen speaker)",
+        "each speaker bound separately; dialogue fits 20 s"
+      ]
+    },
+    {
+      "id": "too-many-references",
+      "prompt": "I have 14 character photos and 12 reference videos, make a 30 s party scene with all of them.",
+      "expect": [
+        "flags 12 videos > 10 limit and asks or proposes a reduction",
+        "warns 14 subjects is beyond the stable 1-8 (9-12 possible) image range",
+        "does not silently drop assets"
+      ]
+    }
+  ]
+}

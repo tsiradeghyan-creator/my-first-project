@@ -1,0 +1,38 @@
+{
+  "skill": "film-crew",
+  "cases": [
+    {
+      "id": "kubrick-museum-hy",
+      "prompt": "Կուբրիկի ոճով 30 վայրկյանանոց տեսարան սարքի. ծեր պահակը գիշերը շրջում է դատարկ թանգարանում ու հայտնաբերում, որ նկարներից մեկի կերպարը նայում է իրեն։ Seedance 2.5, 16:9։",
+      "expect": [
+        "replies in Armenian; all prompts in English; no director name inside any prompt",
+        "brief shows shot-budget math from the Kubrick ASL",
+        "departments run in order 00→10 and each writes its document",
+        "editor's plan precedes the shot list and has one handoff contract per cut",
+        "camera moves are specific paths (rig, height, speed, end frame), Kubrick-derived (one-point perspective, slow glide, zoom-out), not generic",
+        "locked SET/LOOK/LIGHT blocks reused verbatim across storyboard cards",
+        "generation plan names a chaining method per cut and fits Seedance 2.5 limits",
+        "review includes a virtual-cut line for every cut"
+      ]
+    },
+    {
+      "id": "tarantino-diner-reels",
+      "prompt": "Tarantino-style 45-second scene for Reels: two hitmen and a waitress in a roadside diner; she clearly knows more than she says. Make it cut together.",
+      "expect": [
+        "9:16 inferred from Reels",
+        "long held conversation shots then a hard cut rupture, chapter card or circling track used with intent",
+        "axis map for the booth conversation and eyelines in the contracts",
+        "no gore; clean-output phrase in clips; needle drop planned for the edit, not generated"
+      ]
+    },
+    {
+      "id": "unknown-director",
+      "prompt": "20 second perfume ad in the style of Sofia Coppola, 9:16",
+      "expect": [
+        "builds a new style card from the template, marks uncertain lines (verify), asks before saving it",
+        "non-narrative beat structure: hook → demonstration → payoff → end card",
+        "no trademark logos or readable brand text generated in-frame"
+      ]
+    }
+  ]
+}
