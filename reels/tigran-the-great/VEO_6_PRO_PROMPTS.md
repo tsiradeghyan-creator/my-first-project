@@ -1,0 +1,74 @@
+# Teaser v2 — 6 Veo 3.1 Fast prompts, built with cinema-worldbuilder-pro-2.0 (ten-block grammar)
+Engine: Veo 3.1 Fast, Frames to Video, 8 s, native audio. First frame = the named still. Faceless shots only.
+
+## VEO 1 · A08_ararat_roman_camp (Mode 5, atmospheric)
+Scene & Mood: Dawn stillness over an occupied land. A vast fortified enemy camp sleeps under a snow-capped mountain while one rider races toward its gate, small and urgent against the enormous landscape.
+Frame Map: Exactly the first frame. The twin-peaked snow mountain fills the upper half, centered. The palisaded camp with red banners stretches across the midground at y=60%. The dirt road runs from the lower right toward the camp gate at center. The lone rider sits at x=72%, lower third, far and small, occupying 6% of frame height. Rocky scrub fills the foreground lower edge.
+Subject Lock — the lone rider on the brown horse: tiny silhouette, back to camera, riding toward the gate, dust trailing; stays small and far for the whole shot.
+Cross-Frame Rules: The rider is the only moving figure. Mountain, camp, river and road keep their exact positions and scale. No new figures appear in the foreground.
+Movement: The rider gallops steadily along the road toward the gate across the full 8 seconds, closing about a third of the distance. Dust lifts behind the hooves and drifts right. Thin smoke columns rise slowly from the camp, red banners stir gently, low mist drifts along the river. Nothing else moves.
+Last Frame: The rider near the midpoint of the road, still small, the gate ahead of him, the mountain dominant above, morning light unchanged. No on-screen text, no captions, no signage typography, no rendered text in the frame.
+World Plate: Anchored to the first frame — high plateau at first light, cold blue shadow on the plain, pale warm light on the mountain snow, river and poplars beyond the camp, wooden palisade, watchtowers, rows of tents.
+Sound Bed: Diegetic only — wind across open plain, distant galloping hooves, faint harness jingle, a single far horn call from the camp, no music, no dialogue.
+Capture Realism: Light haze suspended between camera, camp and mountain, the mountain rendered softer, desaturated and lower-contrast than the foreground rocks. Low-contrast curve, shadows lifted gently, highlights on the snow rolled off softly, never clipping. Surfaces matte and diffuse. Slightly desaturated grade with warmth preserved.
+Camera Capture: wide-latitude cinema capture, vintage 35mm 2x anamorphic character at a wide aperture, oval bokeh, soft edge falloff, light diffusion bloom softening highlights, locked-off with an extremely slow push-in, color-negative film rendition with fine grain, palette #3E4A5A, #7A8494, #C9B79A, #8B3A2E, atmospheric haze, 24fps 180° shutter, 8 seconds.
+
+## VEO 2 · B05_city_burning (Mode 5, atmospheric)
+Scene & Mood: A great walled city dies in one night. Fire owns everything; the river below carries its reflection.
+Frame Map: Exactly the first frame. The burning walls and towers run across the frame at y=35–55%, the temple on the hill at center top. Black smoke fills the upper third. The river crosses the lower third with fire reflections. Dark trees and scrub in the foreground lower edge.
+Subject Lock — the burning city: walls, towers, temple and gates keep their silhouette and positions; only fire and smoke change.
+Cross-Frame Rules: No buildings collapse out of frame, no figures appear, the horizon line holds.
+Movement: Flames climb and breathe along the walls and rooftops across the full runtime, gate openings glow and flicker. Thick smoke rolls and climbs from left to right. Embers rise and drift across the sky. Fire reflections shimmer and ripple on the river. The foreground trees stay dark and still.
+Last Frame: The same wide, the fire slightly higher on the walls, smoke denser in the upper third, the river still glowing. No on-screen text, no captions, no signage typography, no rendered text in the frame.
+World Plate: Anchored to the first frame — night, the only light source is fire, deep orange and red against a near-black sky, warm reflections on water.
+Sound Bed: Diegetic only — deep roar of a large fire, crackling timber, a distant collapse of beams, faint far-off cries, water lapping at the near bank, no music, no dialogue.
+Capture Realism: Heavy smoke suspended between camera, river and walls, the far city softer and lower-contrast than the near bank. Fire highlights rolled off softly, never clipping to white; shadows hold texture, nothing crushed to black. Matte, diffuse surfaces. Slightly desaturated grade with warmth preserved.
+Camera Capture: wide-latitude cinema capture, vintage 40mm 2x anamorphic character at a wide aperture, oval bokeh, soft edge falloff, light diffusion bloom on the flames, locked-off camera, color-negative film rendition with heavier low-light grain, palette #0E0B0A, #3A1A10, #B4421E, #E07A2E, atmospheric smoke haze, 24fps 180° shutter, 8 seconds.
+
+## VEO 3 · B04_cataphract_fall (Mode 3, action)
+Scene & Mood: The heavy cavalry breaks. One armoured horse goes down hard in the middle of the charge and the battle runs over it.
+Frame Map: Exactly the first frame. The fallen armoured horse lies across the center at y=60%, its rider sprawled at x=72%. Charging armoured riders in the left and right midground. The hill fortress in the far background upper right. Blurred dust and a spear shaft in the near foreground lower edge.
+Subject Lock — the fallen armoured horse and rider: scale-armoured horse on its side, rider thrown beside it; both keep the same armour. Riders seen only at mid and far distance; no face fills the frame.
+Cross-Frame Rules: The fallen horse stays center, charging riders pass on both sides and never cover the fallen horse completely. Fortress stays in the far background.
+Movement: In the first 2 seconds the fallen horse slides to a stop in a burst of dust, the rider rolls once and reaches for his spear. From 2 to 8 seconds armoured riders thunder past on both sides of the frame, spears dropping, clods of earth flying toward the lens. Banners whip, dust thickens and drifts across the frame.
+Last Frame: Dust half-veiling the fallen horse at center, a passing rider's blurred flank crossing the left edge, the fortress faint behind the dust. No on-screen text, no captions, no signage typography, no rendered text in the frame.
+World Plate: Anchored to the first frame — dry valley under a hard afternoon sky, snow peaks far behind, sunburst banners, dry dirt churned to dust.
+Sound Bed: Diegetic only — thundering hooves, scale armour clattering, a heavy body hitting the ground, a horse's scream, men shouting, spear shafts snapping, wind-blown dust, no music.
+Capture Realism: Heavy dust suspended between camera, fallen horse and the far fortress, the background softer, desaturated and lower-contrast. Dust is matte, armour reads aged and matte with no chrome shine. Low-contrast curve, highlights rolled off, shadows lifted gently. Slightly desaturated grade with warmth preserved.
+Camera Capture: wide-latitude cinema capture, vintage 40mm 2x anamorphic character at a wide aperture, oval bokeh, soft edge falloff, light diffusion bloom softening highlights, handheld and shaky throughout with no stabilized shots, color-negative film rendition with heavier grain, dusty daylight palette, intercut 96fps high-speed slow-motion on the horse's slide in the first 2 seconds holding 180° shutter, 24fps 180° shutter, 8 seconds.
+
+## VEO 4 · A09_lictors_pompey_horse (Mode 1, narrative)
+Scene & Mood: Rome arrives. Power walks in on a black horse between two silent men carrying the axes of the law.
+Frame Map: Exactly the first frame. Two lictors in white togas with red stripes, backs to camera, frame the shot: left lictor x=0–35%, right lictor x=65–100%, foreground, fasces on their shoulders. The black horse in red-and-gold harness at center, midground, walking toward camera; the rider is cropped above the top edge. Legionaries, torches and the camp fence in the soft background.
+Subject Lock — left lictor: back to camera, standing still, fasces upright on the left shoulder, white wool toga; never turns. Subject Lock — right lictor: mirror of the left, standing still, never turns. Subject Lock — the black horse: same harness, same lion medallion, rider's legs and boots visible, upper body and head always above the frame edge.
+Cross-Frame Rules: Lictors never move or swap, keep their gap; the horse stays on the center axis between them. No face enters the frame.
+Movement: The black horse takes slow heavy steps toward camera across all 8 seconds, hooves sinking in the mud, breath steaming from the nostrils, mane shifting. The lictors stand completely still, only toga hems lifting in the wind. Torch flames flicker behind, banners move slightly.
+Last Frame: The horse's chest and harness fill the center gap between the two lictors, larger than at the start, steam in the air, rider still cropped. No on-screen text, no captions, no signage typography, no rendered text in the frame.
+World Plate: Anchored to the first frame — Roman camp at dawn, wet trampled mud, low warm sun behind the mountains, torches, standards with eagle tops.
+Sound Bed: Diegetic only — slow hooves squelching in mud, horse breathing, harness metal clinking, wool fabric in the wind, distant drums and torch crackle, no music, no dialogue.
+Capture Realism: Light haze suspended between camera, lictors, horse and the far camp, the background softer and lower-contrast. Wet mud with muted reflection, damp matte horse coat with no sheen. Low-contrast curve, highlights rolled off, nothing crushed to black. Slightly desaturated grade with warmth preserved.
+Camera Capture: wide-latitude cinema capture, vintage 40mm 2x anamorphic character at a wide aperture, oval bokeh, soft edge falloff, light diffusion bloom softening highlights, low-height camera on a very slow forward dolly between the two lictors, color-negative film rendition with fine grain, golden dawn palette, 24fps 180° shutter, 8 seconds.
+
+## VEO 5 · B11_sword_handover (Mode 1, insert)
+Scene & Mood: Surrender without a word. Heavy, ringed hands give up the sword; a Roman hand takes it.
+Frame Map: Exactly the first frame. Close insert. The weathered ringed hands in a dark-red embroidered sleeve hold the sheathed sword at left and center, x=15–55%. The Roman hand in a white wool sleeve with a red stripe grips the scabbard at right, x=65–90%. Bundled fasces with an axe at the right edge. The camp, tents and a brazier fire soft in the background.
+Subject Lock — the ringed hands: deeply lined, two gold signet rings, embroidered dark-red sleeve; stay at left. Subject Lock — the Roman hand: white sleeve with red stripe; stays at right.
+Cross-Frame Rules: Hands never swap sides. No face enters the frame. The sword passes from left to right only.
+Movement: For the first 3 seconds the ringed hands hold the sword, fingers tightening once. At 3 seconds they slowly release; the Roman hand pulls the sword out of frame to the right by 6 seconds. From 6 to 8 seconds the ringed hands stay in frame, open and empty, fingers settling. Fabric shifts with the movement, brazier embers drift behind.
+Last Frame: The empty ringed hands at left center, palms half open, the Roman sleeve gone, soft fire behind. No on-screen text, no captions, no signage typography, no rendered text in the frame.
+World Plate: Anchored to the first frame — Roman camp at sunset, warm backlight, tents, standards, brazier.
+Sound Bed: Diegetic only — leather creak, metal fittings ticking, a slow exhale, brazier crackle, distant camp murmur, no music, no dialogue.
+Capture Realism: Thin haze suspended between the hands and the camp, the background softer and lower-contrast. Skin of the hands matte, fine and even texture, no shine on knuckles; gold rings with soft highlights rolled off. Low-contrast curve, slightly desaturated grade with warmth preserved.
+Camera Capture: wide-latitude cinema capture, vintage 85mm 2x anamorphic character at a wide aperture, oval bokeh, soft edge falloff, light diffusion bloom softening highlights, handheld with minimal natural operator breath, color-negative film rendition with fine grain, warm sunset palette, 24fps 180° shutter, 8 seconds.
+
+## VEO 6 · B07_crown_hands (Mode 1, insert)
+Scene & Mood: The crown leaves the old hands. The quietest and heaviest moment of the story.
+Frame Map: Exactly the first frame. Extreme close insert. The gold crown with eagles, star and red stones fills the center, x=30–70%. The weathered ringed hands hold it from the left and below. The younger Roman hand grips it from the upper right. Warm candle bokeh in the black background.
+Subject Lock — the gold crown: same eagles, eight-pointed star, red stones, red embroidered lappets; never changes shape. Subject Lock — the ringed hands: lined, dusty, gold rings, dark-red embroidered sleeves; at left and lower left. Subject Lock — the Roman hand: younger, dark embroidered cuff; at upper right.
+Cross-Frame Rules: Hands keep their sides. No face enters the frame. The crown moves only up and to the right.
+Movement: For the first 3 seconds both hold the crown, the ringed fingers pressing once. At 3 seconds the ringed hands open and slowly let go; the Roman hand lifts the crown up and out of the top right of frame by 6 seconds. From 6 to 8 seconds the ringed hands stay open and empty in the warm light, dust falling slowly from the fingers. Candle flames flicker in the bokeh.
+Last Frame: The empty ringed hands, palms up, in the lower half; dark space above where the crown was; candle bokeh. No on-screen text, no captions, no signage typography, no rendered text in the frame.
+World Plate: Anchored to the first frame — dim interior lit only by candles, warm amber key from the left, black background.
+Sound Bed: Diegetic only — near silence, a soft metallic touch of gold against a ring, fabric rustle, one slow breath, a faint candle flicker, no music, no dialogue.
+Capture Realism: Thin atmosphere suspended between the hands and the candle background. Gold reads soft and warm with highlights rolled off, never clipping. Hands matte, fine and even texture, no shine. Shadows lifted gently, nothing crushed to black. Slightly desaturated grade with warmth preserved.
+Camera Capture: wide-latitude cinema capture, vintage 100mm 2x anamorphic character at a wide aperture, oval bokeh, soft edge falloff, light diffusion bloom on the candles, almost static with faint operator breath, color-negative film rendition with fine grain, candlelit amber palette, 24fps 180° shutter, 8 seconds.
