@@ -2,16 +2,17 @@ import cv2, numpy as np, subprocess, sys
 sys.path.insert(0,'/tmp/grade'); 
 from grade import ref
 src,dst,cutsf=sys.argv[1],sys.argv[2],sys.argv[3]
-W,H,FPS=1280,720,30
+W,H,FPS=1280,720,int(sys.argv[4]) if len(sys.argv)>4 else 30
+DUR=float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",src],capture_output=True,text=True).stdout)-0.05
 cuts=[0]+[float(x) for x in open(cutsf)]+[1e9]
 # per-shot plan: (ref, amount); shot index 0-based
-plan={0:None,1:("int",.5),2:("int",.5),13:None}
+plan={} if len(sys.argv)>4 else {0:None,1:("int",.5),2:("int",.5),13:None}
 def shot_of(t):
     for i in range(len(cuts)-1):
         if cuts[i]<=t<cuts[i+1]: return i
 def sample_stats(a,b):
     labs=[]
-    for t in np.linspace(a+0.1,min(b,23.2)-0.1,5):
+    for t in np.linspace(a+0.1,min(b,DUR)-0.1,5):
         r=subprocess.run(["ffmpeg","-v","error","-ss",str(t),"-i",src,"-frames:v","1","-f","rawvideo","-pix_fmt","bgr24","-"],capture_output=True).stdout
         im=np.frombuffer(r,np.uint8).reshape(H,W,3).astype(np.float32)/255
         labs.append(cv2.cvtColor(im,cv2.COLOR_BGR2LAB).reshape(-1,3)[::7])
