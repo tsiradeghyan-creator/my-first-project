@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-01 — Cloud (The King trailer study)
+**Did:** Tigran sent the official trailer of The King (Netflix 2019) as the reference for a teaser/trailer we are assembling. Broke it down (54 cuts, block structure, rhythm, palette, type): reels/the-king-teaser/ANALYSIS.md. Audio could not be transcribed in Cloud (Whisper hosts blocked).
+
+**Left:** Tigran says what we are cutting (whose film, which footage, teaser or trailer, length); dialogue/VO text from him.
+
 ## 2026-10-31 — Cloud (Story Codes #01 · four Italian studio approaches)
 **Did:** Tigran rejected the liquid-glass prototype and asked for the brief solved the way 4 Italian studios would. Researched each (Ditroit: pristine abstract 3D; Ocular Lab: "high contrast, ultra textured, moody, optical"; Emanuele Colombo: flat 2D character animation; AWolff: little public info, interpreted as broadcast/comic 2D). Built Kod01 in all four: reels/story-codes/studios/Kod01_{ditroit,ocular,colombo,awolff}.mp4 (20 s each, same script), each with its own score. Studio names are not used inside the videos.
 
