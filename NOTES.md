@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-01 — Cloud (Tigran the Great teaser v2 prep)
+**Did:** Tigran's new image series has different faces, so only faceless shots are used (landscape, fire, extras, hands, crown). Picked 6 for Veo 3.1 Fast (Frames to Video) + 3 stills; wrote ten-block prompts with cinema-worldbuilder-pro (VEO_6_PRO_PROMPTS.md). Graded all 9 stills to The King look measured from the trailer (Lab transfer, king_grade.py) → stills_king_grade/*_KING.png; prompts tell Veo to hold that grade.
+
+**Left:** Tigran generates the 6 clips from the graded stills and sends them; then assemble v2 (order in VEO_6_NO_FACES.md), conform 24 fps, sound design The King-style.
+
 ## 2026-11-01 — Cloud (Tigran the Great teaser v1)
 **Did:** The film is about Tigran the Great (laptop chats about it never reached GitHub; zavod-om has nothing either). Reviewed Tigran's teaser v1 (23 s, 14 shots): reels/tigran-the-great/TEASER_V1_REVIEW.md + shot sheet. The King breakdown is the structural reference.
 
