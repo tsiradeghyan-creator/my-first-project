@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-01 — Cloud (Tigran the Great teaser v1)
+**Did:** The film is about Tigran the Great (laptop chats about it never reached GitHub; zavod-om has nothing either). Reviewed Tigran's teaser v1 (23 s, 14 shots): reels/tigran-the-great/TEASER_V1_REVIEW.md + shot sheet. The King breakdown is the structural reference.
+
+**Left:** Tigran uploads the other stills/clips; confirm the story slice (66 BC, son + Pompey?); laptop side should push the earlier discussion as projects/tigran-mets/BRIEF.md.
+
 ## 2026-11-01 — Cloud (The King trailer study)
 **Did:** Tigran sent the official trailer of The King (Netflix 2019) as the reference for a teaser/trailer we are assembling. Broke it down (54 cuts, block structure, rhythm, palette, type): reels/the-king-teaser/ANALYSIS.md. Audio could not be transcribed in Cloud (Whisper hosts blocked).
 
