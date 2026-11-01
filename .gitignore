@@ -6,3 +6,4 @@ node_modules/
 .DS_Store
 !.env.example
 reels/**/*_HQ.mp4
+reels/tigran-the-great/*.zip
