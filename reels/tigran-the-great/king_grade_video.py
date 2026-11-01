@@ -1,4 +1,4 @@
-import cv2, numpy as np, subprocess, sys
+import cv2, numpy as np, subprocess, sys, os
 sys.path.insert(0,'/tmp/grade'); 
 from grade import ref
 src,dst,cutsf=sys.argv[1],sys.argv[2],sys.argv[3]
@@ -20,14 +20,14 @@ def sample_stats(a,b):
 st={}
 for i in range(len(cuts)-2+1):
     if i>=14: break
-    if plan.get(i,("ext",.8)) is not None: st[i]=sample_stats(cuts[i],cuts[i+1])
+    if plan.get(i,1) is not None: st[i]=sample_stats(cuts[i],cuts[i+1])
 dec=subprocess.Popen(["ffmpeg","-v","error","-i",src,"-f","rawvideo","-pix_fmt","bgr24","-"],stdout=subprocess.PIPE)
 enc=subprocess.Popen(["ffmpeg","-v","error","-y","-f","rawvideo","-pix_fmt","bgr24","-s",f"{W}x{H}","-r",str(FPS),"-i","-","-i",src,"-map","0:v","-map","1:a","-c:v","libx264","-crf","16","-pix_fmt","yuv420p","-c:a","copy",dst],stdin=subprocess.PIPE)
 n=0
 while True:
     b=dec.stdout.read(W*H*3)
     if len(b)<W*H*3: break
-    i=shot_of(n/FPS); pl=plan.get(i,("ext",.8))
+    i=shot_of(n/FPS); pl=plan.get(i,(os.environ.get("KREF","ext"),float(os.environ.get("KAMT",".8"))))
     if pl is None or i not in st: enc.stdin.write(b)
     else:
         kind,amt=pl; im=np.frombuffer(b,np.uint8).reshape(H,W,3).astype(np.float32)/255
