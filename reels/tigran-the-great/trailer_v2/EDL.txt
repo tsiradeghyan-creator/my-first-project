@@ -1,0 +1,32 @@
+  0.00   1.50  black  [0.00-0.00] x1.00
+  1.50   5.50  clip  V1_ararat_rider_KING.mp4 [0.80-6.30] x1.00
+  7.00   2.79  card  FROM THE CASPIAN SEA / TO THE MEDITERRANEAN
+  9.79   0.83  clip  teaser_v1_KING.mp4 [9.08-9.92] x1.00
+ 10.62   1.29  clip  teaser_v1_KING.mp4 [10.08-11.12] x0.80
+ 11.92   1.04  clip  teaser_v1_KING.mp4 [11.28-12.12] x0.80
+ 12.96   2.58  card  ONE KING RULED / OVER KINGS
+ 15.54   1.33  clip  teaser_v1_KING.mp4 [12.28-13.62] x1.00
+ 16.88   0.83  clip  teaser_v1_KING.mp4 [13.78-14.62] x1.00
+ 17.71   1.33  clip  teaser_v1_KING.mp4 [14.78-16.12] x1.00
+ 19.04   0.83  clip  teaser_v1_KING.mp4 [16.24-16.66] x0.50
+ 19.87   0.58  black  [0.00-0.00] x1.00
+ 20.46   2.42  card  THEN ROME CAME
+ 22.87   3.00  clip  V4_pushin_KING.mp4 [0.40-3.40] x1.00
+ 25.87   0.83  clip  teaser_v1_KING.mp4 [16.78-17.62] x1.00
+ 26.71   0.83  clip  teaser_v1_KING.mp4 [17.78-18.62] x1.00
+ 27.54   2.96  clip  teaser_v1_KING.mp4 [3.08-6.02] x1.00
+ 30.50   2.75  clip  teaser_v1_KING.mp4 [6.18-8.92] x1.00
+ 33.25   2.79  card  AND HIS OWN SON / STOOD WITH ROME
+ 36.04   2.79  clip  V2_fire_cut_KING.mp4 [0.10-2.90] x1.00
+ 38.83   1.25  clip  V3a_hooves_KING.mp4 [0.00-1.25] x1.00
+ 40.08   0.50  still B02_shields_KING.png [0.00-0.00] x1.00
+ 40.58   1.08  clip  V3b_dust_KING.mp4 [0.00-1.10] x1.00
+ 41.67   0.33  clip  V3a_hooves_KING.mp4 [1.25-1.60] x1.00
+ 42.00   1.42  clip  teaser_v1_KING.mp4 [18.78-19.62] x0.60
+ 43.42   2.21  still A10_ring_reins_KING.png [0.00-0.00] x1.00
+ 45.62   5.21  clip  V5_sword_KING.mp4 [1.00-6.20] x1.00
+ 50.83   6.92  clip  V6_crown_KING.mp4 [1.00-7.90] x1.00
+ 57.75   2.58  still B13_crown_in_dirt_KING.png [0.00-0.00] x1.00
+ 60.33   2.00  black  [0.00-0.00] x1.00
+ 62.33   5.00  card  TIGRAN  THE  GREAT
+ 67.33   2.42  card  COMING SOON

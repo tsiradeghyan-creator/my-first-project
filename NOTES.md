@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-02 — Cloud (Tigran the Great trailer v2)
+**Did:** All clips in (Veo: Ararat, fire, cavalry, lictors; Dreamina 1.5 Pro: sword; crown). Cut usable pieces, graded everything to The King look, built trailer v2 (69.8 s, letterbox, text cards, fully synthesized new sound design): reels/tigran-the-great/trailer_v2/ (build_trailer.py, EDL.txt, README.md).
+
+**Left:** Tigran's notes on v2; possible voice-over/dialogue lines; Armenian card version; upscale to 1080p/4K for delivery.
+
 ## 2026-11-01 — Cloud (Tigran the Great teaser v2 prep)
 **Did:** Tigran's new image series has different faces, so only faceless shots are used (landscape, fire, extras, hands, crown). Picked 6 for Veo 3.1 Fast (Frames to Video) + 3 stills; wrote ten-block prompts with cinema-worldbuilder-pro (VEO_6_PRO_PROMPTS.md). Graded all 9 stills to The King look measured from the trailer (Lab transfer, king_grade.py) → stills_king_grade/*_KING.png; prompts tell Veo to hold that grade.
 
