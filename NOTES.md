@@ -5,7 +5,7 @@
 - `.claude/settings.json`: HKUDS/CLI-Anything marketplace + `cli-anything` plugin enabled (`/cli-anything <repo>`, `:refine`, `:test`, `:validate`, `:list`). Loads from the next session; Claude Code asks once to trust it.
 - `.claude/skills/cli-hub/` (catalog skill) + 71 per-CLI skills archived in `.claude/skills-library/cli-anything/`.
 - `scripts/install-cli-anything.sh` (Ubuntu apt / macOS brew): backend apps, 69 harness CLIs (py3.13 venv + py3.12 venv for videocaptioner/cloudanalyzer, sketch via npm), free matrix providers (yt-dlp, scenedetect, faster-whisper, moviepy…), cli-hub cache seeding. `scripts/patches/videocaptioner_review.py` fixes an upstream bug (missing core/review.py). `scripts/mermaid-local-renderer.py` replaces mermaid.ink, which the Cloud proxy blocks.
-- Tested for real: Blender render, Kdenlive project → .kdenlive → melt mp4, LibreOffice Armenian → PDF, GIMP, Inkscape, Audacity, Calibre library, Mermaid, VideoCaptioner review; all 69 CLIs start.
+- Tested for real: Blender render, Kdenlive project → .kdenlive → melt mp4, LibreOffice Armenian → PDF, GIMP, Inkscape, Audacity, Calibre library, Mermaid, VideoCaptioner review; all 69 CLIs start. Matrix preflight: video 16/19, image 8/9, research 12/12, 3D 12/12, game 8/10. The gaps are paid APIs only (video gen, TTS, music gen, upscale, store publish).
 
 **Limits:** Cloud blocks GitHub releases / blender.org, so Blender is apt 4.0 (harness wants 4.2+), no Godot 4 / MuseScore 4 / FreeCAD / draw.io in Cloud. Mac-only (Safari, iTerm2, Sketch app), Windows-only (WaveTone, Unreal, Nsight), Steam games, and API-key CLIs (Exa, MiniMax, Novita, Zoom, Mailchimp…) are installed but need their app/key. The Cloud install disappears with the container; rerun the script.
 
