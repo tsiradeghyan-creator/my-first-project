@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-02 — Cloud (Tigran storyboard 09–16 → 2.5D video in code)
+**Did:** Tigran asked to turn storyboard frames 09–16 into video with code, with a cinematography plan. reels/tigran-the-great/storyboard_09-16_video/: SHOT_PLAN.md (edit order 09-10-11-13-12-15-14-16, lens/move/axis/cut/sound per shot, 180° rule kept: Armenians left→right, Romans right), build.py (GrabCut depth layers + inpaint, parallax camera, fire/smoke/embers/ash, water flow, flag/cloth warps, splashes, arrows, The King grade from trailer_v3/ref_stats.npy, letterbox 2.39), sound.py (synth: fire, wind, river, volleys, splash, bow, heartbeat, war horn, drums, hooves; -17 LUFS), TIGRAN_09-16_2.5D.mp4 (26.5 s).
+
+**Left:** Tigran's notes. Limits: people and horses do not move by themselves (needs a video model); panels are soft (cut from the sheet), cleaner stills → sharper result.
+
 ## 2026-11-02 — Cloud (THE LAST PAGE, anime short in code)
 **Did:** Tigran sent an X post with a prompt ("launch film for Fable 5.5 as 2D anime, single HTML with sound") and said it must be made with code, not generators. Built the whole 60 s film procedurally: reels/the-last-page/ (THE_LAST_PAGE.html self-contained with play button; THE_LAST_PAGE.mp4; src/ with gouache painter, fox model sheets, 9 shots, synthesised score). Matches the 9-shot script: tower before dawn, fox with lantern, close-up blink, ink bird on the blank book, library stirs + silence beat, pages burst into a paper-bird vortex, sunrise + ring of wind, great bird of pages, last page with "Fable 5.5" brushed + 寓話 hanko.
 
