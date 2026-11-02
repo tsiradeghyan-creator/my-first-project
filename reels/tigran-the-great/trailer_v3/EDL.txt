@@ -1,0 +1,28 @@
+  0.00  1.00 black 
+  1.00  5.79 clip  V1_ararat_rider.mp4 [0.80-6.60] x1.00 fi1.2 fo0.0 bed=None
+  6.79  2.58 card  FROM THE CASPIAN SEA / TO THE MEDITERRANEAN
+  9.38  0.83 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [9.08-9.92] x1.00 fi0.6 fo0.0 bed=('V4_lictors_horse.mp4', 3.6, -8)
+ 10.21  1.29 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [10.08-11.12] x0.80 fi0.0 fo0.0 bed=('V4_lictors_horse.mp4', 4.5, -12)
+ 11.50  1.04 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [11.28-12.12] x0.80 fi0.0 fo0.0 bed=('V4_lictors_horse.mp4', 5.8, -12)
+ 12.54  2.42 card  ONE KING / RULED OVER KINGS
+ 14.96  1.33 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [12.28-13.62] x1.00 fi0.6 fo0.0 bed=('V1_ararat_rider.mp4', 1.0, -7)
+ 16.29  0.83 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [13.78-14.62] x1.00 fi0.0 fo0.0 bed=('V1_ararat_rider.mp4', 3.0, -8)
+ 17.12  1.33 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [14.78-16.12] x1.00 fi0.0 fo0.0 bed=('V6_crown.mp4', 0.5, -14)
+ 18.46  0.83 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [16.24-16.66] x0.50 fi0.0 fo0.6 bed=('V6_crown.mp4', 2.0, -14)
+ 19.29  2.21 card  THEN ROME CAME
+ 21.50  3.29 clip  V4_lictors_horse.mp4 [3.60-6.90] x1.00 fi0.6 fo0.0 bed=None
+ 24.79  0.83 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [16.78-17.62] x1.00 fi0.0 fo0.0 bed=('V3_cavalry_fall.mp4', 6.0, -16)
+ 25.62  0.83 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [17.78-18.62] x1.00 fi0.0 fo0.0 bed=('V3_cavalry_fall.mp4', 6.8, -14)
+ 26.46  2.96 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [3.08-6.02] x1.00 fi0.0 fo0.0 bed=('V2_city_burning_try1.mp4', 0.2, -15)
+ 29.42  2.75 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [6.18-8.92] x1.00 fi0.0 fo0.8 bed=('V2_city_burning_try1.mp4', 1.2, -15)
+ 32.17  2.58 card  AND HIS OWN SON / STOOD WITH ROME
+ 34.75  2.79 clip  V2_fire_cut.mp4 [0.10-2.90] x1.00 fi0.6 fo0.0 bed=None
+ 37.54  1.58 clip  V3_cavalry_fall.mp4 [2.90-4.50] x1.00 fi0.0 fo0.0 bed=None
+ 39.12  1.29 clip  V3_cavalry_fall.mp4 [4.60-5.90] x1.00 fi0.0 fo0.0 bed=None
+ 40.42  0.25 black 
+ 40.67  1.42 clip  2a209d2f-Tigran_the_Great_trailer_SFX.mp4 [18.78-19.62] x0.60 fi0.0 fo0.0 bed=('V1_ararat_rider.mp4', 5.0, -14)
+ 42.08  5.25 clip  V5_dreamina.mp4 [0.80-5.00] x0.80 fi0.6 fo0.0 bed=('V2_city_burning_try1.mp4', 1.0, -30)
+ 47.33  6.92 clip  V6_crown.mp4 [1.00-7.90] x1.00 fi0.0 fo1.0 bed=None
+ 54.25  2.00 black 
+ 56.25  5.50 title 
+ 61.75  2.58 card  COMING SOON
