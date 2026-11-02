@@ -7,3 +7,4 @@ node_modules/
 !.env.example
 reels/**/*_HQ.mp4
 reels/tigran-the-great/*.zip
+reels/tigran-the-great/**/*.zip
