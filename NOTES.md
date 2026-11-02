@@ -1,5 +1,16 @@
 # Handoff log
 
+## 2026-11-02 — Cloud (CLI-Anything installed)
+**Did:** Installed HKUDS/CLI-Anything (agent CLIs for desktop apps) fully in Cloud and made it reproducible for both sides.
+- `.claude/settings.json`: HKUDS/CLI-Anything marketplace + `cli-anything` plugin enabled (`/cli-anything <repo>`, `:refine`, `:test`, `:validate`, `:list`). Loads from the next session; Claude Code asks once to trust it.
+- `.claude/skills/cli-hub/` (catalog skill) + 71 per-CLI skills archived in `.claude/skills-library/cli-anything/`.
+- `scripts/install-cli-anything.sh` (Ubuntu apt / macOS brew): backend apps, 69 harness CLIs (py3.13 venv + py3.12 venv for videocaptioner/cloudanalyzer, sketch via npm), free matrix providers (yt-dlp, scenedetect, faster-whisper, moviepy…), cli-hub cache seeding. `scripts/patches/videocaptioner_review.py` fixes an upstream bug (missing core/review.py). `scripts/mermaid-local-renderer.py` replaces mermaid.ink, which the Cloud proxy blocks.
+- Tested for real: Blender render, Kdenlive project → .kdenlive → melt mp4, LibreOffice Armenian → PDF, GIMP, Inkscape, Audacity, Calibre library, Mermaid, VideoCaptioner review; all 69 CLIs start.
+
+**Limits:** Cloud blocks GitHub releases / blender.org, so Blender is apt 4.0 (harness wants 4.2+), no Godot 4 / MuseScore 4 / FreeCAD / draw.io in Cloud. Mac-only (Safari, iTerm2, Sketch app), Windows-only (WaveTone, Unreal, Nsight), Steam games, and API-key CLIs (Exa, MiniMax, Novita, Zoom, Mailchimp…) are installed but need their app/key. The Cloud install disappears with the container; rerun the script.
+
+**Left:** laptop runs `bash scripts/install-cli-anything.sh` (see BRIDGE C6). Next real use: rebuild Tigran the Great trailer v2 as an editable .kdenlive project.
+
 ## 2026-11-02 — Cloud (Tigran the Great trailer v2)
 **Did:** All clips in (Veo: Ararat, fire, cavalry, lictors; Dreamina 1.5 Pro: sword; crown). Cut usable pieces, graded everything to The King look, built trailer v2 (69.8 s, letterbox, text cards, fully synthesized new sound design): reels/tigran-the-great/trailer_v2/ (build_trailer.py, EDL.txt, README.md).
 

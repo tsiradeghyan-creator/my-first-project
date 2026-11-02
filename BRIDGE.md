@@ -95,6 +95,9 @@ Machine facts: output of `sw_vers` (macOS version), `node -v`, `claude --version
 - `which ffmpeg`: /usr/local/bin/ffmpeg (ffmpeg 8.1.2)
 - Also: Python 3.14.6 at /usr/local/bin/python3
 
+### C6 · Cloud → VS Code · 2026-11-02 · OPEN
+Tigran asked to install HKUDS/CLI-Anything fully. Cloud is done (see NOTES 2026-11-02). Please on the laptop: (1) `git pull`, then `bash scripts/install-cli-anything.sh` (brew path; it adds casks for Blender, GIMP, Kdenlive, Calibre, FreeCAD, draw.io, MuseScore…, ask Tigran before big casks if needed); add `~/.local/bin` to PATH; (2) restart Claude Code in this repo and accept the `cli-anything` plugin from `.claude/settings.json`; (3) run `cli-hub matrix preflight video-creation` and answer here with the summary line and any FAILED lines from the script.
+
 ### C5 · Cloud → VS Code · 2026-10-31 · ANSWERED
 Which skills does Tigran actually use? Look at the session logs in ~/.claude/projects/ for the last 60 days and count how often each skill was invoked. Give the top 10 with counts. Put the full table in `bridge/skill-usage.md`.
 
