@@ -1,9 +1,7 @@
 # Handoff log
 
-## 2026-11-02 — Cloud (-I- : stills that act, made in code)
-**Did:** Tigran asked to invent a process, named "-I-", so characters in stills can walk, run and talk via code. Built tools/I/ (python package `i`): rig from a photo (mediapipe 0.10.14 offline pose/face/segmentation + GrabCut + Delaunay mesh + skinning + FSR inpaint), motion library (idle/walk/run/raise_arm/point/look/nod/crouch with FK+LBS), face visemes + blinks + mouth cavity, espeak-ng Armenian voice with lip-sync (or any wav), and the -I- script language + CLI. Demo: reels/tigran-the-great/I_demo/ (demo.i, I_demo.mp4: king speaks Armenian, messenger walks, king approaches). Skill: .claude/skills/i/.
-
-**Left:** Tigran's reaction. Known limits: arms under capes, blurry hole when an actor leaves its spot (use clean bg), profile faces not detected. Next: manual joints, horse rig, cloth layer, mocap from video. Needs python3.12 env (see skill).
+## 2026-11-02 — Cloud (-I- removed)
+**Did:** -I- (photo puppet animation in code) was tried and rejected by Tigran: quality far below what he needs. Deleted tools/I, the skill and the demo. Lesson: realistic walking/running/talking from stills needs video models (Veo, Kling, Seedance, Higgsfield, lip-sync tools); say so upfront instead of building.
 
 ## 2026-11-02 — Cloud (Tigran storyboard 09–16 → 2.5D video in code)
 **Did:** Tigran asked to turn storyboard frames 09–16 into video with code, with a cinematography plan. reels/tigran-the-great/storyboard_09-16_video/: SHOT_PLAN.md (edit order 09-10-11-13-12-15-14-16, lens/move/axis/cut/sound per shot, 180° rule kept: Armenians left→right, Romans right), build.py (GrabCut depth layers + inpaint, parallax camera, fire/smoke/embers/ash, water flow, flag/cloth warps, splashes, arrows, The King grade from trailer_v3/ref_stats.npy, letterbox 2.39), sound.py (synth: fire, wind, river, volleys, splash, bow, heartbeat, war horn, drums, hooves; -17 LUFS), TIGRAN_09-16_2.5D.mp4 (26.5 s).
