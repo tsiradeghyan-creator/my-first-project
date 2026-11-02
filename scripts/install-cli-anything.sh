@@ -41,6 +41,14 @@ for d in "$SRC"/*/agent-harness; do
 done
 echo "installed $ok harnesses; failed:${fail:- none}"
 
+# Seed cli-hub's registry cache from the checkout. cli-hub falls back to this cache
+# when hkuds.github.io is unreachable (the Cloud proxy blocks it).
+mkdir -p "$HOME/.cli-hub"
+for f in registry public_registry matrix_registry; do
+  python3 -c "import json;print(json.dumps({'_cached_at':0,'data':json.load(open('$SRC/$f.json'))}))" \
+    > "$HOME/.cli-hub/${f}_cache.json"
+done
+
 echo "== 4/4 PATH"
 mkdir -p "$BIN"
 for f in "$VENV"/bin/cli-anything-* "$VENV"/bin/cli-hub; do [ -e "$f" ] && ln -sf "$f" "$BIN/"; done
