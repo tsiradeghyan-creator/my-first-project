@@ -1,5 +1,14 @@
 # Handoff log
 
+## 2026-11-02 — Cloud (tools Tigran owns, learned from uploads)
+**Did:** catalogued what Tigran sent (files themselves NOT committed: paid/licensed or private).
+- **LUT packs he owns:** Ciudad (24 × 33³, Resolve), "color" 1–16 (16³), Filmic (~33), Blackmagic Cinematic 3.3 (PRO: Apple Log / S-Log3 / Rec709 → casaca; CREATIVES: Friendly, Icebath, Weird…, plus iPhone Blackmagic Camera settings PDF). Moody Presets licence: no sharing/resale; LUT = starting point. Picks for Tigran the Great: color_9 / color_15 (teal-orange), ciudad_20/21 (The King mood); 84-ի Ամառը: ciudad_16/19. Apply with ffmpeg `lut3d=file.cube`; ask him to re-upload when needed.
+- **Font:** Armenia.otf (Armenian display font, licence unknown).
+- **Method worth using:** lebera.ai "3D animatic before generation": shot list (1 shot = 1 camera move + 1 action, 2–5 s) → grey Blender blockout at 1:1 scale with mannequins → feed as motion reference to Kling Motion Control / Seedance video reference. Code (Blender in Cloud) can make the grey animatics; the video model does the real motion.
+- **Pitch decks:** his RU deck for «Влюбись в меня снова» (drama, 8×30) lacks synopsis, characters, season arc, why-now, tone; offered a rebuilt deck.
+- Misc: ChatGPT prompt basics PDF, a 2023 RU "кино" keyword CSV (near-zero volumes), a Telegram article on sleep — not relevant.
+- Private: 2024 OSAGO (ԱՊՊԱ) accident file — re-examination FS99012188 (21.02.2024) found Tigran (Chevrolet) NOT at fault, the BYD driver at fault, no staging. Second (summer) accident photos have no expert report in the upload.
+
 ## 2026-11-02 — Cloud (-I- removed)
 **Did:** -I- (photo puppet animation in code) was tried and rejected by Tigran: quality far below what he needs. Deleted tools/I, the skill and the demo. Lesson: realistic walking/running/talking from stills needs video models (Veo, Kling, Seedance, Higgsfield, lip-sync tools); say so upfront instead of building.
 
