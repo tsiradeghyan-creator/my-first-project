@@ -79,7 +79,7 @@ every time. Your job: notice the domain, show him what he owns for it, recommend
 | Skill | Best for | Notes |
 |---|---|---|
 | `anthropic-skills:ani-screenwriting-workflow` | Loglines, synopses, bibles, outlines, scenes, children's stories 0–16 | Default for story work |
-| `director-desk` | Script → industry PDF/DOCX/FDX with logo, **proofreading** (Word with highlighted changes + comments, final PDF), breakdown + season breakdown, storyboard sheet, treatment deck, ShotDeck lines. Has a ChatGPT pack (`gpt/`) | Replaces KIT Scenarist, Storyboarder, Canva treatments |
+| `director-desk` | Script → industry PDF/DOCX/FDX with logo, **proofreading** (Word with highlighted changes + comments, final PDF), breakdown + season breakdown, storyboard sheet, treatment deck, ShotDeck lines, **Script Pack** (one script → one-pager, synopsis, bible, casting + sides, EN one-pager, lab application with word-limit check). Has a ChatGPT pack (`gpt/`) | Replaces KIT Scenarist, Storyboarder, Canva treatments |
 | `content-zavod` | Screenplay or article as a produced piece with gates | |
 | `anthropic-skills:docx` / `pdf` / `docs` | Book files, layouts, documents to send | Format step |
 

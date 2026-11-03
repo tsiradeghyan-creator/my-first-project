@@ -47,6 +47,12 @@ If a script fails, show the error, fix the call; never fall back to inventing th
 `screenplay.py --report --csv` per episode; several episodes: `python season.py out/*.fountain --out out/season`
 (sets across episodes, characters × episodes, interior/exterior pages, exterior night scenes, product placement).
 
+**D. Script Pack** ("փաթեթ", "one-pager", "synopsis", "logline", "bible", "sides", "կաստինգ", "submission"):
+read `pack.md` (rules) and `pack_hy.md` (example). `python pack.py facts ep*.fountain --out pack` → read
+`pack/facts.md` and the script, write `pack/pack.md` (only facts from the script, synopses include the ending),
+then `python pack.py build ep*.fountain --texts pack/pack.md --out pack --preset generic --lang hy`
+(presets: generic, sundance_feature, sundance_microseries, eurimages). Zip the folders 01–06 and show CHECK.md.
+
 ## Rules
 - Never change Ani's words except the corrections you list; never rewrite style, shorten, add or "improve".
 - Never send the final without the WORK version: Ani approves the changes.

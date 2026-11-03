@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (Script Pack: research + first build)
+**Did:** Tigran asked for a map of all screenwriting tools, then for a tool that doesn't exist yet. Three research rounds (summary: `projects/script-pack/RESEARCH.md`): nobody turns one script into the writer's whole submission package, nobody handles Armenian. Built it in director-desk: `scripts/pack.py` (`facts` counts scenes/characters/ages/lines; Claude writes `pack.md`; `build` makes 01_producer one-pager + synopsis, 02_platform bible/deck + episode synopses, 03_production scripts + breakdowns + season, 04_casting breakdown + sides cut from real scenes, 05_international EN one-pager, 06_competition application per preset (generic, sundance_feature, sundance_microseries, eurimages) + CHECK.md word limits). `treatment_pdf.py --compact` (no cover, one-pager). Rules: `references/pack.md`, example `examples/pack_hy.md`. Added to the ChatGPT pack (job D) and skill-router. Tested on the sample script (feature + 2-episode season) and in a flat ChatGPT-like folder.
+
+**Left:** run it on 84-ի ամառը (Tigran re-uploads the KIT .docx episodes; this session doesn't have them); Ani judges the package; HY/RU → EN script translation; 10–15 writer interviews for demand. Also asked: CLAUDE.md rule to end replies with one clear next step (helps the app's reply suggestion), not added yet.
+
 ## 2026-11-03 — Cloud (logo + proofreading + ChatGPT pack)
 **Did:** Tigran sent the Maghakian logo and asked for a file ChatGPT can use to do the same script work. Added: logo assets (trimmed, transparent, dark/light) on PDF/Word title page + footer; `proofread.py` (auto fixes ,,,→..., corrections JSON → WORK.docx with yellow highlights + Word comments, FINAL.pdf/docx/fdx, corrections.md with automatic checks); rules `references/proofreading_hy.md` and `format_spec.md`; `gpt/` (Custom GPT INSTRUCTIONS.md, HOW_TO_hy.md, build_pack.py → Maghakian_Script_Desk_GPT.zip). Demo: proofread 84-ի ամառը ep1 scenes 1–3 (36 fixes, all applied) and sent the files. Tested the pack in a flat folder like ChatGPT's /mnt/data.
 

@@ -1,6 +1,6 @@
 ---
 name: director-desk
-description: "Director's and producer's desk: proofreading of Armenian scripts (punctuation, spelling, typos, continuity) into a Word working version with highlighted changes and comments plus a clean final PDF with the Maghakian logo; does the jobs of KIT Scenarist / Story Architect / WriterDuet / Pisar, Storyboarder, ShotDeck search and Canva treatments in one place. (1) Screenplay formatting: Fountain → industry 'American' format PDF, DOCX, Final Draft FDX, in Armenian, Russian or English. (2) Line-producer breakdown: scenes, page eighths, characters, locations, INT/EXT, day/night, CSV for a stripboard/schedule. (3) Storyboard sheet PDF from stills + shot list (film-crew output). (4) Treatment / pitch deck: structure, gap audit, branded PDF. (5) Reference hunting: ShotDeck / Film-grab search terms per shot. Use for: format a script, сценарий в американке, սցենարը ֆորմատավորել, page count / runtime, breakdown, раскадровка в PDF, storyboard sheet, treatment, тритмент, պիչ դեք, pitch deck."
+description: "Director's and producer's desk: proofreading of Armenian scripts (punctuation, spelling, typos, continuity) into a Word working version with highlighted changes and comments plus a clean final PDF with the Maghakian logo; does the jobs of KIT Scenarist / Story Architect / WriterDuet / Pisar, Storyboarder, ShotDeck search and Canva treatments in one place. (1) Screenplay formatting: Fountain → industry 'American' format PDF, DOCX, Final Draft FDX, in Armenian, Russian or English. (2) Line-producer breakdown: scenes, page eighths, characters, locations, INT/EXT, day/night, CSV for a stripboard/schedule. (3) Storyboard sheet PDF from stills + shot list (film-crew output). (4) Treatment / pitch deck: structure, gap audit, branded PDF. (4b) Script Pack: one script or season → every document per recipient (one-pager, logline/synopsis, series bible, episode synopses, casting breakdown + actor sides, English one-pager, lab/fund application with word-limit check). (5) Reference hunting: ShotDeck / Film-grab search terms per shot. Use for: format a script, сценарий в американке, սցենարը ֆորմատավորել, page count / runtime, breakdown, раскадровка в PDF, storyboard sheet, treatment, тритмент, պիչ դեք, pitch deck, script pack, submission package, one-pager, logline, synopsis, синопсис, series bible, библия сериала, casting breakdown, sides, փաթեթ, սինոպսիս."
 ---
 
 # Director's desk
@@ -108,6 +108,21 @@ python3 scripts/treatment_pdf.py deck.md --layout doc      # A4 portrait, classi
 Brand is built in (black cover, white pages, graphite text, one red accent). For a deck Tigran will edit by hand,
 send the same content to the Artifact Slides type, Canva/Adobe Express or the `pptx` skill instead.
 Studio facts only from `maghakian-roast-room/business.md`; text passes `humanizer` before it goes out.
+
+## 4b. Script Pack: one script → every document for every recipient
+
+Tigran's product idea (2026-11-03): a writer gives the script once and gets the whole package. Research showed no
+tool does all of it (Prescene does coverage/finance/breakdown, Filmustage breakdown/schedule, nobody does the
+writer's submission package, nobody does Armenian/Russian). Read `references/pack.md` first.
+```bash
+python3 scripts/pack.py facts ep*.fountain --out pack/          # facts.md: scenes, characters, ages, counts
+# write pack/pack.md from facts.md + the script (format and rules: references/pack.md, example examples/pack_hy.md)
+python3 scripts/pack.py build ep*.fountain --texts pack/pack.md --out pack/ --preset sundance_feature --lang hy
+```
+Folders 01_producer … 06_competition (see references/pack.md) + `CHECK.md`: word counts against every preset,
+what is missing, leads without a description. Sides are real scenes cut from the script (top 3 by the role's
+dialogue, `--sides N`). Texts are only as good as pack.md: facts from the script, ending included, humanizer last.
+Ani's scripts stay private: build in the scratchpad, never commit the outputs.
 
 ## 5. Reference hunt (ShotDeck / Film-grab)
 

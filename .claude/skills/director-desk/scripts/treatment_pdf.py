@@ -19,6 +19,8 @@ Paragraphs, **bold**, *italic*.
 Usage: python3 treatment_pdf.py treatment.md [--out deck.pdf] [--layout deck|doc] [--logo logo.png]
   deck = A4 landscape, one idea per page (pitch deck)
   doc  = A4 portrait, flowing text (classic treatment)
+  --compact = no black cover, title + format + logline on top of page 1, sections flow without
+              page breaks (one-pager, synopsis, casting breakdown, lab application). Use with --layout doc.
 """
 import argparse
 import os
@@ -27,7 +29,8 @@ import sys
 from xml.sax.saxutils import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FONT_DIR = os.path.join(HERE, "..", "fonts")
+FONT_DIR = next((d for d in (os.path.join(HERE, "..", "fonts"), HERE, "/mnt/data", os.getcwd())
+                 if os.path.exists(os.path.join(d, "DejaVuSans.ttf"))), os.path.join(HERE, "..", "fonts"))
 BLACK, WHITE, GRAPHITE, RED, GREY = "#000000", "#FFFFFF", "#111111", "#D90429", "#7A7A7A"
 
 
@@ -77,6 +80,7 @@ def main():
     ap.add_argument("--out")
     ap.add_argument("--layout", choices=["deck", "doc"], default="deck")
     ap.add_argument("--logo", help="light (white) logo PNG for the black cover")
+    ap.add_argument("--compact", action="store_true", help="no cover, sections flow (one-pager)")
     a = ap.parse_args()
 
     pdfmetrics.registerFont(TTFont("DD", os.path.join(FONT_DIR, "DejaVuSans.ttf")))
@@ -171,16 +175,33 @@ def main():
     frame = Frame(M, 16 * mm, pw - 2 * M, ph - M - 16 * mm - 2 * mm, id="f", showBoundary=0)
     doc = BaseDocTemplate(out, pagesize=(pw, ph), leftMargin=M, rightMargin=M, topMargin=M, bottomMargin=16 * mm,
                           title=meta.get("title", "Treatment"), author="Maghakian Scripts")
-    doc.addPageTemplates([PageTemplate("cover", [Frame(0, 0, pw, ph, id="c")], onPage=cover),
-                          PageTemplate("body", [frame], onPage=page)])
+    if a.compact:
+        doc.addPageTemplates([PageTemplate("body", [frame], onPage=page)])
+        st["h2"] = P("h2c", fontName="DD-B", fontSize=12.5, leading=17, textColor=HexColor(BLACK),
+                     spaceBefore=10, spaceAfter=3)
+    else:
+        doc.addPageTemplates([PageTemplate("cover", [Frame(0, 0, pw, ph, id="c")], onPage=cover),
+                              PageTemplate("body", [frame], onPage=page)])
     fw, fh = frame._width, frame._height
 
-    story = [NextPageTemplate("body"), PageBreak()]
+    if a.compact:
+        story = [Paragraph(inline(meta.get("title", "")), P("t", fontName="DD-B", fontSize=22, leading=27,
+                                                            textColor=HexColor(BLACK), spaceAfter=2))]
+        if meta.get("format"):
+            story.append(Paragraph(inline(meta["format"]), P("f", fontSize=9.5, textColor=HexColor(GREY))))
+        if meta.get("logline"):
+            story.append(Table([[Paragraph(inline(meta["logline"]), P("lgc", fontName="DD-B", fontSize=11.5,
+                                                                      leading=16, textColor=HexColor(BLACK)))]],
+                               colWidths=[fw], style=TableStyle([("LINEBEFORE", (0, 0), (0, 0), 3, HexColor(RED)),
+                                                                 ("LEFTPADDING", (0, 0), (0, 0), 10)])))
+        story.append(Spacer(1, 4))
+    else:
+        story = [NextPageTemplate("body"), PageBreak()]
     first = True
     for sec in sections:
         if not sec["title"] and not any(x.strip() for x in sec["items"]):
             continue
-        if not first and (deck or True):
+        if not first and not a.compact:
             story.append(PageBreak())
         first = False
         flow, images, quotes = [], [], []
@@ -217,7 +238,8 @@ def main():
                 para_buf.append(s)
         flush()
 
-        head = [Paragraph(inline(sec["title"]), st["h2"]), Spacer(1, 6)] if sec["title"] else []
+        head = ([Paragraph(inline(sec["title"]), st["h2"])] + ([] if a.compact else [Spacer(1, 6)])
+                if sec["title"] else [])
         text_len = sum(len(x) for x in sec["items"])
         imgs_ok = [path_of(p) for p in images if os.path.exists(path_of(p))]
 
