@@ -9,8 +9,13 @@ const FIT = fs.readFileSync(__dirname + '/fit.js', 'utf8');
   let browser;
   try { browser = await pw.chromium.launch(); }
   catch (e) { browser = await pw.chromium.launch({ executablePath: '/opt/pw-browsers/chromium' }); }
+  // Lay the page out at its printed width before fit.js measures it: A4 content width with the
+  // 19 mm side margins is 172 mm = 650 px; a cover is full A4 (794 px); a deck slide is 1280 px.
+  // Measuring at the default 1280 px screen width under-counted wrapped lines and clipped one-pagers.
+  const WIDTH = { deck: 1280, cover: 794 };
   for (const j of jobs) {
-    const page = await browser.newPage();
+    const page = await browser.newPage({ viewport: { width: WIDTH[j.kind] || 650, height: 1000 } });
+    await page.emulateMedia({ media: 'print' });
     await page.goto('file://' + j.html);
     await page.evaluate(() => document.fonts.ready);
     await page.evaluate(FIT);
