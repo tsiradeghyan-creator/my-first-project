@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (standing rule: film-crew for every prompt)
+**Did:** Tigran set a permanent rule, written into CLAUDE.md: every visual or video prompt goes through the `film-crew` skill first, even single shots. The 09–16 Seedance prompts were written without it (from SHOT_PLAN.md only), so they don't follow the rule yet.
+
+**Left:** rerun 09–16 (and 17–32 when stills exist) through film-crew if Tigran confirms.
+
 ## 2026-11-03 — Cloud (Tigran the Great 09–16 → Seedance 2.5 prompts)
 **Did:** Tigran sent the clean stills for storyboard 09–16 (saved in reels/tigran-the-great/stills_09-16/). Wrote 8 Seedance 2.5 First-Frame prompts (16:9, 720p, 4–6 s, diegetic sound only, 180° kept): reels/tigran-the-great/SEEDANCE_25_09-16.md. 12a (archer facing left) breaks screen direction, not used. Also reviewed an X list of open-source video tools: HyperFrames, Blender MCP (laptop) and Impeccable are worth adding; the rest we already have or don't need (Chatterbox has no Armenian, ComfyUI needs a GPU).
 
