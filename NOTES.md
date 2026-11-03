@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (director-desk tested on Ani's real scripts)
+**Did:** Tigran uploaded 8 KIT .docx episodes (84-ի ամառը 1, 2, 3, 7, 9 + episodes 1–3 of the Vilo/Meri/Davit series, title unknown). Added `kit_docx_to_fountain.py` (KIT styles + Ani's layout → Fountain, no text changes, verified word-for-word) and `season.py` (season breakdown: sets across episodes, characters × episodes, product placement, typo/duplicate warnings). Fixed: Armenian sluglines now need capitals + dot (action "Ներս է գնում" was read as a heading), eighths include blank lines, city prefixes skipped in set grouping. Outputs (PDF/DOCX/FDX/breakdowns) given to Tigran as a zip; Ani's scripts NOT committed (private).
+
+**Left:** title of the Vilo series; Ani confirms (MORE)/(CONT'D) labels; she fixes the typos the ⚠️ list found; INT/EXT not in her format (breakdown hides the column).
+
 ## 2026-11-03 — Cloud (director-desk skill)
 **Did:** Tigran sent a RU post listing director tools (KIT Scenarist, Pisar, Story Architect, WriterDuet, ShotDeck, Film-grab, Canva, Supa, Storyboarder, Make Storyboard, Frame.io, Wipster) and asked for one skill doing their jobs. New `.claude/skills/director-desk/`: (1) `screenplay.py` Fountain → American-format PDF (FreeMono, Armenian/Cyrillic), DOCX, FDX; (2) breakdown md + CSV with page eighths, characters, locations; (3) `storyboard_sheet.py` stills + JSON → branded storyboard PDF (made reels/tigran-the-great/film-crew_09-16/storyboard_09-16.pdf); (4) `treatment_pdf.py` Markdown → branded deck/treatment PDF + references/treatment.md (structure, gap audit); (5) ShotDeck/Film-grab search lines. Frame.io/Wipster left to the real tools. skill-router map updated.
 

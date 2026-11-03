@@ -27,8 +27,19 @@ Fountain cheat sheet (tell Ani if she writes directly in it):
 - `# Section` and `= synopsis` lines don't print; they feed the breakdown. `[[note]]` and `/* boneyard */` are hidden.
 - `===` page break. Title page: `Title:`, `Credit:`, `Author:`, `Draft date:`, `Contact:` at the top.
 
-Converting from Word/KIT/PDF: read the source, rewrite into Fountain line by line (do not edit Ani's text),
-run the script, then look at page 1–2 of the PDF as images (`pdftoppm -r 60 -png`) before handing it over.
+**Ani's scripts come as KIT Scenarist .docx exports.** Convert them with the dedicated script (reads KIT
+paragraph styles and Ani's house layout: "N. ՏԵՍԱՐԱՆ" → location line → cast line → "1984Թ"; "ՊԵՐԵԽՈԴ",
+"ՖԼԵՇԲԵՔԻ ՍԿԻԶԲ", "ՓԼԵՅՍՄԵՆԹ" as supers/tags; "/ՆԵՂՎԱԾ/" → parentheticals). Words and punctuation stay as written;
+only separators in location lines are unified so the breakdown can group them.
+```bash
+python3 scripts/kit_docx_to_fountain.py ep*.docx --series "84-ի ամառը" --outdir out/
+for f in out/*.fountain; do python3 scripts/screenplay.py "$f" --all --lang hy; done
+python3 scripts/season.py out/*.fountain --out out/season
+```
+Tested 2026-11-03 on 8 real episodes (84-ի ամառը 1/2/3/7/9 + 3 eps of the Vilo series): scene counts match the
+sources, no words lost. Other sources (Word without styles, PDF): rewrite into Fountain by hand, line by line.
+Always look at page 1–2 of a PDF as images (`pdftoppm -r 60 -png`) before handing it over.
+**Ani's scripts are private: never commit them or their outputs to the repo; work in the scratchpad.**
 
 Format: Letter by default (industry), `--paper a4` for local buyers. Courier-metric 12 pt, 1.5"/1" margins,
 character 3.7", dialogue 2.5" × 3.5", page numbers top right, (MORE)/(CONT'D) on split dialogue
@@ -36,7 +47,13 @@ character 3.7", dialogue 2.5" × 3.5", page numbers top right, (MORE)/(CONT'D) o
 labels with Ani once and update `LABELS` in the script if she uses others). 1 page ≈ 1 screen minute.
 DOCX uses Courier New (Word substitutes a font for Armenian); FDX opens in Final Draft / WriterDuet / KIT.
 
-## 2. Line-producer breakdown
+## 2. Line-producer breakdown (per episode and per season)
+
+`season.py` merges episodes: pages and scenes per episode, **sets across the season** (main location →
+rooms, in which episodes: shoot each set as one block), **characters × episodes** matrix (actor days,
+contracts), product placement scenes (💰, from "ՓԼԵՅՍՄԵՆԹ" lines), and a ⚠️ list of names/locations
+probably written two ways (typos like ՎՎԻԼՈ / ՎԻԼՈ, ՌԵՍՈՏՈՐԱՆ / ՌԵՍՏՈՐԱՆ): give that list to Ani.
+
 
 Comes with `--report` / `--csv` (or `--all`): pages and runtime, each scene with page and length in
 **eighths**, speaking characters per scene, character table (scenes, dialogue lines), locations table

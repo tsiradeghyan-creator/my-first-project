@@ -28,12 +28,17 @@ LABELS = {
     "hy": {"more": "(ՇԱՐՈՒՆԱԿԵԼԻ)", "contd": "(ՇԱՐ.)", "by": "Սցենարի հեղինակ"},
 }
 
-SCENE_RE = re.compile(
-    r"^(INT\.?/EXT|INT/EXT|I/E|INT|EXT|EST|"
-    r"ИНТ\.?/НАТ|ИНТ|НАТ|ЭКСТ|"
-    r"ԻՆՏ\.?/ԷՔՍՏ|ԻՆՏ|ԷՔՍՏ|ՆԵՐՍ\.?/ԴՐՍ|ՆԵՐՍ|ԴՐՍ)[\.\s]",
-    re.IGNORECASE,
-)
+_SCENE_EN = re.compile(r"^(INT\.?/EXT|INT/EXT|I/E|INT|EXT|EST)[\.\s]", re.IGNORECASE)
+# Russian / Armenian prefixes: capitals + a dot only, so "Ներս է գնում" is never a heading
+_SCENE_LOCAL = re.compile(r"^(ИНТ\.?/НАТ|ИНТ|НАТ|ЭКСТ|ԻՆՏ\.?/ԷՔՍՏ|ԻՆՏ|ԷՔՍՏ|ՆԵՐՍ\.?/ԴՐՍ|ՆԵՐՍ|ԴՐՍ)\.")
+
+
+class _SceneRe:
+    def match(self, s):
+        return _SCENE_EN.match(s) or _SCENE_LOCAL.match(s)
+
+
+SCENE_RE = _SceneRe()
 SCENE_NUM_RE = re.compile(r"\s*#([\w.\-]+)#\s*$")
 
 # Layout (inches from the page's left edge). Courier 12 pt = 10 chars/inch, 6 lines/inch.
@@ -152,7 +157,7 @@ def parse(text):
 
 
 def char_name(cue):
-    return re.sub(r"\(.*?\)", "", cue).replace("^", "").strip()
+    return re.sub(r"\s+", " ", re.sub(r"\(.*?\)", "", cue).replace("^", "")).strip()
 
 
 def split_heading(h):
@@ -457,6 +462,18 @@ def write_fdx(path, title, blocks):
 
 
 # ---------------------------------------------------------------- breakdown
+CITIES = {"ԵՐԵՎԱՆ", "ԵՐԵՒԱՆ", "ԳՅՈՒՄՐԻ", "ՎԱՆԱՁՈՐ", "ԼՈՍ", "ԼՈՍ ԱՆՋԵԼԵՍ", "ՄՈՍԿՎԱ", "ԹԲԻԼԻՍԻ",
+          "МОСКВА", "ЕРЕВАН", "LA", "LOS ANGELES", "YEREVAN", "MOSCOW"}
+
+
+def split_set(loc):
+    """'ԵՐԵՒԱՆ, ՌՈԲԵՐՏԻ ՏՈՒՆ, ՆՆՋԱՐԱՆ' -> ('ՌՈԲԵՐՏԻ ՏՈՒՆ', 'ՆՆՋԱՐԱՆ'); city prefixes are skipped."""
+    parts = [p.strip() for p in (loc or "?").split(",") if p.strip()]
+    while len(parts) > 1 and parts[0].upper() in CITIES:
+        parts.pop(0)
+    return parts[0], ", ".join(parts[1:])
+
+
 def eighths_str(e):
     whole, rest = divmod(e, 8)
     if whole and rest:
@@ -469,13 +486,17 @@ def eighths_str(e):
 def breakdown(blocks, pages, lines_per_page):
     scenes = [b for b in blocks if b["type"] == "scene"]
     rows_per_scene, first_page = {}, {}
+    last = -1
     for pi, rows in enumerate(pages, start=1):
         for r in rows:
-            if r is not None and r[2] >= 0:
-                rows_per_scene[r[2]] = rows_per_scene.get(r[2], 0) + 1
-                first_page.setdefault(r[2], pi)
+            if r is not None:
+                last = r[2]
+                if last >= 0:
+                    first_page.setdefault(last, pi)
+            if last >= 0:  # blank lines count for the scene they sit in
+                rows_per_scene[last] = rows_per_scene.get(last, 0) + 1
     # attach characters / synopsis to scenes
-    cur, chars, syn = -1, {}, {}
+    cur, chars, syn, cast, placement = -1, {}, {}, {}, set()
     for b in blocks:
         if b["type"] == "scene":
             cur += 1
@@ -484,8 +505,17 @@ def breakdown(blocks, pages, lines_per_page):
             nm = char_name(b["character"])
             if nm not in chars[cur]:
                 chars[cur].append(nm)
+        elif b["type"] == "action" and cur >= 0 and re.search(
+                r"ՓԼԵՅՍՄԵՆԹ|PLACEMENT|ПЛЕЙСМЕНТ|ПРОДАКТ", " ".join(b["lines"]).upper()):
+            placement.add(cur)
         elif b["type"] == "synopsis" and cur >= 0:
-            syn.setdefault(cur, b["text"])
+            if b["text"].upper().startswith("CAST:"):
+                for nm in re.split(r",\s*(?![^()]*\))", b["text"].split(":", 1)[1]):
+                    nm = re.sub(r"\(.*?\)", "", nm).strip().upper()
+                    if nm and nm not in cast.setdefault(cur, []):
+                        cast[cur].append(nm)
+            else:
+                syn.setdefault(cur, b["text"])
     out = []
     for idx, sc in enumerate(scenes):
         ie, loc, tod = split_heading(sc["text"])
@@ -493,8 +523,54 @@ def breakdown(blocks, pages, lines_per_page):
         e = max(1, math.ceil(n / lines_per_page * 8))
         out.append({"number": sc["number"], "heading": sc["text"], "int_ext": ie, "location": loc,
                     "time": tod, "page": first_page.get(idx, ""), "eighths": e,
-                    "length": eighths_str(e), "characters": chars.get(idx, []),
-                    "synopsis": syn.get(idx, "")})
+                    "length": eighths_str(e),
+                    "characters": list(dict.fromkeys(chars.get(idx, []) + cast.get(idx, []))),
+                    "speaking": chars.get(idx, []),
+                    "synopsis": syn.get(idx, ""), "placement": idx in placement})
+    return out
+
+
+def qa_warnings(chars, locs):
+    """Names / locations that are probably the same thing written two ways (typos, short forms)."""
+    import difflib
+    out = []
+
+    def lev1(a, b):
+        """edit distance <= 1"""
+        if abs(len(a) - len(b)) > 1:
+            return False
+        i = 0
+        while i < min(len(a), len(b)) and a[i] == b[i]:
+            i += 1
+        return a[i + 1:] == b[i + 1:] or a[i + 1:] == b[i:] or a[i:] == b[i + 1:]
+
+    def noise(a, b):
+        da, db = re.sub(r"\s*\d+$", "", a), re.sub(r"\s*\d+$", "", b)
+        if da == db and a != b and (re.search(r"\d$", a) or re.search(r"\d$", b)):
+            return True                       # numbered extras: ԵՐԱԺԻՇՏ 1 / ԵՐԱԺԻՇՏ 2
+        return a + "Ի" == b or b + "Ի" == a   # genitive forms are different places
+
+    def pairs(items):
+        res = []
+        items = sorted({re.sub(r"\s+", " ", x).strip() for x in items})
+        for i, x in enumerate(items):
+            for y in items[i + 1:]:
+                a, b = x.replace(",", "").replace(" ", ""), y.replace(",", "").replace(" ", "")
+                if noise(x, y):
+                    continue
+                if a == b or (len(min(a, b, key=len)) >= 4 and lev1(a, b)) \
+                        or difflib.SequenceMatcher(None, a, b).ratio() >= 0.88 \
+                        or x.endswith(" " + y) or y.endswith(" " + x):
+                    res.append(f"{x} ↔ {y}")
+        return res
+
+    sets = {split_set(x)[0] for x in locs}
+    words = {w for x in sets for w in x.split() if len(w) >= 6}
+    c, l = pairs(chars), pairs(locs) + [p for p in pairs(words) if p not in pairs(locs)]
+    if c or l:
+        out += ["", "## ⚠️ Check (maybe the same, written differently)", ""]
+        out += [f"- character: {x}" for x in c]
+        out += [f"- location: {x}" for x in l]
     return out
 
 
@@ -521,18 +597,39 @@ def write_report(path, title, blocks, pages, scenes, lang):
     L = [f"# {name}: breakdown", "",
          f"- Pages: **{len(pages)}** (≈ {len(pages)} min on screen, 1 page ≈ 1 minute)",
          f"- Scenes: **{len(scenes)}**, total length {eighths_str(total_e)} pages (in eighths)",
-         f"- Speaking characters: **{len(char_scenes)}**, locations: **{len(locs)}**", "",
+         f"- Characters (cast + speaking): **{len(char_scenes)}**, locations: **{len(locs)}**", "",
          "## Characters", "", "| Character | Scenes | Dialogue lines |", "|---|---|---|"]
     for c in sorted(char_scenes, key=lambda x: (-char_scenes[x], x)):
         L.append(f"| {c} | {char_scenes[c]} | {char_lines.get(c, 0)} |")
-    L += ["", "## Locations", "", "| Location | INT/EXT | Time | Scenes | Pages |", "|---|---|---|---|---|"]
+    has_ie = any(s["int_ext"] for s in scenes)
+    L += ["", "## Locations", "",
+          "| Location |" + (" INT/EXT |" if has_ie else "") + " Time | Scenes | Pages |",
+          "|---|" + ("---|" if has_ie else "") + "---|---|---|"]
     for k in sorted(locs, key=lambda x: (-locs[x]["eighths"], x)):
         d = locs[k]
-        L.append(f"| {k} | {'/'.join(sorted(x for x in d['ie'] if x))} | {', '.join(sorted(d['time']))} "
-                 f"| {d['scenes']} | {eighths_str(d['eighths'])} |")
+        ie = f" {'/'.join(sorted(x for x in d['ie'] if x))} |" if has_ie else ""
+        L.append(f"| {k} |{ie} {', '.join(sorted(d['time']))} | {d['scenes']} | {eighths_str(d['eighths'])} |")
+    sets = {}
+    for s in scenes:
+        main, room = split_set(s["location"])
+        d = sets.setdefault(main, {"scenes": 0, "eighths": 0, "rooms": set()})
+        d["scenes"] += 1
+        d["eighths"] += s["eighths"]
+        if room:
+            d["rooms"].add(room)
+    L += ["", "## Sets (main location → rooms)", "", "| Set | Scenes | Pages | Rooms |", "|---|---|---|---|"]
+    for k in sorted(sets, key=lambda x: (-sets[x]["eighths"], x)):
+        d = sets[k]
+        L.append(f"| {k} | {d['scenes']} | {eighths_str(d['eighths'])} | {' · '.join(sorted(d['rooms']))} |")
+    L += qa_warnings(list(char_scenes), list(locs))
+    nums = [s["number"] for s in scenes]
+    dup = sorted({x for x in nums if nums.count(x) > 1})
+    if dup:
+        L += ["", f"> ⚠️ Scene numbers used twice: {', '.join(dup)}"]
     L += ["", "## Scenes", "", "| # | Heading | Page | Length | Characters |", "|---|---|---|---|---|"]
     for s in scenes:
-        L.append(f"| {s['number']} | {s['heading']} | {s['page']} | {s['length']} | {', '.join(s['characters'])} |")
+        mark = " · 💰 placement" if s["placement"] else ""
+        L.append(f"| {s['number']} | {s['heading']}{mark} | {s['page']} | {s['length']} | {', '.join(s['characters'])} |")
         if s["synopsis"]:
             L.append(f"|  | _{s['synopsis']}_ |  |  |  |")
     sections = [b for b in blocks if b["type"] == "section"]
