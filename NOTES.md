@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (first BAB council: 84-ի ամառը next week)
+**Did:** Ran BAB Production (quick, 2 rounds; Tigran, Villeneuve, Rhimes, Deakins, Vermette, Murch) on next shooting week. Verdict GO: episodes 1 and 2 shot by location, 21.5 exterior pages held (summer story in November), filled with interiors from the same buildings incl. a 1984 hostel day for the young cast; scores A 7.8, B 5.5, C 2.3, D 2.5. Tigran's seat corrected the others with data (A = 18 sets, young cast 1 day not 5). Session in maghakian-roast-room/sessions/2026-11-03-84-next-week/ (local, gitignored). Built 5 day breakdowns (09–13.11.2026, 95 pages) and sent them with the verdict.
+
+**Left:** confirm workbook = 84-ի ամառը and present-day timeline is summer; building list (max 6), young actors' ages, rents; Phase 2 departments if Tigran wants.
+
 ## 2026-11-03 — Cloud (BAB Production built)
 **Did:** Built BAB Production on the Roast Room: 11 new seats. Deakins (pilot, tested on a Sevan dusk scene, good), Rhimes, Villeneuve, Blum, Vermette, Murch, Bloys, Quinn, Bajaria (quick-web brains: the cloud network blocks content sites, so brains come from verbatim web-search excerpts, 7 to 20 sources, all quotes verified), and Tigran's own line-producer seat (from his interview, consent, 23 verbatim Armenian quotes) at the centre. Skill `.claude/skills/bab-production/` (phase 1 board via roast-room --seats with Chair rules: Tigran speaks last and prices every ask, safety veto; phase 2 departments mapped to film-crew, director-desk, pack, plan, banana-pro, seedance, remotion). Studio and skill-router point to it. Price list sheet (Գնացուցակ) added to project.xlsx.
 
