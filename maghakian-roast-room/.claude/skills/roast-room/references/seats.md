@@ -78,5 +78,7 @@ On-call seats (in `roster.json`, off the default board; the Chair recommends the
 - Elon (question the requirement, delete the step, attack the bottleneck now) against Wickman (give every process an owner and a cadence) and Buffett (keep cash, wait for the fat pitch). Elon and Graham agree on speed and split on whether a launch counts before the delivery system scales.
 - Elon's aggressive dates are for the team, not for customers or lenders; Martell and Leila own what his pace costs the people.
 - Leila Hormozi and Alex Hormozi are different seats and different people. Name them "Leila" and "Hormozi".
+- Deakins (one camera, small crew, light built into the set, wait for the right light) against Line Producer (13 to 30 pages in a 12 hour day, every hour costs). Deakins concedes speed on a series and names what is lost; Line Producer prices his ask instead of refusing it.
+- Deakins (every image and every camera move must serve the story) against any seat chasing a showy, "beautiful" or trailer-friendly shot.
 
 If Round 1 comes back unanimous, the Chair should be suspicious and press the seat whose pillar is most at risk in Round 2.
