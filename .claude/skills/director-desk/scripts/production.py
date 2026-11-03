@@ -31,6 +31,21 @@ CREW = [  # department, position (Armenian series crew, edit freely in the workb
 ]
 
 
+# House numbers and market prices (Tigran, 2026-11-03). The admin fills/updates the empty cells.
+PRICE_LIST = [
+    ("Էջ օրական (սերիալ)", "էջ / օր", None, None, "13–30", "Տիգրան, 2026-11-03"),
+    ("Հերթափոխ", "ժամ", None, None, "12", "Տիգրան, 2026-11-03"),
+    ("Մեքենա (տեղափոխում)", "կմ", 150, None, "≥ 150 ֏/կմ", "Տիգրան. նվազագույնը"),
+    ("Սնունդ", "մարդ / օր", None, None, "1 ճաշ բոլորին", "+ թեյ, սուրճ, քաղցր՝ առանձին"),
+    ("Թեյ, սուրճ, քաղցր", "օր", None, None, "", ""),
+    ("Տուն / բնակարան (լոկացիա)", "օր", None, None, "", "Գինը բանակցային է. նույն տունը՝ $100-ից $1000"),
+    ("Տեխնիկայի մեքենա", "օր", None, None, "", ""),
+    ("Տաքսի (քաղաքում)", "ուղևորություն", None, None, "", ""),
+    ("Վառելիք", "լիտր", None, None, "", ""),
+    ("Մասսովկա", "մարդ / օր", None, None, "", ""),
+]
+
+
 def money(v):
     v = round(float(v or 0))
     return f"{v:,}".replace(",", " ") + f" {CUR}"
@@ -112,6 +127,11 @@ def init_project(master, out, title=""):
     dv2 = DataValidation(type="list", formula1='"' + ",".join(CATEGORIES) + '"', allow_blank=True)
     ex.add_data_validation(dv2)
     dv2.add("B2:B2000")
+    pl = wb.create_sheet("Գնացուցակ")
+    _head(pl, ["Ինչ", "Միավոր", "Նվազագույն " + CUR, "Առավելագույն " + CUR, "Մեր նորմա", "Աղբյուր / նշում"],
+          [34, 16, 14, 14, 18, 50])
+    for row in PRICE_LIST:
+        pl.append(list(row))
     sm = wb.create_sheet("Ամփոփ")
     sm.append([title or "Նախագիծ"])
     wb.properties.title = title or "Project"
