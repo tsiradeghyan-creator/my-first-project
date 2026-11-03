@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (BAB Production: plan agreed, research pending)
+**Did:** Tigran wants a Roast Room-style tool named **BAB Production**: a board of the world's best film/TV heads who debate a project, give a scored verdict, then each runs their department. Agreed structure: 7 heads (Showrunner/head writer · Director · Producer · Line producer · DP · Production designer · Post-production head/Editor), each with sub-agents mapped to existing tools (film-crew departments, director-desk pack/plan/production, banana-pro, seedance, remotion), plus on-call "buyer" seats from platforms (Netflix, Apple, Amazon, HBO…). Heads are built only from public work, like Roast Room seats. Gave him the full deep-research prompt (Part A heads × 5 candidates, Part B platform decision-makers). My unverified draft picks: Gilligan, Villeneuve, Blum, Deakins, Murch, Sarandos/Bloys; line producer seat better built from standards + Tigran's own experience. New CLAUDE.md rule: always give the whole updated text.
+
+**Left:** Tigran brings the research and his own notes as a line producer → pick the 7 + buyer → build BAB Production on the Roast Room base.
+
 ## 2026-11-03 — Cloud (studio: one entry point)
 **Did:** Tigran asked to connect everything under one door instead of building more. New skill `.claude/skills/studio/`: asks the track (script & documents · live-action production · AI film · pitch & promotion) and the current stage, then runs the right skill. The 7 AI-film stages from his screenshot map onto film-crew → banana-pro / seedance / cinema-worldbuilder / remotion; stage 7 «Премьера и разбор» is marked not built. skill-router points to `studio` for whole projects.
 
