@@ -9,13 +9,17 @@ Two steps, because the facts are counted by code and the prose is written by Cla
              Claude reads facts.md + the script and writes pack/pack.md (format: references/pack.md).
 
   2) build   python3 pack.py build ep*.fountain --texts pack/pack.md --out pack/ [--preset sundance_feature]
-             -> 01_producer/      logline_synopsis.pdf, one_pager.pdf
-                02_platform/      series_bible.pdf (deck; pitch_deck.pdf for a feature), episode_synopses.pdf
-                03_production/    script PDF/DOCX/FDX + breakdown per episode, season breakdown
-                04_casting/       casting_breakdown.pdf/.csv/.md, sides/<NAME>.pdf
-                05_international/ one_pager_en.pdf (if *_en sections exist)
-                06_competition/   application_<preset>.pdf
-                CHECK.md          word counts against each preset's limits, missing documents
+             -> 00 <title> — contents.pdf       cover + who gets what
+                01 ՊՐՈԴՅՈՒՍԵՐ · Producer         one-pager (always 1 page), synopsis
+                02 ՊԼԱՏՖՈՐՄ · Platform           pitch deck / series bible (16:9), episode synopses
+                03 ՌԵԺԻՍՈՐ · Director             script PDF/DOCX/FDX, scene overview
+                04 ԼԱՅՆ-ՊՐՈԴՅՈՒՍԵՐ · Line Producer production breakdown, scenes CSV, season CSV
+                05 ԿԱՍՏԻՆԳ-ԴԻՐԵԿՏՈՐ · Casting Dir. casting breakdown, CSV
+                06 ԴԵՐԱՍԱՆՆԵՐ · Actors            sides per role (branded cover + real scenes)
+                07 ՄԻՋԱԶԳԱՅԻՆ · International     English one-pager
+                08 ՄՐՑՈՒՅԹ-ՖՈՆԴ · Competition     application per preset, word counts shown
+                _internal (do not send)/          CHECK.md, HTML sources, breakdown md
+             Design: pack_design.py (HTML/CSS -> PDF via headless Chromium, Noto Serif/Sans Armenian).
 
 Only facts from the script go into numbers; nothing is invented. Sides are cut from the real scenes.
 """
@@ -42,7 +46,7 @@ PRESETS = {
     "eurimages": {"name": "Eurimages co-production (synopsis 1 page, English)",
                   "limits": {"synopsis_page_en": 500},
                   "docs": ["logline_en", "synopsis_page_en"], "en": True},
-    "generic": {"name": "Producer / platform default",
+    "generic": {"name": "Producer & platform",
                 "limits": {"logline": 50, "synopsis_paragraph": 150, "synopsis_page": 600, "bio": 120},
                 "docs": ["logline", "synopsis_paragraph", "synopsis_page", "characters"]},
 }
@@ -55,31 +59,6 @@ KNOWN = {
     "logline_en": "Logline (EN)", "synopsis_paragraph_en": "Synopsis (EN, paragraph)",
     "synopsis_page_en": "Synopsis (EN, 1 page)", "characters_en": "Characters (EN)",
 }
-
-
-# Section headings in the documents, by --lang (05_international is always English).
-HEAD = {
-    "hy": {"Synopsis": "Համառոտ բովանդակություն", "Synopsis (long)": "Ընդարձակ բովանդակություն",
-           "Characters": "Կերպարներ", "Why now": "Ինչու հիմա", "Comparables": "Համեմատելի նախագծեր",
-           "Scale": "Արտադրության ծավալ", "Production scale": "Արտադրության ծավալ", "Logline": "Լոգլայն",
-           "World": "Աշխարհը", "Tone & style": "Տոն և ոճ", "Season arc": "Սեզոնի աղեղ", "Episodes": "Սերիաներ",
-           "Audience": "Լսարան", "Team": "Թիմ", "Casting breakdown": "Կաստինգ",
-           "scenes": "տեսարան", "lines": "ռեպլիկ", "episodes": "սերիաներ", "pages": "էջ", "min": "րոպե",
-           "script": "սցենար", "main sets": "հիմնական լոկացիա", "speaking roles": "խոսող դեր", "leads": "գլխավոր",
-           "lead": "գլխավոր", "supporting": "երկրորդական", "day player": "էպիզոդիկ", "non-speaking": "առանց խոսքի"},
-    "ru": {"Synopsis": "Синопсис", "Synopsis (long)": "Расширенный синопсис", "Characters": "Персонажи",
-           "Why now": "Почему сейчас", "Comparables": "Референсы", "Scale": "Масштаб производства",
-           "Production scale": "Масштаб производства", "Logline": "Логлайн", "World": "Мир",
-           "Tone & style": "Тон и стиль", "Season arc": "Арка сезона", "Episodes": "Серии", "Audience": "Аудитория",
-           "Team": "Команда", "Casting breakdown": "Кастинг", "scenes": "сцен", "lines": "реплик",
-           "episodes": "серии", "pages": "стр.", "min": "мин", "script": "сценарий", "main sets": "основных локаций",
-           "speaking roles": "ролей со словами", "leads": "главных", "lead": "главная", "supporting": "второстепенная",
-           "day player": "эпизодическая", "non-speaking": "без слов"},
-}
-
-
-def tr(lang, k):
-    return HEAD.get(lang, {}).get(k, k)
 
 
 # ---------------------------------------------------------------- facts
@@ -217,27 +196,6 @@ def subsections(body):
     return [(n, "\n".join(t).strip()) for n, t in out]
 
 
-def write_md(path, meta, sections):
-    L = ["---"] + [f"{k}: {v}" for k, v in meta.items() if v] + ["---"]
-    for t, body in sections:
-        if body.strip():
-            L += [f"## {t}", body.strip(), ""]
-    with open(path, "w", encoding="utf-8") as f:
-        f.write("\n".join(L) + "\n")
-
-
-def render(md, layout="doc", compact=False):
-    cmd = [sys.executable, os.path.join(HERE, "treatment_pdf.py"), md, "--layout", layout]
-    if compact:
-        cmd.append("--compact")
-    else:
-        logo = os.path.join(sp.find_asset("assets", "maghakian_logo_light.png"), "maghakian_logo_light.png")
-        if os.path.exists(logo):
-            cmd += ["--logo", logo]
-    subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL)
-    return md[:-3] + ".pdf"
-
-
 # ---------------------------------------------------------------- sides
 def scene_blocks(ep):
     out, cur = [], None
@@ -250,53 +208,57 @@ def scene_blocks(ep):
     return out
 
 
-def write_sides(eps, chars, outdir, per_char, paper, logo):
-    os.makedirs(outdir, exist_ok=True)
-    made = []
-    lpp = int(round((sp.PAPER[paper][1] - 2.0) * 6))
-    for c in chars:
-        if c["role"] not in ("lead", "supporting") or c["lines"] == 0:
-            continue
-        cand = []
-        for ei, ep in enumerate(eps):
-            for sb in scene_blocks(ep):
-                n = sum(1 for b in sb if b["type"] == "dialogue_block" and sp.char_name(b["character"]) == c["name"])
-                if n:
-                    w = sum(sum(words(t) for k, t in b["lines"] if k == "dialogue") for b in sb
-                            if b["type"] == "dialogue_block" and sp.char_name(b["character"]) == c["name"])
-                    cand.append((n * 3 + w / 20, ei, sb))
-        best = sorted(cand, key=lambda x: -x[0])[:per_char]
-        best.sort(key=lambda x: (x[1], int(re.sub(r"\D", "", x[2][0]["number"]) or 0)))
-        blocks = []
-        for _, ei, sb in best:
-            blocks += sb
-        title = {"title": [f"SIDES · {c['name']}"],
-                 "credit": [" · ".join(sorted({eps[ei]['label'] for _, ei, _ in best}))],
-                 "author": ["Maghakian Scripts"]}
-        pages = sp.paginate(blocks, lpp, sp.LABELS["hy"])
-        fn = os.path.join(outdir, re.sub(r"[^\wԱ-Ֆա-ֆ-]+", "_", c["name"]) + ".pdf")
-        sp.write_pdf(fn, title, blocks, pages, paper, True, sp.LABELS["hy"], logo)
-        made.append((c["name"], fn, len(best)))
-    return made
+def pick_sides(eps, c, per_char):
+    cand = []
+    for ei, ep in enumerate(eps):
+        for si, sb in enumerate(scene_blocks(ep)):
+            mine = [b for b in sb if b["type"] == "dialogue_block" and sp.char_name(b["character"]) == c["name"]]
+            if mine:
+                w = sum(sum(words(t) for k, t in b["lines"] if k == "dialogue") for b in mine)
+                cand.append((len(mine) * 3 + w / 20, ei, si, sb))
+    best = sorted(cand, key=lambda x: -x[0])[:per_char]
+    return sorted(best, key=lambda x: (x[1], x[2]))
+
+
+def safe(s):
+    return re.sub(r'[\\/:*?"<>|]+', "", s).strip()
 
 
 # ---------------------------------------------------------------- build
 def cmd_build(a):
+    import pack_design as dz
     eps = [load(p, a.paper) for p in a.files]
     chars = collect(eps)
     meta, S = parse_pack(a.texts)
+    lang = a.lang
+    T = lambda k: dz.L(lang, k)  # noqa: E731
     title = meta.get("title") or " ".join(eps[0]["title"].get("title", [])) or eps[0]["label"]
     pages = sum(e["pages"] for e in eps)
-    nsc = sum(len(e["scenes"]) for e in eps)
+    allsc = [s for e in eps for s in e["scenes"]]
+    nsc = len(allsc)
     fmt = meta.get("format", "")
-    base = {"title": title, "format": fmt, "contact": meta.get("contact", "Maghakian Scripts · maghakianscripts.com")}
-    out = a.out
-    D = {k: os.path.join(out, k) for k in ("01_producer", "02_platform", "03_production", "04_casting",
-                                           "05_international", "06_competition")}
-    for d in D.values():
-        os.makedirs(d, exist_ok=True)
+    series = len(eps) > 1 or bool(S.get("episodes"))
+    sets = {}
+    for ei, e in enumerate(eps):
+        for s in e["scenes"]:
+            st = sp.split_set(s["location"])[0]
+            d = sets.setdefault(st, {"scenes": 0, "eighths": 0, "ie": set(), "eps": set(), "night": 0})
+            d["scenes"] += 1
+            d["eighths"] += s["eighths"]
+            d["ie"].add(T("ext") if sp.is_ext(s["int_ext"]) else T("int"))
+            d["eps"].add(ei + 1)
+            d["night"] += sp.is_night(s["time"])
+    speaking = [c for c in chars if c["lines"]]
+    leads = [c for c in chars if c["role"] == "lead"]
+    out = os.path.abspath(a.out)
+    R = {r[0]: r for r in dz.RECIPIENTS}
+    D = {k: os.path.join(out, dz.folder_name(r)) for k, r in R.items()}
+    internal = os.path.join(out, "_internal (do not send)")
+    os.makedirs(internal, exist_ok=True)
     made, missing = [], []
-    logo = None if a.no_logo else sp.DEFAULT_LOGO
+    desc = {k.upper(): v for k, v in subsections(S.get("characters", ""))}
+    hy_list, en_list = subsections(S.get("characters", "")), subsections(S.get("characters_en", ""))
+    en_of = {h[0].upper(): e for h, e in zip(hy_list, en_list)}   # same order in both sections
 
     def need(*keys):
         for k in keys:
@@ -304,155 +266,398 @@ def cmd_build(a):
                 missing.append(k)
         return all(S.get(k) for k in keys)
 
-    # scale line from the script itself
-    locs = {}
-    for e in eps:
-        for s in e["scenes"]:
-            locs.setdefault(sp.split_set(s["location"])[0] if hasattr(sp, "split_set") else s["location"], 0)
-    speaking = [c for c in chars if c["lines"]]
-    def scale_for(lg):
-        t = lambda k: tr(lg, k)  # noqa: E731
-        return (f"- {len(eps)} {t('episodes') if len(eps) > 1 else t('script')} · {pages} {t('pages')} · ≈ {pages} {t('min')}\n"
-                f"- {nsc} {t('scenes')} · {len(locs)} {t('main sets')} · {len(speaking)} {t('speaking roles')} "
-                f"({sum(1 for c in chars if c['role'] == 'lead')} {t('leads')})")
-    scale = scale_for(a.lang)
-    H = lambda k: tr(a.lang, k)  # noqa: E731
+    def fname(folder, doc):
+        os.makedirs(D[folder], exist_ok=True)
+        return os.path.join(D[folder], safe(f"{title} — {doc}") + ".pdf")
 
-    # 01 producer
-    if need("logline", "synopsis_paragraph"):
-        md = os.path.join(D["01_producer"], "one_pager.md")
-        char_short = "\n".join(f"- **{n}**: {t.splitlines()[0]}" for n, t in subsections(S.get("characters", ""))[:5])
-        write_md(md, {**base, "logline": S["logline"]},
-                 [(H("Synopsis"), S["synopsis_paragraph"]), (H("Characters"), char_short),
-                  (H("Why now"), S.get("why_now", "")), (H("Comparables"), S.get("comps", "")), (H("Scale"), scale)])
-        made.append(render(md, "doc", compact=True))
-    if need("synopsis_page"):
-        md = os.path.join(D["01_producer"], "logline_synopsis.md")
-        write_md(md, {**base, "logline": S.get("logline", "")},
-                 [(H("Synopsis"), S["synopsis_page"]), (H("Synopsis (long)"), S.get("synopsis_long", ""))])
-        made.append(render(md, "doc", compact=True))
+    def run(folder, lg=None):
+        return dz.recipient_label(R[folder], lg or lang), title
 
-    # 02 platform: series bible / treatment deck
-    series = len(eps) > 1 or bool(S.get("episodes"))
-    if series:
-        need("world", "season_arc")
-    if S.get("world") or S.get("characters"):
-        sec = [(H("Logline"), f"> {S.get('logline', '')}"), (H("World"), S.get("world", "")),
-               (H("Tone & style"), S.get("tone", ""))]
-        for n, t in subsections(S.get("characters", "")):
-            sec.append((n, t))
-        sec += [(H("Season arc"), S.get("season_arc", "")), (H("Episodes"), S.get("episodes", "")),
-                (H("Audience"), S.get("audience", "")), (H("Why now"), S.get("why_now", "")),
-                (H("Comparables"), S.get("comps", "")), (H("Production scale"), scale), (H("Team"), S.get("team", ""))]
-        md = os.path.join(D["02_platform"], "series_bible.md" if series else "pitch_deck.md")
-        write_md(md, {**base, "logline": S.get("logline", "")}, sec)
-        made.append(render(md, "deck"))
-    if S.get("episodes"):
-        md = os.path.join(D["02_platform"], "episode_synopses.md")
-        write_md(md, {**base, "logline": S.get("logline", "")}, [(H("Episodes"), S["episodes"])])
-        made.append(render(md, "doc", compact=True))
-    elif len(eps) > 1:
-        missing.append("episodes")
+    def stat_items(lg):
+        t = lambda k: dz.L(lg, k)  # noqa: E731
+        it = [(pages, f"{t('pages')} · ≈ {pages} {t('minutes')}"), (nsc, t("scenes")), (len(sets), t("sets")),
+              (len(speaking), t("roles"))]
+        if len(eps) > 1:
+            it = [(len(eps), t("episodes_n"))] + it[:3]
+        return it
 
-    # 03 production: formatted scripts + breakdowns
-    for e in eps:
-        stem = os.path.join(D["03_production"], e["label"])
-        subprocess.run([sys.executable, os.path.join(HERE, "screenplay.py"), e["path"], "--out", stem,
-                        "--pdf", "--docx", "--fdx", "--report", "--csv", "--paper", a.paper, "--lang", a.lang]
-                       + (["--no-logo"] if a.no_logo else []), check=True, stdout=subprocess.DEVNULL)
-        made.append(stem + ".pdf")
-    if len(eps) > 1:
-        subprocess.run([sys.executable, os.path.join(HERE, "season.py")] + [e["path"] for e in eps]
-                       + ["--out", os.path.join(D["03_production"], "season")], check=True, stdout=subprocess.DEVNULL)
-        made.append(os.path.join(D["03_production"], "season.md"))
+    def char_meta(c, lg):
+        t = lambda k: dz.L(lg, k)  # noqa: E731
+        m = [dz.chip(t(c["role"]), dz.ROLE_CLS[c["role"]])]
+        if c["age"]:
+            m.append(f"<span>{t('age')} {dz.esc(c['age'])}</span>")
+        m.append(f"<span>{len(c['scenes'])} {t('scenes')}</span>")
+        if len(eps) > 1:
+            m.append(f"<span>{t('eps')} {','.join(str(e + 1) for e in sorted(c['episodes']))}</span>")
+        return m
 
-    # 04 casting
-    desc = dict(subsections(S.get("characters", "")))
-    desc_up = {k.upper(): v for k, v in desc.items()}
-    rows = []
-    for c in chars:
-        d = desc_up.get(c["name"].upper(), "")
-        rows.append({"name": c["name"], "role": c["role"], "age": c["age"], "scenes": len(c["scenes"]),
-                     "lines": c["lines"], "words": c["words"],
-                     "episodes": ",".join(str(e + 1) for e in sorted(c["episodes"])),
-                     "description": d.replace("\n", " ") if d else c["intro"]})
-    with open(os.path.join(D["04_casting"], "casting_breakdown.csv"), "w", newline="", encoding="utf-8-sig") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()) if rows else ["name"])
-        w.writeheader()
-        w.writerows(rows)
-    sec = []
-    for r in rows:
-        if r["role"] == "non-speaking" and not r["description"]:
-            continue
-        head = f"{r['name']}" + (f", {r['age']}" if r["age"] else "")
-        sec.append((head, f"*{H(r['role'])} · {r['scenes']} {H('scenes')} · {r['lines']} {H('lines')}"
-                          + (f" · {H('episodes')} {r['episodes']}" if len(eps) > 1 else "") + "*\n\n" + r["description"]))
-    md = os.path.join(D["04_casting"], "casting_breakdown.md")
-    write_md(md, {**base, "format": (fmt + " · " if fmt else "") + H("Casting breakdown")}, sec)
-    made.append(render(md, "doc", compact=True))
-    for nm, fn, n in write_sides(eps, chars, os.path.join(D["04_casting"], "sides"), a.sides, a.paper, logo):
-        made.append(fn)
+    def char_cards(lg, dmap, only_described=True, limit=None):
+        items = []
+        for c in chars:
+            d = dmap.get(c["name"].upper(), "")
+            if only_described and not d:
+                continue
+            items.append((c["name"], char_meta(c, lg), d or c["intro"]))
+        return dz.cards(items[:limit] if limit else items)
 
-    # 05 international
-    if S.get("logline_en") and (S.get("synopsis_paragraph_en") or S.get("synopsis_page_en")):
-        md = os.path.join(D["05_international"], "one_pager_en.md")
-        cen = "\n".join(f"- **{n}**: {t.splitlines()[0]}" for n, t in subsections(S.get("characters_en", ""))[:5])
-        write_md(md, {**base, "format": meta.get("format_en", fmt), "logline": S["logline_en"]},
-                 [("Synopsis", S.get("synopsis_page_en") or S.get("synopsis_paragraph_en")), ("Characters", cen),
-                  ("Scale", scale_for("en"))])
-        made.append(render(md, "doc", compact=True))
-    else:
-        missing.append("logline_en + synopsis_*_en (05_international)")
+    def tcls(text):
+        n = words(text)
+        if re.search(r"^\s*[-*•] ", text, re.M):
+            return "body"
+        return "state" if n <= 60 else ("body" if n <= 170 else "body long cols2")
 
-    # 06 competition
-    p = PRESETS[a.preset]
-    en = p.get("en")  # these rules want English: use the *_en texts when they exist
-    HP = (lambda k: k) if en else H  # noqa: E731
-    sec = []
-    for k in p["docs"]:
-        src = k if k.endswith("_en") or not en or not S.get(k + "_en") else k + "_en"
-        if k == "characters":
-            bios = subsections(S.get(src, ""))[:p.get("max_bios", 5)]
-            sec.append((HP("Characters"), "\n\n".join(f"### {n}\n{t}" for n, t in bios)))
+    with dz.Renderer() as RN:
+        def doc(folder, docname, body, lg=None, kind="doc"):
+            who, right = run(folder, lg)
+            fn = fname(folder, docname)
+            RN.pdf(dz.page(body, kind, f"{title} — {docname}", who, right), fn, kind,
+                   html_dir=os.path.join(internal, "html"))
+            made.append(fn)
+            return fn
+
+        # 01 producer
+        if need("logline", "synopsis_paragraph"):
+            b = dz.masthead(title, fmt, T("one_pager"), S["logline"])
+            b += dz.h2("01", T("synopsis")) + dz.md(S["synopsis_paragraph"])
+            b += dz.h2("02", T("characters")) + char_cards(lang, desc, limit=4)
+            n = 3
+            for k in ("why_now", "comps"):
+                if S.get(k):
+                    b += dz.h2(f"{n:02d}", T(k)) + dz.md(S[k])
+                    n += 1
+            b += dz.h2(f"{n:02d}", T("scale")) + dz.stats(stat_items(lang))
+            doc("01", "One-pager", b, kind="onepage")
+        if need("synopsis_page"):
+            b = dz.masthead(title, fmt, f"{T('logline')} · {T('synopsis')}", S.get("logline", ""))
+            b += dz.h2("01", T("synopsis")) + dz.md(S["synopsis_page"])
+            if S.get("synopsis_long"):
+                b += dz.h2("02", T("synopsis_long")) + dz.md(S["synopsis_long"])
+            doc("01", "Synopsis", b)
+
+        # 02 platform: deck / bible
+        if series:
+            need("world", "season_arc")
+        if S.get("logline") and (S.get("world") or S.get("characters")):
+            dname = T("bible") if series else T("deck")
+            lw = dz.logo_img("dark")
+            slides, k = [], [0]
+
+            def foot():
+                k[0] += 1
+                return (title, "", f"{k[0]:02d}")
+
+            cov = meta.get("cover")
+            covbg = ""
+            if cov:
+                cp = cov if os.path.isabs(cov) else os.path.join(os.path.dirname(os.path.abspath(a.texts)), cov)
+                if os.path.exists(cp):
+                    covbg = f'<div class="bg" style="background-image:url(\'file://{cp}\')"></div><div class="shade"></div>'
+            slides.append(dz.slide(f'{covbg}<div class="doc">{dz.esc(dname)}</div>{dz.logo_img("light", "logo")}'
+                                   f'<div class="in"><div class="tri"></div><h1>{dz.esc(title)}</h1>'
+                                   f'<div class="fmt">{dz.esc(fmt)}</div>'
+                                   f'<div class="lg">{dz.inline(S.get("tagline", ""))}</div></div>',
+                                   dark=True, cls="s-cover"))
+            sec = 0
+
+            def nxt():
+                nonlocal sec
+                sec += 1
+                return f"{sec:02d}"
+
+            slides.append(dz.slide(dz.kicker(nxt(), T("logline")) + f'<div class="fit big">{dz.inline(S["logline"])}</div>',
+                                   foot=foot()))
+            syn = S.get("synopsis_paragraph") or S.get("synopsis_page", "")
+            if syn:
+                slides.append(dz.slide(dz.kicker(nxt(), T("synopsis")) + f'<div class="fit {tcls(syn)}">{dz.md(syn)}</div>',
+                                       foot=foot()))
+            for key in ("world", "tone"):
+                if S.get(key):
+                    slides.append(dz.slide(dz.kicker(nxt(), T(key)) + f'<div class="fit {tcls(S[key])}">{dz.md(S[key])}</div>',
+                                           foot=foot()))
+            cno = nxt()
+            for c in chars:
+                d = desc.get(c["name"].upper())
+                if not d:
+                    continue
+                meta_html = "".join(f"<div>{m}</div>" if not m.startswith("<span class=\"chip") else m
+                                    for m in char_meta(c, lang))
+                slides.append(dz.slide(dz.kicker(cno, T("characters")) +
+                                       f'<div class="char"><div><div class="nm">{dz.esc(c["name"].title() if lang == "en" else c["name"])}</div>'
+                                       f'<div class="meta">{meta_html}</div></div>'
+                                       f'<div class="fit body">{dz.md(d)}</div></div>', foot=foot()))
+            if S.get("season_arc"):
+                slides.append(dz.slide(dz.kicker(nxt(), T("season_arc")) +
+                                       f'<div class="fit {tcls(S["season_arc"])}">{dz.md(S["season_arc"])}</div>', foot=foot()))
+            if S.get("episodes"):
+                eno = nxt()
+                epl = subsections(S["episodes"])
+                for i in range(0, len(epl), 4):
+                    cells = "".join(f'<div class="e"><div class="k">{dz.esc(n)}</div>{dz.md(t)}</div>'
+                                    for n, t in epl[i:i + 4])
+                    slides.append(dz.slide(dz.kicker(eno, T("episodes")) + f'<div class="fit eps">{cells}</div>',
+                                           foot=foot()))
+            nums = "".join(f'<div><div class="v">{v}</div><div class="l">{dz.esc(l)}</div></div>'
+                           for v, l in stat_items(lang))
+            slides.append(dz.slide(dz.kicker(nxt(), T("scale")) + f'<div class="nums">{nums}</div>', dark=True,
+                                   foot=foot()))
+            for key in ("audience", "why_now", "comps", "team"):
+                if S.get(key):
+                    slides.append(dz.slide(dz.kicker(nxt(), T(key)) + f'<div class="fit {tcls(S[key])}">{dz.md(S[key])}</div>',
+                                           foot=foot()))
+            slides.append(dz.slide(f'{dz.logo_img("light")}<div class="t">{dz.esc(title)}</div>'
+                                   f'<div class="c">{dz.esc(meta.get("contact", "maghakianscripts.com"))}</div>',
+                                   dark=True, cls="end"))
+            doc("02", "Series bible" if series else "Pitch deck", "".join(slides), kind="deck")
+        if S.get("episodes"):
+            b = dz.masthead(title, fmt, T("ep_synopses"), S.get("logline", ""))
+            for i, (n, t) in enumerate(subsections(S["episodes"]), 1):
+                b += f'<div class="ep"><div class="k">{dz.esc(n)}</div><div>{dz.md(t)}</div></div>'
+            doc("02", "Episode synopses", b)
+        elif len(eps) > 1:
+            missing.append("episodes")
+
+        # 03 director: formatted script + scene overview
+        for ei, e in enumerate(eps):
+            stem = os.path.join(D["03"], safe(f"{title} — {T('episode')} {ei + 1:02d}") if len(eps) > 1
+                                else safe(f"{title} — Script"))
+            os.makedirs(D["03"], exist_ok=True)
+            subprocess.run([sys.executable, os.path.join(HERE, "screenplay.py"), e["path"], "--out", stem,
+                            "--pdf", "--docx", "--fdx", "--report", "--csv", "--paper", a.paper, "--lang", lang]
+                           + (["--no-logo"] if a.no_logo else []), check=True, stdout=subprocess.DEVNULL)
+            for ext in ("_breakdown.md",):
+                if os.path.exists(stem + ext):
+                    os.replace(stem + ext, os.path.join(internal, os.path.basename(stem) + ext))
+            if os.path.exists(stem + "_breakdown.csv"):
+                os.makedirs(D["04"], exist_ok=True)
+                os.replace(stem + "_breakdown.csv",
+                           os.path.join(D["04"], os.path.basename(stem).replace("Script", "Scenes") + " — scenes.csv"
+                                        if len(eps) > 1 else os.path.basename(stem).replace("Script", "Scenes") + ".csv"))
+            made.append(stem + ".pdf")
+        b = dz.masthead(title, fmt, T("overview"))
+        b += dz.stats(stat_items(lang))
+        for ei, e in enumerate(eps):
+            if len(eps) > 1:
+                b += dz.h2(f"{ei + 1:02d}", f"{T('episode')} {ei + 1} · {e['pages']} {T('pages')}")
+            first = {}
+            cur = -1
+            for bl in e["blocks"]:
+                if bl["type"] == "scene":
+                    cur += 1
+                elif bl["type"] == "action" and cur >= 0 and cur not in first:
+                    first[cur] = " ".join(bl["lines"])
+            rows = "".join(
+                f'<tr><td class="n">{dz.esc(s["number"])}</td><td><b>{dz.esc(s["heading"])}</b><br>'
+                f'<span class="note">{dz.esc((s["synopsis"] or first.get(i, ""))[:260])}</span></td>'
+                f'<td>{dz.esc(", ".join(s["characters"]))}</td><td class="num">{dz.esc(s["length"])}</td></tr>'
+                for i, s in enumerate(e["scenes"]))
+            b += (f'<table><thead><tr><th>#</th><th>{T("scene")} · {T("content")}</th><th>{T("cast")}</th>'
+                  f'<th class="num">{T("length")}</th></tr></thead><tbody>{rows}</tbody></table>')
+        doc("03", "Scene overview", b)
+
+        # 04 line producer: breakdown
+        ext = [s for s in allsc if sp.is_ext(s["int_ext"])]
+        inn = [s for s in allsc if not sp.is_ext(s["int_ext"])]
+        b = dz.masthead(title, fmt, T("breakdown"))
+        b += dz.stats([(pages, f"{T('pages')} · ≈ {pages} {T('minutes')}"), (nsc, T("scenes")), (len(sets), T("sets")),
+                       (len(speaking), T("roles"))])
+        b += dz.stats([(sp.eighths_str(sum(s["eighths"] for s in inn)), T("int_pages")),
+                       (sp.eighths_str(sum(s["eighths"] for s in ext)), T("ext_pages")),
+                       (sum(1 for s in allsc if sp.is_night(s["time"])), T("night")),
+                       (sum(1 for s in ext if sp.is_night(s["time"])), T("ext_night"))])
+        b += dz.h2("01", T("location"))
+        rows = "".join(
+            f'<tr><td><b>{dz.esc(st)}</b></td><td>{"".join(dz.chip(x, "ext" if x == T("ext") else "int") + " " for x in sorted(d["ie"]))}</td>'
+            f'<td class="num">{d["scenes"]}</td><td class="num">{sp.eighths_str(d["eighths"])}</td>'
+            f'<td class="num">{d["night"] or ""}</td>'
+            + (f'<td>{",".join(map(str, sorted(d["eps"])))}</td>' if len(eps) > 1 else "") + "</tr>"
+            for st, d in sorted(sets.items(), key=lambda x: -x[1]["eighths"]))
+        b += (f'<table><thead><tr><th>{T("location")}</th><th>{T("ie")}</th><th class="num">{T("scenes")}</th>'
+              f'<th class="num">{T("pages")}</th><th class="num">{T("night")}</th>'
+              + (f'<th>{T("eps")}</th>' if len(eps) > 1 else "") + f'</tr></thead><tbody>{rows}</tbody></table>')
+        b += dz.h2("02", T("characters"))
+        rows = "".join(
+            f'<tr><td><b>{dz.esc(c["name"])}</b></td><td>{dz.chip(T(c["role"]), dz.ROLE_CLS[c["role"]])}</td>'
+            f'<td class="num">{len(c["scenes"])}</td><td class="num">{c["lines"]}</td>'
+            + (f'<td>{",".join(str(x + 1) for x in sorted(c["episodes"]))}</td>' if len(eps) > 1 else "") + "</tr>"
+            for c in chars)
+        b += (f'<table><thead><tr><th>{T("role")}</th><th></th><th class="num">{T("scenes")}</th>'
+              f'<th class="num">{T("lines")}</th>' + (f'<th>{T("eps")}</th>' if len(eps) > 1 else "")
+              + f'</tr></thead><tbody>{rows}</tbody></table>')
+        for ei, e in enumerate(eps):
+            b += dz.h2(f"{ei + 3:02d}", (f"{T('episode')} {ei + 1} · " if len(eps) > 1 else "") + T("scenes"))
+            rows = "".join(
+                f'<tr><td class="n">{dz.esc(s["number"])}</td>'
+                f'<td>{dz.chip(T("ext") if sp.is_ext(s["int_ext"]) else T("int"), "ext" if sp.is_ext(s["int_ext"]) else "int")}</td>'
+                f'<td><b>{dz.esc(s["location"])}</b></td>'
+                f'<td>{dz.chip(s["time"], "night") if sp.is_night(s["time"]) else dz.esc(s["time"])}</td>'
+                f'<td>{dz.esc(", ".join(s["characters"]))}</td><td class="num">{dz.esc(s["length"])}</td></tr>'
+                for s in e["scenes"])
+            b += (f'<table><thead><tr><th>#</th><th>{T("ie")}</th><th>{T("location")}</th><th>{T("time")}</th>'
+                  f'<th>{T("cast")}</th><th class="num">{T("length")}</th></tr></thead><tbody>{rows}</tbody></table>')
+        doc("04", "Production breakdown", b)
+        if len(eps) > 1:
+            subprocess.run([sys.executable, os.path.join(HERE, "season.py")] + [e["path"] for e in eps]
+                           + ["--out", os.path.join(internal, "season")], check=True, stdout=subprocess.DEVNULL)
+            if os.path.exists(os.path.join(internal, "season.csv")):
+                os.replace(os.path.join(internal, "season.csv"), os.path.join(D["04"], safe(f"{title} — Season") + ".csv"))
+
+        # 05 casting
+        rows = []
+        for c in chars:
+            d = desc.get(c["name"].upper(), "")
+            rows.append({"name": c["name"], "role": c["role"], "age": c["age"], "scenes": len(c["scenes"]),
+                         "lines": c["lines"], "words": c["words"],
+                         "episodes": ",".join(str(e + 1) for e in sorted(c["episodes"])),
+                         "description": d.replace("\n", " ") if d else c["intro"]})
+        os.makedirs(D["05"], exist_ok=True)
+        with open(os.path.join(D["05"], safe(f"{title} — Casting") + ".csv"), "w", newline="", encoding="utf-8-sig") as f:
+            w = csv.DictWriter(f, fieldnames=list(rows[0].keys()) if rows else ["name"])
+            w.writeheader()
+            w.writerows(rows)
+        b = dz.masthead(title, fmt, T("casting"))
+        b += dz.stats([(len(leads), T("lead")), (sum(1 for c in chars if c["role"] == "supporting"), T("supporting")),
+                       (sum(1 for c in chars if c["role"] == "day player"), T("day player")),
+                       (sum(1 for c in chars if c["role"] == "non-speaking"), T("non-speaking"))])
+        groups = [("lead", "supporting"), ("day player", "non-speaking")]
+        for gi, g in enumerate(groups, 1):
+            items = [(c["name"], char_meta(c, lang), desc.get(c["name"].upper()) or c["intro"])
+                     for c in chars if c["role"] in g]
+            if items:
+                b += dz.h2(f"{gi:02d}", " · ".join(T(x) for x in g)) + dz.cards(items, one=(gi == 1))
+        doc("05", "Casting breakdown", b)
+
+        # 06 actors: sides with a branded cover
+        from pypdf import PdfReader, PdfWriter
+        lpp = int(round((sp.PAPER[a.paper][1] - 2.0) * 6))
+        for c in chars:
+            if c["role"] not in ("lead", "supporting") or c["lines"] == 0:
+                continue
+            best = pick_sides(eps, c, a.sides)
+            blocks = [bl for *_, sb in best for bl in sb]
+            raw = os.path.join(internal, safe(c["name"]) + "_sides_raw.pdf")
+            sp.write_pdf(raw, {}, blocks, sp.paginate(blocks, lpp, sp.LABELS[lang if lang in sp.LABELS else "hy"]),
+                         a.paper, True, sp.LABELS[lang if lang in sp.LABELS else "hy"], None)
+            rows = "".join(
+                f'<tr><td class="n">{dz.esc(sb[0]["number"])}</td><td><b>{dz.esc(sb[0]["text"])}</b></td>'
+                + (f'<td>{T("episode")} {ei + 1}</td>' if len(eps) > 1 else "") + "</tr>"
+                for _, ei, si, sb in best)
+            d = desc.get(c["name"].upper()) or c["intro"]
+            b = dz.masthead(title, fmt, T("sides"))
+            b += (f'<div class="cards one"><div class="card"><div class="nm" style="font-size:24pt">{dz.esc(c["name"])}</div>'
+                  f'<div class="meta">{"".join(char_meta(c, lang))}</div>{dz.md(d)}</div></div>')
+            b += dz.h2("01", T("sides_note")) + f'<table><tbody>{rows}</tbody></table>'
+            cov = os.path.join(internal, safe(c["name"]) + "_cover.pdf")
+            who, right = run("06")
+            RN.pdf(dz.page(b, "doc", c["name"], who, right), cov, html_dir=os.path.join(internal, "html"))
+            wtr = PdfWriter()
+            for pth in (cov, raw):
+                for pg in PdfReader(pth).pages:
+                    wtr.add_page(pg)
+            fn = fname("06", f"Sides — {c['name']}")
+            with open(fn, "wb") as f:
+                wtr.write(f)
+            os.remove(cov)
+            os.remove(raw)
+            made.append(fn)
+
+        # 07 international (English)
+        if S.get("logline_en") and (S.get("synopsis_paragraph_en") or S.get("synopsis_page_en")):
+            b = dz.masthead(meta.get("title_en", title), meta.get("format_en", fmt), "One-pager", S["logline_en"])
+            b += dz.h2("01", "Synopsis") + dz.md(S.get("synopsis_page_en") or S["synopsis_paragraph_en"])
+            if en_of:
+                items = [(en_of[c["name"].upper()][0], char_meta(c, "en"), en_of[c["name"].upper()][1])
+                         for c in chars if c["name"].upper() in en_of][:4]
+                b += dz.h2("02", "Characters") + dz.cards(items)
+            b += dz.h2("03", "Production scale") + dz.stats(stat_items("en"))
+            doc("07", "One-pager (EN)", b, lg="en", kind="onepage")
         else:
-            sec.append((HP(KNOWN.get(k, k).split(" (")[0]), S.get(src, "")))
-        if not S.get(src):
-            missing.append(f"{src} (preset {a.preset})")
-        elif en and not k.endswith("_en") and not S.get(k + "_en"):
-            missing.append(f"{k}_en (preset {a.preset} wants English)")
-    md = os.path.join(D["06_competition"], f"application_{a.preset}.md")
-    write_md(md, {**base, "format": f"{fmt} · {p['name']}" if fmt else p["name"]}, sec)
-    made.append(render(md, "doc", compact=True))
+            missing.append("logline_en + synopsis_*_en (07 International)")
 
-    # CHECK.md
-    L = [f"# Check · {title}", "", f"Script: {len(eps)} file(s), {pages} pages, {nsc} scenes, {len(chars)} characters.", "",
-         "## Word limits", "", "| Text | Words | " + " | ".join(PRESETS) + " |", "|---|---|" + "---|" * len(PRESETS)]
+        # 08 competition / fund
+        p = PRESETS[a.preset]
+        en = p.get("en")
+        lg = "en" if en else lang
+        b = dz.masthead(meta.get("title_en", title) if en else title, meta.get("format_en", fmt) if en else fmt,
+                        f"{dz.L(lg, 'application')} · {p['name']}")
+        for i, k in enumerate(p["docs"], 1):
+            src = k if k.endswith("_en") or not en or not S.get(k + "_en") else k + "_en"
+            base = k[:-3] if k.endswith("_en") else k
+            if not S.get(src):
+                missing.append(f"{src} (preset {a.preset})")
+            elif en and not k.endswith("_en") and not S.get(k + "_en"):
+                missing.append(f"{k}_en (preset {a.preset} wants English)")
+            if base == "characters":
+                bios = subsections(S.get(src, ""))[:p.get("max_bios", 5)]
+                lim = p["limits"].get("bio")
+                items = []
+                for n, t in bios:
+                    wc = words(t)
+                    items.append((n, [dz.chip(f"{wc}{' / ' + str(lim) if lim else ''} {dz.L(lg, 'words')}",
+                                              "over" if lim and wc > lim else "ok")], t))
+                b += dz.h2(f"{i:02d}", dz.L(lg, "characters")) + dz.cards(items, one=True)
+                continue
+            txt = S.get(src, "")
+            lim = p["limits"].get(k) or p["limits"].get(src)
+            wc = words(txt)
+            badge = dz.chip(f"{wc}{' / ' + str(lim) if lim else ''} {dz.L(lg, 'words')}",
+                            "over" if lim and wc > lim else "ok") if txt else ""
+            label = dz.L(lg, {"synopsis_page": "synopsis", "synopsis_paragraph": "synopsis"}.get(base, base))
+            b += dz.h2(f"{i:02d}", label) + f'<div class="wc">{badge}</div>' + dz.md(txt)
+        doc("08", f"Application — {p['name']}", b, lg=lg)
+
+        # 00 index
+        cov = (f'<div class="cover"><div><div class="kick">{dz.esc(T("contents"))}</div><h1>{dz.esc(title)}</h1>'
+             f'<div class="fmt">{dz.esc(fmt)}</div><div class="logline">{dz.inline(S.get("logline", ""))}</div></div>'
+             f'<div class="bot"><span>{dz.esc(meta.get("contact", "Maghakian Scripts · maghakianscripts.com"))}</span>'
+             f'{dz.logo_img("light")}</div></div>')
+        b = dz.masthead(title, fmt, T("contents")) + '<div class="toc">'
+        for r in dz.RECIPIENTS:
+            if not os.path.isdir(D[r[0]]):
+                continue
+            files = sorted(f for f in os.listdir(D[r[0]]) if not f.startswith("."))
+            files_html = "<br>".join(dz.esc(f.replace(f"{title} — ", "")) for f in files)
+            b += (f'<div class="row"><div class="no">{r[0]}</div><div><div class="who">{dz.esc(r[1])}</div>'
+                  f'<div class="en">{dz.esc(r[2])}</div></div><div class="files"><b>{dz.esc(r[3] if lang != "en" else r[4])}</b>'
+                  f'<br>{files_html}</div></div>')
+        b += "</div>"
+        idx = os.path.join(out, safe(f"00 {title} — {T('contents')}") + ".pdf")
+        hd = os.path.join(internal, "html")
+        c1, c2 = os.path.join(internal, "_cover.pdf"), os.path.join(internal, "_toc.pdf")
+        RN.pdf(dz.page(cov, "cover", title), c1, "cover", html_dir=hd)
+        RN.pdf(dz.page(b, "doc", title, T("contents"), title), c2, html_dir=hd)
+        wtr = PdfWriter()
+        for pth in (c1, c2):
+            for pg in PdfReader(pth).pages:
+                wtr.add_page(pg)
+        with open(idx, "wb") as f:
+            wtr.write(f)
+        os.remove(c1)
+        os.remove(c2)
+        made.insert(0, idx)
+
+    # CHECK.md (internal)
+    Lc = [f"# Check · {title}", "", f"Script: {len(eps)} file(s), {pages} pages, {nsc} scenes, {len(chars)} characters.",
+          "", "## Word limits", "", "| Text | Words | " + " | ".join(PRESETS) + " |", "|---|---|" + "---|" * len(PRESETS)]
     for k in KNOWN:
         if not S.get(k):
             continue
-        if k in ("characters", "characters_en"):
-            items = subsections(S[k])
-            for n, t in items:
-                cells = []
-                for pr in PRESETS.values():
-                    lim = pr["limits"].get("bio")
-                    cells.append("" if not lim else ("✅" if words(t) <= lim else f"❌ >{lim}"))
-                L.append(f"| bio: {n} | {words(t)} | " + " | ".join(cells) + " |")
-            continue
-        n = words(S[k])
-        cells = []
-        for pr in PRESETS.values():
-            lim = pr["limits"].get(k)
-            cells.append("" if not lim else ("✅" if n <= lim else f"❌ >{lim}"))
-        L.append(f"| {k} | {n} | " + " | ".join(cells) + " |")
-    L += ["", "## Missing", ""] + ([f"- {m}" for m in dict.fromkeys(missing)] or ["- nothing"])
-    unknown_desc = [c["name"] for c in chars if c["role"] in ("lead", "supporting") and c["name"].upper() not in desc_up]
-    if unknown_desc:
-        L += ["", "## Characters without a description in pack.md", ""] + [f"- {n}" for n in unknown_desc]
-    L += ["", "## Files", ""] + [f"- {os.path.relpath(m, out)}" for m in made]
-    with open(os.path.join(out, "CHECK.md"), "w", encoding="utf-8") as f:
-        f.write("\n".join(L) + "\n")
-    print(f"built {len(made)} files in {out}/  (see CHECK.md; missing: {len(set(missing))})")
+        items = subsections(S[k]) if k in ("characters", "characters_en") else [(None, S[k])]
+        for n, t in items:
+            wc = words(t)
+            key = "bio" if n else k
+            cells = []
+            for pr in PRESETS.values():
+                lim = pr["limits"].get(key)
+                cells.append("" if not lim else ("✅" if wc <= lim else f"❌ >{lim}"))
+            Lc.append(f"| {'bio: ' + n if n else k} | {wc} | " + " | ".join(cells) + " |")
+    Lc += ["", "## Missing", ""] + ([f"- {m}" for m in dict.fromkeys(missing)] or ["- nothing"])
+    nodesc = [c["name"] for c in chars if c["role"] in ("lead", "supporting") and c["name"].upper() not in desc]
+    if nodesc:
+        Lc += ["", "## Leads/supporting without a description in pack.md", ""] + [f"- {n}" for n in nodesc]
+    Lc += ["", "## Files", ""] + [f"- {os.path.relpath(m, out)}" for m in made]
+    with open(os.path.join(internal, "CHECK.md"), "w", encoding="utf-8") as f:
+        f.write("\n".join(Lc) + "\n")
+    print(f"built {len(made)} files in {out}/  (internal/CHECK.md; missing: {len(set(missing))})")
 
 
 def main():

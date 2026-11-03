@@ -51,7 +51,9 @@ If a script fails, show the error, fix the call; never fall back to inventing th
 read `pack.md` (rules) and `pack_hy.md` (example). `python pack.py facts ep*.fountain --out pack` → read
 `pack/facts.md` and the script, write `pack/pack.md` (only facts from the script, synopses include the ending),
 then `python pack.py build ep*.fountain --texts pack/pack.md --out pack --preset generic --lang hy`
-(presets: generic, sundance_feature, sundance_microseries, eurimages). Zip the folders 01–06 and show CHECK.md.
+(presets: generic, sundance_feature, sundance_microseries, eurimages). ChatGPT has no Chromium, so the branded
+PDFs are left as HTML in `_internal (do not send)/html/`; give those files and CHECK.md, and say the designed
+PDFs come from Claude.
 
 ## Rules
 - Never change Ani's words except the corrections you list; never rewrite style, shorten, add or "improve".

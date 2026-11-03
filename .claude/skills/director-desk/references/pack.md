@@ -38,15 +38,29 @@ Only `logline` + `synopsis_paragraph` are required; every missing piece is liste
 - Pass the final texts through `anthropic-skills:humanizer` before they go out.
 - Story work (stronger logline, structure): `anthropic-skills:ani-screenwriting-workflow`.
 
-## What each recipient gets (folders)
-| Folder | For | Files |
-|---|---|---|
-| 01_producer | producer, agent | one_pager.pdf, logline_synopsis.pdf |
-| 02_platform | streamer, broadcaster | series_bible.pdf (feature: pitch_deck.pdf), episode_synopses.pdf |
-| 03_production | line producer, director | script PDF/DOCX/FDX, breakdown md/csv per episode, season.md/csv |
-| 04_casting | casting director, actors | casting_breakdown.pdf/csv, sides/NAME.pdf (top scenes by the role's dialogue) |
-| 05_international | foreign buyers, funds | one_pager_en.pdf |
-| 06_competition | labs, funds, contests | application_<preset>.pdf |
+## What each recipient gets (folders named by position)
+| Folder | Files |
+|---|---|
+| `00 <title> — Փաթեթի բովանդակություն.pdf` | black cover + table: who gets what |
+| `01 ՊՐՈԴՅՈՒՍԵՐ · Producer` | One-pager (always fits 1 page), Synopsis |
+| `02 ՊԼԱՏՖՈՐՄ · Platform` | Pitch deck (feature) or Series bible (series), 16:9; Episode synopses |
+| `03 ՌԵԺԻՍՈՐ · Director` | script PDF/DOCX/FDX (industry Courier format), Scene overview |
+| `04 ԼԱՅՆ-ՊՐՈԴՅՈՒՍԵՐ · Line Producer` | Production breakdown (locations, int/ext, night, roles, scenes), CSVs |
+| `05 ԿԱՍՏԻՆԳ-ԴԻՐԵԿՏՈՐ · Casting Director` | Casting breakdown, CSV |
+| `06 ԴԵՐԱՍԱՆՆԵՐ · Actors` | Sides per role: branded cover + the role's top scenes |
+| `07 ՄԻՋԱԶԳԱՅԻՆ · International` | English one-pager |
+| `08 ՄՐՑՈՒՅԹ-ՖՈՆԴ · Competition & Fund` | application per preset, word count chip on each text |
+| `_internal (do not send)` | CHECK.md, HTML sources, markdown breakdowns |
+
+## Design (pack_design.py)
+HTML + CSS rendered by headless Chromium (`render_pdf.js` with Node Playwright; Python Playwright as fallback).
+Fonts: Noto Serif Armenian (titles, big statements), Noto Sans Armenian (text); Latin/Cyrillic fall back to Noto
+Serif/Sans (all in `fonts/`, OFL). Brand: black, white, graphite #111, one red #D90429, the red triangle, the
+handwritten logo. Every A4 page has a running header with the recipient in red (▼ ՊՐՈԴՅՈՒՍԵՐ · PRODUCER) and the
+project title, and a footer with page X / Y. Decks: 16:9, one idea per slide, short texts become big serif
+statements, long ones go to two columns and shrink to fit. Optional `cover: images/still.jpg` in pack.md
+front matter puts a still behind the deck cover. Change the look in one place: the CSS in pack_design.py.
+Always look at the result (pdftoppm -r 50) before sending.
 
 ## Presets (limits checked in CHECK.md)
 | Preset | Source (checked 2026-11) | Limits |

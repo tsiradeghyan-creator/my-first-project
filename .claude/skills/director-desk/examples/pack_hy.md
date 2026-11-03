@@ -36,3 +36,24 @@ Aram comes home at night and finds his father's letter on the kitchen table: his
 ## characters_en
 ### ARAM
 30, lives with his father. The letter is the first sign that his father had a life hidden from him.
+
+## tagline
+Գնացքը չկար չվացուցակում։ Հայրը՝ նույնպես։
+
+## tone
+Գիշերային, խուլ, մառախլապատ Երևան։ Քիչ խոսք, շատ դադար, ժամացույցի տկտկոց, որ կանգնել է։ Ռեալիստական դրամա, որի եզրերին զգացվում է առեղծված։
+
+## why_now
+Մի սերունդ մեծացել է ծնողների չպատմված պատմությունների կողքին։ Այս ֆիլմը այդ լռության մասին է. ինչ է մնում, երբ հարցնելու մարդ այլևս չկա։
+
+## comps
+- **Prisoners** (2013). հայրը, որոնումը, ժամանակի ճնշումը
+- **Paterson** (2016). քաղաքի և սովորական կյանքի ռիթմը
+- **Leviathan** (2014). փոքր մարդը մեծ գաղտնիքի առաջ
+
+## synopsis_page_en
+Night. In a Yerevan apartment the kitchen light is on, the tea has gone cold, and the wall clock has stopped at exactly three. Aram (30) finds his father's letter. His father writes that he is already on a train, that he has waited forty years for this night, and that a man he has owed for a long time is waiting for him at the station. If he does not come back, the key is inside the clock.
+
+Aram runs to the station. On the foggy platform only the red lights of a train are pulling away. The guard (60) tells him the last train left twenty minutes ago, and that this train was never on the timetable.
+
+In the morning Aram is at a clockmaker's workshop.

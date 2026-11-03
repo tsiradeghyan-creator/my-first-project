@@ -119,8 +119,10 @@ python3 scripts/pack.py facts ep*.fountain --out pack/          # facts.md: scen
 # write pack/pack.md from facts.md + the script (format and rules: references/pack.md, example examples/pack_hy.md)
 python3 scripts/pack.py build ep*.fountain --texts pack/pack.md --out pack/ --preset sundance_feature --lang hy
 ```
-Folders 01_producer … 06_competition (see references/pack.md) + `CHECK.md`: word counts against every preset,
-what is missing, leads without a description. Sides are real scenes cut from the script (top 3 by the role's
+Folders are named by position (01 ՊՐՈԴՅՈՒՍԵՐ · Producer … 08 ՄՐՑՈՒՅԹ-ՖՈՆԴ, see references/pack.md) plus a
+00 contents PDF; `_internal (do not send)/CHECK.md`: word counts against every preset, what is missing, leads
+without a description. Design system in `scripts/pack_design.py` (HTML → PDF through headless Chromium, Noto
+Serif/Sans Armenian, brand colours, recipient header on every page); needs Node or Python Playwright + Chromium. Sides are real scenes cut from the script (top 3 by the role's
 dialogue, `--sides N`). Texts are only as good as pack.md: facts from the script, ending included, humanizer last.
 Ani's scripts stay private: build in the scratchpad, never commit the outputs.
 

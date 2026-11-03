@@ -1,0 +1,2 @@
+Noto Sans Armenian, Noto Serif Armenian, Noto Sans, Noto Serif (variable TTF) from github.com/google/fonts (ofl/).
+Copyright Google LLC / The Noto Project Authors. Licensed under the SIL Open Font License 1.1: https://openfontlicense.org

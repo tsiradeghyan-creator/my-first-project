@@ -11,7 +11,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 KNOWLEDGE = [
     "scripts/kit_docx_to_fountain.py", "scripts/screenplay.py", "scripts/proofread.py", "scripts/season.py",
-    "scripts/pack.py", "scripts/treatment_pdf.py", "references/pack.md", "examples/pack_hy.md",
+    "scripts/pack.py", "scripts/pack_design.py", "scripts/treatment_pdf.py", "references/pack.md", "examples/pack_hy.md",
     "fonts/FreeMono.ttf", "fonts/DejaVuSans.ttf", "fonts/DejaVuSans-Bold.ttf",
     "assets/maghakian_logo_dark.png", "assets/maghakian_logo_light.png",
     "references/proofreading_hy.md", "references/format_spec.md", "examples/sample_hy.fountain",
