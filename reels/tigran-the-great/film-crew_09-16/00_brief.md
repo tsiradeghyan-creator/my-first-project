@@ -28,4 +28,6 @@
 **Open questions:** none that change the plan.
 
 ## CHANGELOG
-- (passes add lines here)
+- pass 0: style card styles/the-king-2019.md researched by film-style-researcher (12 sources, search excerpts only; page fetch blocked). Spot-check of claims [1] Alexa 65 and [2] eye-level battle camera failed here (firecrawl 403, perplexity network error) — card stays researched-unreviewed.
+- pass 4 → 01_director: added rule 5 (wide = painting, battle = eye level) from the card.
+- pass 6 → 04/06: shot 3 changed from lateral crane truck to a near locked-off painterly wide (card: "locked-off wide painterly composition").

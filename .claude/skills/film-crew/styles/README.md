@@ -21,5 +21,6 @@ Prompts carry the translated craft, never the name.
 | `hitchcock.md` | suspense by design, POV | suspense, voyeurism, mystery | medium |
 | `scorsese.md` | kinetic, confessional, music-driven | crime, ambition, downfall, biopic | fast with long oners |
 | `leone.md` | faces vs landscapes, ritual standoffs | western, duels, mythic confrontation | long build → fast |
+| `the-king-2019.md` | sombre, overcast, still king, mud crush | historical war epic, medieval/ancient battle, royal power (researched-unreviewed 2026-11-03) | slow court / fragmented melee (not measured) |
 
 New lens → research it (see SKILL.md › Style lens), save with its status, add a row here.

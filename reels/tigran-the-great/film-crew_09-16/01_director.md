@@ -10,12 +10,13 @@ Power is not noise. Everyone around Tigran moves, shouts, bleeds, runs; he is th
 **The world moves past the king; the king does not move until his hand moves — and then the whole world moves with it.**
 Photographable: in shots 1, 2, 6, 7 Tigran is the only figure who is still while everything else (soldiers, smoke, banners, riders) travels; the first real motion he makes is the hand (6), and the cavalry charge (8) is that motion multiplied.
 
-## Direction rules (from the lens — reconciled with `styles/the-king-2019.md`)
+## Direction rules (from the lens — `styles/the-king-2019.md`, researched 2026-11-03)
 1. **The king is still and silent.** No speech, no shouting, no grimace. Decision is shown by eyes, breath, jaw — never by acting big.
 2. **War is weight, not spectacle.** Mud, wet wool, tired men, cold river. No slow-motion heroics, no blood on screen; violence is implied by the approach, the volley, the splash.
 3. **Flat grey daylight outside, fire only where the city burns.** No golden-hour glamour; the only warm light is the burning city in shots 1–2.
 4. **The camera observes, the action moves.** Slow, motivated moves on the king; handheld energy only when the army moves (5, 8).
-5. **Hold, then break.** Slow retreat and decision, a sharp quiet before the signal, then fast battle cuts that end before contact — black.
+5. **Wide = painting, battle = eye level.** Geography is a still, painterly wide where armies are dark masses against a pale sky; inside the fight the camera is at human height, close, tight.
+6. **Hold, then break.** Slow retreat and decision, a sharp quiet before the signal, then fast battle cuts that end before contact — black.
 
 ## Beat map
 | # | scene | beat | function | state in → out | audience must see | shot family | edit s |
