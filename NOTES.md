@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (BAB Production built)
+**Did:** Built BAB Production on the Roast Room: 11 new seats. Deakins (pilot, tested on a Sevan dusk scene, good), Rhimes, Villeneuve, Blum, Vermette, Murch, Bloys, Quinn, Bajaria (quick-web brains: the cloud network blocks content sites, so brains come from verbatim web-search excerpts, 7 to 20 sources, all quotes verified), and Tigran's own line-producer seat (from his interview, consent, 23 verbatim Armenian quotes) at the centre. Skill `.claude/skills/bab-production/` (phase 1 board via roast-room --seats with Chair rules: Tigran speaks last and prices every ask, safety veto; phase 2 departments mapped to film-crew, director-desk, pack, plan, banana-pro, seedance, remotion). Studio and skill-router point to it. Price list sheet (Գնացուցակ) added to project.xlsx.
+
+**Left:** first real council on a project; refresh all brains with `/newroaster` when network allows (rogerdeakins.com etc.) or on the laptop; portraits need KIE_AI_API_KEY; Quinn, Vermette, Murch are thin; Bajaria's Netflix status uncertain.
+
 ## 2026-11-03 — Cloud (BAB Production: plan agreed, research pending)
 **Did:** Tigran wants a Roast Room-style tool named **BAB Production**: a board of the world's best film/TV heads who debate a project, give a scored verdict, then each runs their department. Agreed structure: 7 heads (Showrunner/head writer · Director · Producer · Line producer · DP · Production designer · Post-production head/Editor), each with sub-agents mapped to existing tools (film-crew departments, director-desk pack/plan/production, banana-pro, seedance, remotion), plus on-call "buyer" seats from platforms (Netflix, Apple, Amazon, HBO…). Heads are built only from public work, like Roast Room seats. Gave him the full deep-research prompt (Part A heads × 5 candidates, Part B platform decision-makers). My unverified draft picks: Gilligan, Villeneuve, Blum, Deakins, Murch, Sarandos/Bloys; line producer seat better built from standards + Tigran's own experience. New CLAUDE.md rule: always give the whole updated text.
 

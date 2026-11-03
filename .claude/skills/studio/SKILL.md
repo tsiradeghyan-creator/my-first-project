@@ -7,6 +7,9 @@ description: "One entry point to the whole Maghakian production toolkit: from id
 
 Tigran has many skills; this one only routes. It never re-does what a skill below already does.
 
+**Judging or developing a whole project with the world's best heads:** `bab-production` (board of seven
+heads with Tigran's line-producer seat at the centre, then each head runs its department).
+
 ## 1. Ask (AskUserQuestion, Armenian, one screen)
 **Q1. Ո՞ր ուղղությունն է** (one choice):
 - **Սցենար և փաստաթղթեր** · գաղափարից մինչև սցենար և ամբողջ փաստաթղթային փաթեթ

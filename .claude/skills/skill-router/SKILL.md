@@ -30,6 +30,8 @@ every time. Your job: notice the domain, show him what he owns for it, recommend
 
 **Whole projects:** `studio` is the single door (script & documents · live-action production · AI film · pitch).
 When Tigran starts or continues a project without naming a tool, recommend `studio` first.
+To have a project judged and developed by a board of the world's best heads (Rhimes, Villeneuve, Blum, Deakins,
+Vermette, Murch, buyers Bloys/Quinn/Bajaria) with Tigran's own line-producer seat at the centre: `bab-production`.
 
 ### Video
 | Skill | Best for | Notes |
