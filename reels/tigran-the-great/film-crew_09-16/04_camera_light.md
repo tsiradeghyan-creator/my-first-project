@@ -7,7 +7,7 @@
 - **85–100mm — the decision.** Isolation, shallow focus: face, hand, boot (shots 2, 4, 6).
 
 ## Format & texture
-Large-format digital look (the lens was shot on a 65mm-format sensor): "large-format digital image, shallow depth of field, smooth tonal roll-off in the grey sky"; no lens flares, no orange-teal; , natural grain, no glossy sharpening; shallow depth of field only on the long lenses. Composed for a 2.39:1 extraction from 16:9: heads, crown, hand and banner tip stay inside the central band (no key action in the top or bottom 12% of the frame).
+Large-format digital look (the lens was shot on a 65mm-format sensor): "large-format digital image, shallow depth of field, smooth tonal roll-off in the grey sky"; no lens flares, no orange-teal; natural grain, no glossy sharpening; shallow depth of field only on the long lenses. Composed for a 2.39:1 extraction from 16:9: heads, crown, hand and banner tip stay inside the central band (no key action in the top or bottom 12% of the frame).
 
 ## Light plan
 **LIGHT A — burning city (1, 2):** "soft flat overcast daylight from above and slightly frame-left, cool grey; warm orange fire glow from the burning buildings in the background, rim-lighting the right side of the face and the crown; smoke-filtered, low contrast, no sunlight"
