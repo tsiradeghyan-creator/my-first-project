@@ -5,6 +5,9 @@ description: "Director's and producer's desk: proofreading of Armenian scripts (
 
 # Director's desk
 
+**Before making documents for someone, ask first** (`references/documents.md`): who it is for, what for,
+which period; then offer that recipient's documents as a checklist and make only those.
+
 Five tools for the work around a script. Scripts are in `scripts/`, fonts in `fonts/` (FreeMono has Courier
 metrics with Armenian + Cyrillic; DejaVu Sans for decks/boards). Needs Python 3 + reportlab, Pillow, python-docx.
 Paths below are relative to this skill folder (`.claude/skills/director-desk/`).
@@ -145,6 +148,13 @@ commas, duplicate names, open «?», unsure ներս/դրս, locations that may 
 aliases.json: the admin edits it and reruns. Day: xlsx (day sheet with header + totals, actors, props,
 costume, transport, extras, check sheets), branded landscape PDF, and the day's texts .docx in shooting order
 copied from the KIT files (styles kept). Their files are private: work in the scratchpad, never commit them.
+
+**Money and progress** (`scripts/production.py`, `scripts/reports.py`): `plan.py init project.xlsx --master …`
+creates Կազմ (positions, names, rates, rate type), Ներկայություն (attendance per day, live formulas), Օրեր,
+Ծախսեր, Ամփոփ (day/week/month/total). `plan.py day … --project project.xlsx` logs the day; `plan.py expense …`
+adds a receipt; `plan.py report finance|payroll|progress …` makes the branded PDF for the chosen recipient
+(`--for`, `--purpose`, `--period day|week|month|all --date`). The day sheet no longer lists each actor's
+scenes: only who is on set and which working day it is for them.
 
 ## 5. Reference hunt (ShotDeck / Film-grab)
 

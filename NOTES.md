@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (production office: people, attendance, money, reports, ask-first menu)
+**Did:** Tigran: day sheets shouldn't list each actor's scenes (only days count); add positions and costs per day/week/month/project; receipts; the tool must ask who the documents are for and offer a menu; serious design. Added `scripts/production.py` (project.xlsx: Կազմ with 23 crew positions + all characters, rates and rate type; Ներկայություն with live formulas; Օրեր; Ծախսեր; Ամփոփ), `scripts/reports.py` (finance, payroll, progress PDFs: hero row with one red answer, bars, ledgers, type scale 1.25, tabular numbers), `plan.py init|expense|report`, `plan.py day --project` logs attendance. `references/documents.md`: ask-first flow + recipient → documents table. Tested with invented demo rates (clearly labelled), real scenes of 18.06/19.06.
+
+**Left:** Tigran fills names/rates in Կազմ; sends receipts; confirms crew positions list; scripts of 12 episodes for costume/props agents.
+
 ## 2026-11-03 — Cloud (production plan in the studio's own format)
 **Did:** Tigran sent the real season breakdown (12 episode sheets + flashback sheet; columns Սերիա/տես․, վայր, Ռեժիմ, Դերասաններ, Էջ = pages, Ռեքվիզիտ, Օր = story day, X = flashback; green = shot) and two day breakdowns (18.06, 19.06) with their day texts (KIT .docx). New `scripts/plan.py`: `master` cleans the season (243 scenes, 360 pages, 57 shot; names merged ՌՈԲ→ՌՈԲԵՐՏ etc., missing commas split, flashback = young versions, sets merged, Ռեքվիզիտ split into props/costume/transport/placement/notes, cast numbers, Չնկարված by set, cast list with empty actor/phone columns, Ստուգում sheet, editable aliases.json); `day` builds the day sheet (xlsx + branded landscape PDF + day texts .docx in shooting order) with checks. Found: 10/12Ա in the 18.06 day sheet doesn't exist in the season list (10/12 does); 6/2,1 has no text. Files private, not committed.
 

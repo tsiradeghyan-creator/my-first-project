@@ -578,12 +578,24 @@ def cmd_day(a):
     ws["A2"].font = Font(name="Sylfaen", size=10, color="555555")
     ws[f"E{ws.max_row}"].font = Font(name="Sylfaen", bold=True)
     ws[f"F{ws.max_row}"].font = Font(name="Sylfaen", bold=True)
-    s2 = wb.create_sheet("Դերասաններ")
-    s2.append(["№", "Կերպար", "Տեսարաններ (օրվա հերթականությամբ)", "Էջ", "Դերասան", "Հավաք", "Գրիմ", "Պատրաստ", "Ազատ"])
-    for n, idxs in cast.items():
-        s2.append([nums.get(n, ""), n, ", ".join(day[i - 1]["id"] for i in idxs),
-                   sum(day[i - 1]["pages"] or 0 for i in idxs), "", "", "", "", ""])
-    _style_sheet(s2, [5, 26, 36, 6, 24, 9, 9, 9, 9])
+    # people of the day: only how many days each has worked so far (from the project workbook)
+    daycount = {}
+    if a.project:
+        import production as pr
+        d0 = pr.parse_date(a.date, a.year)
+        miss = pr.log_day(a.project, d0, a.day, ", ".join(r["id"] for r in day), pages, list(cast), a.crew)
+        if miss:
+            issues.append(("Կազմ", "", "Կազմ էջում դերասան նշանակված չէ. " + ", ".join(miss)))
+        P = pr.load(a.project)
+        for p in P["people"]:
+            n = sum(1 for d in P["pres"] if p["id"] in P["pres"][d] and d <= d0)
+            daycount[(p["char"] or p["pos"]).upper()] = (n, p["name"])
+    s2 = wb.create_sheet("Մարդիկ")
+    s2.append(["Կերպար", "Դերասան", "Քանի օր (այս օրով)"])
+    for n in cast:
+        k = daycount.get(n.upper(), ("", ""))
+        s2.append([n, k[1], k[0]])
+    _style_sheet(s2, [26, 26, 16])
     for name, key in (("Ռեկվիզիտ", "props"), ("Հագուստ", "costume"), ("Տրանսպորտ", "transport"), ("Մասսովկա", "extras")):
         s = wb.create_sheet(name)
         s.append(["#", "Սերիա/տես․", "Վայր", "Կերպարներ", name])
@@ -599,7 +611,7 @@ def cmd_day(a):
     wb.save(stem + ".xlsx")
     # pdf
     try:
-        day_pdf(a, title, day, cast, nums, pages, issues, stem + ".pdf")
+        day_pdf(a, title, day, cast, daycount, pages, issues, stem + ".pdf")
     except Exception as e:  # PDF is optional (needs Chromium)
         print("! PDF skipped:", e)
     print(f"day {a.date}: {len(day)} scenes, {pages:g} pages, {len(cast)} cast, issues {len(issues)}")
@@ -607,47 +619,42 @@ def cmd_day(a):
         print("  ", " · ".join(map(str, t)))
 
 
-def day_pdf(a, title, day, cast, nums, pages, issues, out):
+def day_pdf(a, title, day, cast, daycount, pages, issues, out):
     import pack_design as dz
+    import reports
     e = dz.esc
     rows = "".join(
-        f'<tr><td class="n">{i}</td><td><b>{e(r["id"])}</b></td><td><b>{e(r["loc"])}</b>'
-        f'{"<br><span class=note>" + e(r["ie"]) + "</span>" if r["ie"] else ""}</td>'
+        f'<tr{" class=ev" if r["mode"] != "ՑԵՐԵԿ" else ""}><td class="n">{i}</td><td><b>{e(r["id"])}</b></td>'
+        f'<td><b>{e(r["loc"])}</b>{"<br><span class=note>" + e(r["ie"]) + "</span>" if r["ie"] else ""}</td>'
         f'<td>{dz.chip(r["mode"], "night") if r["mode"] != "ՑԵՐԵԿ" else e(r["mode"])}</td>'
         f'<td>{e(r["cast"])}{"<br><span class=note>" + e(r["extras"]) + "</span>" if r["extras"] else ""}</td>'
-        f'<td class="num">{r["pages"] or "":g}</td>'.replace(":g}", "}") if False else
-        f'<tr><td class="n">{i}</td><td><b>{e(r["id"])}</b></td><td><b>{e(r["loc"])}</b>'
-        f'{"<br><span class=note>" + e(r["ie"]) + "</span>" if r["ie"] else ""}</td>'
-        f'<td>{dz.chip(r["mode"], "night") if r["mode"] != "ՑԵՐԵԿ" else e(r["mode"])}</td>'
-        f'<td>{e(r["cast"])}{"<br><span class=note>" + e(r["extras"]) + "</span>" if r["extras"] else ""}</td>'
-        f'<td class="num">{("%g" % r["pages"]) if r["pages"] else ""}</td><td class="num">{e(r["day"])}</td>'
+        f'<td class="num"><b>{("%g" % r["pages"]) if r["pages"] else ""}</b></td><td class="num">{e(r["day"])}</td>'
         f'<td>{e(r["props"])}</td><td>{e(r["costume"])}</td><td>{e(r["transport"])}</td>'
-        f'<td>{e(r["placement"])}</td><td class="note">{e(r["notes"])}</td><td></td></tr>'
+        f'<td>{e(r["placement"])}</td><td class="note">{e(r["notes"])}</td></tr>'
         for i, r in enumerate(day, 1))
-    table = (f'<table class="day"><thead><tr><th>#</th><th>Սերիա/տես․</th><th>Նկարահանման վայր</th><th>Ռեժիմ</th>'
-             f'<th>Դերասաններ</th><th class="num">Էջ</th><th class="num">Օր</th><th>Ռեքվիզիտ</th><th>Հագուստ</th>'
-             f'<th>Տրանսպորտ</th><th>Փլեյսմենթ</th><th>Նշումներ</th><th>Ժամ</th></tr></thead><tbody>{rows}'
-             f'<tr class="tot"><td></td><td></td><td></td><td></td><td><b>Ընդամենը</b></td>'
-             f'<td class="num"><b>{pages:g}</b></td><td colspan="7"></td></tr></tbody></table>')
+    table = ('<table class="day ledger"><thead><tr><th>#</th><th>Սերիա/տես․</th><th>Նկարահանման վայր</th>'
+             '<th>Ռեժիմ</th><th>Դերասաններ</th><th class="num">Էջ</th><th class="num">Օր</th><th>Ռեքվիզիտ</th>'
+             f'<th>Հագուստ</th><th>Տրանսպորտ</th><th>Փլեյսմենթ</th><th>Նշումներ</th></tr></thead><tbody>{rows}'
+             f'<tr class="tot"><td colspan="5">Ընդամենը</td><td class="num">{pages:g}</td><td colspan="6"></td></tr>'
+             '</tbody></table>')
     head = (f'<header class="mast" style="padding-bottom:8pt"><div class="doc">Օրվա ռազբիվկա'
-            f'{" · Նկարահանման օր " + e(str(a.day)) if a.day else ""}</div><h1 style="font-size:22pt">{e(a.date)}'
-            f' · {e(title)}</h1></header>')
-    st = dz.stats([(len(day), "տեսարան"), (f"{pages:g}", "էջ"), (len(cast), "դերասան"),
-                   (e(a.call or "—"), "հավաք")])
-    crow = "".join(f'<tr><td class="n">{e(str(nums.get(n, "")))}</td><td><b>{e(n)}</b></td>'
-                   f'<td>{e(", ".join(day[i - 1]["id"] for i in ix))}</td><td></td><td></td><td></td></tr>'
-                   for n, ix in cast.items())
-    ctab = ('<h2><span class="no">02</span>Դերասաններ</h2><table><thead><tr><th>№</th><th>Կերպար</th>'
-            '<th>Տեսարաններ</th><th>Դերասան</th><th>Հավաք</th><th>Գրիմ</th></tr></thead>'
-            f'<tbody>{crow}</tbody></table>')
+            f'{" · Նկարահանման օր " + e(str(a.day)) if a.day else ""}</div><h1 style="font-size:27.5pt">{e(a.date)}'
+            f' <span style="color:var(--grey);font-weight:400">· {e(title)}</span></h1></header>')
+    hero = reports.hero([(f"{pages:g}", "Էջ", f"{len(day)} տեսարան"), (len(cast), "Դերասան", ""),
+                         (e(a.call or "—"), "Հավաք", ""), (e(a.address or "—"), "Հասցե", "")])
+    ppl = ""
+    if cast:
+        ppl = ('<h2><span class="no">02</span>Մարդիկ այսօր</h2><p class="peop">' + " · ".join(
+            f"<b>{e(n)}</b>" + (f" <span class=note>{daycount[n.upper()][0]}-րդ օր</span>"
+                                if daycount.get(n.upper(), ("",))[0] else "") for n in cast) + "</p>")
     chk = ""
     if issues:
-        chk = ('<h2><span class="no">03</span>Ստուգում</h2><ul>' +
-               "".join(f"<li><b>{e(t[1])}</b> · {e(t[2])}</li>" for t in issues) + "</ul>")
-    css = ("<style>@page{size:A4 landscape;margin:22mm 12mm 16mm 12mm} table.day{font-size:7.4pt}"
-           " table.day td{padding:4pt 5pt 4pt 0} .stats{grid-template-columns:repeat(4,1fr)}"
-           " tr.tot td{border-top:1.2pt solid #000;border-bottom:0}</style>")
-    body = css + head + st + '<h2><span class="no">01</span>Տեսարաններ</h2>' + table + ctab + chk
+        chk = ('<h2><span class="no">03</span>Ուշադրություն</h2><ul>' +
+               "".join(f"<li><b>{e(t[1])}</b> {e(t[2])}</li>" for t in issues) + "</ul>")
+    css = ("<style>@page{size:A4 landscape;margin:22mm 12mm 16mm 12mm} table.day{font-size:7.6pt}"
+           " table.day td{padding:4.5pt 6pt 4.5pt 0} table.day tr.ev td{background:#F4F6FA}"
+           " .hero{grid-template-columns:1fr 1fr 1fr 2fr} .peop{font-size:8.6pt;line-height:1.9}</style>")
+    body = reports.CSS + css + head + hero + '<h2><span class="no">01</span>Տեսարաններ</h2>' + table + ppl + chk
     with dz.Renderer() as RN:
         RN.pdf(dz.page(body, "doc", f"{a.date} ռազբիվկա", "ՌԵԺԻՍՈՐԻ ՕԳՆԱԿԱՆ · ԱԴՄԻՆ · ՏՆՕՐԵՆ",
                        f"{title} · {a.date}"), out, html_dir=os.path.join(os.path.dirname(out), "_html"))
@@ -681,7 +688,58 @@ def main():
     d.add_argument("--title")
     d.add_argument("--texts", nargs="*", help="KIT .docx files with the scene texts")
     d.add_argument("--out", default="plan")
+    d.add_argument("--project", help="project.xlsx: log this day (attendance, costs)")
+    d.add_argument("--crew", default="all", choices=["all", "none"], help="crew with daily rates on set")
+    d.add_argument("--year", type=int)
+    i = sub.add_parser("init", help="create project.xlsx (people, rates, attendance, expenses)")
+    i.add_argument("project")
+    i.add_argument("--master")
+    i.add_argument("--title", default="")
+    x = sub.add_parser("expense", help="add an expense (from a receipt)")
+    x.add_argument("project")
+    x.add_argument("--date", required=True)
+    x.add_argument("--category", required=True)
+    x.add_argument("--amount", required=True, type=float)
+    x.add_argument("--desc", default="")
+    x.add_argument("--payee", default="")
+    x.add_argument("--by", default="")
+    x.add_argument("--receipt", default="")
+    x.add_argument("--year", type=int)
+    r = sub.add_parser("report", help="finance | payroll | progress PDF")
+    r.add_argument("kind", choices=["finance", "payroll", "progress"])
+    r.add_argument("project")
+    r.add_argument("--master")
+    r.add_argument("--period", default="all", choices=["day", "week", "month", "all"])
+    r.add_argument("--date")
+    r.add_argument("--year", type=int)
+    r.add_argument("--for", dest="who", default="")
+    r.add_argument("--title", default="")
+    r.add_argument("--purpose", default="")
+    r.add_argument("--out", required=True)
     a = ap.parse_args()
+    if a.cmd == "init":
+        import production as pr
+        print("wrote", pr.init_project(a.master, a.project, a.title))
+        return
+    if a.cmd == "expense":
+        import production as pr
+        pr.add_expense(a.project, pr.parse_date(a.date, a.year), a.category, a.amount, a.desc, a.payee, a.by,
+                       a.receipt)
+        print("expense added")
+        return
+    if a.cmd == "report":
+        import production as pr
+        import reports as rp
+        d = pr.parse_date(a.date, a.year) if a.date else None
+        kw = {"who": a.who} if a.who else {}
+        if a.kind == "finance":
+            rp.finance(a.project, a.out, a.period, d, title=a.title, purpose=a.purpose, **kw)
+        elif a.kind == "payroll":
+            rp.payroll(a.project, a.out, a.period, d, title=a.title, **kw)
+        else:
+            rp.progress(a.project, a.master, a.out, title=a.title, purpose=a.purpose, **kw)
+        print("wrote", a.out)
+        return
     return cmd_master(a) if a.cmd == "master" else cmd_day(a)
 
 
