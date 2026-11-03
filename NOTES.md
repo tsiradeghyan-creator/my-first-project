@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (Tigran the Great 09–16 → Seedance 2.5 prompts)
+**Did:** Tigran sent the clean stills for storyboard 09–16 (saved in reels/tigran-the-great/stills_09-16/). Wrote 8 Seedance 2.5 First-Frame prompts (16:9, 720p, 4–6 s, diegetic sound only, 180° kept): reels/tigran-the-great/SEEDANCE_25_09-16.md. 12a (archer facing left) breaks screen direction, not used. Also reviewed an X list of open-source video tools: HyperFrames, Blender MCP (laptop) and Impeccable are worth adding; the rest we already have or don't need (Chatterbox has no Armenian, ComfyUI needs a GPU).
+
+**Left:** Tigran generates the 8 clips and sends them back; cut them into trailer v3 (order 09-10-11-13-12-15-14-16, The King grade). Frames 17–32 still need stills.
+
 ## 2026-11-02 — Cloud (tools Tigran owns, learned from uploads)
 **Did:** catalogued what Tigran sent (files themselves NOT committed: paid/licensed or private).
 - **LUT packs he owns:** Ciudad (24 × 33³, Resolve), "color" 1–16 (16³), Filmic (~33), Blackmagic Cinematic 3.3 (PRO: Apple Log / S-Log3 / Rec709 → casaca; CREATIVES: Friendly, Icebath, Weird…, plus iPhone Blackmagic Camera settings PDF). Moody Presets licence: no sharing/resale; LUT = starting point. Picks for Tigran the Great: color_9 / color_15 (teal-orange), ciudad_20/21 (The King mood); 84-ի Ամառը: ciudad_16/19. Apply with ffmpeg `lut3d=file.cube`; ask him to re-upload when needed.
