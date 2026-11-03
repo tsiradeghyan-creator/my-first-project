@@ -28,6 +28,9 @@ every time. Your job: notice the domain, show him what he owns for it, recommend
 
 ## The map
 
+**Whole projects:** `studio` is the single door (script & documents · live-action production · AI film · pitch).
+When Tigran starts or continues a project without naming a tool, recommend `studio` first.
+
 ### Video
 | Skill | Best for | Notes |
 |---|---|---|

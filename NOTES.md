@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (studio: one entry point)
+**Did:** Tigran asked to connect everything under one door instead of building more. New skill `.claude/skills/studio/`: asks the track (script & documents · live-action production · AI film · pitch & promotion) and the current stage, then runs the right skill. The 7 AI-film stages from his screenshot map onto film-crew → banana-pro / seedance / cinema-worldbuilder / remotion; stage 7 «Премьера и разбор» is marked not built. skill-router points to `studio` for whole projects.
+
+**Left:** Tigran uses the tools on the current series for 3–4 weeks before new modules (agreed advice). Premiere & review module only if he asks.
+
 ## 2026-11-03 — Cloud (production office: people, attendance, money, reports, ask-first menu)
 **Did:** Tigran: day sheets shouldn't list each actor's scenes (only days count); add positions and costs per day/week/month/project; receipts; the tool must ask who the documents are for and offer a menu; serious design. Added `scripts/production.py` (project.xlsx: Կազմ with 23 crew positions + all characters, rates and rate type; Ներկայություն with live formulas; Օրեր; Ծախսեր; Ամփոփ), `scripts/reports.py` (finance, payroll, progress PDFs: hero row with one red answer, bars, ledgers, type scale 1.25, tabular numbers), `plan.py init|expense|report`, `plan.py day --project` logs attendance. `references/documents.md`: ask-first flow + recipient → documents table. Tested with invented demo rates (clearly labelled), real scenes of 18.06/19.06.
 
