@@ -25,6 +25,7 @@
     { "key": "blum", "name": "Jason Blum", "short": "Blum", "initials": "JB", "slug": "jason-blum", "pillar": "Producing on a low budget", "question": "Can we make this cheaply and still sell it big?", "dimension": "Budget discipline and commercial hook", "color": "#a3be3c" },
     { "key": "vermette", "name": "Patrice Vermette", "short": "Vermette", "initials": "PV", "slug": "patrice-vermette", "pillar": "Production design and the world", "question": "Does this world feel real, and can we build it?", "dimension": "World-building and design feasibility", "color": "#b06ad9" },
     { "key": "murch", "name": "Walter Murch", "short": "Murch", "initials": "WM", "slug": "walter-murch", "pillar": "Editing and post-production", "question": "Will this cut together, and what is the emotion of each cut?", "dimension": "Edit, rhythm and emotional clarity", "color": "#d6543f" },
-    { "key": "bloys", "name": "Casey Bloys", "short": "Bloys", "initials": "CB", "slug": "casey-bloys", "pillar": "Premium platform buyer (HBO)", "question": "Would a premium platform greenlight this, and why now?", "dimension": "Premium buyer appeal", "color": "#3fb37f" }
+    { "key": "bloys", "name": "Casey Bloys", "short": "Bloys", "initials": "CB", "slug": "casey-bloys", "pillar": "Premium platform buyer (HBO)", "question": "Would a premium platform greenlight this, and why now?", "dimension": "Premium buyer appeal", "color": "#3fb37f" },
+    { "key": "quinn", "name": "Tom Quinn", "short": "Quinn", "initials": "TQ", "slug": "tom-quinn", "pillar": "Independent and festival buyer (NEON)", "question": "Can this film win festivals and travel worldwide?", "dimension": "Festival and arthouse sales potential", "color": "#ef7d32" }
   ]
 }
