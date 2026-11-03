@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (BAB feature 01: the heads debated the ideas)
+**Did:** Tigran asked the specialists to argue with each other's ideas before choosing. Ran two debate rounds on the six stage-1 ideas. In D1 all 7 heads judged every idea, and 5 of 7 proposed merging A+E. In D2, 10 seats (heads plus Quinn, Bajaria and Bloys) answered the strongest objection to their pick and scored three finalists. Villeneuve moved from D to B′; Tigran's seat lowered AE from 9 to 8 after Murch's argument (+2 days for the yard and inserts). Verdict: **B′ «Թարգմանչուհին» 7.2, GO WITH CONDITIONS**, AE 7.0 as the fallback, D′ 6.3. Key condition: two foreign-language actors from Tigran's circle for 3–4 days. Updated projects/bab-feature-01/01_ideas.md and gates.md. Cards and verdict are local in maghakian-roast-room/sessions/2026-11-03-bab-feature-01-ideas/.
+
+**Left:** Tigran's Gate 1 decision (B′ / AE / D′) and his answer on the foreign actors; then stage 2 concept (Rhimes + Blum). Still open from earlier: the KIT episodes for 84-ի ամառը costume and props.
+
 ## 2026-11-03 — Cloud (first BAB council: 84-ի ամառը next week)
 **Did:** Ran BAB Production (quick, 2 rounds; Tigran, Villeneuve, Rhimes, Deakins, Vermette, Murch) on next shooting week. Verdict GO: episodes 1 and 2 shot by location, 21.5 exterior pages held (summer story in November), filled with interiors from the same buildings incl. a 1984 hostel day for the young cast; scores A 7.8, B 5.5, C 2.3, D 2.5. Tigran's seat corrected the others with data (A = 18 sets, young cast 1 day not 5). Session in maghakian-roast-room/sessions/2026-11-03-84-next-week/ (local, gitignored). Built 5 day breakdowns (09–13.11.2026, 95 pages) and sent them with the verdict.
 
