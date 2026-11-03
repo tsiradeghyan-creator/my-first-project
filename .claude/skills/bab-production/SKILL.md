@@ -51,6 +51,37 @@ producing (Tigran closes with days and money for everything the others produced)
 every image or video prompt goes through `film-crew` first; documents for people go through the ask-first
 menu (`director-desk/references/documents.md`); everything sent out uses the brand (`maghakian-brand`).
 
+## Mode 2: from zero (idea to screen)
+
+Tigran's request (2026-11-03): the board does not only fix a finished script; it builds a project from the
+idea, stage by stage, like a real development slate. Every stage ends at a **gate**: the board gives a scored
+verdict, and **Tigran decides** (go, change, kill). Nothing moves to the next stage without his yes. Ani is the
+writer of record: the board proposes and critiques, the script pages are hers (or drafted with
+`ani-screenwriting-workflow` for her to rewrite). This keeps human authorship, which is what makes the work
+ownable and sellable.
+
+State lives in `projects/<slug>/` (committed, so VS Code and Cloud continue the same project):
+`00_seed.md` · `01_ideas.md` · `02_concept.md` · `03_story.md` · `04_pilot/` · `05_package/` · `06_preprod/` ·
+`gates.md` (every gate: date, scores, Tigran's decision, why). Start each session by reading `gates.md`.
+
+| Stage | Who leads | What the board does | Tools | Gate question |
+|---|---|---|---|---|
+| 0 Seed | Tigran | Format, audience, language, budget range, target buyer, deadline (ask once) | AskUserQuestion | Is the brief right? |
+| 1 Ideas | Rhimes, Villeneuve, Blum (+ buyers) | Each head pitches 2 ideas from the seed (logline + why now + who buys); buyers rank; Tigran's seat gives a cost class per idea | roast-room rounds | Which idea do we develop? |
+| 2 Concept | Rhimes + Blum | Logline, format (episodes × minutes), tone, world, comps, buyer route, budget envelope (Tigran) | `pack.py` one-pager | Is this worth a bible? |
+| 3 Story | Rhimes, then Ani | Series bible, season arc, characters, episode outlines; Villeneuve on tone; Murch on rhythm | `ani-screenwriting-workflow`, `pack.py` bible | Does the season hold? |
+| 4 Pilot | Ani (writer), Rhimes (notes) | Pilot draft, table-read critique by Rhimes, Villeneuve, Murch; revisions | `ani-screenwriting-workflow`, `director-desk` format + proofreading | Is the pilot ready to sell or shoot? |
+| 5 Package | Blum + buyers | Deck, bible PDF, one-pager, mock pitch to Bloys / Quinn / Bajaria, route (platform, fund, festival, CIS) | `pack.py`, `maghakian-brand` | Sell it, fund it, or produce it ourselves? |
+| 6 Pre-production | Villeneuve, Deakins, Vermette, Tigran | Look book and key frames (film-crew first), sets, costume, casting brief, budget and schedule | `film-crew`, `banana-pro-director-2.0`, `plan.py`, `production.py` | Green light? |
+| 7 Production and post | all | the phase 1 and phase 2 flow above | everything above | (per week) |
+
+Rules for this mode:
+- One stage per council. Quick mode (two rounds) for stages 1 and 2, full for 4 to 6.
+- Ideas must be original: no remakes, no borrowed IP, no "X meets Y" that copies a real show's plot; comps
+  are for positioning only.
+- Every gate verdict is written to `gates.md` with the scores and Tigran's own decision in his words.
+- Kill early is a good outcome: a killed idea costs one council, a killed pilot costs months.
+
 ## Honest limits
 - Seats are simulations, not the people. Never present their words as real unless quoted with a source id.
 - Brains are quick-web (search excerpts). Say so when a decision is big.
