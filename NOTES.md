@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (skill-router: automatic skill menu)
+**Did:** Tigran doesn't want to name skills each time. New skill `.claude/skills/skill-router/` maps all his skills by domain (video, image/design, SMM, marketing/sales, writing, research) with best-use notes; on any creative/marketing task Claude shows a short menu, recommends one, and starts. Rule added to CLAUDE.md for both sides. Also found the 5 video-tool repos he asked about: kurbaitaev/ghost-editor, kajisho5/ffmpeg-skill, AgriciDaniel/claude-shorts, calesthio/OpenMontage, Higgsfield Editorial Motion Graphics (connector).
+
+**Left:** VS Code side: check the map against laptop-only skills (~/.claude/skills) and add any missing. Optionally install ghost-editor + ffmpeg-skill on the laptop.
+
 ## 2026-11-03 — Cloud (Tigran 09–16 through film-crew, The King lens)
 **Did:** Full film-crew run for frames 09–16: reels/tigran-the-great/film-crew_09-16/ (00–10). New style card .claude/skills/film-crew/styles/the-king-2019.md (researched-unreviewed; page fetch blocked, spot-checks failed on network). Validator PASS; independent verifier found 4 FAILs (king raises his LEFT arm in 14_signal, soldiers walk away in 09, incomplete look blocks, archer quiver) + 11 risks; all fixed (10_review.md). 12a moved to stills_09-16/rejected/. Final prompts: 08_storyboard.md. The earlier SEEDANCE_25_09-16.md is superseded.
 
