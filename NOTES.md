@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (Tigran 09–16 through film-crew, The King lens)
+**Did:** Full film-crew run for frames 09–16: reels/tigran-the-great/film-crew_09-16/ (00–10). New style card .claude/skills/film-crew/styles/the-king-2019.md (researched-unreviewed; page fetch blocked, spot-checks failed on network). Validator PASS; independent verifier found 4 FAILs (king raises his LEFT arm in 14_signal, soldiers walk away in 09, incomplete look blocks, archer quiver) + 11 risks; all fixed (10_review.md). 12a moved to stills_09-16/rejected/. Final prompts: 08_storyboard.md. The earlier SEEDANCE_25_09-16.md is superseded.
+
+**Left:** Tigran generates U7 → U3 → U8 → U5 → U1 → U2 → U6 → U4 and sends clips; then cut into trailer v3.
+
 ## 2026-11-03 — Cloud (standing rule: film-crew for every prompt)
 **Did:** Tigran set a permanent rule, written into CLAUDE.md: every visual or video prompt goes through the `film-crew` skill first, even single shots. The 09–16 Seedance prompts were written without it (from SHOT_PLAN.md only), so they don't follow the rule yet.
 

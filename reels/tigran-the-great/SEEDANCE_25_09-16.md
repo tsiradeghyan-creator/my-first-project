@@ -1,3 +1,5 @@
+> **SUPERSEDED (2026-11-03):** use film-crew_09-16/08_storyboard.md — these prompts were written without film-crew and have continuity errors.
+
 # Տիգրան Մեծ · կադրեր 09–16 · Seedance 2.5 պրոմտներ
 
 **Մոդ.** First and Last Frames, միայն առաջին կադր (նկարը stills_09-16/-ից)։ 16:9, 720p։

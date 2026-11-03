@@ -15,7 +15,7 @@
 ## Cut contracts
 
 CUT 1→2 | type: same-axis cut-in (punch-in)
-A ends: king in a medium shot, centred, still walking toward the camera, eyes forward past the lens, smoke drifting frame-right→left behind him
+A ends: king in a medium shot, centred, still walking toward the camera against the stream of soldiers walking away, eyes forward past the lens, smoke drifting frame-right→left behind him
 B starts: king in close-up, face 3/4 turned slightly frame-right, still, eyes looking frame-right, burning city blurred behind
 axis: camera stays north of the king on the street axis | screen direction: n/a (toward camera) | eyeline: slightly frame-right, eye level
 size/angle change: MS → CU (two steps) — not a jump cut
@@ -60,7 +60,7 @@ generation: independent + hard cut
 
 CUT 5→6 | type: cut on action → hush (smash to quiet)
 A ends: arrow released frame-right, string snapping forward, archer's hand reaching back to the quiver
-B starts: static insert of the king's right hand hanging at his side, soft focus on the burgundy cloak
+B starts: static insert of the king's hand hanging at his side, soft focus on the burgundy cloak
 axis: south side kept; king on the hill, body facing frame-right | screen direction: kept | eyeline: n/a
 size/angle change: MS → ECU, different subject
 light: same cold overcast
@@ -71,11 +71,11 @@ generation: independent + hard cut
 
 CUT 6→7 | type: match on action (the hand rises)
 A ends: the open hand rising upward and leaving the top of the frame; cloak and armour remain, cloak still swinging
-B starts: medium low-angle on the king, right hand already held high and open, palm forward, looking frame-right, cavalry and banners waiting on the hill behind
+B starts: medium low-angle on the king, frame-right arm already raised high, hand open, palm forward, looking frame-right, cavalry and banners waiting on the hill behind
 axis: south side kept; king faces frame-right toward the Romans | screen direction: kept | eyeline: frame-right, slightly down to the river
 size/angle change: ECU insert → MS low angle
 light: same cold overcast, brighter frame-left
-wardrobe/props: same king look; vambrace on the raised right arm
+wardrobe/props: same king look; vambrace on the raised arm
 motion: upward vector of the hand continues into the raised arm
 sound: heartbeat → wind gust; L-cut of the cloak rustle
 generation: independent + hard cut (first frame of 7 = the raised-hand still)
