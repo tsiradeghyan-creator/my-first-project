@@ -52,14 +52,19 @@ def main():
     L = [f"# {series or 'Season'}: season breakdown", "",
          f"Episodes: **{len(eps)}** · pages: **{sum(e['pages'] for e in eps)}** (≈ minutes) · "
          f"scenes: **{len(all_scenes)}**", "",
-         "## Episodes", "", "| Ep | Pages ≈ min | Scenes | Sets | Speaking characters | Product placement |", "|---|---|---|---|---|---|"]
+         "## Episodes", "", "| Ep | Pages ≈ min | Scenes | Sets | Speaking characters | Ext. pages | Ext. evening/night | Product placement |",
+         "|---|---|---|---|---|---|---|---|"]
     for e in eps:
         sets = {sp.split_set(s["location"])[0] for s in e["scenes"]}
         spk = {c for s in e["scenes"] for c in s["speaking"]}
         pl = [s["number"] for s in e["scenes"] if s.get("placement")]
+        ext = [s for s in e["scenes"] if sp.is_ext(s["int_ext"])]
+        exn = [s["number"] for s in ext if sp.is_night(s["time"])]
         L.append(f"| {e['ep']} | {e['pages']} | {len(e['scenes'])} | {len(sets)} | {len(spk)} | "
+                 f"{ser(sum(s['eighths'] for s in ext))} | {('sc. ' + ', '.join(exn)) if exn else ''} | "
                  f"{('sc. ' + ', '.join(pl)) if pl else ''} |")
 
+    L += [""] + sp.ie_summary([dict(s, number=f"ep{s['episode']}/{s['number']}") for s in all_scenes])
     # sets across season
     sets = {}
     for s in all_scenes:
@@ -98,11 +103,12 @@ def main():
         f.write("\n".join(L) + "\n")
     with open(a.out + ".csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
-        w.writerow(["episode", "scene", "set", "location", "time", "page", "eighths", "length", "characters", "placement"])
+        w.writerow(["episode", "scene", "set", "location", "time", "page", "eighths", "length", "characters", "placement",
+                    "int_ext", "int_ext_check"])
         for s in all_scenes:
             w.writerow([s["episode"], s["number"], sp.split_set(s["location"])[0], s["location"],
                         s["time"], s["page"], s["eighths"], s["length"], "; ".join(s["characters"]),
-                        "yes" if s.get("placement") else ""])
+                        "yes" if s.get("placement") else "", s["int_ext"], "check" if s.get("ie_unsure") else ""])
     print("wrote", a.out + ".md", a.out + ".csv")
 
 

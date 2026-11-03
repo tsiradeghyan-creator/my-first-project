@@ -30,7 +30,10 @@ Fountain cheat sheet (tell Ani if she writes directly in it):
 **Ani's scripts come as KIT Scenarist .docx exports.** Convert them with the dedicated script (reads KIT
 paragraph styles and Ani's house layout: "N. ՏԵՍԱՐԱՆ" → location line → cast line → "1984Թ"; "ՊԵՐԵԽՈԴ",
 "ՖԼԵՇԲԵՔԻ ՍԿԻԶԲ", "ՓԼԵՅՍՄԵՆԹ" as supers/tags; "/ՆԵՂՎԱԾ/" → parentheticals). Words and punctuation stay as written;
-only separators in location lines are unified so the breakdown can group them.
+only separators in location lines are unified so the breakdown can group them. Ani's format has no INT/EXT, so the
+converter adds **ՆԵՐՍ. / ԴՐՍ. / ՆԵՐՍ./ԴՐՍ.** from the location words (ԴԻՄԱՑ, ԲԱԿ, ՓՈՂՈՑ, ՄՈՏ… = outside; rooms,
+house, restaurant = inside; ՍԵՆՅԱԿԻ ԴԻՄԱՑ = inside; car = inside, car + outside place = both). Unsure ones get
+`= IE?` and show as ❓ in the breakdown for Ani to confirm. `--no-int-ext` turns it off. Tigran asked for this (2026-11-03).
 ```bash
 python3 scripts/kit_docx_to_fountain.py ep*.docx --series "84-ի ամառը" --outdir out/
 for f in out/*.fountain; do python3 scripts/screenplay.py "$f" --all --lang hy; done

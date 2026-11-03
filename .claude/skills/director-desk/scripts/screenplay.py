@@ -496,7 +496,7 @@ def breakdown(blocks, pages, lines_per_page):
             if last >= 0:  # blank lines count for the scene they sit in
                 rows_per_scene[last] = rows_per_scene.get(last, 0) + 1
     # attach characters / synopsis to scenes
-    cur, chars, syn, cast, placement = -1, {}, {}, {}, set()
+    cur, chars, syn, cast, placement, ie_unsure = -1, {}, {}, {}, set(), set()
     for b in blocks:
         if b["type"] == "scene":
             cur += 1
@@ -509,7 +509,9 @@ def breakdown(blocks, pages, lines_per_page):
                 r"ՓԼԵՅՍՄԵՆԹ|PLACEMENT|ПЛЕЙСМЕНТ|ПРОДАКТ", " ".join(b["lines"]).upper()):
             placement.add(cur)
         elif b["type"] == "synopsis" and cur >= 0:
-            if b["text"].upper().startswith("CAST:"):
+            if b["text"].strip() == "IE?":
+                ie_unsure.add(cur)
+            elif b["text"].upper().startswith("CAST:"):
                 for nm in re.split(r",\s*(?![^()]*\))", b["text"].split(":", 1)[1]):
                     nm = re.sub(r"\(.*?\)", "", nm).strip().upper()
                     if nm and nm not in cast.setdefault(cur, []):
@@ -526,8 +528,33 @@ def breakdown(blocks, pages, lines_per_page):
                     "length": eighths_str(e),
                     "characters": list(dict.fromkeys(chars.get(idx, []) + cast.get(idx, []))),
                     "speaking": chars.get(idx, []),
-                    "synopsis": syn.get(idx, ""), "placement": idx in placement})
+                    "synopsis": syn.get(idx, ""), "placement": idx in placement,
+                    "ie_unsure": idx in ie_unsure})
     return out
+
+
+def is_ext(ie):
+    return "EXT" in ie.upper() or "ԴՐՍ" in ie or "ԷՔՍՏ" in ie or "НАТ" in ie.upper() or "ЭКСТ" in ie.upper()
+
+
+def is_night(tod):
+    return any(w in (tod or "").upper() for w in ("ԳԻՇԵՐ", "ԵՐԵԿՈ", "NIGHT", "НОЧЬ", "ВЕЧЕР"))
+
+
+def ie_summary(scenes):
+    if not any(s["int_ext"] for s in scenes):
+        return []
+    ext = [s for s in scenes if is_ext(s["int_ext"])]
+    inn = [s for s in scenes if not is_ext(s["int_ext"])]
+    ext_night = [s["number"] for s in ext if is_night(s["time"])]
+    unsure = [s["number"] for s in scenes if s.get("ie_unsure")]
+    out = [f"- Interior (ներս): **{len(inn)}** scenes, {eighths_str(sum(s['eighths'] for s in inn))} pages · "
+           f"exterior (դուրս): **{len(ext)}** scenes, {eighths_str(sum(s['eighths'] for s in ext))} pages"]
+    if ext_night:
+        out.append(f"- Exterior evening/night (light, cost): sc. {', '.join(ext_night)}")
+    if unsure:
+        out.append(f"- ՆԵՐՍ./ԴՐՍ. guessed, please check: sc. {', '.join(unsure)}")
+    return out + [""]
 
 
 def qa_warnings(chars, locs):
@@ -598,6 +625,7 @@ def write_report(path, title, blocks, pages, scenes, lang):
          f"- Pages: **{len(pages)}** (≈ {len(pages)} min on screen, 1 page ≈ 1 minute)",
          f"- Scenes: **{len(scenes)}**, total length {eighths_str(total_e)} pages (in eighths)",
          f"- Characters (cast + speaking): **{len(char_scenes)}**, locations: **{len(locs)}**", "",
+         ] + ie_summary(scenes) + [
          "## Characters", "", "| Character | Scenes | Dialogue lines |", "|---|---|---|"]
     for c in sorted(char_scenes, key=lambda x: (-char_scenes[x], x)):
         L.append(f"| {c} | {char_scenes[c]} | {char_lines.get(c, 0)} |")
@@ -628,7 +656,7 @@ def write_report(path, title, blocks, pages, scenes, lang):
         L += ["", f"> ⚠️ Scene numbers used twice: {', '.join(dup)}"]
     L += ["", "## Scenes", "", "| # | Heading | Page | Length | Characters |", "|---|---|---|---|---|"]
     for s in scenes:
-        mark = " · 💰 placement" if s["placement"] else ""
+        mark = (" · 💰 placement" if s["placement"] else "") + (" · ❓ներս/դուրս" if s.get("ie_unsure") else "")
         L.append(f"| {s['number']} | {s['heading']}{mark} | {s['page']} | {s['length']} | {', '.join(s['characters'])} |")
         if s["synopsis"]:
             L.append(f"|  | _{s['synopsis']}_ |  |  |  |")
@@ -644,10 +672,12 @@ def write_report(path, title, blocks, pages, scenes, lang):
 def write_csv(path, scenes):
     with open(path, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
-        w.writerow(["scene", "int_ext", "location", "time", "page", "eighths", "length", "characters", "synopsis"])
+        w.writerow(["scene", "int_ext", "location", "time", "page", "eighths", "length", "characters", "synopsis",
+                    "placement", "int_ext_check"])
         for s in scenes:
             w.writerow([s["number"], s["int_ext"], s["location"], s["time"], s["page"], s["eighths"],
-                        s["length"], "; ".join(s["characters"]), s["synopsis"]])
+                        s["length"], "; ".join(s["characters"]), s["synopsis"],
+                        "yes" if s.get("placement") else "", "check" if s.get("ie_unsure") else ""])
 
 
 # ---------------------------------------------------------------- main

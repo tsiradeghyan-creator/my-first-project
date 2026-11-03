@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (ՆԵՐՍ./ԴՐՍ. in Ani's scripts)
+**Did:** Tigran asked to mark interior/exterior ourselves. `kit_docx_to_fountain.py` now prefixes every heading with ՆԵՐՍ. / ԴՐՍ. / ՆԵՐՍ./ԴՐՍ. from location words (order-aware: ՍԵՆՅԱԿԻ ԴԻՄԱՑ = inside, ՄԵՔԵՆԱՅԻ ՄՈՏ = outside); unsure ones flagged ❓. Breakdowns now show interior vs exterior pages and exterior evening/night scenes (light/cost); season table per episode. Result for 84-ի ամառը: 99 int / 46 1/8 ext pages, 10 ext evening/night scenes; Vilo: 70 4/8 int / 25 ext. New zip sent to Tigran (scripts not committed).
+
+**Left:** Ani checks the 2 ❓ scenes (84 ep1 sc.8, Vilo ep1 sc.32) and the typo list; Vilo series title.
+
 ## 2026-11-03 — Cloud (director-desk tested on Ani's real scripts)
 **Did:** Tigran uploaded 8 KIT .docx episodes (84-ի ամառը 1, 2, 3, 7, 9 + episodes 1–3 of the Vilo/Meri/Davit series, title unknown). Added `kit_docx_to_fountain.py` (KIT styles + Ani's layout → Fountain, no text changes, verified word-for-word) and `season.py` (season breakdown: sets across episodes, characters × episodes, product placement, typo/duplicate warnings). Fixed: Armenian sluglines now need capitals + dot (action "Ներս է գնում" was read as a heading), eighths include blank lines, city prefixes skipped in set grouping. Outputs (PDF/DOCX/FDX/breakdowns) given to Tigran as a zip; Ani's scripts NOT committed (private).
 

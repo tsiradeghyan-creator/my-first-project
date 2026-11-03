@@ -87,6 +87,66 @@ def location_line(s):
     return f"{loc} - {tod}" if tod else loc
 
 
+# INT/EXT guess (Ani's format has none). Exterior stems win over interior ones.
+EXT_STEMS = ["ԲԱԿ", "ՓՈՂՈՑ", "ՃԱՆԱՊԱՐՀ", "ԾՈՎԱՓ", "ԱՅԳԻ", "ԶԲՈՍԱՅԳԻ", "ՈՐՍԻ", "ՋՐԱՌԱՏ", "ԶՐԱՌԱՏ",
+             "ՄՈՏԱԿԱՅՔ", "ՇՐՋԱԿԱՅՔ", "ԴԱՇՏ", "ԱՆՏԱՌ", "ԳԵՏ", "ՀՐԱՊԱՐԱԿ", "ՏԱՆԻՔ", "ՊԱՏՇԳԱՄԲ", "ՍԱՐ", "ԼԻՃ",
+             "ԿԱՌԱՄԱՏՈՒՅՑ", "ԳԵՐԵԶՄԱՆՈՑ", "ԿԱՄՈՒՐՋ", "ԲԵՆԶԱԼՑԱԿԱՅԱՆ", "ԿԱՅԱՆԱՏԵՂԻ", "ԹԱՂԱՄԱՍ", "ՄԱՅԹ",
+             "ԱՓ", "ԳՅՈՒՂԱՄԻՋ", "ՄՈՒՏՔ", "ԴԱՐՊԱՍ", "ԽԱՂԱՀՐԱՊԱՐԱԿ", "ԱՎՏՈԿԱՅԱՆ", "ԿԱՅԱՐԱՆԻ ՀԱՐԹԱԿ"]
+INT_STEMS = ["ՍԵՆՅԱԿ", "ՆՆՋԱՐԱՆ", "ՆՆՋԱՍԵՆՅԱԿ", "ԽՈՀԱՆՈՑ", "ՀՅՈՒՐԱՍԵՆՅԱԿ", "ՄԻՋԱՆՑՔ", "ԲՆԱԿԱՐԱՆ", "ՏՈՒՆ",
+             "ԱՌԱՆՁՆԱՏՈՒՆ", "ՌԵՍՏՈՐԱՆ", "ՌԵՍՈՏՈՐԱՆ", "ԲԱՌ", "ՍՐՃԱՐԱՆ", "ՀԻՎԱՆԴԱՆՈՑ", "ԼՈԳԱՐԱՆ", "ԼԱԲՈՐԱՏՈՐԻԱ",
+             "ՍՐԱՀ", "ԱՇԽԱՏԱՍԵՆՅԱԿ", "ՆԱԽԱՍՐԱՀ", "ՀԱՄԱՐ", "ԿԻՆՈԹԱՏՐՈՆ", "ԿԻՆՈԹԱՏՈՐՆ", "ԱԿՈՒՄԲ", "ԽԱՆՈՒԹ",
+             "ԴԱՏԱՐԱՆ", "ԾԵՐԱՆՈՑ", "ՀԱՆՐԱԿԱՑԱՐԱՆ", "ՀԱՆԱՐԱԿԱՑԱՐ", "ՀՅՈՒՐԱՆՈՑ", "ՀՅՈՒՐՒԱՆՈՑ", "ԲԵՄ", "ՆԿՈՒՂ",
+             "ԱՎՏՈՏՆԱԿ", "ՃԱՇԱՐԱՆ", "ՃԱՇԱՍԵՆՅԱԿ", "ՕԴԱՆԱՎԱԿԱՅԱՆ", "ՈՍՏԻԿԱՆՈՒԹՅՈՒՆ", "ԳՐԱՍԵՆՅԱԿ", "ԴԱՍԱՐԱՆ",
+             "ՍՐՏԱՐԱՆ", "ԳԵՂԵՑԿՈՒԹՅԱՆ", "ՓԼԵՅՍՄԵՆԹ", "ԿԱՅԱՐԱՆ", "ԵԿԵՂԵՑԻ", "ԽԱՆՈՒԹ", "ՍՊԱՍԱՍՐԱՀ", "ԱՐՀԵՍՏԱՆՈՑ"]
+VEHICLE_STEMS = ["ՄԵՔԵՆԱ", "ՏԱՔՍԻ", "ԱՎՏՈԲՈՒՍ", "ԳՆԱՑՔ", "ՄԻԿՐՈԱՎՏՈԲՈՒՍ", "ԻՆՔՆԱԹԻՌ", "ԱՎՏՈ"]
+
+
+def _hit(tokens, stems, slack=3):
+    return any(t.startswith(st) and len(t) - len(st) <= slack for t in tokens for st in stems)
+
+
+ROOM_STEMS = ["ՍԵՆՅԱԿ", "ՆՆՋԱՐԱՆ", "ՆՆՋԱՍԵՆՅԱԿ", "ԽՈՀԱՆՈՑ", "ՀՅՈՒՐԱՍԵՆՅԱԿ", "ՄԻՋԱՆՑՔ", "ԼՈԳԱՐԱՆ", "ՃԱՇԱՍԵՆՅԱԿ",
+              "ԴՈՒՌ", "ԴՌԱՆ", "ԱՇԽԱՏԱՍԵՆՅԱԿ", "ՆԱԽԱՍՐԱՀ", "ՀԱՄԱՐ"]
+NEAR = ["ՄՈՏ", "ԴԻՄԱՑ", "ՄՈՏԱԿԱՅՔ", "ՇՐՋԱԿԱՅՔ", "ԵՏԵՎ", "ԵՏՆԱՄԱՍ"]
+
+
+def _is(tok, stems, slack=3):
+    return any(tok.startswith(st) and len(tok) - len(st) <= slack for st in stems)
+
+
+def guess_int_ext(loc):
+    """-> ('ՆԵՐՍ.' | 'ԴՐՍ.' | 'ՆԵՐՍ./ԴՐՍ.', sure). Reads the location words in order."""
+    toks = re.findall(r"[^\W\d_]+", up(loc or ""))
+    ext = veh = room = inn = False
+    for k, t in enumerate(toks):
+        prev, nxt = (toks[k - 1] if k else ""), (toks[k + 1] if k + 1 < len(toks) else "")
+        if t in NEAR or _is(t, ["ՄՈՏԱԿԱՅՔ", "ՇՐՋԱԿԱՅՔ", "ԵՏՆԱՄԱՍ"]):
+            if _is(prev, ROOM_STEMS):          # ՍԵՆՅԱԿԻ ԴԻՄԱՑ = inside the building
+                room = True
+            else:
+                ext = True
+        elif _is(t, EXT_STEMS) and t not in ("ՄՈՏ",):
+            ext = True
+        elif _is(t, VEHICLE_STEMS):
+            if nxt in NEAR:                    # ՄԵՔԵՆԱՅԻ ՄՈՏ = outside, by the car
+                ext = True
+            else:
+                veh = True
+        elif _is(t, ROOM_STEMS):
+            room = True
+        elif _is(t, INT_STEMS):
+            inn = True
+    if veh and ext:
+        return "ՆԵՐՍ./ԴՐՍ.", True
+    if ext and room:
+        return "ՆԵՐՍ./ԴՐՍ.", False            # e.g. ԽՈՀԱՆՈՑ, ՏԱՆ ԲԱԿ: both, check
+    if ext:
+        return "ԴՐՍ.", True
+    if veh or room or inn:
+        return "ՆԵՐՍ.", True
+    return "ՆԵՐՍ.", False
+
+
 def looks_location(s):
     S = up(s)
     return bool(re.search(r"[։:;]", s)) or any(re.search(rf"\b{w}\b", S) for w in TIME_WORDS)
@@ -94,6 +154,9 @@ def looks_location(s):
 
 def looks_cast(s):
     return "," in s or (len(s.split()) <= 3 and not re.search(r"[։:.]$", s))
+
+
+INT_EXT = True
 
 
 def convert(path, series=None):
@@ -148,7 +211,13 @@ def convert(path, series=None):
             else:
                 break
         heading = location_line(loc) if loc else f"ՏԵՍԱՐԱՆ {num}"
+        sure = True
+        if INT_EXT and loc:
+            ie, sure = guess_int_ext(heading)
+            heading = f"{ie} {heading}"
         emit(f".{heading} #{num}#")
+        if not sure:
+            emit("= IE?")
         if cast:
             emit(f"= CAST: {', '.join(dict.fromkeys(cast))}")
         for t in tags:
@@ -234,7 +303,10 @@ def main():
     ap.add_argument("--outdir", default=".")
     ap.add_argument("--series", help="series title for the title page")
     ap.add_argument("--prefix", default="ep", help="output file prefix")
+    ap.add_argument("--no-int-ext", action="store_true", help="don't add ՆԵՐՍ./ԴՐՍ. to scene headings")
     a = ap.parse_args()
+    global INT_EXT
+    INT_EXT = not a.no_int_ext
     os.makedirs(a.outdir, exist_ok=True)
     for p in a.docx:
         text, ep = convert(p, a.series)
