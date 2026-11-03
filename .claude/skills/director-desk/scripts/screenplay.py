@@ -20,7 +20,25 @@ import textwrap
 from xml.sax.saxutils import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FONT_DIR = os.path.join(HERE, "..", "fonts")
+
+
+def find_asset(sub, name):
+    """Works in the repo layout (scripts/ + fonts/ + assets/) and flat (all files in one folder, e.g. ChatGPT /mnt/data)."""
+    for d in (os.path.join(HERE, "..", sub), os.path.join(HERE, sub), HERE, "/mnt/data", os.getcwd()):
+        if os.path.exists(os.path.join(d, name)):
+            return d
+    return os.path.join(HERE, "..", sub)
+
+
+FONT_DIR = find_asset("fonts", "FreeMono.ttf")
+DEFAULT_LOGO = os.path.join(find_asset("assets", "maghakian_logo_dark.png"), "maghakian_logo_dark.png")
+
+# Proofreading marks: ⟦12¦new text⟧ = corrected span #12 (highlighted + Word comment in the working .docx).
+MARK_RE = re.compile(r"⟦(\d+)¦(.*?)⟧")
+
+
+def strip_marks(text):
+    return MARK_RE.sub(r"\2", text)
 
 LABELS = {
     "en": {"more": "(MORE)", "contd": "(CONT'D)", "by": "Written by"},
@@ -275,7 +293,7 @@ def register_font():
     return "ScriptMono"
 
 
-def write_pdf(path, title, blocks, pages, paper, scene_numbers, labels):
+def write_pdf(path, title, blocks, pages, paper, scene_numbers, labels, logo=None):
     from reportlab.pdfgen import canvas
     from reportlab.lib.units import inch
     font = register_font()
@@ -297,9 +315,22 @@ def write_pdf(path, title, blocks, pages, paper, scene_numbers, labels):
         x1 = x1 if x1 is not None else right_edge
         c.drawCentredString((x0 + x1) / 2 * inch, y_pt, s)
 
+    logo_img = None
+    if logo and os.path.exists(logo):
+        from reportlab.lib.utils import ImageReader
+        logo_img = ImageReader(logo)
+        lw0, lh0 = logo_img.getSize()
+
+    def draw_logo(x_center_in, y_bottom_in, width_in):
+        w = width_in * inch
+        h = w * lh0 / lw0
+        c.drawImage(logo_img, x_center_in * inch - w / 2, y_bottom_in * inch, w, h, mask="auto")
+
     # title page
-    if title:
+    if title or logo_img:
         c.setFont(font, 12)
+        if logo_img:
+            draw_logo(pw / 2 + 0.25, ph - 2.6, 2.8)
         y = ph * inch * 0.62
         for ln in title.get("title", []):
             center_at(y, clean_inline(ln).upper())
@@ -333,6 +364,8 @@ def write_pdf(path, title, blocks, pages, paper, scene_numbers, labels):
         c.setFont(font, 12)
         if pi > 1:
             right_at(right_edge, ph * inch - 0.5 * inch, f"{pi}.")
+        if logo_img:
+            draw_logo(pw / 2 + 0.25, 0.35, 0.9)
         y = top - lh  # first baseline
         for r in rows:
             if r is not None:
@@ -367,48 +400,117 @@ def _scene_number(blocks, sidx):
 
 
 # ---------------------------------------------------------------- DOCX / FDX
-def write_docx(path, title, blocks, font_name):
+def write_docx(path, title, blocks, font_name, logo=None, comments=None, author="Maghakian Scripts"):
+    """Working Word version. ⟦id¦text⟧ marks become yellow highlights with a Word comment (comments[id])."""
     from docx import Document
-    from docx.shared import Pt, Inches
-    from docx.enum.text import WD_ALIGN_PARAGRAPH
+    from docx.shared import Pt, Inches, RGBColor
+    from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_COLOR_INDEX
     from docx.oxml.ns import qn
+    from docx.oxml import OxmlElement
+    comments = comments or {}
     doc = Document()
     sec = doc.sections[0]
     sec.page_width, sec.page_height = Inches(8.5), Inches(11)
     sec.left_margin, sec.right_margin = Inches(1.5), Inches(1.0)
     sec.top_margin, sec.bottom_margin = Inches(1.0), Inches(1.0)
+    sec.different_first_page_header_footer = True
     st = doc.styles["Normal"]
     st.font.name = font_name
     st.font.size = Pt(12)
-    st.element.rPr.rFonts.set(qn("w:eastAsia"), font_name)
+    rpr = st.element.get_or_add_rPr()
+    rf = rpr.find(qn("w:rFonts"))
+    if rf is None:
+        rf = OxmlElement("w:rFonts")
+        rpr.append(rf)
+    for k in ("w:ascii", "w:hAnsi", "w:eastAsia", "w:cs"):
+        rf.set(qn(k), font_name)
     st.paragraph_format.space_after = Pt(0)
     st.paragraph_format.space_before = Pt(0)
     st.paragraph_format.line_spacing = Pt(12)
+    can_comment = hasattr(doc, "add_comment")
 
-    def para(text, left=0.0, right=0.0, before=0, align=None):
-        p = doc.add_paragraph(text)
+    def add_text(p, text):
+        pos = 0
+        for m in MARK_RE.finditer(text):
+            if m.start() > pos:
+                p.add_run(text[pos:m.start()])
+            run = p.add_run(m.group(2) or "")
+            cid = m.group(1)
+            note = comments.get(cid, {})
+            if isinstance(note, str):
+                note = {"text": note}
+            # yellow = text was changed, turquoise = only a remark (text untouched)
+            run.font.highlight_color = WD_COLOR_INDEX.YELLOW if note.get("changed", True) else WD_COLOR_INDEX.TURQUOISE
+            txt = note.get("text", "")
+            if txt:
+                if can_comment:
+                    doc.add_comment(run, text=f"#{cid} {txt}", author=author, initials="MS")
+                else:
+                    r2 = p.add_run(f" [#{cid}: {txt}]")
+                    r2.font.size = Pt(9)
+                    r2.font.color.rgb = RGBColor(0xD9, 0x04, 0x29)
+            pos = m.end()
+        if pos < len(text):
+            p.add_run(text[pos:])
+
+    def para(text, left=0.0, right=0.0, before=0, align=None, keep=False):
+        p = doc.add_paragraph()
+        add_text(p, text)
         f = p.paragraph_format
         f.left_indent, f.right_indent = Inches(left), Inches(right)
         f.space_before = Pt(12 * before)
-        if align:
+        f.keep_with_next = keep
+        if align is not None:
             p.alignment = align
         return p
 
-    if title:
-        for _ in range(18):
-            doc.add_paragraph("")
+    def page_field(p):
+        run = p.add_run()
+        for tag, txt in (("begin", None), (None, "PAGE"), ("end", None)):
+            if tag:
+                el = OxmlElement("w:fldChar")
+                el.set(qn("w:fldCharType"), tag)
+            else:
+                el = OxmlElement("w:instrText")
+                el.set(qn("xml:space"), "preserve")
+                el.text = txt
+            run._r.append(el)
+        p.add_run(".")
+
+    # header: page number top right (not on title page); footer: small logo
+    hp = sec.header.paragraphs[0]
+    hp.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+    page_field(hp)
+    if logo and os.path.exists(logo):
+        fp = sec.footer.paragraphs[0]
+        fp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        fp.add_run().add_picture(logo, width=Inches(0.9))
+
+    if title or logo:
+        if logo and os.path.exists(logo):
+            lp = doc.add_paragraph()
+            lp.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            lp.add_run().add_picture(logo, width=Inches(2.8))
+            for _ in range(8):
+                doc.add_paragraph("")
+        else:
+            for _ in range(18):
+                doc.add_paragraph("")
         for ln in title.get("title", []):
             para(clean_inline(ln).upper(), align=WD_ALIGN_PARAGRAPH.CENTER)
         for ln in title.get("credit", []):
             para(ln, before=2, align=WD_ALIGN_PARAGRAPH.CENTER)
         for ln in title.get("author", title.get("authors", [])):
             para(ln, before=1, align=WD_ALIGN_PARAGRAPH.CENTER)
+        for key in ("draft date", "date", "contact"):
+            for ln in title.get(key, []):
+                para(ln, before=1, align=WD_ALIGN_PARAGRAPH.CENTER)
         doc.add_page_break()
 
     for b in blocks:
         t = b["type"]
         if t == "scene":
-            para(b["text"], before=1)
+            para(b["text"], before=1, keep=True)
         elif t == "action":
             para("\n".join(b["lines"]), before=1)
         elif t == "transition":
@@ -418,10 +520,11 @@ def write_docx(path, title, blocks, font_name):
         elif t == "page_break":
             doc.add_page_break()
         elif t == "dialogue_block":
-            para(b["character"], left=2.2, before=1)
-            for kind, txt in b["lines"]:
+            para(b["character"], left=2.2, before=1, keep=True)
+            n = len(b["lines"])
+            for k, (kind, txt) in enumerate(b["lines"]):
                 if kind == "parenthetical":
-                    para(txt, left=1.6, right=1.9)
+                    para(txt, left=1.6, right=1.9, keep=k + 1 < n)
                 else:
                     para(txt, left=1.0, right=1.5)
     doc.save(path)
@@ -695,14 +798,25 @@ def main():
     ap.add_argument("--lang", choices=LABELS, default="hy", help="labels for (MORE)/(CONT'D)")
     ap.add_argument("--scene-numbers", action="store_true")
     ap.add_argument("--docx-font", default="Courier New")
+    ap.add_argument("--logo", default=DEFAULT_LOGO, help="logo PNG for title page + footer")
+    ap.add_argument("--no-logo", action="store_true")
+    ap.add_argument("--comments", help="JSON {id: {text, changed}} for ⟦id¦…⟧ marks (from proofread.py)")
     a = ap.parse_args()
+    logo = None if a.no_logo else a.logo
     if not any([a.pdf, a.docx, a.fdx, a.report, a.csv, a.all]):
         a.pdf = True
     if a.all:
         a.pdf = a.docx = a.fdx = a.report = a.csv = True
 
     with open(a.src, encoding="utf-8-sig") as f:
-        title, blocks = parse(f.read())
+        raw = f.read()
+    title, blocks = parse(strip_marks(raw))          # clean text: PDF, FDX, breakdown
+    marked_blocks = parse(raw)[1]                     # with ⟦marks⟧: working .docx
+    comments = {}
+    if a.comments:
+        import json
+        with open(a.comments, encoding="utf-8") as f:
+            comments = json.load(f)
     labels = LABELS[a.lang]
     lpp = int(round((PAPER[a.paper][1] - 2.0) * 6))
     pages = paginate(blocks, lpp, labels)
@@ -710,9 +824,9 @@ def main():
     stem = a.out or os.path.splitext(a.src)[0]
     made = []
     if a.pdf:
-        write_pdf(stem + ".pdf", title, blocks, pages, a.paper, a.scene_numbers, labels); made.append(stem + ".pdf")
+        write_pdf(stem + ".pdf", title, blocks, pages, a.paper, a.scene_numbers, labels, logo); made.append(stem + ".pdf")
     if a.docx:
-        write_docx(stem + ".docx", title, blocks, a.docx_font); made.append(stem + ".docx")
+        write_docx(stem + ".docx", title, marked_blocks, a.docx_font, logo, comments); made.append(stem + ".docx")
     if a.fdx:
         write_fdx(stem + ".fdx", title, blocks); made.append(stem + ".fdx")
     if a.report:

@@ -1,6 +1,6 @@
 ---
 name: director-desk
-description: "Director's and producer's desk: does the jobs of KIT Scenarist / Story Architect / WriterDuet / Pisar, Storyboarder, ShotDeck search and Canva treatments in one place. (1) Screenplay formatting: Fountain → industry 'American' format PDF, DOCX, Final Draft FDX, in Armenian, Russian or English. (2) Line-producer breakdown: scenes, page eighths, characters, locations, INT/EXT, day/night, CSV for a stripboard/schedule. (3) Storyboard sheet PDF from stills + shot list (film-crew output). (4) Treatment / pitch deck: structure, gap audit, branded PDF. (5) Reference hunting: ShotDeck / Film-grab search terms per shot. Use for: format a script, сценарий в американке, սցենարը ֆորմատավորել, page count / runtime, breakdown, раскадровка в PDF, storyboard sheet, treatment, тритмент, պիչ դեք, pitch deck."
+description: "Director's and producer's desk: proofreading of Armenian scripts (punctuation, spelling, typos, continuity) into a Word working version with highlighted changes and comments plus a clean final PDF with the Maghakian logo; does the jobs of KIT Scenarist / Story Architect / WriterDuet / Pisar, Storyboarder, ShotDeck search and Canva treatments in one place. (1) Screenplay formatting: Fountain → industry 'American' format PDF, DOCX, Final Draft FDX, in Armenian, Russian or English. (2) Line-producer breakdown: scenes, page eighths, characters, locations, INT/EXT, day/night, CSV for a stripboard/schedule. (3) Storyboard sheet PDF from stills + shot list (film-crew output). (4) Treatment / pitch deck: structure, gap audit, branded PDF. (5) Reference hunting: ShotDeck / Film-grab search terms per shot. Use for: format a script, сценарий в американке, սցենարը ֆորմատավորել, page count / runtime, breakdown, раскадровка в PDF, storyboard sheet, treatment, тритмент, պիչ դեք, pitch deck."
 ---
 
 # Director's desk
@@ -49,6 +49,25 @@ character 3.7", dialogue 2.5" × 3.5", page numbers top right, (MORE)/(CONT'D) o
 (`--lang` sets the labels: hy `(ՇԱՐՈՒՆԱԿԵԼԻ)`/`(ՇԱՐ.)`, ru `(ДАЛЬШЕ)`/`(ПРОД.)`; confirm the Armenian
 labels with Ani once and update `LABELS` in the script if she uses others). 1 page ≈ 1 screen minute.
 DOCX uses Courier New (Word substitutes a font for Armenian); FDX opens in Final Draft / WriterDuet / KIT.
+
+## 1b. Proofreading (սրբագրում) → working Word + final PDF
+
+Read `references/proofreading_hy.md` first (rules: question mark on the stressed vowel, dialogue keeps the
+character's colloquial voice, meaning problems = remarks only). Then:
+1. Convert to Fountain (above). Run `proofread.auto_fixes` once and read that text scene by scene (chunks of ~8).
+2. Write a corrections JSON (`scene`, `find` copied exactly, `replace`, `type`, `why`; no `replace` = remark).
+3. `python3 scripts/proofread.py ep01.fountain corrections.json --out proof/` →
+   `ep01_WORK.docx` (yellow = changed, turquoise = remark, a Word comment on each), `ep01_FINAL.pdf` (clean, logo),
+   `ep01_FINAL.docx/.fdx/.fountain`, `ep01_corrections.md` (table + automatic checks: speakers missing from the cast
+   line, duplicate scene numbers, names written two ways, Latin/Cyrillic letters in Armenian words).
+Check "applied X/Y"; fix any "❌ text not found" and rerun. Check every scene; say how many were checked.
+
+**Logo:** `assets/maghakian_logo_dark.png` (on white) and `_light.png` (on dark), from Tigran's file 2026-11-03.
+screenplay.py puts it on the title page and small in the footer of every PDF and Word page (`--no-logo` to skip).
+
+**ChatGPT pack:** `gpt/` holds the Custom GPT instructions (`INSTRUCTIONS.md`), Tigran's Armenian guide
+(`HOW_TO_hy.md`) and `build_pack.py`, which copies the scripts, fonts, logo and rules into
+`Maghakian_Script_Desk_GPT.zip`. Rebuild and resend the pack whenever a script or rule here changes.
 
 ## 2. Line-producer breakdown (per episode and per season)
 

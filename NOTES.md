@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (logo + proofreading + ChatGPT pack)
+**Did:** Tigran sent the Maghakian logo and asked for a file ChatGPT can use to do the same script work. Added: logo assets (trimmed, transparent, dark/light) on PDF/Word title page + footer; `proofread.py` (auto fixes ,,,→..., corrections JSON → WORK.docx with yellow highlights + Word comments, FINAL.pdf/docx/fdx, corrections.md with automatic checks); rules `references/proofreading_hy.md` and `format_spec.md`; `gpt/` (Custom GPT INSTRUCTIONS.md, HOW_TO_hy.md, build_pack.py → Maghakian_Script_Desk_GPT.zip). Demo: proofread 84-ի ամառը ep1 scenes 1–3 (36 fixes, all applied) and sent the files. Tested the pack in a flat folder like ChatGPT's /mnt/data.
+
+**Left:** full proofreading of all 8 episodes if Tigran wants (Claude side); Tigran sets up the Custom GPT; Ani confirms rules (question-mark placement, ԵՐԵՒԱՆ vs ԵՐԵՎԱՆ).
+
 ## 2026-11-03 — Cloud (ՆԵՐՍ./ԴՐՍ. in Ani's scripts)
 **Did:** Tigran asked to mark interior/exterior ourselves. `kit_docx_to_fountain.py` now prefixes every heading with ՆԵՐՍ. / ԴՐՍ. / ՆԵՐՍ./ԴՐՍ. from location words (order-aware: ՍԵՆՅԱԿԻ ԴԻՄԱՑ = inside, ՄԵՔԵՆԱՅԻ ՄՈՏ = outside); unsure ones flagged ❓. Breakdowns now show interior vs exterior pages and exterior evening/night scenes (light/cost); season table per episode. Result for 84-ի ամառը: 99 int / 46 1/8 ext pages, 10 ext evening/night scenes; Vilo: 70 4/8 int / 25 ext. New zip sent to Tigran (scripts not committed).
 
