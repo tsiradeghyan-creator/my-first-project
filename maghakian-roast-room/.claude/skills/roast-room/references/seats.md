@@ -82,3 +82,4 @@ On-call seats (in `roster.json`, off the default board; the Chair recommends the
 - Deakins (every image and every camera move must serve the story) against any seat chasing a showy, "beautiful" or trailer-friendly shot.
 
 If Round 1 comes back unanimous, the Chair should be suspicious and press the seat whose pillar is most at risk in Round 2.
+- Rhimes (a series engine that runs for seasons, character first, know the ending) against Line Producer (every extra character, set and episode costs pages and days) and against Quinn (one festival film over a long run).
