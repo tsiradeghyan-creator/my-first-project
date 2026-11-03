@@ -1,0 +1,15 @@
+{
+  "title": "Տիգրան Մեծ · Tigran the Great",
+  "subtitle": "Trailer v3 · block 09–16 · edit order · The King lens",
+  "aspect": "16:9",
+  "shots": [
+    {"id": "09", "image": "../stills_09-16/09_king_retreat.jpg", "shot": "MWS → MS, eye height", "lens": "40mm, dolly", "move": "straight push-in ~1.5 m, slow, ease-out", "action": "King walks toward lens against the stream of retreating soldiers; burning city behind", "duration": "5 s", "sound": "boots, armour, distant fire"},
+    {"id": "10", "image": "../stills_09-16/10_king_closeup.jpg", "shot": "CU 3/4, frame-right", "lens": "85mm, slider", "move": "micro push-in ~5%", "action": "Eyes search, then lock frame-right; one breath; chin lifts", "duration": "5 s", "sound": "breath, room tone of fire"},
+    {"id": "11", "image": "../stills_09-16/11_river.jpg", "shot": "EWS, high 4 m", "lens": "24mm, tripod", "move": "near locked-off, slow drift R→L", "action": "Archers left bank draw and loose L→R; Romans raise shields and hold", "duration": "6 s", "sound": "hooves, bowstrings, volley hiss"},
+    {"id": "13", "image": "../stills_09-16/13_boot.jpg", "shot": "ECU boot in water", "lens": "100mm macro, low mount", "move": "fast push-in 15% then hold", "action": "Boot lifts and stamps down toward lens; legs march behind", "duration": "4 s", "sound": "splash, march rhythm"},
+    {"id": "12", "image": "../stills_09-16/12_archer.jpg", "shot": "MS tracking L→R", "lens": "65mm, car mount", "move": "track at horse speed + slow push-in", "action": "Draw to cheek, release, reach for next arrow", "duration": "5 s", "sound": "gallop, string snap"},
+    {"id": "15", "image": "../stills_09-16/15_hand.jpg", "shot": "ECU hand", "lens": "100mm, tripod", "move": "no move, rack cloak → hand", "action": "Fingers curl into a fist, open, hand rises out of frame", "duration": "4 s", "sound": "leather creak, silence"},
+    {"id": "14", "image": "../stills_09-16/14_signal.jpg", "shot": "MS low angle", "lens": "35mm, hi-hat", "move": "tilt up + push-in 5%, then hold", "action": "Right arm raised, chops forward frame-right; cavalry surges behind", "duration": "5 s", "sound": "horn, hooves rising"},
+    {"id": "16", "image": "../stills_09-16/16_charge.jpg", "shot": "WS charge L→R", "lens": "35mm, car mount low", "move": "track L→R, handheld, pan right last 3 s", "action": "Gallop, spears lower; shields brace a moment before contact", "duration": "6 s", "sound": "full charge, cut to silence"}
+  ]
+}

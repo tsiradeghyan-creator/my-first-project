@@ -1,5 +1,10 @@
 # Handoff log
 
+## 2026-11-03 — Cloud (director-desk skill)
+**Did:** Tigran sent a RU post listing director tools (KIT Scenarist, Pisar, Story Architect, WriterDuet, ShotDeck, Film-grab, Canva, Supa, Storyboarder, Make Storyboard, Frame.io, Wipster) and asked for one skill doing their jobs. New `.claude/skills/director-desk/`: (1) `screenplay.py` Fountain → American-format PDF (FreeMono, Armenian/Cyrillic), DOCX, FDX; (2) breakdown md + CSV with page eighths, characters, locations; (3) `storyboard_sheet.py` stills + JSON → branded storyboard PDF (made reels/tigran-the-great/film-crew_09-16/storyboard_09-16.pdf); (4) `treatment_pdf.py` Markdown → branded deck/treatment PDF + references/treatment.md (structure, gap audit); (5) ShotDeck/Film-grab search lines. Frame.io/Wipster left to the real tools. skill-router map updated.
+
+**Left:** confirm Armenian (MORE)/(CONT'D) labels and slugline words with Ani; test screenplay.py on a real Ani script; rebuild the «Влюбись в меня снова» deck with the treatment module if Tigran wants. VS Code: check that reportlab, Pillow, python-docx are installed on the laptop.
+
 ## 2026-11-03 — Cloud (skill-router: automatic skill menu)
 **Did:** Tigran doesn't want to name skills each time. New skill `.claude/skills/skill-router/` maps all his skills by domain (video, image/design, SMM, marketing/sales, writing, research) with best-use notes; on any creative/marketing task Claude shows a short menu, recommends one, and starts. Rule added to CLAUDE.md for both sides. Also found the 5 video-tool repos he asked about: kurbaitaev/ghost-editor, kajisho5/ffmpeg-skill, AgriciDaniel/claude-shorts, calesthio/OpenMontage, Higgsfield Editorial Motion Graphics (connector).
 

@@ -68,6 +68,7 @@ every time. Your job: notice the domain, show him what he owns for it, recommend
 | Skill | Best for | Notes |
 |---|---|---|
 | `anthropic-skills:ani-digital-marketing` | Pitches, outreach to platforms/producers, website | First choice for selling scripts and productions |
+| `director-desk` (treatment) | Pitch deck / treatment structure + gap audit + branded PDF | Use with ani-digital-marketing for the words |
 | `copywriting` | Landing pages, headlines, CTAs, website copy | Conversion-focused |
 | `seo-audit` | Site SEO problems (maghakianscripts.com) | |
 | `llm-council` / Roast Room (`maghakian-roast-room/`) | Pressure-test a big decision, offer, price, pitch | Before sending something high-stakes |
@@ -78,6 +79,7 @@ every time. Your job: notice the domain, show him what he owns for it, recommend
 | Skill | Best for | Notes |
 |---|---|---|
 | `anthropic-skills:ani-screenwriting-workflow` | Loglines, synopses, bibles, outlines, scenes, children's stories 0–16 | Default for story work |
+| `director-desk` | Script → industry PDF/DOCX/FDX (Fountain, hy/ru/en), breakdown in eighths + CSV, storyboard sheet PDF, treatment/pitch deck PDF, ShotDeck search lines | Replaces KIT Scenarist, Storyboarder, Canva treatments |
 | `content-zavod` | Screenplay or article as a produced piece with gates | |
 | `anthropic-skills:docx` / `pdf` / `docs` | Book files, layouts, documents to send | Format step |
 
