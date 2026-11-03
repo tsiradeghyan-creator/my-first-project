@@ -126,6 +126,26 @@ Serif/Sans Armenian, brand colours, recipient header on every page); needs Node 
 dialogue, `--sides N`). Texts are only as good as pack.md: facts from the script, ending included, humanizer last.
 Ani's scripts stay private: build in the scratchpad, never commit the outputs.
 
+## 4c. Production plan in the studio's own format (season list → day breakdowns)
+
+The studio's real workflow (Tigran's files, 2026-11-03): a season workbook, one sheet per episode, columns
+Սերիա/տես․ · Նկարահանման վայր · Ռեժիմ · Դերասաններ · Էջ (pages) · Ռեքվիզիտ · Օր (story day; X = flashback);
+green row = shot, yellow = not yet; a "Ֆլեշբեկ" sheet repeats the flashbacks for one block. The director/admin
+copies scenes into a day sheet (same columns) and the day's texts go into one KIT .docx.
+```bash
+python3 scripts/plan.py master season.xlsx --out plan/      # master.xlsx + aliases.json
+python3 scripts/plan.py day plan/master.xlsx --scenes "8/10, 5/3, 10/1" --date 18.06 --day 12 \
+        --call 08:00 --address "..." --title "<series>" --texts ep*.docx --out plan/
+```
+master.xlsx keeps their columns first, then adds Ներս/Դրս, Օբյեկտ (merged set), Դեր. № (cast number),
+Մասսովկա, Հագուստ, Տրանսպորտ, Փլեյսմենթ, Նշումներ, Կարգավիճակ, Ամսաթիվ (the old "Ռեքվիզիտ" mix is split by
+keywords). Sheets: Բոլորը, each episode, Ֆլեշբեկ, Չնկարված (sorted by set for planning), Դերասաններ (cast list
+with numbers, scenes/pages left, empty Դերասան/Հեռախոս columns), Օբյեկտներ, Ստուգում (typos merged, missing
+commas, duplicate names, open «?», unsure ներս/դրս, locations that may be the same). Merges are written to
+aliases.json: the admin edits it and reruns. Day: xlsx (day sheet with header + totals, actors, props,
+costume, transport, extras, check sheets), branded landscape PDF, and the day's texts .docx in shooting order
+copied from the KIT files (styles kept). Their files are private: work in the scratchpad, never commit them.
+
 ## 5. Reference hunt (ShotDeck / Film-grab)
 
 We can't scrape ShotDeck (paid, licensed). Instead, for each key shot give Tigran ready search lines:
