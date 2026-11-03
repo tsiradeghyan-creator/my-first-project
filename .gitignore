@@ -8,3 +8,4 @@ node_modules/
 reels/**/*_HQ.mp4
 reels/tigran-the-great/*.zip
 reels/tigran-the-great/**/*.zip
+__pycache__/
