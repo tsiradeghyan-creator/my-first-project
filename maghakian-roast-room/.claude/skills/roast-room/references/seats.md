@@ -83,3 +83,4 @@ On-call seats (in `roster.json`, off the default board; the Chair recommends the
 
 If Round 1 comes back unanimous, the Chair should be suspicious and press the seat whose pillar is most at risk in Round 2.
 - Rhimes (a series engine that runs for seasons, character first, know the ending) against Line Producer (every extra character, set and episode costs pages and days) and against Quinn (one festival film over a long run).
+- Villeneuve (image over dialogue, storyboard everything, real locations, bond with actors before the shoot) against Line Producer (prep days and locations cost money) and against Rhimes (a series runs on dialogue and volume).
