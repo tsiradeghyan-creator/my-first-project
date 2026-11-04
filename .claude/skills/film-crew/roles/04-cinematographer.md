@@ -26,6 +26,13 @@ Operator); you decide the rules every shot obeys.
    (camera-left), quality (hard/soft), colour temperature, contrast ratio in words (gentle / strong / near-black
    shadows), practicals, how light changes over the scene (sunset progressing, lamp switched on in beat 4).
    Light direction is a continuity variable: write it so it can be repeated in every prompt.
+   Name the **light key** of each set first, in words the model knows:
+   - *High-key* (beauty, commercial, children's, airy): `high-key soft light, low contrast, bright and airy mood,
+     clean shadows` — almost no shadow on the face, white or pale background.
+   - *Low-key* (drama, noir, mystery, luxury night): `low-key lighting, single hard key, deep shadows, high
+     contrast, dark background`.
+   - *Mid-key / naturalistic* (most drama): motivated window or practical, soft fill, readable shadows.
+   One key per set; a change of key is a story event and the Director must ask for it.
 4. **Axis map (180° rule)** — for every scene with two or more characters or a direction of travel: name the line
    (A–B, or the road), the side the camera stays on, and any planned crossing (only on a visible move, a neutral
    shot on the line, or a cut-away — and only if the Director wants disorientation).
@@ -35,6 +42,11 @@ Operator); you decide the rules every shot obeys.
 6. **Coverage strategy per scene** — oner / master + coverage / planned montage. For AI, prefer *planned shots*
    over "coverage to choose from later": every shot should be one the Editor already wants.
 7. **Colour** — grade intention with named colours, consistent per scene; link to the palette.
+8. **Depth planes («плановость»)** — for every wide and medium shot name three planes: *background* (soft, e.g.
+   blurred mountains), *midground* (the subject, in focus), *foreground* (something close to the lens and out of
+   focus that frames the subject, e.g. daisies, a door frame, a shoulder). Write all three into the keyframe
+   prompt; without a foreground the model gives a flat catalogue picture. Choose the foreground from the
+   Production Designer's set.
 
 ## Output
 `04_camera_light.md` — lens plan · format · light plan per set · axis map per scene · camera grammar · coverage

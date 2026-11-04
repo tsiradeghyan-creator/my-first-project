@@ -4,7 +4,11 @@ Use these headings. Department documents may be in the user's language; prompts 
 
 ## 00_brief.md
 ```
-Project · Logline · Deliverable · Duration · Ratio · Platform · Resolution · Target model
+Project · Brand/client · Goal · Logline · Deliverable · Duration · Ratio · Platform · Resolution · Target model
+Client brief (TZ) when there is a client:
+  Content pack: | # | type (video / still) | scene description | mood | reference | channel |
+  Aesthetics: style · palette · light key · characters (faces shown or not; focus on silhouette, hands, product)
+  Product rules: what must be visible, logo/packaging, what never appears
 Style lens: <director> — why
 Shot budget: <duration> ÷ ASL <n s> = <N> shots (rounded)
 Assumptions: …
@@ -46,7 +50,8 @@ Camera grammar (when it moves, rigs) · Coverage strategy · Grade
 
 ## 05_edit_plan.md
 ```
-Shot order: | shot | scene | beat | function | size | angle | s |
+Shot order: | shot | scene | beat | function | size (step 1-6) | angle | s |
+Size line per scene: e.g. `2 → 4 → 5 → 6 → 6 → 2` with every cut marked clean / allowed / accent
 Cuts: one handoff contract per cut (format in references/editing-grammar.md)
 Rhythm map per scene · Scene transitions · Generation units
 ```

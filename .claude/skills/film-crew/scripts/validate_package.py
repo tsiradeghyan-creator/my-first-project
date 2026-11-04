@@ -4,7 +4,7 @@
 Usage: python3 validate_package.py <project-folder> [--max-call 30] [--json]
 Exit 0 = no FAIL, 1 = at least one FAIL. Warnings never fail the gate.
 Checks: files present · one card per shot with handoffs and a prompt · one contract per cut with its fields ·
-prompts copy-ready (no placeholders, no director names, no XML-like tags) · time slices continuous, from 0, plain
+shot-size ladder warnings inside a scene · prompts copy-ready (no placeholders, no director names, no XML-like tags) · time slices continuous, from 0, plain
 seconds, >= 3 s, within the per-call limit · reference counts within Seedance 2.5 limits · no corrupted characters.
 """
 import json, re, sys
@@ -17,6 +17,42 @@ PLACEHOLDER = re.compile(r"\[paste|verbatim\]|<insert|\{\{|\bTODO\b|\bTBD\b|\[LO
 CLOCK = re.compile(r"\b\d{1,2}:\d{2}:\d{2}\b|\[\s*\d{1,2}:\d{2}\s*[-–]")
 SLICE = re.compile(r"\[\s*(\d+(?:\.\d+)?)\s*[-–]\s*(\d+(?:\.\d+)?)\s*s(?:ec(?:onds?)?)?\s*\]", re.I)
 CORRUPT = re.compile(r"[֐-׿�]")
+
+
+SIZE_TOKENS = [  # size ladder 1-6, longest tokens first (references/editing-grammar.md)
+    (r"\(\s*([1-6])\s*\)", None),
+    (r"\b(ECU|XCU|EXTREME CLOSE[- ]?UP|INSERT|DETAIL|MACRO)\b", 6),
+    (r"\b(EWS|ELS|XLS|EXTREME (WIDE|LONG))\b", 1),
+    (r"\b(MWS|MLS|COWBOY|MEDIUM (WIDE|LONG)|KNEE)\b", 3),
+    (r"\b(MCU|MEDIUM CLOSE)\b", 4),
+    (r"\b(CU|CLOSE[- ]?UP)\b", 5),
+    (r"\b(MS|MEDIUM)\b", 4),
+    (r"\b(WS|LS|FS|WIDE|LONG|FULL)\b", 2),
+]
+
+
+def _step(text: str):
+    for pat, step in SIZE_TOKENS:
+        m = re.search(pat, text, re.I)
+        if m:
+            return int(m.group(1)) if step is None else step
+    return None
+
+
+def scene_of(card: str):
+    head = card.splitlines()[0] if card.strip() else ""
+    return re.split(r"[·|]", head.split("—", 1)[-1])[0].strip().lower()
+
+
+def size_step(header: str):
+    """(start step, end step) from a card header; 'MWS→MS' = a size change inside the shot."""
+    fields = [f.strip() for f in re.split(r"[·|]", header)]
+    for field in fields[2:4] if len(fields) > 2 else fields:  # '<scene> · <s> · <size> · <angle>'
+        parts = [p for p in re.split(r"→|->", field) if p.strip()]
+        start, end = _step(parts[0]) if parts else None, _step(parts[-1]) if parts else None
+        if start or end:
+            return (start or end, end or start)
+    return None
 
 
 def director_names(skill_dir: Path):
@@ -60,6 +96,22 @@ def check(folder: Path, max_call: float):
             fails.append(f"SHOT {i}: no 'Handoff in'")
         if i < n_shots and "handoff out" not in low:
             fails.append(f"SHOT {i}: no 'Handoff out'")
+    steps = [size_step(c.splitlines()[0]) if c.strip() else None for c in cards]
+    for i in range(1, len(steps)):
+        if steps[i - 1] is None or steps[i] is None or scene_of(cards[i - 1]) != scene_of(cards[i]):
+            continue  # the size rule is for cuts inside one scene
+        a, b = steps[i - 1][1], steps[i][0]
+        lo, hi = sorted((a, b))
+        tag = f"CUT {i}→{i + 1} size {a}→{b}"
+        if a == b and a != 6:
+            warns.append(f"{tag}: same size — fine for shot-reverse-shot on another speaker, else jump cut")
+        elif hi - lo == 1 and (lo, hi) not in ((1, 2), (5, 6)):
+            warns.append(f"{tag}: neighbouring sizes — jump cut on the same subject unless ≥30° + cut on action")
+        elif hi - lo >= 4:
+            warns.append(f"{tag}: accent cut (wide ↔ detail/face) — make sure it is intended and stated")
+    if cards and all(s is None for s in steps):
+        warns.append("08_storyboard: no shot sizes found in card headers (write e.g. 'WS (2)')")
+
     blocks = re.findall(r"```text\n(.*?)```", sb, re.S)
     if sb and not blocks:
         fails.append("08_storyboard: no ```text prompt blocks")

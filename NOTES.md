@@ -1,5 +1,14 @@
 # Handoff log
 
+## 2026-11-04 — Cloud (film-crew: Panasyuk slides → departments)
+**Did:** Tigran sent 13 slides from Vadim Panasyuk's filmmaking school. Built the useful ones into film-crew:
+- **Size ladder + cut map** (slide 8, the hexagon) in `references/editing-grammar.md`: six steps (1 EWS · 2 WS/FS · 3 MWS · 4 MS/MCU · 5 CU · 6 ECU/insert); clean cuts skip one step (2↔4, 3↔5, 4↔6, 1↔3); allowed neighbours 1↔2, 5↔6, 6→6; red accent cuts 2↔6, 1↔5; 2↔3, 3↔4, 4↔5 on one subject = jump cut. Editor role, edit-plan template and handoff contract now carry the step numbers.
+- `validate_package.py` warns on neighbour/same-size and accent cuts inside a scene (reads sizes from card headers, `MWS→MS` cuts from its end size). On tigran-the-great 09-16 it flags CUT 1→2 (MS→CU, same hero) and CUT 3→4 (EWS→ECU accent).
+- DP: light keys (high-key phrase from the slide, low-key, mid-key) and depth planes («плановость»: background · subject · out-of-focus foreground). Designer: archetype palettes (Magician, Caregiver…), brand palette wins for our own pieces, sets dressed in three planes. Brief template: client TZ fields + content-pack table. SKILL.md: «film style = nine things» checklist.
+- Not used: the AI-girl monetization slides (fake persona, paid chats, crypto donations).
+
+**Left:** slide «Set design: 4 rules» and «Story development: good/bad examples» showed titles only; add the other rules if Tigran sends those slides. Decide whether to fix CUT 1→2 in tigran-the-great.
+
 ## 2026-11-04 — Cloud (BAB brains: full /newroaster rebuild in progress)
 **Did:** Tigran asked Cloud to rebuild the nine BAB brains itself, the way `/newroaster` builds seats, aiming at 10–19k words like the original seven. He opened the cloud network (Full).
 - **Step 2:** two search passes found 941 URLs.

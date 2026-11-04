@@ -24,6 +24,15 @@ it in words precise enough that an AI model draws the same place in every shot.
 4. **Hero props and their states** — any prop that changes (full glass → empty, letter sealed → torn) gets a state
    timeline by beat. The Editor's continuity depends on it.
 5. **Palette** — 3-5 named colours with roles (dominant, accent, danger), derived from the lens and the thesis.
+   For an ad, brand film or character piece, also check the **archetype** of the brand or hero and let it pull
+   the palette:
+   - *Magician* — deep blue, green, violet, silver and gold on near-black; small neon accents allowed.
+   - *Caregiver* — warm beige, brown, soft yellow or calm greys; neutral, earthy, low saturation.
+   - Other archetypes (Hero, Rebel, Lover, Innocent, Sage, Explorer, Ruler, Creator, Jester, Everyman): derive in
+     the same way and write the reason in one line. The lens card wins when the two conflict; say so in NOTES.
+   For Maghakian Scripts' own pieces the brand palette (black, white, graphite #111111, one red #D90429) wins.
+6b. **Set depth** — dress every set in three planes (background, midground for action, foreground objects that
+   can sit close to the lens), so the DP always has a foreground to frame through.
 6. **Lens application** — e.g. Wes Anderson: planimetric sets, pastel palette, symmetrical dressing; Parajanov:
    tableau backgrounds of carpets, frescoes, hanging objects; Villeneuve: brutalist scale, fog, empty space.
 7. **AI-safety** — avoid readable text on set unless essential (models garble it), avoid trademark logos, avoid

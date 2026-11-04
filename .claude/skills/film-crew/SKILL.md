@@ -64,6 +64,12 @@ Lock, and state every assumption:
 Default if unstated: 30-60 s scene, 16:9 (9:16 for Reels/TikTok/Shorts), Seedance 2.5, 720p, lens chosen by the
 Director to serve the story and named with a reason.
 
+**Film style = nine things, held for the whole piece.** In each frame: light (DP) · composition and depth planes
+(DP + Designer) · lens and camera (DP + Operator) · grade (DP) · set design (Designer) · story (Director). Across
+the cut: cut rules and the size ladder (Editor) · story development, every shot moves the beat (Director +
+Editor) · consistency of all of the above from the first shot to the last (continuity verifier). A client brief
+(TZ) from an agency is read into `00_brief.md` with the content-pack table (template in `references/templates.md`).
+
 ## Style lens
 
 - Lens cards live in `styles/` (index: `styles/README.md`). A card turns a director into concrete decisions:

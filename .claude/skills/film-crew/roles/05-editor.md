@@ -18,7 +18,11 @@ satisfy your contracts. This is how separately generated clips end up cutting to
 ## Do
 
 1. **Shot order** — turn beats into numbered shots within the shot budget. Each shot: number, beat, function,
-   size, angle (from the DP's grammar), duration. Durations follow the lens's ASL and the director's edit intent;
+   size **with its step on the size ladder (1 EWS … 6 ECU/insert)**, angle (from the DP's grammar), duration.
+   Then read the step column down the scene against the **cut map** in `references/editing-grammar.md`
+   («Size ladder and cut map»): clean cuts skip one step (2↔4, 3↔5, 4↔6, 1↔3); 1↔2, 5↔6 and 6→6 are allowed
+   neighbours; 2↔6 and 1↔5 are accent cuts — spend them on purpose; neighbouring middle steps (2↔3, 3↔4, 4↔5)
+   on the same subject are jump cuts — fix them before anything else. Durations follow the lens's ASL and the director's edit intent;
    a shot holds as long as its action plus the reaction needs, never less than ~2 s unless it is a deliberate
    flash/insert.
 2. **Cut types** — choose for every cut (see `references/editing-grammar.md`): straight cut on action, match on
