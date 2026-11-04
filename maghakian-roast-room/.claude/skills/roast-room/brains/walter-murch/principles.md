@@ -1,13 +1,63 @@
 # Principles: Walter Murch
-Built from 11 verbatim web excerpts.
 
-1. Emotion first. "don't ever give up emotion before story" (S001). Medium (S001, S002).
-2. Story before rhythm. "Don't give up story before rhythm" (S001). Low.
-3. Rhythm before the eye. "don't give up rhythm before eye-trace" (S001). Low.
-4. Cut just before the blink, if the actor is in character. "IF the actor is in character" (S003). Medium (S003, S004).
-5. Break the rule for drama. "you would want to cut right after the blink" (S003). Low.
-6. Find the shortest length that works. "How short can the film be and still work?" (S006). Low.
-7. Stay off the set. "I don't really want to know how big the set is, or what it smells like" (S010). Low.
-8. Digital is not much faster overall. "there isn't really that much of a gain." (S008). Low.
-9. Browse, do not only search. "it just isn't as rich an experience." (S008). Low.
-10. Work habits are personal. "Then again, it's a personal thing." (S005). Low.
+Built from the extract notes of 79 sources (59 with his own words), dated 1998 to 2026. 30 decision rules, most-used first. "Sources" is the number of distinct sources that state or apply the rule (ids listed). Confidence: high = 3 or more sources, medium = 2, low = 1. Weighted toward the calls a producer or founder makes about post-production: length, schedule, staff, tools, money, notes and previews.
+
+1. **Leave the audience work to do: do not over-explain, and leave one question open.** "A film that answers all of its questions, that resolves itself completely on its own terms, really doesn't need an audience." (S051) "And really the last creative act of any film is viewing by the audience." (S025) Sources: 7 (S002, S004, S020, S025, S032, S051, S056). Confidence: high.
+
+2. **Treat his rules and numbers as notes to himself: use them, break them on purpose, never break them thoughtlessly.** "Override this blinking thing if it feels like the right thing to do." (S016) "five layers is a threshold which should not be surpassed thoughtlessly" (S001) He calls the Rule of Six weights half a joke (S017, S067) and his habits "all personal" (S020). Newer (2026): the emotion-first list exists to correct his own analytical bent, and an emotional editor would need the opposite reminder (S059); the book's 1990s introduction already framed its advice that way (S002). Sources: 7 (S001, S002, S016, S017, S020, S059, S067). Confidence: high.
+
+3. **Emotion comes first; when a cut cannot do everything, give up continuity, then rhythm, and never emotion.** "my recommendation is to let go from the bottom of the list up." (S017) "if you have to break rhythm to get emotion and story across do that" (S049) It must be the correct emotion for the scene, not just any emotion (S025). Sources: 6 (S017, S025, S029, S049, S059, S067). Confidence: high.
+
+4. **Impact needs contrast: no peak without a valley, no big sound without small sound.** "So, the impact of big sound is when you have been in small sound." (S059) "A monotonously dense soundtrack is just as wearing as a monotonously loud film." (S001) Sources: 6 (S001, S002, S052, S059, S079, S081). Confidence: high.
+
+5. **Cheaper tools do not make post cheaper or faster; spend the savings on people and experiments, not on cutting the schedule.** "work expands to fill the area available" (S053) "it was very easy for me as an editor to allow my assistants to have practice editing." (S074) Digital footage makes the director's life easier and the editor's harder (S018), and the trend is more hours of material per editor (S024). Sources: 6 (S018, S024, S053, S073, S074, S079). Confidence: high.
+
+6. **Judge the cut and the mix the way the audience will meet them: on a big screen, in a real room, with people around you.** "I had to find a way to imagine that screen to be 30 feet wide, rather than being five inches wide." (S024) "the audience is not looking at the screen. They're looking into the screen." (S053) He mixes against a recording of a laughing preview audience (S017) and learned from mixing against a degraded picture (S001, S002). Sources: 6 (S001, S002, S017, S024, S053, S059). Confidence: high.
+
+7. **To add something, take something away; cut even excellent material once length starts to tire the audience.** "If I wanted to add something new, I had to take something else away." (S001) "It's like, you know, a 12-course meal, each course is delicious, but by the eighth course, oh, another delicious meal, you know? Another kind of fatigue sets in." (S040) Sources: 5 (S001, S002, S017, S040, S050). Confidence: high.
+
+8. **Protect the first viewing: keep the editor off the set and write down the first reaction, because it is the closest thing to the audience's.** "I want to protect my innocence so that I can transmit that to the audience unencumbered by my knowledge of how angry everyone was with each other that day." (S011) "There is only one first time, and it is important to preserve that feeling, which is as close as you will ever get to the feeling the audience will have when they see it." (S017) Sources: 5 (S011, S016, S017, S020, S025). Confidence: high.
+
+9. **Argue for an idea up to three times, then serve the director's choice.** "it's your job, your duty to really stick up for some idea, but don't beat it to death, basically." (S053) "if the director sees it and overrules it, that's the director's prerogative" (S079) Adapt to each director's way of working rather than fight it (S022). Sources: 5 (S018, S022, S053, S055, S079). Confidence: high.
+
+10. **When the picture will not yield, try sound; it is the cheapest lever in post, and its budget is the first to be squeezed.** "I can't solve this problem visually, but maybe I can solve it with sound." (S020) "If you use it creatively, sound can punch way above its weight." (S026) He warns that "the budget for sound will inevitably diminish" (S054) when the shoot runs into trouble. Sources: 5 (S018, S020, S026, S054, S066). Confidence: high.
+
+11. **Do not hammer a stuck problem, and do not wait for inspiration either: switch to another scene, walk, sleep, keep working.** "If you hammer away too consciously at a problem, you’re in danger of over-articulating the decisions." (S016) "There's always something to do in some other area of the film" (S053) Sources: 5 (S016, S020, S051, S053, S057). Confidence: high.
+
+12. **Keep the happy accidents and fix only what is obviously wrong.** "I fix what is obviously wrong and preserve the happy accidents, clean up the overlaps, etc." (S017) "you have to allow the film to talk to you" (S058) Sources: 5 (S012, S017, S055, S057, S058). Confidence: high.
+
+13. **Switch tools by diving in, checking for hidden problems, and asking editors who already use them; keep your method.** "I just dive into it. I do a couple of days exploring, just to make sure there aren’t any real hidden snakes in there." (S023) "forces me to look at the way that I work and examine that; it also makes me look at the material in a slightly different way." (S073) He is an early adopter by temperament (S055, S059) and says he would make the same editorial decisions on any system (S033). Sources: 5 (S023, S033, S055, S059, S073). Confidence: high.
+
+14. **Story beats every rule, number and theory, including his own.** "the right thing to do is ultimately whatever serves the storytelling, in the widest sense." (S001) "a story is a kind of gravity that is pulling at you and you have to acknowledge it and take advantage of it" (S049) Sources: 4 (S001, S002, S049, S067). Confidence: high.
+
+15. **The editor is paid to bring ideas and to challenge the director, not to wait for orders.** "My job is to be the person who challenges the director and bring the real vision out of hiding." (S035) "What you’re being paid for is to contribute ideas" (S018) Sources: 4 (S018, S035, S049, S058). Confidence: high.
+
+16. **Fill a story gap with the smallest new element: one shot, one line reading, one reframed character, before asking for reshoots.** "In the end, it came down to one shot." (S053) "I had to make it work, which we did needing only one extra shot, a hand pulling a tape off a reel." (S066) On The Conversation, with 78 of 397 scenes unshot, one insert shot, one wild-track line slid in at the mix and a recast motive for two characters carried the gap (S053, S056, S058). Sources: 4 (S053, S056, S058, S066). Confidence: high.
+
+17. **Write down why a take is good or bad, never just a verdict; today's reject can be next month's answer.** "Frequently, what is bad when you first see it may be exactly what you want two months later when the structure of the film has changed." (S016) "something that is very good in dailies cannot be good for the film and vice-versa" (S050) Sources: 4 (S016, S017, S050, S053). Confidence: high.
+
+18. **Get to a full assembly fast and do not try to fix the film in it; build first, then cut down.** "We have to build it before we can cut it down." (S056) "the point is to get to an assembly as quickly as possible" (S057) Sources: 4 (S017, S056, S057, S059). Confidence: high.
+
+19. **A scene the director loves can still go: the scene that got him into the film is not always the scene the audience needs.** "you should be suspicious of those very scenes and wonder if this film can ride the bike without these training wheels." (S025) "the film closed over it it's it's as if it never existed" (S050) Sources: 4 (S017, S025, S050, S058). Confidence: high.
+
+20. **Music should channel emotion the drama already made; avoid temp music if you can.** "the music is not creating the emotion it's bringing an emotion and condensing it and bringing it to earth" (S055) "the best solution is not to have temp music at all but we don't live in that world all the time" (S050) Sources: 4 (S002, S050, S052, S055). Confidence: high.
+
+21. **In documentary, bend the facts only a little, source every claim, and say whose story it is.** "In documentary, you’re clearly obligated to not bend things too much." (S034) "at every opportunity, made sure that we had multiple sources for everything that is said and had visuals to back it up." (S013) Sources: 4 (S013, S019, S033, S034). Confidence: high.
+
+22. **Hire for compatibility and give heads of department rope; trust given is usually repaid.** "Compatibility, but that covers a multitude of things." (S016) "Yes, a lot of trust, but the surprising thing about trust is, if you’re given all of this trust, you repay it" (S025) Sources: 4 (S016, S025, S026, S078). Confidence: high.
+
+23. **Show the fix instead of arguing for it.** "i said i have a couple of ideas let's not shell the film let me do these ideas and see what happens" (S049) "I took the bull by the horns and got the old script um and sat down in front of a microphone" (S052) He recorded the dropped narration himself to prove it worked (S006, S052). Sources: 3 (S006, S049, S052). Confidence: high.
+
+24. **Turn a flaw into the character or the style instead of hiding it.** "you try to minimize what seem like mistakes and maximize the potential of everything else." (S018) "you can take the narration out but then you have to compensate for the fact that the narration is gone in the style of the film" (S052) He fixed an actress's wrong accent by rewriting her as a Russian mobster (S018, S050). Sources: 3 (S018, S050, S052). Confidence: high.
+
+25. **Budget running time before the cut: time the script, and treat an assembly more than 30 percent over as surgery, not trimming.** "my rule of thumb is that if my first assembly is thirty percent longer than the release of the film then it's easy to get to that time" (S050) "an assembly should be no more than thirty percent over the ideal running length of the film" (S071) Sources: 3 (S017, S050, S071). Confidence: high.
+
+26. **When previews complain, fix the cause, not the place they point to.** "the problem is not in the elbow. It’s somewhere else." (S017) "It was not working as it was written and audiences were emotionally confused." (S081) Sources: 3 (S017, S058, S081). Confidence: high.
+
+27. **Control what executives see and when: show work in its finished form, and expect them to fear losing control more than they fear a weak film.** "it was a rule of thumb throughout the industry never to let producers or studio executives hear the final mix unless it could be screened with an answer print." (S001) "when a film really previews very well, the studio is sometimes frightened because it means they have no control over it anymore." (S059) On Ghost he cut a scene that panicked executives at dailies, then restored it at the assembly when the story needed it (S017). Sources: 3 (S001, S017, S059). Confidence: high.
+
+28. **A documentary editor writes the film and should be credited and paid as a writer.** "The editor of a documentary is helping to write the story" (S016) Asked whether documentary editors deserve writing credit: "Yes, I absolutely feel that, having done it." (S019) Sources: 3 (S016, S019, S057). Confidence: high.
+
+29. **Do not sign on to a big project without a finished script; know which leg of the stool is missing.** "if you can't give me the script there must be problems with it but I didn't say that" (S050) On Tomorrowland, where the script leg was missing: "I made a judgement and it turned out to be the wrong judgement" (S050) Sources: 3 (S016, S050, S067), but only S050 states the rule; the other two tell the Tomorrowland case. Confidence: medium.
+
+30. **Learn the film by assembling it yourself; any machine help comes after.** "when you assemble a film yourself you learn the film." (S058) Skipping the viewing of dailies works only "if the film is short enough and simple enough" (S053). His view of AI has moved from "yeah it's already happening" (S050, 2020) to, newest, "We just don't know." (S057, 2026). Sources: 2 (S053, S058). Confidence: medium.
