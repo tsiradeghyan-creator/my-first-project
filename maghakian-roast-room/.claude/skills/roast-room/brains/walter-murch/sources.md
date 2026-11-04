@@ -1,17 +1,85 @@
 # Sources: Walter Murch
 
-11 sources (11 local), 574 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+79 sources (67 web, 1 pdf, 11 video), 242,460 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
 
 Format: id | title | url | date | words
 
-- S001 | Rule of Six as summarised from In the Blink of an Eye (No Film School, StudioBinder) | https://nofilmschool.com/2016/11/6-rules-good-cutting-according-oscar-winning-editor-walter-murch | 2016 | 77
-- S002 | ProVideo Coalition Art of the Cut: books | https://www.provideocoalition.com/aotc-murch-books/ | 2019 | 39
-- S003 | ProVideo Coalition Art of the Cut: the blink | https://www.provideocoalition.com/aotc-murch-bcpc/ | 2019 | 56
-- S004 | Josh Melnick conversation: Hackman's blinks | https://www.goodreads.com/author_blog_posts/2073188-josh-melnick-and-walter-murch-in-conversation | 2011 | 48
-- S005 | IBC interview: plumbing, performance and writing | https://ibc.org/interviews/interview-filmmaker-walter-murch-on-plumbing-performance-and-writing/11179.article | 2023 | 33
-- S006 | The Conversations with Michael Ondaatje (excerpt) | https://avclub.com/michael-ondaatje-the-conversations-walter-murch-and-t-1798197914 | 2002 | 36
-- S007 | Alta Online: Murch, the Moviola and film | https://www.altaonline.com/dispatches/a64422374/walter-murch-moviola-film/ | 2025 | 46
-- S008 | FXguide: Murch on the path to digital | https://www.fxguide.com/?p=183883 | undated | 93
-- S009 | Playback Q&A: random access | https://playbackonline.ca/?p=11575 | undated | 58
-- S010 | Interview on staying off the set | https://cinephiliabeyond.org/interview-with-walter-murch/ | undated | 49
-- S011 | Worldizing (filmsound.org, Nerdwriter page, secondary) | https://filmsound.org/terminology/worldizing.htm | 2003 | 39
+- S001 | Walter Murch - Transom | https://transom.org/2005/walter-murch/ | 2005-04-01 | 7912
+- S002 | 200504 review murch | https://transom.org/wp-content/uploads/2005/04/200504.review.murch_.pdf | 2005 | 21109
+- S003 | Walter Murch Special: Womb Tone and Dense Clarity/Clear Density | https://designingsound.org/2009/10/15/walter-murch-special-womb-tone-and-dense-clarityclear-density/ | 2009-10-15 | 341
+- S004 | Stretching Sound to Help the Mind See by Walter Murch | https://www.filmsound.org/murch/stretching.htm | undated | 4337
+- S005 | Dickson Experimental Sound Film 1895 | https://filmsound.org/murch/dickson.htm | undated | 561
+- S006 | Walter Murch on ‘Apocalypse Now’ - CineMontage: A Journal of the Motion Pictures Editors Guild | https://cinemontage.org/walter-murch-apocalypse-now/ | 2016-02-02 | 2097
+- S007 | Walter Murch - 1. Cook, Surgeon, Conductor | https://theasc.com/post/the-film-book/walter-murch-1-cook-surgeon-conductor/ | 2016-02-26 | 460
+- S008 | Walter Murch - 2. Editing In Real Time | https://theasc.com/post/the-film-book/walter-murch-2-real-time-cuts-image-editing/ | 2016-03-12 | 551
+- S009 | Walter Murch - 3. Jump Cuts, Sequences, The Entire Movie | https://theasc.com/post/the-film-book/walter-murch-3-jump-cuts-sequences-the-entire-movie/ | 2016-03-28 | 860
+- S010 | Michael Ondaatje: The Conversations: Walter Murch And The Art Of Editing Film | https://avclub.com/michael-ondaatje-the-conversations-walter-murch-and-t-1798197914 | 2002-10-11 | 561
+- S011 | Behind the Scenes with Film Editor Walter Murch | https://www.npr.org/transcripts/4994411 | 2005-11-08 | 1635
+- S012 | Intriguing Editing Tips from Oscar-Winning Editor Walter Murch | https://nofilmschool.com/2016/03/intriguing-editing-tips-oscar-winning-editor-walter-murch | 2016-03-18 | 958
+- S013 | Editor Walter Murch Pieces Together a Key Moment in History | https://nofilmschool.com/walter-much-coup-53-interview | 2020-08-18 | 1202
+- S014 | Cinematic Legend Walter Murch on Editing and Sound Design | https://nofilmschool.com/podcast-legendary-walter-murch-editing | 2020-09-15 | 472
+- S015 | How Do You Know When Your Edit Is Done? | https://nofilmschool.com/how-do-you-know-when-your-edit-is-done | 2022-08-04 | 473
+- S016 | ART OF THE CUT with Walter Murch, ACE by Steve Hullfish - ProVideo Coalition | https://www.provideocoalition.com/aotc-murch-bcpc/ | 2020-04-07 | 4736
+- S017 | Walter Murch, ACE clarifies concepts from "In the Blink of an Eye" and "The Conversations" | https://www.provideocoalition.com/aotc-murch-books/ | 2020-02-10 | 8672
+- S018 | ART OF THE CUT with Walter Murch, ACE on 7 of his films by Steve Hullfish - ProVideo Coalition | https://www.provideocoalition.com/aotc-murch-films/ | 2020-03-15 | 7290
+- S019 | ART OF THE CUT with Walter Murch, ACE, on editing "Coup 53" by Steve Hullfish - ProVideo Coalition | https://www.provideocoalition.com/aotc-walter-murch-coup53/ | 2020-01-29 | 6200
+- S020 | Art of the Cut: Walter Murch, Ace, “Suddenly Something Clicked | https://borisfx.com/blog/aotc/walter-murch-ace-suddenly-something-clicked/ | 2024-03-08 | 9347
+- S021 | Her Name Was Moviola - An interview with Walter Murch about film editing with the Moviola by Oliver Peters - ProVideo Coalition | https://www.provideocoalition.com/her-name-was-moviola-an-interview-with-walter-murch-about-film-editing-with-the-moviola/ | 2022-12-05 | 2304
+- S022 | The Editor’s Cut | https://www.altaonline.com/dispatches/a64422374/walter-murch-moviola-film/ | 2025-04-10 | 1398
+- S023 | Walter Murch on the path to digital - fxguide | https://www.fxguide.com/?p=183883 | 2015-11-24 | 1605
+- S024 | Q & A with editing legend Walter Murch | https://playbackonline.ca/?p=11575 | 2006-06 | 1434
+- S025 | ‘Watching feature motion pictures in theaters is barely a hundred years old, and I’ve been working in films for half that time’ • Cinephilia & Beyond | https://cinephiliabeyond.org/interview-with-walter-murch/ | 2015-11-20 | 3424
+- S026 | Walter Murch: A Conversation With The Legendary Sound Designer | https://empireonline.com/movies/features/walter-murch-conversation-legendary-sound-designer-coppola-classic | 2017-08-04 | 1560
+- S027 | The Master of Movie Magic: Walter Murch’s Rare Public Conversation Reveals Six Decades of Cinema Secrets | https://www.pasadenanow.com/weekendr/the-master-of-movie-magic-walter-murchs-rare-public-conversation-reveals-six-decades-of-cinema-secrets/ | undated | 384
+- S029 | Perspectives On Editing: A Conversation With Walter Murch | https://ny411.com/blog/post/perspectives-on-editing-a-conversation-with-walter-murch | 2009-10 | 972
+- S030 | Walter Murch Discusses Sound Editing | https://www.videomaker.com/videonews/2008/01/walter-murch-discusses-sound-editing/ | 2008-01-21 | 757
+- S031 | From creation to self-destruction: Walter Murch at Sheffield Doc/Fest 2013 | https://www.bfi.org.uk/sight-and-sound/news/from-creation-self-destruction-walter-murch-sheffield-docfest-2013 | 2013-07-10 | 772
+- S032 | the wit and wisdom of Walter Murch at Sheffield Doc/Fest - FlickFilosopher.com | https://www.flickfilosopher.com/2013/06/the-wit-and-wisdom-of-walter-murch-at-sheffield-docfest.html | 2013-06-17 | 473
+- S033 | Catching 'Particle Fever': Walter Murch on Editing the Universe Down to Size | https://www.vice.com/en/article/catching-particle-fever-qa-with-walter-murch | 2013-06-06 | 2729
+- S034 | WCSFP ’13: “Particle Fever” team on making a physics thriller | https://realscreen.com/?p=65074 | undated | 2146
+- S035 | Walter Murch: How new technologies affect filmmaking | https://www.screenglobalproduction.com/news/2013/07/25/Walter-Murch-How-new-technologies-affect-filmmaking | 2013-07-25 | 1305
+- S036 | Walter Murch: searching for the sound of the God particle: IPS | https://ips.org.uk/?p=4078 | undated | 1140
+- S037 | Academy Award-Winning Film Legend Walter Murch Comes To ArtCenter For An Exclusive Conversation And Book Signing | https://cms.artcenter.edu/connect/college-news/academy-award-legend-walter-murch-exclusive-artcenter-visit.html | 2025-07 | 557
+- S038 | Learning how to wrap expensive gifts | https://www.webofstories.com/play/56347 | undated | 832
+- S039 | The discovery of Higgs boson and a new ending to our film | https://www.webofstories.com/play/56697 | undated | 985
+- S040 | Reducing | https://www.webofstories.com/play/56630 | undated | 989
+- S041 | Art of the Cut Podcast Eps. 32 (“Coup 53” Editor Walter Murch, ACE) by Avery Paskal - ProVideo Coalition | https://www.provideocoalition.com/art-of-the-cut-podcast-eps-32-coup-53-editor-walter-murch-ace/ | 2020-01-28 | 506
+- S042 | Art of the Cut Podcast Eps. 34 (Editor Walter Murch, ACE) by Avery Paskal - ProVideo Coalition | https://www.provideocoalition.com/art-of-the-cut-podcast-eps-34-walter-murch-ace/ | 2020-02-12 | 488
+- S043 | Art of the Cut Podcast Eps. 35 (Editor Walter Murch, ACE On Writing "The Conversations" & "In the Blink of an Eye") by Avery Paskal - ProVideo Coalition | https://www.provideocoalition.com/art-of-the-cut-podcast-eps-35-editor-walter-murch-ace/ | 2020-02-20 | 554
+- S044 | Art of the Cut Podcast Eps. 42: Walter Murch, ACE Answers Questions From You! by Avery Paskal - ProVideo Coalition | https://www.provideocoalition.com/art-of-the-cut-podcast-eps-42-walter-murch-ace-answers-questions-from-you/ | 2020-04-08 | 441
+- S045 | The Conversation, with Walter Murch | https://podcasts.apple.com/gb/podcast/the-conversation-with-walter-murch/id1625625579?i=1000661220553 | 2024-07-05 | 691
+- S046 | Walter Murch - Nibbling into a Delicious Movie | https://podcasts.apple.com/us/podcast/walter-murch-nibbling-into-a-delicious-movie/id1632759024?i=1000609401824 | 2023-04-18 | 806
+- S047 | STUDIOCANAL Presents - The Podcast / The Conversation, with Walter Murch | https://audioboom.com/posts/8534952-the-conversation-with-walter-murch | undated | 267
+- S048 | Podcast: Walter Murch on Editing, Technology and Films | https://kamlashow.com/2015/02/18/podcast-walter-murch-on-editing-technology-and-films/ | 2015-02-18 | 279
+- S049 | Masterclass with Walter Murch - Meet the Oscar®-Winning film and sound editor | https://www.youtube.com/watch?v=KuUUP2eP1_k | 2020-10-22 | 10742
+- S050 | Masterlass with Walter Murch Q&A Linda Jildmalm - Meet the Oscar®-Winning film and sound editor | https://www.youtube.com/watch?v=NZrcCOggHzo | 2020-03-16 | 9118
+- S051 | Frames of Representation: The Art of the Edit: A Masterclass with Walter Murch | https://www.youtube.com/watch?v=0a8axiUHoiY | 2016-09-14 | 9114
+- S052 | Apocalypse Now Q&A with Walter Murch | https://www.youtube.com/watch?v=d-RdITq5N6o | 2016-03-31 | 8820
+- S053 | Q & A with Walter Murch | https://www.youtube.com/watch?v=X2DvxCJYXi0 | 2025-03-17 | 7507
+- S054 | Academy Conversations: Making Waves: The Art of Cinematic Sound | https://www.youtube.com/watch?v=6Z-sSPgIOvc | 2019-10-30 | 2117
+- S055 | Conversations With Sound Artists: Cinema Sound Design and Film Editing (Part 1) / Podcast / Dolby | https://www.youtube.com/watch?v=yTgqlZ-EyQw | 2018-06-18 | 5791
+- S056 | THE CONVERSATION - Walter Murch and Fyodor Urnov in Conversation | https://www.youtube.com/watch?v=kktACRnHTl8 | 2022-02-22 | 8465
+- S057 | Walter Murch on the Languages of Film Editing and Sound Design / #DolbyCreatorTallks | https://www.youtube.com/watch?v=sWllPSXxg5U | 2026-10-20 | 10014
+- S058 | WALTER MURCH talks The Godfather, Apocalypse Now & Suddenly Something Clicked | https://www.youtube.com/watch?v=I7RUaxVq-yQ | 2025-05-09 | 13127
+- S059 | WALTER MURCH’S Life at the Movies (THE GODFATHER, APOCALYPSE NOW, AMERICAN GRAFFITI) | https://www.youtube.com/watch?v=i-aF4ARGnFE | 2026-05-21 | 9309
+- S060 | Afterimage: Walter Murch in Conversation | https://bampfa.org/program/afterimage-walter-murch-conversation | 2021-09-27 | 287
+- S061 | Podcast / In conversation with Walter Murch | https://filmstories.co.uk/news/podcast-in-conversation-with-walter-murch/ | 2025-05-30 | 389
+- S062 | Film Editor and Sound Designer Walter Murch. | https://freshairarchive.org/segments/film-editor-and-sound-designer-walter-murch | 1996-04-15 | 555
+- S063 | Film Editor and Sound Designer Walter Murch | https://freshairarchive.org/segments/film-editor-and-sound-designer-walter-murch-0 | 1997-03-28 | 481
+- S064 | Film Editor and Sound Designer Walter Murch | https://freshairarchive.org/segments/film-editor-and-sound-designer-walter-murch-1 | 1998-09-08 | 425
+- S065 | Film editor and sound designer Walter Murch | https://freshairarchive.org/segments/film-editor-and-sound-designer-walter-murch-2 | 2001-08-03 | 642
+- S066 | IRRESISTIBLE TARGETS: REDO THE REDUX: THE LOST WALTER MURCH INTERVIEW | https://irresistibletargets.blogspot.com/2012/08/redo-redux-lost-walter-murch-interview.html | 2012-08 | 3564
+- S067 | The Walter Murch-opedia / Jonny Elwyn - Film Editor | https://jonnyelwyn.co.uk/film-and-video-editing/the-walter-murch-opedia/ | 2025-03-03 | 7023
+- S069 | Watch: Illustrious Editor Walter Murch Discusses His Craft In Recent 90-Minute Masterclass | https://thefilmstage.com/watch-illustrious-editor-walter-murch-discusses-his-craft-in-recent-90-minute-masterclass | 2014-03-11 | 286
+- S070 | Midnight Radio: The Matineecast Episode 23.5 | https://thematinee.ca/midnight-radio-the-matineecast-episode-23-5 | 2010-11-08 | 250
+- S071 | Behind the Scenes with Film Editor Walter Murch | https://www.kaxe.org/2005-11-07/behind-the-scenes-with-film-editor-walter-murch | 2005-11-08 | 1178
+- S072 | Final Cut Pro used to edit ‘Cold Mountain’ | https://www.macworld.com/article/169234/murch.html | 2003 | 603
+- S073 | EDIT THIS! COLD MOUNTAIN'S FINAL CUT - Post Magazine | https://www.postmagazine.com/Publications/Post-Magazine/2003/December-1-2003/EDIT-THIS-COLD-MOUNTAINS-FINAL-CUT.aspx | 2003-12-01 | 1385
+- S074 | The economic impact of moving to Final Cut Pro | https://www.webofstories.com/play/56652 | undated | 1074
+- S075 | "Jarhead": The war without combat | https://www.webofstories.com/play/56659 | undated | 1180
+- S076 | Our documentary rejected at film festivals | https://www.webofstories.com/play/56698 | undated | 856
+- S077 | Walter Murch: The Godfather of Modern Sound Reflects On a Career That Changed Filmmaking | https://www.yahoo.com/entertainment/walter-murch-godfather-modern-sound-220020352.html | 2019-04-30 | 1052
+- S078 | Walter Murch the sound film man | https://www.filmsound.org/murch/soundfilmman.htm | undated | 2237
+- S079 | Walter Murch - the search for order in Sound & Pciture | https://www.filmsound.org/murch/waltermurch.htm | undated | 5593
+- S080 | The Sounds of Evil | https://www.filmsound.org/murch/evil/ | undated | 2779
+- S081 | In Conversation with Walter Murch | https://filmsound.org/murch/interview-with-walter-murch.htm | undated | 6925

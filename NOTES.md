@@ -1,5 +1,22 @@
 # Handoff log
 
+## 2026-11-04 — Cloud (BAB brains: full /newroaster rebuild in progress)
+**Did:** Tigran asked Cloud to rebuild the nine BAB brains itself, the way `/newroaster` builds seats, aiming at 10–19k words like the original seven. He opened the cloud network (Full).
+- **Step 2:** two search passes found 941 URLs.
+- **Step 3:** fetch.mjs needs `NODE_USE_ENV_PROXY=1` in the cloud. YouTube refuses cloud IPs ("not a bot"); paywalled and 403 pages were skipped, with no archive copies of walled content. Junk and duplicates were dropped. Deakins also got his own forum threads (topics where he posts as Keymaster).
+- **Clean corpora (words):** Murch 242k · Deakins 167k · Villeneuve 148k · Rhimes 139k · Blum 115k · Vermette 62k · Bajaria 57k · Bloys 49k · Quinn 47k.
+- **Step 4:** extraction with the original prompt, in batches of about 50k words. Murch is done: 838 quotes, check_quotes 0 errors.
+- **Step 5:** Murch's writers are running. His new sources.md is committed; his other brain files are still the old quick-web ones until the writers finish.
+
+The corpus and notes live in build/ (gitignored, as in the original). URL lists are in maghakian-roast-room/sources/<slug>/urls.txt.
+
+**Left:**
+- extraction for Villeneuve, Rhimes, Blum, Vermette, Bloys, Quinn, Bajaria and Deakins;
+- writers, `_hot.md`, check_quotes, agent update and test consult for each seat;
+- then a standard Gate 2 council for «Թարգմանչուհին».
+
+The usage limit stopped the agents once and they were resumed after the reset.
+
 ## 2026-11-04 — Cloud (BAB = the Roast Room, unchanged)
 **Did:** Tigran ruled that BAB must work exactly like the tested Roast Room repo, in both process and seat knowledge. I compared them.
 - **Same as the original:** agents built from the template, brains read per seat, written rounds, the scoring formula, a Chair who does not argue.
