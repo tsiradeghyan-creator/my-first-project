@@ -4,12 +4,12 @@ Built from the extract notes of 79 sources (59 of them carry his own words: inte
 
 ---
 
-## 1. Cost threshold and tool adoption *(unnamed; "a threshold was passed" is his phrase)*
+## 1. Cost threshold and tool adoption *(unnamed; "a threshold was passed" (S074) is his phrase)*
 - **What it is:** Judge a new post-production tool by what its price does to the way you work, not by the time it promises to save. When media and stations become nearly free, you stop rationing: more stations, assistants get to cut, experiments cost nothing. But the work expands, so post does not get cheaper or shorter.
 - **Parts:** (1) Price the change: with Avid he rationed two to four systems; with Final Cut he simply added a Mac, four stations for the price of one Avid (S072, S074). (2) Expect no net time saving: "saving time is fine in theory, but in practice it usually doesn't work that way." (S079) (3) Expect more footage: digital is easier for the director and harder for the editor (S018, S024). (4) Adopt by diving in for a couple of days to look for hidden problems, reading up, then asking editors who already cut on it (S023). (5) Keep the method, change the chisel: "I would make those same decisions today; I would just achieve them through different technologies." (S033) (6) Watch vendor lock-in: Apple dropped Final Cut under him in 2011 (S055); he values alternative systems (S073).
 - **When to use:** Choosing an editing system, in-house versus post house, how many edit stations and assistants, how to budget post on a cheaper toolset.
 - **How to score:** High if the lower cost per seat is spent on more people and more experiments, and working users of the tool were asked first. Low if the case rests on "it will save time" or bets the show on one closed vendor. (guidance, inferred from S053, S074, S079)
-- **View over time:** In 1968 he saw a computer editing system and expected electronic editing everywhere within five years; it took about 20 (S023, 2015; S059, 2026). Newer (2025): "Post-production is not cheaper" in his telling, because "work expands to fill the area available" (S053).
+- **View over time:** In 1968 he saw a computer editing system and expected electronic editing everywhere within five years; it took about 20 (S023, 2015; S059, 2026). Newer (2025): post-production is not cheaper today, he says, because "work expands to fill the area available" (S053).
 - **Quote:** "compared to working with film, the experience of working digitally is that it's free" (S074)
 - **Sources:** 14 (S017, S018, S020, S023, S024, S033, S051, S053, S055, S059, S072, S073, S074, S079)
 
@@ -23,7 +23,7 @@ Built from the extract notes of 79 sources (59 of them carry his own words: inte
 
 ## 3. Metaphoric sound (reassociation) *(his term)*
 - **What it is:** Sound that does not literally match the picture opens a gap the audience fills with its own meaning. The further the sound sits from the image, the more dimension the scene gains, until the thread snaps.
-- **Steps:** Strip the literal sounds. Choose the sound for what the character feels, not for what the object is (the Godfather door had to close with finality, S004, S058). Place a detached sound against the picture, like the elevated train before the Solozzo killing, "the sound that Michael Corleone's neurons are making" in his telling (S018, S055, S057). Keep sound and picture at right angles, not playing the same note (S049, S056). Push hard, and back off only if the film pushes back (S077).
+- **Steps:** Strip the literal sounds. Choose the sound for what the character feels, not for what the object is (the Godfather door had to close with finality, S004, S058). Place a detached sound against the picture, like the elevated train before the Solozzo killing (S018, S057): "the sound that Michael Corleone's neurons are making" (S055). Keep sound and picture at right angles, not playing the same note (S049, S056). Push hard, and back off only if the film pushes back (S077).
 - **When to use:** A scene's inner state is not reading; a picture problem will not yield; the picture budget is gone. Sound is "much less expensive than image" (S020).
 - **How to score:** 5 if the sound adds what the picture cannot show and the audience can still connect it; 3 if literal and clean; 1 if it duplicates the picture (on the nose) or is so far off the image that the connection breaks. (guidance, inferred from S004, S077)
 - **Quote:** "Once you stray into metaphoric sound, which is simply sound that does not match what you’re looking at, the human mind will look for deeper and deeper patterns." (S002)
@@ -45,7 +45,7 @@ Built from the extract notes of 79 sources (59 of them carry his own words: inte
 - **Quote:** "you can look at every screenplay every story and say with multiple characters is this story convergent divergent or single point of view" (S050)
 - **Sources:** 10 (S006, S013, S018, S019, S026, S050, S052, S056, S058, S079)
 
-## 6. Music channels emotion, it does not create it *(unnamed; "musical steroids" is his image)*
+## 6. Music channels emotion, it does not create it *(unnamed; "musical steroids" is his image, S055)*
 - **What it is:** Drama builds an emotional charge; well-placed music grounds it and tells the audience what to do with it. Music used to manufacture emotion is a steroid.
 - **Parts:** (1) Make the scene work on drama first (S002, S055). (2) Keep the freedom to use music or not at any moment; heavy early music makes the film dependent (S002). (3) Keep music sideways to the picture; mirroring it is on the nose, which is why an all-Doors score failed on Apocalypse Now (S052). (4) For tension, leave music out (S055, S032). (5) Temp music mixes its DNA with the film; best is none, and if used, expect a painful swap (S019, S050, S055). (6) Bring the composer on early, ideally during the shoot; music is "like another actor in the scene" (S050). (7) Separate source music in the scene from underscoring (S080). (8) Music asks less of an audience than abstract sound (S057); it can work as an emotional cutaway (S017).
 - **When to use:** Spotting sessions, temp-track decisions, when to hire the composer, music budget.
@@ -70,7 +70,7 @@ Built from the extract notes of 79 sources (59 of them carry his own words: inte
 - **Sources:** 8 (S009, S013, S017, S018, S019, S035, S057, S067)
 
 ## 9. Build first, then the plateau test *(unnamed)*
-- **What it is:** Montage means to build. Get to a whole assembly fast, with "eyes half-closed", without trying to fix the film yet. Then make pass after pass until the edits seem to trigger themselves. That plateau is when a scene is done for now.
+- **What it is:** Montage means to build. Get to a whole assembly fast, with "eyes half-closed" (S017), without trying to fix the film yet. Then make pass after pass until the edits seem to trigger themselves. That plateau is when a scene is done for now.
 - **Steps:** Just begin; the first step shrinks the mountain (S019, S067). Move from good piece to good piece (S053). Do not fix the film in the first assembly (S017). Build it before cutting it down (S056). Aim for speed to a full assembly (S057). Then list changes, redo, and repeat; by the third or fourth pass the cuts feel inevitable (S059). A scene cut before its neighbors exist is "shadow boxing"; stop at the plateau and wait (S059). Inspiration follows work, not waiting (S020).
 - **When to use:** Scheduling the assembly, deciding when a scene, episode or cut is done, judging whether an editor is polishing too early.
 - **How to score:** Done when edits feel self-triggered after three or four passes; not done while each pass still yields structural notes; over-worked if a scene is fine-cut before the scenes around it exist. (guidance, inferred from S017, S059)
@@ -121,7 +121,7 @@ Built from the extract notes of 79 sources (59 of them carry his own words: inte
 ## 15. The Rule of Six *(his name)*
 - **What it is:** Six things a cut should do, ranked: emotion, story, rhythm, eye-trace, the two-dimensional plane of the screen, and three-dimensional space. In the book he weights them 51, 23, 10, 7, 5 and 4 percent, so emotion outweighs the other five together (S067). When one cut cannot do all six, let go from the bottom.
 - **Steps:** Ask what emotion this cut should carry, whether it is the correct one, and how it relates to the scenes before and after (S025). Check the story still reads. Check rhythm. Check eye-trace, where about 90 percent of the audience is looking (S049). Continuity of screen direction and space comes last (S017, S049). Drop items from the bottom up; if one of the top three must go, rhythm goes first (S017). You may drop story for pure emotion briefly, like astronauts weightless for 45 seconds, then land back on story (S017). You may confuse the audience slightly, but not for long (S049).
-- **When to use:** Every cut decision, and every argument about a "mistake" where a continuity error buys emotional truth.
+- **When to use:** Every cut decision, and every argument about a mistake where a continuity error buys emotional truth.
 - **How to score:** Score a cut by the highest item it serves and the highest it breaks. Breaking only spatial continuity to keep emotion is a good trade; breaking emotion to keep continuity is a bad one. (guidance, inferred from S017, S067)
 - **View over time:** He calls the weights "slightly tongue-in-cheek" (S067) and says he "had to make the numbers jump around" (S017, 2020). Newer (2026): the list is a self-correction for an analytical editor like him; a purely emotional editor would need to be reminded that technique matters (S059). That matches the book's introduction, which frames its advice as warnings to himself (S002).
 - **Quote:** "my recommendation is to let go from the bottom of the list up." (S017)
@@ -145,7 +145,7 @@ Built from the extract notes of 79 sources (59 of them carry his own words: inte
 
 ## 18. A director of photography for sound *(his phrase)*
 - **What it is:** The director needs one person to talk to about the whole sound, as they talk to the DP about the image. That person designs and mixes, and runs a three-legged race with the picture editor from the assembly on.
-- **Parts:** One sound lead who can both design and mix (S004, S079). Avoid the old Hollywood split between sound editing and re-recording, which he compares to separating the lighting director from the camera operator (S077). Sketch key sound moments during the assembly, skip Foley detail, hand off early (S053). Keep picture and sound feeding each other; ideally the composer is on during the shoot (S050). He does not like locking picture and handing it over (S050). One person doing both picture and sound "is not something that will become the norm" (S024). Power on a film goes to whoever controls a bottleneck (S004).
+- **Parts:** One sound lead who can both design and mix (S004, S079). Avoid the old Hollywood split between sound editing and re-recording, which he compares to separating the lighting director from the camera operator (S077). Sketch key sound moments during the assembly, skip Foley detail, hand off early (S053). Keep picture and sound feeding each other; ideally the composer is on during the shoot (S050). He does not like locking picture and handing it over (S050). On one person doing both picture and sound: "I think it’s not something that will become the norm, simply because you have to have interests in both areas." (S024) Power on a film goes to whoever controls a bottleneck (S004).
 - **When to use:** Hiring post staff, deciding whether the editor also handles sound, setting when sound work starts.
 - **How to score:** High if the sound lead starts before picture lock and sound is sketched in the assembly; low if locked picture is thrown over the wall to a separate department. (guidance, inferred from S050, S053)
 - **Quote:** "it's a three-legged race between you, the editor, picture editor, and the sound designer" (S053)
@@ -161,7 +161,7 @@ Built from the extract notes of 79 sources (59 of them carry his own words: inte
 
 ## 20. Heart scenes and umbilical cords *(his image)*
 - **What it is:** Some scenes are the heart of the film. Others are umbilical cords: they fed the project, often they were the director's way in, and once the film is born they can be cut. To find them, cut the scene that seems most essential and see what the others carry, like a DP switching off the key light.
-- **Steps:** Ask of each threatened scene: heart or umbilical cord (S017, S050). Run the key-light test: remove the "most important" scene and watch (S017). Be suspicious of scenes that state their message too directly (S025). Check payoffs far away: a removed scene may hold up the ending, as in Ghost (S017). If a pivot scene goes, build a new pivot (S017). The test case is Julia: the director's favorite scene went after previews, and the audience found its footing sooner (S025, S050, S058).
+- **Steps:** Ask of each threatened scene: heart or umbilical cord (S017, S050). Run the key-light test: remove the scene that seems most important and watch (S017). Be suspicious of scenes that state their message too directly (S025). Check payoffs far away: a removed scene may hold up the ending, as in Ghost (S017). If a pivot scene goes, build a new pivot (S017). The test case is Julia: the director's favorite scene went after previews, and the audience found its footing sooner (S025, S050, S058).
 - **When to use:** Over length, previews show no traction at the start, a director or writer defends a favorite scene.
 - **How to score:** Cut if the film closes over the gap and nothing later depends on it; keep if a payoff or pivot downstream needs it. (guidance, inferred from S017, S050)
 - **Quote:** "certain scenes are heart scenes and other scenes are like umbilical cords." (S017)
@@ -188,7 +188,7 @@ Built from the extract notes of 79 sources (59 of them carry his own words: inte
 - **What it is:** When set sound is unusable, replace it, but make clean studio dialogue sound like it was recorded on location, and schedule it by arithmetic.
 - **Parts:** Schedule about eight lines per hour: lines per actor times actors, divided by eight (S050). Use the same type of microphone as the set, hide it so the actor is "naked with the image", baffle the room (S050, S052). Roll off the low end and damage it slightly (S052, S055). Make actors truly shout when the scene shouts (S050). On Apocalypse Now nearly all dialogue was ADR: 92 percent in one telling (S052), 98 in another (S006).
 - **When to use:** Budgeting and scheduling ADR, deciding between ADR and fixing production sound.
-- **How to score:** ADR that sounds "too good" fails; flag any line that sounds like a studio. (guidance, inferred from S052, S055)
+- **How to score:** ADR that sounds too clean fails; flag any line that sounds like a studio. (guidance, inferred from S052, S055)
 - **Quote:** "in general I schedule about eight lines of ADR per hour of recording time" (S050)
 - **Sources:** 4 (S006, S050, S052, S055)
 
