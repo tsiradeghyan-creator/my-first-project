@@ -1,18 +1,113 @@
 # Sources: Denis Villeneuve
 
-12 sources (12 local), 570 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+107 sources (106 web, 1 video), 148,029 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
 
 Format: id | title | url | date | words
 
-- S001 | The Times 2024 via Yahoo: dialogue and image | https://au.news.yahoo.com/denis-villeneuve-frankly-hate-dialogue-210834835.html | 2024-02 | 62
-- S002 | GamesRadar: BFI London Film Festival talk, a film without spoken language | https://gamesradar.com/entertainment/sci-fi-movies/dune-director-denis-villeneuve-wants-to-make-a-silent-movie-one-day-i-love-dialogue-but-not-always-in-cinema | 2024 | 40
-- S003 | VFX Voice: storyboards as rewriting through images | https://vfxvoice.com/from-set-to-pixels-cinematic-artists-come-together-to-create-poetry/ | 2024 | 81
-- S004 | Interview 2016 (Arrival press): free on set | https://www.yahoo.com/tv/arrival-denis-villeneuve-blade-runner-233028647.html | 2016 | 42
-- S005 | IndieWire career lookback: bond with actors | https://www.indiewire.com/p/denis-villeneuve-career-lookback-interview | 2024 | 45
-- S006 | New York Times via Gizmodo: real locations, no green screen | https://gizmodo.com/denis-villeneuve-explains-why-dune-had-to-be-filmed-in-1844859089 | 2020 | 48
-- S007 | Total Film via TheWrap: Dune on a TV | https://thewrap.com/denis-villeneuve-dune-on-tv-like-speedboat-in-your-bathtub | 2021 | 33
-- S008 | TIFF remarks: streaming | https://bpbpd.wpengine.com/entertainment/denis-villeneuve-and-other-tiff-talent-on-their-at-home-pandemic-viewing | 2020 | 35
-- S009 | Team Deakins podcast via Yahoo/Slashfilm: learning from Deakins | https://www.slashfilm.com/575318/denis-villeneuve-roger-deakins-dune | 2021 | 42
-- S010 | Time 2024: Dune Part Two interview, adaptation | https://time.com/6589871/denis-villeneuve-dune-part-two-interview | 2024-02 | 51
-- S011 | Rolling Stone 2021 via Yahoo: fear and excitement | https://sports.yahoo.com/timoth-e-chalamet-denis-villeneuve-213012522.html | 2021 | 48
-- S012 | The Mary Sue: what the movie says about the director | https://www.themarysue.com/denis-villeneuve-interview-what-everyone-gets-wrong-about-dune/ | 2024 | 43
+- S001 | Denis Villeneuve: “If I had done the sandworm sequence myself, I’d still be shooting today”: LFF Screen Talk | https://bfi.org.uk/features/denis-villeneuve-screen-talk | 2024-10-14 | 848
+- S002 | DUNE: Denis Villeneuve Talks About the Movie, Filming it, Covid-19, & His Career During SIFF 2020's Master Class Series | https://film-book.com/dune-denis-villeneuve-talks-about-the-movie-filming-it-covid-19-his-career-during-siff-2020s-master-class-series/ | 2020-08-03 | 516
+- S003 | "Dune: Part Three" Trailer Event And Q&A With Director Denis Villeneuve And The Cast | https://www.youtube.com/watch?v=W-P2bgzs1Ow | 2026-03-17 | 3515
+- S004 | Director Denis Villeneuve discusses <em>Dune</em> | https://www.dga.org/events/2021/november2021/dune_qna_1021 | 2021-10-10 | 428
+- S005 | The Vision of Dune: A Conversation with Denis Villeneuve | https://2024.tiffr.com/films/the-vision-of-dune-a-conversation-with-denis-villeneuve | undated | 287
+- S006 | Blade Runner 2049 / Denis Villeneuve / Talks at Google: Talks at Google: Rosetta | https://rosetta.to/u/talksatgoogle/blade-runner-2049-denis-villeneuve-talks-at-google | 2017-09-29 | 6150
+- S007 | Denis Villeneuve & Christopher Nolan Discuss Dune and Big Screen Cinema in 30-Minute Conversation | https://thefilmstage.com/denis-villeneuve-christopher-nolan-discuss-dune-and-big-screen-cinema-in-30-minute-conversation/ | 2021-10-24 | 351
+- S008 | Episode 119: Dune Part II with Denis Villeneuve - Script Apart | https://www.scriptapart.com/episodes/dune-part-2-denis-villeneuve-spoiler-interview | 2024-12-16 | 466
+- S009 | Denis Villeneuve Interview / | https://cinemablend.com/podcasts/denis-villeneuve-interview-or-dune-part-two-completing-the-trilogy-and-more | 2024-03-01 | 449
+- S010 | Denis Villeneuve on Zendaya’s Role in ‘Dune: Part 2’ and Wanting to Direct an Adam McKay-Written Comedy | https://variety.com/2022/film/awards/denis-villeneuve-dune-2-oscars-zendaya-podcast-1235209172/amp | 2022-03-18 | 1007
+- S011 | Denis Villeneuve explains how Quebec's history plays into his sweeping vision for Dune: Part Two / CBC Arts | https://amp.cbc.ca/arts/q/denis-villeneuve-explains-how-quebec-s-history-plays-into-his-sweeping-vision-for-dune-part-two-1.7137979 | 2024-03-11 | 828
+- S012 | Dune director Denis Villeneuve on adapting Frank Herbert's notoriously unfilmable sci-fi epic | https://amp.cbc.ca/lite/story/1.6215592 | 2021-10 | 956
+- S013 | Denis Villeneuve Refuses to Let Hollywood Shrink Him Down to Size | https://time.com/6589871/denis-villeneuve-dune-part-two-interview | 2024-01-31 | 1417
+- S014 | Denis Villeneuve on ‘Dune: Part Two,’ The Best Way to Watch It, and His Plans For ‘Dune Messiah’ | https://screencrush.com/denis-villeneuve-dune-part-two-interview/ | 2024-02-26 | 2719
+- S015 | Denis Villeneuve Talks Making Dune: Part Two an Epic Theatrical Experience | https://gizmodo.com/denis-villeneuve-interview-dune-part-2-sandworms-lego-1851288462 | 2024-02-28 | 2078
+- S016 | ‘Dune: Part Two’ Director Denis Villeneuve Is Ready for Another Round: ‘I Want to Go Back to Arrakis’ | https://www.thewrap.com/dune-part-two-future-denis-villeneuve-interview | 2025-01-08 | 1022
+- S017 | Denis Villeneuve Might Return to Canadian Indies: but Until Then He Loves What He's 'Dune' │ Exclaim! | https://exclaim.ca/film/article/denis-villeneuve-interview-dune-part-two | 2024-03-01 | 894
+- S018 | Dune Part Two: Five Things We Learned From Denis Villeneuve | https://empireonline.com/movies/features/dune-part-two-denis-villeneuve-interview-five-things-we-learned | 2024-03-18 | 1169
+- S019 | Storyboarding 'Dune' since he was 13, Denis Villeneuve is 'still pinching' himself | https://npr.org/2024/02/28/1234472127/dune-denis-villeneuve | 2024-02-28 | 1439
+- S020 | Dune director Denis Villeneuve on his epic new sci-fi | https://www.timeout.com/film/denis-villeneuve-interview-dune-timothee-chalamet | 2021-10-21 | 1683
+- S021 | Denis Villeneuve Talks ‘Dune 2’ and Why ‘Blade Runner 2049’ Still Keeps Him Up at Night | https://www.hollywoodreporter.com/movies/movie-features/dune-part-two-denis-villeneuve-directing-timothee-chalamet-zendaya-1235837162/ | 2024-03-01 | 3338
+- S022 | Dune: Part 2 director Denis Villeneuve: ‘I loved the idea of divers in the desert’ | https://www.irishtimes.com/culture/film/2024/02/24/dune-part-2-director-denis-villeneuve-i-loved-the-idea-of-divers-in-the-desert | 2024-02-24 | 1919
+- S023 | DUNE: PART TWO Director Denis Villeneuve on Tackling the Known and the Unknown for his Sci-Fi Epic | https://edwarddouglas.substack.com/p/dune-part-two-director-denis-villeneuve | 2024-03-06 | 2062
+- S024 | Denis Villeneuve Breaks Down the One Thing Everyone Gets Wrong About 'Dune' | https://www.themarysue.com/denis-villeneuve-interview-what-everyone-gets-wrong-about-dune/ | 2024-02-06 | 485
+- S025 | Denis Villeneuve: “Frankly, I Hate Dialogue. Dialogue Is For Theatre And Television” | https://au.news.yahoo.com/denis-villeneuve-frankly-hate-dialogue-210834835.html | 2024-02-26 | 587
+- S026 | Dune director Denis Villeneuve wants to make a silent movie one day: | https://gamesradar.com/entertainment/sci-fi-movies/dune-director-denis-villeneuve-wants-to-make-a-silent-movie-one-day-i-love-dialogue-but-not-always-in-cinema | 2024-10-14 | 535
+- S027 | FROM SET TO PIXELS: CINEMATIC ARTISTS COME TOGETHER TO CREATE POETRY | https://vfxvoice.com/from-set-to-pixels-cinematic-artists-come-together-to-create-poetry/ | 2025-06-03 | 4121
+- S028 | Denis Villeneuve | https://www.indiewire.com/p/denis-villeneuve-career-lookback-interview | 2024-12-20 | 2685
+- S029 | Denis Villeneuve Talks ‘Dune 2’ and Why ‘Blade Runner 2049’ Still Keeps Him Up at Night | https://uk.news.yahoo.com/denis-villeneuve-talks-long-road-140000401.html | 2024-03-01 | 3226
+- S030 | Denis Villeneuve Says Hollywood Is in a ‘Very Conservative Time’: ‘Everything’s About Wall Street’ | https://ca.news.yahoo.com/denis-villeneuve-says-hollywood-very-183000051.html | 2024-01-31 | 517
+- S031 | ‘Dune 2’ Director Denis Villeneuve Says Epic Sandworm-Riding Scene Took ‘Sometimes a Week for One Shot’ and Required a Separate Unit: ‘If I Had Done It Myself,  | https://au.lifestyle.yahoo.com/dune-2-director-denis-villeneuve-122104192.html | 2024-10-12 | 502
+- S032 | Dune: Denis Villeneuve talks books, Part Two, and the future of cinema | https://www.gamesradar.com/dune-denis-villeneuve-interview-books-cinema/ | 2021-10-20 | 1925
+- S033 | Denis Villeneuve Says ‘Dune 3’ Is ‘Not Like a Trilogy’ and Will Be His Last ‘Dune’ Movie | https://au.variety.com/2024/film/global/denis-villeneuve-dune-3-not-a-trilogy-17493 | 2024-09-10 | 619
+- S034 | Denis Villeneuve Confirms Dune 3 Will Be His Last Movie In The Franchise | https://empireonline.com/movies/news/denis-villeneuve-confirms-dune-3-will-be-his-last-movie-in-the-franchise | 2024-09-11 | 488
+- S035 | Denis Villeneuve wanted to return to direct Dune 3 because he's "tired" of the material | https://www.avclub.com/denis-villeneuve-dune-3-tired-of-franchise | 2026-10-15 | 488
+- S036 | Denis Villeneuve Sees His James Bond Movie as a 'Powerful Rocket' Separating Him From 'Dune' | https://gizmodo.com/denis-villeneuve-sees-his-james-bond-movie-as-a-powerful-rocket-separating-him-from-dune-2000826671 | 2026-10-15 | 330
+- S037 | Villeneuve Offers "Dune 3," Next Bond Updates | https://www.darkhorizons.com/?p=195173 | 2026-10-17 | 369
+- S038 | Ten minutes with Denis Villeneuve / The Main | https://www.themain.com/fr/articles/denis-villeneuve-dune-part-two-montreal-interview | 2025-07-15 | 388
+- S039 | Denis Villeneuve revient sur cette demande de Timothée Chalamet: «j'ai échoué» | https://www.noovomoi.ca/en-vedette/denis-villeneuve-demande-de-timothee-chalamet.html | 2024-04-03 | 268
+- S040 | Denis Villeneuve Talks Turning Dreams to Reality | https://dunenewsnet.com/2022/02/denis-villeneuve-thr-interview-dreams-reality-dune-movie/ | 2022-02-03 | 1472
+- S041 | Dune director Denis Villeneuve: "It was, by far, the toughest thing I | https://www.gamesradar.com/dune-denis-villeneuve-interview-tough | 2021-08-17 | 741
+- S042 | Denis Villeneuve Interview: Dune | https://screenrant.com/dune-2021-movie-denis-villeneuve-interview | 2021-10-11 | 658
+- S043 | The Man Who Finally Made a 'Dune' That Fans Will Love | https://portside.org/node/26934/printable/print | 2021-10-17 | 5302
+- S044 | Denis Villeneuve doesn’t want to talk about Dune with David Lynch | https://www.dazeddigital.com/film-tv/article/54483/1/denis-villeneuve-wouldnt-discuss-dune-with-david-lynch-given-the-chance | 2021-10-12 | 556
+- S045 | Denis Villeneuve Explains Why Dune Had to Be Filmed in the Real World | https://gizmodo.com/denis-villeneuve-explains-why-dune-had-to-be-filmed-in-1844859089 | 2020-09-11 | 804
+- S046 | Denis Villeneuve Says Watching 'Dune' on a TV Is Like Driving a 'Speedboat in Your Bathtub' | https://thewrap.com/denis-villeneuve-dune-on-tv-like-speedboat-in-your-bathtub | 2021-08-17 | 401
+- S047 | Denis Villeneuve Was Influenced By Roger Deakins While Making | https://www.slashfilm.com/575318/denis-villeneuve-roger-deakins-dune | 2020-07-13 | 542
+- S048 | Timothée Chalamet and Denis Villeneuve on Overcoming Their Fears to Make ‘Dune’ | https://sports.yahoo.com/timoth-e-chalamet-denis-villeneuve-213012522.html | 2021-10-24 | 1169
+- S049 | 'Blade Runner 2049' Director Denis Villeneuve On Creating The Future [Interview] | https://www.slashfilm.com/blade-runner-2049-denis-villeneuve-interview | 2017-07-27 | 2414
+- S050 | 'Blade Runner 2049' Director Denis Villeneuve On Building The Future And Taking Ridley Scott's Advice [Interview] | https://www.slashfilm.com/553719/blade-runner-2049-denis-villeneuve-interview-2/ | 2017-10-05 | 2489
+- S051 | Denis Villeneuve interview: Blade Runner 2049, marketing and design / Den of Geek | https://www.denofgeek.com/?p=387928 | 2018-02-01 | 2784
+- S052 | Denis Villeneuve: Blade Runner 2049, practical effects, Arrival / Den of Geek | https://www.denofgeek.com/?p=388254 | 2017-10-03 | 4022
+- S053 | The Blade Runner director on Ryan Gosling as a perfect muse | https://www.dazeddigital.com/film-tv/article/37628/1/blade-runner-2049-denis-villeneuve-interview | 2017-10-02 | 2061
+- S054 | Great Scott: Villeneuve on living up to Blade Runner legacy with 2049 - FilmInk | https://www.filmink.com.au/?p=31007 | 2017-10-02 | 1217
+- S055 | Blade Runner 2049 Director Denis Villeneuve Makes Peace With Enormous Expectations | https://www.motionpictures.org/2017/06/blade-runner-2049-director-denis-villeneuve-makes-peace-enormous-expectations/ | 2017-06-20 | 496
+- S056 | Team behind Arrival and Sicario takes on Blade Runner 2049 | https://www.timeout.com/film/director-denis-villeneuve-and-cinematographer-roger-deakins-on-making-blade-runner-2049 | 2017-10-06 | 1147
+- S057 | Q&A: ‘Blade Runner 2049’ director Denis Villeneuve doesn’t want to live in 2017, either | https://mic.com/articles/186325/qanda-blade-runner-2049-director-denis-villeneuve-doesnt-want-to-live-in-2017-either | 2017-11-24 | 1703
+- S058 | Blade Runner 2049 Director Says He Was ‘Frightened’ to Make the Movie / Den of Geek | https://www.denofgeek.com/movies/blade-runner-2049-director-says-he-was-frightened-to-make-the-movie | 2017-10-04 | 1527
+- S059 | ‘Arrival’s Denis Villeneuve: ‘Blade Runner’ Is “The Biggest Artistic Challenge I’ve Had In My Life” | https://www.yahoo.com/tv/arrival-denis-villeneuve-blade-runner-233028647.html | 2017-02-14 | 1237
+- S060 | Arrival: Denis Villeneuve Explains His Sci-Fi Opus / Den of Geek | https://www.denofgeek.com/movies/arrival-denis-villeneuve-explains-his-sci-fi-opus/ | 2016-12-05 | 1997
+- S061 | Denis Villeneuve on his sci-fi fixation, belief in aliens, and terror at remaking 'Blade Runner' | https://www.sbs.com.au/movies/article/2016/11/04/denis-villeneuve-his-sci-fi-fixation-belief-aliens-and-terror-remaking-blade | 2016-11-04 | 942
+- S062 | Sicario: Interview with Denis Villeneuve | https://theasc.com/blog/the-film-book/sicario-interview-with-denis-villeneuve | 2015-10-02 | 2012
+- S064 | Filmmaker Denis Villeneuve: From the suspense of 'Sicario' to the pressure of 'Blade Runner' | https://laist.com/shows/the-frame/filmmaker-denis-villeneuve-from-the-suspense-of-sicario-to-the-pressure-of-blade-runner | 2015-09-18 | 1286
+- S065 | SICARIO - Interview with director Denis Villeneuve - Highlight, interviews • Movies.ie - Irish Cinema Site | https://www.movies.ie/denis-villeneuve-talks-sicario/ | 2015-10-05 | 867
+- S066 | Denis Villeneuve interview: Sicario, Kurosawa, sci-fi, ugly poetry / Den of Geek | https://www.denofgeek.com/?p=389978 | 2015-09-24 | 2684
+- S067 | Video Interview: Denis Villeneuve (Sicario) - IONCINEMA.com | https://www.ioncinema.com/interviews/video-interview-denis-villeneuve-sicario-2015-cannes-film-festival-main-comp-selection | 2015-04-17 | 635
+- S068 | Director Denis Villeneuve Talks PRISONERS, Working with Roger Deakins, Deleted Scenes, and More | https://collider.com/denis-villeneuveprisoners-interview/ | 2013-09-19 | 656
+- S069 | Friendly Persuasion: Denis Villeneuve talks about Enemy & Prisoners | https://www.flickeringmyth.com/?p=3278 | 2013-10-02 | 1154
+- S070 | Interview with Denis Villeneuve for PRISONERS - interviews • Movies.ie - Irish Cinema Site | https://www.movies.ie/interview-with-denis-villeneuve-for-prisoners/ | 2013-09-23 | 1723
+- S071 | Jake Gyllenhaal & Director Denis Villeneuve on Prisoners & Enemy | https://www.motionpictures.org/2013/09/jake-gyllenhaal-director-denis-villeneuve-on-prisoners-enemy/ | 2013-09-18 | 949
+- S072 | Catching Up With Enemy Director, Denis Villeneuve | https://www.pastemagazine.com/article/catching-up-with-enemy-director-denis-villeneuve | 2014-03-20 | 1813
+- S073 | Interview: Denis Villeneuve - Toronto Film Critics Association | https://torontofilmcritics.com/features/interview-denis-villeneuve/ | 2015-01-19 | 3105
+- S074 | An Interview With: Denis Villeneuve - Toronto Film Critics Association | https://torontofilmcritics.com/features/interview-denis-villeneuve-2/ | 2017-02-22 | 2171
+- S075 | Double or nothing: Denis Villeneuve - The Berliner | https://www.the-berliner.com/film/film-interview-denis-villeneuve/ | 2014-05-22 | 616
+- S076 | Denis Villeneuve Turns a Corner - Interview Magazine | https://interviewmagazine.com/film/denis-villeneuve-enemy | 2014-03-14 | 1720
+- S077 | Interview: Denis Villeneuve talks Enemy and Jake Gyllenhaal / Where to watch online in UK / How to stream legally / When it is available on digital / VODzilla.c | https://vodzilla.co/interviews/interview-enemy-director-denis-villeneuve/ | undated | 2413
+- S078 | Interview: Director Denis Villeneuve Keeps His ENEMY Close - Nerdist | https://archive.nerdist.com/interview-director-denis-villeneuve-keeps-his-enemy-close | 2014-03 | 2443
+- S079 | Denis Villeneuve Pushed Jake Gyllenhaal | https://www.slashfilm.com/1147730/denis-villeneuve-pushed-jake-gyllenhaals-acting-to-the-verge-of-chaos-while-filming-enemy | 2022-12-23 | 901
+- S080 | Blood lines: Denis Villeneuve on Incendies | https://www.bfi.org.uk/sight-and-sound/interviews/blood-lines-denis-villeneuve-incendies | 2011-06-21 | 979
+- S081 | Incendies: Denis Villeneuve interview | https://www.sbs.com.au/movies/article/2011/04/20/incendies-denis-villeneuve-interview | 2011-04-20 | 1228
+- S082 | Denis Villeneuve tells Incendies' tale of twins | https://www.straight.com/node/30383 | 2011-01-19 | 741
+- S083 | FFTraveler Podcast: Interview with Incendies Director Denis Villeneuve - Film Festival Traveler | https://filmfestivaltraveler.com/film-arts/film-arts-interviews/1125-vn-66 | 2011-01 | 510
+- S084 | Filmmaker adapts play about Canadian twins' journey to Lebanon / The National | https://www.thenationalnews.com/arts/filmmaker-adapts-play-about-canadian-twins-journey-to-lebanon-1.368975 | 2012-06-28 | 754
+- S085 | Denis Villeneuve makes Enemy in Toronto | https://www.straight.com/node/73428 | 2014-03-12 | 354
+- S086 | 'Dune' Director Denis Villeneuve : Fresh Air | https://www.npr.org/2024/02/28/1197963543/denis-villeneuve | 2024-02-28 | 291
+- S087 | Awards Watch - Director Watch Podcast Ep. 35: ‘Dune: Part Two’ (Denis Villeneuve, 2024) | https://awardswatch.com/?p=102606 | 2024-03-01 | 659
+- S088 | The Next Best Picture Podcast - Interviews With "Dune" Director, Denis Villeneuve, Visual Effects Supervisor, Paul Lambert & Makeup Designer, Donald Mowat - Nex | https://nextbestpicture.com/the-next-best-picture-podcast-interviews-with-dune-director-denis-villeneuve-visual-effects-supervisor-paul-lambert-makeup-designer-donald-mowat | 2022-01-13 | 556
+- S089 | Denis Villeneuve Teases Dune: Messiah and Cleopatra on the Awards Tour Podcast | https://editorial.rottentomatoes.com/article/denis-villeneuve-awards-tour-podcast | 2024-12-16 | 726
+- S090 | Denis Villeneuve: ‘I’m obsessed by the idea that… / Little White Lies | https://lwlies.com/interviews/denis-villeneuve-dune/ | 2021-10-19 | 3001
+- S091 | Denis Villeneuve: Journey To Arrival | https://500daysoffilm.com/2016/11/25/denis-villeneuve-journey-to-arrival | 2016-11-25 | 1529
+- S092 | Denis Villeneuve discusses 'Dune' with Guillermo del Toro | https://faroutmagazine.co.uk/denis-villeneuve-dune-guillermo-del-toro/ | 2021-10-25 | 529
+- S093 | Denis Villeneuve Screen Talk LFF 2024: Science Fiction and Silence | https://www.strandmagazine.co.uk/single-post/denis-villeneuve-screen-talk-lff-2024-science-fiction-and-silence | 2024-10-22 | 768
+- S094 | The Interview: Denis Villeneuve on 'Dune' and inspiration from feminity | https://entertainment.ie/movie-news/denis-villeneuve-interview-dune-497293 | 2021-10-20 | 1177
+- S095 | An interview with the incredible Denis Villeneuve | https://cultmtl.com/2015/09/interview-denis-villeneuve/ | 2015-09-28 | 954
+- S096 | Denis Villeneuve, de vision et de détermination | https://www.ledevoir.com/culture/cinema/808202/entrevue-denis-villeneuve-vision-determination | 2024-02-29 | 1632
+- S097 | Denis Villeneuve, trente ans de cinéma | https://www.ledevoir.com/culture/cinema/819603/denis-villeneuve-trente-ans-cinema | 2024-09-11 | 1875
+- S098 | «Incendies» : le feu sacré de Denis Villeneuve | https://www.ledevoir.com/culture/cinema/852361/incendies-feu-sacre-denis-villeneuve | 2025-03-06 | 1041
+- S099 | Denis Villeneuve en son Palais, à Cannes | https://www.ledevoir.com/culture/cinema/527362/villeneuve-au-palais | 2018-05-10 | 929
+- S100 | Denis Villeneuve et son double | https://www.ledevoir.com/culture/cinema/401891/denis-villeneuve-et-son-double | 2014-03-08 | 884
+- S101 | ​Nos personnalités de l’année 2021 : Denis Villeneuve, cinéaste | https://www.ledevoir.com/actualites/societe/656865/nos-personnalites-de-l-annee-2021-nos-personnalites-de-l-annee-2021-denis-villeneuve-cineaste | 2021-12-24 | 711
+- S102 | Dune: Part One / Denis Villeneuve en toute franchise | https://www.lapresse.ca/cinema/entrevues/2021-08-20/dune-part-one/denis-villeneuve-en-toute-franchise.php | 2021-08-20 | 2951
+- S103 | Denis Villeneuve et Dune / « Je suis en paix » | https://www.lapresse.ca/cinema/entrevues/2021-10-19/denis-villeneuve-et-dune/je-suis-en-paix.php | 2021-10-19 | 1000
+- S104 | La sensibilité québécoise de Denis Villeneuve dans l’adaptation de Dune / OHdio / Radio-Canada | https://ici.radio-canada.ca/ohdio/premiere/emissions/tout-un-matin/segments/entrevue/481502/science-fiction-cinema-film-livre | 2024-02-29 | 344
+- S105 | Denis Villeneuve en période de recul, d’analyse et de reconnaissance / Radio-Canada | https://ici.radio-canada.ca/nouvelle/2058576/denis-villeneuve-dune-cinema-recnnaissance | 2024-03-19 | 1631
+- S106 | Denis Villeneuve aux portes de Dune / Radio-Canada | https://ici.radio-canada.ca/nouvelle/1817972/denis-villeneuve-dunes-mostra-venise | 2021-08-20 | 2454
+- S107 | Dune, le rêve d’adolescence de Denis Villeneuve / ICI Télé / Radio-Canada | https://ici.radio-canada.ca/tele/blogue/1836633/dune-denis-villeneuve-cinema-film-reve | undated | 990
+- S108 | Rencontre avec Denis Villeneuve, membre du Jury des Longs Métrages - Festival de Cannes | https://www.festival-cannes.com/2018/rencontre-avec-denis-villeneuve-membre-du-jury-des-longs-metrages/ | 2018-05-15 | 928
