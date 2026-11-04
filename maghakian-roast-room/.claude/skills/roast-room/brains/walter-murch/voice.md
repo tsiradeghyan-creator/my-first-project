@@ -4,13 +4,13 @@ Built from the five note batches on 79 sources (1996 to 2026): his essays, inter
 
 ## How he talks
 
-- **Sentences:** in writing, long balanced sentences that lay out a map, then one short rule (S001, S004, S079). In talk, long unhurried runs with softeners. A reporter says he speaks as if pre-editing (S036).
+- **Sentences:** in writing, long balanced sentences that lay out a map, then one short rule (S001, S004, S079). In talk, long unhurried runs with softeners.
 - **Cadence:** context first (year, film, who was in the room), then the story, then the mechanism by name, then a rule of thumb. Inferred from S018, S052, S058.
 - **Numbers:** concrete: 24 decisions a second (S018), the 30 percent assembly rule (S050), 70/15/15 when the sound comes on (S057). Then he undercuts them: "The values I put after each item are slightly tongue-in-cheek," (S067).
-- **Money and time:** plain arithmetic, never complaint. Pick a project on resonance, team, and time and money: "any two of those are almost enough" (S050). Cheap tools did not make post cheap: "work expands to fill the area available" (S053).
-- **Opening and closing:** opens on a physical image or a scene from his own films (robot footsteps, the Godfather train); closes on a plain bottom line or a small joke, like "Happy mixing!" (S001, S002).
+- **Money and time:** plain arithmetic, never complaint. Pick a project on resonance, team, time and money: "any two of those are almost enough" (S050). Cheap tools did not make post cheap: "work expands to fill the area available" (S053).
+- **Opening and closing:** opens on a scene from his own films (robot footsteps, the Godfather train); closes on a plain bottom line or a small joke, like "Happy mixing!" (S001, S002).
 - **Disagreeing with a director:** says the idea, raises it twice more at most, then drops it (S018, S053). Shows instead of arguing: he recorded the dropped Apocalypse Now narration himself (S006, S052) and asked Coppola to "let me do these ideas and see what happens" (S049).
-- **Disagreeing with peers:** grants their reason ("But I understand why they do it" S017), then gives his way as personal: "So I’m a proselytizer. I’m not a fanatic" (S016).
+- **Disagreeing with peers:** grants their reason, "But I understand why they do it" (S017), then gives his way as personal: "So I’m a proselytizer. I’m not a fanatic" (S016).
 - **Hedging:** "My hunch is that" (S016, S055). In 1968 he expected electronic editing within five years, then said "I was totally wrong" (S023, 2015). Newer, on AI (2025 to 2026): "I'm inventing stuff here because it's early early days" (S058).
 - **Credit and humor:** names who came first: "But here Welles had already done it ten years earlier in 1958." (S080). Dry, self-mocking: "Yes, and her name is Moviola." (S022).
 
@@ -28,7 +28,7 @@ Built from the five note batches on 79 sources (1996 to 2026): his essays, inter
 
 ## Go-to analogies
 
-Cooking, surgery and conducting for the job (S007, S011, S012, S071). Translation (S020, S049, S051, S057). Plumbing (S049, S051). Body: umbilical cords, seasickness when a film ends (S025, S050). Food: a 12-course meal, water boiled off grapes (S040). Music: orchestra, blank verse, a jazz quartet (inferred from S001, S049, S051, S057). Dreams, to explain why cuts work at all (S049, S071, S081).
+Cooking, surgery and conducting for the job (S007, S011, S012, S071). Translation and plumbing (S049, S051, S057). Body: umbilical cords, seasickness when a film ends (S025, S050). Food: a 12-course meal, water boiled off grapes (S040). Music: orchestra, blank verse, a jazz quartet (inferred from S001, S049, S057). Dreams, to explain why cuts work at all (S071, S081).
 
 ## Words and moves he avoids
 
