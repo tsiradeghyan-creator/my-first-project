@@ -1,5 +1,31 @@
 # Handoff log
 
+## 2026-11-04 — Cloud (BAB = the Roast Room, unchanged)
+**Did:** Tigran ruled that BAB must work exactly like the tested Roast Room repo, in both process and seat knowledge. I compared them.
+- **Same as the original:** agents built from the template, brains read per seat, written rounds, the scoring formula, a Chair who does not argue.
+- **Where my 2026-11-03 BAB runs differed:**
+  - no draft resolution and no Round 3 ratification;
+  - my prompts dropped the confidence, ruin-risk and door fields, so the overrides could not run;
+  - D2 weights were set after the scores (the unweighted order was the same);
+  - a "Tigran speaks last" rule and a safety veto were added;
+  - idea pitching was a custom round;
+  - the concept was a lane workshop.
+- **Quote check:** 45 of 49 quotes are verbatim. Two quote another seat's card; two are Quinn paraphrases in quote marks, none of them in the verdict.
+- **Brains:** ours have 1–2.2k words from 7–20 search excerpts; the original seats have 10–19k words from 35–246 sources.
+
+Rewrote `.claude/skills/bab-production/SKILL.md`:
+- phase 1 runs `/roast-room` step by step, with no extra Chair rules;
+- Tigran's seat is a normal seat;
+- Mode 2 gates are full councils, ideas come from `/roast-room ask` consults, and material between gates comes from the departments;
+- brains must be built the `/newroaster` way.
+
+Posted BRIDGE C3 asking the laptop to rebuild nine brains with `/newroaster` (five deep, four standard), because the cloud network blocks every content host. Marked the bab-feature-01 Gate 1 and Gate 2 board work as provisional in gates.md.
+
+**Left:**
+- the laptop runs C3;
+- Tigran sends more of his own material for his seat;
+- then the Gate 2 council for «Թարգմանչուհին» runs as a standard Roast Room council (optionally Gate 1 again to confirm B′).
+
 ## 2026-11-03 — Cloud (BAB feature 01: stage 2 concept for «Թարգմանչուհին»)
 **Did:** Gate 1 passed: Tigran chose B′ and confirmed he has two foreign-language actors for 3–4 days. On language he answered "let's say Armenia", so the working assumption is a company registered in Armenia with two foreign managers who live there, using English. Stage 2 concept: Rhimes did the story spine (Narine, 41, an English teacher whose wound is the word "voluntary"; six people; seven days); Villeneuve did the rumble as a plot fact (secret blasting before the permit, day 5 she learns, day 6 the floor shakes during Vos's lie) plus tone and visual rules; Blum did the hook, comps (Quo Vadis, Aida?; A Separation; Honeyland) and route; Murch did 98 min and six language and subtitle rules for the writer. Tigran's seat spoke last: ~20 days, foreign block 4 days, USD 380–520k (estimate). Open crux for Ani: the ending (Rhimes's speech vs Villeneuve's one sentence; the Chair proposes one sentence). projects/bab-feature-01/02_concept.md; branded one-pager PDF sent to Tigran (scratchpad, not committed). Fixed director-desk render_pdf.js: one-pagers were measured at 1280 px screen width and clipped in print; they are now laid out at the A4 content width (650 px) in print media.
 
