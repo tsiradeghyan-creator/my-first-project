@@ -1,5 +1,9 @@
 # Handoff log
 
+## 2026-11-05 — Cloud (Instagram: «Креативное мышление», 7 animated posts, RU)
+**Did:** Tigran sent a Russian text on creativity (two exercises: notice round objects, 5–10 associations). Built `projects/kreativ/` on the harcru-qez engine: `post.html?i=1..7`, local Cyrillic fonts (Noto Serif/Sans, Cormorant Garamond italic), `render.mjs` → `out/post-0N.mp4` (8 s, 1080×1350) + PNG. Post types: quote, list (5 ways), drawing red circle (ex. 1), association cloud (ex. 2), closing quote. Footer «Maghakian Scripts» + triangle. Captions in `captions.md`.
+**Left:** Tigran to confirm language (RU vs an Armenian version), footer/handle, music, carousel vs Reels.
+
 ## 2026-11-05 — Cloud (Instagram: «Հարցրու՛ քեզ», 5 animated posts)
 **Did:** Tigran sent a sheet with 5 self-questions. Built `projects/harcru-qez/`: one HTML template (`post.html?i=1..5`), fonts stored locally (Noto Serif/Sans Armenian, Bodoni Moda italic), `render.mjs` → `out/post-0N.mp4` (8 s, 1080×1350, 30 fps) + `out/post-0N.png` (2×). Black/off-white alternating grid, red #D90429 key word with underline, «Life will never be the same, life is changing!» footer, brand triangle. Text lightly corrected (punctuation, ՞ placement). Captions in `captions.md`.
 **Left:** Tigran to choose: music, account handle on the posts, carousel vs 5 separate Reels.

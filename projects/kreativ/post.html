@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root { --red:#D90429; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1080px; height:1350px; overflow:hidden; }
+  body { font-family:'Noto Serif', serif; }
+  .post { position:relative; width:1080px; height:1350px; overflow:hidden; padding:96px 96px 90px; display:flex; flex-direction:column; }
+  .dark  { background:#0A0A0A; color:#F4F1EC; --muted:rgba(244,241,236,.5); --ghost:rgba(244,241,236,.07); --rule:rgba(244,241,236,.25); }
+  .light { background:#F4F1EC; color:#111111; --muted:rgba(17,17,17,.5);  --ghost:rgba(17,17,17,.07);  --rule:rgba(17,17,17,.25); }
+
+  .grain { position:absolute; inset:-50%; pointer-events:none; opacity:.09; mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"); }
+
+  .num { position:absolute; right:-30px; bottom:140px; font-family:'Cormorant Garamond', serif; font-style:italic; font-weight:400;
+    font-size:820px; line-height:.8; color:transparent; -webkit-text-stroke:2px var(--ghost); letter-spacing:-30px;
+    animation: drift 8s linear both, fade 1.6s ease-out both; }
+  @keyframes drift { from { transform:translateY(40px) scale(1.04);} to { transform:translateY(-20px) scale(1);} }
+
+  .top { position:relative; z-index:3; display:flex; justify-content:space-between; align-items:center; font-family:'Noto Sans', sans-serif;
+    font-size:22px; font-weight:500; letter-spacing:.38em; text-transform:uppercase; animation: fade 1s .1s ease-out both; }
+  .top .count { color:var(--muted); letter-spacing:.3em; }
+  .top .count b { color:var(--red); font-weight:500; }
+
+  .body { flex:1; display:flex; flex-direction:column; justify-content:center; position:relative; z-index:2; }
+
+  .when { display:flex; align-items:center; gap:28px; margin-bottom:52px; }
+  .when .line { height:2px; width:110px; background:var(--red); transform-origin:left; animation: draw .9s .35s cubic-bezier(.7,0,.2,1) both; }
+  .when span { color:var(--red); font-family:'Noto Sans', sans-serif; font-weight:500; font-size:32px; letter-spacing:.03em; animation: slide .9s .6s cubic-bezier(.2,.7,.2,1) both; }
+
+  .q { font-weight:300; line-height:1.17; letter-spacing:-.015em; }
+  .q .w { display:inline-block; white-space:pre; animation: rise 1.1s cubic-bezier(.2,.75,.15,1) both; }
+  .q .k { position:relative; color:var(--red); font-weight:400; }
+  .q .k::after { content:''; position:absolute; left:2%; right:2%; bottom:-.12em; height:3px; background:var(--red);
+    transform-origin:left; animation: draw .8s var(--kd) cubic-bezier(.7,0,.2,1) both; }
+  .sub { margin-top:44px; font-family:'Cormorant Garamond', serif; font-style:italic; font-size:46px; line-height:1.2; color:var(--muted);
+    animation: slide 1s var(--sd) cubic-bezier(.2,.7,.2,1) both; }
+
+  /* list */
+  .list { list-style:none; }
+  .list li { display:flex; align-items:baseline; gap:36px; padding:26px 0; border-bottom:1px solid var(--rule);
+    font-weight:300; font-size:54px; line-height:1.15; letter-spacing:-.01em; animation: rise 1s var(--d) cubic-bezier(.2,.75,.15,1) both; }
+  .list li:first-child { border-top:1px solid var(--rule); }
+  .list li b { font-family:'Noto Sans', sans-serif; font-weight:500; font-size:22px; letter-spacing:.2em; color:var(--red); min-width:44px; }
+  .list li .k { color:var(--red); font-weight:400; }
+
+  /* exercise 1: the circle */
+  .ring { position:absolute; z-index:1; right:-300px; bottom:150px; width:640px; height:640px; animation: spin 8s linear both; }
+  .ring circle { fill:none; stroke:var(--red); stroke-width:3; stroke-dasharray:1885; animation: ringdraw 2.4s .5s cubic-bezier(.6,0,.2,1) both; }
+  .ring .dot { fill:var(--red); stroke:none; animation: pop .5s 2.8s cubic-bezier(.3,1.6,.5,1) both; }
+  @keyframes ringdraw { from { stroke-dashoffset:1885; } to { stroke-dashoffset:0; } }
+  @keyframes spin { from { transform:rotate(-90deg); } to { transform:rotate(-60deg); } }
+  @keyframes pop { from { transform:scale(0); } to { transform:scale(1); } }
+  .ring .dot { transform-box:fill-box; transform-origin:center; }
+
+  /* exercise 2: association cloud */
+  .p5 .sub { max-width:560px; }
+  .p6 .body { justify-content:flex-start; padding-top:70px; }
+  .cloud { position:absolute; z-index:1; left:0; right:0; top:700px; height:380px; }
+  .cloud .c { position:absolute; left:50%; top:50%; width:150px; height:150px; margin:-75px 0 0 -75px; border-radius:50%; background:var(--red);
+    animation: pop .6s .9s cubic-bezier(.3,1.5,.5,1) both; }
+  .cloud span { position:absolute; transform:translate(-50%,-50%); white-space:nowrap; font-family:'Cormorant Garamond', serif; font-style:italic;
+    font-size:46px; color:var(--muted); animation: float 1s var(--d) cubic-bezier(.2,.75,.15,1) both; }
+  .cloud span.hot { color:var(--red); font-size:58px; }
+  @keyframes float { from { opacity:0; transform:translate(-50%,-50%) scale(.6); filter:blur(10px);} to { opacity:1; transform:translate(-50%,-50%) scale(1); filter:none; } }
+
+  .foot { position:relative; z-index:3; display:flex; justify-content:space-between; align-items:flex-end; padding-top:28px;
+    border-top:1px solid var(--rule); animation: fade 1.2s var(--fd) ease-out both; }
+  .foot .sig { font-family:'Cormorant Garamond', serif; font-style:italic; font-weight:500; font-size:40px; line-height:1.15; }
+  .foot .sig i { color:var(--red); }
+  .tri { width:0; height:0; border-left:13px solid transparent; border-right:13px solid transparent; border-bottom:22px solid var(--red); margin-bottom:10px; }
+
+  @keyframes fade  { from { opacity:0; } to { opacity:1; } }
+  @keyframes draw  { from { transform:scaleX(0); } to { transform:scaleX(1); } }
+  @keyframes slide { from { opacity:0; transform:translateX(-30px); filter:blur(6px);} to { opacity:1; transform:none; filter:none; } }
+  @keyframes rise  { from { opacity:0; transform:translateY(42px); filter:blur(12px);} to { opacity:1; transform:none; filter:none; } }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+const N = 7;
+const POSTS = [
+  { when:'Креативность —', q:'это *ребёнок* внутри нас, которому не страшны границы.', size:96 },
+  { when:'Креатив —', q:'это увидеть красоту (или *юмор*) даже в мучительно долгой очереди на почте.', size:80 },
+  { when:'Хорошая новость', q:'Креативное мышление, как и чувство юмора, есть у *каждого*.', size:88,
+    sub:'Где-то ещё не раскрылось. Но потенциал есть у всех.' },
+  { type:'list', when:'Пять простых способов', items:['Читать много книг','Смотреть много фильмов','Следить за тем, что происходит в мире','Отличать важное от мелочного','Внимательно относиться к *жизни*'] },
+  { type:'ring', when:'Упражнение 1 · сегодня', q:'Весь день замечайте *круглые* предметы.', size:100,
+    sub:'Задача «заметить» сама включает наблюдательность.' },
+  { type:'cloud', when:'Упражнение 2', q:'К каждому придумайте 5–10 *ассоциаций*.', size:84,
+    sub:'Чем неожиданнее, тем лучше.' },
+  { when:'И главное', q:'Креатив — это отражение реальности в *неожиданных* формах.', size:86,
+    sub:'Начните с того, чтобы эту реальность замечать.' },
+];
+const i = Math.max(1, Math.min(N, +(new URLSearchParams(location.search).get('i') || 1)));
+const p = POSTS[i-1];
+const kw = s => s.replace(/\*(.+?)\*/g, '<span class="k">$1</span>');
+
+let inner = '', kd = 0, fd = 4.5, sd = 0;
+if (p.type === 'list') {
+  inner = `<ul class="list">${p.items.map((t, n) => `<li style="--d:${(1.1 + n*0.45).toFixed(2)}s"><b>0${n+1}</b><span>${kw(t)}</span></li>`).join('')}</ul>`;
+  fd = 1.1 + 5*0.45 + 0.8;
+} else {
+  const words = p.q.split(' ');
+  const start = 1.25, span = Math.min(2.6, 0.22 * words.length), step = span / words.length;
+  inner = `<div class="q" style="font-size:${p.size}px">` + words.map((w, n) => {
+    const d = (start + n * step).toFixed(2);
+    if (w.includes('*')) {
+      kd = (+d + 0.9).toFixed(2);
+      const m = w.replace(/\*/g, '').match(/^(.*?)([.,:;!?…»)]*)$/);
+      return `<span class="w" style="animation-delay:${d}s"><span class="k">${m[1]}</span>${m[2]}</span>`;
+    }
+    return `<span class="w" style="animation-delay:${d}s">${w}</span>`;
+  }).join(' ') + '</div>';
+  sd = start + span + 0.7;
+  if (p.sub) inner += `<div class="sub">${p.sub}</div>`;
+  fd = sd + (p.sub ? 0.9 : 0.3);
+}
+
+let extra = `<div class="num">0${i}</div>`;
+if (p.type === 'ring') extra = `<svg class="ring" viewBox="0 0 640 640"><circle cx="320" cy="320" r="300"/><circle class="dot" cx="620" cy="320" r="14"/></svg>`;
+if (p.type === 'cloud') {
+  const W = ['луна','пуговица','ноль','апельсин','зрачок','колесо','обручальное кольцо','циферблат','«О!»'];
+  const pos = [[18,12],[80,10],[50,4],[14,50],[86,44],[22,86],[74,86],[50,97],[88,66]];
+  extra = `<div class="cloud"><div class="c"></div>${W.map((w, n) => `<span class="${n===8?'hot':''}" style="left:${pos[n][0]}%; top:${pos[n][1]}%; --d:${(sd + 0.3 + n*0.32).toFixed(2)}s">${w}</span>`).join('')}</div>`;
+  fd = sd + 0.3 + 9*0.32;
+}
+
+document.getElementById('root').innerHTML = `
+<div class="post p${i} ${i % 2 ? 'dark' : 'light'}" style="--kd:${kd}s; --fd:${fd.toFixed(2)}s; --sd:${sd.toFixed(2)}s">
+  <div class="grain"></div>
+  ${extra}
+  <div class="top"><span>Креативное мышление</span><span class="count"><b>0${i}</b> / 0${N}</span></div>
+  <div class="body">
+    <div class="when"><div class="line"></div><span>${p.when}</span></div>
+    ${inner}
+  </div>
+  <div class="foot"><div class="sig">Maghakian <i>Scripts</i></div><div class="tri"></div></div>
+</div>`;
+</script>
+</body>
+</html>
