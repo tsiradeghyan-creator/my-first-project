@@ -473,3 +473,6 @@
 - for multi-scene arcs; a single sustained 30s take belongs in Omni). 16:9, 720p. Assumed: **the fathe
 - for exactly this (multi-shot scene, named director's style, cuts that actually match).
 - for 45 s on the timeline, and the four cuts that are *not* generated inside a single call are exactl
+
+---
+### Session Log — 2026-11-01 09:44
