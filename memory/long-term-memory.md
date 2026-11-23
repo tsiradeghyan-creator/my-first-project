@@ -769,6 +769,16 @@ Long-tail: `armenian screenwriter for hire` · `hire armenian screenwriter`
 ## New Learnings
 <!-- Auto-updated by auto-learn. Reviewed weekly by --mode promote. -->
 
+- **[2026-11-23 06:03]** `AI agents content production marketing creative workflo` — Announced at Adobe MAX 2026 in Miami, the new integrations will allow creatives to use their preferred AI agents to make changes directly to native project files on their computers. ([source](https://lbbonline.com/news/adobe-to-open-creative-cloud-to-third-party-ai-agents-in-major-production-shift))
+
+- **[2026-11-23 06:03]** `AI agents content production marketing creative workflo` — Creation – where strategy, ideas, messaging and creative direction are developed. ([source](https://lbbonline.com/news/ai-won-t-save-yesterday-s-marketing-workflow))
+
+- **[2026-11-22 14:47]** `global content trends 2026 short form video creator eco` — “TikTok tends to reward more trend-driven, conversational and real-time content, while Instagram is often more inspiration-led and visually curated. ([source](https://digiday.com/marketing/digiday-research-the-marketers-2026-guide-to-creator-marketing-including-duolingo-ulta-and-youtube))
+
+- **[2026-11-22 14:47]** `global creative industry trends 2026 design entertainme` — [...] Lived experience is said to be the best inspiration for art, and the 2026 Creative 100 Artists & Makers are proof of that. ([source](https://www.adweek.com/creativity/the-2026-creative-100-artists-makers-defining-their-genres))
+
+- **[2026-11-22 14:47]** `global advertising industry trends 2026 creative campai` — Agency specialization is key to winning new business in 2026 - Ad Age ([source](https://adage.com/agencies/aa-2026-new-business-specialties))
+
 - **[2026-11-21 13:47]** `AI agents content production marketing creative workflo` — seo geo content-marketing marketing-analytics ai-marketing-tools ai-marketing-agent   Updated Nov 16, 2026  Python ([source](https://github.com/topics/ai-marketing-agent))
 - **[2026-11-21 13:47]** `AI agents content production marketing creative workflo` — We used to send briefs off and get content back. ([source](https://digiday.com/marketing/digiday-research-the-marketers-guide-to-ai-applications-agentic-ai-ai-search-and-geo-aeo-in-2026))
 - **[2026-11-21 13:47]** `screenwriting storytelling trends 2026 television film ` — In the past, Hollywood was trying to throw creators with a big audience into a movie or a TV show, but that rarely worked. ([source](https://blog.youtube/creator-and-artist-stories/kareem-rahma-subwaytakes-emmy-nomination-interview))
