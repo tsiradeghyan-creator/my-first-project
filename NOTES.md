@@ -1,5 +1,16 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (skill-router lightened + first evals)
+**Did:**
+- skill-router rule lightened, at Tigran's request: one clear skill → name it in one line and start; menu only when several fit or the ask is unclear.
+- Ran evals: 15 real tasks, with skills vs without (`evals/2026-11-26/`). Model judge: with skills wins 12/15, with the biggest gains in model facts (+0.9) and craft (+1.0); costs about 5× more and about 2× the time.
+- Losses: F3 (banana-pro made a cartoon kids' poster photoreal), B1 (character sheet dropped the brief facts and was padded), C1 (cinema-worldbuilder lost "Gyumri" and buried the prompt). Fix list in results.md.
+
+**Left:**
+- Tigran's blind vote in `evals/2026-11-26/blind.md`.
+- Fix the 3 losses and re-run those tasks.
+- Deletions, LOW items.
+
 ## 2026-11-26 — Cloud (moved to cloud-only)
 **Did:** Tigran has no VS Code on the new Mac and does not plan to install it, so the workspace is now cloud-only.
 - CLAUDE.md rewritten: `memory/` is the source; zavod edits go to zavod-om and are mirrored here.
