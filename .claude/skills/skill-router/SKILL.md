@@ -1,6 +1,6 @@
 ---
 name: skill-router
-description: "Tigran's skill menu. Use first, without being asked, whenever a task touches content, video, image/visual, design, SMM/Instagram, marketing, copy, pitching/sales, screenwriting, books or brand: show the matching skills from his collection, recommend one with a reason, then start working. Also use when he asks which skills he has: «ինչ սքիլներ ունեմ», «որ սքիլով», «какие скилы», «what skills do I have»."
+description: "Tigran's skill map. Use first, without being asked, whenever a task touches content, video, image/visual, design, SMM/Instagram, marketing, copy, pitching/sales, screenwriting, books or brand: pick the right skill from his collection. If one clearly fits, name it in one line and start working; show a short menu only when several fit with really different results or the request is unclear. Also use when he asks which skills he has: «ինչ սքիլներ ունեմ», «որ սքիլով», «какие скилы», «what skills do I have»."
 ---
 
 # Skill router
@@ -11,14 +11,15 @@ every time. Your job: notice the domain, show him what he owns for it, recommend
 ## How to run it
 
 1. **Spot the domain** from the request (table below). A task can hit two domains (e.g. a reel = video + SMM).
-2. **Show a short menu** at the top of your reply, in Tigran's language (usually Armenian):
-   - 2–5 skills that fit this task, one line each: what it is good for here, and a weakness if it matters.
-   - **Recommendation** with the reason in one sentence ("խորհուրդ եմ տալիս X, որովհետև …").
-   - Skills that fit poorly: leave them out. Do not dump the whole table.
-3. **Then act:**
-   - If the recommendation is clear → start working with it right away. Tigran can switch with one word.
-   - If two skills would give really different results (e.g. Armenian brand voice vs. a viral English hook) →
-     ask with AskUserQuestion, recommended option first, then continue with the answer.
+2. **One clear fit (most requests):** say it in one line at the top, in Tigran's language
+   (e.g. «Աշխատում եմ film-crew → seedance-25-director-ով»), and start working. No menu.
+   Tigran can switch with one word.
+3. **Show a short menu only when it matters:** several skills fit and would give really different results
+   (e.g. Armenian brand voice vs. a viral English hook), or the request is unclear. Then, in his language:
+   - 2–5 skills, one line each: what it is good for here, and a weakness if it matters;
+   - **Recommendation** with the reason in one sentence ("խորհուրդ եմ տալիս X, որովհետև …");
+   - ask with AskUserQuestion when that tool exists (recommended option first), otherwise ask plainly,
+     then continue with the answer. Leave out skills that fit poorly; never dump the whole table.
 4. **Chain** skills when needed and say the order in one line (e.g. film-crew → seedance-25-director → humanizer).
 5. **Fixed rules that override the menu:**
    - Any image or video prompt → `film-crew` first (single-shot mode for one still or clip, full mode for several),
