@@ -1,13 +1,12 @@
 # Sources: Casey Bloys
 
-46 sources (46 web), 48,548 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+129 sources (129 web), 131,954 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
 
 Format: id | title | url | date | words
 
-- S001 | The Future of HBO (and Max?). Part 2 With CEO Casey Bloys. - The Ringer | https://www.theringer.com/podcasts/the-town-with-matthew-belloni/2025/04/30/the-future-of-hbo-and-max-part-2-with-ceo-casey-bloys | 2025-04 | 328
-- S002 | Casey Bloys on HBO Max’s U.K. Launch, the Paramount Deal and That Lunch With Ted Sarandos | https://www.hollywoodreporter.com/tv/tv-features/casey-bloys-interview-harry-potter-series-hbo-max-uk-launch-1236544999/ | 2026-03-24 | 2129
+- S002 | Casey Bloys on HBO Max’s U.K. Launch, the Paramount Deal and That Lunch With Ted Sarandos | https://www.hollywoodreporter.com/tv/tv-features/casey-bloys-interview-harry-potter-series-hbo-max-uk-launch-1236544999/ | 2026-03-24 | 2112
 - S003 | HBO Boss Turns Eye to 2025: Talks ‘Euphoria,’ Curbing ‘Thrones’ Output (and Its BTS Drama) | https://www.hollywoodreporter.com/tv/tv-news/casey-bloys-interview-euphoria-season-3-white-lotus-game-of-thrones-1236059749/ | 2024-11-12 | 1446
-- S004 | HBO and HBO Max Chief Details ‘Game of Thrones’ Expansion Plans | https://www.hollywoodreporter.com/live-feed/hbo-and-hbo-max-chief-details-game-of-thrones-expansion-plans | 2021-02-11 | 1606
+- S004 | HBO and HBO Max Chief Details ‘Game of Thrones’ Expansion Plans | https://www.hollywoodreporter.com/live-feed/hbo-and-hbo-max-chief-details-game-of-thrones-expansion-plans | 2021-02-11 | 1611
 - S005 | Casey Bloys on HBO's Emmys Haul, 'The Pitt' Breakthrough and the Future of 'White Lotus' and 'The Last of Us' | https://www.thewrap.com/casey-bloys-hbo-emmys-nominations-the-pitt-white-lotus-the-last-of-us-interview | 2025-07-15 | 1097
 - S006 | Casey Bloys on HBO’s Emmy Noms Domination, 'Euphoria' and the Future of 'Last Week Tonight' and 'The Last of Us' | https://www.thewrap.com/?p=8044178 | 2026-07-08 | 1636
 - S007 | HBO's Casey Bloys Says He's 'Not Concerned' About WBD Sale: 'A Lot of It Is Out of Our Hands' | https://www.thewrap.com/hbo-casey-bloys-warner-bros-discovery-sale-comments-not-concerned/ | 2025-11-20 | 482
@@ -15,38 +14,122 @@ Format: id | title | url | date | words
 - S009 | Bloys Meets World | https://www.status.news/p/casey-bloys-hbo-max-white-lotus | 2025-06-08 | 2011
 - S010 | HBO Boss Casey Bloys on Warner Bros. Discovery Sale, ‘Harry Potter’ TV Series Timeline and Using ‘The Pitt’ as Model for Max Shows | https://au.variety.com/2025/tv/news/hbo-casey-bloys-warner-bros-sale-harry-potter-timeline-30127/ | 2025-11-20 | 753
 - S011 | HBO Boss Says ‘Harry Potter’ Set Has ‘Serious Security’ Amid Death Threats | https://au.variety.com/2026/tv/news/casey-bloys-hbo-max-ted-sarandos-34593/ | 2026-03-24 | 2436
-- S015 | HBO’s Casey Bloys Talks Competition From Netflix, International “Reset” & Sky Lawsuit As Audience Given ‘The White Lotus’ & ‘The Last Of Us’ Sneak Peeks At Max  | https://deadline.com/2024/12/max-showcase-the-white-lotus-last-of-us-casey-bloys-hbo-1236195299 | 2024-12-05 | 596
-- S016 | HBO's president floats revolutionary idea that people like TV shows that come out every year with lots of episodes | https://www.avclub.com/hbo-casey-bloys-the-pitt-knight-of-the-seven-kingdoms | 2026-01-31 | 606
+- S015 | HBO’s Casey Bloys Talks Competition From Netflix, International “Reset” & Sky Lawsuit As Audience Given ‘The White Lotus’ & ‘The Last Of Us’ Sneak Peeks At Max  | https://deadline.com/2024/12/max-showcase-the-white-lotus-last-of-us-casey-bloys-hbo-1236195299 | 2024-12-05 | 601
+- S016 | HBO's president floats revolutionary idea that people like TV shows that come out every year with lots of episodes | https://www.avclub.com/hbo-casey-bloys-the-pitt-knight-of-the-seven-kingdoms | 2026-01-31 | 605
 - S017 | Max Saw Viewership Bump After Selling 'Ballers,' 'Insecure' to Netflix, Casey Bloys Says | https://thewrap.com/max-viewership-bumpballers-insecure-netflix-casey-bloys | 2023-09-27 | 254
 - S018 | HBO And Max Content Boss Casey Bloys Tackles WGA Strike Impact On Content Budgets, WBD’s Licensing Strategy And Whether Password Sharing Will Remain Free | https://ca.news.yahoo.com/hbo-max-content-boss-casey-172614444.html | 2023-11-02 | 823
 - S019 | HBO President Casey Bloys on How ‘Euphoria’ Is Leading the Charge on Streaming | https://www.yahoo.com/entertainment/hbo-president-casey-bloys-euphoria-003838741.html | 2019-07-25 | 931
-- S020 | Casey Bloys, HBO Chief, Discusses U.K. HBO Max Launch, 'Harry Potter' Series, And More - CultureSlate | https://www.cultureslate.com/news/casey-bloys-hbo-chief-discusses-uk-hbo-max-launch-harry-potter-series-and-more | 2026-03-26 | 794
+- S020 | Casey Bloys, HBO Chief, Discusses U.K. HBO Max Launch, 'Harry Potter' Series, And More - CultureSlate | https://www.cultureslate.com/news/casey-bloys-hbo-chief-discusses-uk-hbo-max-launch-harry-potter-series-and-more | 2026-03-26 | 788
 - S021 | HBO Chief Offers 2027 TV Seasons Updates | https://www.darkhorizons.com/?p=194558 | 2026-09-16 | 334
-- S022 | Casey Bloys in Conversation with Issa Rae | https://www.paleycenter.org/industry-events/mc-bloys-rae-4-25 | 2016-02-10 | 428
+- S022 | Casey Bloys in Conversation with Issa Rae | https://www.paleycenter.org/industry-events/mc-bloys-rae-4-25 | 2016-02-10 | 425
 - S023 | Issa Rae and HBO’s Casey Bloys on How ‘Insecure’ Is Like ‘Golden Girls’ | https://www.yahoo.com/entertainment/issa-rae-hbo-casey-bloys-insecure-golden-girls-051147918.html | 2017-04-26 | 569
 - S024 | Alum Casey Bloys returns to NU for ‘Dialogue with the Dean’ | https://dailynorthwestern.com/2023/10/05/campus/alum-casey-bloys-returns-to-nu-for-dialogue-with-the-dean/ | 2023-10-06 | 732
 - S025 | Chairman and CEO of HBO and Max Content, Casey Bloys (WCAS93) joins SoC Dean in Dialogue with the Dean: School of Communication - Northwestern University | https://communication.northwestern.edu/news-events/news/2023/chairman-and-ceo-of-hbo-and-max-content-casey-bloys-wcas93-joins-soc-dean-in-dialogue-with-the-dean.html | 2023-10 | 918
 - S026 | Casey Bloys, James Farrell, Jan Mojto Set for Series Mania’s Lille Dialogues | https://ca.news.yahoo.com/casey-bloys-james-farrell-jan-094906205.html | 2023-02-24 | 771
-- S027 | Casey Bloys Shares HBO's and Max's 2024 Slates | https://nexttv.com/news/casey-bloys-shares-hbos-and-maxs-2024-slates | 2023-11-02 | 968
-- S028 | HBO Programming Chief on AT&T: “No One Is Asking Us to Sacrifice Quality for Volume” | https://www.hollywoodreporter.com/tv/tv-news/hbo-volume-push-at-t-deal-no-one-is-asking-us-sacrifice-quality-volume-1129741/ | 2018-07-25 | 1033
+- S027 | Casey Bloys Shares HBO’s and Max’s 2024 Slates | https://nexttv.com/news/casey-bloys-shares-hbos-and-maxs-2024-slates | 2023-11-02 | 968
+- S028 | HBO Programming Chief on AT&T: “No One Is Asking Us to Sacrifice Quality for Volume” | https://www.hollywoodreporter.com/tv/tv-news/hbo-volume-push-at-t-deal-no-one-is-asking-us-sacrifice-quality-volume-1129741/ | 2018-07-25 | 1029
 - S029 | TCA: HBO's Casey Bloys on AT&T, "Deadwood," Meryl Streep and More / MediaVillage | https://www.mediavillage.com/article/tca-hbos-casey-bloys-on-att-deadwood-meryl-streep-and-more/amp/ | 2018-07-27 | 1081
 - S030 | HBO’s New Chief Talks Jon Stewart, ‘Vinyl’ Demise, Violence Problems and ‘Thrones’ End | https://www.hollywoodreporter.com/live-feed/hbos-new-chief-talks-jon-915930 | 2016-07-30 | 1181
-- S031 | TCA Summer Press Tour Day 4 Quotes: HBO’s Sexual Violence Controversy, Eczema and Nick Nolte’s Warning | https://www.hollywoodreporter.com/tv/tv-news/tca-summer-press-tour-day-915978/ | 2016-07-31 | 1590
-- S032 | TCA16: HBO | https://www.nexttv.com/news/tca16-hbos-casey-bloys-takes-heat-during-tca-session-406745 | 2016-07-30 | 584
+- S031 | TCA Summer Press Tour Day 4 Quotes: HBO’s Sexual Violence Controversy, Eczema and Nick Nolte’s Warning | https://www.hollywoodreporter.com/tv/tv-news/tca-summer-press-tour-day-915978/ | 2016-07-31 | 1586
+- S032 | TCA16: HBO | https://www.nexttv.com/news/tca16-hbos-casey-bloys-takes-heat-during-tca-session-406745 | 2016-07-30 | 586
 - S033 | TCA 17: HBO | https://www.nexttv.com/news/tca-17-hbos-casey-bloys-admits-mistake-confederate-announcement-167495 | 2017-07-26 | 362
-- S034 | Your Daily Edition | https://www.hollywoodreporter.com//dailyedition/2019-07-25/1226887 | 2019-07-25 | 4991
-- S035 | HBO exec Casey Bloys on the future of Curb, Deadwood, and Jon Stewart | https://avclub.com/hbo-exec-casey-bloys-on-the-future-of-curb-deadwood-a-1798250024 | 2016-07-30 | 556
+- S035 | HBO exec Casey Bloys on the future of Curb, Deadwood, and Jon Stewart | https://avclub.com/hbo-exec-casey-bloys-on-the-future-of-curb-deadwood-a-1798250024 | 2016-07-30 | 555
 - S036 | HBO Chief Talks Violence Against Women, ‘Game of Thrones,’ Jon Stewart and ‘Vinyl’ | https://www.yahoo.com/news/hbo-chief-talks-violence-against-women-game-thrones-171652786.html | 2016-07-30 | 712
-- S037 | Amid the Peaks, A Few Peeks At HBO's New Programming Chief | https://www.nexttv.com/news/amid-peaks-few-peeks-hbo-s-new-programming-chief-157425 | 2016-06-20 | 717
-- S038 | What HBO and Max Want to Buy Now (and Why Agents Complain) | https://strikegeist.substack.com/p/what-hbo-and-max-want-to-buy-now | 2024-12-03 | 587
-- S039 | What HBO & HBO Max Want to Buy Now (and What’s the Difference) | https://strikegeist.substack.com/p/what-hbo-and-hbo-max-want-to-buy | 2025-07-15 | 829
-- S040 | 🎧 HBO & the Harry Potter Gamble - The Ankler | https://theankler.com/p/hbo-and-the-harry-potter-gamble | 2024-12-06 | 394
-- S041 | What Casey Bloys (and Bob Greenblatt) Learned From Richard Plepler's 'Game of Thrones' Patience | https://www.thewrap.com/game-of-thrones-pilot-lessons-richard-plepler-casey-bloys-bob-greenblatt | 2019-04-15 | 548
-- S043 | Každý rok jsme nervózní, jestli přijde další hit, říká šéf obsahu HBO | https://forbes.cz/kazdy-rok-jsme-nervozni-jestli-prijde-dalsi-hit-rika-sef-obsahu-hbo/ | 2024-05-21 | 1209
-- S045 | HBO at TCA: ‘Confederate’ and Moving Beyond Tent Pole Events | https://www.cablefax.com/programming/hbo-at-tca-confederate-and-moving-beyond-tent-pole-events | 2017-07-28 | 628
-- S046 | HBO at TCA: Is There Too Much Violence Against Women on Premium Cable? / MediaVillage | https://www.mediavillage.com/article/hbo-at-tca/ | 2016-08-01 | 320
-- S047 | Casey Bloys Talks HBO Max, ‘Game of Thrones’ Finale and Subscriber Loss Discrepancy | https://www.hollywoodreporter.com/live-feed/hbos-casey-bloys-game-thrones-big-little-lies-hbo-max-subscriber-losses-1226775 | 2019-07-24 | 837
-- S048 | HBO’s Casey Bloys On WGA Strike: “Hopeful That A Fair Resolution Is Found Soon With Writers” | https://deadline.com/2023/05/hbo-casey-bloys-wga-strike-wb-discovery-upfronts-1235370070 | 2023-05-17 | 558
-- S049 | HBO & HBO Max Content Chief Casey Bloys Says Nets In Creative Overdrive Despite Corporate Dealmaking; Touts Slate | https://www.yahoo.com/entertainment/hbo-hbo-max-content-chief-162054210.html | 2021-06-29 | 820
-- S050 | HBO Boss Casey Bloys Shares Updates On True Blood Reboot, Succession End Date, More Game Of Thrones Spinoffs - TVLine | https://tvline.com/2022/02/16/true-blood-reboot-update-hbo-premiere-casey-bloys | 2022-02-16 | 847
-- S051 | Casey Bloys | https://milkeninstitute.org/events/global-conference-2025/speakers/casey-bloys | 2025-05-07 | 516
+- S037 | Amid the Peaks, A Few Peeks At HBO’s New Programming Chief | https://www.nexttv.com/news/amid-peaks-few-peeks-hbo-s-new-programming-chief-157425 | 2016-06-20 | 717
+- S038 | HBO's Return to Excellence: Casey Bloys Charts a New Course for Max - HBO Watch | https://hbowatch.com/hbos-return-to-excellence-casey-bloys-charts-a-new-course-for-max/ | 2025-05-07 | 1305
+- S039 | HBO's Casey Bloys Talks About Some Top Series - HBO Watch | https://hbowatch.com/hbos-casey-bloys-talks-about-some-top-series/ | 2026-02-10 | 2327
+- S040 | What HBO and Max Want to Buy Now (and Why Agents Complain) | https://strikegeist.substack.com/p/what-hbo-and-max-want-to-buy-now | 2024-12-03 | 587
+- S041 | What HBO & HBO Max Want to Buy Now (and What’s the Difference) | https://strikegeist.substack.com/p/what-hbo-and-hbo-max-want-to-buy | 2025-07-15 | 829
+- S043 | What Casey Bloys (and Bob Greenblatt) Learned From Richard Plepler's 'Game of Thrones' Patience | https://www.thewrap.com/game-of-thrones-pilot-lessons-richard-plepler-casey-bloys-bob-greenblatt | 2019-04-15 | 548
+- S047 | HBO at TCA: ‘Confederate’ and Moving Beyond Tent Pole Events | https://www.cablefax.com/programming/hbo-at-tca-confederate-and-moving-beyond-tent-pole-events | 2017-07-28 | 628
+- S048 | HBO at TCA: Is There Too Much Violence Against Women on Premium Cable? / MediaVillage | https://www.mediavillage.com/article/hbo-at-tca/ | 2016-08-01 | 320
+- S049 | Casey Bloys Talks HBO Max, ‘Game of Thrones’ Finale and Subscriber Loss Discrepancy | https://www.hollywoodreporter.com/live-feed/hbos-casey-bloys-game-thrones-big-little-lies-hbo-max-subscriber-losses-1226775 | 2019-07-24 | 833
+- S050 | HBO’s Casey Bloys On WGA Strike: “Hopeful That A Fair Resolution Is Found Soon With Writers” | https://deadline.com/2023/05/hbo-casey-bloys-wga-strike-wb-discovery-upfronts-1235370070 | 2023-05-17 | 550
+- S051 | HBO & HBO Max Content Chief Casey Bloys Says Nets In Creative Overdrive Despite Corporate Dealmaking; Touts Slate | https://www.yahoo.com/entertainment/hbo-hbo-max-content-chief-162054210.html | 2021-06-29 | 820
+- S052 | HBO Boss Casey Bloys Shares Updates On True Blood Reboot, Succession End Date, More Game Of Thrones Spinoffs - TVLine | https://tvline.com/2022/02/16/true-blood-reboot-update-hbo-premiere-casey-bloys | 2022-02-16 | 847
+- S054 | From ‘And Just Like That’ to ‘Westworld’: 20 Questions With HBO/Max’s Casey Bloys | https://www.hollywoodreporter.com/tv/tv-news/and-just-like-westworld-sopranos-casey-bloys-hbo-max-interview-1235094576/ | 2022-02-16 | 2354
+- S055 | “Every Show Has Got to Work Harder”: HBO Boss on Emmy Nominations Haul | https://www.hollywoodreporter.com/tv/tv-news/hbo-boss-casey-bloys-2022-emmys-nominations-1235179324/ | 2022-07-12 | 1410
+- S056 | Bob Greenblatt, Casey Bloys on Pushing HBO’s Boundaries and the Race for More | https://www.hollywoodreporter.com/tv/tv-news/bob-greenblatt-casey-bloys-pushing-hbos-boundaries-race-more-1202033/ | 2019-04-15 | 3154
+- S057 | HBO Max Chief Casey Bloys Says “We Have Enough Money” to Compete With Rivals | https://www.hollywoodreporter.com/tv/tv-news/hbo-max-casey-bloys-house-of-the-dragon-mare-easttown-season-2-1234975181/ | 2021-06-29 | 1056
+- S058 | Casey Bloys Talks Strike Impact on Slate and Budgets, Licensing HBO Shows and Tentpole Fatigue | https://www.hollywoodreporter.com/business/business-news/casey-bloys-strike-impact-hbo-max-budget-release-dates-1235635383/ | 2023-11-02 | 1430
+- S059 | Casey Bloys Talks ‘White Lotus’ S4 Location, ‘Hacks’ Endgame and ‘Big Little Lies’ in Post-Emmys Chat | https://www.hollywoodreporter.com/tv/tv-news/white-lotus-season-4-location-hbo-emmy-wins-the-pitt-1236371906/ | 2025-09-15 | 1497
+- S060 | A Paramount Takeover of Warner Bros. Discovery? HBO’s Casey Bloys Isn’t Sweating It | https://www.hollywoodreporter.com/business/business-news/hbo-max-chief-casey-bloys-not-worried-paramount-1236432257/ | 2025-11-20 | 568
+- S061 | Casey Bloys Would Have Taken “Another Two Seasons” of ‘Succession’ | https://www.hollywoodreporter.com/tv/tv-news/hbo-casey-bloys-succession-hbo-max-seriesmania-1235359181/ | 2023-03-23 | 988
+- S062 | HBO Max’s Big Plan: Be HBO Again | https://www.hollywoodreporter.com/tv/tv-news/inside-hbo-max-plan-casey-bloys-hbo-ip-max-original-1236432357/ | 2025-11-22 | 1722
+- S063 | HBO Chief on ‘Heated Rivalry’ Emmys Ineligibility: “I’m Just Proud to Have Season Two” | https://www.hollywoodreporter.com/tv/tv-news/hbo-heated-rivalry-season-2-emmys-the-pitt-casey-bloys-1236642404/ | 2026-07-08 | 1401
+- S064 | HBO’s Casey Bloys on ‘Game of Thrones’ Wait, ‘Big Little Lies’ and ‘True Detective’ Returns | https://www.hollywoodreporter.com/live-feed/hbos-casey-bloys-game-thrones-wait-big-little-lies-true-detective-returns-1074182 | 2018-01-11 | 1616
+- S065 | HBO’s Casey Bloys Gets New Challenge At Par-WBD: Scale & Mass Appeal | https://deadline.com/2026/10/hbo-casey-bloys-paramount-warner-bros-new-job-1237143734/ | 2026-10-02 | 2450
+- S066 | Casey Bloys Talks "Catastrophe" Of TV Content Bubble Bursting, More | https://deadline.com/2026/10/casey-bloys-hbo-tv-content-post-merger-job-david-ellison-1237144626/ | 2026-10-01 | 853
+- S067 | HBO Casey Bloys Interview: 'Harry Potter', 'Hacks' & 'Heated Rivalry' | https://deadline.com/2026/03/hbo-max-casey-bloys-interview-uk-launch-1236765501/ | 2026-03-25 | 2773
+- S068 | Casey Bloys Talks ‘The Pitt’s Emmy Breakthrough & Putting HBO Doubts To Rest, Confirms ‘White Lotus’ S4 Location, Gives ‘HoD’ & ‘Rehearsal’ Updates | https://deadline.com/2025/09/hbo-casey-bloys-emmy-interview-the-pitt-white-lotus-2026-1236533871/ | 2025-09-15 | 1913
+- S069 | Casey Bloys Talks HBO Max Building On ‘The Pitt’ Model With Drama Pilots & Importance Of Habitual Viewing | https://deadline.com/2025/11/casey-bloys-hbo-max-the-pitt-model-drama-pilots-1236624945/ | 2025-11-20 | 1047
+- S070 | Casey Bloys On Reboots As ‘Sex and the City’ & ‘In Treatment’ Set Return & ‘True Blood’ Eyes New Chapter | https://deadline.com/2021/02/casey-bloys-reboots-sex-and-the-city-no-samantha-comment-in-treatment-true-blood-hbo-hbo-max-1234691764/ | 2021-02-11 | 771
+- S071 | HBO President On ‘Vinyl’s Demise, On-Screen Violence -TCA | https://deadline.com/2016/07/hbo-vinyl-demise-violence-game-of-thrones-1201795652/ | 2016-07-30 | 775
+- S072 | HBO’s Casey Bloys On The Future Of ‘Deadwood’: TCA | https://deadline.com/2019/07/hbos-casey-bloys-on-the-future-of-deadwood-tca-1202652760/ | 2019-07-24 | 490
+- S073 | HBO Boss Responds To ‘Westworld’ Backlash: ‘It’s Not For Casual Viewers’: TCA | https://deadline.com/2018/07/westworld-criticism-hbo-casey-bloys-reponds-tca-1202433267/ | 2018-07-25 | 848
+- S074 | “Crazy” Not To Consider More ‘Game Of Thrones’ Spinoffs, HBO Chief Says: TCA | https://deadline.com/2019/02/game-of-thrones-spinoffs-more-considered-hbo-naomi-watts-george-rr-martin-1202553210/ | 2019-02-09 | 560
+- S075 | HBO: “Very Good Relationship” With Bill Maher Despite Recent Language Controversy: TCA | https://deadline.com/2017/07/hbo-bill-maher-good-relationship-racial-slur-tca-1202136791/ | 2017-07-27 | 852
+- S076 | HBO “Comfortable” With James Franco And ‘The Deuce’ Season 2, Casey Bloys Tells TCA | https://deadline.com/2018/07/hbo-comfortable-james-franco-the-deuce-season-2-casey-bloys-tca-1202433245/ | 2018-07-25 | 489
+- S077 | HBO Topper Casey Bloys Addresses ‘Confederate’ Controversy, Defends Slave Drama, Not The Way It Was Announced | https://deadline.com/2017/07/hbo-casey-bloys-confederate-slave-drama-1202136753/ | 2017-07-26 | 916
+- S078 | Casey Bloys On ‘Game Of Thrones’ Creators’ Post-HBO Future & Fate Of ‘Confederate’ | https://deadline.com/2019/07/game-of-thrones-creators-post-hbo-future-fate-of-confederate-david-benioff-and-d-b-weiss-hbo-tca-1202653155/ | 2019-07-24 | 832
+- S079 | Beetz Brothers Hails Skydance Content Chief Casey Bloys | https://deadline.com/2026/11/beetz-brothers-clangold-launch-hbo-max-casey-bloys-1237211145/ | 2026-11-03 | 1158
+- S080 | HBO Max Boss Casey Bloys on ‘The Penguin’ Season 2, What’s Next for ‘The Last of Us’ and If He’d Ride a Plane Piloted By Nathan Fielder | https://variety.com/2025/tv/news/hbo-casey-bloys-the-penguin-season-2-the-last-of-us-future-1236461127/ | 2025-07-15 | 1880
+- S082 | HBO Boss Casey Bloys Apologizes for Using Fake Twitter Accounts to Troll TV Critics: ‘Dumb Idea’ | https://variety.com/2023/tv/news/hbo-casey-bloys-explains-fake-twitter-accounts-troll-critics-1235775997/ | 2023-11-02 | 787
+- S083 | Casey Bloys Celebrates HBO’s Emmy Nomination Haul, Says Strikes Will Impact Them in 2024: ‘It Will Be a Lot of Pain for Everybody’ | https://variety.com/2023/tv/news/hbo-max-casey-bloys-emmy-nominations-netflix-strike-1235668287/ | 2023-07-12 | 2044
+- S084 | HBO’s Casey Bloys on ‘Big Little Lies’ Season 3, How Pedro Pascal’s Injury Impacts ‘The Last of Us’ and Whether ‘Euphoria’ Will End Next Season | https://variety.com/2024/tv/news/hbo-big-little-lies-season-3-pedro-pascal-injury-the-last-of-us-euphoria-finale-1235875603/ | 2024-01-17 | 1562
+- S085 | HBO’s Casey Bloys on Mike White’s ‘White Lotus’ Season 3 Pitch, Wanting More Seasons of ‘Succession’ and Plans for International Shows | https://variety.com/2023/tv/global/hbo-casey-bloys-white-lotus-season-3-succession-1235562528 | 2023-03-23 | 822
+- S086 | HBO Programming Chief Addresses ‘Game of Thrones’ Fan Petition | https://variety.com/2019/tv/news/hbo-casey-bloys-game-of-thrones-petition-1203278603/ | 2019-07-24 | 510
+- S087 | Casey Bloys Signs New Multiyear Deal to Continue Overseeing HBO Max and Paramount+ As He Assumes His New Role at Skydance | https://variety.com/2026/tv/news/casey-bloys-new-deal-hbo-max-paramount-skydance-1236899664/ | 2026-10-06 | 548
+- S088 | HBO’s Casey Bloys on Huge Emmy Nom Haul, the Future of ‘Succession’ | https://au.variety.com/2022/tv/awards/hbo-emmys-succession-house-of-the-dragon-casey-bloys-4227 | 2022-07-13 | 1236
+- S090 | HBO’s Casey Bloys Talks Emmy Wins & Updates On 2025 Hopefuls ‘The Last Of Us’, ‘Euphoria’ & ‘White Lotus’; Calls On Gay Twitter For ‘Gilded Age’ Support | https://www.yahoo.com/entertainment/hbo-casey-bloys-talks-emmy-112944119.html | 2024-01-16 | 1094
+- S091 | HBO Boss Addresses George R.R. Martin’s ‘Abysmal’ House of the Dragon Remarks | https://www.yahoo.com/entertainment/tv/articles/hbo-boss-addresses-george-r-044644260.html | 2026-02-02 | 491
+- S092 | Casey Bloys On HBO Max Emmy Dominance, ‘The Pitt’ Breakthrough, ‘White Lotus’, ‘Last Of Us’ & ‘Hacks’ Future, ‘The Penguin’ Season 2 & ‘Euphoria’ | https://ca.news.yahoo.com/casey-bloys-hbo-max-emmy-213703189.html | 2025-07-15 | 1843
+- S094 | Casey Bloys Reflects on HBO’s Emmys Dominance, Looks Ahead to 2024: and 2025 | https://uk.news.yahoo.com/casey-bloys-reflects-hbo-emmys-215949656.html | 2024-01-16 | 1432
+- S095 | HBO/Max Chief Casey Bloys Is Against Using AI to Develop Programming, Reveals the One Note He Gave ‘Succession’ Creator on Final Season | https://malaysia.news.yahoo.com/hbo-max-chief-casey-bloys-000406838.html | 2023-06-08 | 1085
+- S096 | HBO’s Casey Bloys Wants to Be ‘Retired’ Before ChatGPT Takes Over TV | https://ca.sports.yahoo.com/news/hbo-casey-bloys-wants-retired-220000384.html | 2023-06-08 | 514
+- S097 | HBO’s Casey Bloys: Andrea Arnold Was ‘Never Promised’ Creative Control on ‘Big Little Lies’ Season 2 | https://www.yahoo.com/entertainment/hbo-casey-bloys-andrea-arnold-205153227.html | 2019-07-24 | 551
+- S098 | HBO Programming Head Casey Bloys Addresses ‘Big Little Lies’ Season 2 Controversy | https://www.yahoo.com/entertainment/hbo-programming-head-casey-bloys-203251180.html | 2019-07-24 | 599
+- S099 | HBO Boss Casey Bloys on Post-AT&T Outlook, What’s Next for ‘Westworld,’ ‘The Night Of’ | https://www.yahoo.com/tv/hbo-boss-casey-bloys-post-t-outlook-next-021442538.html | 2016-10-28 | 1483
+- S100 | HBO & HBO Max Content Chief Casey Bloys Says Company Is “Creative-Driven, Not Data-Driven”; Talks Importance Of European Content For Service: RTS Convention | https://www.yahoo.com/entertainment/hbo-hbo-max-content-chief-170105740.html | 2021-09-16 | 767
+- S101 | Why HBO Is Betting on Bundles, Hot Hockey Sex and a “Quirky” ‘GoT’ to Conquer Europe | https://www.yahoo.com/entertainment/tv/articles/why-hbo-betting-bundles-hot-210510931.html | 2026-01-13 | 1187
+- S103 | HBO’s Casey Bloys Talks Big Emmy Wins, ‘Watchmen’ Future, ‘GoT’ Prequel Status, Return To Production & Movie Acquisitions, Confirms ‘Euphoria’ COVID Episode | https://news.yahoo.com/hbo-casey-bloys-talks-big-064729899.html | 2020-09-21 | 1062
+- S104 | HBO and Max chief Casey Bloys apologizes for trolling TV critics | https://ca.news.yahoo.com/hbo-max-chief-casey-bloys-173738982.html | 2023-11-02 | 765
+- S105 | HBO CEO Casey Bloys Reveals Expected ‘The Last of Us’ Season 3 Release Date | https://www.yahoo.com/entertainment/articles/hbo-executive-casey-bloys-reveals-014701662.html | 2025-07-21 | 727
+- S106 | HBO's Casey Bloys Apologizes for Using Fake Twitter Accounts Against TV Critics: 'A Very, Very Dumb Idea' | https://www.thewrap.com/hbo-casey-bloys-fake-twitter-accounts-lawsuit-apology | 2023-11-02 | 590
+- S107 | Casey Bloys apologizes, attributes those fake tweets to lockdown mindset | https://avclub.com/casey-bloys-fake-tweet-scandal-apology-1850985463 | 2023-11-02 | 563
+- S108 | AI is no substitute for human creativity, says HBO boss Casey Bloys | https://www.c21media.net/news/ai-is-no-substitute-for-human-creativity-says-hbo-boss-casey-bloys/ | 2024-06-07 | 2179
+- S109 | Casey Bloys Assures TV Critics 'There Are No Plans to Dilute the HBO Brand' | https://www.thewrap.com/casey-bloys-assures-tv-critics-there-are-no-plans-to-dilute-the-hbo-brand | 2018-07-25 | 266
+- S110 | HBO's Casey Bloys 'Would Have Taken More Seasons' of 'Succession' | https://thewrap.com/succession-more-seasons-casey-bloys-hbo-ceo | 2023-03-23 | 325
+- S111 | HBO's Casey Bloys on Emmys Success, 'The Last of Us' Future and an 'Early Summer' Debut for 'House of the Dragon' Season 2 | https://www.thewrap.com/hbo-casey-bloys-emmys-house-of-the-dragon-season-2/ | 2024-01-17 | 1340
+- S112 | What Happens to TV After ‘Game of Thrones?’ Ask HBO. - The Ringer | https://www.theringer.com/2019/12/19/year-in-review/hbo-game-of-thrones-future-casey-bloys | 2019-12-19 | 6389
+- S113 | Linear and Streaming Are Separate Pillars of HBO's Success | https://www.adweek.com/convergent-tv/linear-and-streaming-are-separate-pillars-of-hbos-success/ | 2021-10-19 | 329
+- S114 | HBO boss says "there is nothing on the air that I wouldn’t have made five years ago" - PRIMETIMER | https://www.primetimer.com/item/HBO-boss-says-there-is-nothing-on-the-air-that-I-wouldn-t-have-made-five-years-ago-WoSAoG | 2019-08-09 | 309
+- S115 | Equal opportunity violence on HBO dramas, its boss says | https://www.ksl.com/article/40871047/equal-opportunity-violence-on-hbo-dramas-its-boss-says | 2016-07-30 | 694
+- S116 | HBO Addresses The Joss Whedon And James Franco-Shaped Elephant In The Room [TCA] - SlashFilm | https://www.slashfilm.com/559846/joss-whedon-and-james-franco-hbo | 2018-07-25 | 385
+- S117 | HBO Talks 'True Detective' Season 3, 'Game Of Thrones' Finale, 'Deadwood' Movie And More [TCA 2017] - SlashFilm | https://www.slashfilm.com/hbo-on-game-of-thrones-finale-deadwood-movie-and-more | 2017-07-27 | 713
+- S118 | HBO Responds To 'Game Of Thrones' Fan Petition, Offers Update On Prequel Pilot [TCA 2019] - SlashFilm | https://slashfilm.com/game-of-thrones-prequel-update-2 | 2019-07-24 | 864
+- S119 | HBO Boss On Game Of Thrones End Date And Possible Spinoff, Deadwood Revival, Curb Season 9 Timetable - TVLine | https://www.tvline.com/news/game-of-thrones-season-8-spinoff-hbo-737178/ | 2016-07-30 | 482
+- S120 | HBO President Casey Bloys Defends Confederate - TV Guide | https://www.tvguide.com/news/confederate-slavery-drama-hbo-casey-bloys | 2017-07-26 | 863
+- S121 | TCA 2019: Casey Bloys: Record Emmy Nominations for ‘Game of Thrones’ Validates Final Season Despite Criticism | https://nexttv.com/news/tca-2019-casey-bloys-record-emmy-nominations-for-game-of-thrones-validates-final-season-despite-criticism | 2019-07-24 | 453
+- S122 | HBO Chief Casey Bloys Says Sorry for Using Fake Social Accounts To Troll Critics | https://nexttv.com/news/hbo-chief-casey-bloys-addresses-charges-in-rolling-stone | 2023-11-02 | 457
+- S123 | Casey Bloys | https://www.nexttv.com/features/casey-bloys | 2020-12-07 | 598
+- S124 | HBO Chief On The Network | https://www.darkhorizons.com/?p=112472 | 2019-02-11 | 380
+- S125 | HBO Chief Talks Whedon, Franco, Brand Dilution | https://www.darkhorizons.com/?p=103059 | 2018-07-25 | 469
+- S126 | HBO chief provides updates on Game of Thrones, Big Little Lies, True Detective, Deadwood and more | https://flickeringmyth.com/hbo-chief-provides-updates-game-thrones-big-little-lies-true-detective-deadwood | 2018-01-14 | 398
+- S128 | HBO boss explains Lovecraft Country cancellation | https://www.gamesradar.com/hbo-boss-explains-lovecraft-country-cancellation | 2021-09-15 | 514
+- S129 | Our Flag Means Death: Finding a New Home | https://bleedingcool.com/tv/our-flag-means-death-finding-a-new-home-is-an-option-casey-bloys | 2024-01-16 | 1161
+- S130 | HBO Has Had 'Conversations' About Reviving 'Poker Face' With Peter Dinklage After Peacock Cancellation | https://www.thewrap.com/hbo-conversations-saving-poker-face-canceled-peter-dinklage-recast/ | 2025-11-20 | 412
+- S131 | HBO Has “Had Conversations” About Rescuing ‘Poker Face,’ Casey Bloys Says | https://www.hollywoodreporter.com/tv/tv-news/poker-face-hbo-move-conversations-casey-bloys-1236432244/ | 2025-11-20 | 992
+- S132 | A ‘Game of Thrones’ Sequel Is Not an Option for HBO’s Top Executive | https://www.hollywoodreporter.com/live-feed/game-thrones-sequel-is-not-an-option-hbo-series-finale-1212749 | 2019-05-21 | 2063
+- S133 | Why HBO Canceled 'Vinyl' After Renewing it for Season 2 | https://screencrush.com/vinyl-season-2-canceled-decision-hbo/ | 2016-07-30 | 541
+- S135 | 'Silicon Valley:' HBO Programming President Talks Future of Tech Comedy Beyond Season 6 | https://thewrap.com/silicon-valley-hbo-programming-president-talks-future-of-tech-comedy-beyond-season-6 | 2019-04-15 | 313
+- S136 | ‘Silicon Valley’: HBO Boss On Comedy Coming To An End & Possible T.J. Miller Return | https://www.yahoo.com/entertainment/silicon-valley-hbo-boss-comedy-052354862.html | 2019-07-25 | 283
+- S137 | What’s going on with The Penguin, Euphoria, and The White Lotus? | https://ca.news.yahoo.com/going-penguin-euphoria-white-lotus-155948518.html | 2024-06-11 | 491
+- S138 | HBO Explains the 'Big Little Lies' Controversy: Sort Of / Fortune | https://fortune.com/2019/07/24/hbo-addresses-big-little-lies-controversy/ | 2019-07-24 | 399
+- S141 | HBO gives | https://www.malaymail.com/news/showbiz/2016/08/01/hbo-gives-game-of-thrones-an-end-date/1173461 | 2016-08-01 | 866
+- S142 | Game of Thrones boss explains reason prequel Bloodmoon was canceled after $35m pilot | https://www.gamesradar.com/game-of-thrones-bloodmoon-canceled-hbo-why | 2022-07-20 | 557
+- S143 | HBO boss explains why Game of Thrones prequel pilot Bloodmoon was scrapped - PRIMETIMER | https://www.primetimer.com/item/HBO-boss-explains-why-Game-of-Thrones-prequel-pilot-Bloodmoon-was-scrapped-QwSDr4 | 2020-01-15 | 282
+- S144 | HBO Is Still ‘Possibly’ Considering 1 or 2 More ‘Game of Thrones’ Spinoff Scripts, Casey Bloys Says | https://www.yahoo.com/entertainment/casey-bloys-says-hbo-still-233012265.html | 2019-07-24 | 972
+- S145 | Production Has Wrapped on 'Game of Thrones' Prequel Pilot, HBO's Casey Bloys Says | https://www.thewrap.com/production-has-wrapped-on-game-of-thrones-prequel-pilot-hbos-casey-bloys-says/ | 2019-07-24 | 414
+- S148 | HBO Max's Rebrand Is Aimed at Parents Allowing Children to Use the Service | https://www.cbr.com/hbo-max-rebrand-aimed-at-parents/ | 2023-02-08 | 560
+- S149 | HBO exec explains decision to cancel Lovecraft Country | https://winteriscoming.net/2021/09/17/hbo-exec-tries-explain-lovecraft-country-cancellation | 2021-09-17 | 470
