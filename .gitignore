@@ -12,3 +12,4 @@ __pycache__/
 
 # run logs written on the Mac by scheduled jobs (keep out of git so pulls never conflict)
 .claude/skills/**/*.log
+evals/**/raw/
