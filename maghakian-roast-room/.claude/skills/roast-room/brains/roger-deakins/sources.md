@@ -1,26 +1,101 @@
 # Sources: Roger Deakins
 
-20 sources (20 local), 1,027 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+95 sources (82 web, 13 local), 290,975 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
 
 Format: id | title | url | date | words
 
-- S001 | NPR Talking Pictures: Keeping an eye on the small things | https://www.npr.org/transcripts/114249616 | 2009-10-29 | 58
-- S002 | Hazlitt: If the camera moves it's got to be for a reason | https://hazlitt.net/node/10611811 | 2015-09-01 | 44
-- S003 | Deakins forum: Shot design in prep | https://www.rogerdeakins.com/forums/topic/shot-design-in-prep/ | undated | 67
-- S004 | Deakins forum: Roger's replies (several pages) | https://www.rogerdeakins.com/forums/users/roger/replies/ | undated | 92
-- S005 | Deakins forum: LUTs | https://www.rogerdeakins.com/forums/topic/luts/ | undated | 40
-- S006 | ASC: Lighting Sicario (interview) | https://theasc.com/blog/the-film-book/sicario-interview-with-roger-deakins-asc-bsc | 2015 | 50
-- S007 | The Take: procedure on Unbroken (interview) | https://the-take.com/read/what-was-the-general-aesthetic-and-procedure-used-by-roger-deakins-in-shooting-unbroken | 2014 | 92
-- S008 | Fandango: TIFF interview (The Goldfinch) | https://www.fandango.com/movie-news/tiff-interview-roger-deakins-reflects-on-his-career-the-goldfinch-and-the-wwi-script-he-wrote-in-the-90s-753891 | 2019-09 | 34
-- S009 | StudentFilmmakers: A conversation with Roger Deakins (Jarhead) | https://www.studentfilmmakers.com/?p=2520 | 2006 | 69
-- S010 | Backstage: Empire of Light process | https://www.backstage.com/magazine/article/roger-deakins-interview-empire-of-light-cinematography-75823/ | 2022-12 | 47
-- S011 | Awardswatch interview (sets that light themselves) | https://awardswatch.com/?p=90336 | undated | 56
-- S012 | Empire/EW: Skyfall lighting in Macau | https://www.yahoo.com/now/skyfall-cinematographer-roger-deakins-made-150000947.html | undated | 31
-- S013 | 1917 interviews (IBC, Business Insider, Digit excerpts) | https://ibc.org/interviews/behind-the-scenes-1917/5297.article | 2019-12 | 83
-- S014 | American Cinematographer 2011 via MUBI Notebook (going digital) | https://legacy.mubi.com/notebook/posts/the-deaths-of-cinema-cont | 2011 | 43
-- S015 | No Film School 2011: on ARRI Alexa | https://nofilmschool.com/2011/02/master-cinematographer-roger-deakins-shooting-arri-alexa-film | 2011-02 | 43
-- S016 | Advice pieces (story first) | https://nofilmschool.com/2014/04/top-10-cinematography-tips-from-dp-roger-deakins | 2014 | 37
-- S017 | Memoir interview: Reflections on Cinematography | https://filmhounds.co.uk/2026/02/17/roger-deakins-and-james-ellis-deakins-chat-reflections-on-cinematography-cinema-is-not-literal/ | 2026-02 | 31
-- S018 | TheWrap: moviegoing changed beyond repair (Empire of Light) | https://www.thewrap.com/roger-deakins-movies-changes-cinematographer-empire-of-light-interview/ | 2022-12 | 32
-- S019 | Oscars.org: Empire of Light interview (storyboards, prep) | https://newsletter-stg.oscars.org/features/roger-deakins-empire-of-light-interview | 2022-12 | 38
-- S020 | FilmLocal (secondary attribution, low confidence) | https://filmlocal.com/?p=1446849 | undated | 40
+- S001 | Deakins forum thread: Shot design in prep | https://www.rogerdeakins.com/forums/topic/shot-design-in-prep/ | 2023-02-06 | 1237
+- S002 | Deakins forum: his replies as Keymaster, page 1 (2025-09 to 2026-11) | https://www.rogerdeakins.com/forums/users/roger/replies/ | 2026-11 | 1406
+- S003 | Deakins forum thread: LUTs | https://www.rogerdeakins.com/forums/topic/luts/ | 2023-11-08 | 2248
+- S004 | Team Deakins: Bill Pope | https://teamdeakins.libsyn.com/bill-pope | undated | 275
+- S005 | Team Deakins: MATT REEVES - Director | https://teamdeakins.libsyn.com/matt-reeves-director | undated | 292
+- S006 | Team Deakins: CHARLEY GILLERAN - Rigging Key Grip | https://teamdeakins.libsyn.com/charley-gilleran-rigging-key-grip | undated | 357
+- S007 | Team Deakins: JAFAR PANAHI - Director | https://teamdeakins.libsyn.com/jafar-panahi-director | 2026-05 | 414
+- S008 | Team Deakins: REFLECTIONS: ON CINEMATOGRAPHY - written by Roger Deakins | https://teamdeakins.libsyn.com/reflections-on-cinematography-written-by-roger-deakins | undated | 412
+- S009 | Reflections- On Cinematography with Sir Roger & James Deakins | https://www.spreaker.com/episode/reflections-on-cinematography-with-sir-roger-james-deakins--74934879 | undated | 733
+- S010 | In Conversation with Team Deakins - Toronto Film Critics Association | https://torontofilmcritics.com/features/in-conversation-with-team-deakins/ | 2021-04-10 | 3315
+- S011 | Roger Deakins Interview: Shooting Big-Budget Films Should Not Be Considerably Different Than Low-Budget Ones / Fstoppers | https://fstoppers.com/interview/roger-deakins-interview-shooting-big-budget-films-should-not-be-considerably-477750 | 2020-04-20 | 488
+- S012 | Roger Deakins Breaking Down His Best Films is a Masterclass in Cinematography | https://nofilmschool.com/roger-deakins-breaking-down-films | 2020-01-27 | 1149
+- S013 | Roger Deakins Breaks Down His Award-Winning Cinematography Career / CineD | https://www.cined.com/roger-deakins-breaks-awardwinning-cinematography-career/ | 2020-01-26 | 1761
+- S014 | Watch Blade Runner 2049 Discussion with Roger Deakins, ASC, BSC | https://theasc.com/article/roger-deakins-asc-bsc-blade-runner-2049-discussion/ | 2017-12-20 | 837
+- S015 | Createasphere Presents Roger Deakins, ASC, BSC in Conversation with American Cinematographer / Film Festival Today | https://filmfestivaltoday.com/featured/createasphere-presents-roger-deakins-asc-bsc-in-conversation-with-american-cinematographer | 2011-02-16 | 339
+- S016 | Roger Deakins and ARRI Relationship on "1917" / CineD | https://www.cined.com/?p=131567 | 2020-02-22 | 1552
+- S017 | Roger Deakins on his journey to ARRI’s large format | https://www.arri.com/news-en/roger-deakins-cbe-asc-bsc-on-his-journey-to-arri-large-format | undated | 1346
+- S018 | Roger Deakins, ASC, BSC, CBE: "The Filmmaker's View" - Newsshooter | https://www.newsshooter.com/2017/10/09/57399/ | 2017-10-08 | 462
+- S019 | Roger Deakins talks about the ALEXA Mini LF & 1917 - Newsshooter | https://www.newsshooter.com/?p=99361 | 2019-10-08 | 559
+- S021 | Stabilizer News: ARRI interview on 1917 (link page) | https://www.stabilizer-news.com/arri-interview-roger-deakins-about-1917/ | 2020-04-14 | 511
+- S022 | IBC 2012: Roger Deakins on the Arri Alexa | https://www.redsharknews.com/production/item/111-ibc-2012-roger-deakins-on-the-arri-alexa | 2012-10-05 | 388
+- S023 | Roger and James Deakins return to Atlanta for new book, 'Reflections on Cinematography' | https://roughdraftatlanta.com/2026/03/06/roger-deakins-james-deakins-reflections-on-cinematography/ | 2026-03-06 | 2485
+- S024 | Roger Deakins And James Ellis Deakins Chat Reflections: On Cinematography: “Cinema is not literal” | https://filmhounds.co.uk/2026/02/17/roger-deakins-and-james-ellis-deakins-chat-reflections-on-cinematography-cinema-is-not-literal/ | 2026-02-17 | 2657
+- S025 | Roger Deakins Is “Nostalgic” for “Character-Driven Movies” That Hollywood “Makes No More” - World of Reel | https://www.worldofreel.com/blog/2026/2/9/deakins | 2026-02-09 | 340
+- S026 | Career profiles: Sir Roger Deakins / Definition | https://definitionmagazine.com/features/career-profiles-sir-roger-deakins/ | 2026-06-09 | 2060
+- S027 | Definition June/July 2026 - Web | https://online.bright-publishing.com/view/44080457/9/ | 2026-07 | 276
+- S028 | Roger Deakins Told the Coen Brothers He’d Stop Speaking to Them if They Didn’t Direct ‘No Country for Old Men’ | https://ca.news.yahoo.com/roger-deakins-told-coen-brothers-235603166.html | 2023-03-11 | 503
+- S029 | Oscar-winning cinematographer Roger Deakins on the funny reason he began working with Coens, 'disaster' of 'Shawshank' release and more | https://ca.news.yahoo.com/roger-deakins-cinematographer-best-films-movies-coen-brothers-shawshank-redemption-1917-blade-runner-2049-014113213.html | 2023-03-08 | 1863
+- S030 | Roger Deakins on Blade Runner 2049, The Goldfinch and Assassination of Jesse James | https://collider.com/roger-deakins-interview-blade-runner-2049-the-goldfinch/ | 2019-09-13 | 936
+- S031 | TIFF Interview: Roger Deakins Reflects on his Career, 'The Goldfinch,' and the WWI Script He Wrote in the '90s | https://www.fandango.com/movie-news/tiff-interview-roger-deakins-reflects-on-his-career-the-goldfinch-and-the-wwi-script-he-wrote-in-the-90s-753891 | 2019-09-12 | 3093
+- S032 | Deakins Talks Depressing Hollywood Visuals | https://www.darkhorizons.com/?p=130956 | 2020-04-10 | 394
+- S033 | Empire of Light: Theater of Dreams | https://theasc.com/article/empire-of-light-deakins/ | 2023-01-16 | 2247
+- S034 | Roger Deakins: ‘With film, I used to be the first… / Little White Lies | https://lwlies.com/interviews/roger-deakins-with-film-i-used-to-be-the-first-person-to-see-a-performance | 2023-01-10 | 2174
+- S035 | EMPIRE OF LIGHT: Sir Roger Deakins Interview / Killer Movie Reviews | https://killermoviereviews.com/interview/empire-of-light-sir-roger-deakins-interview | 2023-02-22 | 291
+- S036 | Q&A: Roger Deakins on cinema's past and future | https://www.news4jax.com/entertainment/2022/12/14/qa-roger-deakins-on-cinemas-past-and-future/ | 2022-12-14 | 1933
+- S037 | Cinematographer Roger Deakins Fears That Moviegoing Has ‘Changed Beyond Repair’ | https://ca.news.yahoo.com/cinematographer-roger-deakins-fears-moviegoing-152000383.html | 2023-01-06 | 1431
+- S039 | Cinematographer Roger Deakins ('Empire of Light') on his latest collaboration with Sam Mendes, being his own camera operator, and the movie that makes him cry | https://awardswatch.com/?p=90336 | 2022-12-14 | 2451
+- S040 | Roger Deakins on His New Photography Book Byways and Why the "Little Things" Catch His Eye - M&E - Media and Entertainment | https://mande.net/btl/crafts/roger-deakins-byways-interview | 2022-01-07 | 1649
+- S041 | Roger Deakins, ASC, BSC: Lighting Sicario | https://theasc.com/blog/the-film-book/sicario-interview-with-roger-deakins-asc-bsc | 2015-10-16 | 2860
+- S042 | Interview: Legendary Cinematographer Roger Deakins - SlashFilm | https://www.slashfilm.com/roger-deakins-interview | 2011-02-10 | 4237
+- S043 | Interview: Roger Deakins / Film Comment | https://www.filmcomment.com/interview-roger-deakins/ | undated | 2653
+- S044 | Cinematographers Aren't There To Shoot Amazing Images: An Interview With Roger Deakins / Fstoppers | https://fstoppers.com/bts/cinematographers-arent-there-shoot-amazing-images-interview-roger-deakins-88612 | 2015-09-30 | 760
+- S045 | Cinematographer Roger Deakins on Sicario and Blade Runner 2 / Den of Geek | https://www.denofgeek.com/us/movies/roger-deakins/249479/cinematographer-roger-deakins-on-sicario-and-blade-runner-2 | 2015-10-01 | 2285
+- S046 | Roger Deakins Explains His Personal Connection to Cinematography | https://nofilmschool.com/2017/10/roger-deakins-explains-his-personal-connection-cinematography | 2017-10-21 | 671
+- S047 | Roger Deakins is Over Using Film, But Will Shoot on Any Format, Even a Cell Phone | https://nofilmschool.com/2016/01/roger-deakins-over-film-shoot-cell-phone-hail-caesar | 2016-01-26 | 875
+- S048 | Top 10 Cinematography Tips from Renowned DP Roger Deakins | https://nofilmschool.com/2014/04/top-10-cinematography-tips-from-dp-roger-deakins | 2014-04-28 | 981
+- S049 | Master Cinematographer Roger Deakins on Shooting with ARRI ALEXA: 'Film Had a Good Run' | https://nofilmschool.com/2011/02/master-cinematographer-roger-deakins-shooting-arri-alexa-film | 2011-02-12 | 790
+- S050 | The Legendary Roger Deakins: A Director’s Cinematographer | https://www.motionpictures.org/2015/10/the-legendary-roger-deakins-a-directors-cinematographer/ | 2015-10-05 | 891
+- S051 | ASC Close-Up with Cinematographer Roger Deakins / The Black and Blue | https://www.theblackandblue.com/2014/04/04/deakins-asc-close-up | 2014-04 | 316
+- S052 | What Was the General Aesthetic and Procedure Used by Roger Deakins in Shooting “Unbroken”? / Read / The Take | https://www.the-take.com/read/what-was-the-general-aesthetic-and-procedure-used-by-roger-deakins-in-shooting-unbroken | 2015-01-29 | 641
+- S053 | 'If the Camera Moves it’s Got To Be for a Reason': An Interview with Roger Deakins / Hazlitt | https://hazlitt.net/node/10611811 | 2015-10 | 1945
+- S054 | Roger Deakins, Keeping An Eye On The Small Things | https://www.npr.org/transcripts/114249616 | 2009-10-29 | 1757
+- S055 | The Deaths of Cinema, cont. | https://legacy.mubi.com/notebook/posts/the-deaths-of-cinema-cont | 2011-11-05 | 555
+- S056 | How Skyfall cinematographer Roger Deakins made the best-looking Bond movie ever | https://www.yahoo.com/now/skyfall-cinematographer-roger-deakins-made-150000947.html | 2021-09-26 | 1613
+- S057 | Roger Deakins - Interview Magazine | https://interviewmagazine.com/film/roger-deakins | 2015-10-06 | 3944
+- S058 | Collider Connected: Watch Our Live Interview with Roger Deakins April 2nd | https://collider.com/collider-connected-roger-deakins-interview-details/ | 2020-04-02 | 378
+- S059 | Roger Deakins talks to the BSC: FILMdetail | https://filmdetail.com/2011/07/23/roger-deakins-talks-to-the-bsc/ | 2014-11-19 | 292
+- S060 | Master Class with Roger Deakins: ICFF Manaki Brothers 2018: Föreningen Sveriges Filmfotografer | https://fsfsweden.se/master-class-with-roger-deakins-icff-manaki-brothers-2018/ | 2026-11 | 1870
+- S061 | Roger Deakins: How is technology changing cinema? | https://getpodcast.com/dk/podcast/hardtalk/roger-deakins-how-is-technology-changing-cinema_0ddf84a991 | undated | 3190
+- S062 | If They Notice the Shot, You Screwed It Up: Advice from Roger Deakins | https://nofilmschool.com/roger-james-deakins | 2026-02-26 | 1667
+- S063 | Award-winning cinematographer Roger Deakins discusses photography, filmmaking, and collaboration with wife James | https://roughdraftatlanta.com/2023/11/14/award-winning-cinematographer-roger-deakins-discusses-photography-filmmaking-and-collaboration-with-wife-james/ | 2023-11-15 | 3175
+- S064 | Team Deakins show notes, November 2025 | https://teamdeakins.libsyn.com/2025/11 | undated | 396
+- S065 | Team Deakins: BVK - The German Society of Cinematographers | https://teamdeakins.libsyn.com/bvk-the-german-society-of-cinematographers | undated | 294
+- S066 | We interview Roger Deakins: Devon’s movie maestro | https://www.greatbritishlife.co.uk/people/we-interview-roger-deakins-devon-s-movie-maestro-7274170 | 2020-02-14 | 1462
+- S067 | Sir Roger Deakins under the spotlight with University film students | https://www.plymouth.ac.uk/news/sir-roger-deakins-under-the-spotlight-with-university-film-students | 2021-02-23 | 808
+- S068 | Roger Deakins online answer to film school | https://www.redsharknews.com/roger-deakins-online-answer-to-film-school | 2020-05-16 | 758
+- S069 | Deakins forum notice: Team Deakins SMU Q&A video | https://www.rogerdeakins.com/?p=214606 | 2023-06-16 | 322
+- S070 | Deakins forum: his replies as Keymaster, pages 2 to 9 (2025-03 to 2026-09) | https://www.rogerdeakins.com/forums/users/roger/replies/page/2/ | 2026-09-12 | 10234
+- S071 | Deakins forum: his replies as Keymaster, pages 10 to 17 (2024-06 to 2025-03) | https://www.rogerdeakins.com/forums/users/roger/replies/page/10/ | 2025-03-16 | 9478
+- S072 | Deakins forum: his replies as Keymaster, pages 18 to 25 (2023-08 to 2024-06) | https://www.rogerdeakins.com/forums/users/roger/replies/page/18/ | 2024-06-18 | 9554
+- S073 | Deakins forum: his replies as Keymaster, pages 26 to 33 (2023-02 to 2023-08) | https://www.rogerdeakins.com/forums/users/roger/replies/page/26/ | 2023-08-11 | 11669
+- S074 | Deakins forum: his replies as Keymaster, pages 34 to 39 (2022-09 to 2023-01) | https://www.rogerdeakins.com/forums/users/roger/replies/page/34/ | 2023-01-31 | 6719
+- S075 | Uncanny Valley: Blade Runner 2049 | https://theasc.com/articles/uncanny-valley-blade-runner-2049 | 2018-03-06 | 4244
+- S076 | Dive Deeper into Blade Runner 2049 with Roger Deakins, ASC, BSC | https://theasc.com/articles/deakins-blade-runner-2049 | 2018-03-05 | 775
+- S077 | Lives Under Siege: The Goldfinch and 1917 | https://theasc.com/articles/lives-under-siege-the-goldfinch-and-1917 | 2020-01-13 | 5278
+- S078 | Legendary Cinematographer Roger Deakins Breaks Down His Biggest Career Challenges, Including 1917 | https://editorial.rottentomatoes.com/article/legendary-cinematographer-roger-deakins-breaks-down-his-biggest-career-challenges-including-1917 | 2019-12-24 | 337
+- S079 | Interview: Roger Deakins, The Man With the Golden Light - Blog - The Film Experience | http://thefilmexperience.net/blog/2011/2/10/interview-roger-deakins-the-man-with-the-golden-light.html | undated | 5748
+- S080 | Roger Deakins: "If you aren't nervous, you aren't doing it right" whynow | https://whynow.co.uk/read/roger-deakins-interview-byways | 2021-12-03 | 2505
+- S081 | Roger Deakins on his life, career, and the future of cinema | https://faroutmagazine.co.uk/roger-deakins-discusses-his-life-stor/ | 2026-02-16 | 4331
+- S082 | Reflections On Cinematography: Sir Roger Deakins and James Deakins - FILM REVIEW | https://www.filmreviewdaily.com/news-and-features/reflections-on-cinematography-sir-roger-deakins-and-james-deakins | 2025-12-29 | 2906
+- S083 | Luxiere: Image and Form (Tulsa interview) | https://luxiere.co/editorials/arts/roger-deakins-team-deakins/ | 2026-05-05 | 2244
+- S084 | Feature: Sir Roger Deakins talks about his life and career in a new memoir | https://laist.com/feature-sir-roger-deakins-talks-about-his-life-and-career-in-a-new-memoir | 2025-11-07 | 435
+- S086 | Live Production / IBC365 | https://www.ibc.org/interviews/craft-leaders-roger-deakins-cinematographer/2829.article | undated | 268
+- S087 | Watch Roger Deakins Dole Out Cinematography Knowledge for 2 Whole Hours | https://nofilmschool.com/roger-deakins-two-hour-talk | 2020-05-13 | 777
+- S088 | Roger Deakins Pulls Back the Curtain on How He Actually Thinks About Shots | https://nofilmschool.com/roger-deakins-film-in-decline | 2026-02-10 | 956
+- S089 | Meet the Industry: Cinematographer Sir Roger Deakins (1917, Blade Runner 2049) | https://www.metfilmschool.ac.uk/articles/blogs/meet-industry-cinematographer-sir-roger-deakins-1917-blade-runner-2049/ | 2020-05-07 | 1013
+- S090 | Cinematographer Deakins shares his thoughts on the art of light and shade | https://thestar.com.my/lifestyle/culture/2022/12/21/cinematographer-deakins-shares-his-thoughts-on-the-art-of-light-and-shade | 2022-12-21 | 336
+- S091 | Team Deakins podcast: Turning the Tables, The Shawshank Redemption (machine transcript, no speaker labels) | https://teamdeakins.libsyn.com/turning-the-tables-shawshank-redemption | 2020-10-25 | 16499
+- S092 | Team Deakins podcast: Turning the Tables, No Country for Old Men (machine transcript, no speaker labels) | https://teamdeakins.libsyn.com/turning-the-tables-no-country-for-old-men | 2020-12-06 | 21389
+- S093 | Team Deakins podcast: Turning the Tables, Fargo (machine transcript, no speaker labels) | https://teamdeakins.libsyn.com/turning-the-tables-fargo | 2021-02-21 | 14332
+- S094 | Team Deakins podcast: Turning the Tables, The Assassination of Jesse James (machine transcript, no speaker labels) | https://teamdeakins.libsyn.com/turning-the-tables-the-assassination-of-jessse-james | 2020-11-15 | 13415
+- S095 | Team Deakins podcast: Jesse James live Q&A (machine transcript, no speaker labels) | https://teamdeakins.libsyn.com/jesse-james-live-qa | 2024-10-16 | 7379
+- S096 | Team Deakins podcast: Turning the Tables, 1917 (machine transcript, no speaker labels) | https://teamdeakins.libsyn.com/turning-the-tables-1917 | 2021-04-25 | 15706
+- S097 | Team Deakins podcast: Turning the Tables, Sicario (machine transcript, no speaker labels) | https://teamdeakins.libsyn.com/turning-the-tables-sicario | 2021-08-08 | 16845
+- S098 | Team Deakins podcast: Turning the Tables, Skyfall (machine transcript, no speaker labels) | https://teamdeakins.libsyn.com/turning-the-tables-skyfall | 2026-10-14 | 16353
