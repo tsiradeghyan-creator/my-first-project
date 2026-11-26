@@ -1,17 +1,87 @@
 # Sources: Bela Bajaria
 
-11 sources (11 local), 502 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+81 sources (81 web), 90,109 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
 
 Format: id | title | url | date | words
 
-- S001 | World Screen: Netflix's massive local impact strategy | https://worldscreen.com/?p=250766 | 2022 | 40
-- S002 | APOS keynote via Yahoo: local authenticity on a global platform | https://malaysia.news.yahoo.com/apos-netflix-bela-bajaria-pinpoints-070149203.html | 2021 | 41
-- S003 | Interview on local creative executives (Yahoo, Inside Netflix's quest) | https://www.yahoo.com/entertainment/inside-netflix-quest-become-global-130041334.html | 2022 | 52
-- S004 | NZ Herald (headline quote, low confidence): a show for everyone | https://nzherald.co.nz/business/bela-bajaria-netflixs-chief-content-officer-if-you-try-to-make-a-show-for-everyone-you-make-a-show-for-no-one/7KPBK6HKYJGYLF3FAEYURQR23Y | 2024 | 47
-- S005 | Rolling Stone UK: Squid Game expectations | https://www.rollingstone.co.uk/tv/news/netflix-execs-say-they-always-knew-squid-game-would-be-something-special-8100/ | 2021 | 47
-- S006 | USA Today via Yahoo: Lupin and local-language hits | https://news.yahoo.com/money-heist-lupin-unorthodox-netflixs-100024446.html | 2021 | 49
-- S007 | Newsweek: Paradigm Shifters | https://www.everand.com/article/548624938/Paradtgm-Shifters | 2021 | 52
-- S008 | UCLA Law event via Yahoo: myth busting | https://uk.news.yahoo.com/netflix-bela-bajaria-talks-myth-025652898.html | 2023 | 51
-- S009 | Banff keynote via Yahoo: back to basics | https://www.yahoo.com/entertainment/back-basics-netflix-bela-bajaria-180048794.html | 2022 | 38
-- S010 | Yahoo: Netflix is like no other network | https://ca.news.yahoo.com/bela-bajaria-explains-why-netflix-141000929.html | 2024 | 33
-- S011 | Business Today 2026-10-17: reported departure (status note, not her words) | https://www.businesstoday.in/trending/entertainment/story/architect-of-squid-game-is-out-netflix-cuts-global-chief-bela-bajaria-who-is-she-562240-2026-10-17 | 2026-10-17 | 52
+- S001 | Netflix Content Chief Bela Bajaria on Overseeing Global Storytelling: ‘My Super Power Is I Hire Really Great People and I Let Them Do Their Job’ | https://variety.com/2026/tv/global/bela-bajaria-netflix-mipcom-vanguard-1236908989/ | 2026-10-12 | 634
+- S002 | Bela Bajaria on Netflix’s Epic TV Trek Into Local Language Production: ‘There’s No Roadmap for This’ | https://variety.com/2026/tv/news/bela-bajaria-netflix-squid-game-mipcom-variety-vanguard-1236906712/ | 2026-10-09 | 2195
+- S003 | KEYNOTE INTERVIEW: Bela Bajaria, Netflix | https://www.c21media.net/c21tv/keynote-interview-bela-bajaria-netflix/19078/ | undated | 2096
+- S004 | “Back To Basics” For Netflix’s Bela Bajaria As She Questions “Are We The Underdog Now?”: Banff | https://deadline.com/2022/06/back-to-basics-for-netflixs-bela-bajaria-as-she-questions-are-we-the-underdog-now-banff-1235045129/ | 2022-06-14 | 763
+- S006 | Netflix’s Bela Bajaria Talks ‘Myth Busters’ at UCLA Law Event: ‘Algorithms Don’t Decide What We Make’ | https://variety.com/2023/film/news/netflix-bela-bajaria-algorithm-ucla-law-1235639496/ | 2023-06-10 | 930
+- S008 | APOS: Netflix’s Bela Bajaria Pinpoints the Duality of Local Authenticity on a Global Platform | https://malaysia.news.yahoo.com/apos-netflix-bela-bajaria-pinpoints-070149203.html | 2021-04-20 | 767
+- S009 | Netflix’s Bela Bajaria: Global Success Begins With Local Storytelling - Media Play News | https://www.mediaplaynews.com/netflixs-bela-bajaria-global-success-begins-with-local-storytelling/ | 2026-10-12 | 1336
+- S010 | Netflix's Bela Bajaria on Finding The Next Global Hit - The Circuit with Emily Chang | https://omny.fm/shows/the-circuit-1/netflixs-bela-bajaria-on-finding-the-next-global-h | undated | 253
+- S011 | Bela Bajaria on Leading Netflix | https://podcasts.apple.com/us/podcast/bela-bajaria-on-leading-netflix/id1497092891?i=1000769149348 | 2026-05-22 | 702
+- S012 | Bela Bajaria: The Most Powerful Woman In Entertainment / The Titans / THR India | https://www.hollywoodreporterindia.com/thr-video/the-titans/bela-bajaria-the-most-powerful-woman-in-entertainment-the-titans-thr-india | 2025-09-24 | 349
+- S013 | Bela Bajaria Explains Why Netflix Is Like No Other Network: ‘We Can’t Define Ourselves Narrowly’ | https://variety.com/2024/tv/news/bela-bajaria-netflix-is-next-3-body-problem-gentlemen-1235893947/ | 2024-02-01 | 1418
+- S015 | How Netflix’s Chief Content Officer Bela Bajaria Was Born to Disrupt the Status Quo | https://variety.com/2024/tv/features/bela-bajaria-netflix-content-officer-emmys-disrupting-status-quo-1236185098 | 2024-10-23 | 2008
+- S016 | Bela Bajaria on Which Emmy Nominee She Texted First and One Giant “Disappointment” of a Snub | https://www.hollywoodreporter.com/tv/tv-features/netflix-emmy-nominations-2025-squid-game-snub-bela-bajaria-1236315598/ | 2025-07-15 | 1684
+- S017 | Netflix Breaks Silence on ‘Emilia Pérez’ Scandal: “This Is Such a Bummer” | https://www.hollywoodreporter.com/movies/movie-news/netflix-emilia-perez-controversy-interview-1236136312/ | 2025-02-14 | 766
+- S018 | Vince McMahon Is “Gone” and More Takeaways From Netflix’s Press Day | https://www.hollywoodreporter.com/tv/tv-news/vince-mcmahon-netflix-content-chief-1235812247/ | 2024-02-01 | 1489
+- S019 | Netflix’s Bela Bajaria on Talk Show Plans and Potential Live Shows | https://www.hollywoodreporter.com/tv/tv-news/netflixs-bela-bajaria-talk-show-plans-potential-live-shows-1084150/ | 2018-02-15 | 1613
+- S020 | Inside Netflix’s Quest to Become a Global TV Giant | https://www.yahoo.com/entertainment/inside-netflix-quest-become-global-130041334.html | 2020-07-30 | 3363
+- S021 | Netflix TV Leader Bela Bajaria’s Secret to Success: She’s ‘Not an Intellectual’ | https://www.yahoo.com/entertainment/netflix-tv-leader-bela-bajaria-183047392.html | 2023-01-09 | 569
+- S022 | How Female Executives Are Leading the International Streaming Business | https://www.yahoo.com/entertainment/female-executives-leading-international-streaming-160015723.html | 2021-03-04 | 2696
+- S023 | 'Money Heist,' 'Lupin,' 'Squid Game': How Netflix's non-English shows became global hits | https://news.yahoo.com/money-heist-lupin-unorthodox-netflixs-100024446.html | 2021-12-03 | 1281
+- S024 | Netflix execs always knew 'Squid Game' would be "something special" | https://www.rollingstone.co.uk/tv/news/netflix-execs-say-they-always-knew-squid-game-would-be-something-special-8100/ | 2021-12-14 | 368
+- S025 | We want to have everyone’s favourite show and movie: Netflix’s Bela Bajaria - BusinessToday | https://www.businesstoday.in/amp/opinion/interviews/story/we-want-to-have-everyones-favourite-show-and-movie-netflixs-bela-bajaria-331174-2022-04-25 | 2022-04-25 | 1482
+- S026 | MPW 2022: Meet Bela Bajaria, the woman responsible for Netflix's string of English hits - BusinessToday | https://www.businesstoday.in/magazine/corporate/story/mpw-2022-meet-bela-bajaria-the-woman-responsible-for-netflixs-string-of-english-hits-372439-2023-03-06 | 2023-03-06 | 365
+- S027 | Netflix global TV head Bela Bajaria dishes on ‘local impact strategy’ | https://indiantelevision.com/news-headline/netflix-global-tv-head-bela-bajaria-dishes-on-local-impact-strategy/ | 2021-04-21 | 971
+- S028 | Bela Bajaria journey as Netflix’s Indian-American changemaker | https://www.globalindian.com/story/cover-story/from-zambia-to-the-us-bela-bajarias-journey-as-netflixs-only-indian-american-changemaker/ | 2025-05-01 | 1774
+- S029 | Universal TV’s Bela Bajaria on the Battle for Ratings and What ‘Truly Sucks’ About the Business | https://www.hollywoodreporter.com/news/general-news/women-entertainment-bela-bajaria-universal-397463/ | 2012-12-05 | 1502
+- S030 | Meet TV’s highest-ranking Indian-American woman / Fortune | https://fortune.com/2015/08/17/bela-bajaria-universal-television/ | 2015-08-17 | 1068
+- S031 | Bringing EntrepreneurialSpirit to a TV Career | https://www.nexttv.com/news/bringing-entrepreneurial-spirit-tv-career-112896 | 2012-02-20 | 884
+- S032 | Bela Bajaria | https://nexttv.com/features/bela-bajaria | 2020-12-07 | 608
+- S033 | Bela Bajaria Joins Netflix Content Team - About Netflix | https://about.netflix.com/en/news/bela-bajaria-joins-netflix-content-team | 2016-10 | 568
+- S034 | Netflix’s Bajaria forms global team | https://www.c21media.net/news/netflixs-bajaria-forms-global-team/ | 2020-10-29 | 2172
+- S035 | Architect of Squid Game is out: Netflix cuts global chief Bela Bajaria. Who is she? - BusinessToday | https://www.businesstoday.in/trending/entertainment/story/architect-of-squid-game-is-out-netflix-cuts-global-chief-bela-bajaria-who-is-she-562240-2026-10-17 | 2026-10-17 | 1115
+- S036 | Netflix fires Bela Bajaria, woman who greenlit Bridgerton, Beef, Stranger Things | https://theprint.in/feature/netflix-fires-chief-content-officer-bela-bajaria/3073723/ | 2026-10-16 | 1321
+- S037 | Netflix Chief Content Officer Bela Bajaria leaves after nearly a decade | https://americanbazaaronline.com/2026/10/19/netflix-chief-content-officer-bela-bajaria-leaves-after-nearly-a-decade-490306/ | 2026-10-19 | 548
+- S038 | Bela Bajaria out, Peter Rice in as Netflix shakes up content leadership | https://www.c21media.net/news/bela-bajaria-out-peter-rice-in-as-netflix-shakes-up-content-leadership | 2026-10-16 | 2282
+- S039 | Netflix Chief Content Officer Bela Bajaria Out, to be Replaced by Peter Rice | https://www.thewrap.com/industry-news/business/netflix-chief-content-office-bela-bajaria-out-peter-rice-in/ | 2026-10-15 | 788
+- S040 | Ted Sarandos Addresses Netflix Content Exec Purge: ‘I Know That We Could Do Better’ | https://au.variety.com/?p=41637 | 2026-10-20 | 625
+- S041 | Bela Bajaria Exits Netflix, Replaced by Peter Rice in Major Content Leadership Shakeup | https://www.hollywoodreporterindia.com/amp/story/features/insight/bela-bajaria-exits-netflix-replaced-by-peter-rice-in-major-content-leadership-shakeup | 2026-10-16 | 428
+- S042 | Netflix Replaces Its Biggest Content Executive | https://www.darkhorizons.com/?p=195146 | 2026-10-15 | 402
+- S043 | Netflix’s Bela Bajaria to Receive The Hollywood Reporter’s Impact Award at Banff World Media Festival | https://www.yahoo.com/entertainment/netflix-bela-bajaria-receive-hollywood-174555108.html | 2022-06-08 | 444
+- S044 | Netflix Content Chief Bela Bajaria on Aamir Khan’s Pay-Per-View Push: We Are About Consumer Choice and Control' | https://www.hollywoodreporterindia.com/amp/story/features/insight/netflix-content-chief-bela-bajaria-on-aamir-khans-pay-per-view-push-we-are-about-consumer-choice-and-control | 2025-09-24 | 463
+- S045 | Netflix’s Bela Bajaria on the Strangest Place She’s Been Pitched An Idea: 'I Was on a Treadmill at My Doctor’s Office' | https://www.hollywoodreporterindia.com/amp/story/features/insight/netflixs-bela-bajaria-on-the-strangest-place-shes-been-pitched-an-idea-i-was-on-a-treadmill-at-my-doctors-office | 2025-09-24 | 431
+- S046 | Netflix’s Content Strategy: Insights from Bela Bajaria - A Hot Set | https://ahotset.com/media/netflixs-content-strategy-insights-from-bela-bajaria | 2025-03-06 | 1247
+- S047 | Fortune’s CEO shares conversation highlights from the 2023 Most Powerful Women Summit / Fortune | https://fortune.com/2023/10/25/fortune-most-powerful-women-summit-laphonza-butler-mellody-hobson-bela-bejaria-interviews/ | 2023-10-25 | 5895
+- S048 | Netflix's Bela Bajaria on Finding The Next Global Hit | https://getpodcast.com/podcast/the-circuit6/netflixs-bela-bajaria-on-finding-the-next-global-hit_5c765741c5 | undated | 726
+- S049 | Netflix’s New Global TV Chief Bela Bajaria Pledges To Continue Spending Big In The UK | https://deadline.com/2020/10/netflix-bela-bajaria-promises-to-continue-spending-big-in-the-uk-1234604669/ | 2020-10-28 | 750
+- S051 | Netflix Chief Content Officer Bela Bajaria exits amid major layoffs - AOL | https://www.aol.com/entertainment/netflix-chief-content-officer-bela-170000336.html | 2026-10-15 | 859
+- S052 | This Netflix executive just became one of the most powerful women in Hollywood / Fortune | https://fortune.com/2023/01/20/netflix-bela-bajaria-reed-hastings-powerful-women-hollywood-media/ | 2023-01-20 | 611
+- S053 | Netflix’s Bela Bajaria on Theatres Versus Streaming: 'Not Opposition, But Complementary' | https://www.hollywoodreporterindia.com/features/insight/netflixs-bela-bajaria-on-theatres-versus-streaming-not-opposition-but-complementary | 2025-09-25 | 601
+- S054 | 10 Years Of Netflix In India / Netflix Executives On The Milestone: | https://filmibeat.com/ott/you-can-t-entertain-the-world-without-india-says-bela-bajaria-netflix-executives-reflect-on-10-ye-496374.html | 2026-01-09 | 1030
+- S055 | Netflix leaders Ted Sarandos, Monika Shergill, Bela Bajaria reflect on a decade of streaming, stories and scale in India; says, “You can’t entertain the world w | https://www.bollywoodhungama.com/?p=2083340 | 2026-01-09 | 661
+- S056 | Netflix says 80% of viewers watch K-content, 'Squid Game' Season 2 will live up to expectations - The Korea Times | https://www.koreatimes.co.kr/amp/entertainment/shows-dramas/20241120/netflix-says-80-of-viewers-watch-k-content-squid-game-season-2-will-live-up-to-expectations | 2024-11-20 | 745
+- S057 | "Expanding Viewer Engagement" Netflix Aims to 'Break Records' with Diverse Content - The Asia Business Daily | https://www.asiae.co.kr/en/article/2025020413072613464 | 2025-02-04 | 923
+- S058 | Netflix Announces Massive Content Push, "Expecting Qualitative Improvement" (Comprehensive) - The Asia Business Daily | https://www.asiae.co.kr/en/article/2025020418002164140 | 2025-02-04 | 1617
+- S059 | First Lady Kim Geon-hee, 2.5 Billion Investment in Netflix, Requests "Please Maintain Continued Interest in Korea" - The Asia Business Daily | https://www.asiae.co.kr/en/article/2023042515360430378 | 2023-04-25 | 1099
+- S060 | Netflix Reports Some Eye-Popping Numbers About Its International Offerings / Den of Geek | https://www.denofgeek.com/tv/netflix-international-series-lupin-money-heist-the-witcher | 2021-08-20 | 809
+- S061 | International streaming hits are proof that good TV translates, no matter the language | https://www.stripes.com/living/entertainment/2021-06-24/International-streaming-hits-are-proof-that-good-TV-translates-no-matter-the-language-1791360.html | 2021-06-24 | 1702
+- S062 | Netflix Touts Worldwide Expansion, ‘Squid Game’ Season 2 in First International Content Showcase | https://www.thewrap.com/netflix-international-showcase-squid-game-season-2-troll-2/ | 2024-11-19 | 560
+- S064 | Netflix Showcases New and Returning International Series and Films - About Netflix | https://about.netflix.com/news/netflix-showcases-new-and-returning-international-series-and-films | 2024-11 | 947
+- S065 | Netflix boss talks Squid Game season 2 plans: "We’re trying to figure out the right structure" | https://www.gamesradar.com/au/netflix-boss-talks-squid-game-season-2-plans-were-trying-to-figure-out-the-right-structure | 2021-10-05 | 497
+- S066 | Bela Bajaria: Netflix Unlimited - BusinessToday | https://www.businesstoday.in/amp/specials/most-powerful-women-in-business/story/bela-bajaria-netflix-unlimited-315364-2021-12-13 | 2021-12-13 | 398
+- S067 | Netflix’s Bela Bajaria Remains Bullish on Live Despite Tyson/Paul Hiccups, Says They’re Ready for the NFL: and More to Come in Global Territories | https://variety.com/2024/tv/news/netflix-live-nfl-wwe-tyson-paul-1236214042 | 2024-11-19 | 825
+- S068 | Mel | https://www.nexttv.com/news/mels-diner-bajaria-s-plan-may-be-crazy-ambitious-it-s-not-nuts-125442 | 2013-12-02 | 2232
+- S069 | Bela Bajaria | https://www.nexttv.com/news/bela-bajaria-112910 | 2012-02-27 | 270
+- S071 | Bela Bajaria to lead international non-English TV originals at Netflix | https://realscreen.com/?p=205862 | undated | 1204
+- S072 | Bela Bajaria says she is considering new opportunities and has not ruled out a career path beyond another top television or film role. | https://www.enstarz.com/articles/246722/20261124/bela-bajaria-next-career-move-after-netflix-exit.htm | 2026-11-24 | 371
+- S073 | Netflix's Bela Bajaria to Receive 2026 International Emmy Founders Award - Señal News | https://senalnews.com/en/events/netflixs-bela-bajaria-to-receive-2026-international-emmy-founders-award | undated | 1068
+- S074 | ‘Squid Game’: Netflix’s Top Exec in Asia Explains the Show’s Huge Global Appeal | https://www.hollywoodreporter.com/tv/tv-news/squid-game-secret-to-global-success-1235030008/ | 2021-10-12 | 2907
+- S075 | Netflix exec downplays AI: ‘There is not an algorithm in the world to tell you the next thing that’s going to actually connect and resonate with people’ / Fortu | https://fortune.com/2023/10/10/netflix-exec-downplays-ai/ | 2023-10-10 | 587
+- S076 | BANFF 2022: Netflix wants to be in Canada for a long time, head of global TV says - Cartt.ca | https://cartt.ca/?p=370747 | 2022-06-16 | 976
+- S077 | 6 Questions with Netflix's Bela Bajaria... and Then Some - The Ankler | https://theankler.com/p/6-questions-with-netflixs-bela-bajaria | 2023-11-18 | 888
+- S078 | Netflix 10 years in India: Ted Sarandos, Bela Bajaria on future / Outlook India | https://www.outlookindia.com/art-entertainment/netflix-10-years-in-india-ted-sarandos-bela-bajaria-on-future | 2026-01-09 | 979
+- S080 | LA500 2024: Bela Bajaria - Los Angeles Business Journal | https://labusinessjournal.com/la500-2024/media-entertainment-2024/la500-2024-bela-bajaria/ | 2024-06-03 | 311
+- S081 | Netflix’s Love Affair With Korea Isn’t Ending With ‘Squid Game’ | https://www.thewrap.com/squid-game-netflix-rise-south-korean-content/ | 2025-07-07 | 1901
+- S082 | Universal TV President Bela Bajaria Out; Pearlena Igbokwe Eyed As Replacement | https://www.yahoo.com/entertainment/universal-tv-president-bela-bajaria-232026726.html | 2016-05-31 | 424
+- S083 | Bela Bajaria Exiting Universal Television | https://nexttv.com/news/bela-bajaria-exiting-universal-television-156950 | 2016-06-01 | 282
+- S085 | Bela Bajaria / 2025 Most Powerful Women / Fortune | https://fortune.com/ranking/most-powerful-women/2025/bela-bajaria | 2025-05-19 | 284
+- S086 | Netflix aprendió que hacer “contenido para todos” no funciona, por ello se enfocarán en contenido que no sea en inglés | https://www.xataka.com.mx/streaming/netflix-aprendio-que-hacer-contenido-para-todos-no-funciona-ello-se-enfocaran-contenido-que-no-sea-ingles | 2024-11-23 | 528
+- S087 | Netflix’s Bela Bajaria exit signals a content reset, but what changes for India? | https://www.indiantelevision.com/iworld/netflixs-bela-bajaria-exit-signals-a-content-reset-but-what-changes-for-india/ | 2026-10-16 | 2150
+- S088 | Netflix Global Shakeup: What Does It Mean For India? | https://www.hollywoodreporterindia.com/amp/story/features/insight/netflix-global-shakeup-what-does-it-mean-for-india | 2026-10-29 | 1356
+- S089 | Bela Bajaria Teases Next Move at International Emmys | https://qncnews.com/2026/11/24/bela-bajaria-teases-next-move-at-international-emmys/ | 2026-11-24 | 1368
