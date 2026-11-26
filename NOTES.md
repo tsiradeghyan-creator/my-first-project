@@ -1,5 +1,18 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (eval losses fixed and re-tested)
+**Did:**
+- Fixed the 3 eval losses:
+  - banana-pro: stylized lane, brief facts carried, clean deliverable, f/8 on seamless;
+  - cinema-worldbuilder: brief nouns carried, adult age as appearance, no QA lists after the block;
+  - film-crew: handoff carries facts.
+- Re-ran with 3 runs per arm: B1 and C1 now win 3/3. F3 style is fixed, but it loses on the title policy (Armenian title as overlay vs rendered in the image).
+- Told Tigran the eval is enough for direction but not a final verdict: one run per task, 15 tasks, a same-family judge, text only (no generated images or videos), no web.
+
+**Left:**
+- Tigran: blind vote, the title policy, 5–10 of his own real requests for a bigger set, and whether to spend credits on real generations.
+- Deletions and LOW items.
+
 ## 2026-11-26 — Cloud (skill-router lightened + first evals)
 **Did:**
 - skill-router rule lightened, at Tigran's request: one clear skill → name it in one line and start; menu only when several fit or the ask is unclear.

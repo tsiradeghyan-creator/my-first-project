@@ -49,3 +49,17 @@
 3. **C1, Kling.** cinema-worldbuilder lost the location name (Gyumri) and buried the prompt under settings and QA notes. Every noun from the brief must reach the final prompt, and notes go after it.
 4. **General.** Skills win on model facts and craft but lose points on bloat (copy_ready). The final block should be the prompt plus settings only.
 5. **Minor.** S3 (fixing a failed clip) also went through film-crew. By design, fixes go straight to seedance-25-director.
+
+## Re-run after fixes (3 runs per arm, `out-v2/`, judge in `out-v2/judge.json`)
+
+| Task | Before | After the fix (3 runs each) | Mean total with / without |
+|---|---|---|---|
+| B1, character sheet | lost | **with wins 3 of 3** | 16.7 / 12.7 |
+| C1, Kling, Gyumri | lost | **with wins 3 of 3** | 18.0 / 17.3 |
+| F3, children's poster | lost | without wins 3 of 3, but with scores higher on average | 17.7 / 17.0 |
+
+**F3:**
+- The style problem is fixed: the poster is now a storybook illustration, not photoreal kids.
+- What is left is a policy choice. The skill leaves the Armenian title out of the image, as clean space for an overlay, because AI image models often break Armenian letters (the studio's glyph rule). The judge prefers rendering the title in the image.
+- The judge also liked shaping each kid from the meaning of the names (Մտմտիկ = the thinker, Պրպտիկ = the digger). This is a small improvement to add.
+- Decision for Tigran: overlay the Armenian title, or try rendering it with a fallback.

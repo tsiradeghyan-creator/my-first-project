@@ -1,0 +1,182 @@
+{
+ "B1-r1": {
+  "order": [
+   "with",
+   "without"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 3,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 commits to one real model (Nano Banana Pro) with correct reference chaining and gives precise, uniform lighting, lens and panel direction that can be run as is, though it is repetitive and drops her name and exact age; Variant 2 is closer to the brief and adds an expression sheet, but its settings are spread thin across several models, its prompts need the identity block pasted in, and its single-image turnaround with insets is unlikely to render cleanly."
+ },
+ "B1-r2": {
+  "order": [
+   "with",
+   "without"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 3,
+   "brief_fidelity": 4,
+   "copy_ready": 2
+  },
+  "winner": "1",
+  "why": "Variant 1 builds the sheet in clear steps for one real model (Nano Banana Pro): face, then outfit, then the sheet. It uses correct reference chaining, consistent lighting and a tight 6-panel layout, but it never states Narine's age (41) and repeats its skin-texture wording too much; Variant 2 includes the brief's facts but cannot be pasted as written because of its [IDENTITY BLOCK] placeholders, crams four views, five expressions and insets into one sheet, contradicts itself on expression (half-smile vs neutral) and glasses placement, and spreads thin generic settings across several tools."
+ },
+ "B1-r3": {
+  "order": [
+   "with",
+   "without"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 3,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 gives one real Nano Banana Pro workflow that builds in order (face lock, then outfit, then a 6-panel sheet) with precise lighting, lens and panel direction, while Variant 2 spreads loose parameters across several models, includes a negative prompt that Flux does not natively support, and leaves placeholders that weaken copy-readiness despite better translator and 2026 context."
+ },
+ "C1-r1": {
+  "order": [
+   "without",
+   "with"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 5
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 2 gives clearer filmable direction: beat-by-beat action timed to 8 seconds, a fixed start and end frame for the orbit, a set light direction and an instruction to keep the scene static so only the camera moves. That outweighs its slightly longer prompt, the odd phrase 'handheld-free' and the mixed-language notes around it, while Variant 1 is clean but less precise about what happens and where the camera ends."
+ },
+ "C1-r2": {
+  "order": [
+   "with",
+   "without"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "winner": "1",
+  "why": "Variant 1 gives a single, filmable 8-second move with defined start and end frames, a stated lens and a backlit sawdust payoff at the end, while Variant 2 packs in extra action (tapping, lifting the panel, blowing dust) that is hard for the hands to perform while holding tools and ends the orbit on a vague final frame."
+ },
+ "C1-r3": {
+  "order": [
+   "without",
+   "with"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 5
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 2 gives clearer direction for the shot: defined opening and closing frames, a constant-speed orbit that crosses the beam to light sawdust in the foreground, and an explicit line keeping the man, workshop and light consistent, all of which help Kling hold the move steady; it loses a little on copy-readiness for its longer text and loose extras like the 'banana-pro' tip and the rights note."
+ },
+ "F3-r1": {
+  "order": [
+   "with",
+   "without"
+  ],
+  "v1": {
+   "model_fit": 5,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 5
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 2 gives each name to the character whose meaning fits it (Մտմտիկ is the pondering girl, Պրպտիկ the digging explorer boy), treats the rendered Armenian title and a credits band as real poster needs, and adds 4K print output and an edit-fix prompt; it wins despite its made-up '4 variations' setting and a fallback prompt that has to be pieced together by hand, while Variant 1 is better crafted and paste-ready but leaves the characters unnamed."
+ },
+ "F3-r2": {
+  "order": [
+   "without",
+   "with"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 5
+  },
+  "winner": "1",
+  "why": "Variant 1 leads with the poster the brief asks for: it renders the Armenian title, spells it out letter by letter, and keeps a clean no-text fallback, using Nano Banana Pro's text rendering; Variant 2 has better camera direction and two fully pasteable prompts, but treats the title as optional and makes a no-title image its main deliverable."
+ },
+ "F3-r3": {
+  "order": [
+   "without",
+   "with"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 3,
+   "copy_ready": 4
+  },
+  "winner": "1",
+  "why": "Variant 1 delivers a full poster: it names and differentiates the two characters, renders the Armenian title using Nano Banana Pro's text strength, and gives a text-free fallback plus a fix-up edit, while Variant 2 has slightly better camera and lighting direction but drops the title and character names, says the kids 'stand' in one place and 'sit' in another, and is really a clean key-art plate rather than the poster asked for."
+ }
+}
