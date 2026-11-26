@@ -1,5 +1,9 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (new computer + full skill audit)
+**Did:** Tigran replaced his laptop. Listed what must move to the new machine (folders, LaunchAgents, keys by name, MCP config, CLIs); the last laptop sync was 2026-11-23. Then ran a read-only audit of all 29 skills + 9 agents (5 parallel reviewers, HIGH findings re-checked by hand). Report: `bridge/skill-audit-2026-11-26.md`. Main HIGH items: maghakian-brand and content-zavod still use the old purple palette and old figures/name; higgsfield linter rejects `seedance_2_5` and ~20 places default to Seedance 2.0; cinema-worldbuilder/shortfilm use Seedance 2.0 limits and Sora; film-crew agents point to the old laptop path `~/.claude/skills/film-crew/`; fal-ai-media model ids are wrong; all scheduled jobs (auto-learn, trend-scout, zavod-scout, consolidate-memory, sync) are dead until rebuilt on the new machine. seedance-25-director, bab-production, studio, director-desk are current.
+**Left:** Tigran decides whether film-crew runs for single shots (CLAUDE.md rule vs every skill); then fix HIGH items (zavod fixes in zavod-om, not here); restore section 4 of the report on the new computer; then real evals on the top 5 skills. Still OPEN: BRIDGE C6.
+
 ## 2026-11-05 — Cloud (Instagram: «Креативное мышление», 7 animated posts, RU)
 **Did:** Tigran sent a Russian text on creativity (two exercises: notice round objects, 5–10 associations). Built `projects/kreativ/` on the harcru-qez engine: `post.html?i=1..7`, local Cyrillic fonts (Noto Serif/Sans, Cormorant Garamond italic), `render.mjs` → `out/post-0N.mp4` (8 s, 1080×1350) + PNG. Post types: quote, list (5 ways), drawing red circle (ex. 1), association cloud (ex. 2), closing quote. Footer «Maghakian Scripts» + triangle. Captions in `captions.md`.
 **Left:** Tigran to confirm language (RU vs an Armenian version), footer/handle, music, carousel vs Reels.
