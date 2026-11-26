@@ -163,7 +163,7 @@ decided by the crew, not by the prompt alone.
    `banana-pro-director-2.0` (stills; it switches to a stylized prompt for illustrated or children's work),
    `gpt-image-prompting` (GPT Image, or stills with exact readable text), `cinema-worldbuilder-pro-2.0` (other
    video models), or the skill for the model the user named. Pass on every concrete fact of the brief (names of
-   places, period, apparent ages, roles, titles, lines of dialogue, style words like "cartoon" or "storybook"),
+   places, period, apparent ages, roles, titles, lines of dialogue, style words like "cartoon" or "storybook"; a title is rendered in the image first, with an overlay as the fallback),
    so the final prompt keeps them, and ask the model skill for a lean deliverable: settings plus the prompt.
 
 If the user already has a shot plan, use it as the Director's pass and fill only what is missing. When there is

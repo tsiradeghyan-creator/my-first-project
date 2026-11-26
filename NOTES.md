@@ -1,5 +1,9 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (title policy, credits)
+**Did:** Tigran decided that titles on posters and covers, Armenian included, are rendered in the image first, with a manual overlay as the fallback if the letters break. Applied in banana-pro (rule 16; character names may shape the look), the film-crew handoff, and gpt-image-prompting (zavod-om canon, mirrored). Real generations with credits: not yet (Tigran).
+**Left:** brand-original visual ideas, a character bible per project, LOW items and deletions.
+
 ## 2026-11-26 — Cloud (second blind grader + gpt-image refresh)
 **Did:**
 - Unblinded a second grader's votes (pasted by Tigran): with skills 10, without 4, tie 1; it agrees with our judge on 10 of 15. Both agree skills win on Seedance, film-crew multi-shot and most video. Disagreements are mostly banana-pro.
