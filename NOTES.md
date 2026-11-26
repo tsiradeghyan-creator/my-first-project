@@ -1,5 +1,23 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (moved to cloud-only)
+**Did:** Tigran has no VS Code on the new Mac and does not plan to install it, so the workspace is now cloud-only.
+- CLAUDE.md rewritten: `memory/` is the source; zavod edits go to zavod-om and are mirrored here.
+- BRIDGE, the sync script and the Mac setup scripts are archived, not deleted.
+- consolidate-memory and media-memory are paused.
+- `auto-learn.py` accepts `MEMORY_DIR`.
+- Three cloud scheduled tasks created (Yerevan time, each a fresh session that pushes to main). They store no connectors; they only need web search and GitHub.
+
+| Task | When |
+|---|---|
+| trend-scout | Mon/Wed/Fri 06:48 |
+| auto-learn | Tue 09:50 |
+| zavod-scout | Sat 10:49 |
+
+**Left:**
+- Check the first trend-scout run (Fri 2026-11-27 06:48).
+- LOW items, deletions, real evals.
+
 ## 2026-11-26 — Cloud (portfolio completed from the website)
 **Did:** Read maghakianscripts.com/projects and added the 2 missing projects, «Մի գեղեցիկ օր» (2026, 50+ episodes, ongoing) and «Սոս 911» (2026, 16), to maghakian-brand/portfolio.md and to the zavod canon filmography (pushed to zavod-om and mirrored here). Both lists now have 48. Hashtag and «Խաղալիք» palette: left as they are.
 **Left:** new Mac setup (BRIDGE C7); LOW items, deletions, real evals.
