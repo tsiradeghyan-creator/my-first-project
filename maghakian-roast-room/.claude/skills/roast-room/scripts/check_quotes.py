@@ -20,7 +20,7 @@ BRAINS = Path(__file__).resolve().parents[1] / "brains"
 
 def norm(s):
     s = s.lower().replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
-    s = re.sub(r"[^a-z0-9' ]+", " ", s)
+    s = re.sub(r"[^\w' ]+|_", " ", s)  # Unicode letters: Armenian, Cyrillic…
     return re.sub(r"\s+", " ", s).strip()
 
 
@@ -34,7 +34,7 @@ def main():
     for f in session_files:
         text = f.read_text(encoding="utf-8", errors="replace")
         # only quotes attributed to a source id, e.g. "..." (S095) or "..." [S048, 2026]
-        for q in re.findall(r"[\"“]([^\"“”\n]{20,400})[\"”][^\n\"]{0,40}?[\(\[]S\d{3}", text):
+        for q in re.findall(r"[\"“«]([^\"“”«»\n]{20,400})[\"”»][^\n\"«]{0,40}?[\(\[]S\d{3}", text):  # "…", “…” and «…»
             nq = norm(q)
             if len(nq.split()) < 6:
                 continue

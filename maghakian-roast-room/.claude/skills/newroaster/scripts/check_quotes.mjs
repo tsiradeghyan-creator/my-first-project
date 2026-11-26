@@ -23,7 +23,7 @@ const norm = (s) => s.toLowerCase()
   .replace(/[‘’`]/g, "'").replace(/[“”]/g, '"')
   .replace(/'\s+(t|s|re|ll|ve|d|m)\b/g, "'$1")
   .replace(/\[\d\d:\d\d(:\d\d)?\]/g, " ")
-  .replace(/[^a-z0-9' ]+/g, " ").replace(/\s+/g, " ").trim();
+  .replace(/[^\p{L}\p{N}' ]+/gu, " ").replace(/\s+/g, " ").trim(); // Unicode letters: Armenian, Cyrillic…
 const corpus = new Map(sources.map((s) => [s.id, norm(fs.readFileSync(path.join(BUILD, s.file), "utf8"))]));
 
 const files = [];
@@ -42,7 +42,7 @@ const found = (q, id) => {
 
 let ok = 0;
 const wrong = [], missing = [];
-const re = /["“]([^"“”\n]{12,600})["”][^\n"“]{0,40}?[(\[]((?:S\d{3})(?:\s*[,;]\s*S\d{3})*)/g;
+const re = /["“«]([^"“”«»\n]{12,600})["”»][^\n"“«]{0,40}?[(\[]((?:S\d{3})(?:\s*[,;]\s*S\d{3})*)/g; // "…", “…” and «…»
 for (const f of files) {
   const lines = fs.readFileSync(f, "utf8").split(/\r?\n/);
   lines.forEach((line, i) => {
