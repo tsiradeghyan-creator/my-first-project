@@ -1,0 +1,62 @@
+{
+ "S1": {
+  "1": "with",
+  "2": "without"
+ },
+ "S2": {
+  "1": "without",
+  "2": "with"
+ },
+ "S3": {
+  "1": "without",
+  "2": "with"
+ },
+ "F1": {
+  "1": "with",
+  "2": "without"
+ },
+ "F2": {
+  "1": "with",
+  "2": "without"
+ },
+ "F3": {
+  "1": "without",
+  "2": "with"
+ },
+ "G1": {
+  "1": "with",
+  "2": "without"
+ },
+ "G2": {
+  "1": "with",
+  "2": "without"
+ },
+ "G3": {
+  "1": "with",
+  "2": "without"
+ },
+ "B1": {
+  "1": "with",
+  "2": "without"
+ },
+ "B2": {
+  "1": "with",
+  "2": "without"
+ },
+ "B3": {
+  "1": "without",
+  "2": "with"
+ },
+ "C1": {
+  "1": "with",
+  "2": "without"
+ },
+ "C2": {
+  "1": "without",
+  "2": "with"
+ },
+ "C3": {
+  "1": "with",
+  "2": "without"
+ }
+}

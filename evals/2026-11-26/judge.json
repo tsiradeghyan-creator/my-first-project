@@ -1,0 +1,242 @@
+{
+ "S1": {
+  "v1": {
+   "model_fit": 3,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 gives a filmable, timecoded single take with a named lens, blocking, motivated backlight and layered diegetic sound that covers every brief element, though choosing 'Omni Reference' mode with no uploads is questionable; Variant 2 pads its settings with hedged, possibly nonexistent controls (seed, negative prompt, fps, camera preset) and its direction is looser, with no lens and summarised action."
+ },
+ "S2": {
+  "v1": {
+   "model_fit": 3,
+   "craft": 3,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 2 uses Dreamina's real Omni Reference workflow and gives each reference a clear role; its blocking, lens, timing and sound are precise, and it avoids asking the model to generate Armenian speech by moving Narine's line to a separate dub, whereas Variant 1 includes invented or hedged settings (motion strength, seed, 'manual camera if that option exists') and leaves the camera less defined. Variant 2's small risk is that it adds wardrobe and 'no eyeglasses' details that could contradict the @Image1 portrait."
+ },
+ "S3": {
+  "v1": {
+   "model_fit": 2,
+   "craft": 4,
+   "brief_fidelity": 3,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 3
+  },
+  "winner": "2",
+  "why": "Variant 2 keeps the brief as one continuous walk, turn and smile, gives a version that works with the single photo the user actually has, and uses real Dreamina Omni Reference settings with timed beats and sound; Variant 1 splits the action into two shots, needs extra photos the user doesn't have, and adds settings Seedance doesn't offer (negative prompts, motion-strength slider, seed control), although Variant 2 loses copy-ready points for its 'Real risks' section that doesn't exist, the '@Image 1' spacing and repeated text."
+ },
+ "F1": {
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 3,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 gives timed, filmable prompts with exact lens, light, blocking and sound cues, and its shot durations and edit timings add up to exactly 30 s; Variant 2 is a looser mood-board that guesses at settings (a fixed seed, a negative-prompt field 'if it exists', a 24 fps setting), feeds the shot 1 still into an unrelated shot 6, and asks for risky morphs and crowded scenes, though it handles the red-triangle logo animation better."
+ },
+ "F2": {
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 2,
+   "craft": 4,
+   "brief_fidelity": 3,
+   "copy_ready": 2
+  },
+  "winner": "1",
+  "why": "Variant 1 is one self-contained 20-second multi-shot prompt that can run as is, with the lie spoken on screen, consistent screen direction and a single light source, and nothing invented about the model; Variant 2 relies on settings Seedance doesn't offer (seed, motion strength) and [CHARACTER]/[LOOK] placeholders you have to fill in by hand, contradicts itself (native audio set to no dialogue while Narine is interpreting and stops mid-sentence, and 2.39 framing inside 16:9), and leaves the manager's lie off the soundtrack."
+ },
+ "F3": {
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 3,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 gives a stylized character poster that suits ages 4-8, with clear negative space for the title and an optional version that renders the exact Armenian title (a task Nano Banana Pro handles well). Variant 2 turns the two characters into photoreal real children with no title, and its long list of 'no CGI/AI' negatives makes it bloated."
+ },
+ "G1": {
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "winner": "1",
+  "why": "Variant 1 gives tighter typographic and spelling control, with a pure white headline, a strict no-extras list, a 4:5 size whose sides are multiples of 16 and n=2 so you can keep the take with correct Armenian, while Variant 2 hedges with an optional two-line layout and off-white text and is less precise overall."
+ },
+ "G2": {
+  "v1": {
+   "model_fit": 5,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 correctly says gpt-image-2 rejects background=\"transparent\" and builds a working path around that: an opaque mid-grey backdrop for a clean cutout (which keeps the cream page edges separate), a rembg step and a CSS shadow; Variant 2 sends the unsupported parameter first, asks for a transparent background in the prompt text, and adds guillemets to the title that the brief probably did not mean as part of it."
+ },
+ "G3": {
+  "v1": {
+   "model_fit": 5,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 5
+  },
+  "v2": {
+   "model_fit": 2,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 runs as pasted and handles gpt-image-2 correctly: it leaves out input_fidelity and warns about transparent backgrounds. Variant 2 sets input_fidelity, which gpt-image-2 doesn't accept, and uses an undefined PROMPT variable, so it isn't ready to run."
+ },
+ "B1": {
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 3,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 3
+  },
+  "winner": "2",
+  "why": "Variant 2 puts the brief's facts (age 41, the translator role, a 2026 office) into a reusable identity block and adds expression and props sheets with real Midjourney --oref, Flux and SDXL settings, while Variant 1 never states her age or her job, contradicts itself by asking for wide-aperture bokeh and even sharpness on a seamless backdrop, and is padded with repeated skin-rendering text and unexplained 'Mode' labels."
+ },
+ "B2": {
+  "v1": {
+   "model_fit": 5,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 2,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 2
+  },
+  "winner": "1",
+  "why": "Variant 1 is written for one model (Nano Banana Pro) with valid settings and no unsupported negative prompt, and it gives a precise, period-accurate wardrobe with controlled neutral studio light; Variant 2 tries to cover every model at once, uses the outdated --cref flag that Midjourney v7 replaced with --oref, leaves a choice inside the prompt ('dark brown (or navy)') and adds a film-stock tint and extra outfit options that weaken it as a clean reference."
+ },
+ "B3": {
+  "v1": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "winner": "2",
+  "why": "Variant 2 targets one real model (Nano Banana Pro) with prose that suits it, leaves clear foreground space for compositing and states the key-light direction for matching the actor shoot, while Variant 1 wrongly applies a negative prompt and an SDXL sampler/CFG setup to Flux; Variant 2 still loses points for baking film grain and a grade into a compositing plate and for padding the prompt with internal pipeline references."
+ },
+ "C1": {
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 3,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 1 has tighter camera blocking and clearly defined first and last frames, but its prompt never names Gyumri and it buries the prompt under hedged settings and QA notes, while Variant 2 delivers every element of the brief, including the Gyumri setting, the sawdust in the beam and the slow circling camera, in a cleaner paste-ready prompt with the audio cues included."
+ },
+ "C2": {
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 2 gives tighter, more filmable direction: fixed frame-left and frame-right blocking, rules that keep the characters and wardrobe consistent, a defined last frame and a clean diegetic sound bed. Variant 1 calls for 'handheld-but-steady' camera, and its inline pronunciation guide may make Veo speak extra words or put text on screen; both variants meet the brief and use real Veo 3.1 settings."
+ },
+ "C3": {
+  "v1": {
+   "model_fit": 3,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 3,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 gives one consistent, filmable take with a fixed over-the-shoulder camera, a clean rack-focus payoff and precise sound design. Variant 2 has a confused camera geography, unfilmable notes like 'face drains of colour', generic settings that may not exist on many models, and three alternative versions that make it bloated."
+ }
+}
