@@ -10,3 +10,4 @@ Read these before writing a performance-driven video prompt. Copy the techniques
 | File | Model / length | Lesson |
 |---|---|---|
 | `01-john-fog-backing-away.md` | 6 s, single close-up, references as `<<<id>>>` (Higgsfield-style) | Acting through a physical action and a tactic; reference roles; prop integrity; no music |
+| `02-john-trigger-insert.md` | 5 s, static ECU insert, same series | Insert grammar with timed sub-beats; last frame held; a non-event locked in picture and sound; a recurring artefact (dry rifle) locked three times |
