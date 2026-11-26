@@ -1,6 +1,6 @@
 ---
 name: banana-pro-director-2.0
-description: Photoreal still-image prompt director for character builds, outfit references, character sheets, scene/environment plates, detail portraits, and outfit replacement across image engines. Use for production-grade image prompts; not for video prompts, API parameter docs, or Higgsfield account/platform questions.
+description: Still-image prompt director for character builds, outfit references, character sheets, scene/environment plates, detail portraits, and outfit replacement across image engines. Photoreal by default; for illustrated, animated or children's-character work it keeps the requested style and drops the realism clauses. Use for production-grade image prompts; not for video prompts, API parameter docs, or Higgsfield account/platform questions.
 metadata:
   version: 2.1.0
   architecture: progressive-disclosure

@@ -197,7 +197,8 @@ These apply to every video prompt this skill produces:
 15. **Diegetic audio only** — no music, no lyrics, no song references in the Sound Bed.
 16. **Energy over position** in the Scene & Mood block. Describe what bodies and forces are doing dramatically. Frame Map handles the geometric specifics.
 17. **Cut triggers.** Use "Hard cut to," "Smash cut to," "Match cut on" to signal edits inside multi-shot prompts. Auto-edit on by default.
-18. **Age-blind.** Don't describe characters by age. Describe by role, hair, wardrobe, and identity markers.
+18. **Age as appearance, never as a number for minors.** Describe characters by role, hair, wardrobe and identity markers, and give adult age as a visible fact when it matters ("an old master in his seventies"). For anyone under 18, describe age only loosely ("a teenage girl") to stay clear of content filters.
+18b. **Brief facts carry through.** Every named place, period, object, line of dialogue and on-screen element the user asked for appears in the prompt text itself (a place name may go in World Plate as a visible description plus the name, e.g. "a stone workshop in Gyumri, Armenia"). Before delivering, check each noun of the brief against the prompt.
 19. **No on-screen text by default.** Don't write captions, subtitles, slogans, signage typography, speech bubbles, UI overlays, or rendered text into a Seedance prompt unless the user has explicitly asked for on-screen text. To suppress Seedance's tendency to hallucinate text, every prompt's Last Frame block closes with: "No on-screen text, no captions, no signage typography, no rendered text in the frame." Skip the suppression only when the user has explicitly requested in-frame text.
 20. **Positive locks over negative prohibitions.** Translate "no drifting" into "boots stay planted on the same ground marks." Translate "don't change face" into "@image1 keeps the same face, hair, wardrobe, and silhouette throughout." Negative prompts have weaker pull than positive constraints.
 21. **One main idea per shot.** One dominant action, one main camera strategy, one major lighting motivation. If a request requires more, split into a multi-shot sequence.
@@ -660,6 +661,8 @@ Before delivering the full prompt to the user, silently run this pass. If anythi
 - [ ] Lens length chosen for the framing
 - [ ] Runtime given or confirmed by the user (not assumed). Runtime in title matches runtime in Camera Capture.
 - [ ] Per-shot timing planned for multi-cut sequences, summing to total runtime
+- [ ] Every noun of the brief (place, period, object, dialogue, requested text) is in the prompt text
+- [ ] Nothing after the code block except the settings line and, if the engine has no audio, the sound note. No QA lists or alternatives unless the user asks
 - [ ] No character names in prompt output
 - [ ] No real brand names in prompt output
 - [ ] No platform/tool names in prompt output

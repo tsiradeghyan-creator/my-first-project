@@ -153,8 +153,11 @@ decided by the crew, not by the prompt alone.
 3. **Skip** the editor, handoff contracts, files 00-10, the table read and the validator. Output one compact shot
    plan in chat, or a `shot.md` file only if the user asks for a file.
 4. **Hand the plan to the model skill** for the final prompt: `seedance-25-director` (Seedance 2.5),
-   `banana-pro-director-2.0` (photoreal stills), `cinema-worldbuilder-pro-2.0` (other video models), or the
-   skill for the model the user named.
+   `banana-pro-director-2.0` (stills; it switches to a stylized prompt for illustrated or children's work),
+   `gpt-image-prompting` (GPT Image, or stills with exact readable text), `cinema-worldbuilder-pro-2.0` (other
+   video models), or the skill for the model the user named. Pass on every concrete fact of the brief (names of
+   places, period, apparent ages, roles, titles, lines of dialogue, style words like "cartoon" or "storybook"),
+   so the final prompt keeps them, and ask the model skill for a lean deliverable: settings plus the prompt.
 
 If the user already has a shot plan, use it as the Director's pass and fill only what is missing. When there is
 more than one shot, switch to full mode.

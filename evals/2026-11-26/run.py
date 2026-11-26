@@ -31,8 +31,11 @@ def workspace(dst: Path) -> None:
     shutil.copytree(REPO / "memory", dst / "memory")
 
 
+OUT = "out"
+
+
 def run(task: dict, arm: str) -> dict:
-    out = HERE / "out" / f"{task['id']}-{arm}.json"
+    out = HERE / OUT / f"{task['id']}-{arm}.json"
     if out.exists():
         return json.loads(out.read_text())
     tmp = Path(tempfile.mkdtemp(prefix=f"ev-{task['id']}-{arm}-"))
@@ -49,7 +52,7 @@ def run(task: dict, arm: str) -> dict:
         stdout, err = p.stdout, p.stderr[-2000:]
     except subprocess.TimeoutExpired as e:
         stdout, err = (e.stdout or b"").decode() if isinstance(e.stdout, bytes) else (e.stdout or ""), "TIMEOUT"
-    (HERE / "raw" / f"{task['id']}-{arm}.jsonl").write_text(stdout)
+    (HERE / "raw" / f"{OUT}-{task['id']}-{arm}.jsonl").write_text(stdout)
     final, skills, cost = "", [], None
     for line in stdout.splitlines():
         try:
@@ -75,13 +78,19 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", default="")
     ap.add_argument("--jobs", type=int, default=6)
+    ap.add_argument("--reps", type=int, default=1, help="repeat each task N times (ids get -r1, -r2…)")
+    ap.add_argument("--out", default="out", help="output folder name")
     a = ap.parse_args()
+    global OUT
+    OUT = a.out
     (HERE / "raw").mkdir(exist_ok=True)
-    (HERE / "out").mkdir(exist_ok=True)
+    (HERE / OUT).mkdir(exist_ok=True)
     tasks = json.loads((HERE / "tasks.json").read_text())
     if a.only:
         keep = set(a.only.split(","))
         tasks = [t for t in tasks if t["id"] in keep]
+    if a.reps > 1:
+        tasks = [dict(t, id=f"{t['id']}-r{k}") for t in tasks for k in range(1, a.reps + 1)]
     jobs = [(t, arm) for t in tasks for arm in ("with", "without")]
     with ThreadPoolExecutor(a.jobs) as ex:
         list(ex.map(lambda j: run(*j), jobs))
