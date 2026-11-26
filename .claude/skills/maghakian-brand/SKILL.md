@@ -1,11 +1,11 @@
 ---
 name: maghakian-brand
-description: "Use for Maghakian Script Writing Agency / Ani Maghakyan brand content, visuals, captions, typography, colors, portfolio claims, social strategy, and Armenian/English/Russian copy."
+description: "Use for Maghakian Scripts (legal name Maghakian Script Writing Agency) / Ani Maghakyan brand content, visuals, captions, typography, colors, portfolio claims, social strategy, and Armenian/English/Russian copy."
 user-invocable: true
 metadata:
   tags: [maghakian_brand, routing, workflow, verification]
-  version: 1.3.0
-  updated: 2026-08-25
+  version: 2.0.0
+  updated: 2026-11-26
 ---
 
 # Maghakian Brand
@@ -16,10 +16,17 @@ This is the concise entrypoint. The older full playbook is preserved in `referen
 
 - `references/full-guide.md`
 
+## Brand at a Glance (October 2026 rebrand)
+
+- Name: «Maghakian Scripts». The legal name "Maghakian Script Writing Agency" is used only where a legal or full company name is needed.
+- Palette: black `#000000`, white `#FFFFFF`, graphite `#111111`, one red accent `#D90429` used sparingly (one key word, an underline, the triangle). Minimal, cinematic, high-contrast.
+- Wordmark: handwritten signature-style «Maghakian» with «scripts» small beneath it and a small red triangle as the dot of the "i". Files: `.claude/skills/director-desk/assets/maghakian_logo_dark.png` (black ink) and `maghakian_logo_light.png` (white ink).
+- Track record: 48 projects, 2,300+ episodes, screenwriting since 2016 (source: `maghakian-roast-room/business.md`).
+
 ## Operating Contract
 
 - Read `references/full-guide.md` before creating brand output.
-- Read `portfolio.md` before any credential, filmography, episode-count, career-scope, or project-specific claim.
+- Read `portfolio.md` before any credential, filmography, episode-count, career-scope, or project-specific claim. For studio totals, `maghakian-roast-room/business.md` is the source of truth.
 - Write Armenian only in proper Eastern Armenian Unicode.
 - Keep the brand voice literary, warm, confident, and precise.
 

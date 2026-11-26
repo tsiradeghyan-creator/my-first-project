@@ -1,30 +1,34 @@
 ---
 name: maghakian-brand
-description: Brand guidelines for Maghakian Script Writing Agency (founder Ani Maghakyan). Use when creating any content, copy, visuals, captions, hashtags, or social media assets for the agency in Armenian, English, or Russian — Instagram/Telegram/Facebook/LinkedIn posts, brand colors, typography (incl. Armenian fonts), tone of voice, posting cadence, or content strategy.
+description: Brand guidelines for Maghakian Scripts (legal name Maghakian Script Writing Agency; founder Ani Maghakyan). Use when creating any content, copy, visuals, captions, hashtags, or social media assets for the agency in Armenian, English, or Russian — Instagram/Telegram/Facebook/LinkedIn posts, brand colors, typography (incl. Armenian fonts), tone of voice, posting cadence, or content strategy.
 metadata:
-  version: 1.2.0
+  version: 2.0.0
 ---
 
-# Maghakian Script Writing Agency — Brand Guidelines
+# Maghakian Scripts — Brand Guidelines
 
 ## About This Skill
 
-Use this skill when creating any content, copy, visuals, or social media assets for **Maghakian Script Writing Agency** (founder: Ani Maghakyan). These guidelines ensure all output is on-brand across languages and platforms.
+Use this skill when creating any content, copy, visuals, or social media assets for **Maghakian Scripts** (founder: Ani Maghakyan). The studio rebranded in October 2026: minimal, cinematic, high-contrast black and white with one red accent. These guidelines ensure all output is on-brand across languages and platforms.
 
 ---
 
 ## Brand Identity
 
-**Full Name:** Maghakian Script Writing Agency
-**Founder/Screenwriter:** Ani Maghakyan
+**Name:** Maghakian Scripts
+**Legal name:** Maghakian Script Writing Agency (use only where a legal or full company name is needed: contracts, invoices, official filings)
+**Founders:** Ani Maghakyan (screenwriter, showrunner, creative lead) · Tigran (co-founder, line producer)
+**Website:** maghakianscripts.com (Armenian, English, Russian)
 **Languages:** Armenian (primary), English, Russian
-**Core Offering:** Professional screenwriting, TV series, film scripts, branded storytelling
+**Core Offering:** Scripts for media companies, platforms and producers (series, film, stage, children's); also turnkey productions: concept, screenplay, production, post-production
+**Partners and buyers:** SHANT TV, Public TV of Armenia, Kinodaran, ARMFLIX, Nor Hayastan TV
+**Source of truth for studio facts:** `maghakian-roast-room/business.md`
 
 ---
 
 ## Portfolio (Filmography)
 
-Ani Maghakyan's full body of work — **46 projects, 2,200+ episodes, ≈ 80,000 pages of script, 2017–2026** — is in **[`portfolio.md`](portfolio.md)** (project list, year, episode counts, page estimates, totals, and approved post phrasings).
+Studio track record (from `maghakian-roast-room/business.md`): **48 projects, 2,300+ episodes, screenwriting since 2016**, in four formats: series, film, stage, children's. Ani Maghakyan's project list, with years, episode counts, page estimates (≈ 80,000 script pages), totals and approved post phrasings, is in **[`portfolio.md`](../portfolio.md)**. That list currently has 46 of the 48 projects; for totals in public copy, use the business.md figures above.
 
 **Always read `portfolio.md` before** writing anything about her credentials, achievements, scope of work, or a specific project — and never represent a single show (e.g. «84-ի ամառը») as the whole career. Use the aggregate numbers instead.
 
@@ -32,50 +36,59 @@ Ani Maghakyan's full body of work — **46 projects, 2,200+ episodes, ≈ 80,000
 
 ## Brand Colors
 
+Since the October 2026 rebrand the palette is black, white and graphite with a single red accent. Minimal, cinematic, high-contrast.
+
 | Role | Name | Hex | Usage |
 |------|------|-----|-------|
-| Primary | Maghakian Purple | `#6450D2` | CTAs, headings, accent elements, logo background |
-| Base | Deep Black | `#0D0D0D` | Backgrounds, body text on light surfaces |
-| Surface | Off-White | `#FAFAFA` | Backgrounds, text on dark surfaces, breathing space |
+| Base | Black | `#000000` | Main background: covers, posts, stories, decks, end cards |
+| Text / Surface | White | `#FFFFFF` | Text on black or graphite; background for documents and light layouts |
+| Secondary base | Graphite | `#111111` | Alternate background, panels, quote cards, layers next to black |
+| Accent | Red | `#D90429` | Used sparingly: one key word, an underline, the logo triangle |
 
 ### Color Pairing Rules
-- **Purple on Black** — primary dark-mode combination (hero sections, covers, story frames)
-- **Purple on White** — primary light-mode combination (documents, LinkedIn, editorial)
-- **White on Black** — clean contrast for text-heavy layouts
-- **Never** use purple text on white background at small sizes (contrast drops below WCAG AA)
-- **Never** use pure `#FFFFFF` — always use `#FAFAFA` for warmth
+- **White on Black** (`#FFFFFF` on `#000000`, 21:1) — primary combination: covers, hero frames, stories, body text
+- **White on Graphite** (`#FFFFFF` on `#111111`, 18.9:1) — alternate panels, quote cards, text-heavy slides
+- **Black on White** (`#000000` on `#FFFFFF`) — documents, LinkedIn, editorial, print
+- **Red is an accent, not a colour field** — one red element per frame or slide: a key word, an underline, or the triangle. No red backgrounds or large red fills.
+- **Red on dark backgrounds is for large text and accents only** — red on black is 4.0:1 and red on graphite 3.6:1, which passes WCAG AA for large text (about 24 px regular or 19 px bold and up) and graphics, but not for body text, captions or small labels.
+- Red on white is 5.25:1, so a red key word in a white document is readable at any size; keep it to one.
+- No extra accent colours or gradients in agency-level content.
 
 ---
 
 ## Logo
 
-### Components
-1. **Icon** — Cursive calligraphic "M" mark; elegant, handwritten character; functions as standalone symbol
-2. **Wordmark** — "Maghakian" in bold italic serif; authoritative yet personal
-3. **Tagline lockup** — "SCRIPT WRITING AGENCY" in spaced uppercase sans-serif beneath the wordmark; smaller scale
+### Wordmark
+The logo is a handwritten, signature-style «Maghakian» with a small red (`#D90429`) triangle as the dot of the "i", and «scripts» set small beneath it in spaced lowercase sans-serif. Together they read «Maghakian Scripts».
 
-### Logo Lockup Hierarchy
+### Logo Files
+- `.claude/skills/director-desk/assets/maghakian_logo_dark.png` — black ink, for white or light backgrounds
+- `.claude/skills/director-desk/assets/maghakian_logo_light.png` — white ink, for black or graphite backgrounds
+
+Both keep the red triangle.
+
+### Logo Lockup
 ```
-  𝑀  (cursive icon)
-  Maghakian  (bold italic wordmark)
-  SCRIPT WRITING AGENCY  (tagline, tracked uppercase)
+  Maghakian   (handwritten signature; red ▲ as the dot of the "i")
+        scripts   (small, spaced lowercase sans)
 ```
 
 ### Logo Usage Rules
-- **Full lockup** — preferred for all primary placements (profile photos, headers, documents)
-- **Icon only** — acceptable for small placements (favicon, watermark, story sticker)
-- **Wordmark only** — acceptable for horizontal layouts where the icon doesn't fit
-- Maintain clear space equal to the height of the "M" icon on all sides
-- Never stretch, rotate, recolor, or add drop shadows to the logo
-- On purple backgrounds: use white logo
-- On white/light backgrounds: use black or purple logo
+- **Full wordmark** (signature + «scripts») — preferred for all primary placements (profile photos, headers, documents, end cards)
+- **Red triangle on its own** — a small brand mark for slide corners, section markers, or a footer next to the words «Maghakian Scripts»
+- Use the logo files; never retype the signature in a font or redraw it
+- Keep clear space around the wordmark of at least the height of the capital "M"
+- Never stretch, rotate, recolor, or add drop shadows to the logo; the ink stays pure black or pure white and the triangle stays red
+- On black or graphite backgrounds: white-ink version (`maghakian_logo_light.png`)
+- On white or light backgrounds: black-ink version (`maghakian_logo_dark.png`)
+- On photos: place it over a calm dark area or a black overlay, white-ink version
 
 ---
 
 ## Typography
 
 ### Primary Typeface — Headings
-- **Style:** Bold italic serif (matches wordmark energy — think Playfair Display Italic Bold, or similar)
+- **Style:** Bold italic serif (think Playfair Display Italic Bold, or similar)
 - **Use for:** Headlines, poster titles, series names, pull quotes
 - **Feel:** Cinematic, literary, prestigious
 
@@ -86,7 +99,7 @@ Ani Maghakyan's full body of work — **46 projects, 2,200+ episodes, ≈ 80,000
 
 ### Tagline / Label Typeface
 - **Style:** Uppercase, wide letter-spacing (tracking: +200 to +300), light or regular weight
-- **Use for:** "SCRIPT WRITING AGENCY" tagline, section labels, platform handles
+- **Use for:** Section labels, platform handles, credits
 - **Feel:** Editorial, structured, calm
 
 ### Type Scale (Social Media)
@@ -101,21 +114,22 @@ Ani Maghakyan's full body of work — **46 projects, 2,200+ episodes, ≈ 80,000
 
 ### Typography — Armenian Fonts
 
-Maghakian-ի բոլոր հայկական տեքստերը պետք է օգտագործեն հետևյալ շրիֆտները՝ ըստ կիրառման համատեքստի։ Բոլոր ընտրությունները համաձայնեցված են brand-ի `#6450D2` purple-ի հետ։
+Maghakian Scripts-ի բոլոր հայկական տեքստերը պետք է օգտագործեն հետևյալ շրիֆտները՝ ըստ կիրառման համատեքստի։
 
 | Use Case | Շրիֆտ | Նկատառություններ |
 |---|---|---|
-| **Social media** | Mardoto, Noto Sans Armenian | Clean, modern — հիանալի readable է purple-ի վրա |
+| **Social media** | Mardoto, Noto Sans Armenian | Clean, modern — լավ ընթեռնելի է փոքր չափերում |
 | **Editorial / magazine** | GHEA Mariam (body) + GHEA Aragast (display) | Cinematic, literary — համապատասխանում է brand-ի ոճին |
-| **Branding / logo** | GHEA Grapalat | Geometric, scalable — purple վերնագրերի համար |
-| **Long-form content** | Noto Serif Armenian | Elegant serif — մուգ ֆոնի վրա `#FAFAFA` գույնով |
+| **Branding / logo** | GHEA Grapalat | Geometric, scalable — վերնագրերի համար |
+| **Long-form content** | Noto Serif Armenian | Elegant serif — մուգ ֆոնի վրա `#FFFFFF` գույնով |
 
 #### Գույնային Կանոններ Armenian Type-ի Համար
 
-- **Purple on Black** (`#6450D2` on `#0D0D0D`) — headings, series titles — Mardoto Bold
-- **White on Purple** (`#FAFAFA` on `#6450D2`) — pull quotes, CTA buttons — GHEA Grapalat
-- **White on Black** (`#FAFAFA` on `#0D0D0D`) — body text, captions — Noto Sans Armenian Regular
-- **Purple accent** — screenwriter credit "Ani Maghakyan" — `#6450D2`, Noto Sans Armenian SemiBold
+- **White on Black** (`#FFFFFF` on `#000000`) — headings, series titles — Mardoto Bold
+- **White on Graphite** (`#FFFFFF` on `#111111`) — pull quotes, CTA blocks — GHEA Grapalat
+- **White on Black** (`#FFFFFF` on `#000000`) — body text, captions — Noto Sans Armenian Regular
+- **Red accent** (`#D90429`) — one key word in a heading or quote, or its underline; large sizes only on dark backgrounds
+- Screenwriter credit "Ani Maghakyan" — `#FFFFFF` on dark (or `#000000` on white), Noto Sans Armenian SemiBold
 
 #### Google Fonts Import
 
@@ -124,9 +138,10 @@ Maghakian-ի բոլոր հայկական տեքստերը պետք է օգտագ
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;600;700&family=Noto+Serif+Armenian:wght@400;700&family=Mardoto:wght@400;700&display=swap');
 
 :root {
-  --color-purple: #6450D2;
-  --color-black:  #0D0D0D;
-  --color-white:  #FAFAFA;
+  --color-black:    #000000;
+  --color-white:    #FFFFFF;
+  --color-graphite: #111111;
+  --color-red:      #D90429; /* accent only: one key word, an underline, the triangle */
 
   --font-display: 'Mardoto', 'Noto Sans Armenian', sans-serif;
   --font-body:    'Noto Sans Armenian', sans-serif;
@@ -137,7 +152,12 @@ Maghakian-ի բոլոր հայկական տեքստերը պետք է օգտագ
 .heading-am {
   font-family: var(--font-display);
   font-weight: 700;
-  color: var(--color-purple);
+  color: var(--color-white);
+}
+
+/* One key word in a heading or quote (large text on dark backgrounds) */
+.accent-am {
+  color: var(--color-red);
 }
 
 /* Editorial body */
@@ -165,7 +185,7 @@ Maghakian is **literary, warm, and confident** — the voice of a storyteller wh
 ### Tone Pillars
 | Pillar | Means | Avoid |
 |--------|-------|-------|
-| **Cinematic** | Evokes feeling, imagery, scene | Purple prose, clichés |
+| **Cinematic** | Evokes feeling, imagery, scene | Overwrought prose, clichés |
 | **Warm** | Personal, human, inviting | Overly formal or stiff |
 | **Confident** | Assured, direct, no hedging | Arrogant, self-promotional |
 | **Nostalgic** | Connects past to present | Sentimental or saccharine |
@@ -218,9 +238,9 @@ Maghakian is **literary, warm, and confident** — the voice of a storyteller wh
 ## Social Media Visual Templates
 
 ### Universal Rules (All Platforms)
-- Always use brand colors: `#6450D2`, `#0D0D0D`, `#FAFAFA`
+- Always use brand colors: black `#000000`, white `#FFFFFF`, graphite `#111111`, and at most one red `#D90429` accent per frame
 - Logo or wordmark present on every asset
-- No busy stock photography — prefer cinematic stills, textured gradients, or clean typography-forward layouts
+- No busy stock photography — prefer cinematic stills, flat black or graphite fields, or clean typography-forward layouts
 - Text must be legible at thumbnail size
 - Minimum logo clear space maintained at all sizes
 
@@ -229,7 +249,7 @@ Maghakian is **literary, warm, and confident** — the voice of a storyteller wh
 ### Instagram
 
 **Profile:**
-- Profile photo: Cursive M icon on `#6450D2` purple background
+- Profile photo: white-ink signature wordmark (red triangle kept) on `#000000` black
 - Bio language: Armenian primary, English secondary
 - Link: single link to latest project or agency site
 
@@ -237,35 +257,36 @@ Maghakian is **literary, warm, and confident** — the voice of a storyteller wh
 
 *Type A — Series Announcement (Portrait 4:5 or Square 1:1)*
 ```
-Background: #0D0D0D
-Accent bar: #6450D2 (left edge or bottom strip)
-Series title: Bold italic serif, #FAFAFA, large
-Screenwriter credit: "Ani Maghakyan" — smaller, #6450D2 or #FAFAFA
-Tagline/platform: tracked uppercase, #FAFAFA at 60% opacity
-Logo: bottom-right corner, white version
+Background: #000000
+Accent: one #D90429 element (a key word in the title, a thin underline, or the triangle)
+Series title: Bold italic serif, #FFFFFF, large
+Screenwriter credit: "Ani Maghakyan" — smaller, #FFFFFF
+Tagline/platform: tracked uppercase, #FFFFFF at 60% opacity
+Logo: bottom-right corner, white-ink version
 ```
 
 *Type B — Quote / Pull Quote (Square 1:1)*
 ```
-Background: #6450D2
-Quote text: Bold italic serif, #FAFAFA, centered
-Attribution: "— Ani Maghakyan" tracked, #FAFAFA at 70%
-Logo: bottom-center, white version
+Background: #111111 (graphite) or #000000
+Quote text: Bold italic serif, #FFFFFF, centered
+Key word: one word in #D90429, or a red underline beneath it
+Attribution: "— Ani Maghakyan" tracked, #FFFFFF at 70%
+Logo: bottom-center, white-ink version
 ```
 
 *Type C — Behind the Scenes / Process (Landscape 1.91:1)*
 ```
-Photo with #0D0D0D overlay at 50%
-Caption overlay: #FAFAFA text, bottom-left aligned
-Logo: top-right, white version
+Photo with #000000 overlay at 50%
+Caption overlay: #FFFFFF text, bottom-left aligned
+Logo: top-right, white-ink version
 ```
 
 **Instagram Stories (9:16):**
 ```
-Background: #0D0D0D or #6450D2
-Central element: title or quote in bold italic serif
-Bottom strip: #6450D2 or #FAFAFA bar with CTA text
-Logo: top-left, appropriately colored version
+Background: #000000 or #111111
+Central element: title or quote in bold italic serif, #FFFFFF
+Bottom strip: #111111 bar with #FFFFFF CTA text, or a thin #D90429 underline under the CTA
+Logo: top-left, white-ink version
 Safe zone: keep all text within center 80% of frame
 ```
 
@@ -277,7 +298,7 @@ Safe zone: keep all text within center 80% of frame
 5. Hashtags (10–15, mix of Armenian-script and Latin-script)
 
 **Hashtag Strategy:**
-- Brand: `#MaghakianSWA` `#AniMaghakyan`
+- Brand: `#MaghakianSWA` `#AniMaghakyan` (SWA comes from the legal name; ask Tigran before switching the tag to `#MaghakianScripts`)
 - Content-specific: series name in Armenian script
 - Reach: `#ՀայկականՍերիալ` `#ArmenianSeries` `#HayFilm` `#Screenwriting`
 
@@ -286,8 +307,8 @@ Safe zone: keep all text within center 80% of frame
 ### Telegram
 
 **Channel identity:**
-- Channel name: Maghakian / Maghakian SWA
-- Profile photo: same as Instagram (cursive M on purple)
+- Channel name: Maghakian Scripts
+- Profile photo: same as Instagram (white signature wordmark on black)
 - Description: Armenian primary, concise
 
 **Post Templates:**
@@ -322,7 +343,7 @@ Safe zone: keep all text within center 80% of frame
 
 **Page setup:**
 - Cover photo: Full-width series key art or brand graphic (820×312px)
-- Profile: Cursive M icon on purple
+- Profile: white signature wordmark on black
 - About: Armenian + English description
 
 **Post Templates:**
@@ -356,7 +377,7 @@ Safe zone: keep all text within center 80% of frame
 **Profile / Page:**
 - Focus: professional screenwriting credentials, industry recognition, agency services
 - Language: English primary, Armenian secondary
-- Cover: horizontal brand graphic — wordmark on `#6450D2` purple or `#0D0D0D` black
+- Cover: horizontal brand graphic — white-ink wordmark on `#000000` black or `#111111` graphite
 
 **Post Templates:**
 
@@ -396,7 +417,7 @@ The recurring "Project Spotlight" carousel (one per project from `portfolio.md`)
 
 7-slide carousels meaningfully outperform 4-slide ones (more time-on-post → more reach). Use this order:
 
-1. **Poster / title** — official key art or a cinematic composite; large gold-or-brand display title; one-line tagline (the show's emotional hook); **add a small line "Սցենարիստ՝ Անի Մաղաքյան"**; logo.
+1. **Poster / title** — official key art or a cinematic composite; large display title (in the project palette, or brand white); one-line tagline (the show's emotional hook); **add a small line "Սցենարիստ՝ Անի Մաղաքյան"**; logo.
 2. **Scale + credits** — big display number ("24 ՄԱՍ" / "421 ՍԵՐԻԱ"); then `Սցենարի հեղինակ — Անի Մաղաքյան` (always first), `Ռեժիսոր — …`, `Հեռարձակում — …`, `Թողարկման տարեթիվ — YYYY`.
 3–4. **Quote slides** — literary, cinematic lines in the show's voice (e.g. *«Երբ կյանքը խլում է ամեն ինչ — մնում է մեկ բան․ ԵՐԱԶԱՆՔԸ»*). Light serif body + accent colour for the key word.
 5. **Logline + setting** — location label + the protagonist's dream/conflict in 1–2 sentences.
@@ -405,10 +426,10 @@ The recurring "Project Spotlight" carousel (one per project from `portfolio.md`)
 
 ### Palette decision (resolves the "always use brand colors" tension)
 
-- **Project Spotlight posts** may use a **per-project cinematic palette** that fits the show's world (e.g. gold/sepia/black for a 1990s Gyumri period drama). Brand purple `#6450D2` would look wrong on a period piece — don't force it.
-- **Agency-level content** (profile photo, bio graphics, non-project posts, craft/personal-voice posts, LinkedIn) **must** use brand colours `#6450D2` / `#0D0D0D` / `#FAFAFA`.
-- On every spotlight slide keep the **MAGHAKIAN SCRIPTS logo / cursive-M monogram** visible — that's what carries brand identity when the palette varies.
-- The **agency Latin wordmark stays elegant serif**; the Armenian display type should be a refined literary face (GHEA Aragast / GHEA Grapalat / Mardoto), **not** a heavy generic condensed font.
+- **Project Spotlight posts** may use a **per-project cinematic palette** that fits the show's world (e.g. sepia and black for a 1990s Gyumri period drama). Don't force the brand red onto a period piece where it fights the show's world.
+- **Agency-level content** (profile photo, bio graphics, non-project posts, craft/personal-voice posts, LinkedIn) uses the brand palette: black `#000000`, white `#FFFFFF`, graphite `#111111`, with red `#D90429` as the single accent.
+- On every spotlight slide keep the **Maghakian Scripts signature wordmark** (with its red triangle) visible — that's what carries brand identity when the palette varies.
+- The **Latin wordmark is always the handwritten signature from the logo files**, never retyped in a font; the Armenian display type should be a refined literary face (GHEA Aragast / GHEA Grapalat / Mardoto), **not** a heavy generic condensed font.
 
 ### Pre-publish checklist (every post)
 
@@ -444,7 +465,7 @@ Three spotlight posts:
 - Best slot: **~20:00–21:00 Yerevan time** (the «Էլենի 2» 20:11 post performed well). Weekday evenings or Sunday evening.
 - **Alternate** high-recognition long-runners («Օտարը», «Բեկորներ», «Կախվածություն», «Իրար դեմ») with emotionally distinctive ones («Թղթե երազանք», «84-ի ամառը», «Բլոկադա») — don't burn all the best-known titles at once; keep the feed varied in mood.
 - Tie a spotlight to a date only when it genuinely fits (e.g. a Gyumri-set show near December 7) — don't delay otherwise; the emotional themes are evergreen.
-- Vary format too — not every post should be a spotlight. Mix in behind-the-craft, Ani's personal voice, a standalone "~80,000 pages / 46 projects" graphic, "which of these shows did you watch?" carousels.
+- Vary format too — not every post should be a spotlight. Mix in behind-the-craft, Ani's personal voice, a standalone "48 projects / 2,300+ episodes / since 2016" graphic, "which of these shows did you watch?" carousels.
 
 ---
 
@@ -528,7 +549,7 @@ These gaps are Maghakian's competitive opportunity:
 2. **Trilingual reach** — Հայաստան + Armenian diaspora (LA, London, Moscow) + international film industry professionals; no competitor covers all three
 3. **Character/story-world content** — the A24 playbook applied to Armenian TV series; extend series universes onto social before and after air
 4. **LinkedIn thought leadership** — first Armenian screenwriter to own the craft/industry conversation on LinkedIn; zero competition in this space
-5. **Established brand system** — `#6450D2` purple, cinematic tone, logo, and identity already defined; consistency is execution, not starting from zero
+5. **Established brand system** — black, white, graphite and one red accent, the signature wordmark, and a cinematic tone already defined (rebranded October 2026); consistency is execution, not starting from zero
 
 ---
 
@@ -539,7 +560,7 @@ These gaps are Maghakian's competitive opportunity:
 | Day | Content Type | Format | Notes |
 |---|---|---|---|
 | Monday | Behind the craft | Reel or carousel | Writing process, research, character work |
-| Wednesday | Quote / pull quote | Static post | `#6450D2` purple bg, GHEA Grapalat font |
+| Wednesday | Quote / pull quote | Static post | `#111111` graphite or black bg, one red key word, GHEA Grapalat font |
 | Friday | Project update or cultural storytelling | Static or carousel | Armenian history, nostalgia, series context |
 | Daily | Stories | 1–3 stories | Poll, question box, process peek, BTS |
 
@@ -592,107 +613,6 @@ This is zero-budget, requires no production, and builds cult engagement before p
 
 ---
 
-## Reddit-ի Միտումները և Բովանդակության Ռազմավարությունը 2025
-
-### Սցենարական առաջատար subreddit-ները
-
-| Subreddit | Անդամներ | Ֆոկուս |
-|---|---|---|
-| **r/screenwriting** | 1M+ | Արհեստ և կարիերա — ամենամեծ սցենարական համայնքը |
-| **r/Filmmakers** | Հարյուր հազարավոր | Պրոդակշն, տեխնիկա, միկրոբյուջե, դիստրիբյուցիա |
-| **r/TrueFilm** | Մեծ | Կինոյի ինտելեկտուալ վերլուծություն, սինեֆիլ քննարկում |
-| **r/television** | Միլիոնավոր | Սերիալների քննարկում, սցենարի որակի բանավեճեր |
-| **r/writing** | Մեծ | Գրելու արհեստ, պատմվածքի հիմունքներ |
-
----
-
-### 7 Տրենդային Թեմա 2025-ին
-
-**1. ԱԲ-ն ընդդեմ մարդկային սցենարիստի**
-Ամենաշատ քննարկվող թեման — «Կարո՞ղ է ԱԲ-ն իրական սցենար գրել» բանավեճը viral է հազարավոր thread-երում։ Հեղինակային իրավունքի վեճեր (Midjourney ընդդեմ ստուդիաների), սցենարիստների աշխատատեղերի անվտանգություն, ինքնատիպություն ընդդեմ ավտոմատացման։ Հայկական անկյունը՝ ԱԲ-ն չի կարող վերարտադրել ապրած մշակութային հիշողությունը։
-
-**2. Հեռուստատեսություն մուտք գործելը — writer's room-ի հասանելիություն**
-- Spec script ընդդեմ բնօրինակ pilot-ի բանավեճ
-- Fellowship-ները (NBC, CBS, WB)՝ որպես ապացուցված ճանապարհ
-- «Ապրած փորձը» բազմիցս հաստատվել է որպես №1 տարբերակիչ — հեռուստաշոուների ղեկավարները ուզում են գրողներ, ովքեր ապրել են իրենց հերոսների աշխարհում
-
-**3. Հեռուստասերիալի pilot-ի արհեստը**
-- Ինչպես է pilot-ը համոզում դիտողին շարունակել դիտումը
-- Հերոսի աղեղը առաջին դրվագում — ի՞նչ բացահայտել, ի՞նչ պահել
-- «Story engine» — ինչպես մեկ pilot-ում կառուցել ողջ սեզոնը
-
-**4. Լավագույն գրված սերիալների վերլուծություն**
-Reddit-ում ամենաբարձր engagement-ը ստացած քննարկումը 2025-ին.
-- **Andor** — քաղաքականապես բարդ, հասուն, հայ դիտողին հարազատ թեմաներ
-- **Severance** — պարզ premise, համարձակ պատում, էքզիստենցիալ խորհրդածություն
-- **The Pitt** — իրական ժամանակում պատում, արդիական սոցիալական խնդիրներ մեկ օրում
-- **Breaking Bad / Better Call Saul** — ոսկե ստանդարտ, որ վկայակոչվում է ամեն արհեստի thread-ում
-
-**5. Երկխոսություն — «Ինչն է աշխատում»**
-Ամենահետևողականորեն քննարկվող հարցը բոլոր subreddit-ներում։ Հիմնական կետեր՝ ենթատեքստ՝ բացահայտ բացատրության փոխարեն, բնական, շեղվող խոսք, լռությունը՝ որպես պատմելու միջոց, դիտողին վստահելը։
-
-**6. Ինքնատիպություն և ապրած փորձ**
-2025-ի viral Reddit պահը — սցենարիստ, որը Reddit համայնքից հասավ Sundance (հունվար 2025)։ Հիմնական եզրակացությունը՝ **կոնկրետ անձնական պատմություն + համառություն = տարբերակիչը**։ Հայ սփյուռքից ստեղծագործողը հումորը քաղեց ընտանեկան պատմություններից և viral դարձավ սփյուռքում։ Ապրած փորձը փափուկ ակտիվ չէ — դա մրցակցային առավելությունն է։
-
-**7. Հայկական պատմողականություն — բաց պատուհանը**
-Սև Օհանյանը (հայ-ամերիկացի պրոդյուսեր) ունեցավ 2025-ի ամենամեծ տարին — *Sinners*, *Ironheart*, *Eyes of Wakanda*։ Reddit-ում ընդարձակ քննարկվեց հայ ձայների մուտքը մեյնսթրիմ։ Պատուհանը բաց է, տարածքը՝ չզբաղեցված։
-
----
-
-### Շաբաթական կրկնվող ձևաչափեր — Ամենաբարձր engagement
-
-| Ձևաչափ | Օր | Ինչն է հավաքում upvote-ներ |
-|---|---|---|
-| **Logline Monday** | Երկուշաբթի | Կոնկրետ, անսպասելի logline-ներ՝ հստակ խաղադրույքով |
-| **Dialogue Friday** | Ուրբաթ | Ենթատեքստով հագեցած երկխոսություններ, բնական ձայներ |
-| **AMA նիստեր** | Փոփոխական | Աշխատող պրոֆեսիոնալներ՝ իրական կարիերային ուղիների մասին |
-| **Անձնական ճանապարհի փոստեր** | Ցանկացած | «Ինչպես անցա X-ից Y» — հետևողականորեն ամենաշատ upvote-ները |
-
----
-
-### Maghakian-ի բովանդակության գաղափարներ — Reddit-ի միտումների հիման վրա
-
-#### Tier 1 — Viral ներուժ
-
-Սրանք ուղղակիորեն համապատասխանում են Reddit-ի ամենաբարձր engagement-ի ձևաչափերին՝ անձնական ճանապարհ + կոնկրետ արհեստ + թերներկայացված ձայն։
-
-| Փոստի գաղափար | Տրենդի կեռիկ | Հարթակ |
-|---|---|---|
-| *«Ինձ ասում էին՝ հայ դիտողը չի նայելու «Էլենի օրագիրը» — իսկ այն դարձավ Google Armenia-ի №1 հարցումը 2018-ին»* | Անձնական ճանապարհ + ընդդեմ բոլոր դժվարությունների | Instagram, LinkedIn |
-| *«ԱԲ-ն չի կարող հայկական մելոդրամա գրել — ահա ինչու»* | ԱԲ ընդդեմ մարդու բանավեճ + հայկական յուրահատկություն | LinkedIn carousel, Instagram |
-| *«Առաջին անգամ թատրոնի համար սցենար գրեցի — Արցախի մասին. ահա ինչ փոխվեց»* | Ապրած փորձ + արհեստի խոցելիություն | Instagram, LinkedIn |
-
-#### Tier 2 — Համայնքի կառուցում
-
-| Փոստի գաղափար | Տրենդի կեռիկ | Ձևաչափ |
-|---|---|---|
-| *«Ինչպես գրեցի «84-ի ամառը»-ի pilot-ը — կառուցվածքը»* | TV Pilot Craft thread | LinkedIn document carousel |
-| *«Ինչպես ստեղծել սեզոնի աղեղը հայկական հեռուստատեսությունում»* | Սեզոնի աղեղի վերլուծություն + հայկական ՀՀ համատեքստ | Instagram carousel |
-| *«Երկխոսություն հայերենով — ինչու է ավելի դժվար, քան թվում է»* | Dialogue Friday ձևաչափ | Instagram + LinkedIn |
-| *«Ի՞նչ է prestige drama-ն հայկական համատեքստում»* | TrueFilm-ի ոճով վերլուծություն, r/television-ի կեռիկ | Երկար ֆորմատ՝ Facebook / LinkedIn |
-| *«Սև Օհանյանից հետո — ինչպե՞ս բերել հայ սցենարիստին մեյնսթրիմ»* | Հայկական անկյուն + 2025-ի թափ | LinkedIn thought leadership |
-
-#### Tier 3 — Պատմական աշխարհի ընդլայնումներ
-
-Սրանք Maghakian-ի սերիալների աշխարհները տարածում են սոցցանցերում՝ A24-ի playbook-ը կիրառելով հայկական բովանդակության վրա։
-
-| Սերիալ | Բովանդակության գաղափար |
-|---|---|
-| **«84-ի ամառը»** | *«Ինչպիսին է 40 տարվա բարեկամությունը մեկ տեսարանում»* — երկխոսության վերլուծություն շոուից |
-| **«Էլենի օրագիրը»** | *«Ինչու սերիալը դարձավ №1 հարցումը — ինչ է սա նշանակում սցենարիստի համար»* — խորհրդածական փոստ |
-| **«Բլոկադա» (թատրոն)** | *«Ինչպես գրել շրջափակման մասին՝ առանց դիտողին մանիպուլյացիայի ենթարկելու»* — արհեստի էթիկայի փոստ |
-
----
-
-### Reddit-ի հիմնական դասը Maghakian-ի համար
-
-Reddit-ը ամենից շատ պարգևատրում է երեք բան՝
-1. **Կոնկրետ անձնական պատմություններ** — ոչ ընդհանուր խորհուրդներ
-2. **Արհեստի վերլուծություններ իրական, անվանված նախագծերից** — ոչ տեսություն
-3. **Թերներկայացված ձայն՝ ապրած փորձով** — Անի Մաղաքյանն ունի 46 նախագիծ (2,200+ սերիա, ~80,000 էջ սցենար, 2017–2026 — տես [`portfolio.md`](portfolio.md)), 700+ լրագրողական հոդված, թատերական պիեսներ, ապրած հայկական պատմություն։ Այս ծավալից գրեթե ոչինչ դեռ հանրությանը տեսանելի չէ որպես անձնական ստեղծագործական ուղի։ Հենց այդ բացն է բովանդակության ռազմավարությունը։
-
----
-
 ## Official Social Media Accounts
 
 ### Ani Maghakyan — Personal
@@ -703,7 +623,7 @@ Reddit-ը ամենից շատ պարգևատրում է երեք բան՝
 | **Facebook** | [facebook.com/ani.maghaqyan](https://www.facebook.com/ani.maghaqyan?locale=hy_AM) |
 | **LinkedIn** | [linkedin.com/in/ani-maghaqyan-5ba6804b](https://www.linkedin.com/in/ani-maghaqyan-5ba6804b/) |
 
-### Maghakian Script Writing Agency
+### Maghakian Scripts
 
 | Platform | URL |
 |---|---|
@@ -714,15 +634,16 @@ Reddit-ը ամենից շատ պարգևատրում է երեք բան՝
 ## Quick Reference Card
 
 ```
-Brand:     Maghakian Script Writing Agency
-Founder:   Ani Maghakyan
-Colors:    #6450D2 (purple) · #0D0D0D (black) · #FAFAFA (white)
-Logo:      Cursive M + bold italic "Maghakian" + "SCRIPT WRITING AGENCY"
+Brand:     Maghakian Scripts (legal name: Maghakian Script Writing Agency)
+Founders:  Ani Maghakyan (screenwriter, creative lead) · Tigran (co-founder, line producer)
+Colors:    #000000 (black) · #FFFFFF (white) · #111111 (graphite) · #D90429 (red, one accent: key word, underline, triangle)
+Logo:      Handwritten signature «Maghakian» + small «scripts»; red triangle as the dot of the "i"
+Files:     .claude/skills/director-desk/assets/maghakian_logo_dark.png (black ink) · maghakian_logo_light.png (white ink)
 Type:      Bold italic serif (display) + clean sans-serif (body)
 Tone:      Cinematic · Warm · Confident · Nostalgic · Precise
 Languages: Armenian (primary) · English · Russian
 Hashtag:   #MaghakianSWA #AniMaghakyan
 Posting:   Instagram 3×/week + daily stories · LinkedIn 3×/week · Telegram 2–3×/week
 Edge:      Personal voice · Trilingual · A24 story-world model · LinkedIn ownership
-Portfolio: 46 projects · 2,200+ episodes · ≈80,000 script pages · 2017–2026 → portfolio.md
+Portfolio: 48 projects · 2,300+ episodes · ≈80,000 script pages · since 2016 → ../portfolio.md (lists 46 of 48)
 ```
