@@ -1,5 +1,9 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (portfolio completed from the website)
+**Did:** Read maghakianscripts.com/projects and added the 2 missing projects, «Մի գեղեցիկ օր» (2026, 50+ episodes, ongoing) and «Սոս 911» (2026, 16), to maghakian-brand/portfolio.md and to the zavod canon filmography (pushed to zavod-om and mirrored here). Both lists now have 48. Hashtag and «Խաղալիք» palette: left as they are.
+**Left:** new Mac setup (BRIDGE C7); LOW items, deletions, real evals.
+
 ## 2026-11-26 — Cloud (MED pass + new Mac setup)
 **Did:**
 - Fixed the MED items from the skill audit (status in section 7 of `bridge/skill-audit-2026-11-26.md`): calm wording, trigger lanes, duplicate routing, fact refresh, router and library maps, and memory junk filters with evals.

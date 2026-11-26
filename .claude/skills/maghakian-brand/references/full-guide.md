@@ -645,5 +645,5 @@ Languages: Armenian (primary) · English · Russian
 Hashtag:   #MaghakianSWA #AniMaghakyan
 Posting:   Instagram 3×/week + daily stories · LinkedIn 3×/week · Telegram 2–3×/week
 Edge:      Personal voice · Trilingual · A24 story-world model · LinkedIn ownership
-Portfolio: 48 projects · 2,300+ episodes · ≈80,000 script pages · since 2016 → ../portfolio.md (lists 46 of 48)
+Portfolio: 48 projects · 2,300+ episodes · 80,000+ script pages · since 2016 → ../portfolio.md (all 48)
 ```

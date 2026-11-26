@@ -185,3 +185,10 @@ Tigran chose **option A**: film-crew got a short single-shot mode, and every pro
 - 10 higgsfield sub-skills lack `metadata.parent` (warnings only).
 - The higgsfield specs snapshot is dated 2026-07-05; refresh it with a live `models_explore` dump on the Mac.
 - skill-router names Bajaria as a buyer (verify live).
+
+## 8. Follow-up, 2026-11-26
+
+- **Portfolio complete.** From maghakianscripts.com/projects (updated 2026-10-03), the 2 missing projects are «Մի գեղեցիկ օր» (2026, 50+ episodes, ongoing) and «Սոս 911» (2026, 16).
+  - Added to `maghakian-brand/portfolio.md` (now 48 rows; totals 2,330–2,339+ episodes, ≈81,770–82,165+ pages; public line "80,000+ pages") and to the zavod canon `filmography.md` (48 rows).
+  - The children's series name now follows the site: «Մտմտիկ և Պրպտիկ».
+- **Hashtag** stays `#MaghakianSWA`, and the «Խաղալիք» carousel palette stays as it is (Tigran: not important).
