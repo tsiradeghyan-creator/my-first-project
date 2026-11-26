@@ -36,3 +36,19 @@ Mid-gray seamless studio backdrop applied uniformly across all six panels - even
 - **Լույս.** Մեկ փափուկ աղբյուր է՝ ձախից։
 - **Իրատեսություն.** Մաշկը փայլատ է, ոսկին չի փայլում։
 - **Իրավունքներ.** Կերպարը չպետք է նմանվի իրական դերասանի։
+
+---
+
+## Տարբերակ 2-ի արդյունքից հետո. երկու edit (2026-11-26)
+
+Տարբերակ 2-ում ծիրանին, ոսկե եզրերը, տաբատը և կոշիկները ստացվեցին։ Մնաց ուղղել երեք բան. թագը լայն գլխակապ է, մորթե օձիքը ծանր է, դաշույնի գլխիկը կլոր կոթի նման է։ Ուղղում ենք երկու edit-ով, հերթով։
+
+Edit 1, թագը.
+```
+Edit this character sheet. Change only the diadem, in all six panels: replace the wide cream headband with a narrow royal diadem - a crisp flat ribbon of white silk only about two fingers wide, worn high on the head above the forehead, edged with one row of small pearls, tied in a small flat knot at the back of the head, with two narrow white silk ribbon ends hanging straight down his back. Keep everything else exactly the same: the face, hair, beard, clothing, lighting, gray backdrop and the layout of all six panels.
+```
+
+Edit 2, օձիքը և դաշույնը.
+```
+Edit this character sheet. Change only two things, in every panel where they appear. First, remove the bulky fur collar from the coat: the coat's neckline becomes a flat border of the same gold-woven lozenge band as the coat's front edges. Second, make the dagger a short straight dagger hanging vertically at his right hip from the belt, with a slim plain hilt and a small flat gold pommel, no round knob; in the detail panel his hand rests on this slim hilt. Keep everything else exactly the same: the face, hair, beard, diadem, clothing colours, lighting, gray backdrop and the layout of all six panels.
+```
