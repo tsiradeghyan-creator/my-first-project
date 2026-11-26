@@ -1,0 +1,12 @@
+done B3-r1-old 45s ['film-crew', 'banana-pro-director-2.0'] OK
+done B3-r3-old 50s ['film-crew', 'banana-pro-director-2.0'] OK
+done B3-r1-new 52s ['film-crew', 'banana-pro-director-2.0'] OK
+done B3-r2-new 53s ['film-crew', 'banana-pro-director-2.0'] OK
+done B3-r2-old 54s ['film-crew', 'banana-pro-director-2.0'] OK
+done B3-r3-new 54s ['film-crew', 'banana-pro-director-2.0'] OK
+done N1-r2-new 69s ['film-crew', 'seedance-25-director'] OK
+done N1-r1-new 73s ['film-crew', 'seedance-25-director'] OK
+done N1-r1-old 82s ['film-crew', 'seedance-25-director'] OK
+done N1-r3-old 74s ['film-crew', 'seedance-25-director'] OK
+done N1-r2-old 85s ['film-crew', 'seedance-25-director'] OK
+done N1-r3-new 106s ['film-crew', 'seedance-25-director'] OK

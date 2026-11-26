@@ -1,0 +1,84 @@
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done S2-r1-old 68s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done S2-r2-new 71s ['film-crew', 'seedance-25-director'] OK
+done S2-r2-old 71s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done S2-r1-new 77s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done F2-r2-old 81s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done F2-r2-new 91s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done F2-r1-new 163s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done F1-r1-new 104s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done C1-r1-old 40s ['film-crew', 'cinema-worldbuilder-pro-2.0'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done F1-r1-old 137s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done C1-r1-new 47s ['film-crew', 'cinema-worldbuilder-pro-2.0'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done F2-r1-old 232s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done F1-r2-old 87s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done C1-r2-old 34s ['film-crew', 'cinema-worldbuilder-pro-2.0'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done F1-r2-new 82s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done C1-r2-new 47s ['film-crew', 'cinema-worldbuilder-pro-2.0'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done B3-r1-old 49s ['film-crew', 'banana-pro-director-2.0'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done B3-r1-new 50s ['film-crew', 'banana-pro-director-2.0'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done B3-r2-new 51s ['film-crew', 'banana-pro-director-2.0'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done B3-r2-old 57s ['film-crew', 'banana-pro-director-2.0'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done N1-r1-old 86s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done N1-r1-new 81s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done N1-r2-old 61s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done N2-r1-old 51s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done N1-r2-new 69s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done N2-r1-new 67s ['film-crew', 'seedance-25-director'] OK
+/home/user/my-first-project/evals/2026-11-26-craft/run_ab.py:17: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+done N3-r1-old 30s ['film-crew', 'seedance-25-director'] OK
+done N2-r2-old 45s ['film-crew', 'seedance-25-director'] OK
+done N3-r2-old 30s ['film-crew', 'seedance-25-director'] OK
+done N3-r1-new 49s ['film-crew', 'seedance-25-director'] OK
+done N2-r2-new 62s ['film-crew', 'seedance-25-director'] OK
+done N3-r2-new 40s ['film-crew', 'seedance-25-director'] OK

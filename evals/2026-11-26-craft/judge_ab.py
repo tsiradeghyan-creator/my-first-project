@@ -9,6 +9,9 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+import os
+TASKS = os.environ.get("AB_TASKS", "tasks.json")
+OUT = os.environ.get("AB_OUT", "out")
 sys.path.insert(0, str(HERE.parent / "2026-11-26"))
 from judge import final_part, judge  # noqa: E402
 
@@ -21,12 +24,12 @@ def order(rid):
 
 
 def main():
-    tasks = {t["id"]: t for t in json.loads((HERE / "tasks.json").read_text())}
-    ids = sorted({p.name.rsplit("-", 1)[0] for p in (HERE / "out").glob("*-new.json")})
+    tasks = {t["id"]: t for t in json.loads((HERE / TASKS).read_text())}
+    ids = sorted({p.name.rsplit("-", 1)[0] for p in (HERE / OUT).glob("*-new.json")})
     items = []
     for rid in ids:
         o = order(rid)
-        v = [final_part(json.loads((HERE / "out" / f"{rid}-{arm}.json").read_text())["final"]) for arm in o]
+        v = [final_part(json.loads((HERE / OUT / f"{rid}-{arm}.json").read_text())["final"]) for arm in o]
         items.append((rid, rid.split("-r")[0], o, v))
     with ThreadPoolExecutor(5) as ex:
         verdicts = list(ex.map(lambda it: judge(tasks[it[1]], it[3][0], it[3][1]), items))
@@ -39,7 +42,7 @@ def main():
         tally[base]["tie" if w == "tie" else o[int(w) - 1]] += 1
         for slot, arm in zip(("v1", "v2"), o):
             tally[base]["score"][arm].append(sum(v[slot][c] for c in CRIT))
-    (HERE / "judge.json").write_text(json.dumps(res, ensure_ascii=False, indent=1))
+    (HERE / OUT / "judge.json").write_text(json.dumps(res, ensure_ascii=False, indent=1))
     tot = {"new": 0, "old": 0, "tie": 0}
     for base, t in sorted(tally.items()):
         m = {k: round(sum(x) / len(x), 1) if x else None for k, x in t["score"].items()}

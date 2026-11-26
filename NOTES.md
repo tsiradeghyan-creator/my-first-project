@@ -1,5 +1,15 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (25 examples → prompt-craft guide, A/B tested)
+**Did:**
+- Saved Tigran's 24 example prompts and 1 system prompt (FRAMEWORK) verbatim with analysis in `.claude/skills/film-crew/references/tigran-examples/`.
+- Distilled them into `film-crew/references/prompt-craft.md`, 10 sections: plan, references, performance, camera, edit, sound, light, plates, prompt shape, final check. It is wired into the film-crew departments, the producer step (project type, audio-first, asset map) and seedance-25, cinema-worldbuilder and banana-pro.
+- A/B test, old vs new skills (`evals/2026-11-26-craft/`): round 1 new 10 / old 6. The two loss causes were fixed (voice-over information, neutral compositing plates, official model names); after the retest, 13 of 18 go to the new skills. The biggest gains were on performance-heavy video, with no extra cost or time.
+
+**Left:**
+- Real generations, when Tigran wants to spend credits.
+- Keep adding his examples to tigran-examples/ and update the guide.
+
 ## 2026-11-26 — Cloud (title policy, credits)
 **Did:** Tigran decided that titles on posters and covers, Armenian included, are rendered in the image first, with a manual overlay as the fallback if the letters break. Applied in banana-pro (rule 16; character names may shape the look), the film-crew handoff, and gpt-image-prompting (zavod-om canon, mirrored). Real generations with credits: not yet (Tigran).
 **Left:** brand-original visual ideas, a character bible per project, LOW items and deletions.

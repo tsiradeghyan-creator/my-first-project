@@ -1,0 +1,122 @@
+{
+ "B3-r1": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 5,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 3,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 is built for compositing: it asks for a neutral, ungraded image with deep focus, no grain, no vignette and clear floor space for people to be added later, with correct Nano Banana Pro settings; Variant 2 adds film grain, a cool grade and a cinematic look that work against a clean plate, offers a 2.39:1 option the model doesn't support (its widest is 21:9), and is written as long run-on sentences full of repeated negatives."
+ },
+ "B3-r2": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 3,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 gives a usable compositing plate: neutral exposure, no grade, no grain or vignette, a clear empty area for adding people, and precise light direction for matching, while Variant 2 adds film grain, a muted grade and a staged 'pre-negotiation tension' mood that work against a plate, plus a made-up 'M2 observational register' tag."
+ },
+ "B3-r3": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 5,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 5,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "winner": "1",
+  "why": "Variant 1 gives more exact camera direction (32mm at f/5.6, a fixed corner position and clear left-to-right side light), keeps the brief's 2026 date, and adds copper-specific props; Variant 2 changes the date to \"present day\", gives a vague 24–28mm lens range, and describes the window light as both directional and \"directionless\"."
+ },
+ "N1-r1": {
+  "order": [
+   "old",
+   "new"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 5
+  },
+  "winner": "2",
+  "why": "Variant 2 has stronger direction (the question mark on the fogged glass, the 50mm look, light coming only from sources in the scene), shows 'in Armenian' with soft Armenian script on the page, shows ages 0–16 as books from board book to novel, and handles audio and the end card more clearly; it would win outright, but its logo waits until 12.5 s while the brand name is spoken from 9.5 s, and Variant 1's logo is better synced to the voice-over."
+ },
+ "N1-r2": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 5
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 2 has stronger direction (a question mark drawn on the fogged window, the girl's hand placing the book on the stack, an Armenian-specific character and a mountain hint) and better edit guidance (cuts exactly at 4.5 s and 9.5 s, a −18 dB mix under the voice-over, a timeline and risk fixes), though its 'banana-pro-director-2.0' step looks like an unverified tool name and it runs a little long, while Variant 1 is tight but thinner on lens choice, the Armenian angle and how to place the voice-over."
+ },
+ "N1-r3": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 5
+  },
+  "winner": "1",
+  "why": "Variant 1 places its cuts in the gaps between voice-over lines (4.2 s, 9.2 s), shows the brief's 'in Armenian' on screen with the letter Ա, covers ages 0–16 with three hands and three books, and leaves clean space for the logo; Variant 2 is tighter but its Latin-only overlay and ban on all letters lose the Armenian-language point."
+ }
+}

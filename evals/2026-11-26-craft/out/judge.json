@@ -1,0 +1,322 @@
+{
+ "B3-r1": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 3,
+   "copy_ready": 2
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 2 gives a clean compositing plate: neutral and ungraded, with stated light direction and white balance, open floor space left for actors, and notes for matching the actor shoot, all in a tighter prompt. Variant 1 bakes in film grain, a grade and narrative clutter, which work against later compositing, and it uses the nonstandard model name 'Banana Pro' (the model is Nano Banana Pro)."
+ },
+ "B3-r2": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "1",
+  "why": "Variant 1 gives a more filmable plate for compositing: it fixes the 140 cm camera height and 24mm lens, names the brightest and darkest values and the contact shadows, and ties the setting to a renovated Soviet-era Armenian office. Variant 2 is cleaner and keeps one light source, but its direction is less specific and its notes add less for the composite."
+ },
+ "C1-r1": {
+  "order": [
+   "old",
+   "new"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Both prompts are well built for Kling 3.0, but Variant 2 is tighter: the master blowing dust into the beam makes the sawdust light its key moment, and its 60-degree orbit lands on a clearly defined final frame. Variant 1 adds hedges and extra notes (a 10 s fallback, a duplicate sound list, likeness advice) that make it harder to paste and run."
+ },
+ "C1-r2": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 5,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 5
+  },
+  "winner": "2",
+  "why": "Both prompts are strong, but Variant 2 commits to 8 s, which Kling 3.0 supports, while Variant 1 hedges with \"10 s if 8 isn't offered\"; Variant 2 is also tighter, keeps the light direction consistent through the orbit, and its negatives rule out modern lighting and power tools, while Variant 1's more detailed timed action and padded wording add length without adding much control."
+ },
+ "F1-r1": {
+  "order": [
+   "old",
+   "new"
+  ],
+  "v1": {
+   "model_fit": 2,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 3,
+   "copy_ready": 3
+  },
+  "winner": "2",
+  "why": "Variant 1 relies on a single 30-second Seedance generation, which is very likely over the model's real per-clip limit, and it asks the model to draw the logo; Variant 2 runs as realistic 5–6 s clips with lens-specific direction and uses the real logo file for the end card, though it points to a shot table it never includes and adds a website URL the brief never gave."
+ },
+ "F1-r2": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 3,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "winner": "2",
+  "why": "Variant 2 covers the whole brief: six shots, the 48 projects and 2,300+ episodes as timed overlays, music and the logo finish. Variant 1 has better-engineered prompts, including a safe first-and-last-frame logo reveal, but never shows the studio's numbers and points to a shot plan of overlays it never provides."
+ },
+ "F2-r1": {
+  "order": [
+   "old",
+   "new"
+  ],
+  "v1": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 3,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 2 sets exact cut times, fixes where everyone sits, lists every sound and handles 'day 6' as a title added in the edit, so the four clips cut together more reliably; Variant 1's fallback depends on an `08_storyboard.md` file that doesn't exist, it suggests running seeds the model may not let you control, and it never mentions day 6, while Variant 2's only flaws are a ceiling light that clashes with its single window source and some length."
+ },
+ "F2-r2": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 3,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 puts the tremor inside the manager's lie, which continues with \"That's just the building settling\", and backs it with exact lenses, a locked room layout and timed sound cues; Variant 2 shakes the floor only after he has finished speaking, gives no lenses and leaves stray ➖ symbols in the prompt (both assume Seedance 2.5 accepts a 20 s single generation, which isn't confirmed)."
+ },
+ "N1-r1": {
+  "order": [
+   "old",
+   "new"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "winner": "1",
+  "why": "Both prompts are well built, but Variant 1 matches the voice-over more closely: the logo lands at 9.5 s with the 'Maghakian Scripts' line, all three readers stay in frame through 'ages zero to sixteen' with negative space kept for the logo, and every shot gets a specific lens, while Variant 2's strong fogged-glass question mark is offset by a tilt-up that drops the readers to the frame edge and holds the logo back until about 12.8 s, after the brand name has already been spoken."
+ },
+ "N1-r2": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 3,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 2 shows each voice-over line: a question mark drawn in fog, a book with Armenian text, and a shelf of books growing in size for ages 0–16. Keeping the child's face out of frame also avoids identity drift between shots, while Variant 1 has better lens and light detail but its final shot shows nothing about the 'ages zero to sixteen' line or the Armenian language."
+ },
+ "N2-r1": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "V2 is tighter and more filmable, with real lens choices, an over-the-shoulder shot 2, physical shake cues and standard quoted dialogue; V1 handles risk better (scarf crop, hidden hair, a 5 s entry) but is bloated and uses non-standard curly-brace dialogue, while V2's 'static with handheld drift' contradiction and 4 s entry are smaller flaws."
+ },
+ "N2-r2": {
+  "order": [
+   "old",
+   "new"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 2 gives more filmable direction: it fixes where everyone sits and where the glass is, notes that @Image2 is the room and not the framing for the reverse angles, starts shot 1 late so the entrance fits in time, and sets clear limits on performance and sound; its one flaw is a slightly confusing camera-side rule, while Variant 1 is solid but thinner and leaves its timing risk to the user to fix."
+ },
+ "N3-r1": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 4
+  },
+  "winner": "1",
+  "why": "Variant 1 is a tightly staged, filmable shot with no internal contradictions: the breath-hold beat makes the hunter's patience visible, and the geography, lighting values and audio are all controlled. It is long, though. Variant 2 contradicts itself by calling the camera both locked-off and pushing in, and it adds two implausible details: hoofbeats heard from a distant ridge, and a 'does not blink' note that the camera can barely see from behind-left."
+ },
+ "N3-r2": {
+  "order": [
+   "old",
+   "new"
+  ],
+  "v1": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "winner": "2",
+  "why": "Variant 2 has a clean, consistent locked-off telephoto profile and a rack focus from the hunter's still eye to the herd that makes his patience visible, while Variant 1 calls the shot locked-off and tripod-fixed yet asks for a push-in, uses non-standard ➕/➖ markers, and shows mostly the back of his head."
+ },
+ "S2-r1": {
+  "order": [
+   "new",
+   "old"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 3,
+   "craft": 4,
+   "brief_fidelity": 4,
+   "copy_ready": 3
+  },
+  "winner": "1",
+  "why": "Variant 1 keeps the actress's identity tied to @Image1 and the office tied to @Image2, staging and audio are locked to the second, and it ships as one paste-ready prompt; Variant 2 writes face details that can fight the portrait, adds an unnatural four-second unblinking stare, and duplicates the whole prompt into two versions."
+ },
+ "S2-r2": {
+  "order": [
+   "old",
+   "new"
+  ],
+  "v1": {
+   "model_fit": 4,
+   "craft": 4,
+   "brief_fidelity": 3,
+   "copy_ready": 4
+  },
+  "v2": {
+   "model_fit": 4,
+   "craft": 5,
+   "brief_fidelity": 5,
+   "copy_ready": 3
+  },
+  "winner": "2",
+  "why": "Variant 2 lands the tremor while Narine is actually mid-translation, which is what the brief asks for, and its fixed screen geography, prop-level tremor detail and exact list of allowed sounds make it more filmable; Variant 1 shakes the floor during the manager's line, so she stops translating when she isn't translating, and it says 'Close attention on the table' inside a single take without saying how the camera gets there, though Variant 2 is longer and repeats itself more than it needs to."
+ }
+}
