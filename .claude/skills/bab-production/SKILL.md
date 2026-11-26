@@ -91,11 +91,14 @@ A BAB seat's knowledge must be built the way `/newroaster` builds every seat:
 Depth: standard (30 to 50 sources, 250k+ words) at least; `--deep` (80+ sources) where the person's public work allows, to match the original seven.
 
 **State on 2026-11-26** (words in `maghakian-roast-room/.claude/skills/roast-room/brains/<seat>/*.md`). Murch 19,877 and Villeneuve 16,324: partly rebuilt (WIP rebuild commits; `_hot.md` is still the short quick-web version). Rhimes 3,902, Blum 2,777, Deakins 2,201, Bloys 2,098, Vermette 2,040, Bajaria 1,357, Tigran 1,247, Quinn 1,058: still quick-web builds or only their `sources.md` rebuilt. The original seats have 35 to 246 sources and 10,700 to 19,100 words. Until a seat is rebuilt, its council answers are thin, and the Chair says so in the verdict.
-- **Where to rebuild.** The cloud network blocks the content hosts `fetch.mjs` needs, so rebuild on the laptop (VS Code), or in a cloud environment whose network allows those hosts. Use `/newroaster <name>` in refresh mode on the same slug (step 3 onward).
+- **Where to rebuild.** From the cloud (cloud-only since 2026-11-26): fetching works with
+  `NODE_USE_ENV_PROXY=1 node .claude/skills/newroaster/scripts/fetch.mjs build/<slug> --list sources/<slug>/urls.txt`.
+  YouTube refuses cloud IPs, so talks need transcript pages instead. Use `/newroaster <name>` in refresh mode on the same
+  slug, from step 3 onward. The corpus stays in `build/` (gitignored).
 - **Tigran's seat.** It is built from his own material (`fetch.mjs --add`, with his consent). It needs more of his material (interviews, notes, voice-note transcripts) to reach the newroaster minimum of about 15 sources or 60,000 words.
 
 ## Honest limits
 - Seats are simulations, not the people. Never present their words as real unless quoted verbatim with a source id.
 - Tigran's seat never commits money or speaks for Tigran.
-- The Bajaria seat models her public statements only; check her current role before citing it (verify live).
+- The Bajaria seat models how Netflix bought and scheduled under her (2016–2026). She left Netflix in October 2026, and Peter Rice became Chief Content Officer. The seat speaks for that buying philosophy, not for Netflix today.
 - The bab-feature-01 Gate 1 debate (rounds D1 and D2) and the stage 2 concept round of 2026-11-03 ran before this rule, with a custom procedure. They had no Round 3 ratification, the cards had no confidence, ruin-risk or door fields, and weights were set after the scores. Treat those results as provisional until a standard council confirms them.
