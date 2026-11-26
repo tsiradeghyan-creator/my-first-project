@@ -16,6 +16,8 @@ exactly when the story says so.
 
 ## Do
 
+Also apply `references/prompt-craft.md` §2 (one face reference per character, fixed text per reference id, costume from the text).
+
 1. **Character look card** for each character, 80-140 words, locked and reused verbatim:
    age and build · face (3-4 concrete features) · skin with the fidelity clause "retaining real fine pores and skin
    texture" · hair (colour, cut, state) · garments top to bottom (cut, colour, fabric, wear, how it is worn) ·

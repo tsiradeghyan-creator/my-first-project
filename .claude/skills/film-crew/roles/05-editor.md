@@ -17,6 +17,8 @@ satisfy your contracts. This is how separately generated clips end up cutting to
 
 ## Do
 
+Also apply `references/prompt-craft.md` §5 (editing) and §1 (split dense work).
+
 1. **Shot order** — turn beats into numbered shots within the shot budget. Each shot: number, beat, function,
    size **with its step on the size ladder (1 EWS … 6 ECU/insert)**, angle (from the DP's grammar), duration.
    Then read the step column down the scene against the **cut map** in `references/editing-grammar.md`

@@ -14,6 +14,8 @@ All earlier documents; especially beats, sets, the edit plan and its cut types.
 
 ## Do
 
+Also apply `references/prompt-craft.md` §6 (audio whitelist, perspective, acoustics, signature sounds); for voice-over or music-led work the sound plan comes first (§1).
+
 1. **Sound policy** — what each generated clip should contain. Usual best practice for AI: generate clips with
    **diegetic sound only** (ambience, effects, on-screen dialogue) and **no background music, no subtitles**; add
    score and final mix in editing. State the exact clean-output phrase for the target model (Seedance 2.5:

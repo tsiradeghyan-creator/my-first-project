@@ -18,6 +18,8 @@ is in frame.
 
 ## Do — for every shot
 
+Also apply `references/prompt-craft.md` §4 (camera as a person with a reason, physical motion vs digital shake, POV signals, reveals).
+
 1. **Rig and height** — tripod, dolly, slider, crane/jib, Steadicam/gimbal, handheld, drone, car mount, trunk/low
    mount; camera height (floor, hip, eye, high, overhead).
 2. **Start frame** — size, angle, lens, composition (who is where in frame, thirds/centre, foreground elements).

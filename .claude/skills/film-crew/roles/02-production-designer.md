@@ -15,6 +15,8 @@ it in words precise enough that an AI model draws the same place in every shot.
 
 ## Do
 
+Also apply `references/prompt-craft.md` §8 (plates and set dressing) and §2 (references, declared deltas).
+
 1. **Location list** — every set, interior/exterior, time of day, period.
 2. **Floor plan in words** for each set — a fixed compass: "Door on the NORTH wall, window on the WEST wall
    (camera-left in the master), table in the centre running east-west, stove on the EAST wall." Name a *master

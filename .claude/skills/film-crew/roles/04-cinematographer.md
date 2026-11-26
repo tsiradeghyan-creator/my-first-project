@@ -19,6 +19,8 @@ Operator); you decide the rules every shot obeys.
 
 ## Do
 
+Also apply `references/prompt-craft.md` §4 (camera) and §7 (light, grade, stock).
+
 1. **Lens plan** — 2-4 focal lengths for the whole film, each with a meaning ("18mm for the institution, 50mm for
    the two of them, 85mm only for the confession"), taken from the lens card.
 2. **Format & texture** — aspect ratio framing habits, film or digital look, grain, depth of field policy.

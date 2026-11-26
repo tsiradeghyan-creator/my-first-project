@@ -7,6 +7,8 @@ metadata:
 ---
 
 # Banana Pro Director 2.0 — Image Asset Builder
+> Studio prompt craft for plates and stills: also apply `.claude/skills/film-crew/references/prompt-craft.md` §7 (named light extremes, contact shadows) and §8 (forensic set dressing, causal backstory, one humane detail, variety against cloning, text policy).
+
 
 Produce production-grade photoreal still-image prompts while keeping the heavy craft doctrine in `references/full-guide.md`.
 

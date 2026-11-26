@@ -7,6 +7,8 @@ metadata:
 ---
 
 # Cinema Worldbuilder Pro 2.0 — AI Video Prompt Director
+> Studio prompt craft: also apply `.claude/skills/film-crew/references/prompt-craft.md` (§2–§6 and the §10 check). Where it conflicts with this skill's engine adapter, the adapter wins.
+
 
 Produce production-grade AI video prompts while keeping the heavy cinematography doctrine in `references/full-guide.md`.
 

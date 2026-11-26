@@ -60,6 +60,13 @@ offer that route first.
 Lock, and state every assumption:
 
 - **What:** idea / logline / script pages / existing scene, and the deliverable (scene, short, trailer, ad, MV).
+- **Project type:** narrative, ad, explainer, music video, documentary, reel or plate. Don't invent conflict or a twist
+  the piece doesn't need. **Audio-first:** if a script, voice-over, dialogue or music exists, map its phrases,
+  pauses and accents first and use its timestamps as the clock (estimates labelled approximate).
+- **Asset map:** for each reference, give its role (identity / costume / place / light / prop), what it does not
+  govern, and any declared deltas. Use one face reference per character and one fixed description per reference
+  id, reused word for word. Never attach the reference of someone off-screen. See
+  `references/prompt-craft.md` §2.
 - **Format:** total duration, aspect ratio, platform, resolution.
 - **Target video model:** default **Seedance 2.5** (if the `seedance-25-director` skill is available, its rules
   govern prompt syntax and limits). Other models: use `references/generation-strategy.md` adapters.
@@ -165,6 +172,7 @@ decided by the crew, not by the prompt alone.
    video models), or the skill for the model the user named. Pass on every concrete fact of the brief (names of
    places, period, apparent ages, roles, titles, lines of dialogue, style words like "cartoon" or "storybook"; a title is rendered in the image first, with an overlay as the fallback),
    so the final prompt keeps them, and ask the model skill for a lean deliverable: settings plus the prompt.
+   The final prompt follows `references/prompt-craft.md` (§9 shape, §10 check before delivery).
 
 If the user already has a shot plan, use it as the Director's pass and fill only what is missing. When there is
 more than one shot, switch to full mode.
@@ -232,3 +240,18 @@ Single prompt → single-shot mode here first, then `seedance-25-director` (Seed
 `banana-pro-director-2.0`. Story development before a crew is needed → `shortfilm-prompt` or
 the screenwriting skills. Maghakian brand content end-to-end → `content-zavod`, which may call this crew for its film
 work.
+
+## Prompt craft from the studio's own examples
+
+`references/prompt-craft.md` holds the rules distilled from 24 prompts Tigran uses as the quality bar
+(`references/tigran-examples/`). Each department reads its section:
+- Director §3 (one physical channel, acting task, clichés named, overlapping action, anti-sync by cause);
+- Production Designer §8 and §2 (plate-first, forensic set dressing, declared deltas);
+- Costume §2 (fixed per-id text, identity from the reference, costume from the text);
+- DP §4 and §7 (camera with a reason, geography lock, named light extremes, stock fitted to light);
+- Editor §5 (cut times pinned, start late, decimal seconds, defined last frame) and the split rule in §1;
+- Camera Operator §4 (physical operator motion, POV signals, legibility scale, imperfect acquisition);
+- Sound §6 (whitelist, per-shot perspective, acoustics of the space, signature sounds).
+
+The generation plan keeps **editing tasks** (speed ramps, glitches, text, cross-world wipes) as a separate list
+from generation tasks. Say "expected", never "tested", unless a generation was actually run.

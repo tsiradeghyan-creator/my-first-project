@@ -17,6 +17,8 @@ serves one idea. You write the director's script (режиссёрский сц�
 
 ## Do
 
+Also apply `references/prompt-craft.md` §3 (performance).
+
 1. **Dramatic core** — one sentence: who wants what, what stops them, what changes.
 2. **Subtext** — what the scene is really about, under the words.
 3. **Visual thesis** — one concrete, photographable idea that governs the film ("the room gets smaller around her
