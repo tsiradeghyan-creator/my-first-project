@@ -1,13 +1,85 @@
 # Sources: Tom Quinn
 
-7 sources (7 local), 275 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+79 sources (79 web), 123,922 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
 
 Format: id | title | url | date | words
 
-- S001 | AOL (Variety): Tom Quinn in Zurich on Neon's origin and success | https://www.aol.com/entertainment/tom-quinn-zurich-discusses-neon-155347697.html | 2024-10 | 36
-- S002 | Screen Daily: Zurich Summit, target audience | https://www.screendaily.com/news/tom-quinn-talks-neon-sale-rumours-and-the-art-of-distribution-at-zurich-summit/5209395.article | 2024-10 | 44
-- S003 | Cineuropa interview (title quote, low confidence) | https://cineuropa.org/en/dossierinterview/3257/432732/ | 2023 | 47
-- S004 | Deadline via Yahoo: Cannes and international sales | https://ca.news.yahoo.com/neon-lifts-lid-international-sales-163807461.html | 2024-05 | 31
-- S005 | Fast Company Creative Control podcast description (secondary) | https://pocketcasts.com/podcast/creative-control/8be96200-481f-0136-fa7c-0fe84b59566d/risk-reward-repeat-why-neon-ceo-tom-quinn-bets-big-on-bold-films/4a80f031-d9f2-4eee-806b-8730af29cd6d | 2025-08 | 29
-- S006 | Podcast page on Neon's mantra (secondary, low confidence) | https://podcastrex.com/shows/a2c-modern/60-neon-studios-long-legs-i-tonya-anora | 2024 | 54
-- S007 | Screen Daily: documentaries (headline quote, low confidence) | https://www.screendaily.com/news/neon-boards-asif-kapadias-70up-as-tom-quinn-says-while-everyone-is-snoozing-on-docs-im-a-firm-believer/5217401.article | 2026 | 34
+- S001 | Neon CEO Tom Quinn on the Future of Theaters and Why Every Oscar Contender Should Report Box Office | https://www.indiewire.com/video/neon-tom-quinn-oscar-box-office-screen-talk-323-1234621509 | 2021-03-05 | 1212
+- S002 | Risk, Reward, Repeat: Why Neon CEO Tom Quinn Bets Big on Bold Films | https://pocketcasts.com/podcast/creative-control/8be96200-481f-0136-fa7c-0fe84b59566d/risk-reward-repeat-why-neon-ceo-tom-quinn-bets-big-on-bold-films/4a80f031-d9f2-4eee-806b-8730af29cd6d | undated | 308
+- S003 | CEO Tom Quinn: How I Built Neon (and Why You Can Too) - The Ankler | https://theankler.com/p/neon-ceo-tom-quinn-how-i-built-anora-oscars-parasite | 2025-03-18 | 945
+- S004 | Neon CEO Tom Quinn From Cannes on Line 1... - The Ankler | https://theankler.com/p/neon-ceo-tom-quinn-from-cannes-on | 2024-05-16 | 2452
+- S005 | Neon CEO Tom Quinn From Cannes on Line 1... - LAmag | https://lamag.com/the-ankler-lamag-collab/neon-ceo-tom-quinn-from-cannes-on-line-1/ | 2024-05-16 | 1383
+- S006 | Inside ‘Anora’s’ Oscar Victory | https://au.variety.com/2025/awards/features/anora-oscar-win-neon-awards-strategy-sex-worker-screenings-thongs-20829/ | 2025-03-05 | 1510
+- S007 | Behind Neon’s Banner Year and Rivalry With A24 | https://www.hollywoodreporter.com/movies/movie-features/neon-rise-longlegs-parasite-rivalry-a24-1235990240/ | 2024-09-05 | 3485
+- S008 | Neon’s Tom Quinn on Bong Joon Ho’s Historic Oscar Wins for ‘Parasite’: “I’m in Absolute Shock” | https://www.hollywoodreporter.com/rambling-reporter/neons-tom-quinn-bong-joon-hos-historic-oscar-wins-parasite-im-absolute-shock-1278393 | 2020-02-10 | 846
+- S009 | ‘Parasite’ Distributor Tom Quinn Explains How the Movie Became an Oscar-Winning Hit | https://www.yahoo.com/entertainment/parasite-distributor-tom-quinn-explains-152911250.html | 2020-02-10 | 1358
+- S010 | Neon Lifts The Lid On International Sales Ambitions & The Chances Of Making It Five Palmes d’Or In A Row: Cannes | https://ca.news.yahoo.com/neon-lifts-lid-international-sales-163807461.html | 2024-05-14 | 1565
+- S011 | Neon On The Growing Power Of The Palme D’Or, Black Bear On ‘Ferrari’ & New Henry Cavill Pic & Iconoclast On Company’s Film Ambitions: Zurich Summit Studio | https://ca.news.yahoo.com/neon-test-screening-power-palme-144752324.html | 2023-10-01 | 726
+- S012 | Neon Picks Oscar Winners, Builds a Library and Looks Primed for a Takeover: Why Hasn't It Found a Buyer? / Exclusive | https://www.thewrap.com/neon-sale-profit-analysis/ | 2025-05-08 | 1845
+- S013 | Indie Companies: Neon Chief Tom Quinn about Origins and Incredible Success | https://emanuellevy.com/interviews/0-indie-companies-neon-chief-tom-quinn-about-origins-and-incredible-success | 2025-10 | 1214
+- S014 | From Video Store to the Oscars - Carolina Alumni | https://alumni.unc.edu/from-video-store-to-the-oscars | undated | 3343
+- S015 | Inside Tom Quinn’s Neon Revolution | https://www.hollywoodreporter.com/movies/movie-news/tom-quinn-neon-revolution-zurich-summit-1236387322 | 2025-09-28 | 1540
+- S016 | At Marché Du Film, NEON’s Tom Quinn Discusses Current State of Film Distribution and His Company’s Influence in the Marketplace - Celluloid Junkie | https://celluloidjunkie.com/2024/05/31/at-marche-du-film-neons-tom-quinn-discusses-current-state-of-film-distribution-and-his-companys-influence-in-the-marketplace/ | 2024-06-01 | 1101
+- S017 | As Paramount-Warner Merger Talks Heat Up, Neon Boss Tom Quinn Sounds Alarm for Indie Cinema | https://www.netflixjunkie.com/hollywood-news-as-paramount-warner-merger-talks-heat-up-neon-boss-tom-quinn-sounds-alarm-for-indie-cinema | 2026 | 760
+- S018 | Radius Exec Tom Quinn on 'Snowpiercer,' VOD and Longform Desire: 'I'm a Binge Viewer in the Worst Way' | https://thewrap.com/snowpiercer-radius-tom-quinn-vod-longform-desire-binge-viewer | 2014-07-21 | 1365
+- S019 | Radius Co-Chiefs on VOD Strategy, ‘Snowpiercer’s’ Critics and Toronto (Q&A) | https://www.hollywoodreporter.com/news/radius-chiefs-vod-strategy-snowpiercers-723256 | 2014-08-07 | 1699
+- S020 | The Untold Story: How Radius Brought the Edward Snowden Doc ‘Citizenfour’ to America | https://www.hollywoodreporter.com/news/general-news/untold-story-how-radius-brought-773409 | 2015-02-14 | 2676
+- S021 | Tom Quinn, CEO and Founder of NEON Discusses The Bold, Filmmaker-First Mission of His Company | https://www.creativescreenwriting.com/cswcms/tom-quinn-neon/ | 2026-06 | 2374
+- S022 | Why Neon Is the Indie to Watch at Sundance After 'Parasite' and 'Honeyland' | https://thewrap.com/neon-indie-to-watch-sundance-parasite-honeyland | 2020-01-23 | 690
+- S023 | Neon Boss Tom Quinn Talks 'Backrooms,' Industry Mergers & '70 Up' | https://deadline.com/2026/06/neon-tom-quinn-1236940645/ | 2026-06-04 | 547
+- S024 | Neon Boss Tom Quinn Pours Cold Water on Mergers, Pooh-Poohs A24 Merger | https://deadline.com/2026/05/neon-tom-quinn-paramount-warner-bros-merger-a24-1236931132/ | 2026-05-30 | 796
+- S025 | How Tom Quinn’s Indie Label Neon Is Shining Bright With Its Pandemic-Proof Business Model | https://deadline.com/2021/08/how-tom-quinn-indie-label-neon-shining-bright-with-pandemic-proof-business-model-1234820754/ | 2021-08-24 | 2231
+- S026 | Neon CEO Tom Quinn Calls For Solidarity On Freedom Of Expression: “A Lot Of Our Fellow Executives… Are Not Holding The Line” | https://deadline.com/2025/09/neon-ceo-tom-quinn-solidarity-freedom-of-expression-1236565987/ | 2025-09-30 | 1269
+- S027 | Tom Quinn & Tim League Launch Distribution Shingle Neon For Sundance | https://deadline.com/2017/01/tom-quinn-tim-league-launch-neon-distribution-company-sundance-film-festival-1201885413/ | 2017-01-13 | 492
+- S028 | The Film Industry Is Contracting “But It Has Opened A Lane For Us,” Says Tom Quinn About Neon’s Streak; Indie Studio Counts 21 Golden Globe Noms | https://deadline.com/2026/01/golden-globes-2026-neon-tom-quinn-1236679189/ | 2026-01-11 | 567
+- S029 | Neon’s Palme D’Or Whisperer Tom Quinn Reveals Keys To Cannes And Oscar Success: “I’m Happy To Share A Playbook” | https://deadline.com/2025/05/neon-ceo-tom-quinn-interview-cannes-oscars-1236385200/ | 2025-05-13 | 1505
+- S030 | Why NEON Is The Hot New Distributor In Town: Deadline Disruptors | https://deadline.com/2018/05/neon-tom-quinn-disruptors-commentary-news-1202382220/ | 2018-05-13 | 571
+- S031 | Tom Quinn On Powering Neon To The Top, The Secrets Behind Marketing Wins & Whether The Company Could Be Sold: “We Get A Ton Of Incoming”: Zurich Summit | https://deadline.com/2025/09/tom-quinn-neon-company-sale-we-get-ton-incoming-zurich-1236557951/ | 2025-09-28 | 1259
+- S032 | Toronto Q&A: Radius-TWC Presidents Tom Quinn And Jason Janego On How Multi-Platform Is Changing The Indie World | https://deadline.com/2012/09/toronto-film-festival-2012-qa-radius-twc-presidents-tom-quinn-and-jason-janego-on-how-multi-platform-is-changing-the-indie-world-332619/ | 2012-09-09 | 4709
+- S033 | Hammond On Cannes: A New Day Comes To The Fest As HBO and VOD Movies Compete For Palme d’Or | https://deadline.com/2013/05/hammond-on-cannes-a-new-day-comes-to-the-fest-as-hbo-and-vod-movies-compete-for-the-palme-dor-505874/ | 2013-05-22 | 2096
+- S035 | Neon’s Tom Quinn Hails ‘Obsession’ and ‘Backrooms’: ‘I Don’t See This as YouTube or Otherwise, I See This as Cinema’ | https://variety.com/2026/film/global/neon-tom-quinn-obsession-backrooms-i-see-this-as-cinema-1236766470/ | 2026-06-04 | 632
+- S036 | Tom Quinn, in Zurich, Discusses Neon’s Origin, Secret of Success, Ties to Hollywoodland Sign | https://variety.com/2025/film/global/tom-quinn-zurich-summit-neon-1236533305/ | 2025-09-28 | 1253
+- S037 | Tom Quinn on How Neon Nailed the Landing With ‘I, Tonya’ | https://variety.com/2018/film/features/neon-margot-robbie-i-tonya-1202706572/ | 2018-02-22 | 1404
+- S038 | Neon’s Tom Quinn or (The Unexpected and Relentless Pursuit to Get a Documentary in Best Picture) | https://variety.com/2021/awards/awards/tom-quinn-neon-ceo-oscars-documentary-feature-1234912390/ | 2021-02-22 | 1233
+- S039 | Neon CEO Tom Quinn on the Oscar Prospects for ‘Palm Springs’ and ‘Cinema Starting in the Theater’ | https://variety.com/2021/film/news/tom-quinn-palm-springs-oscars-neon-1234925594/ | 2021-03-09 | 914
+- S040 | Examining the Best Picture Race in a Year of Disruption | https://variety.com/2019/film/features/the-best-picture-race-year-of-disruption-1203376801/ | 2019-10-22 | 1549
+- S041 | Inside ‘Anora’s’ Oscar Victory: How Scrappy Indie Neon Pulled Off Its Second Best Picture Win in 5 Years | https://variety.com/2025/film/news/anora-oscar-win-neon-awards-strategy-sex-worker-screenings-thongs-1236327977/ | 2025-03-05 | 1653
+- S042 | Weinstein Company creates VOD label | https://variety.com/2011/film/news/weinstein-company-creates-vod-label-1118042302/ | 2011-09-07 | 522
+- S043 | Neon Chief Says Netflix Wanted ‘Portrait of a Lady on Fire,’ ‘I, Tonya’: We Lost Out on Their ‘Hit Man,’ ‘May December,’ and More | https://www.indiewire.com/news/general-news/neon-netflix-biggest-competitor-1235101148/ | 2025-03-05 | 1224
+- S044 | Tom Quinn and Tim League Brand New Distribution Company ‘Neon’ Just In Time for Sundance | https://www.indiewire.com/features/general/tom-quinn-tim-league-distribution-company-neon-sundance-1201768774/ | 2017-01-13 | 876
+- S045 | ‘Screen Talk’ Welcomes Neon’s Tom Quinn to Talk Strikes, France’s Oscar Pick, and NYFF | https://www.indiewire.com/video/screen-talk-live-nyff-neon-tom-quinn-1234916325/ | 2023-10-13 | 827
+- S046 | Beyond A24: How Hip New Distributors Are Targeting Millennial Tastemakers With Bold Films | https://www.indiewire.com/features/general/a24-neon-blumhouse-moonlight-get-out-colossal-distribution-1201791026/ | 2017-03-08 | 1619
+- S047 | ‘Memoria’: Neon Sets Never-Ending Theatrical Tour for Weerasethakul’s Latest, One Screen at a Time | https://www.indiewire.com/features/general/memoria-apichatpong-weerasethakul-neon-nationwide-tour-release-1234669107/ | 2021-10-05 | 1134
+- S048 | The Under-$50 Million Movie Is Endangered. Three Distributors are Fighting to Save It. | https://www.indiewire.com/features/general/cinemacon-lionsgate-stx-neon-mid-budget-market-1202057618/ | 2019-04-12 | 1915
+- S049 | Neon’s Tom Quinn Calls International Oscar Selection a ‘Horribly Broken Process’: This Isn’t ‘Eurovision’ | https://www.indiewire.com/news/general-news/neon-tom-quinn-international-oscar-process-broken-1234916438/ | 2023-10-13 | 1157
+- S050 | Why RADiUS Nourished Genre Films at Fantastic Fest | https://www.indiewire.com/news/general-news/why-radius-nourished-genre-films-at-fantastic-fest-190846/ | 2014-09-26 | 1838
+- S051 | ‘Snowpiercer’ is Coming to VOD Early. Here’s Why. | https://www.indiewire.com/news/general-news/snowpiercer-is-coming-to-vod-early-heres-why-24569/ | 2014-07-07 | 1542
+- S052 | Neon Sells Significant Stake to ‘The Christophers’ Producers Department M, Launches Neon TV | https://www.indiewire.com/news/business/neon-sells-significant-stake-department-m-launches-neon-tv-1235204648/ | 2026-07-10 | 1023
+- S053 | ‘Awards Chatter’ Podcast: Tom Quinn (Neon) | https://www.hollywoodreporter.com/news/general-news/awards-chatter-podcast-tom-quinn-neon-1279179/ | 2020-02-12 | 1583
+- S054 | ‘Parasite’ Exec on Life After Historic Oscar Wins: “I’m Still in Shock” | https://www.hollywoodreporter.com/movies/movie-news/parasite-exec-life-historic-oscar-wins-1280996/ | 2020-02-27 | 1449
+- S055 | Oral History: How ‘Parasite’ Broke the Oscars’ Language Barrier and Changed the Game Forever | https://www.hollywoodreporter.com/movies/movie-features/inside-story-parasite-oscars-history-1236147380/ | 2025-02-27 | 10007
+- S056 | Box Office: Neon Touts ‘Sentimental Value,’ ‘Secret Agent’ and a Myriad of Other Milestones on Eve of Oscars | https://www.hollywoodreporter.com/movies/movie-news/neon-box-office-oscars-sentimental-value-secret-agent-1236529725/ | 2026-03-15 | 1442
+- S057 | Behind Neon’s Slow Burn Legal Battle That May Lay Bare Hollywood Accounting Practices | https://www.hollywoodreporter.com/business/business-news/neon-lawsuit-film-accounting-1236560710/ | 2026-04-21 | 2884
+- S058 | Hollywood’s Top Marketers of 2025 | https://www.hollywoodreporter.com/business/business-news/top-marketers-2025-1236261680/ | 2025-06-13 | 5149
+- S059 | How Neon Lit Up Indie Cinema in the Letterboxd Era - The Ringer | https://www.theringer.com/2025/01/22/movies/neon-presence-anora-longlegs-oscar-nominations | 2025-01-22 | 5200
+- S060 | Neon attributes Longlegs success to marketing it like Jaws | https://www.avclub.com/longlegs-marketing-like-jaws-neon-success-nicolas-cage | 2024-11-06 | 423
+- S061 | Anora's studio Neon says A24 isn't their biggest competitor, it's Netflix. Here are the 6 movies they competed for | https://thepopverse.com/movies-neon-netflix-a24-competition | 2025-03-10 | 788
+- S062 | Neon, winner of 6 straight Palmes d'Or, comes into the Cannes Film Festival an unlikely heavyweight | https://www.news4jax.com/entertainment/2026/05/11/neon-winner-of-6-straight-palmes-dor-comes-into-the-cannes-film-festival-an-unlikely-heavyweight/ | 2026-05-11 | 1351
+- S063 | Cannes 2025: The secret behind Neon's sweeping success | https://faroutmagazine.co.uk/cannes-2025-how-neon-took-the-crown-for-the-sixth-time-in-a-row/ | 2025-05-25 | 890
+- S064 | NEON Chief On "Ferrari," "Hit Man" Releases | https://www.darkhorizons.com/?p=178411 | 2024-09-07 | 371
+- S065 | ‘Parasite’ Distributor Tom Quinn Explains How the Movie Became an Oscar-Winning Hit | https://www.indiewire.com/2020/02/parasite-oscars-distribution-tom-quinn-interview-1202210320/ | 2020-02-10 | 1952
+- S066 | ‘Parasite’: How This Year’s Wildest, Buzziest, Most Unexpected Breakout Hit Came to Life | https://variety.com/2019/film/news/parasite-bong-joon-ho-success-next-movies-marvel-netflix-1203408123/ | 2019-11-19 | 3223
+- S067 | Neon’s Tom Quinn Reveals His Oscar-Whisperer Secrets Ahead of the Cannes Awards | https://www.indiewire.com/features/podcast/neon-tom-quinn-cannes-palme-dor-interview-1235126147/ | 2025-05-23 | 2340
+- S068 | Will Neon Find Even More Movies to Buy at Cannes? And Other Burning Market Questions | https://www.indiewire.com/news/festivals/cannes-2026-market-preview-will-neon-find-more-to-buy-1235192348/ | 2026-05-08 | 2020
+- S069 | Inside Upstart Neon's Big Return to Sundance With 4 Major Acquisitions (So Far) | https://www.thewrap.com/neon-sundance-bounce-back-buys-assassination-nation/ | 2019-02-04 | 996
+- S070 | Inside an Awards Campaign: Neon CEO Tom Quinn on the Success of 'I, Tonya' | https://nofilmschool.com/2018/03/i-tonya-case-study-awards-tom-quinn-neon | 2018-03-27 | 1418
+- S071 | Cannes: Neon CEO Talks Virtual Cinema Amid Theater Closures | https://www.hollywoodreporter.com/movies/movie-news/cannes-neon-ceo-talks-virtual-cinema-theater-closures-1299678/ | 2020-06-22 | 523
+- S072 | ‘Palme d’Or whisperer’: Tiny US studio Neon eyes fifth Cannes prize | https://www.malaymail.com/news/showbiz/2024/05/25/palme-dor-whisperer-tiny-us-studio-neon-eyes-fifth-cannes-prize/136465 | 2024-05-25 | 911
+- S073 | Tom Quinn | https://variety.com/exec/tom-quinn/ | 2013-12-16 | 460
+- S074 | Q&A with Tom Quinn of Samuel Goldwyn Films - Independent Magazine | https://independent-magazine.org/2003/06/01/qa-tom-quinn-samuel-goldwyn-films/ | 2003-06-01 | 1001
+- S075 | How Neon Flipped Movie Marketing on Its Head to Make ‘Longlegs’ the Indie Hit of the Year | https://www.hollywoodreporter.com/movies/movie-features/longlegs-neon-movie-marketing-indie-hit-2024-1236053966/ | 2024-11-06 | 1958
+- S076 | Neon Lights Up Sundance With Big Money, Big Acquisitions | https://www.thewrap.com/neon-lights-up-sundance-with-big-money-big-acquisitions-assassination-nation/ | 2018-01-25 | 648
+- S077 | Neon to Release 'Spaceship Earth' Via Pop-Up Projections and Virtual Cinemas Amid Coronavirus | https://www.thewrap.com/neon-to-release-spaceship-earth-via-pop-up-projections-and-virtual-cinemas-amid-coronavirus/ | 2020-04-21 | 617
+- S078 | Neon Closes Sale of Significant Stake to Indie Production Studio Department M | https://www.thewrap.com/creative-content/movies/neon-closes-department-m-sale/ | 2026-07-10 | 336
+- S079 | You're telling me Hit Man could have had a theatrical release???????? | https://www.themarysue.com/?p=875741 | 2025-03-06 | 775
+- S080 | Neon CEO Says He Would Have Turned ‘Hitman' Into an Oscar Contender - World of Reel | https://www.worldofreel.com/blog/2024/9/5/hitman | 2024-09-05 | 453
