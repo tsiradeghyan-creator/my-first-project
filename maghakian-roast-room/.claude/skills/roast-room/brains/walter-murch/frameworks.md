@@ -1,201 +1,218 @@
 # Frameworks: Walter Murch
 
-Built from the extract notes of 79 sources (59 of them carry his own words: interviews, masterclasses, Q&As, his essays and his books as quoted in them), dated 1998 to 2026. 24 frameworks, ordered by how many sources use each. "Sources" counts distinct sources where the idea appears (ids listed). Names are his where he named them; otherwise a short name marked *(unnamed)*. The How-to-score lines are scoring guidance for the council built from his own thresholds, not quotes. For any single-cut question, start with the Rule of Six (15): it is his best-known tool and the seat's core question, even though it is less often discussed than his working methods.
+Built from the extract notes on 94 sources (1996 to 2025): his essays, his long Web of Stories life interview (2016, 20 parts), Art of the Cut and other long interviews, and his books as he teaches them in public. 26 frameworks. The Rule of Six comes first because it is the seat's core question; the rest are ordered by how many sources use them. Names are his where he named them; otherwise a short name marked *(unnamed)*. "How to score" lines are scoring guidance for the council built from his own thresholds, not quotes. "Sources" counts distinct sources (ids listed).
 
 ---
 
-## 1. Cost threshold and tool adoption *(unnamed; "a threshold was passed" (S074) is his phrase)*
-- **What it is:** Judge a new post-production tool by what its price does to the way you work, not by the time it promises to save. When media and stations become nearly free, you stop rationing: more stations, assistants get to cut, experiments cost nothing. But the work expands, so post does not get cheaper or shorter.
-- **Parts:** (1) Price the change: with Avid he rationed two to four systems; with Final Cut he simply added a Mac, four stations for the price of one Avid (S072, S074). (2) Expect no net time saving: "saving time is fine in theory, but in practice it usually doesn't work that way." (S079) (3) Expect more footage: digital is easier for the director and harder for the editor (S018, S024). (4) Adopt by diving in for a couple of days to look for hidden problems, reading up, then asking editors who already cut on it (S023). (5) Keep the method, change the chisel: "I would make those same decisions today; I would just achieve them through different technologies." (S033) (6) Watch vendor lock-in: Apple dropped Final Cut under him in 2011 (S055); he values alternative systems (S073).
-- **When to use:** Choosing an editing system, in-house versus post house, how many edit stations and assistants, how to budget post on a cheaper toolset.
-- **How to score:** High if the lower cost per seat is spent on more people and more experiments, and working users of the tool were asked first. Low if the case rests on "it will save time" or bets the show on one closed vendor. (guidance, inferred from S053, S074, S079)
-- **View over time:** In 1968 he saw a computer editing system and expected electronic editing everywhere within five years; it took about 20 (S023, 2015; S059, 2026). Newer (2025): post-production is not cheaper today, he says, because "work expands to fill the area available" (S053).
-- **Quote:** "compared to working with film, the experience of working digitally is that it's free" (S074)
-- **Sources:** 14 (S017, S018, S020, S023, S024, S033, S051, S053, S055, S059, S072, S073, S074, S079)
+## 1. The Rule of Six *(his name)*
+- **What it is:** Six things a cut should do, ranked: emotion, story, rhythm, eye trace (where the audience is looking), the two-dimensional plane of the screen (eyelines, the 180 degree rule) and three-dimensional continuity of space. In the book he weights them 51, 23, 10, 7, 5 and 4 percent, so emotion outweighs the other five together (S063). The top three echo the three layers of the brain: emotion, logic (story) and instinct (rhythm) (S103).
+- **Steps:** Ask what emotion this cut should carry, whether it is the correct one for this place in the film, and how it relates to the scenes around it (S033, S103). Check the story still reads. Check rhythm: does the shot come in like the clarinet, "not a millisecond before or after" (S103). Check where the eye is, by quadrant, and what the incoming shot puts there (S103). Screen direction and spatial continuity come last.
+- **When you cannot have all six:** throw ballast out of the balloon from the bottom up: spatial continuity first, then the 2D plane, then eye trace, then rhythm. You may even confuse the audience about story for a moment to land the emotion, like diving underwater, but not for long (S021, S103).
+- **Why beginners get it backwards:** the importance of each item runs in inverse proportion to how easy it is to teach, so new editors work bottom up and hope emotion takes care of itself (S103).
+- **When to use:** Every cut decision, every argument about a "mistake" where a continuity error buys emotional truth, every note that says "it doesn't flow."
+- **How to score:** Score a cut by the highest item it serves and the highest it breaks. Breaking only continuity to keep emotion is a good trade; breaking emotion to keep continuity is a bad one. A note on the emotion means the emotion on the screen, not the director's mood (guidance, inferred from S021, S103, S084).
+- **View over time:** He calls the weights "slightly tongue-in-cheek" (S063) and says the six are "in some kind of ideal world that doesn't always reflect the reality of the world we live in" (S103, 2016). The book's introduction already framed its advice as cautions to himself (S002).
+- **Quotes:** "The last thing you want to throw overboard is emotion." (S103) "my recommendation is to let go from the bottom of the list up." (S021) "the importance of each of these six things is in inverse proportion to its quantifiability which is to say its teachability" (S103)
+- **Sources:** 7 (S021, S033, S063, S084, S103, S002, S076)
 
-## 2. The dailies memory system *(unnamed)*
-- **What it is:** The editor's defense against forgetting. Everything is seen once, in the dark, with fresh eyes; each reaction is written down with the reason; one frame per setup goes on the wall. Nothing sinks, and shots that a search tool would never pair can collide by chance.
-- **Parts:** Watch all dailies and free-associate timecoded notes, often in two passes (S016, S029). Never write only good or no good: write why, and tag takes so you can find them months later (S017, S053). Mark the one frame per setup that answers why they shot it (S020, S057). Print stills on boards, about 25 a page, and keep them on the walls (S016, S035, S055). Highlight keepers and avoid-list in different colors and build the first assembly from the keepers (S016, S053). Keep a continuous roll of everything shot for a scene (S016, S053). For multi-camera or improvised coverage, grid every line against every camera and grade the cells (S018, S051). Detailed notes let assistants cut scenes with his eyes (S073). Boards and notes create the random collisions that random-access systems do not (S024).
-- **When to use:** Every shooting day, and above all when volume is high: multi-camera series, documentary, digital takes with many resets.
-- **How to score:** 5 if someone on the post team saw every take once and the notes say why; 3 if notes exist but only say good or bad; 1 if footage goes straight to the timeline unseen. He says skipping dailies only works when "the film is short enough and simple enough" (S053).
-- **Quote:** "You’re only going to see this material for the first time once" (S016)
-- **Sources:** 13 (S016, S017, S018, S019, S020, S024, S029, S035, S051, S053, S055, S057, S073)
+## 2. Cost threshold and tool choice *(unnamed; "a threshold was passed" (S098) is his phrase)*
+- **What it is:** Judge a post tool by what its price does to the way you work, not by the time it promises to save. When media and stations become nearly free you stop rationing: more stations, assistants practice-cut, experiments cost nothing. But work expands, so post does not get cheaper or shorter, and you become dependent on a few vendors.
+- **Parts:** (1) Price the change: with Avid he rationed two to four systems; with Final Cut an extra station on an $80 million film was a couple of thousand dollars (S098, S068). (2) Expect no net time saving: "saving time is fine in theory, but in practice it usually doesn't work that way." (S006) (3) Expect more footage: digital is easier for the director and harder for the editor (S022, S028). (4) Adopt by diving in for a couple of days to look for hidden snakes, then ask editors already using it (S027). (5) Prefer the vendor that listens: he left Avid after it blamed his team for its own bug, and later moved to Premiere because Adobe's engineers act on editors' requests (S097, S100). (6) Watch lock-in: Apple dropped Final Cut 7 under him in 2011, which he read through Christensen's "rebar" story (S100, S055). (7) Budget a week at the start of every film to design its workflow (S099, S077).
+- **When to use:** Choosing an editing system, in-house versus post house, how many stations and assistants, budgeting post on a cheaper toolset.
+- **How to score:** High if the lower cost per seat is spent on more people and more experiments, and working users of the tool were asked first. Low if the case rests on "it will save time" or bets the show on one closed vendor. (guidance, inferred from S006, S098, S100)
+- **View over time:** In 1968 he expected electronic editing everywhere within five years; it took about 20 (S027, 2015). By 2016 he saw three healthy options, Avid, Apple and Adobe, and had moved to Premiere (S100).
+- **Quotes:** "compared to working with film, the experience of working digitally is that it's free" (S098) "This is not really a healthy situation, that there is only one system that everybody uses." (S097) "if you don't rebarise yourself, somebody else is going to do it for you" (S100)
+- **Sources:** 15 (S006, S022, S024, S027, S028, S033, S039, S055, S068, S069, S077, S097, S098, S099, S100)
 
-## 3. Metaphoric sound (reassociation) *(his term)*
-- **What it is:** Sound that does not literally match the picture opens a gap the audience fills with its own meaning. The further the sound sits from the image, the more dimension the scene gains, until the thread snaps.
-- **Steps:** Strip the literal sounds. Choose the sound for what the character feels, not for what the object is (the Godfather door had to close with finality, S004, S058). Place a detached sound against the picture, like the elevated train before the Solozzo killing (S018, S057): "the sound that Michael Corleone's neurons are making" (S055). Keep sound and picture at right angles, not playing the same note (S049, S056). Push hard, and back off only if the film pushes back (S077).
-- **When to use:** A scene's inner state is not reading; a picture problem will not yield; the picture budget is gone. Sound is "much less expensive than image" (S020).
-- **How to score:** 5 if the sound adds what the picture cannot show and the audience can still connect it; 3 if literal and clean; 1 if it duplicates the picture (on the nose) or is so far off the image that the connection breaks. (guidance, inferred from S004, S077)
-- **Quote:** "Once you stray into metaphoric sound, which is simply sound that does not match what you’re looking at, the human mind will look for deeper and deeper patterns." (S002)
-- **Sources:** 12 (S001, S002, S004, S018, S020, S049, S055, S056, S057, S058, S077, S079)
+## 3. The dailies memory system *(unnamed)*
+- **What it is:** The editor's defense against forgetting. Everything is seen once, in the dark, with fresh eyes; each reaction is written down with the reason; one frame per setup goes on the wall. Nothing sinks, and shots a search tool would never pair can collide by chance.
+- **Parts:** Watch all dailies and write timecoded notes (S020, S033). Never write only good or no good: write why (S021). Mark the one frame per setup that answers why they shot it (S024). Keep stills on boards on the walls (S020, S039). Note "li", accidental magic in a shot, patterned but not rigid (S092). Keep "wrong" readings in the notes; one may solve a late problem, as the third take of "He'd kill us if he had the chance" did (S088). Value systems that make you scroll past rejected takes, so "the compost pile was always being turned" (S087). For multi-camera or wandering coverage, grid every line against every take (S091, S022). Watch dailies together when you can: the projection room has a "sacramental quality" (S077).
+- **When to use:** Every shooting day, and above all when volume is high: multi-camera series, documentary, digital takes with many resets (he once had 36 resets of one shot, S077).
+- **How to score:** 5 if someone on the post team saw every take once and the notes say why; 3 if notes exist but only say good or bad; 1 if footage goes straight to the timeline unseen. (guidance, inferred from S021, S077)
+- **Quotes:** "You’re only going to see this material for the first time once" (S020) "Because everyone is looking at what the camera is seeing, they think they’ve seen it" (S077)
+- **Sources:** 11 (S020, S021, S022, S024, S033, S039, S077, S087, S088, S091, S092)
 
-## 4. Peaks and valleys *(unnamed; his image)*
-- **What it is:** Impact comes from contrast. Big sound lands only after small sound, and silence is the strongest and most dangerous tool, used a few times a film with a controlled slope.
-- **Parts:** Plan two or three near-silent valleys per film (S079), or three or four unexpected silences (S081). Know the kind of silence: locational, psychological, or impossible (S002). Control the slope into it, because too fast feels like a broken theater and too slow loses the tension (S002, S081). Put the tiniest sounds inside a silence to make it sharper (S011). Pulse the format: long stretches of mono, opening to full surround only at the big moments, then back (S052, S059). Remove the expected sound at the peak (the silent scream in Godfather III, S004; the lake in Godfather II, S078).
-- **When to use:** Shaping the sound of a film or an episode, deciding where the mix money goes, any scene that feels loud but not strong.
-- **How to score:** High if valleys are planned before the peaks; low if density and loudness stay constant: "A monotonously dense soundtrack is just as wearing as a monotonously loud film." (S001)
-- **Quote:** "If there are no valleys, then it doesn't matter how high the mountains actually are; they won't seem high." (S079)
-- **Sources:** 11 (S001, S002, S004, S011, S026, S052, S059, S078, S079, S080, S081)
+## 4. Metaphoric sound *(his term)*
+- **What it is:** Sound that does not literally match the picture opens a gap the audience fills with meaning. The further the sound sits from the image, the more dimension the scene gains, until the thread snaps. The audience credits the picture, not the sound.
+- **Steps:** Strip the literal sounds. Choose the sound for what the character feels (the Godfather door had to close with finality, S004). Place an offscreen sound with no visible source and let it rise with the character's tension, as with the elevated train before the Sollozzo killing, which cuts out on the gunshot (S088). Keep sound and picture at an angle, not on the same note. Push hard and back off only if the film pushes back (S073).
+- **When to use:** A scene's inner state is not reading; a picture problem will not yield; the picture budget is gone. Sound is cheap and flexible next to picture (S086, S024).
+- **How to score:** 5 if the sound adds what the picture cannot show and the audience can still connect it; 3 if literal and clean; 1 if it duplicates the picture or is so far off the image that the connection breaks. (guidance, inferred from S004, S088)
+- **Quotes:** "Once you stray into metaphoric sound, which is simply sound that does not match what you’re looking at, the human mind will look for deeper and deeper patterns." (S002) "most people don't even hear that sound; they don't register it really. What they register is Michael." (S089) "sound will make you see a film in a different way. And you will not think, 'Oh, it's sound that's making me do that.'" (S092)
+- **Sources:** 13 (S001, S002, S004, S006, S022, S024, S055, S073, S086, S088, S089, S092, S096)
 
-## 5. Point of view: single, divergent, convergent *(his terms)*
-- **What it is:** Every story with several characters is told from a single point of view, diverges from one group, or converges from separate strands. Name which one you have, then cut to its rules.
-- **Parts:** Single: every shot is the lead or what he sees, which makes an unappealing lead work because the audience has no escape (S018, S026, S056, S058, S079). Divergent: introduce everyone together, then scatter them (S050). Convergent: intercut two stories that later meet (S050). A passive lead needs a witness or narrator so the audience has access, and if you take care of that lens character you take care of the audience (S006, S052, S058). In a contested true story, ask who is telling it and whether the audience cares about that person (S013, S019).
-- **When to use:** Script notes before shooting, pilot structure, a documentary on disputed history, any film with an unlikable lead.
-- **How to score:** High if the point-of-view type is clear and the cut obeys it; low if it drifts, or an unsympathetic lead is given escape valves that release the audience. (guidance, inferred from S018, S050)
-- **Quote:** "you can look at every screenplay every story and say with multiple characters is this story convergent divergent or single point of view" (S050)
-- **Sources:** 10 (S006, S013, S018, S019, S026, S050, S052, S056, S058, S079)
+## 5. Peaks, valleys and the back of the tiger *(unnamed; "jump off the back of the tiger" is his phrase)*
+- **What it is:** Impact comes from contrast. Big sound lands only after small sound, silence is the strongest tool, and a format used all the time stops being noticed.
+- **Parts:** Plan two or three near-silent valleys per film (S006). Know the kind of silence and control the slope into it (S002, S013). Use a sudden drop to silence as a danger signal, like crickets stopping in a Western (S095). In a multichannel mix, keep much of the film mono and open to stereo and full surround only at chosen moments, from a map of the whole film that the sound editors also get; about half of Apocalypse Now is full six-track (S090). Let dialogue be the moon and effects the stars: when talk stops, people start to hear the sound (S092). The same applies to performance: John Ford's "be great in three scenes" keeps greatness from becoming monotony (S076).
+- **When to use:** Shaping the sound of a film or an episode, deciding where the mix money goes, any scene that feels loud but not strong, a performance that is all peaks.
+- **How to score:** High if valleys are planned before the peaks; low if density and loudness stay constant. (guidance, inferred from S001, S090)
+- **Quotes:** "If there are no valleys, then it doesn't matter how high the mountains actually are; they won't seem high." (S006) "let's jump off the back of the tiger at fairly regular intervals" (S090) "A monotonously dense soundtrack is just as wearing as a monotonously loud film." (S001)
+- **Sources:** 12 (S001, S002, S004, S005, S006, S013, S015, S030, S076, S090, S092, S095)
 
-## 6. Music channels emotion, it does not create it *(unnamed; "musical steroids" is his image, S055)*
-- **What it is:** Drama builds an emotional charge; well-placed music grounds it and tells the audience what to do with it. Music used to manufacture emotion is a steroid.
-- **Parts:** (1) Make the scene work on drama first (S002, S055). (2) Keep the freedom to use music or not at any moment; heavy early music makes the film dependent (S002). (3) Keep music sideways to the picture; mirroring it is on the nose, which is why an all-Doors score failed on Apocalypse Now (S052). (4) For tension, leave music out (S055, S032). (5) Temp music mixes its DNA with the film; best is none, and if used, expect a painful swap (S019, S050, S055). (6) Bring the composer on early, ideally during the shoot; music is "like another actor in the scene" (S050). (7) Separate source music in the scene from underscoring (S080). (8) Music asks less of an audience than abstract sound (S057); it can work as an emotional cutaway (S017).
-- **When to use:** Spotting sessions, temp-track decisions, when to hire the composer, music budget.
-- **How to score:** High if the scene plays without music and music only modulates it; low if music has to supply the emotion or comments directly on the image. (guidance, inferred from S002, S052)
-- **Quote:** "if you use music to create the emotion, rather than to modulate or channel emotion already created by the drama itself, you are using music the way athletes use steroids" (S002)
-- **Sources:** 9 (S002, S017, S019, S032, S050, S052, S055, S057, S080)
+## 6. Point of view: single, divergent, convergent *(his terms)*
+- **What it is:** Every story with several characters is told from a single point of view, diverges from one group, or converges from separate strands. Name which you have and cut to its rules; do not change them mid-film.
+- **Parts:** Single: every shot is the lead or what the lead sees; it makes an unsympathetic lead work because the audience has nowhere else to go, a "cinematic version of Stockholm Syndrome" (S096, S088, S022). Divergent: load every character into the opening scenes, then scatter them (The Godfather's wedding, Mel's in American Graffiti) (S088, S098). Convergent: intercut separate tracks that meet, as late as just outside the film in Godfather II (S088). In a journey story, each new character after the midpoint costs the audience work and makes them wonder if the film is ending (S098). A passive lead needs a lens the audience can read: Sheen's "lookable-atable" eyes over Keitel's (S090). In a contested true story, ask who is telling it (S017, S023).
+- **When to use:** Script notes before shooting, pilot and season structure, a documentary on disputed history, any film with an unlikable lead.
+- **How to score:** High if the point-of-view type is clear and the cut obeys it; low if it drifts, if new characters keep arriving in the last act, or an unsympathetic lead gets escape valves. (guidance, inferred from S088, S098)
+- **Quotes:** "if the central character is, on the face of it, unsympathetic on objective terms, a technique that you can use is to make that film from a single point of view" (S088) "The tendency is: establish something and stick with it, and tell your story, but don't change the rules on people in the middle." (S098)
+- **Sources:** 10 (S009, S017, S022, S023, S030, S088, S090, S096, S098, S006)
 
-## 7. Abundance of events, paucity of coverage (documentary) *(his phrase)*
-- **What it is:** Fiction has fixed events and too many interpretations: six setups and seven takes give 42 readings of every line (S057). Documentary is the reverse: many events, thin coverage. So in documentary the editor chooses which notes get played at all and is, in effect, a writer.
-- **Steps:** Know which abundance you have (S018, S020, S057). Build one chronological timeline per strand, weave them into one long timeline, then cut it down (Coup 53: four timelines, an 8.5-hour weave, S019). Agitate the material until scenes clump (S051). Pick who tells the story; there is no God's-eye view (S013, S019). Back every claim with several sources and a visual, and fill gaps with animation rather than fake recreation (S013). Bend reality only a little, to show the essence (S033, S034). The documentary editor helps write the film and should get a writing credit (S016, S019).
-- **When to use:** Any unscripted, archive or reality project, a making-of, or a scripted show built from heavy improvisation.
-- **How to score:** 5 if there is a clear teller, sourced claims, and the editor has writing authority; 1 if hundreds of hours are being cut with no point of view, or facts are invented to fill holes. (guidance, inferred from S013, S019, S034)
-- **Quote:** "Whereas on a documentary, you are deciding what notes are going to get played in the first place." (S019)
-- **Sources:** 9 (S013, S016, S018, S019, S020, S033, S034, S051, S057)
+## 7. Music: channel, dose and earth the emotion *(unnamed; "steroids" is his image)*
+- **What it is:** Drama builds an emotional charge; well-placed music grounds it. Music used to manufacture emotion works like a steroid: reliable now, costly later.
+- **Parts:** (1) Make the scene work on drama first (S002, S055). (2) Let emotion build without music, then bring music in to earth it so the next scene can build again (S104). (3) Keep music sideways to the picture, not on the nose (S002). (4) For sustained dread, consider no score at all: scary music reassures the audience that the filmmakers are holding their hand (S104). (5) Temp music mixes its DNA with the film (S023, S055). (6) Bring the composer on early: Shire wrote themes from The Conversation's script, Coppola played them to the actors, and Murch cut with them, a "healthy, ascending spiral" (S092). (7) Music lifts a film out of its specificity into myth (S104). (8) A realistic offscreen sound can replace score where the scene needs space, as the "singing semi" does at Don Corleone's funeral (S104).
+- **When to use:** Spotting sessions, temp-track decisions, when to hire the composer, music budget, a film about death or menace.
+- **How to score:** High if the scene plays without music and music only modulates it; low if music has to supply the emotion. (guidance, inferred from S002, S104)
+- **Quotes:** "if you use music to create the emotion, rather than to modulate or channel emotion already created by the drama itself, you are using music the way athletes use steroids" (S002) "approach music in films the way you would approach administering drugs" (S104) "an actor, in deciding how to play a scene, in the end is being asked to dance with an invisible partner" (S092)
+- **Sources:** 9 (S002, S007, S021, S023, S036, S055, S092, S104, S087)
 
-## 8. The scene-card wall *(unnamed)*
-- **What it is:** One card per scene on the wall. Color is the scene's emotional tone, size is its weight, thin cards are connective tissue, a card turned into a diamond is a pivot. You read the shape of the whole film at a glance.
-- **Parts:** Five or six words per card at most (S017). Choose the color fast and do not reconsider it (S019). Scan for runs of one color and break them up, as with "too much blue" in The English Patient (S019). Expect six or seven diamonds in a film (S019, S067). Group scenes into sequences, roughly 36 to 50 in a feature (S009). Add a purple "grace" card where the audience needs to breathe (S018). Put a red tag on each card once it is assembled; the job is to tag them all (S057). He used colored cards for the 532 hours of Coup 53 (S013) and still maps films with stills and notes on walls (S035).
-- **When to use:** Tracking the assembly, restructuring, deciding which scenes can go, showing a director or producer the shape of the film or season.
-- **How to score:** High if the wall shows clear pivots and a varied emotional color; low if there are long single-color runs or no pivot you can point to. (guidance, inferred from S017, S019)
-- **Quote:** "In any film, there are probably six or seven of those diamond-scenes." (S019)
-- **Sources:** 8 (S009, S013, S017, S018, S019, S035, S057, S067)
+## 8. The length budget: time the script, then the 30 percent rule *(the 30 percent rule and "diet and exercise" are his)*
+- **What it is:** Predict running time before shooting and read an assembly's length as a diagnosis. Up to 30 percent over the release length comes down with "diet and exercise"; more than that needs surgery on scenes, subplots or characters.
+- **Steps:** Before shooting, act out every scene with a stopwatch, twice, about two days a script, and compare with the script supervisor's timings; flag outliers as questions (S096, S021). Expect a minute a page, except one-line spectacles and writer-directors who add remembered beats on set; Minghella ran near two minutes a page (S096). Distrust shaved timings: "double-entry bookkeeping" leaves nobody with real numbers (S096). Read the footage's "water content": dense material forces you to cut good scenes (S096). Trim by entering scenes later and leaving earlier; then cut whole subplots if needed, as Harry Caul's apartment-building story vanished from The Conversation (S089).
+- **Two ways down:** the spaghetti sauce method (boil off water slowly, Minghella) or the Procrustes method (hack to length, then fix, Lucas on American Graffiti). Choose by time and temperament (S089, S096, S074).
+- **When to use:** Before greenlight, when setting the shoot and post schedule, at every assembly review; for series, against the slot.
+- **How to score:** 30 percent or less over: trim. More than 30 percent: lose scenes or storylines. A script with no honest timing is a red flag. (thresholds his, S089, S094, S067)
+- **Quotes:** "You measure that length and then say, 'What is 30% of that.'" (S089) "I believe that it's my duty as an editor to time the screenplay" (S096) "It's down partly to how much time that you have and what is your temperament." (S089)
+- **Sources:** 9 (S009, S021, S067, S074, S089, S094, S096, S022, S069)
 
-## 9. Build first, then the plateau test *(unnamed)*
-- **What it is:** Montage means to build. Get to a whole assembly fast, with "eyes half-closed" (S017), without trying to fix the film yet. Then make pass after pass until the edits seem to trigger themselves. That plateau is when a scene is done for now.
-- **Steps:** Just begin; the first step shrinks the mountain (S019, S067). Move from good piece to good piece (S053). Do not fix the film in the first assembly (S017). Build it before cutting it down (S056). Aim for speed to a full assembly (S057). Then list changes, redo, and repeat; by the third or fourth pass the cuts feel inevitable (S059). A scene cut before its neighbors exist is "shadow boxing"; stop at the plateau and wait (S059). Inspiration follows work, not waiting (S020).
-- **When to use:** Scheduling the assembly, deciding when a scene, episode or cut is done, judging whether an editor is polishing too early.
-- **How to score:** Done when edits feel self-triggered after three or four passes; not done while each pass still yields structural notes; over-worked if a scene is fine-cut before the scenes around it exist. (guidance, inferred from S017, S059)
-- **Quote:** "I will reach a point where I kind of forget that I made those edits." (S059)
-- **Sources:** 8 (S017, S019, S020, S053, S056, S057, S059, S067)
-
-## 10. Another rule of three (disagreeing with the director) *(his phrase)*
-- **What it is:** The editor is paid for ideas and should challenge the director. Pitch a real idea once; if it is refused, drop it; raise it again at another moment; a third time if it truly matters; then stop and serve the director's version.
-- **Steps:** Contribute ideas, do not wait for orders (S018, S035). Make suggestions at the right moments, not constantly (S055). After three refusals, let go; the final call is the director's prerogative (S018, S053, S079). Adapt to the director's working style: Coppola left him alone, Bigelow sat in the room daily (S022). The exception is a crisis: when Coppola proposed shelving The Conversation, Murch asked to try his ideas first, and they saved it (S049).
-- **When to use:** Any creative disagreement in post, including with a showrunner, producer or platform executive.
-- **How to score:** Healthy if ideas are voiced and dropped after three tries; unhealthy if the editor is silent or a pest. (guidance, inferred from S018, S053)
-- **Quote:** "My rule of thumb for places where there's a disagreement between you, the editor, and the director is another rule of three." (S053)
-- **Sources:** 7 (S018, S022, S035, S049, S053, S055, S079)
-
-## 11. Nodal editing: where and on what frame to cut *(his term)*
-- **What it is:** A shot has a grain like wood; you can only cut at a node, where the action has become inevitable but is not yet complete. The last frame of the outgoing shot should be iconic, because each cut works like a flashbulb that burns that frame into memory.
-- **Parts:** Cut when the action is inevitable: wheels up, door about to close (S018, S020). Do not let a character finish an action and then cut, unless the action is the point (S018). Cut just before a shot overstays, or just before attention flags (S018, S049). For a walk: two steps, cut on the uplift of the third (S012). Choose the last frame for what it reveals; he calls it the most important part of the editor's performance (S017, S020, S051). Do not cut on matching action by reflex; it creates a stutter and fights the flashbulb (S016, S020, S049).
-- **When to use:** Fine-cutting, and diagnosing why a scene feels sluggish or stuttery.
-- **How to score:** High if cuts land on rising potential with revealing out-frames; low if actions are completed in both shots or shots outstay their interest. (guidance, inferred from S018, S020)
-- **Quote:** "And that moment of inevitability is the moment of the cut." (S020)
-- **Sources:** 7 (S012, S016, S017, S018, S020, S049, S051)
-
-## 12. Assemble with the sound off *(unnamed)*
-- **What it is:** Cut the first assembly as a silent film, lip-reading and imagining the sound, so the recorded dialogue does not imprison the imagination. Then turn the sound on: most of it fits, some is broken, and a share is a lucky accident worth keeping.
-- **Steps:** Notes, then a silent cut, refined more than once (S012). Turn the sound on; fix what is broken, such as words cut mid-syllable, and keep the accidents (S012, S017). Then add dialogue, key effects, temp music and rough final music in that order (S079).
-- **When to use:** First assembly of each scene. He says it is his habit, borrowed from David Lean, and Dede Allen did the opposite (S017, S057).
-- **How to score:** A scene that reads from faces and bodies with the sound off will hold; one that needs the words to make sense has a weak picture cut. (guidance, inferred from S017, S067)
-- **View over time:** His split when the sound comes on: 70 percent fine, 10 wrong, 15 interesting (S012, 2016); about 75 percent right (S055, 2018); newer, 70 right, 15 wrong, 15 fortuitous (S057, 2026). The method stayed the same.
-- **Quote:** "If I had the sound up, that would be the sound and it would crowd out the possibility for other sounds." (S011)
-- **Sources:** 7 (S011, S012, S017, S055, S057, S067, S079)
-
-## 13. Dense Clarity, Clear Density (the Law of Two-and-a-Half) *(his names)*
-- **What it is:** Three of anything of one sound "color" merge into a group. In any five-second moment an audience follows about two and a half layers of one color, or up to five spread across the spectrum from speech to music. Beyond that you get density without clarity.
-- **Steps:** Place each track on the spectrum from encoded (speech) to embodied (music), with effects between (S001, S002). Spread layers across the spectrum instead of stacking one color (S001). Mix the dialogue first, alone, then add the next most dominant layer while listening to what is there (S001, S002). To add a layer, take one away (S001, S002). Past three units of one kind, stop syncing each one and get the group right (S001, S002). Vary density with the story (S001). The same limit applies to ideas: an audience processes about two and a half thematic elements at once (S071, S079).
-- **When to use:** Any mix, especially action and crowd scenes; also any scene or episode trying to carry too many threads at once.
-- **How to score:** Count layers per five seconds: five or fewer across colors, two and a half or fewer in one color, reads clear; above that, noise. His thresholds, not laws: "five layers is a threshold which should not be surpassed thoughtlessly" (S001).
-- **Quote:** "five layers is the maximum that can be tolerated by an audience if you also want them to maintain a clear sense of the individual elements that are contributing to the mix" (S002)
-- **Sources:** 7 (S001, S002, S003, S006, S067, S071, S079)
-
-## 14. Digestion and transitions *(unnamed; the five levels of transition are his)*
-- **What it is:** An audience is force-fed and needs moments to digest; logic and emotion digest on separate tracks. The bigger the transition, the more aware the audience is of it, so build up to it and give time to absorb it.
-- **Parts:** Five levels of transition: frame, cut, scene, act, and the film's beginning and end (S081). At a scene transition, hold the last outgoing shot about 30 percent longer than an internal cut (S081). After a shock, give the audience time before the next scene (S081). Build grace notes: humor, a silent face, a breathing scene (S018). Bleed scenes with pre-laps and post-laps (S018, S081). Change sound texture at the scene cut, where audiences notice it (S053); let sound carry jumps in time and place (S066). Never dissolve to mark time or escape an awkward cut (S081). Think of the emotional curve of the whole film, not the jugular every time (S049). Fast cutting as a general style costs comprehension (S025). Moving one transition has consequences down the line (S067).
-- **When to use:** Pacing notes, act breaks and episode endings, any preview that reports confusion or exhaustion.
-- **How to score:** High if each big turn has a build-up, a held beat and a breath after; low if the cut is relentless or dissolves are used as patches. (guidance, inferred from S018, S081)
-- **Quote:** "if you feed people too fast, they feel like the stuff is being rammed down their throat and they’re going to choke." (S018)
-- **Sources:** 7 (S018, S025, S049, S053, S066, S067, S081)
-
-## 15. The Rule of Six *(his name)*
-- **What it is:** Six things a cut should do, ranked: emotion, story, rhythm, eye-trace, the two-dimensional plane of the screen, and three-dimensional space. In the book he weights them 51, 23, 10, 7, 5 and 4 percent, so emotion outweighs the other five together (S067). When one cut cannot do all six, let go from the bottom.
-- **Steps:** Ask what emotion this cut should carry, whether it is the correct one, and how it relates to the scenes before and after (S025). Check the story still reads. Check rhythm. Check eye-trace, where about 90 percent of the audience is looking (S049). Continuity of screen direction and space comes last (S017, S049). Drop items from the bottom up; if one of the top three must go, rhythm goes first (S017). You may drop story for pure emotion briefly, like astronauts weightless for 45 seconds, then land back on story (S017). You may confuse the audience slightly, but not for long (S049).
-- **When to use:** Every cut decision, and every argument about a mistake where a continuity error buys emotional truth.
-- **How to score:** Score a cut by the highest item it serves and the highest it breaks. Breaking only spatial continuity to keep emotion is a good trade; breaking emotion to keep continuity is a bad one. (guidance, inferred from S017, S067)
-- **View over time:** He calls the weights "slightly tongue-in-cheek" (S067) and says he "had to make the numbers jump around" (S017, 2020). Newer (2026): the list is a self-correction for an analytical editor like him; a purely emotional editor would need to be reminded that technique matters (S059). That matches the book's introduction, which frames its advice as warnings to himself (S002).
-- **Quote:** "my recommendation is to let go from the bottom of the list up." (S017)
-- **Sources:** 6 (S017, S025, S029, S049, S059, S067)
-
-## 16. Hit the same frame twice *(unnamed)*
-- **What it is:** Choose the cut point by feel at running speed, never by scrubbing. Run the shot, stop at the moment the cut feels right, note the frame, repeat. The same frame twice means the cut is right; the spread of misses teaches the film's rhythmic signature.
-- **Steps:** Play at 24 frames a second with a hand on the key, thinking the audience's thoughts; stop; read the timecode; rewind and repeat (S011, S017, S020). Never scrub to find the out-frame (S017, S020). He pushed Adobe to add real-time trimming to Premiere (S008, S012). He uses the blink version of this test on himself and says he will retire when he can no longer pass it (S036). He stands to edit to feel the rhythm (S011, S012).
-- **When to use:** Fine cut, a disputed cut point in review, training a junior editor.
-- **How to score:** Two hits on the same frame: keep. Misses spread across several frames: the cut is uncertain; look again. (guidance from his own test, S017)
-- **Quote:** "If I hit the same frame twice in a row, that tells me that’s probably a good cut point, because it’s impossible to do that, to hit that same frame, in any other way than musically." (S017)
-- **Sources:** 6 (S008, S011, S012, S017, S020, S036)
-
-## 17. Cut on the blink *(from In the Blink of an Eye)*
-- **What it is:** A blink marks the moment a thought is complete. An actor fully in character blinks where the thought ends, so that is where the cut belongs.
-- **Rules:** Cut a frame or two before the blink, and only if the actor is in character; cut just after for a double-take stutter; never cut during it; override it when your own rhythm says so (S016). It fits quiet dialogue, not action (S058). Blinks reveal thought: he counts politicians' blink rates as a hobby (S036). Whether the blink causes the break in thought or follows it is, by his account, a hunch (S016).
-- **When to use:** Dialogue close-ups and judging a performance in dailies.
-- **How to score:** In quiet dialogue, cuts on thought-ends read invisible; cuts mid-thought feel awkward, since "If the audience is not ready, the cut will feel awkward." (S081)
-- **Quote:** "When we get an idea, we tend to blink" (S029)
-- **Sources:** 6 (S016, S029, S036, S058, S067, S071)
-
-## 18. A director of photography for sound *(his phrase)*
-- **What it is:** The director needs one person to talk to about the whole sound, as they talk to the DP about the image. That person designs and mixes, and runs a three-legged race with the picture editor from the assembly on.
-- **Parts:** One sound lead who can both design and mix (S004, S079). Avoid the old Hollywood split between sound editing and re-recording, which he compares to separating the lighting director from the camera operator (S077). Sketch key sound moments during the assembly, skip Foley detail, hand off early (S053). Keep picture and sound feeding each other; ideally the composer is on during the shoot (S050). He does not like locking picture and handing it over (S050). On one person doing both picture and sound: "I think it’s not something that will become the norm, simply because you have to have interests in both areas." (S024) Power on a film goes to whoever controls a bottleneck (S004).
-- **When to use:** Hiring post staff, deciding whether the editor also handles sound, setting when sound work starts.
-- **How to score:** High if the sound lead starts before picture lock and sound is sketched in the assembly; low if locked picture is thrown over the wall to a separate department. (guidance, inferred from S050, S053)
-- **Quote:** "it's a three-legged race between you, the editor, picture editor, and the sound designer" (S053)
-- **Sources:** 6 (S004, S024, S050, S053, S077, S079)
-
-## 19. The length budget: time the script, then the thirty percent rule *(the thirty percent rule is his rule of thumb)*
-- **What it is:** Predict running time before cutting, and read an assembly's length as a diagnosis. Up to 30 percent over the release length comes down with trims; more than that needs structural surgery.
-- **Steps:** Read the script at speed, tick what is good or bad, then write notes that might save time or money (S050). Time every scene with a stopwatch, speaking the lines and pacing the moves, twice; about two days a script (S017, S050). Compare with the script supervisor's timings; the five or six scenes that differ most are the questions for the director (S017, S050). Feed edited scene lengths into a running database; within about ten days of shooting he knows how long the assembly will be (S050). Judge the material's "water content": dense footage is harder to reduce than redundant coverage (S040). Mind the ceiling: past about two hours a film "begins to turn into something else" (S017); one writer reports his drop-dead length as about 145 minutes (S006, paraphrase).
-- **When to use:** Before greenlight, when setting the shoot and post schedule, at every assembly review; for series, against the episode slot.
-- **How to score:** 30 percent or less over: trim scenes. More than 30 percent: lose scenes or storylines. Even when every scene is good, cut for fatigue (S040). (thresholds his, S050, S071)
-- **Quote:** "if it's more than 30% you have to do surgery" (S050)
-- **Sources:** 5 (S006, S017, S040, S050, S071)
-
-## 20. Heart scenes and umbilical cords *(his image)*
-- **What it is:** Some scenes are the heart of the film. Others are umbilical cords: they fed the project, often they were the director's way in, and once the film is born they can be cut. To find them, cut the scene that seems most essential and see what the others carry, like a DP switching off the key light.
-- **Steps:** Ask of each threatened scene: heart or umbilical cord (S017, S050). Run the key-light test: remove the scene that seems most important and watch (S017). Be suspicious of scenes that state their message too directly (S025). Check payoffs far away: a removed scene may hold up the ending, as in Ghost (S017). If a pivot scene goes, build a new pivot (S017). The test case is Julia: the director's favorite scene went after previews, and the audience found its footing sooner (S025, S050, S058).
+## 9. Scaffolding, heart scenes and umbilical cords *(his images)*
+- **What it is:** Some scenes are the heart of the film. Others are umbilical cords that fed the project, or scaffolding that held it up while it was built, like the wooden ship inside a Gothic nave. Remove them and, with a new keystone, the rest locks tighter.
+- **Steps:** Ask of each threatened scene: heart, cord or scaffold (S021, S104). Remove the scene that seems most important and watch, like switching off the key light (S021). Judge it in the whole film, not on paper: the English Patient's Hiroshima scene was well shot and well acted and still had to go (S094, S095). If you cut a pivot, find another event already in the film to carry it ("a bomb is a bomb"), and let the new structure suggest more (S095). Check payoffs far away; a removed scene may hold up the ending (S021). Listen to your assistant: the Hiroshima fix came from Edie Ichioka (S095).
 - **When to use:** Over length, previews show no traction at the start, a director or writer defends a favorite scene.
-- **How to score:** Cut if the film closes over the gap and nothing later depends on it; keep if a payoff or pivot downstream needs it. (guidance, inferred from S017, S050)
-- **Quote:** "certain scenes are heart scenes and other scenes are like umbilical cords." (S017)
-- **Sources:** 4 (S017, S025, S050, S058)
+- **How to score:** Cut if the film closes over the gap and nothing later depends on it; keep if a payoff or pivot downstream needs it and no replacement exists. (guidance, inferred from S021, S095)
+- **Quotes:** "certain scenes are heart scenes and other scenes are like umbilical cords." (S021) "a film can actually get more healthy by the reduction of something that ostensibly looked very healthy" (S094) "In retrospect, those two other scenes were like scaffolding, but for an end that could not have been visualised in advance until you got there." (S104)
+- **Sources:** 6 (S021, S029, S094, S095, S104, S076)
 
-## 21. Referred pain (reading previews) *(his term, borrowed from medicine)*
-- **What it is:** A preview moves you "90 degrees off-center" (S017) and shows your blind spots. But the audience names a symptom; the cause usually sits somewhere else in the film.
-- **Steps:** Watch with a full room; the main thing a theater gives is other people watching (S059). Note where the audience loses traction (S058). Trace the complaint upstream, from elbow to shoulder (S017). Where they are emotionally confused, give them time, as with the snow shots added to Cold Mountain (S081). Expect a very good preview to scare a studio, because it loses control of the film (S059).
+## 10. Nodal editing *(his term)*
+- **What it is:** Cut at the frame where an action has become inevitable but has not started, and let the next shot carry the whole action. Every film is a tree with its own branching rhythm.
+- **Parts:** Cut when the door's closing is inevitable, not after it closes; cut when an exit is inevitable, not after the actor leaves (S088). Avoid cutting mid-action on matching action except in fights and action scenes; he calls it a stutter and a vestige of early fear of the cut (S088, S020). Choose the outgoing frame for what it reveals (S021, S024). Hold a shot until it is "ripe", like a poet ending a line (S076). Do not cut while one shot is still telling the story (S074).
+- **When to use:** Fine-cutting, diagnosing why a scene feels sluggish or stuttery.
+- **How to score:** High if cuts land on rising potential with revealing out-frames; low if actions are completed in both shots. (guidance, inferred from S088, S024)
+- **Quotes:** "the cut point is the moment where a potential action has reached inevitability" (S088) "And that moment of inevitability is the moment of the cut." (S024) "every film is a tree that grows that I think has to have its authentic branching points" (S088)
+- **Sources:** 7 (S016, S020, S021, S024, S074, S076, S088)
+
+## 11. Hit the same frame twice (dynamic trimming) *(his terms "dynamic trimming", "cutting on the fly")*
+- **What it is:** Choose the cut point by feel at running speed, never by scrubbing. Stop where it feels right, note the frame, repeat. The same frame twice means the cut is beyond conscious control and right; if you cannot repeat it, the rhythm there is wrong.
+- **Steps:** Play at speed with a hand on the key; stop; read the timecode; rewind and repeat (S015, S021, S088). If you miss, move a whole phrase earlier or later (S088). Notice how early or late it felt and read the number: that is what three or five frames feel like on this film (S088). Stand to edit to feel time, as conductors, cooks and surgeons do (S102).
+- **When to use:** Fine cut, a disputed cut point in review, training a junior editor.
+- **How to score:** Two hits on the same frame: keep. Misses spread across several frames: the area is wrong; look again. (guidance from his own test, S021, S088)
+- **Quotes:** "If I hit the same frame twice in a row, that tells me that’s probably a good cut point, because it’s impossible to do that, to hit that same frame, in any other way than musically." (S021) "If you can't do it, then there's something wrong about the area that you've chosen." (S088)
+- **Sources:** 7 (S011, S015, S016, S021, S024, S088, S102)
+
+## 12. Editing is blinking for the audience *(from In the Blink of an Eye)*
+- **What it is:** Each shot is a thought; the cut ends one and offers the next, as a blink separates thoughts. An actor fully in character blinks where a thought ends; a badly cut film is like a person who blinks in the wrong places.
+- **Rules:** Watch how the cast blinks at the start of each film and practice stopping just before the blink (S088). Never cut on the blink frame itself (S088). Rely on it only if the actor is in character; a miscast or nervous actor blinks wrong (S088). Override it when your rhythm says so (S020).
+- **When to use:** Dialogue close-ups, judging a performance in dailies, diagnosing a scene that feels "off" with no visible error.
+- **How to score:** In quiet dialogue, cuts on thought-ends read invisible; cuts mid-thought feel awkward. (guidance, inferred from S013, S088)
+- **Quotes:** "in a sense, editing is blinking for the audience. We are showing them a thought and in every shot is a thought or a series of thoughts." (S088) "a poorly edited film is like meeting somebody who's blinking at the wrong places" (S088) "never, never, never use the blink as the frame on which to cut" (S088)
+- **Sources:** 6 (S020, S033, S040, S063, S067, S088)
+
+## 13. Assemble with the sound off; cut the line the face already says *(unnamed)*
+- **What it is:** Cut the first assembly as a silent film, reading faces like an aphasic, so dialogue does not imprison the picture. Then turn the sound on. Often a line written to provoke an emotion becomes redundant once the actor's face carries it, and should go.
+- **Steps:** Notes, then a silent cut (S016, S076). Turn the sound on; fix what is broken and keep the lucky accidents (S016, S021). Remove dialogue the face has made superfluous (S076). Add effects, temp music and music after (S006).
+- **When to use:** First assembly of each scene; any film that "feels long."
+- **How to score:** A scene that reads with the sound off will hold; one that needs every word has a weak picture cut. (guidance, inferred from S076, S021)
+- **View over time:** His split when sound comes on: 70 percent fine, 10 wrong, 15 interesting (S016, 2016); about 75 percent right (S055, 2018).
+- **Quotes:** "I know that if the dialogue is present from the beginning, it will dominate the scene and inhibit the visual reinterpretation of the material." (S076) "the function of the dialogue was simply to act as the sculptural mold of an emotion" (S076) "Films which seem overly long are usually suffering from precisely this problem." (S076)
+- **Sources:** 7 (S006, S015, S016, S021, S055, S063, S076)
+
+## 14. Dense clarity, clear density; encoded and embodied sound *(his terms)*
+- **What it is:** In any moment an audience follows about two and a half layers of one sound "color", or up to five spread across the spectrum from encoded (speech) to embodied (music). Encoded sound keeps the brain busy decoding, so dialogue stays in the center and the eye places it; embodied sound can move around the room.
+- **Steps:** Place each track on the spectrum, with effects as "a kind of centaur" in between (S091, S001). Spread layers across the spectrum instead of stacking one color (S001). To add a layer, take one away (S001, S002). Keep dialogue in the center speaker; put intelligible words in the surrounds only in chaos (S091). The same limit applies to ideas: about two and a half themes at once (S067, S006).
+- **When to use:** Any mix, especially action and crowds; any scene or episode carrying too many threads.
+- **How to score:** Five or fewer layers across colors, two and a half or fewer in one color, reads clear; above that, noise. "five layers is a threshold which should not be surpassed thoughtlessly" (S001).
+- **Quotes:** "when you're dealing with an encoded sound, it is generally better to put it coming right out of the centre and let the mind locate it wherever it wants" (S091) "five layers is the maximum that can be tolerated by an audience if you also want them to maintain a clear sense of the individual elements that are contributing to the mix" (S002)
+- **Sources:** 8 (S001, S002, S003, S006, S009, S063, S067, S091)
+
+## 15. One person owns the sound *(his "sound designer" credit and "director of photography for sound" idea)*
+- **What it is:** The director needs one person to talk to about the whole sound, as they talk to the DP about the image. That person creates the sounds and also sits at the mixing desk, ending the blame game between effects editors and mixers, and works with the picture editor from the assembly on.
+- **Parts:** One sound lead who designs and mixes (S086, S006). Zoetrope put its largest capital spend into mixing gear on this bet (S086). Treat sound design as spatial design: where the film uses the theater's space and where it holds back (S090). Mix against the picture the audience will see; a track mixed to a small, poor image sounds too dense on a big sharp print (S086). Check headroom for the size of the room; small rooms tolerate too much dynamic range (S088). Get separate dialogue, music and effects stems; they make later fixes possible (S095).
+- **When to use:** Hiring post staff, deciding whether the editor also handles sound, when sound work starts, how to deliver stems.
+- **How to score:** High if one sound lead starts before picture lock and sound is sketched in the assembly; low if locked picture is thrown over the wall. (guidance, inferred from S086, S090)
+- **Quotes:** "So what now is something that we call, sound designer is the sound equivalent of production designer." (S086) "if there was a problem, people would say, well, it's his fault or no, that's his fault and so there was this finger pointing which we just wanted to eliminate" (S086)
+- **Sources:** 9 (S004, S006, S028, S073, S086, S088, S090, S095, S099)
+
+## 16. Worldizing *(his term)*
+- **What it is:** Play recorded music or sound back through a speaker in a real space, record it again, and blend the dry and "worldized" tracks in the mix. It is the sound version of depth of field: music can play loud under dialogue without masking words. He later found Welles had done a version of it in Touch of Evil.
+- **Steps:** Record clean; re-record in a matching space (a backyard, a gym, an alley); sync the tracks, offset one a few frames for bounce; ride the blend scene by scene (S087, S095).
+- **When to use:** Source music under dialogue, period or party scenes, any track that sounds "pasted on."
+- **How to score:** High if the music sits in the world and the words stay clear; low if music is just turned down and filtered, which "sounds like a mistake" (guidance, inferred from S087).
+- **Quotes:** "My word for this is 'worldizing', because it's taking a sound and exposing it to the acoustics of the world that is being shown by the image." (S087) "It's the sonic equivalent of depth of field in photography" (S087) "I retrospectively owe that discovery to Orson Welles." (S095)
+- **Sources:** 3 (S087, S095, S006)
+
+## 17. Digestion and transitions *(unnamed; the five levels of transition are his)*
+- **What it is:** An audience is force-fed and needs moments to digest. The bigger the transition, the more the audience feels it, so build to it and give time to absorb it.
+- **Parts:** Five levels of transition: frame, cut, scene, act, and the film's beginning and end (S013). At a scene transition, hold the last outgoing shot about 30 percent longer than an internal cut (S013). Build grace notes: humor, a silent face, a breathing scene (S022). Change sound texture at the scene cut (S062). Never dissolve to escape an awkward cut (S013). Moving one transition has consequences down the line; only 7 of The English Patient's 40 scripted transitions survived (S076). In a film about a hard subject, dose the exposition and test it on audiences; once you lose them, you never get them back (S101).
+- **When to use:** Pacing notes, act breaks and episode endings, any preview that reports confusion or exhaustion.
+- **How to score:** High if each big turn has a build-up, a held beat and a breath after; low if the cut is relentless or dissolves are patches. (guidance, inferred from S022, S013)
+- **Quotes:** "if you feed people too fast, they feel like the stuff is being rammed down their throat and they’re going to choke." (S022) "once you lose an audience in a film about mathematics or physics, you never get them back" (S101)
+- **Sources:** 8 (S013, S022, S029, S062, S063, S076, S101, S037)
+
+## 18. Reading feedback: referred pain and the bus *(his terms; "referred pain" is borrowed from medicine)*
+- **What it is:** Audiences, executives and friends name a symptom; the cause sits somewhere else, and often they say it in code. Read bodies and behavior as much as words.
+- **Steps:** Watch with a full room. Trace the complaint upstream, from elbow to shoulder (S021). Decode: "It took too long to get here on the bus" means the work did not make the girl forget the trip (S098). Watch how long people stay in the room: those who hated it leave fast; ushers have to clear those who loved it (S098). When an executive objects without saying why, play the film in your head as that person and fix the one spot where they have a point (S087). Remember a harried executive extends one spotted defect to the whole film (S087). Ask for one more preview rather than none: Wolfman stopped previewing during a music dispute and suffered for it (S099).
 - **When to use:** Test screenings, platform or broadcaster notes, festival or buyer feedback.
-- **How to score:** A fix is right when it addresses the upstream cause and the next screening gets traction sooner. (guidance, inferred from S017, S058)
-- **Quote:** "the problem is not in the elbow. It’s somewhere else." (S017)
-- **Sources:** 4 (S017, S058, S059, S081)
+- **How to score:** A fix is right when it addresses the upstream cause and the next screening gets traction sooner. (guidance, inferred from S021, S098)
+- **Quotes:** "the problem is not in the elbow. It’s somewhere else." (S021) "how they articulate a problem is nothing to do with what the real problem is" (S098) "If they focus on some aspect of the film in a brief window of attention, and they detect a defect, they will extend that defect to the whole film." (S087)
+- **Sources:** 7 (S013, S021, S087, S098, S099, S101, S086)
 
-## 22. Assemble it yourself, then let the machine vary it (AI) *(unnamed)*
-- **What it is:** The editor learns the film by assembling it. If AI is used, it comes after: the human assembles, then asks the machine to try it another way and keeps what is good.
-- **Steps:** Assemble by hand, because "when you assemble a film yourself you learn the film." (S058) Then use the machine for variations. Watch for its fingerprints, a smell "that is not your smell" (S058). Expect to reinvent the method for every film (S058).
-- **When to use:** Deciding whether to use AI assembly, how to staff assistants, how to budget post with AI tools.
-- **How to score:** High if a person made the first assembly and AI explores options; low if AI replaces the first viewing. (guidance, inferred from S053, S058)
-- **View over time:** 2020: "yeah it's already happening" (S050). March 2025: too early to tell, but as big as the coming of sound, and he had used AI only for text (S053). May 2025: the assemble-then-vary sweet spot, offered as "early early days" (S058). Newest, October 2026: "We just don't know." (S057), and he calls AI "television cubed" (S057).
-- **Quote:** "It may be that you do the assembly and then you put it in and you say do this a different way." (S058)
-- **Sources:** 4 (S050, S053, S057, S058)
+## 19. Another rule of three: provoke, then serve *(his rule; "three Russians" is Minghella's phrase)*
+- **What it is:** The editor is there at the service of the director, but is paid to provoke. Pitch a real idea; if refused, retreat; raise it again at a better moment; a third time if it truly matters; then drop it forever. An alternative cut, even a wrong one, helps the director see what they mean.
+- **Steps:** Send pre-shoot notes on the script; if a director does not want notes, better to learn it early (S096). Contribute ideas, do not wait for orders (S022, S099). If the director sits in the room all day, run your own experiments after they leave and show them in the morning ("the mice") (S099). Show rather than argue: he recorded a temp narration himself for Apocalypse Now (S090). In a crisis, ask for time: when The Conversation was to be shelved he asked for one more week (S088).
+- **When to use:** Any creative disagreement in post, with a director, showrunner, producer or platform executive.
+- **How to score:** Healthy if ideas are voiced and dropped after three tries; unhealthy if the editor is silent or a pest. (guidance, inferred from S099)
+- **Quotes:** "If I've been turned down three times, I will abandon the idea." (S099) "Ultimately, the editor is there, I believe, at the service of the director." (S099) "I also believe that it's the job of the editor to provoke certain things when the situation is right" (S099)
+- **Sources:** 8 (S022, S026, S039, S055, S088, S090, S096, S099)
 
-## 23. ADR that sounds like production *(unnamed)*
-- **What it is:** When set sound is unusable, replace it, but make clean studio dialogue sound like it was recorded on location, and schedule it by arithmetic.
-- **Parts:** Schedule about eight lines per hour: lines per actor times actors, divided by eight (S050). Use the same type of microphone as the set, hide it so the actor is "naked with the image", baffle the room (S050, S052). Roll off the low end and damage it slightly (S052, S055). Make actors truly shout when the scene shouts (S050). On Apocalypse Now nearly all dialogue was ADR: 92 percent in one telling (S052), 98 in another (S006).
-- **When to use:** Budgeting and scheduling ADR, deciding between ADR and fixing production sound.
-- **How to score:** ADR that sounds too clean fails; flag any line that sounds like a studio. (guidance, inferred from S052, S055)
-- **Quote:** "in general I schedule about eight lines of ADR per hour of recording time" (S050)
-- **Sources:** 4 (S006, S050, S052, S055)
+## 20. The documentary inversion *(his phrase "abundance of events, paucity of coverage")*
+- **What it is:** Fiction has fixed events and too many readings of each; documentary is the reverse, so the documentary editor chooses which notes get played at all and is in effect a writer.
+- **Steps:** Build one chronological timeline per strand, weave them, then cut down (Coup 53: four timelines into an 8.5-hour weave, S023). Pick who tells the story (S017, S023). Back every claim with sources (S017). Find each scene's home by audience test: Particle Fever's Super Collider scene failed at the start and after the breakdown, and finally lived inside a lecture (S101). Bend reality only a little (S037, S038).
+- **When to use:** Unscripted, archive or reality work, a making-of, a scripted show built from heavy improvisation.
+- **How to score:** 5 if there is a clear teller, sourced claims and screenings; 1 if hundreds of hours are being cut with no point of view. (guidance, inferred from S017, S023, S101)
+- **Quote:** "Whereas on a documentary, you are deciding what notes are going to get played in the first place." (S023)
+- **Sources:** 8 (S017, S020, S022, S023, S024, S037, S038, S101)
 
-## 24. Three legs of the stool (choosing a project) *(his image)*
-- **What it is:** Take a project when three things hold: the material resonates and pushes you past your comfort zone, the director and team are right, and there is enough time and money. Any two are almost enough; a missing leg is a warning.
-- **Steps:** Read the screenplay at speed and write notes (S050). Meet the director and trade ideas over lunch (S075). If they cannot give you the script, assume there are problems with it (S050). His counter-example is Tomorrowland: he started without a finished script, worked 15 months, was let go, and says the judgement was wrong (S016, S050, S067).
-- **When to use:** Taking on a project, hiring a key post person, entering a co-production.
-- **How to score:** Three legs: go. Two: go with the risk named. One: decline. (thresholds his, S050)
-- **Quote:** "those three things are important any two of those are almost enough" (S050)
-- **Sources:** 1 states it (S050); 3 more apply it (S016, S067, S075)
+## 21. The scene-card wall *(unnamed)*
+- **What it is:** One card per scene on the wall. Color is the scene's emotional tone, size its weight, a diamond a pivot. You read the shape of the film at a glance.
+- **Parts:** Five or six words per card (S021). Choose the color fast (S023). Break up long runs of one color (S023). Expect six or seven diamonds in a film (S023, S063). Group scenes into sequences (S012). He used colored cards for the 532 hours of Coup 53 (S017).
+- **When to use:** Tracking the assembly, restructuring, showing a director or producer the shape of a film or season.
+- **How to score:** High if the wall shows clear pivots and varied color; low if long single-color runs or no pivot. (guidance, inferred from S021, S023)
+- **Quote:** "In any film, there are probably six or seven of those diamond-scenes." (S023)
+- **Sources:** 7 (S012, S017, S021, S022, S023, S039, S063)
+
+## 22. Vertical and horizontal casting *(his terms)*
+- **What it is:** Vertical casting asks whether the actor matches the role as written. Horizontal casting asks whether the relationships among the cast mirror the relationships among the characters. The Godfather won horizontally: four New York actors who grew up on Brando playing his sons. A star lets the audience project onto them; a character actor beams a fixed self.
+- **Steps:** Check both weaves (S089, S094). Prefer an unknown when the character must rise (Pacino over Redford) (S089). Beware deal-driven casting chosen for leverage, which studios sometimes know is wrong (S094). Know that bad casting compounds on set, as crews ease off (S094).
+- **When to use:** Casting a lead or ensemble, a platform pushing a "bankable" name, judging an ensemble's chemistry in dailies.
+- **How to score:** High if both weaves hold; medium if vertical only; low if a name is cast for leverage against the role. (guidance, inferred from S089, S094)
+- **Quotes:** "There's another weave which is what you might call horizontal casting" (S089) "bad casting can sink a film. There's no question that if it's wrong, the film will not work, no matter how well everything else is done" (S094) "a star is somebody who is that, but also allows the audience to project their hopes and dreams from inside onto that person" (S094)
+- **Sources:** 3 (S089, S094, S076)
+
+## 23. The ping-pong balls (directing under pressure) *(his image)*
+- **What it is:** On set everything arrives at once: green balls (as imagined), blue (different, maybe trivial), orange (not good, fix if there is time), red (poison that will sink the film) and gold (better than you dreamed). A director's attention goes to red and gold; the rest must bounce.
+- **Steps:** Fix every red ball even when the crew likes it, because only the director knows the whole film. Rework the plan to exploit a gold ball before it slips away. Let green, blue and orange take care of themselves (S103). Make the shoot readable for the crew: shoot the master first so heads of department can leave to prep the next set (S091). Print one take decisively so actors know what to match (S092).
+- **When to use:** A producer or director deciding what to fix on a constrained shoot day; reviewing what went wrong on set.
+- **How to score:** High if the day's time went to red and gold; low if the schedule was spent polishing orange. (guidance, inferred from S103)
+- **Quotes:** "your attention is mesmerised, and almost completely consumed by the gold and the red ping pong balls" (S103) "You have to fix these poison pills because if the film swallows these things, trust me, it will die." (S103)
+- **Sources:** 3 (S091, S092, S103)
+
+## 24. The penultimate take *(his term)*
+- **What it is:** If a director shoots X takes, the best is usually X minus one, because the last is printed to avoid an argument with the actors. With no selects, look at the next-to-last take first. Editors also want variation across takes, about 12 percent, not perfect continuity.
+- **When to use:** Dailies review without director's selects; judging how many takes a schedule allows.
+- **How to score:** Guidance only; he says it holds "to a certain extent, with all directors" (S092).
+- **Quotes:** "if you shoot X number of takes, the best take is usually X minus one" (S092) "In fact, we don't want great continuity." (S093)
+- **Sources:** 2 (S092, S093)
+
+## 25. Look at versus look into *(his terms)*
+- **What it is:** Home viewing is a look-at medium; a theater is a look-into medium, where the audience goes through the screen. The effort of going out, the fixed start time and the crowd create it. Cut for the size of screen the work will live on.
+- **Steps:** Keep scale in view: put cut-out human silhouettes beside the monitor to remind yourself it is a mural (S099). Expect fast cutting to suit small screens more than big ones (S074). Expect wide access to tools to raise the craft overall (S077).
+- **When to use:** Deciding pacing and shot size for cinema versus platform or phone; budgeting a theatrical versus a streaming release.
+- **How to score:** High if pacing and framing fit the target screen; low if a cinema film is cut for a phone or the reverse. (guidance, inferred from S099, S074)
+- **Quotes:** "home video, which I mean also broadcast television, is a look-at medium, theatre is a look-into medium" (S099) "what you're working on is not a miniature, but it's a mural" (S099)
+- **Sources:** 3 (S074, S077, S099)
+
+## 26. The post-film waterfall *(his term "the waterfall effect", also "parade effect")*
+- **What it is:** After a year of making incoming material cohere, the world seems to fly apart when the film ends: about six weeks of something like seasickness. Decisions made in that window are unreliable, and a too-short gap infects the next film with the last one's rules.
+- **Steps:** Plan at least six weeks between films (S076, S103). Avoid big decisions in that window (S103). Taper off with a related craft; he translates Curzio Malaparte (S103).
+- **When to use:** Scheduling back-to-back projects, a key person's next booking, judging a decision made right after delivery.
+- **How to score:** High if there is a six-week buffer; low if the same editor goes straight into a different film. (thresholds his, S076, S103)
+- **Quotes:** "it's very dangerous to make big decisions during that six week period, because you're standards of analysis are compromised" (S103) "If it's too short, less than six weeks in my case, you inadvertently infect the next film with the rules of the previous one" (S076)
+- **Sources:** 3 (S029, S076, S103)
