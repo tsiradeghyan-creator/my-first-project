@@ -4,9 +4,8 @@
     {
       "id": 1,
       "prompt": "Write homepage copy for a SaaS tool that automates employee onboarding. Target audience is HR directors at mid-size companies (200-2000 employees). Main differentiator is that it integrates with all major HRIS systems and cuts onboarding time from 2 weeks to 2 days.",
-      "expected_output": "Should check for product-marketing-context.md first. Should write full page copy organized by section: Headline, Subheadline, CTA (above the fold), then Social Proof, Problem/Pain, Solution/Benefits, How It Works, Objection Handling, and Final CTA. Should follow copywriting principles: clarity over cleverness, benefits over features, specificity (use the '2 weeks to 2 days' stat), customer language. Headline should communicate core value proposition. CTAs should be action-oriented ('Start Free Trial' not 'Submit'). Should provide 2-3 headline alternatives with rationale. Should include annotations explaining key copy choices. Should include meta content (SEO page title and meta description).",
+      "expected_output": "Should write full page copy organized by section: Headline, Subheadline, CTA (above the fold), then Social Proof, Problem/Pain, Solution/Benefits, How It Works, Objection Handling, and Final CTA. Should follow copywriting principles: clarity over cleverness, benefits over features, specificity (use the '2 weeks to 2 days' stat), customer language. Headline should communicate core value proposition. CTAs should be action-oriented ('Start Free Trial' not 'Submit'). Should provide 2-3 headline alternatives with rationale. Should include annotations explaining key copy choices. Should include meta content (SEO page title and meta description).",
       "assertions": [
-        "Checks for product-marketing-context.md",
         "Writes full page copy organized by section",
         "Includes Headline, Subheadline, and CTA above the fold",
         "Includes Social Proof, Problem/Pain, Solution/Benefits, How It Works sections",

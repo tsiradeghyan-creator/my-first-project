@@ -21,7 +21,7 @@ heads with Tigran's line-producer seat at the centre, then each head runs its de
 If he already said what he needs, skip the questions and go straight to the stage.
 
 Then: say in one line which skill runs this stage and which comes next, and start.
-Before making documents for someone, `director-desk` asks who they are for (`references/documents.md`).
+Before making documents for someone, `director-desk` asks who they are for (`.claude/skills/director-desk/references/documents.md`).
 
 ## 2. Tracks and stages
 

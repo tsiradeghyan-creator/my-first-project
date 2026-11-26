@@ -1,6 +1,6 @@
 ---
 name: skill-router
-description: "Tigran's skill menu. Use FIRST, without being asked, whenever a task touches content, video, image/visual, design, SMM/Instagram, marketing, copy, pitching/sales, screenwriting, books or brand: show the matching skills from his collection, recommend one with a reason, then start working. Also use when he asks which skills he has: «ինչ սքիլներ ունեմ», «որ սքիլով», «какие скилы», «what skills do I have»."
+description: "Tigran's skill menu. Use first, without being asked, whenever a task touches content, video, image/visual, design, SMM/Instagram, marketing, copy, pitching/sales, screenwriting, books or brand: show the matching skills from his collection, recommend one with a reason, then start working. Also use when he asks which skills he has: «ինչ սքիլներ ունեմ», «որ սքիլով», «какие скилы», «what skills do I have»."
 ---
 
 # Skill router
@@ -12,7 +12,7 @@ every time. Your job: notice the domain, show him what he owns for it, recommend
 
 1. **Spot the domain** from the request (table below). A task can hit two domains (e.g. a reel = video + SMM).
 2. **Show a short menu** at the top of your reply, in Tigran's language (usually Armenian):
-   - 2–5 skills that fit THIS task, one line each: what it is good for here, and a weakness if it matters.
+   - 2–5 skills that fit this task, one line each: what it is good for here, and a weakness if it matters.
    - **Recommendation** with the reason in one sentence ("խորհուրդ եմ տալիս X, որովհետև …").
    - Skills that fit poorly: leave them out. Do not dump the whole table.
 3. **Then act:**
@@ -46,7 +46,7 @@ Vermette, Murch, buyers Bloys/Quinn/Bajaria) with Tigran's own line-producer sea
 | `remotion-video-creation` | Motion graphics, captions, animated text in code | For titles, lyric/kinetic text, explainers |
 | `fal-ai-media` | Actually generating images/video/voice via fal.ai | Needs FAL_KEY |
 | archive: `video-editing`, `manim-video`, `videodb` | Editing pipelines, math animation | via `skill-library` |
-| Higgsfield connector (Editorial Motion Graphics) | Explainer from a topic: script, VO, subtitles | Through the connector |
+| Higgsfield connector (Editorial Motion Graphics), if connected | Explainer from a topic: script, VO, subtitles | Through the connector, only when it is connected in this session |
 
 ### Image / visual / design
 | Skill | Best for | Notes |
@@ -56,8 +56,8 @@ Vermette, Murch, buyers Bloys/Quinn/Bajaria) with Tigran's own line-producer sea
 | `gpt-image-prompting` | Only when GPT image model is chosen; text in images, infographics, mockups | Best at readable text inside images |
 | `anthropic-skills:poster-design` | Posters, key art | |
 | `anthropic-skills:canvas-design` | Art-style PNG/PDF made in code | Not photoreal |
-| `maghakian-brand` / `anthropic-skills:maghakian-brand` | Logo, colors, templates, sizes | Always on for studio visuals |
-| Adobe Express, Figma, Canva connectors | Editable layouts, carousels, decks | When Tigran wants to edit it himself |
+| `maghakian-brand` | Logo, colors, typography, templates, sizes; captions and copy in the brand voice | Always on for studio visuals and posts. Two copies exist: the local skill (`.claude/skills/maghakian-brand`, updated to the Oct 2026 rebrand) and an account copy (`anthropic-skills:maghakian-brand`); use the local one |
+| Adobe Express (if connected), Figma, Canva connectors | Editable layouts, carousels, decks | When Tigran wants to edit it himself |
 | archive: `visual-designer`, `design-system`, `image-enhancer`, `frontend-design` | | via `skill-library` |
 
 ### SMM / Instagram / content
@@ -67,7 +67,6 @@ Vermette, Murch, buyers Bloys/Quinn/Bajaria) with Tigran's own line-producer sea
 | `mini-scenario` | Instagram series: format, episode scripts, calendar, season arc, KPI | For serial content |
 | `anthropic-skills:ani-digital-marketing` | Studio/Ani posts, calendars, bios, press, IMDb, SEO | Knows the studio's facts and voice |
 | `trend-scout` | What is trending worldwide now (formats, audio, AI tools) | Run before planning a content batch |
-| `maghakian-brand` | Captions and visuals in the brand voice | |
 | archive: `content-strategy`, `content-engine`, `crosspost`, `content-creator` | | via `skill-library` |
 
 ### Marketing / sales / copy / SEO
@@ -77,7 +76,7 @@ Vermette, Murch, buyers Bloys/Quinn/Bajaria) with Tigran's own line-producer sea
 | `director-desk` (treatment) | Pitch deck / treatment structure + gap audit + branded PDF | Use with ani-digital-marketing for the words |
 | `copywriting` | Landing pages, headlines, CTAs, website copy | Conversion-focused |
 | `seo-audit` | Site SEO problems (maghakianscripts.com) | |
-| `llm-council` / Roast Room (`maghakian-roast-room/`) | Pressure-test a big decision, offer, price, pitch | Before sending something high-stakes |
+| Roast Room (`maghakian-roast-room/`) / `bab-production` / `llm-council` | Pressure-test a big decision, offer, price, pitch | Studio and business calls go to the Roast Room, film/TV project calls to bab-production; llm-council only for quick general-purpose tests |
 | `anthropic-skills:humanizer` | Make any text sound human | Last step for anything published |
 | archive: `market-research`, `brand-strategist`, `brand-voice`, `copy-editing`, `email-ops`, `lead-intelligence`, `seo` | | via `skill-library` |
 
@@ -91,6 +90,17 @@ Vermette, Murch, buyers Bloys/Quinn/Bajaria) with Tigran's own line-producer sea
 
 ### Research
 | `agent-reach` | Web/social/video/GitHub lookups | `trend-scout` for trends, `perplexity`/`firecrawl` connectors for deep search |
+
+### Utilities and maintenance
+These rarely go in a content menu; offer them when the task is about memory, tools or the skills themselves.
+| Skill | Best for | Notes |
+|---|---|---|
+| `auto-learn` | Daily web research on the studio's projects (buyers, funds, festivals) appended to `~/.memory/` | Laptop job; its schedule needs rebuilding on the new computer |
+| `consolidate-memory` | Turn recent chat logs into `~/.memory/` notes (decisions, preferences, project updates) | Laptop side; `memory/` in the repo is a read-only snapshot |
+| `media-memory` | Log and find images, PDFs, video and audio seen in chats (`~/.media-memory/`) | Laptop side; its hook lives in user settings |
+| `zavod-scout` | Compare each zavod station with the best outside tools and upgrade the weak ones | Every 3 days or on demand; "scout" alone means nothing |
+| `cli-hub` | Find an agent-ready CLI for a creative or office program | Catalog lookup before installing anything |
+| `graphify` | Map a folder or codebase as a knowledge graph and answer "how is this connected" | For repo/folder questions, not content |
 
 ## Menu format (example)
 

@@ -11,7 +11,7 @@
 1. chatgpt.com → ձախում **GPTs** → **Create** → վերևում **Configure**։
 2. **Name:** `Maghakian Script Desk`։ **Description:** `Սցենարի ֆորմատ, սրբագրում, breakdown`։
 3. **Instructions:** բացիր `INSTRUCTIONS.md` ֆայլը, ամբողջը պատճենիր և տեղադրիր այս դաշտում։
-4. **Knowledge → Upload files:** բեռնիր `knowledge/` թղթապանակի **բոլոր** ֆայլերը (12 ֆայլ)։
+4. **Knowledge → Upload files:** բեռնիր `knowledge/` թղթապանակի **բոլոր** ֆայլերը (17 ֆայլ)։
 5. **Capabilities:** միացրու **Code Interpreter & Data Analysis** (պարտադիր)։ Web Search-ը պետք չէ։
 6. **Create** → «Only me» (սցենարները գաղտնի են)։
    Լոգոն որպես GPT-ի նկար՝ վերևի շրջանակի վրա սեղմիր և բեռնիր `knowledge/maghakian_logo_dark.png`-ը։
@@ -40,5 +40,9 @@
   ասա «երկխոսության ոճը մի փոխիր, միայն տառասխալ և կետադրություն»։
 - Վերջնական PDF-ը ուղարկիր միայն Անիի հաստատումից հետո (աշխատանքային Word-ով)։
 - Եթե Code Interpreter-ը սխալ է տալիս, գրիր «սկզբից պատճենիր ֆայլերը /mnt/data/desk և նորից փորձիր»։
+- Script Pack-ի (one-pager, սինոպսիս, bible, sides…) ձևավորված PDF-ները պատրաստվում են Chromium-ով, իսկ ChatGPT-ում
+  Chromium չկա. այստեղ փաթեթը տալիս է միայն HTML ֆայլեր (`_internal (do not send)/html/`) և CHECK.md։ Noto
+  տառատեսակները էլ փաթեթում չկան, ուստի HTML-ը կարող է բացվել այլ տառատեսակով։ Ձևավորված PDF-ների համար
+  օգտագործիր Claude-ի `director-desk`-ը։
 
 Claude-ում (Claude Code) նույն գործը անում է `director-desk` սքիլը. ասա «սրբագրիր սցենարը»։

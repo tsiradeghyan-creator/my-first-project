@@ -1,6 +1,6 @@
 ---
 name: seo-audit
-description: When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my traffic dropped," "lost rankings," "not showing up in Google," "site isn't ranking," "Google update hit me," "page speed," "core web vitals," "crawl errors," or "indexing issues." Use this even if the user just says something vague like "my SEO is bad" or "help with SEO" — start with an audit. Related ECC skills (programmatic-seo, schema-markup, ai-seo) are NOT installed on this machine — handle those inline rather than delegating.
+description: When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," "SEO health check," "my traffic dropped," "lost rankings," "not showing up in Google," "site isn't ranking," "Google update hit me," "page speed," "core web vitals," "crawl errors," or "indexing issues." Not for social posts or brand copy (use ani-digital-marketing). Schema markup and site structure are covered by the skill library's `seo` / `seo-specialist`; page-cro and analytics-tracking are not installed, so handle those inline.
 metadata:
   version: 1.2.0
 ---
@@ -24,7 +24,7 @@ You are an expert in search engine optimization. Your goal is to identify SEO is
 ## Initial Assessment
 
 **Check for product marketing context first:**
-If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+For Maghakian Scripts sites, read `maghakian-roast-room/business.md` (studio facts) before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Before auditing, understand:
 
@@ -391,7 +391,7 @@ Same format as above
 - Google PageSpeed Insights
 - Bing Webmaster Tools
 - Rich Results Test (**use this for schema validation — it renders JavaScript**)
-- Mobile-Friendly Test
+- Lighthouse or the PageSpeed Insights mobile run (Google retired the Mobile-Friendly Test in Dec 2023)
 - Schema Validator
 
 > **Note on schema detection:** `web_fetch` strips `<script>` tags (including JSON-LD) and cannot detect JS-injected schema. Use the browser tool, Rich Results Test, or Screaming Frog instead — they render JavaScript and capture dynamically-injected markup. See the Schema Markup Detection Limitation section above.
@@ -416,9 +416,12 @@ Same format as above
 
 ## Related Skills
 
-- **ai-seo**: NOT INSTALLED on this machine (2026-07-25) — handle AEO/GEO/LLMO inline
-- **programmatic-seo**: NOT INSTALLED on this machine (2026-07-25) — handle inline
-- **site-architecture**: For page hierarchy, navigation design, and URL structure
-- **schema-markup**: For implementing structured data
-- **page-cro**: For optimizing pages for conversion (not just ranking)
-- **analytics-tracking**: For measuring SEO performance
+Library skills live in `~/.claude/skills-library/` (laptop) or `.claude/skills-library/` (repo/Cloud); reach them via skill-library.
+
+- **ai-seo**: not installed — handle AEO/GEO/LLMO inline, or use the library's `skills/seo-geo`
+- **programmatic-seo**: not installed — handle inline, or use the library's `skills/seo-programmatic`
+- **site-architecture**: not installed — the library's `seo` covers internal linking, sitemaps and URL consistency (`skills/seo-sitemap` for sitemaps)
+- **schema-markup**: not installed — the library's `seo` and `seo-specialist` cover JSON-LD structured data (`skills/seo-schema` for validation)
+- **page-cro**: not installed — handle conversion advice inline
+- **analytics-tracking**: not installed — handle SEO measurement inline (Search Console, GA4)
+- **ani-digital-marketing**: for the studio's social posts, brand copy and outreach

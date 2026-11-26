@@ -1,6 +1,6 @@
 ---
 name: remotion-video-creation
-description: Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more.
+description: "Best practices for Remotion - Video creation in React. 28 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use for video made from code: titles and title cards, captions and subtitles, kinetic or animated text, lyric videos, animated posts and carousels for social, explainers, charts in motion, motion graphics. Not for AI video-generation prompts (use film-crew, then the model skill)."
 metadata:
   tags: remotion, video, react, animation, composition, three.js, lottie
   version: 1.1.0

@@ -1,6 +1,6 @@
 ---
 name: director-desk
-description: "Director's and producer's desk: proofreading of Armenian scripts (punctuation, spelling, typos, continuity) into a Word working version with highlighted changes and comments plus a clean final PDF with the Maghakian logo; does the jobs of KIT Scenarist / Story Architect / WriterDuet / Pisar, Storyboarder, ShotDeck search and Canva treatments in one place. (1) Screenplay formatting: Fountain → industry 'American' format PDF, DOCX, Final Draft FDX, in Armenian, Russian or English. (2) Line-producer breakdown: scenes, page eighths, characters, locations, INT/EXT, day/night, CSV for a stripboard/schedule. (3) Storyboard sheet PDF from stills + shot list (film-crew output). (4) Treatment / pitch deck: structure, gap audit, branded PDF. (4b) Script Pack: one script or season → every document per recipient (one-pager, logline/synopsis, series bible, episode synopses, casting breakdown + actor sides, English one-pager, lab/fund application with word-limit check). (5) Reference hunting: ShotDeck / Film-grab search terms per shot. Use for: format a script, сценарий в американке, սցենարը ֆորմատավորել, page count / runtime, breakdown, раскадровка в PDF, storyboard sheet, treatment, тритмент, պիչ դեք, pitch deck, script pack, submission package, one-pager, logline, synopsis, синопсис, series bible, библия сериала, casting breakdown, sides, փաթեթ, սինոպսիս."
+description: "Director's and producer's desk for script documents. (1) Proofread Armenian scripts (spelling, punctuation, continuity): Word working copy with highlighted changes and comments + clean PDF with the Maghakian logo. (2) Format Fountain scripts to 'American' format PDF, DOCX, Final Draft FDX (Armenian, Russian, English). (3) Line-producer breakdown, stripboard CSV, production plan, day sheets, costume and props sheets. (4) Storyboard sheet PDF from stills + shot list (shots are planned in film-crew). (5) Treatment, pitch deck and Script Pack: one-pager, logline, synopsis, series bible, casting breakdown, sides, fund application. (6) ShotDeck / Film-grab search terms. Use for: format a script, сценарий в американке, սցենարը ֆորմատավորել, սրբագրիր սցենարը, page count, breakdown, storyboard sheet PDF, раскадровка в PDF, treatment, тритмент, պիչ դեք, pitch deck, script pack, փաթեթ, one-pager, synopsis, синопсис, սինոպսիս, series bible, библия сериала, casting breakdown, sides."
 ---
 
 # Director's desk
@@ -148,6 +148,16 @@ commas, duplicate names, open «?», unsure ներս/դրս, locations that may 
 aliases.json: the admin edits it and reruns. Day: xlsx (day sheet with header + totals, actors, props,
 costume, transport, extras, check sheets), branded landscape PDF, and the day's texts .docx in shooting order
 copied from the KIT files (styles kept). Their files are private: work in the scratchpad, never commit them.
+
+**Costume and props sheets** (`scripts/dept_sheets.py`, reads master.xlsx through `plan.py`):
+```bash
+python3 scripts/dept_sheets.py plan/master.xlsx --days days.txt --out plan/ [--extra extra.json] [--title "<series>"]
+```
+`days.txt`: one line per shooting day, `<day no>|<date>|<scene ids, comma+space separated>`. Optional
+`extra.json` adds detail read from the scripts: `{"<scene id>": {"costume": {"<character>": "..."}, "props": [...], "makeup": "..."}}`.
+Writes `Կոստյում_Ռեկվիզիտ.xlsx`: one sheet per shooting day, «Կոստյումների պլան» (costume plot: one change per
+character per story day Օր; X/Y/Z flashbacks count as 1984 period costume) and «Ռեկվիզիտի ցանկ» (props with the
+scenes and days that need each item, repeats flagged for continuity). The script's docstring also mentions a branded PDF, but the current version writes the xlsx only.
 
 **Money and progress** (`scripts/production.py`, `scripts/reports.py`): `plan.py init project.xlsx --master …`
 creates Կազմ (positions, names, rates, rate type), Ներկայություն (attendance per day, live formulas), Օրեր,

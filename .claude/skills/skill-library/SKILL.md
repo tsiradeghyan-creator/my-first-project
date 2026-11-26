@@ -1,37 +1,40 @@
 ---
 name: skill-library
-description: Router to the ~/.claude/skills-library/ archive (252 ECC skills moved out of the default context on 2026-07-02 by agent-sort). Use when a task needs an off-stack capability — e.g. a dev framework (django/laravel/spring/kotlin/swift/react…), a domain vertical (healthcare, logistics, billing, energy), crypto/web3, agency personas, integrations (jira, datadog, clickhouse, x-api), meta/agentic patterns (blueprint, eval-harness, autonomous-loops), or any skill not in the DAILY set. Search the library, read the matching SKILL.md, and follow it in place.
+description: Router to the skill-library archive (`~/.claude/skills-library/` on the laptop, `.claude/skills-library/` in the repo/Cloud; 267 folders, 251 of them top-level skills, moved out of the default context on 2026-07-02 by agent-sort). Use when a task needs an off-stack capability — e.g. a dev framework (django/laravel/spring/kotlin/swift/react…), a domain vertical (healthcare, logistics, billing, energy), crypto/web3, agency personas, integrations (jira, datadog, clickhouse, x-api), meta/agentic patterns (blueprint, eval-harness, autonomous-loops), or any skill not in the DAILY set. Search the library, read the matching SKILL.md, and follow it in place.
 metadata:
   version: 1.1.0
 ---
 
 # Skill Library Router
 
-The full ECC skill collection lives in `~/.claude/skills-library/` (moved there by agent-sort
-on 2026-07-02 to stop ~250 irrelevant skill descriptions loading into every session).
+The full ECC skill collection lives in `~/.claude/skills-library/` on the laptop and in
+`.claude/skills-library/` in this repo (the path to use on Cloud). It was moved there by agent-sort
+on 2026-07-02 to stop ~250 irrelevant skill descriptions loading into every session.
 Nothing was deleted — every skill is intact and usable.
 
-**252 top-level skills** (verified 2026-07-25). 17 further top-level directories are
-support/spill folders rather than skills — `agents`, `docs`, `hooks`, `pdf`, `schema`,
-`schema`, `screenshots`, `scripts` have no SKILL.md at all, while `design-ops`,
-`design-research`, `designer-toolkit`, `extensions`, `interaction-design`,
-`prototyping-testing`, `skills`, `ui-design`, `ux-strategy` and `ruflo` are *collections*
-holding nested skills (ruflo alone nests 266). Search recursively, not just one level deep.
+**267 top-level folders, 251 of them skills with their own SKILL.md** (counted in the repo copy
+on 2026-11-26). The other 16 are support or collection folders: `agents`, `docs`, `hooks`, `pdf`,
+`schema`, `screenshots`, `scripts` have no SKILL.md at all, while `design-ops`, `design-research`,
+`designer-toolkit`, `extensions`, `interaction-design`, `prototyping-testing`, `skills` (the
+claude-seo pack: `seo-audit`, `seo-schema`, `seo-geo`…), `ui-design` and `ux-strategy` are *collections*
+holding 77 nested skills. Search recursively, not just one level deep.
 
-## DAILY set (already loaded — never search the library for these; all 20)
-agent-reach · auto-learn · consolidate-memory · content-zavod · copywriting · fal-ai-media ·
-gpt-image-prompting · graphify · higgsfield · jackvsai-fashion-campaign-prompt-framework ·
-llm-council · maghakian-brand · media-memory · mini-scenario · remotion-video-creation ·
-seo-audit · shortfilm-prompt · skill-library · trend-scout · zavod-scout
+## DAILY set (already loaded from `.claude/skills/`, so there is no need to search the library for these; 29 on 2026-11-26)
+agent-reach · auto-learn · bab-production · banana-pro-director-2.0 · cinema-worldbuilder-pro-2.0 ·
+cli-hub · consolidate-memory · content-zavod · copywriting · director-desk · fal-ai-media · film-crew ·
+gpt-image-prompting · graphify · higgsfield · jackvsai-fashion-campaign-prompt-framework · llm-council ·
+maghakian-brand · media-memory · mini-scenario · remotion-video-creation · seedance-25-director ·
+seo-audit · shortfilm-prompt · skill-library · skill-router · studio · trend-scout · zavod-scout
 
 ## How to use the library
+Commands below use the laptop path; on Cloud replace `~/.claude/skills-library/` with `.claude/skills-library/`.
 1. Find a candidate:
    `ls ~/.claude/skills-library/ | grep -i <keyword>`
    or search descriptions:
-   `grep -ril "<keyword>" ~/.claude/skills-library/*/SKILL.md`
+   `grep -ril --include=SKILL.md "<keyword>" ~/.claude/skills-library/` (recursive, so nested skills are found)
 2. Read the matching `~/.claude/skills-library/<name>/SKILL.md` and follow it in place.
-3. If a library skill becomes a regular need, promote it back:
-   `mv ~/.claude/skills-library/<name> ~/.claude/skills/`
+3. If a library skill becomes a regular need, promote it into the repo's `.claude/skills/<name>/`
+   (copy it from the library, then commit and push so both sides get it).
 
 ## Output Contract
 

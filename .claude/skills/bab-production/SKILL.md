@@ -7,7 +7,7 @@ description: "BAB Production: a film/TV production board of the world's best dep
 
 BAB is a set of seats plus a department layer on top of the Roast Room in `maghakian-roast-room/`. The council itself is the Roast Room's, used exactly as it ships, with no rules added, removed or reordered. That repo is tested and works; BAB does not change how it decides.
 
-**Rule (Tigran, 2026-11-04).** Every BAB council runs `.claude/skills/roast-room/SKILL.md` step by step, with its own files: `round-prompts.md`, `scoring.md`, `report-template.md`, `live-room.md` and `seats.md`. Every BAB seat is built the way `/newroaster` builds a seat. Where this file and the Roast Room disagree, the Roast Room wins.
+**Rule (Tigran, 2026-11-04).** Every BAB council runs `maghakian-roast-room/.claude/skills/roast-room/SKILL.md` step by step, with its own files in `maghakian-roast-room/.claude/skills/roast-room/references/`: `round-prompts.md`, `scoring.md`, `report-template.md`, `live-room.md` and `seats.md`. Every BAB seat is built the way `/newroaster` builds a seat. Where this file and the Roast Room disagree, the Roast Room wins.
 
 ## The seats
 
@@ -90,12 +90,12 @@ A BAB seat's knowledge must be built the way `/newroaster` builds every seat:
 
 Depth: standard (30 to 50 sources, 250k+ words) at least; `--deep` (80+ sources) where the person's public work allows, to match the original seven.
 
-**State on 2026-11-04.** The ten BAB brains are quick-web builds: 7 to 20 search excerpts, 1,000 to 2,200 words each. The original seats have 35 to 246 sources and 10,000 to 19,000 words. Until a seat is rebuilt, its council answers are thin, and the Chair says so in the verdict.
+**State on 2026-11-26** (words in `maghakian-roast-room/.claude/skills/roast-room/brains/<seat>/*.md`). Murch 19,877 and Villeneuve 16,324: partly rebuilt (WIP rebuild commits; `_hot.md` is still the short quick-web version). Rhimes 3,902, Blum 2,777, Deakins 2,201, Bloys 2,098, Vermette 2,040, Bajaria 1,357, Tigran 1,247, Quinn 1,058: still quick-web builds or only their `sources.md` rebuilt. The original seats have 35 to 246 sources and 10,700 to 19,100 words. Until a seat is rebuilt, its council answers are thin, and the Chair says so in the verdict.
 - **Where to rebuild.** The cloud network blocks the content hosts `fetch.mjs` needs, so rebuild on the laptop (VS Code), or in a cloud environment whose network allows those hosts. Use `/newroaster <name>` in refresh mode on the same slug (step 3 onward).
 - **Tigran's seat.** It is built from his own material (`fetch.mjs --add`, with his consent). It needs more of his material (interviews, notes, voice-note transcripts) to reach the newroaster minimum of about 15 sources or 60,000 words.
 
 ## Honest limits
 - Seats are simulations, not the people. Never present their words as real unless quoted verbatim with a source id.
 - Tigran's seat never commits money or speaks for Tigran.
-- Bajaria's current role at Netflix is uncertain (Oct 2026 reports); the seat models her public statements only.
+- The Bajaria seat models her public statements only; check her current role before citing it (verify live).
 - The bab-feature-01 Gate 1 debate (rounds D1 and D2) and the stage 2 concept round of 2026-11-03 ran before this rule, with a custom procedure. They had no Round 3 ratification, the cards had no confidence, ruin-risk or door fields, and weights were set after the scores. Treat those results as provisional until a standard council confirms them.

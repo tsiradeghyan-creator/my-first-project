@@ -1,8 +1,3 @@
----
-name: llm-council
-description: "Run any question, idea, or decision through a council of 5 AI advisors who independently analyze it, peer-review each other anonymously, and synthesize a final verdict. Based on Karpathy's LLM Council methodology. MANDATORY TRIGGERS: 'council this', 'run the council', 'war room this', 'pressure-test this', 'stress-test this', 'debate this'. STRONG TRIGGERS (use when combined with a real decision or tradeoff): 'should I X or Y', 'which option', 'what would you do', 'is this the right move', 'validate this', 'get multiple perspectives', 'I can't decide', 'I'm torn between'. Do NOT trigger on simple yes/no questions, factual lookups, or casual 'should I' without a meaningful tradeoff (e.g. 'should I use markdown' is not a council question). DO trigger when the user presents a genuine decision with stakes, multiple options, and context that suggests they want it pressure-tested from multiple angles."
----
-
 # LLM Council
 
 You ask one AI a question, you get one answer. That answer might be great. It might be mid. You have no way to tell because you only saw one perspective.
@@ -230,7 +225,7 @@ Be direct. Don't hedge. The whole point of the council is to give the user clari
 
 ### step 5: present the verdict in chat
 
-After the chairman synthesis is complete, present the full verdict directly in chat using markdown. Do NOT generate an HTML report or any files. The user reads it in the conversation.
+After the chairman synthesis is complete, present the full verdict directly in chat using markdown. No HTML report or other files: the user reads it in the conversation.
 
 Format the output as:
 
@@ -257,7 +252,7 @@ Keep it scannable. Use bullet points. Include the before/after examples where re
 
 ### step 6: save the transcript (optional)
 
-Only save a transcript if the user asks for it or if the question is significant enough to reference later. If saving, write to `council-transcript-[timestamp].md` in the project's `active/` directory.
+Only save a transcript if the user asks for it or if the question is significant enough to reference later. If saving, write `council-transcript-[timestamp].md` to the session scratchpad; for a studio decision, save it under `maghakian-roast-room/sessions/` instead.
 
 ---
 
@@ -295,4 +290,3 @@ Only save a transcript if the user asks for it or if the question is significant
 - **Always anonymize for peer review.** If reviewers know which advisor said what, they'll defer to certain thinking styles instead of evaluating on merit.
 - **The chairman can disagree with the majority.** If 4 out of 5 advisors say "do it" but the reasoning of the 1 dissenter is strongest, the chairman should side with the dissenter and explain why.
 - **Don't council trivial questions.** If the user asks something with one right answer, just answer it. The council is for genuine uncertainty where multiple perspectives add value.
-- **The visual report matters.** Most users will scan the report, not read the full transcript. Make the HTML output clean and scannable.

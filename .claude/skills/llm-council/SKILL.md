@@ -1,6 +1,6 @@
 ---
 name: llm-council
-description: "Use when the user explicitly asks to council, pressure-test, stress-test, debate, or evaluate a meaningful decision with real tradeoffs and stakes."
+description: "Use when the user explicitly asks to council, pressure-test, stress-test, debate, or evaluate a meaningful decision with real tradeoffs and stakes. For quick general-purpose pressure tests only. Business, production and studio decisions go to the Roast Room (maghakian-roast-room/) or bab-production."
 user-invocable: true
 metadata:
   tags: [llm_council, routing, verification, workflow]
@@ -20,6 +20,7 @@ Read `references/full-guide.md` before producing user-facing output from this sk
 
 - Read `references/full-guide.md` before running a council.
 - Use the council only for decisions with meaningful uncertainty, tradeoffs, and stakes.
+- Business, production and studio decisions belong in the Roast Room (`maghakian-roast-room/`, run from inside that folder) or bab-production; this skill is for quick general-purpose pressure tests.
 - Gather only directly relevant local context before framing the question.
 - Keep advisor outputs independent and synthesis decisive.
 

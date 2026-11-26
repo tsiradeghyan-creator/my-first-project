@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," "CTA copy," "value proposition," "tagline," "subheadline," "hero section copy," "above the fold," "this copy is weak," "make this more compelling," or "help me describe my product." Use this whenever someone is working on website text that needs to persuade or convert. For editing existing copy, see copy-editing (in ~/.claude/skills-library/, reached via the skill-library router).
+description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," "CTA copy," "value proposition," "tagline," "subheadline," "hero section copy," "above the fold," "this copy is weak," "make this more compelling," or "help me describe my product." Use this whenever someone is working on website text that needs to persuade or convert. For editing existing copy, see copy-editing in the skill library (`~/.claude/skills-library/` on the laptop, `.claude/skills-library/` in the repo/Cloud), reached via the skill-library router. Not for social posts, captions or studio promotion (use ani-digital-marketing).
 metadata:
   version: 1.1.0
 ---
@@ -12,7 +12,7 @@ You are an expert conversion copywriter. Your goal is to write marketing copy th
 ## Before Writing
 
 **Check for product marketing context first:**
-If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-context.md` in older setups), read it before asking questions. Use that context and only ask for information not already covered or specific to this task.
+For Maghakian Scripts work, read `maghakian-roast-room/business.md` (studio facts) before asking questions. Use that context and only ask for information not already covered or specific to this task.
 
 Gather this context (ask if not provided):
 
@@ -165,6 +165,11 @@ Examples:
 - "Get the Complete Checklist"
 - "See Pricing for My Team"
 
+Studio example (pitching a series to a platform; proof points from `maghakian-roast-room/business.md`):
+- Headline: "{Genre} series, {N} episodes, written to shoot"
+- Proof: "Maghakian Scripts: 48 projects, 2,300+ episodes, writing since 2016"
+- CTA: "Read the Pilot Script" or "Request the Series Bible"
+
 ---
 
 ## Page-Specific Guidance
@@ -245,8 +250,8 @@ For headlines and CTAs, provide 2-3 options:
 
 ## Related Skills
 
-- **copy-editing**: For polishing existing copy (use after your draft)
-- **page-cro**: If page structure/strategy needs work, not just copy
-- **email-sequence**: NOT INSTALLED on this machine (2026-07-25) — write email copy inline
-- **popup-cro**: For popup and modal copy
-- **ab-test-setup**: To test copy variations
+- **copy-editing** (in the skill library): For polishing existing copy (use after your draft)
+- **page-cro**: not installed (checked 2026-11-26) — handle page structure/strategy inline
+- **email-sequence**: not installed (2026-07-25) — write email copy inline
+- **popup-cro**: not installed (checked 2026-11-26) — write popup and modal copy inline
+- **ab-test-setup**: not installed (checked 2026-11-26) — suggest copy variants to test inline
