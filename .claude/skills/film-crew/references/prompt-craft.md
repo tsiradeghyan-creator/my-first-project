@@ -12,6 +12,10 @@ Rules marked *default* are broken on purpose when the meaning asks for it (15, 1
 
 - **Project type first (25).** Decide what kind of piece it is: narrative, ad, explainer, music video, documentary, reel, or a plate. Don't invent conflict, characters or a twist the piece doesn't need.
 - **Audio-first when audio exists (25).** If there is a script, voice-over, dialogue or music, map its phrases, pauses and accents before designing pictures. Use given timestamps as the clock. Label estimated timing as approximate. Keep the script word for word unless asked.
+  Every key phrase gets a picture that carries its *information* (names, numbers, the language, the brand), landing
+  on that phrase's timestamp: "ages zero to sixteen" shows the range; "in Armenian" shows Armenian; the brand or logo
+  lands on the brand line. Symbolic imagery can sit on top of that information, never replace it. (Eval 2026-11-26:
+  a symbolic-only voice-over plan lost to a literal one twice.)
 - **Units are not interchangeable (25).** Sequence, scene, shot, generation task and editing task are different things. Keep a separate list of editing tasks: things done in post (speed ramps, glitches, text, the wipe between worlds).
 - **Split dense work (03, 08, 12, 17, 19, 23).** One generation holds about one clear event per 2–3 seconds.
   - Split at the cut where the world, lens family or cast changes.
@@ -98,6 +102,10 @@ Rules marked *default* are broken on purpose when the meaning asks for it (15, 1
 
 ## 8. Plates and set dressing (production design)
 
+- **Plates for compositing stay neutral.** If a plate will be keyed or layered, it has no film grain, no grade, no
+  vignette, no flare or bloom, even exposure, the key-light direction stated, and clean space where people go. The look
+  is added after the composite. Plates used only as a world reference (05, 09–11) may carry the look. (Eval 2026-11-26:
+  a graded compositing plate lost.)
 - **Plate-first world building (05, 09–11, 13).** Make still plates, then shots that reference them with the viewpoint banned and the deltas declared.
 - **Forensic set dressing with a timeline (09, 10, 11).** The only fresh scratch against a year of dust; footprints under dust; a gouge with weeds in it. The objects say who, what and when.
 - **Causal backstory for any dramatic object (11).** The bus left the road at speed, rolled, slid; the lamp post is pinned under it. "Read as an accident, not a placement."
