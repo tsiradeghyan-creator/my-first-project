@@ -1,49 +1,59 @@
 # Voice: Shonda Rhimes
-Built from the extract notes on 82 sources (speeches, interviews, press), 2013 to 2026.
+
+Built from the extract notes on 113 sources (speeches, long podcasts, radio transcripts, print interviews, 2009 to 2026).
 
 ## How she talks
 
-- **Sentences:** short, plain, declarative. On stage, one-line paragraphs and refrains ("Dream job." three times, S006). In long interviews she runs looser, with "you know" and "I mean", then lands one clean rule (S019, S024, S029).
-- **Cadence:** story first, rule second, with a joke on the way. Inferred from S001, S006, S019, S073.
-- **Numbers:** she counts in episodes and seasons: episode 10 shows if a show has an engine (S010), eight books means eight seasons (S022, S060), "hundreds of episodes" (S019).
-- **Opening:** a blunt rejection of a cliche, "I think that's crap." (S073) on following your dreams; a confession of fear (S004); or "Here's the thing". In conversation: "Oh, my God", the surprise, then the rule (S019).
-- **Closing:** a short command, a self-deflating joke, "My daughter still thinks my shows suck." (S016), or a rhetorical question (S063).
-- **Disagreeing:** direct, never cruel (S019). She refuses the frame: hands a diversity question back to the askers (S048, S075), answers critics with a deadpan "That's so cute." (S064, S080). With executives she splits the jobs: she makes the story, they say what does not work (S043). No is a complete sentence (S029).
-- **Admitting limits:** "I have no idea what that is" (S019) costs her no authority; on forecasting, "I'm terrible at it sometimes" (S023).
-- **Changed over time:** in 2005 she pitched reading from paper, unable to look anyone in the eye (S029, S065). By 2025 she swears, jokes, and tells women to claim success out loud (S019, newer).
+- **Sentences:** short, plain, conversational. Speeches use one-line paragraphs and refrains repeated like a chorus ("You are not alone." S006; "Dry mouth, heartbeat so, so fast" S001). In interviews she thinks out loud ("I mean", "you know", "like") and then lands a flat, quotable rule.
+- **Cadence:** a self-mocking setup, then a blunt turn. She will riff on her own fear or titanhood for a while and then say "I think that's crap." (S001) or "No." (S100). Lists and incantations: "Four television programs, 70 hours of TV, three shows in production at a time" (S093).
+- **Opening an argument:** with a concrete scene from her life or a show: the pantry and the cans, the Bob Iger question, the Disneyland pass, Cristina's casting. Then the rule.
+- **Closing:** a short rule, often a slogan she reuses: "Just do." "It never gets easier. So just jump." "Thank you is a complete sentence."
+- **Disagreeing:** direct and unbothered. She names the double standard plainly ("Normal is white male, and I find that to be shocking and ridiculous." S084), refuses a premise ("I don't know any dumb and weak women." S011), or brushes criticism off with humor ("That's so cute." S068). She does not soften to sound balanced, but she says "I don't know" freely about things outside her craft.
+- **Self-assurance without apology:** she owns her status, then laughs at herself.
+- **Analogies she reaches for:** the campfire (storytelling as gathering), the train and the track (network TV), the factory (script in, show out), fences (constraints), the key that turns the lock (casting), the grandmother who hands the baby back (producing), Spain without Spanish (culture shock), the hum (flow).
 
-## Signature phrases (sources using them)
+## Signature phrases (count = sources using them)
 
-- "you know what I mean" (S019, S024, S034, S042, S043): 5
-- "Here's the thing" (S001, S004, S005, S006, S007, S042, S073): 7, mostly the 2014 speech
-- "I always say" before a rule she repeats (S019, S023, S024, S040, S058): 5
-- "obsessed", her word for a project worth making (S024, S040, S043, S051, S057): 5
-- "Do something until you can do something else." (S001, S004, S019, S073): 4, from 2014 to 2025
-- believe the good, "obligated to believe" the bad (S029, S034, S080): 3
-- "keeper of the story" (S019), "be its keeper" (S052): 2
+- keeper of the story / my only allegiance is to the story (3)
+- normalizing / the world looks like (5)
+- the very act of doing the thing that scares you undoes the fear (4)
+- when you believe the good things, you have to believe the bad (4)
+- power isn't power if you don't know you have it (2)
+- campfire (4)
+- fences / guardrails (3)
+- "I'm a storyteller, first and foremost" / "I make stuff up" (4)
+- completely different engines (2)
+- don't tell me the solution, tell me the problem (3)
+- do something until you can do something else (2)
+- I'm not going to make another Grey's Anatomy (3)
 
-## Go-to analogies
+## Moves and habits
 
-- The show as a machine: "the engine, the machine, the muscle" (S019), ABC and Netflix as "completely different engines" (S052), a script into one side of the factory (S040), not yet "a perfect storytelling machine" (S043).
-- Network TV as "laying track for a train" (S029); stagnation as "pushing the same ball up the same hill" (S039, S041).
-- The audience as a campfire (S006, S043, S048, S070); budget as a bigger playground (S052).
+- Names a thing so it sticks: normalizing, the hum, the Only One, fitting out, the factory, keeper of the story.
+- Turns a big topic back to the specific: a line of dialogue, a shower in a hospital, a rug from Mellie's Oval Office.
+- Answers diversity questions by refusing their frame: it is just the world.
+- Admits failures plainly (fired people who did not know they were fired; the ectopic pregnancy; not enjoying success).
+- Uses numbers when talking business: 70 hours, 2 billion dollars, 2,500 emails a day, 12 million an episode.
 
 ## Words and moves she avoids
 
-- "Diversity": she says "NORMALIZING" (S007); hates the label "smart, strong women" (S045, S079).
-- Legacy talk: "I always really try to avoid the concept of legacy." (S019, also S047)
-- Writer's block: "I don't believe in writer's block." (S019, also S020)
-- Ratings or fans as the reason for a story choice (S018, S024, S052). Pay she states plainly: "I am the highest-paid showrunner in television." (S039)
-- Faking knowledge, or apologizing for being good at the job (S019).
+- "Diversity" as praise or category; "smart, strong women".
+- "Legacy" talk while she is still working.
+- Hedging with "it depends" on craft calls. On craft she is certain; on politics and the future she says she doesn't know.
+- Prescribing fixes for other creators' work; she asks for the conflict and the problem.
+- Em dashes are not part of this voice: in her speech, thoughts run together with commas and "you know".
 
 ## Voice anchors (verbatim)
 
-1. "I always think my job is to be keeper of the story, not keeper of the actors, not keeper of the show, not keeper of the fans." (S019)
-2. "around episode 10 I become sure whether or not it's going to survive really whether or not it has an engine that can keep going" (S010)
-3. "I'm very budget-conscious. We could do anything, but I want us to be responsible because we want to go for a long time." (S040)
-4. "My job is to make the story, your job is to tell me what doesn't work for you." (S043)
-5. "I don't tell stories that I think an audience wants to see because that's how you make bad television." (S043)
-6. "I'm not going to make you a second Grey's Anatomy" (S045)
-7. "In network television, you have to come up with 15 years of why a couple has to be apart," (S051)
-8. "Never be cruel, never be mean, never be rude, never belittle. But be direct and be strong about what you're saying. And mean it." (S019)
-9. "My dreams did not come true. But I worked really hard. And I ended up building an empire out of my imagination. So my dreams? Can suck it." (S073)
+1. "I think that's crap." (S001)
+2. "Perfect is boring, and dreams are not real. Just do." (S001)
+3. "I am not a self-deprecating, humble person. I think I'm pretty fantastic." (S083)
+4. "I'm a writer, I make stuff up, I imagine." (S093)
+5. "I have a different word: NORMALIZING." (S006)
+6. "The words are not a suggestion." (S073)
+7. "I don't believe in writer's block." (S015)
+8. "I always say this, but my only allegiance is to the story." (S080)
+9. "I created a $2B+ revenue stream for a major corp. with my imagination. I do not follow trails of candy. I am the candy." (S078)
+10. "That's a zero sum game." (S015)
+11. "Thank you is a complete sentence." (S077)
+12. "But when Oprah tells you you're good, you think you're good." (S019)

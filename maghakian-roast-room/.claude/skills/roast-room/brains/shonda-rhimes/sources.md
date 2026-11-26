@@ -1,88 +1,119 @@
 # Sources: Shonda Rhimes
 
-82 sources (72 web, 9 video, 1 pdf), 138,675 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+113 sources (110 web, 1 pdf, 2 local), 218,416 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
 
 Format: id | title | url | date | words
 
-- S001 | Shonda Rhimes’ Speech at Dartmouth 2014 Commencement (Transcript): The Singju Post | https://singjupost.com/shonda-rhimes-speech-at-dartmouth-2014-commencement-transcript/ | 2024-06-29 | 4429
-- S002 | Rhimes '91 to Graduates: 'Be a Doer, Not a Dreamer' / Dartmouth | https://home.dartmouth.edu/news/2014/06/rhimes-91-graduates-be-doer-not-dreamer | 2014-06-08 | 1512
-- S003 | Rhimes '91 addresses graduates at 2014 Commencement | https://www.thedartmouth.com/article/2014/06/rhimes-91-addresses-graduates-at-2014-commencement | 2014-06 | 1022
-- S004 | Dartmouth College Commencement Speech by Shonda Rhimes | https://www.alexanderjarvis.com/dartmouth-college-commencement-speech-by-shonda-rhimes/ | 2024-04-03 | 6106
-- S005 | Shonda Rhimes  '91 Delivers Dartmouth's Commencement Speech | https://www.youtube.com/watch?v=EuHQ6TH60_I | 2014-06-09 | 4207
-- S006 | Shonda Rhimes: My year of saying yes to everything - English-Video.net | https://english-video.net/v/en/2438 | undated | 5043
-- S007 | “You Are Not Alone” | https://medium.com/p/69c1a10515ab | 2015-03-16 | 1728
-- S008 | Grey's Anatomy at Paleyfest | https://www.youtube.com/watch?v=l57oAIzn-nU | 2017-08-28 | 413
-- S009 | Shonda Rhimes on How to Create Stories (and Products) People Want / Andreessen Horowitz | https://a16z.com/2019/12/17/shonda-rhimes-business-storytelling-serial-entrepreneurs-products-scaling/ | 2019-12-17 | 1790
-- S010 | Scaling Creativity with Marc Andreessen and Shonda Rimes | https://www.youtube.com/watch?v=IIMHfRZru5g | 2019-12-17 | 7659
-- S011 | 12 Life Lessons From Shonda Rhimes | https://www.neontommy.com/news/2015/11/life-lessons-shonda-rhimes-interview-la-times.html | 2015-11 | 732
-- S012 | Shonda Rhimes speaks about seizing opportunities - Daily Trojan | https://dailytrojan.com/?p=96071 | 2015-11-17 | 643
-- S013 | Adweek Presents: Shonda Rhimes on the Future of Television | https://www.adweek.com/brand-marketing/adweek-presents-shonda-rhimes-on-the-future-of-television/ | 2022-05-13 | 388
-- S014 | Mipcom: Shonda Rhimes on Her Recipe for Success, and How She Doesn’t Know ‘Any Dumb and Weak Women’ | https://www.yahoo.com/entertainment/mipcom-shonda-rhimes-her-recipe-success-she-doesn-100502432.html | 2016-10-18 | 572
-- S015 | Mipcom: Shonda Rhimes on Being a ‘Witch,’ and on Same-Sex Love Scenes on TV | https://www.yahoo.com/entertainment/mipcom-shonda-rhimes-being-witch-same-sex-love-163929267.html | 2016-10-19 | 636
-- S016 | MIPCOM: Shonda Rhimes Celebrated as Personality of the Year | https://www.hollywoodreporter.com/news/mipcom-shonda-rhimes-celebrated-as-939876 | 2016-10-19 | 821
-- S017 | Shonda Rhimes Talks Netflix Deal, Shondaland Digital Venture and Inclusion vs. Diversity | https://www.yahoo.com/entertainment/shonda-rhimes-talks-netflix-deal-012051466.html | 2017-10-05 | 703
-- S018 | Why Shonda Rhimes Left ABC for Netflix | https://www.youtube.com/watch?v=vTq262wXyD8 | 2021-07-28 | 532
-- S019 | Transcript: Shonda Rhimes on Call Her Daddy Podcast: Women Need To Brag More: The Singju Post | https://singjupost.com/transcript-shonda-rhimes-on-call-her-daddy-podcast-women-need-to-brag-more/ | 2025-10-20 | 18461
-- S020 | Shonda Rhimes on ‘Queen Charlotte,’ creating ‘Grey’s Anatomy’ | https://www.youtube.com/watch?v=J0fnvQklI-4 | 2023-05-07 | 1498
-- S021 | Shonda Rhimes Extended Interview / The Jennifer Hudson Show | https://www.youtube.com/watch?v=xBUG4f3OzFg | 2024-05-25 | 1755
-- S022 | Shonda Rhimes on the Future of Shondaland | https://www.youtube.com/watch?v=HZ4I3ORDZq8 | 2021-11-03 | 1565
-- S023 | Shonda Rhimes ('Queen Charlotte' creator): 'I wanted to tell a story about complicated love' | https://www.youtube.com/watch?v=D7dFVTqJw3U | 2023-05-05 | 3199
-- S024 | Shonda Rhimes on Why She Doesn't Watch TV / DealBook Summit 2023 | https://www.youtube.com/watch?v=2lellpn1ZWw | 2023-11-30 | 4558
-- S026 | Shonda Rhimes / Maximum Fun | https://maximumfun.org/episodes/bullseye-with-jesse-thorn/shonda-rhimes/ | 2023-05-09 | 563
-- S027 | Shonda Rhimes / Maximum Fun | https://maximumfun.org/episodes/bullseye-with-jesse-thorn/shonda-rhimes-2/ | 2024-06-04 | 514
-- S028 | Shonda Rhimes / Maximum Fun | https://maximumfun.org/episodes/bullseye-with-jesse-thorn/shonda-rhimes-3/ | 2026-02-06 | 481
-- S029 | bullseye ep 5 9 23 final | https://maximumfun.org/wp-content/uploads/2023/05/Bullseye-Ep.-5.9.23_Final.pdf | 2023 | 8458
-- S030 | For A Year, Shonda Rhimes Said 'Yes' To All The Things That Scared Her | https://www.npr.org/transcripts/455340952 | 2015-11-09 | 1725
-- S031 | Shonda Rhimes : Bullseye with Jesse Thorn | https://www.npr.org/2023/05/08/1174843628/shonda-rhimes | 2023-05-09 | 364
-- S032 | Shonda Rhimes : Bullseye with Jesse Thorn | https://www.npr.org/2024/05/28/1197959133/shonda-rhimes | 2024-06-04 | 329
-- S033 | Shonda Rhimes : Bullseye with Jesse Thorn | https://www.npr.org/2026/02/06/nx-s1-5702729/shonda-rhimes | 2026-02-06 | 275
-- S034 | Shonda Rhimes used to feel a disconnect between her and her characters | https://www.apr.org/2025-10-29/shonda-rhimes-used-to-feel-a-disconnect-between-her-and-her-characters | 2025-10-29 | 888
-- S035 | BUZZ Interviews: From Grey’s to Bridgerton: Shonda Rhimes Celebrates 20 Years of TV That Changed Everything - The Buzz - BuzzWorthy Radio | https://buzzworthyradiocast.com/buzz-interviews-from-greys-to-bridgerton-shonda-rhimes-celebrates-20-years-of-tv-that-changed-everything/ | 2025-05-11 | 436
-- S037 | Shonda Rhimes on raising the next generation of TV producers | https://time.com/collection-post/4081997/shonda-rhimes-viola-davis-scandal-kerry-washington | 2015-10-22 | 270
-- S038 | Shonda Rhimes Talks Her ‘Year of Yes’: “No Regrets” | https://www.hollywoodreporter.com/news/general-news/shonda-rhimes-talks-her-year-840980/ | 2015-11-17 | 930
-- S039 | Shonda Rhimes Recounts How A Disneyland Ticket Helped Push Her To Leave ABC | https://ca.news.yahoo.com/shonda-rhimes-disney-abc-netflix-233437442.html | 2020-10-22 | 604
-- S040 | Shonda Rhimes Plans to Return to Her TV Roots: She Just Hasn’t Told Netflix Yet | https://uk.news.yahoo.com/shonda-rhimes-plans-return-her-133000904.html | 2024-06-13 | 3302
-- S041 | Shonda Rhimes Opens Up About Leaving ABC: 'I Felt Like I Was Dying' | https://news.yahoo.com/shonda-rhimes-opens-leaving-abc-183104416.html | 2020-10-21 | 586
-- S042 | Shonda Rhimes Ascends the Throne: TV’s Most Powerful Showrunner on the Future of ‘Bridgerton’ | https://uk.news.yahoo.com/shonda-rhimes-ascends-throne-tv-150000409.html | 2024-04-29 | 2200
-- S043 | Shonda Rhimes on Oprah, Netflix and the ‘Grey’s Anatomy’ Incident That Nearly Ended It All | https://www.hollywoodreporter.com/tv/tv-features/shondaland-20-years-shonda-rhimes-betsy-beers-interview-1236166638/ | 2025-03-19 | 2784
-- S044 | Shonda Rhimes Speaks to the Moment | https://www.wmagazine.com/culture/shonda-rhimes-interview-2022 | 2024-02-20 | 2455
-- S045 | How Shonda Rhimes is building her next empire | https://gulfnews.com/entertainment/tv/how-shonda-rhimes-is-building-her-next-empire-1.2255268 | 2018-07-22 | 1577
-- S046 | Shonda Rhimes: I Know When 'Scandal' Will End | https://www.etonline.com/tv/140493_Shonda_Rhimes_Says_She_Knows_When_Scndal_Will_End | 2013-11-07 | 334
-- S047 | 5 Things We Learned From ShondaLand | https://www.npr.org/2015/08/05/429637385/5-things-we-learned-from-shondaland | 2015-08-05 | 1361
-- S048 | Shonda Rhimes Says She's Done Talking About Diversity: 'This Is Not the Jim Crow South' (Video) | https://www.thewrap.com/shonda-rhimes-says-shes-done-talking-about-diversity-this-is-not-the-jim-crow-south/ | 2015-04-13 | 601
-- S049 | Shonda Rhimes Opens Up About Overcoming Shyness, Weight Loss and Her Journey to 'Year of Yes' | https://www.goodmorningamerica.com/culture/story/shonda-rhimes-opens-overcoming-shyness-weight-loss-journey-35033049 | 2015-11-09 | 751
-- S050 | Exclusive: Shonda Rhimes Reveals Her Biggest Early Career Mistake | https://www.bustle.com/entertainment/shonda-rhimes-regrets-golf-year-of-yes-10th-anniversary-interview | 2025-10-17 | 1611
-- S051 | Shonda Rhimes on Netflix deal, 'Inventing Anna' and more: 'I feel very fulfilled' | https://thegrio.com/2021/11/04/shonda-rhimes-on-netflix-deal-inventing-anna-and-more-i-feel-very-fulfilled | 2021-11-04 | 761
-- S052 | Shonda Rhimes On The Differences Between Working On ABC Versus Netflix; Reveals If Fans Affect Storytelling | https://ca.news.yahoo.com/shonda-rhimes-differences-between-working-030909387.html | 2023-05-14 | 565
-- S053 | Shonda Rhimes on her Netflix deal, upcoming shows: ‘We’re building communities’ | https://news.yahoo.com/shonda-rhimes-her-netflix-deal-000506452.html | 2022-01-06 | 622
-- S054 | Inside Shonda Rhimes’ First Netflix Series ‘Bridgerton’: “We’re Not Making Your Grandmother’s Period Piece” | https://www.hollywoodreporter.com/live-feed/inside-shonda-rhimes-first-netflix-series-bridgerton-were-not-making-your-grandmothers-period-piece | 2020-10-21 | 668
-- S055 | Shonda Rhimes on Bridgerton Season 2 and Whether It’s Time to End Grey’s Anatomy | https://www.adweek.com/?p=1374845 | 2021-12-14 | 381
-- S056 | ‘Bridgerton’ Is a Horny, Bingeable Delight - The Ringer | https://www.theringer.com/2020/12/23/tv/bridgerton-review-netflix-series-shonda-rhimes | 2020-12-23 | 1384
-- S057 | ‘Inventing Anna’: Shonda Rhimes on Rooting for and Keeping Distance from Anna Delvey | https://www.hollywoodreporter.com/tv/tv-features/inventing-anna-shonda-rhimes-1235087963/ | 2022-02-11 | 2668
-- S058 | ‘Inventing Anna’ Showrunner Shonda Rhimes on Why She Never Wanted to Meet the Real Anna Delvey: “She Has a Lot of Growing Up To Do” | https://uk.news.yahoo.com/inventing-anna-showrunner-shonda-rhimes-193000080.html | 2022-08-15 | 1725
-- S059 | With ‘Inventing Anna,’ Shonda Rhimes Embraces the Mystery of Anna Delvey | https://www.netflix.com/tudum/articles/shonda-rhimes-new-show-inventing-anna | 2022-02-11 | 2004
-- S060 | Shonda Rhimes explains why she views Bridgerton as a ‘workplace drama’: and when it will end - AOL | https://www.aol.com/shonda-rhimes-explains-why-she-061527862.html | 2025-08-23 | 666
-- S061 | 'Queen Charlotte' Cast, Shonda Rhimes on Not Shying Away From Race | https://www.etonline.com/queen-charlotte-shonda-rhimes-cast-on-bridgerton-prequel-not-shying-away-from-race-exclusive-203832 | 2023-05-03 | 1075
-- S062 | Shonda Rhimes reveals key differences between Queen Charlotte and Bridgerton | https://www.hellomagazine.com/film/491801/shonda-rhimes-reveals-key-differences-between-queen-charlotte-and-bridgerton | 2023-05-04 | 768
-- S063 | An empowering chat with Shonda Rhimes | https://philstar.com/entertainment/2023/04/22/2260661/empowering-chat-shonda-rhimes | 2023-04-22 | 2106
-- S064 | Shonda Rhimes Gets Real About | https://www.cinemablend.com/streaming-news/shonda-rhimes-gets-real-woke-bridgerton-backlash-disdain-romance-novels | 2025-08-22 | 763
-- S065 | Shonda Rhimes was 'shaking the entire time' while pitching Grey's Anatomy | https://www.rova.nz/articles/shonda-rhimes-was-shaking-the-entire-time-while-pitching-greys-anatomy | 2026-03-10 | 323
-- S066 | "TV writing is hard work" - Shonda Rhimes encourages aspiring writers to "Find your hum" while sharing advice on writing | https://www.soapcentral.com/entertainment/news-tv-writing-hard-work-shonda-rhimes-encourages-aspiring-writers-find-hum-sharing-advice-writing | 2025-03-24 | 1119
-- S067 | Shonda Rhimes shares her thoughts on the 20th Anniversary of Grey's Anatomy | https://www.soapcentral.com/shows/news-shonda-rhimes-shares-thoughts-20th-anniversary-grey-anatomy | 2025-03-22 | 920
-- S068 | Shonda Rhimes Renews Netflix Overall Deal for 5 Years | https://www.thewrap.com/media-platforms/tv/shonda-rhimes-renews-overall-deal-netflix/ | 2026-08-25 | 453
-- S069 | Shonda Rhimes and Betsy Beers reflect on 20 years of Shondaland | https://www.goodmorningamerica.com/culture/story/shonda-rhimes-betsy-beers-reflect-20-years-shondaland-123359543 | 2025-07-01 | 822
-- S070 | Shonda Rimes Launches Shondaland Website | https://blackamericaweb.com/2017/09/18/shonda-rimes-launches-shondaland-website/ | 2017-09-18 | 443
-- S071 | Shonda Rhimes: 'Grey's' Ends When 'We've Done What We Needed to Do' | https://etonline.com/shonda-rhimes-greys-anatomy-will-end-when-weve-done-what-we-needed-to-do-exclusive-203859 | 2023-05-04 | 596
-- S072 | Rhimes: Anyone Who Says They Can ‘Do It All’ Is Lying (TIME) / Dartmouth | https://home.dartmouth.edu/news/2014/06/rhimes-anyone-who-says-they-can-do-it-all-lying-time | 2014-06-10 | 256
-- S073 | Shonda Rhimes ’91 Delivers a Lesson-Packed Commencement Address / Dartmouth | https://home.dartmouth.edu/news/2014/06/shonda-rhimes-91-delivers-lesson-packed-commencement-address | 2014-06-09 | 4278
-- S074 | ReThinking: Shonda Rhimes on saying yes to what scares you / Worklife with Molly Graham / Podwise | https://podwise.ai/episodes/3711216 | undated | 268
-- S075 | Shonda Rhimes Shows Support for WGA Strike, Says Writers Being Unable to Make a Livable Wage “Is a Problem” | https://uk.news.yahoo.com/shonda-rhimes-shows-support-wga-031802062.html | 2023-05-04 | 1132
-- S076 | Shonda Rhimes Offers Three Key Life Lessons to Dartmouth Graduates | https://www.blackenterprise.com/shonda-rhimes-dartmouth-speech/ | 2014-06-12 | 435
-- S077 | Shonda Rhimes says she would be ‘afraid’ if she were starting her writing career today | https://www.goldderby.com/article/2024/shonda-rhimes-interview/ | 2024-04-29 | 1289
-- S078 | Shonda Rhimes: “I'm never going to write a show that doesn't include me” | https://www.ibc.org/production/Interviews/shonda-rhimes-i-m-never-going-to-write-a-show-that-doesn-t-include-me/22221 | 2025-09-01 | 625
-- S079 | The Only One: A Talk With Shonda Rhimes | https://www.npr.org/2014/09/22/350563549/the-only-one-a-talk-with-shonda-rhimes | 2014-09-22 | 3161
-- S080 | Bridgerton producer says 'woke' claims are 'so cute' | https://www.rte.ie/entertainment/2025/0820/1529341-bridgerton-producer-says-woke-claims-are-so-cute | 2025-08-20 | 527
-- S081 | Shonda Rhimes Reveals She Almost Called Off ‘Grey’s Anatomy’ | https://www.thedailybeast.com/obsessed/shonda-rhimes-reveals-she-almost-called-off-greys-anatomy | 2025-09-14 | 486
-- S082 | Scandal’s Shonda Rhimes Inspires Dartmouth Graduates: ‘Be a Doer, Not a Dreamer’: The Root | https://www.theroot.com/scandal-s-shonda-rhimes-inspires-dartmouth-graduates-1790876004 | 2014-06-11 | 905
-- S083 | Shonda Rhimes Awarded Inaugural Fellowship at Edinburgh TV Festival | https://www.thewrap.com/shonda-rhimes-edinburgh-tv-festival-fellowship/ | 2025-06-23 | 442
-- S084 | Shonda Rhimes says she would be ‘afraid’ if she were starting her writing career today | https://www.yahoo.com/entertainment/shonda-rhimes-says-she-afraid-181526557.html | 2024-04-29 | 668
+- S001 | Shonda Rhimes’ Speech at Dartmouth 2014 Commencement (Transcript): The Singju Post | https://singjupost.com/shonda-rhimes-speech-at-dartmouth-2014-commencement-transcript/ | 2014-06-08 | 4416
+- S002 | Rhimes '91 to Graduates: 'Be a Doer, Not a Dreamer' / Dartmouth | https://home.dartmouth.edu/news/2014/06/rhimes-91-graduates-be-doer-not-dreamer | 2014-06-08 | 1519
+- S003 | Rhimes '91 addresses graduates at 2014 Commencement | https://www.thedartmouth.com/article/2014/06/rhimes-91-addresses-graduates-at-2014-commencement | 2014-06 | 919
+- S004 | Dartmouth College Commencement Speech by Shonda Rhimes | https://www.alexanderjarvis.com/dartmouth-college-commencement-speech-by-shonda-rhimes/ | 2014-06-08 | 6106
+- S005 | Shonda Rhimes: My year of saying yes to everything - English-Video.net | https://english-video.net/v/en/2438 | 2016-02 | 5043
+- S006 | “You Are Not Alone” | https://medium.com/p/69c1a10515ab | 2015-03-16 | 1728
+- S007 | Shonda Rhimes on How to Create Stories (and Products) People Want / Andreessen Horowitz | https://a16z.com/2019/12/17/shonda-rhimes-business-storytelling-serial-entrepreneurs-products-scaling/ | 2019-12-17 | 1784
+- S008 | 12 Life Lessons From Shonda Rhimes | https://www.neontommy.com/news/2015/11/life-lessons-shonda-rhimes-interview-la-times.html | 2015-11 | 732
+- S009 | Shonda Rhimes speaks about seizing opportunities - Daily Trojan | https://dailytrojan.com/?p=96071 | 2015-11-17 | 643
+- S010 | Adweek Presents: Shonda Rhimes on the Future of Television | https://www.adweek.com/brand-marketing/adweek-presents-shonda-rhimes-on-the-future-of-television/ | 2022-05-13 | 370
+- S011 | Mipcom: Shonda Rhimes on Her Recipe for Success, and How She Doesn’t Know ‘Any Dumb and Weak Women’ | https://www.yahoo.com/entertainment/mipcom-shonda-rhimes-her-recipe-success-she-doesn-100502432.html | 2016-10-18 | 572
+- S012 | Mipcom: Shonda Rhimes on Being a ‘Witch,’ and on Same-Sex Love Scenes on TV | https://www.yahoo.com/entertainment/mipcom-shonda-rhimes-being-witch-same-sex-love-163929267.html | 2016-10-19 | 636
+- S013 | MIPCOM: Shonda Rhimes Celebrated as Personality of the Year | https://www.hollywoodreporter.com/news/mipcom-shonda-rhimes-celebrated-as-939876 | 2016-10-19 | 817
+- S014 | Shonda Rhimes Talks Netflix Deal, Shondaland Digital Venture and Inclusion vs. Diversity | https://www.yahoo.com/entertainment/shonda-rhimes-talks-netflix-deal-012051466.html | 2017-10-05 | 703
+- S015 | Transcript: Shonda Rhimes on Call Her Daddy Podcast: Women Need To Brag More: The Singju Post | https://singjupost.com/transcript-shonda-rhimes-on-call-her-daddy-podcast-women-need-to-brag-more/ | 2025-10-08 | 18461
+- S016 | Shonda Rhimes / Maximum Fun | https://maximumfun.org/episodes/bullseye-with-jesse-thorn/shonda-rhimes/ | 2023-05-09 | 542
+- S017 | Shonda Rhimes / Maximum Fun | https://maximumfun.org/episodes/bullseye-with-jesse-thorn/shonda-rhimes-2/ | 2024-06-04 | 493
+- S018 | Shonda Rhimes / Maximum Fun | https://maximumfun.org/episodes/bullseye-with-jesse-thorn/shonda-rhimes-3/ | 2026-02-06 | 460
+- S019 | bullseye ep 5 9 23 final | https://maximumfun.org/wp-content/uploads/2023/05/Bullseye-Ep.-5.9.23_Final.pdf | 2023-05-09 | 8458
+- S020 | For A Year, Shonda Rhimes Said 'Yes' To All The Things That Scared Her | https://www.npr.org/transcripts/455340952 | 2015-11-09 | 1725
+- S021 | Shonda Rhimes : Bullseye with Jesse Thorn | https://www.npr.org/2023/05/08/1174843628/shonda-rhimes | 2023-05-09 | 364
+- S022 | Shonda Rhimes : Bullseye with Jesse Thorn | https://www.npr.org/2024/05/28/1197959133/shonda-rhimes | 2024-06-04 | 329
+- S023 | Shonda Rhimes : Bullseye with Jesse Thorn | https://www.npr.org/2026/02/06/nx-s1-5702729/shonda-rhimes | 2026-02-06 | 275
+- S024 | Shonda Rhimes used to feel a disconnect between her and her characters | https://www.apr.org/2025-10-29/shonda-rhimes-used-to-feel-a-disconnect-between-her-and-her-characters | 2025-10-29 | 888
+- S025 | BUZZ Interviews: From Grey’s to Bridgerton: Shonda Rhimes Celebrates 20 Years of TV That Changed Everything - The Buzz - BuzzWorthy Radio | https://buzzworthyradiocast.com/buzz-interviews-from-greys-to-bridgerton-shonda-rhimes-celebrates-20-years-of-tv-that-changed-everything/ | 2025-05-11 | 1549
+- S026 | 10 Questions With Shonda Rhimes | https://time.com/4101193/10-questions-with-shonda-rhimes | 2015-11-05 | 603
+- S027 | Shonda Rhimes on raising the next generation of TV producers | https://time.com/collection-post/4081997/shonda-rhimes-viola-davis-scandal-kerry-washington | 2015-10-22 | 270
+- S028 | Shonda Rhimes Talks Her ‘Year of Yes’: “No Regrets” | https://www.hollywoodreporter.com/news/general-news/shonda-rhimes-talks-her-year-840980/ | 2015-11-17 | 928
+- S029 | Shonda Rhimes Recounts How A Disneyland Ticket Helped Push Her To Leave ABC | https://ca.news.yahoo.com/shonda-rhimes-disney-abc-netflix-233437442.html | 2020-10-22 | 604
+- S030 | Shonda Rhimes Plans to Return to Her TV Roots: She Just Hasn’t Told Netflix Yet | https://uk.news.yahoo.com/shonda-rhimes-plans-return-her-133000904.html | 2024-06-13 | 3302
+- S031 | Shonda Rhimes Opens Up About Leaving ABC: 'I Felt Like I Was Dying' | https://news.yahoo.com/shonda-rhimes-opens-leaving-abc-183104416.html | 2020-10-21 | 586
+- S032 | Shonda Rhimes Ascends the Throne: TV’s Most Powerful Showrunner on the Future of ‘Bridgerton’ | https://uk.news.yahoo.com/shonda-rhimes-ascends-throne-tv-150000409.html | 2024-04-29 | 2200
+- S033 | Shonda Rhimes on Oprah, Netflix and the ‘Grey’s Anatomy’ Incident That Nearly Ended It All | https://www.hollywoodreporter.com/tv/tv-features/shondaland-20-years-shonda-rhimes-betsy-beers-interview-1236166638/ | 2025-03-19 | 2780
+- S034 | Shonda Rhimes Speaks to the Moment | https://www.wmagazine.com/culture/shonda-rhimes-interview-2022 | 2022-02-07 | 2455
+- S035 | How Shonda Rhimes is building her next empire | https://gulfnews.com/entertainment/tv/how-shonda-rhimes-is-building-her-next-empire-1.2255268 | 2018-07-22 | 1577
+- S036 | Shonda Rhimes: I Know When 'Scandal' Will End | https://www.etonline.com/tv/140493_Shonda_Rhimes_Says_She_Knows_When_Scndal_Will_End | 2013-11-07 | 334
+- S037 | 5 Things We Learned From ShondaLand | https://www.npr.org/2015/08/05/429637385/5-things-we-learned-from-shondaland | 2015-08-05 | 1361
+- S038 | Shonda Rhimes Says She's Done Talking About Diversity: 'This Is Not the Jim Crow South' (Video) | https://www.thewrap.com/shonda-rhimes-says-shes-done-talking-about-diversity-this-is-not-the-jim-crow-south/ | 2015-04-13 | 601
+- S039 | Shonda Rhimes Opens Up About Overcoming Shyness, Weight Loss and Her Journey to 'Year of Yes' | https://www.goodmorningamerica.com/culture/story/shonda-rhimes-opens-overcoming-shyness-weight-loss-journey-35033049 | 2015-11-09 | 749
+- S040 | Exclusive: Shonda Rhimes Reveals Her Biggest Early Career Mistake | https://www.bustle.com/entertainment/shonda-rhimes-regrets-golf-year-of-yes-10th-anniversary-interview | 2025-10-17 | 1611
+- S041 | Shonda Rhimes on Netflix deal, 'Inventing Anna' and more: 'I feel very fulfilled' | https://thegrio.com/2021/11/04/shonda-rhimes-on-netflix-deal-inventing-anna-and-more-i-feel-very-fulfilled | 2021-11-04 | 737
+- S042 | Shonda Rhimes On The Differences Between Working On ABC Versus Netflix; Reveals If Fans Affect Storytelling | https://ca.news.yahoo.com/shonda-rhimes-differences-between-working-030909387.html | 2023-05-14 | 565
+- S043 | Shonda Rhimes on her Netflix deal, upcoming shows: ‘We’re building communities’ | https://news.yahoo.com/shonda-rhimes-her-netflix-deal-000506452.html | 2022-01-06 | 622
+- S044 | Inside Shonda Rhimes’ First Netflix Series ‘Bridgerton’: “We’re Not Making Your Grandmother’s Period Piece” | https://www.hollywoodreporter.com/live-feed/inside-shonda-rhimes-first-netflix-series-bridgerton-were-not-making-your-grandmothers-period-piece | 2020-10-21 | 664
+- S045 | Shonda Rhimes on Bridgerton Season 2 and Whether It’s Time to End Grey’s Anatomy | https://www.adweek.com/?p=1374845 | 2021-12-14 | 374
+- S046 | ‘Bridgerton’ Is a Horny, Bingeable Delight - The Ringer | https://www.theringer.com/2020/12/23/tv/bridgerton-review-netflix-series-shonda-rhimes | 2020-12-23 | 1384
+- S047 | ‘Inventing Anna’: Shonda Rhimes on Rooting for and Keeping Distance from Anna Delvey | https://www.hollywoodreporter.com/tv/tv-features/inventing-anna-shonda-rhimes-1235087963/ | 2022-02-11 | 2669
+- S048 | ‘Inventing Anna’ Showrunner Shonda Rhimes on Why She Never Wanted to Meet the Real Anna Delvey: “She Has a Lot of Growing Up To Do” | https://uk.news.yahoo.com/inventing-anna-showrunner-shonda-rhimes-193000080.html | 2022-08-15 | 1725
+- S049 | With ‘Inventing Anna,’ Shonda Rhimes Embraces the Mystery of Anna Delvey | https://www.netflix.com/tudum/articles/shonda-rhimes-new-show-inventing-anna | 2022-02-11 | 2003
+- S050 | Shonda Rhimes explains why she views Bridgerton as a ‘workplace drama’: and when it will end - AOL | https://www.aol.com/shonda-rhimes-explains-why-she-061527862.html | 2025-08-23 | 665
+- S051 | 'Queen Charlotte' Cast, Shonda Rhimes on Not Shying Away From Race | https://www.etonline.com/queen-charlotte-shonda-rhimes-cast-on-bridgerton-prequel-not-shying-away-from-race-exclusive-203832 | 2023-05-03 | 1075
+- S052 | Shonda Rhimes reveals key differences between Queen Charlotte and Bridgerton | https://www.hellomagazine.com/film/491801/shonda-rhimes-reveals-key-differences-between-queen-charlotte-and-bridgerton | 2023-05-04 | 760
+- S053 | An empowering chat with Shonda Rhimes | https://philstar.com/entertainment/2023/04/22/2260661/empowering-chat-shonda-rhimes | 2023-04-22 | 2061
+- S054 | Shonda Rhimes Gets Real About | https://www.cinemablend.com/streaming-news/shonda-rhimes-gets-real-woke-bridgerton-backlash-disdain-romance-novels | 2025-08-22 | 766
+- S055 | Shonda Rhimes was 'shaking the entire time' while pitching Grey's Anatomy | https://www.rova.nz/articles/shonda-rhimes-was-shaking-the-entire-time-while-pitching-greys-anatomy | 2026-03-10 | 323
+- S056 | Shonda Rhimes shares her thoughts on the 20th Anniversary of Grey's Anatomy | https://www.soapcentral.com/shows/news-shonda-rhimes-shares-thoughts-20th-anniversary-grey-anatomy | 2025-03-22 | 920
+- S057 | Shonda Rhimes Renews Netflix Overall Deal for 5 Years | https://www.thewrap.com/media-platforms/tv/shonda-rhimes-renews-overall-deal-netflix/ | 2026-08-25 | 453
+- S058 | Shonda Rhimes and Betsy Beers reflect on 20 years of Shondaland | https://www.goodmorningamerica.com/culture/story/shonda-rhimes-betsy-beers-reflect-20-years-shondaland-123359543 | 2025-07-01 | 820
+- S059 | Shonda Rimes Launches Shondaland Website | https://blackamericaweb.com/2017/09/18/shonda-rimes-launches-shondaland-website/ | 2017-09-18 | 424
+- S060 | Shonda Rhimes: 'Grey's' Ends When 'We've Done What We Needed to Do' | https://etonline.com/shonda-rhimes-greys-anatomy-will-end-when-weve-done-what-we-needed-to-do-exclusive-203859 | 2023-05-04 | 596
+- S061 | Rhimes: Anyone Who Says They Can ‘Do It All’ Is Lying (TIME) / Dartmouth | https://home.dartmouth.edu/news/2014/06/rhimes-anyone-who-says-they-can-do-it-all-lying-time | 2014-06-10 | 257
+- S062 | Shonda Rhimes ’91 Delivers a Lesson-Packed Commencement Address / Dartmouth | https://home.dartmouth.edu/news/2014/06/shonda-rhimes-91-delivers-lesson-packed-commencement-address | 2014-06-09 | 4279
+- S063 | Shonda Rhimes Shows Support for WGA Strike, Says Writers Being Unable to Make a Livable Wage “Is a Problem” | https://uk.news.yahoo.com/shonda-rhimes-shows-support-wga-031802062.html | 2023-05-04 | 1132
+- S064 | Shonda Rhimes Offers Three Key Life Lessons to Dartmouth Graduates | https://www.blackenterprise.com/shonda-rhimes-dartmouth-speech/ | 2014-06-12 | 435
+- S065 | Shonda Rhimes says she would be ‘afraid’ if she were starting her writing career today | https://www.goldderby.com/article/2024/shonda-rhimes-interview/ | 2024-04-29 | 1285
+- S066 | Shonda Rhimes: “I'm never going to write a show that doesn't include me” | https://www.ibc.org/production/Interviews/shonda-rhimes-i-m-never-going-to-write-a-show-that-doesn-t-include-me/22221 | 2025-09-01 | 613
+- S067 | The Only One: A Talk With Shonda Rhimes | https://www.npr.org/2014/09/22/350563549/the-only-one-a-talk-with-shonda-rhimes | 2014-09-22 | 3161
+- S068 | Bridgerton producer says 'woke' claims are 'so cute' | https://www.rte.ie/entertainment/2025/0820/1529341-bridgerton-producer-says-woke-claims-are-so-cute | 2025-08-20 | 527
+- S069 | Shonda Rhimes Reveals She Almost Called Off ‘Grey’s Anatomy’ | https://www.thedailybeast.com/obsessed/shonda-rhimes-reveals-she-almost-called-off-greys-anatomy | 2025-09-14 | 544
+- S070 | Scandal’s Shonda Rhimes Inspires Dartmouth Graduates: ‘Be a Doer, Not a Dreamer’: The Root | https://www.theroot.com/scandal-s-shonda-rhimes-inspires-dartmouth-graduates-1790876004 | 2014-06-11 | 921
+- S071 | Shonda Rhimes Awarded Inaugural Fellowship at Edinburgh TV Festival | https://www.thewrap.com/shonda-rhimes-edinburgh-tv-festival-fellowship/ | 2025-06-23 | 442
+- S072 | Shonda Rhimes says she would be ‘afraid’ if she were starting her writing career today | https://www.yahoo.com/entertainment/shonda-rhimes-says-she-afraid-181526557.html | 2024-04-29 | 668
+- S073 | Shonda Rhimes On Running 3 Hit Shows And The Limits Of Network TV | https://www.npr.org/transcripts/455594842 | 2015-11-11 | 7453
+- S074 | Shonda Rhimes on why “it’s never been important to me what other people think” : Wild Card with Rachel Martin | https://www.npr.org/transcripts/nx-s1-5582640 | 2025-10-23 | 6472
+- S075 | Shonda Rhimes | https://podscripts.co/podcasts/wild-card-with-rachel-martin/shonda-rhimes | 2025-10-23 | 5906
+- S076 | Shonda Rhimes (May 2023) | https://podscripts.co/podcasts/sunday-sitdown-with-willie-geist/shonda-rhimes-may-2023 | 2023-05-07 | 8450
+- S077 | The Secret to Stopping Fear & Creating the Future You Want with Shonda Rhimes | https://podscripts.co/podcasts/the-mel-robbins-podcast/the-secret-to-stopping-fear-creating-the-future-you-want-with-shonda-rhimes | 2025-11-10 | 17093
+- S078 | Shonda Rhimes Is Ready to “Own Her S***”: The Game-Changing Showrunner on Leaving ABC, “Culture Shock” at Netflix and Overcoming Her Fears | https://www.hollywoodreporter.com/features/shonda-rhimes-is-ready-to-own-her-s-the-game-changing-showrunner-on-leaving-abc-culture-shock-at-netflix-and-overcoming-her-fears | 2020-10-21 | 4097
+- S079 | Shonda Rhimes Plans to Return to Her TV Roots: She Just Hasn’t Told Netflix Yet | https://www.hollywoodreporter.com/tv/tv-features/shonda-rhimes-interview-career-greys-anatomy-bridgerton-1235920071/ | 2024-06-13 | 3363
+- S080 | Shonda Rhimes dishes on her best episodes, biggest battles, and the spinoff ideas that never happened - AOL | https://www.aol.com/shonda-rhimes-dishes-her-best-160000444.html | 2025-03-27 | 5548
+- S081 | Questions for Shonda Rhimes / Fortune | https://fortune.com/2013/10/10/questions-for-shonda-rhimes/ | 2013-10-10 | 973
+- S082 | So, 'Scandal' Writers, How Did You Write That Awful Wrist Thing? | https://www.npr.org/2014/04/18/304530711/so-scandal-writers-how-did-you-write-that-awful-wrist-thing | 2014-04-18 | 395
+- S083 | Shonda Rhimes Just Delivered a Truly Powerful Speech About Women of Color in Hollywood | https://www.mic.com/articles/106244/read-shonda-rhimes-powerful-speech-about-women-of-color-in-hollywood | 2014-12-11 | 1629
+- S084 | Shonda Rhimes Talks to ‘Elle’ About Feminism, Writing and Police Brutality | https://www.hollywoodreporter.com/news/shonda-rhimes-talks-elle-feminism-827109 | 2015-09-24 | 624
+- S085 | Shonda Rhimes talks move from network TV to Netflix | https://techcrunch.com/2017/11/28/shonda-rhimes-talks-move-from-network-tv-to-netflix | 2017-11-28 | 628
+- S086 | Shonda Rhimes On Netflix Move, Inclusion & Knowing Your Value | https://www.yahoo.com/entertainment/shonda-rhimes-netflix-move-inclusion-021650084.html | 2017-10-05 | 567
+- S087 | 19 Things We Learned Watching Shonda Rhimes’ TV Writing Masterclass | https://www.yahoo.com/entertainment/19-things-learned-watching-shonda-rhimes-tv-writing-181351795.html | 2017-04-19 | 1410
+- S088 | Drama Showrunner Roundtable: 6 Top TV Bosses on Fighting for Diversity, Getting Pigeonholed and Casting “A: holes” | https://www.hollywoodreporter.com/features/drama-showrunner-roundtable-6-top-899100 | 2016-06-06 | 1330
+- S089 | Emmy Roundtable: Showrunners | https://www.hollywoodreporter.com/business/business-news/emmy-roundtable-showrunners-85174/ | 2009-06-09 | 2199
+- S090 | This is what a philanthropist looks like - Ford Foundation | https://www.fordfoundation.org/news-and-stories/big-ideas/the-future-of-philanthropy/ideas/this-is-what-a-philanthropist-looks-like/ | 2023-07-05 | 2160
+- S091 | Shonda Rhimes Describes Her Grand Netflix Ambitions | https://www.wral.com/archive/17712745/ | 2018-07-21 | 1963
+- S092 | Grey's Anatomy: Why Shonda Rhimes has taken a hands-off approach | https://www.yahoo.com/entertainment/grey-apos-anatomy-why-shonda-170037089.html | 2018-09-24 | 762
+- S093 | Reclaim Your Happiness! WATCH Shonda Rhimes’ TED Talk on Her “Year of Yes” | https://www.bellanaija.com/?p=724860 | 2016-02 | 3312
+- S094 | Shonda Rhimes Explains Why ‘Bridgerton’ Season 3 Took So Long: and Whether ‘Queen Charlotte’ Might Return | https://au.variety.com/?p=13910 | 2024-05-12 | 1223
+- S095 | Shonda Rhimes answers our burning Queen Charlotte questions | https://ca.news.yahoo.com/shonda-rhimes-answers-burning-queen-160000301.html | 2023-05-07 | 1534
+- S096 | Will ‘Queen Charlotte’ Have a ‘Happy Ending’? Let Shonda Rhimes Tell You | https://www.netflix.com/tudum/articles/shonda-rhimes-queen-charlotte-video | 2023-02-03 | 1136
+- S097 | Shonda Rhimes shocker: Queen Charlotte is the character she enjoys writing most | https://avclub.com/queen-charlotte-netflix-shonda-rhimes-likes-writing-bes-1850362233 | 2023-04-21 | 475
+- S098 | Shonda Rhimes Reveals Why She Had to Miss Sandra Oh's Last Day on “Grey's Anatomy: ”'You Tear Yourself Apart' - AOL | https://www.aol.com/articles/shonda-rhimes-reveals-why-she-010500669.html | 2025-10-18 | 711
+- S099 | 'Grey's Anatomy' and 'Scandal' creator Shonda Rhimes says being showrunner on 'Bridgerton' spinoff 'Queen Charlotte' was 'like coming home' | https://news.yahoo.com/greys-anatomy-scandal-creator-shonda-170319382.html | 2023-04-24 | 502
+- S100 | TED: Shonda Rhimes and Cyndi Stivers, The future of storytelling | https://www.ted.com/talks/shonda_rhimes_the_future_of_storytelling | 2017-04-24 | 4092
+- S101 | ReThinking with Adam Grant: Shonda Rhimes on saying yes to what scares you (transcript) | https://www.ted.com/podcasts/shonda-rhimes-on-saying-yes-to-what-scares-you-transcript | 2025-04-22 | 9165
+- S102 | Shonda Rhimes Knows Where This 'Scandal' Will End | https://www.npr.org/transcripts/243515839 | 2013-11-07 | 1582
+- S103 | How 'Scandal' Changed TV | https://www.npr.org/transcripts/603844696 | 2018-04-19 | 1004
+- S104 | ‘Scandal’ Series Finale: How Shonda Rhimes Left Her Mark on TV (and Politics) | https://www.hollywoodreporter.com/live-feed/scandal-series-finale-shonda-rhimes-interview-1103595 | 2018-04-18 | 2061
+- S105 | Shonda Rhimes Reflects On How | https://shadowandact.com/on-the-eve-of-scandals-finale-shonda-rhimes-reflects-on-the-shows-impact | 2018-04-20 | 357
+- S106 | Shonda Rhimes Is 'In Denial' About 'Scandal' Ending, Says There's 'Been a Lot of Tears' on Set (Exclusive) | https://etonline.com/shonda-rhimes-denial-about-scandal-ending-says-theres-been-lot-tears-set-exclusive-91229 | 2017-11-16 | 652
+- S107 | Shonda Rhimes Renews Netflix Overall Deal for Another Five Years | https://au.variety.com/?p=39712 | 2026-08-25 | 446
+- S108 | Shonda Rhimes Talks Strong Women, Weak Men and Setting an Example for Her Daughters | https://goodmorningamerica.com/news/story/shonda-rhimes-talks-strong-women-weak-men-setting-25582749 | 2014-09-18 | 751
+- S109 | The smartest question Shonda Rhimes ever asked / Fortune | https://fortune.com/2014/09/25/shonda-rhimes | 2014-09-25 | 716
+- S110 | 'Scandal' to end after 7th season, series creator Shonda Rhimes says | https://www.goodmorningamerica.com/culture/story/scandal-end-seventh-season-series-creator-shonda-rhimes-47445635 | 2017-05-16 | 491
+- S111 | Shonda Rhimes Says She Was “Sort Of Waiting” To Be Called Out During Strike For Netflix Deal “That Started People Moving Into Streaming” | https://ca.news.yahoo.com/shonda-rhimes-says-she-writer-233632724.html | 2023-11-29 | 615
+- S112 | Shonda Rhimes Says She Left ABC for Netflix After Being Refused a Free Disneyland Pass | https://ca.news.yahoo.com/shonda-rhimes-says-she-left-121858708.html | 2020-10-22 | 369
+- S113 | Bridgerton: Shonda Rhimes über ihren Kulturschock bei Netflix | https://www.serienjunkies.de/news/bridgerton-shonda-rhimes-kulturschock-netflix-104625.html | 2023-10-25 | 837
