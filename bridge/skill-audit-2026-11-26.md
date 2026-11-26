@@ -158,5 +158,30 @@ Tigran chose **option A**: film-crew got a short single-shot mode, and every pro
 - Two projects are missing from the portfolio lists: the brand list has 46 of 48 and the zavod filmography has 47.
 - Hashtag `#MaghakianSWA` → `#MaghakianScripts`?
 - The «Խաղալիք» carousel pack keeps its own show palette.
-- The director-desk description is 1,365 characters, over the limit (MED).
-- Not yet done: the MED and LOW items, the deletions, and the real evals.
+- Not yet done after section 7: LOW items, the deletions, and the real evals.
+
+## 7. MED pass, 2026-11-26 (Cloud): status
+
+**Done:**
+- **Calm wording:** banana-pro, cinema-worldbuilder, jackvsai, higgsfield-character-design, graphify, llm-council and content-zavod. Forced "Sound good?" rounds are now optional.
+- **Trigger lanes:** content-zavod (narrowed to multi-station runs), shortfilm, higgsfield character/shotlist, copywriting, seo-audit, mini-scenario (`/help`→`/ms-help`, `/export`→`/ms-export`), llm-council (studio decisions → Roast Room/BAB), director-desk (description 1,365 → 984 characters).
+- **Duplicates:** routing lines point to the canonical skill. The 9 higgsfield wrappers have real contracts.
+- **Facts:**
+  - Kling 4.0 lane in zavod;
+  - Seedance 2.5 up to 4K (verify live);
+  - Sora removed from the higgsfield pipeline;
+  - Mobile-Friendly Test → Lighthouse/PSI;
+  - banana-pro: mid-gray backdrop, notes on Nano Banana 2 and GPT Image 2.
+- **film-crew:** the 12 seed style cards are marked "seed, not source-checked" (refresh with film-style-researcher before client work). Default folder is `./film-crew/<slug>/`; run_routing.sh is bash.
+- **Maps:** skill-router lists all 29 skills; skill-library DAILY list regenerated.
+- **Memory quality:** auto-learn junk filter plus 7 negative evals (7/7 pass); consolidate-memory keeps whole sentences and has an opt-in `--summarize` mode (6/6 pass); media-memory hook JSON documented.
+- **New Mac:** `scripts/setup-new-mac.sh` (dry run by default, `--apply`), `scripts/NEW-MAC.md`, and new runners `scripts/trend-scout-run.sh` and `scripts/zavod-scout-run.sh`.
+- **Sync guard:** `sync-from-laptop.sh` skips a missing or empty `~/.memory`, library or canon instead of wiping the repo copy.
+- **Run logs** under `.claude/skills/` are untracked and gitignored, so scheduled runs never block `git pull`.
+
+**Still open:**
+- The memory files still hold old junk lines; clean up once on the Mac.
+- dept_sheets.py says it makes a PDF but writes only xlsx.
+- 10 higgsfield sub-skills lack `metadata.parent` (warnings only).
+- The higgsfield specs snapshot is dated 2026-07-05; refresh it with a live `models_explore` dump on the Mac.
+- skill-router names Bajaria as a buyer (verify live).

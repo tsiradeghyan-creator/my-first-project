@@ -14,8 +14,6 @@
 > structure): cinematic/sports motion notes in
 > [geekjourneyx/awesome-ai-video-prompts](https://github.com/geekjourneyx/awesome-ai-video-prompts)
 > (MIT).*
->
-> **[中文版 →](./sports-slowmo.zh.md)**
 
 ---
 

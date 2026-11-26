@@ -16,8 +16,6 @@
 > [hr98w/awesome-sora-prompts](https://github.com/hr98w/awesome-sora-prompts)
 > (CC0) and [geekjourneyx/awesome-ai-video-prompts](https://github.com/geekjourneyx/awesome-ai-video-prompts)
 > (MIT).*
->
-> **[中文版 →](./cyberpunk-city.zh.md)**
 
 ---
 

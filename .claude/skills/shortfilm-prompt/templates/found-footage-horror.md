@@ -13,8 +13,6 @@
 > structure): the Horror / CCTV-style category in
 > [zhangchenchen/awesome_sora2_prompt](https://github.com/zhangchenchen/awesome_sora2_prompt)
 > (MIT).*
->
-> **[中文版 →](./found-footage-horror.zh.md)**
 
 ---
 

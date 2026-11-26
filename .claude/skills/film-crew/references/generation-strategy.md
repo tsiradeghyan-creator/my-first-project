@@ -27,7 +27,8 @@ Write each block once and paste it verbatim into every prompt that needs it:
 ## Model adapters
 
 ### Seedance 2.5 (default) — follow `seedance-25-director` if available
-- Per call: 4-30 s (Long Video 30-180 s; extension to 60 s total). Output 480p/720p.
+- Per call: 4-30 s (Long Video 30-180 s; extension to 60 s total). Output resolution: up to 4K per launch coverage
+  (verify live in the Dreamina UI and in `seedance-25-director`); plans default to 720p unless the user asks for more.
 - References: up to 30 images, 10 videos (≤ 30 s total), 10 audio; declare each `@Image N` with its role, in
   upload order; bind each character to one image by name.
 - Prompt order: asset declaration → one-line summary → timed plot `[0-4s] …` (➕ picture, camera, action,

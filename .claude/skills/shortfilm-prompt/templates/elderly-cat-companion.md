@@ -12,8 +12,6 @@
 > the photos on the wall; the warm grade never changes. Restrained
 > ending (Rule 6) — the cat on the windowsill and the cardigan over the
 > chair do the crying.
->
-> **[中文版 →](./elderly-cat-companion.zh.md)**
 
 ---
 

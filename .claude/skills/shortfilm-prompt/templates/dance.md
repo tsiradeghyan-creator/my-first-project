@@ -13,8 +13,6 @@
 > structure): performance/dance patterns in
 > [jax-explorer/awesome-veo3-videos](https://github.com/jax-explorer/awesome-veo3-videos)
 > (no license — inspiration only).*
->
-> **[中文版 →](./dance.zh.md)**
 
 ---
 

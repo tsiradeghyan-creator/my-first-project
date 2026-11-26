@@ -1,5 +1,18 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (MED pass + new Mac setup)
+**Did:**
+- Fixed the MED items from the skill audit (status in section 7 of `bridge/skill-audit-2026-11-26.md`): calm wording, trigger lanes, duplicate routing, fact refresh, router and library maps, and memory junk filters with evals.
+- zavod MED fixes pushed to zavod-om main and mirrored here.
+- New Mac (Tigran's new computer is a Mac): `scripts/setup-new-mac.sh` and `scripts/NEW-MAC.md` restore tools, repos, `~/.memory`, the skills library and the 6 LaunchAgents. New runners `scripts/trend-scout-run.sh` and `scripts/zavod-scout-run.sh` replace the lost ones.
+- sync-from-laptop.sh now refuses to wipe the repo copies when the Mac folders are empty.
+- Run logs are untracked.
+
+**Left:**
+- On the new Mac: run `bash scripts/setup-new-mac.sh`, then `--apply`; add keys and MCP logins by hand (BRIDGE C7).
+- Tigran: the 2 missing portfolio projects, the hashtag, the «Խաղալիք» palette.
+- LOW items, deletions, real evals.
+
 ## 2026-11-26 — Cloud (fix pass: HIGH items from the skill audit)
 **Did:** Tigran chose option A: film-crew runs first for every visual or video prompt and now has a short single-shot mode. Fixed all HIGH items; status is in section 6 of `bridge/skill-audit-2026-11-26.md`:
 - maghakian-brand rebranded;

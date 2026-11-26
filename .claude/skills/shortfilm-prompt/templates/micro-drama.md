@@ -13,8 +13,6 @@
 > structure): viral/short-form patterns in
 > [zhangchenchen/awesome_sora2_prompt](https://github.com/zhangchenchen/awesome_sora2_prompt)
 > (MIT).*
->
-> **[中文版 →](./micro-drama.zh.md)**
 
 ---
 

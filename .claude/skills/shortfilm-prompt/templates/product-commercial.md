@@ -12,8 +12,6 @@
 > structure): beat-driven ad-prompt patterns in
 > [LichAmnesia/awesome-ad-video-prompts](https://github.com/LichAmnesia/awesome-ad-video-prompts)
 > (CC BY 4.0).*
->
-> **[中文版 →](./product-commercial.zh.md)**
 
 ---
 

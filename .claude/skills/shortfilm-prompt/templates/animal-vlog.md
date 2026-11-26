@@ -16,8 +16,6 @@
 > (no license — creative inspiration only) and category structure from
 > [zhangchenchen/awesome_sora2_prompt](https://github.com/zhangchenchen/awesome_sora2_prompt)
 > (MIT).*
->
-> **[中文版 →](./animal-vlog.zh.md)**
 
 ---
 

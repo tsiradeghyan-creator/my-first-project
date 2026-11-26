@@ -15,8 +15,6 @@
 > and the audio-sync chapter of
 > [geekjourneyx/awesome-ai-video-prompts](https://github.com/geekjourneyx/awesome-ai-video-prompts)
 > (MIT).*
->
-> **[中文版 →](./food-asmr.zh.md)**
 
 ---
 

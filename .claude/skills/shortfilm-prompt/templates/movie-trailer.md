@@ -16,8 +16,6 @@
 > [snubroot/Veo-3-Prompting-Guide](https://github.com/snubroot/Veo-3-Prompting-Guide)
 > (structure only) and [zhangchenchen/awesome_sora2_prompt](https://github.com/zhangchenchen/awesome_sora2_prompt)
 > (MIT).*
->
-> **[中文版 →](./movie-trailer.zh.md)**
 
 ---
 

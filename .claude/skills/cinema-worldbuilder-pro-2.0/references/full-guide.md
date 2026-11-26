@@ -5,7 +5,7 @@ Read only the sections needed for the current request.
 
 # Cinema Worldbuilder Pro 2.0 — AI Video Prompt Director
 
-The locked cinematography grammar for AI video prompts on **any** engine. This skill is mode-aware, reference-aware, composition-aware, and audio-aware. It reads what the user gives you, picks the right cinema mode, extracts wardrobe and identity from reference images by visual description, maps the frame, locks every character to a screen position and state, choreographs the motion, fixes the closing composition, and outputs a production-ready video prompt with diegetic audio only.
+The cinematography grammar for AI video prompts on **any** engine. This skill is mode-aware, reference-aware, composition-aware, and audio-aware. It reads what the user gives you, picks the right cinema mode, extracts wardrobe and identity from reference images by visual description, maps the frame, locks every character to a screen position and state, choreographs the motion, fixes the closing composition, and outputs a production-ready video prompt with diegetic audio only.
 
 **Engine-agnostic by design.** The ten-block grammar below is craft, not syntax — it holds for Veo, Kling, Seedance, Wan, Hailuo, Runway, Luma, and whatever ships next. Only the thin reference-tagging and delivery layer changes per engine. There is no default engine: ask for it (see **TARGET ENGINE ADAPTER**). Seedance 2.5 execution — syntax, reference limits, durations — belongs to `seedance-25-director`; the craft blocks here feed it. Throughout this document, read "Seedance prompt" as "video prompt for the target engine" unless the passage is explicitly about `@imageN` syntax.
 
@@ -52,7 +52,7 @@ A great prompt is not a beautiful sentence. It is a production document. Seedanc
 | **Wan / Hailuo** | Descriptor-based, typically one subject ref | Compressed prose; density rule bites hardest here | Silent — post spec |
 | **Runway / Luma** | Descriptor-based, image-to-video keyframe | Prose; Last Frame maps naturally onto end-frame conditioning | Silent — post spec |
 
-**Two things never adapt, on any engine:**
+**Two things stay the same on every engine:**
 
 - **Rule 12 — no platform or tool names inside the prompt text.** The engine name lives in your conversation with the user and in the delivery header, never in the prompt body.
 - **The ten blocks and their order.** Formatting flexes; the compositional content does not. If an engine can't take labels, the Frame Map still gets written — as a sentence instead of a labeled block.
@@ -69,9 +69,9 @@ The workflow is the same every time:
 
 **Step 2 — Describe the scene.** Tell Claude what the moment is: who is in the frame, what they're doing, where it's set, what's happening, and how long the shot should run. The skill picks the right cinema mode automatically (or the user can name it explicitly).
 
-**Step 3 — Confirm the pre-prompt summary.** Claude returns a bulleted pre-prompt check listing every reference image attached (first bullet), the cinema mode, scene, characters, frame map, camera, and runtime (last bullet) — for a quick check before writing the full prompt.
+**Step 3 — Pre-prompt summary (optional).** For an ambiguous or expensive request, Claude returns a bulleted pre-prompt check listing every reference image attached (first bullet), the cinema mode, scene, characters, frame map, camera, and runtime (last bullet) — a quick check before writing the full prompt. For a clear, simple request, Claude goes straight to Step 4.
 
-**Step 4 — Receive the three-part delivery.** Claude returns (a) a numbered bulleted list of reference images to attach in the target engine in order (capped at that engine's reference limit — verify live), (b) a bolded English title line stating the runtime, and (c) a single fenced English code block containing the full prompt with discrete labeled blocks **always in this exact order, every prompt, no exceptions** — Scene & Mood → Frame Map → Subject Lock(s) → Cross-Frame Rules → Movement → Last Frame → World Plate → Sound Bed → Capture Realism → Camera Capture — and, on engines with inline tag syntax, `@imageN` tags placed wherever each reference image anchors (on other engines, the visual descriptors carry the anchoring). Numbers match the order of the bullet list at the top.
+**Step 4 — Receive the three-part delivery.** Claude returns (a) a numbered bulleted list of reference images to attach in the target engine in order (capped at that engine's reference limit — verify live), (b) a bolded English title line stating the runtime, and (c) a single fenced English code block containing the full prompt with discrete labeled blocks **in this fixed order** — Scene & Mood → Frame Map → Subject Lock(s) → Cross-Frame Rules → Movement → Last Frame → World Plate → Sound Bed → Capture Realism → Camera Capture — and, on engines with inline tag syntax, `@imageN` tags placed wherever each reference image anchors (on other engines, the visual descriptors carry the anchoring). Numbers match the order of the bullet list at the top.
 
 **Step 5 — Run it.** Attach the reference images from the bullet list into the engine's UI in the exact order listed (image 1 first, image 2 second, etc.), then paste the English code block into the prompt field. On engines with inline tag syntax the `@image1`, `@image2` tags inside the prompt are functional syntax — the model reads them and applies the corresponding uploaded reference at each anchor point. On engines without inline tag syntax, the visual descriptors carry the anchoring instead (see TARGET ENGINE ADAPTER); the attach order still matters wherever the engine assigns roles by slot.
 
@@ -93,9 +93,9 @@ Once asked, do not ask again in the same session.
 
 ---
 
-## PRE-PROMPT CONFIRMATION RULE
+## PRE-PROMPT CHECK (OPTIONAL)
 
-Every NEW scene gets a pre-prompt summary before the full prompt is written. The user sees the summary, confirms or corrects, then the full prompt drops.
+A pre-prompt summary before the full prompt is worth it when the request is ambiguous or expensive: a new scene whose references or characters aren't clear, a multi-shot sequence, a long runtime, or a batch. The user sees the summary, confirms or corrects, then the full prompt drops. For a clear, simple request, skip it and deliver the three-part output directly.
 
 **Format: a bulleted list — references first, then scene details, then runtime as the closer.**
 
@@ -113,25 +113,26 @@ Pre-prompt check:
 Sound good?
 ```
 
-Wait for the green light. Then deliver the three-part output.
+When you run the check, wait for the green light, then deliver the three-part output.
 
 **Why references first:** the user's uploaded references are what the prompt is being composed against. Listing them first confirms back to the user that every reference is being used. If a reference was uploaded but is missing from the list, the prompt is being composed wrong, and the user catches it here before the full prompt ships.
 
 **Why runtime as the closer:** runtime is the single most important spec to lock before the prompt ships. Surfacing it last keeps the user's eye on it right above "Sound good?"
 
-**When to skip the confirmation:**
+**When to skip the check:**
 
+- The request is clear and simple: references and their roles are obvious and the runtime is given
 - The user is iterating on a prompt just delivered (camera tweak, time of day swap, lens push, wardrobe swap, lighting nudge, push-in addition, position shift, eyeline change)
 - The user requested a prompt batch and pre-confirmed the batch as a whole
 - The user explicitly said "skip the confirm, just give me the prompt"
 
-For all new scenes: confirmation is not optional.
+When unsure whether a new scene is clear enough, a short check is cheaper than a wasted generation.
 
-**Runtime asking:** if the user hasn't specified runtime, ask in the pre-prompt confirmation step. Never assume a default runtime.
+**Runtime:** if the user hasn't specified runtime, ask for it (in the check, or as one short question), because runtime shapes the whole Movement plan. Don't assume a default.
 
 ---
 
-## THREE-PART DELIVERY FORMAT (LOCKED)
+## THREE-PART DELIVERY FORMAT
 
 Every video prompt is delivered in three parts, in this order:
 
@@ -167,41 +168,41 @@ Camera Capture: [single trimmed paragraph with body, lens, filter, movement, sto
 
 ---
 
-## OUTPUT LANGUAGE (LOCKED)
+## OUTPUT LANGUAGE
 
-**English only — locked.** All Seedance prompts are output in English inside the code block. Camera/lens/grade aesthetic descriptors stay in their plain-language English form (wide-latitude cinema capture, vintage 2x anamorphic character, soft diffusion bloom, color-negative film rendition, fine 35mm grain) — never brand names or model numbers the tool doesn't recognize. Numeric values that describe a real optical property stay as numerals (focal length in mm, 24fps, 180° shutter). M1/M2/M3/M4/M5 mode labels stay in English. The `@image1` / `@image2` / `@imageN` reference tags stay in English inside the body.
+**English only.** All prompts are output in English inside the code block. Camera/lens/grade aesthetic descriptors stay in their plain-language English form (wide-latitude cinema capture, vintage 2x anamorphic character, soft diffusion bloom, color-negative film rendition, fine 35mm grain) — never brand names or model numbers the tool doesn't recognize. Numeric values that describe a real optical property stay as numerals (focal length in mm, 24fps, 180° shutter). M1/M2/M3/M4/M5 mode labels stay in English. The `@image1` / `@image2` / `@imageN` reference tags stay in English inside the body.
 
-No Chinese mode. No bilingual mode. English only.
+There is no Chinese or bilingual mode.
 
 ---
 
 ## UNIVERSAL PROMPT RULES (ALL MODES)
 
-These apply to every Seedance prompt this skill produces, no exceptions:
+These apply to every video prompt this skill produces:
 
-1. **Pre-prompt confirmation on every new scene.** Bulleted list (References / Mode / Scene / Characters / Frame Map / Camera / Runtime), references FIRST, runtime LAST. Skip only on iterations of a prompt just delivered.
+1. **Pre-prompt check when it helps.** For an ambiguous or expensive new scene, send a bulleted list (References / Mode / Scene / Characters / Frame Map / Camera / Runtime), references first, runtime last. Skip it for clear, simple requests and for iterations of a prompt just delivered.
 2. **Three-part delivery format, in order:** (a) numbered bulleted reference list, (b) bolded English title line with runtime, (c) English code block with discrete labeled blocks and inline `@imageN` tags.
 3. **`@imageN` numbering matches the bullet list order exactly.** Bullet 1 → `@image1`, bullet 2 → `@image2`, etc.
 4. **Every reference in the bullet list appears at least once as an `@imageN` tag** inside the code block.
-5. **Runtime baked into the closing Camera Capture line.** Always ask runtime; never default. The runtime in the title line above the code block must match the runtime in the Camera Capture line inside it.
+5. **Runtime baked into the closing Camera Capture line.** Ask for the runtime if it wasn't given; don't assume one. The runtime in the title line above the code block must match the runtime in the Camera Capture line inside it.
 6. **Per-shot timing inline in Movement** for any multi-cut sequence ("Shot 1 (0–6s): ... Hard cut to Shot 2 (6–10s): ...").
-7. **Discrete labeled blocks inside the code block, in this exact order, every prompt, no exceptions — HARD LOCK:** Scene & Mood → Frame Map → Subject Lock(s) → Cross-Frame Rules → Movement → Last Frame → World Plate → Sound Bed → Capture Realism → Camera Capture. This order never changes. No block may be omitted, reordered, merged, renamed, or replaced with flowing prose. Every block ships with its label prefix (e.g. `Scene & Mood:`, `Frame Map:`, etc.). Single-shot, multi-shot, narrative, studio, action, performance, atmospheric — all ten blocks, all in this order, every time. The only conditional content is *inside* a block (the `[IF WET: ...]` clause in Capture Realism drops on dry scenes; the human-skin sentence in Capture Realism drops on M5 no-humans plates) — the block itself still ships with its label. If a block has nothing to say for the scene, the block is still present and its content is shortened, never omitted.
+7. **Discrete labeled blocks inside the code block, in this fixed order:** Scene & Mood → Frame Map → Subject Lock(s) → Cross-Frame Rules → Movement → Last Frame → World Plate → Sound Bed → Capture Realism → Camera Capture. Keeping the same order every time makes prompts comparable and lets a failed generation be traced to one block, so blocks aren't omitted, reordered, merged, renamed, or replaced with flowing prose (on prose-preferring engines the TARGET ENGINE ADAPTER collapses them in the same order). Every block ships with its label prefix (e.g. `Scene & Mood:`, `Frame Map:`, etc.). Single-shot, multi-shot, narrative, studio, action, performance, atmospheric — all ten blocks, all in this order, every time. The only conditional content is *inside* a block (the `[IF WET: ...]` clause in Capture Realism drops on dry scenes; the human-skin sentence in Capture Realism drops on M5 no-humans plates) — the block itself still ships with its label. If a block has nothing to say for the scene, keep the block and shorten its content.
 8. **One Subject Lock block per character.** When multiple characters share the frame, each gets its own discrete Subject Lock block — never jammed into one paragraph.
 9. **One Camera Capture line at the bottom — never doubled.** The Camera Capture is the only camera/grade/film stock language anywhere in the prompt. No discrete `Camera:` block in the middle of the body.
 10. **No character names in prompt output.** Describe by hair color, wardrobe, identity markers. The `@imageN` tag handles reference anchoring.
 11. **No real brand names in prompt output.** Generic visual descriptors only ("white low-slung mid-engine sports car," not specific brand names).
-12. **No platform/tool names in prompt output.** Never reference "Higgsfield," "Seedance," "Banana Pro," "Soul Cinema," etc. inside the prompt text.
+12. **No platform/tool names in prompt output.** Don't reference "Higgsfield," "Seedance," "Banana Pro," "Soul Cinema," etc. inside the prompt text.
 13. **No internal production context.** No "carried through the world," no "matching the previous scene," no "as established earlier." Every prompt is standalone.
 14. **Pure visual description only.** No meta-commentary. Every word describes a visible thing in the frame.
 15. **Diegetic audio only** — no music, no lyrics, no song references in the Sound Bed.
 16. **Energy over position** in the Scene & Mood block. Describe what bodies and forces are doing dramatically. Frame Map handles the geometric specifics.
 17. **Cut triggers.** Use "Hard cut to," "Smash cut to," "Match cut on" to signal edits inside multi-shot prompts. Auto-edit on by default.
-18. **Age-blind.** Never describe characters by age. Describe by role, hair, wardrobe, and identity markers.
-19. **No on-screen text by default.** Never write captions, subtitles, slogans, signage typography, speech bubbles, UI overlays, or rendered text into a Seedance prompt unless the user has explicitly asked for on-screen text. To suppress Seedance's tendency to hallucinate text, every prompt's Last Frame block closes with: "No on-screen text, no captions, no signage typography, no rendered text in the frame." Skip the suppression only when the user has explicitly requested in-frame text.
+18. **Age-blind.** Don't describe characters by age. Describe by role, hair, wardrobe, and identity markers.
+19. **No on-screen text by default.** Don't write captions, subtitles, slogans, signage typography, speech bubbles, UI overlays, or rendered text into a Seedance prompt unless the user has explicitly asked for on-screen text. To suppress Seedance's tendency to hallucinate text, every prompt's Last Frame block closes with: "No on-screen text, no captions, no signage typography, no rendered text in the frame." Skip the suppression only when the user has explicitly requested in-frame text.
 20. **Positive locks over negative prohibitions.** Translate "no drifting" into "boots stay planted on the same ground marks." Translate "don't change face" into "@image1 keeps the same face, hair, wardrobe, and silhouette throughout." Negative prompts have weaker pull than positive constraints.
 21. **One main idea per shot.** One dominant action, one main camera strategy, one major lighting motivation. If a request requires more, split into a multi-shot sequence.
 22. **Trust the reference image for wardrobe.** The Subject Lock block names identity anchor, body orientation, pose, state, gaze, contact points, and the lock-down line. Do not re-describe wardrobe details that are already visible in the reference. Only specify the wardrobe details that the model cannot read from the image (e.g., "damp from rain," "torn at the shoulder," "covered in dust") — text-only state information the reference image can't convey.
-23. **Canonical reference always attached, never substituted by the plate.** Every named subject that appears in the scene gets its canonical reference (character reference sheet, vehicle reference, prop reference, creature reference) attached as its own `@imageN` slot — even when that subject is also visible inside the rendered environment plate. The plate carries the world (location, weather, light, set dressing, composition); the canonical reference carries identity (face, body, livery, markings, silhouette). Never let the plate stand in for a canonical reference. Subject Locks anchor to canonical reference tags (`@image1`, `@image2`, etc.); the World Plate block anchors to the plate tag (`@imageN`). Hard rule, no exceptions: if a character or vehicle appears in the plate AND has a canonical reference, the canonical reference still gets its own slot in the reference list and its own Subject Lock block in the prompt. This applies regardless of how clearly the subject reads in the plate. Identity fidelity is always anchored to the canonical reference, never to the rendered plate.
+23. **Canonical reference always attached, never substituted by the plate.** Every named subject that appears in the scene gets its canonical reference (character reference sheet, vehicle reference, prop reference, creature reference) attached as its own `@imageN` slot — even when that subject is also visible inside the rendered environment plate. The plate carries the world (location, weather, light, set dressing, composition); the canonical reference carries identity (face, body, livery, markings, silhouette). The plate doesn't stand in for a canonical reference. Subject Locks anchor to canonical reference tags (`@image1`, `@image2`, etc.); the World Plate block anchors to the plate tag (`@imageN`). This holds even when the subject reads clearly in the plate: if a character or vehicle appears in the plate AND has a canonical reference, the canonical reference still gets its own slot in the reference list and its own Subject Lock block in the prompt. This applies regardless of how clearly the subject reads in the plate. Identity fidelity is always anchored to the canonical reference, never to the rendered plate.
 
 ---
 
@@ -225,13 +226,13 @@ When the user uploads reference images, extract everything visible in the frame 
 - **Set dressing:** every visible object that shapes the world
 - **Color palette:** dominant tones, accent colors, contrast structure
 
-**Naming rule (absolute lock).** NEVER use proper names in the prompt output. Refer to every character by visual description only.
+**Naming rule.** Keep proper names out of the prompt output and refer to every character by visual description only: engines don't know your characters' names, and visual descriptors hold across prompts.
 
 **No-invention rule.** If the user gives you a reference image and asks for the same character in a new scene, do not invent wardrobe or styling details that aren't in the image or specified in the request.
 
-**Trust-the-reference rule.** Once a character's wardrobe and identity are anchored to an `@imageN` tag, the Subject Lock block in the prompt body does NOT re-describe every garment in detail. The lock-down line ("face, hair, wardrobe, and silhouette identical throughout") closes the block. Only state-changes the image can't carry (damp, dirty, torn, wet, dusty, bloodied) get spelled out.
+**Trust-the-reference rule.** Once a character's wardrobe and identity are anchored to an `@imageN` tag, the Subject Lock block in the prompt body doesn't re-describe every garment in detail. The lock-down line ("face, hair, wardrobe, and silhouette identical throughout") closes the block. Only state-changes the image can't carry (damp, dirty, torn, wet, dusty, bloodied) get spelled out.
 
-**Canonical-over-plate rule (HARD LOCK).** Every named subject that appears in a Seedance scene gets its canonical reference attached as its own `@imageN` slot — even if that subject is also visible in the rendered environment plate. Characters, vehicles, props, creatures, animals — anything with locked identity that needs to hold across the cut gets its dedicated reference, no exceptions. The plate carries the world (location, weather, light, set dressing, composition); canonical references carry identity (face, body, livery, markings, silhouette). The plate is never a substitute for a canonical reference, and a subject's visible presence in the plate never reduces or removes the requirement to attach its canonical reference. If a character's reference sheet exists, attach it. If a vehicle's canonical reference exists, attach it. Subject Locks anchor to the canonical reference tag; the World Plate block anchors to the plate tag. This is the rule that prevents identity drift between the plate and the rendered Seedance output.
+**Canonical-over-plate rule.** Every named subject that appears in a Seedance scene gets its canonical reference attached as its own `@imageN` slot — even if that subject is also visible in the rendered environment plate. Characters, vehicles, props, creatures, animals — anything with locked identity that needs to hold across the cut gets its dedicated reference. The plate carries the world (location, weather, light, set dressing, composition); canonical references carry identity (face, body, livery, markings, silhouette). The plate is never a substitute for a canonical reference, and a subject's visible presence in the plate never reduces or removes the requirement to attach its canonical reference. If a character's reference sheet exists, attach it. If a vehicle's canonical reference exists, attach it. Subject Locks anchor to the canonical reference tag; the World Plate block anchors to the plate tag. This is the rule that prevents identity drift between the plate and the rendered Seedance output.
 
 ---
 
@@ -361,7 +362,7 @@ Every prompt closes with a Last Frame block specifying the exact composition the
 
 > Last Frame: The camera holds tight on her face in the right third, eyes wide and steady, lips slightly parted on a held breath. Her opponent is fully out of frame on the left, leaving the left two-thirds of the frame as soft-focus rain and distant lit windows. No on-screen text, no captions, no signage typography, no rendered text in the frame.
 
-**Last Frame is mandatory.** Every prompt closes with this block.
+**Every prompt includes Last Frame.** It closes the shot, so the engine knows where to land.
 
 ---
 
@@ -417,7 +418,7 @@ The Sound Bed describes **only what the scene physically produces** — sounds t
 **Audio modes (pick one based on user intent — ask if ambiguous):**
 
 - **Mode 1 (default) — Diegetic with SFX and ambient.** Realistic in-scene audio. `Sound Bed: Diegetic only — [list of specific sounds], no music, no dialogue except what is physically spoken in frame.`
-- **Mode 2 — Silent capture.** Used only when the user explicitly says they will upload music in post AND wants NO in-camera audio fighting it. `Sound Bed: NONE — fully silent capture. The audio track will be added separately in post.`
+- **Mode 2 — Silent capture.** Used only when the user explicitly says they will upload music in post and wants no in-camera audio fighting it. `Sound Bed: NONE — fully silent capture. The audio track will be added separately in post.`
 - **Mode 3 — Diegetic with SFX, no music explicitly.** Same as Mode 1, just confirming no music will be added. `Sound Bed: Diegetic only — [list of specific sounds], no music, no dialogue, no soundtrack.`
 
 Mode 1/3 is the default. Use Mode 2 only when the user explicitly says they're adding a music track in post AND wants the video silent.
@@ -428,7 +429,7 @@ Mode 1/3 is the default. Use Mode 2 only when the user explicitly says they're a
 
 ---
 
-## CAPTURE REALISM BLOCK (LOCKED — THE REAL-FOOTAGE ENGINE)
+## CAPTURE REALISM BLOCK (THE REAL-FOOTAGE ENGINE)
 
 This is the block that makes a shot read as real cinema capture instead of AI video. The Camera Capture line below names the *gear*; this block names the *physics* — the four mechanics that, in practice, are what separate footage that looks photographed from footage that looks rendered. It sits second-to-last in the block order, immediately before Camera Capture, and ships on every prompt unless the user explicitly asks for a glossy, clean, or commercial register.
 
@@ -469,7 +470,7 @@ The Camera Capture is the single closing line of every Seedance prompt. It conta
 
 **Default camera energy is handheld with breath, drift, and organic operator movement** — even in editorial / quiet / observational moments. The lived-in operator presence is part of the cinema register.
 
-**Locked-off tripod is OPT-IN ONLY** — used only when the user explicitly requests "locked off," "tripod," "no camera movement," "static," "still camera," or names a specific shot type that requires it (overhead surveillance plate, surgical observation, security cam aesthetic, formal portrait studio plate).
+**Locked-off tripod is opt-in only** — used only when the user explicitly requests "locked off," "tripod," "no camera movement," "static," "still camera," or names a specific shot type that requires it (overhead surveillance plate, surgical observation, security cam aesthetic, formal portrait studio plate).
 
 ---
 
@@ -602,7 +603,7 @@ Slow-motion beats (impact, hair whip, fabric on a hit, water splash, weapon reco
 
 **Total runtime** is stated in three places: title line above the code block, Frame Map block (for multi-shot sequences with per-shot timing), and the closing Camera Capture line. All three must match.
 
-**Always ask runtime — never default.** If the user hasn't specified runtime, ask in the pre-prompt confirmation step.
+**Ask for the runtime if it isn't given.** Ask in the pre-prompt check or as one short question; don't assume a default.
 
 **Shot complexity guidance:**
 - **4–8 seconds** — one strong character action, single locked composition
@@ -645,19 +646,19 @@ Before delivering the full prompt to the user, silently run this pass. If anythi
 - [ ] Target engine established (asked once per session, then carried) and the four adapter decisions applied — reference anchoring, block formatting, density, Sound Bed status
 - [ ] Reference list capped at the target engine's limit, highest-identity-value refs kept
 - [ ] Every uploaded reference image identified and listed by short visual descriptor — first bullet of the pre-prompt check, numbered bullet list at top of delivery, and inline `@imageN` tag. Order matches across all three.
-- [ ] **Canonical reference attached for every named subject that appears in the scene, even when that subject is also visible in the rendered plate** — characters, vehicles, props, creatures. Plate carries the world; canonical reference carries identity. No exceptions. Subject Lock for every canonical-referenced subject anchored to its own `@imageN`.
+- [ ] **Canonical reference attached for every named subject that appears in the scene, even when that subject is also visible in the rendered plate** — characters, vehicles, props, creatures. Plate carries the world; canonical reference carries identity. Subject Lock for every canonical-referenced subject anchored to its own `@imageN`.
 - [ ] Mode selected (M1 / M2 / M3 / M4 / M5) with rationale
 - [ ] Frame Map block written — every character pinned to a screen position, depth layer, frame occupancy
-- [ ] Subject Lock block written for every character — identity / orientation / pose / state / gaze / contact points / state-changes / lock-down line. Wardrobe NOT re-described from reference image — only state-changes the image can't carry.
+- [ ] Subject Lock block written for every character — identity / orientation / pose / state / gaze / contact points / state-changes / lock-down line. Wardrobe not re-described from reference image — only state-changes the image can't carry.
 - [ ] Cross-Frame Rules written if 2+ characters in frame — no swap, no center cross, no depth change, distance held, screen sides held
 - [ ] Movement block written — four layers present (character / micro / environmental / camera) in paragraph form, per-beat timestamps where the action demands
 - [ ] Last Frame block written — exact closing composition stated, on-screen text suppression line included (unless user requested in-frame text)
 - [ ] World Plate written — location, time, weather, set dressing, anchored to plate ref if attached
 - [ ] Sound Bed written — diegetic mode chosen, specific sounds listed, no music referenced
-- [ ] Capture Realism block written and tuned to the scene — depth-via-suspended-atmosphere between the actual planes; moisture-without-shine ONLY if the scene is wet (deleted if dry); per-zone specular kill on skin (dropped if no humans); contrast curve stated three ways. Not duplicating any gear/grade/frame-rate language from Camera Capture. Reduced or skipped only if the user explicitly asked for a glossy/clean/editorial register.
+- [ ] Capture Realism block written and tuned to the scene — depth-via-suspended-atmosphere between the actual planes; moisture-without-shine only if the scene is wet (deleted if dry); per-zone specular kill on skin (dropped if no humans); contrast curve stated three ways. Not duplicating any gear/grade/frame-rate language from Camera Capture. Reduced or skipped only if the user explicitly asked for a glossy/clean/editorial register.
 - [ ] Camera Capture line at the bottom — single trimmed paragraph, body / lens / filter / movement / stock / grade / frame rate / runtime, no double camera spec
 - [ ] Lens length chosen for the framing
-- [ ] Runtime confirmed with the user (never assumed). Runtime in title matches runtime in Camera Capture.
+- [ ] Runtime given or confirmed by the user (not assumed). Runtime in title matches runtime in Camera Capture.
 - [ ] Per-shot timing planned for multi-cut sequences, summing to total runtime
 - [ ] No character names in prompt output
 - [ ] No real brand names in prompt output

@@ -32,22 +32,40 @@ git pull --ff-only -q origin main || fail "git pull failed (diverged or no acces
 COMMON_EXCLUDES=(--exclude='.git/' --exclude='.env' --exclude='.env.*' --exclude='*.key' --exclude='*.pem'
                  --exclude='node_modules/' --exclude='__pycache__/' --exclude='.DS_Store' --max-size=10m)
 
+# Guard: a missing or empty source must never wipe the repo copy through --delete
+# (for example on a new Mac before ~/.memory is restored). Each block below is
+# skipped with a log line when its source looks empty.
+count_md() { find "$1" -maxdepth 1 -type f -name '*.md' 2>/dev/null | wc -l | tr -d ' '; }
+not_empty() { [ -d "$1" ] && [ -n "$(ls -A "$1" 2>/dev/null)" ]; }
+
 # 1. Memory: markdown only (the *.log files are run logs).
-mkdir -p memory
-rsync -a --delete --include='*.md' --exclude='*' "$HOME/.memory/" memory/ || fail "rsync memory"
+MEM_MD=$(count_md "$HOME/.memory")
+if [ "$MEM_MD" -ge 2 ]; then
+  mkdir -p memory
+  rsync -a --delete --include='*.md' --exclude='*' "$HOME/.memory/" memory/ || fail "rsync memory"
+else
+  log "SKIP memory: ~/.memory is missing or has only $MEM_MD .md file(s); repo memory/ left as is"
+fi
 
 # 2. Skills library, without ruflo/ (third-party clone, 196 MB) and two docs whose
 #    fake example keys trip the secret scan.
-mkdir -p .claude/skills-library
-rsync -a --delete "${COMMON_EXCLUDES[@]}" \
-  --exclude='/ruflo/' \
-  --exclude='/springboot-security/SKILL.md' \
-  --exclude='/composio/rules/setup-api-keys.md' \
-  "$HOME/.claude/skills-library/" .claude/skills-library/ || fail "rsync skills-library"
+if not_empty "$HOME/.claude/skills-library"; then
+  mkdir -p .claude/skills-library
+  rsync -a --delete "${COMMON_EXCLUDES[@]}" \
+    --exclude='/ruflo/' \
+    --exclude='/springboot-security/SKILL.md' \
+    --exclude='/composio/rules/setup-api-keys.md' \
+    "$HOME/.claude/skills-library/" .claude/skills-library/ || fail "rsync skills-library"
+else
+  log "SKIP skills-library: ~/.claude/skills-library is missing or empty; repo copy left as is"
+fi
 
-# 3. Zavod canon snapshots (canon lives in ~/zavod-om).
+# 3. Zavod canon snapshots (canon lives in ~/zavod-om). Needs SKILL.md in both
+#    source folders, so an empty or half-cloned canon never wipes the snapshots.
 CANON="$HOME/zavod-om/skills/zavod-craft"
-if [ -d "$CANON" ]; then
+if [ -d "$CANON" ] && { [ ! -f "$CANON/SKILL.md" ] || [ ! -f "$CANON/gpt-image-prompting/SKILL.md" ]; }; then
+  log "SKIP zavod canon: $CANON has no SKILL.md (or no gpt-image-prompting/SKILL.md); snapshots left as is"
+elif [ -d "$CANON" ]; then
   rsync -a --delete "${COMMON_EXCLUDES[@]}" "$CANON/" .claude/skills/content-zavod/ || fail "rsync content-zavod"
   rsync -a --delete "${COMMON_EXCLUDES[@]}" "$CANON/gpt-image-prompting/" .claude/skills/gpt-image-prompting/ || fail "rsync gpt-image-prompting"
 else

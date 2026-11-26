@@ -15,8 +15,6 @@
 > [songguoxs/awesome-video-prompts](https://github.com/songguoxs/awesome-video-prompts)
 > and [zhangchenchen/awesome_sora2_prompt](https://github.com/zhangchenchen/awesome_sora2_prompt)
 > (MIT).*
->
-> **[中文版 →](./claymation.zh.md)**
 
 ---
 

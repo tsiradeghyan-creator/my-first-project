@@ -1,5 +1,6 @@
 # Steven Spielberg — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** fluid long takes that block characters in depth so cuts aren't needed, and slow
 push-ins on faces looking up at something wonderful or terrible.
 **ASL:** medium, with many hidden "oners" · **Collaborators:** DP Janusz Kamiński; editor Michael Kahn; composer

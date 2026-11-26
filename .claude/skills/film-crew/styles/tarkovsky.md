@@ -1,5 +1,6 @@
 # Andrei Tarkovsky — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** time made visible — very long takes moving slowly through wind, water, fire and
 memory, where the image is allowed to breathe until it becomes spiritual.
 **ASL:** very long (takes of a minute or more are common) · **Collaborators:** DPs Vadim Yusov, Georgy Rerberg,

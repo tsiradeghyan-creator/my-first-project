@@ -1,5 +1,6 @@
 # Sergio Leone — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** the ritual standoff — extreme close-ups of eyes, hands and holsters cut against
 extreme wide landscapes, stretched in time by silence and an operatic score.
 **ASL:** long builds then accelerating cuts at the climax · **Collaborators:** composer Ennio Morricone; DP Tonino

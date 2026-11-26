@@ -1,5 +1,7 @@
 # Case 01 的「Skill 输出」参考样本
 
+> **历史样本（Seedance 2.0 时期）。** 末尾的 Seedance 2.0 兼容性建议和「单镜头 ≤15 秒」检查已过时：现在 Seedance 走 Seedance 2.5，通过 `seedance-25-director`（时长上限以该 skill 为准）。5 段式结构部分仍可作参考。
+
 > 这是按当前 SKILL.md 跑出来的输出。
 > 自检 10 条 checklist 全过。
 > 如果你以后改了 SKILL.md，跑同样的 case 应该能产出**结构类似但措辞可变**的输出。

@@ -15,8 +15,6 @@
 > structure): style-transfer / anime categories in
 > [zhangchenchen/awesome_sora2_prompt](https://github.com/zhangchenchen/awesome_sora2_prompt)
 > (MIT).*
->
-> **[中文版 →](./anime-to-real.zh.md)**
 
 ---
 

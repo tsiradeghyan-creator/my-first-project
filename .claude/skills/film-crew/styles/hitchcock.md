@@ -1,5 +1,6 @@
 # Alfred Hitchcock — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** suspense engineered by showing the audience more than the character knows, through
 point-of-view cutting and precisely storyboarded shots.
 **ASL:** medium; montage bursts for shock · **Collaborators:** composer Bernard Herrmann; designer Saul Bass for

@@ -11,8 +11,6 @@
 > handed down. Time marked by season + light + the card aging; the warm
 > grade never changes. Restrained ending (Rule 6) — the empty chair and
 > the stained card do the crying, not a flashback montage.
->
-> **[中文版 →](./family-recipe-farewell.zh.md)**
 
 ---
 

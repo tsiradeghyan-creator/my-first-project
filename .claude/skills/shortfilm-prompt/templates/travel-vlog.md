@@ -14,8 +14,6 @@
 > structure): VLog / travel montage patterns surveyed in
 > [jax-explorer/awesome-veo3-videos](https://github.com/jax-explorer/awesome-veo3-videos)
 > (no license — inspiration only).*
->
-> **[中文版 →](./travel-vlog.zh.md)**
 
 ---
 

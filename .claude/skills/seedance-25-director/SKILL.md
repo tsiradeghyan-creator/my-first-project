@@ -170,4 +170,4 @@ strict identity phrasing ("use @Image 1 as strict identity reference"), banning 
 beautiful), not mixing too many scenes, avoiding real celebrities/copyrighted characters, softening violence when
 moderation blocks, and giving a per-second translation after the prompt. It is **superseded** for: 15 s max
 (now 30 s, 180 s in Long Video), 9+3+3 files (now 30+10+10), "no negatives exist" (2.5 obeys specific bans like "no
-subtitles, no BGM"), and writing "4K/IMAX" in the prompt (resolution is a UI setting, 480p/720p).
+subtitles, no BGM"), and writing "4K/IMAX" in the prompt (resolution is a UI setting; launch coverage says up to 4K, verify in the Dreamina UI).

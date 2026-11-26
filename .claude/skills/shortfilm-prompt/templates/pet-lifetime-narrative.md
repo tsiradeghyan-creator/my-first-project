@@ -9,8 +9,6 @@
 > Concept: one dog, from clumsy puppy to old age, across a person's
 > whole life. Single subject throughout; time marked by season + light,
 > never by changing the color grade. Restrained ending (Rule 6).
->
-> **[中文版 →](./pet-lifetime-narrative.zh.md)**
 
 ---
 

@@ -6,8 +6,6 @@
 >
 > Best for: edit-style shorts where an event is broken into N shots,
 > each 5–8 seconds, then assembled into a coherent narrative.
->
-> **[中文版 →](./multi-shot-narrative.zh.md)**
 
 ---
 

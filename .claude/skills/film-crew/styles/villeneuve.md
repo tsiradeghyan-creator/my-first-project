@@ -1,5 +1,6 @@
 # Denis Villeneuve — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** tiny humans before monumental architecture and landscapes, in fog and hard silhouette,
 with slow pushes and enormous, low sound.
 **ASL:** long, patient · **Collaborators:** DPs Roger Deakins, Greig Fraser; composers Jóhann Jóhannsson, Hans

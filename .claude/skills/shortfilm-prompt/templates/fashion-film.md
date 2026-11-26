@@ -13,8 +13,6 @@
 > [LichAmnesia/awesome-ad-video-prompts](https://github.com/LichAmnesia/awesome-ad-video-prompts)
 > (CC BY 4.0) and [geekjourneyx/awesome-ai-video-prompts](https://github.com/geekjourneyx/awesome-ai-video-prompts)
 > (MIT).*
->
-> **[中文版 →](./fashion-film.zh.md)**
 
 ---
 

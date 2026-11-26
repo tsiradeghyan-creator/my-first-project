@@ -9,3 +9,6 @@ reels/**/*_HQ.mp4
 reels/tigran-the-great/*.zip
 reels/tigran-the-great/**/*.zip
 __pycache__/
+
+# run logs written on the Mac by scheduled jobs (keep out of git so pulls never conflict)
+.claude/skills/**/*.log

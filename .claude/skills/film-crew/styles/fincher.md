@@ -1,5 +1,6 @@
 # David Fincher — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** controlled, precise, quietly menacing images — the camera moves only when the actor
 moves, the light is low and sickly-green/amber, and nothing in frame is accidental.
 **ASL:** medium-fast, crisp · **Collaborators:** DPs Jeff Cronenweth, Erik Messerschmidt; composers Trent Reznor

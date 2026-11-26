@@ -7,8 +7,6 @@
 >
 > **How to use**: copy the matching block, paste it into your own
 > prompt's atmosphere section.
->
-> **[中文版 →](./atmosphere-prefabs.zh.md)**
 
 ---
 

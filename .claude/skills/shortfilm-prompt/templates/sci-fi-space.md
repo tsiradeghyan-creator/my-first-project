@@ -13,8 +13,6 @@
 > structure): space/cinematic scenes in
 > [hr98w/awesome-sora-prompts](https://github.com/hr98w/awesome-sora-prompts)
 > (CC0).*
->
-> **[中文版 →](./sci-fi-space.zh.md)**
 
 ---
 

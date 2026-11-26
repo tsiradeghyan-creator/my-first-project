@@ -1,5 +1,6 @@
 # Wes Anderson — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** dollhouse worlds shot flat-on and symmetrical, with deadpan people, pastel palettes and
 precise whip pans and lateral tracks.
 **ASL:** medium-fast; brisk comic timing · **Collaborators:** DP Robert Yeoman (context only).

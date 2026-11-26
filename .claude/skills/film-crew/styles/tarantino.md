@@ -1,5 +1,6 @@
 # Quentin Tarantino — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** long, funny, menacing conversations held in patient frames, then violence or a
 reversal arrives as a hard cut — structured in chapters, scored with eclectic needle drops.
 **ASL:** long for dialogue scenes, fast bursts for action · **Collaborators:** DP Robert Richardson (later

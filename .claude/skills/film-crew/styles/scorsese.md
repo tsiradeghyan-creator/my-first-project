@@ -1,5 +1,6 @@
 # Martin Scorsese — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** kinetic, confessional cinema — voice-over, long Steadicam oners through worlds,
 whip pans, freeze frames and rock-and-roll driving the cut.
 **ASL:** fast montage alternating with long oners · **Collaborators:** editor Thelma Schoonmaker; DPs Michael

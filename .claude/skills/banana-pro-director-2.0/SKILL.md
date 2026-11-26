@@ -23,7 +23,7 @@ Use this skill for:
 - outfit replacement from two references,
 - generic requests like "write me an image prompt" when the output is a still image.
 
-Do not use it for video prompts, OpenAI image API parameters, Higgsfield account/UI questions, or platform credit troubleshooting.
+Do not use it for video prompts, OpenAI image API parameters (use `gpt-image-prompting`), Higgsfield account/UI questions, or platform credit troubleshooting.
 
 ## Before Writing
 
@@ -36,7 +36,7 @@ Read `references/full-guide.md` before writing final prompts. For simple routing
 Search the full guide for these anchors:
 
 - `TARGET ENGINE ADAPTER`
-- `THE WORKFLOW — STRICT ORDER`
+- `THE WORKFLOW — ORDER OF STEPS`
 - `Mode 0 — Face lock`
 - `Mode 1`
 - `Mode 2`
@@ -48,17 +48,18 @@ Search the full guide for these anchors:
 
 ## Operating Contract
 
-1. Establish the target engine once. If unspecified, default to the existing Higgsfield fork unless the user asks for another model.
+1. Establish the target engine once. If unspecified, default to the existing Higgsfield fork (Banana Pro / Soul Cinema / GPT-2) unless the user asks for another model. Nano Banana 2 (and 2 Lite) is also in Higgsfield's Image model picker (verify live); treat it as a Banana Pro path. "GPT-2" in this skill means OpenAI's GPT Image 2 (`gpt-image-2`) on Higgsfield; for GPT Image 2 prompting itself, use `gpt-image-prompting`.
 2. Classify the request into one mode:
    - Mode 0: new character face lock.
    - Mode 1: outfit reference.
    - Mode 2: 6-panel character sheet.
    - Mode 3: scene or environment plate.
-   - Mode 4: detail portrait.
+   - Mode 4: detail portrait (GPT Image 2).
    - Mode 5: outfit replacement.
 3. If identity/reference fidelity matters, inspect attached references and mirror the locked visual facts before writing the prompt.
-4. Preserve strict pipeline order: face lock before outfit, outfit before sheet, no sheet without a base reference.
-5. Keep prompt density lean. References carry visible detail; prompt text carries framing, pose, lighting, and constraints.
+4. Keep the pipeline order: face lock before outfit, outfit before sheet, no sheet without a base reference, because each step builds the reference the next one needs.
+5. Ask for a short pre-prompt check only when the request is ambiguous or expensive (new character without references, unclear reference roles, GPT-2 runs, batches); for a clear, simple request, go straight to the prompt.
+6. Keep prompt density lean. References carry visible detail; prompt text carries framing, pose, lighting, and constraints.
 
 ## Output Contract
 

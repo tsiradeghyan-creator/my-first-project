@@ -15,7 +15,7 @@ Route elsewhere for: general video prompts (`cinema-worldbuilder-pro-2.0`), 5-st
 
 Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input. If a film-crew plan already exists, use it. Here the film-crew plan sets the beats, look and camera; this skill compresses them into the fashion-campaign format below.
 
-**Hard rule: the final prompt must be 1,000 characters or fewer.** Non-negotiable. This is a compressed format designed for AI video generators with strict prompt-length limits.
+**Length cap: keep the final prompt at 1,000 characters or fewer when the target engine has a short prompt field.** The format was built for video generators with strict prompt-length limits; anything past the limit is lost or rejected, usually taking the closing shots and the audio line with it. Check the current limit for your target engine in its UI (verify live) and use that number if it differs. Seedance 2.5 work goes through `seedance-25-director`, which owns Seedance's limits and syntax: hand it this skill's shot sequence as input instead of applying the cap here.
 
 ---
 
@@ -29,7 +29,7 @@ The garment is the hero. Extract a compact visual description prioritising the c
 - **Styling** — layering, accessories, footwear if visible, how pieces are worn (oversized, cropped, open, belted, tucked)
 - **Model energy** — build, skin tone, hair, any distinctive features; their vibe in the reference (slouched cool, upright, candid, relaxed)
 
-If no image has been uploaded, ask for one. The reference is the visual anchor for everything that follows.
+If no image has been uploaded, work from a text brief instead: a written description of the garment (silhouette, fabric, colorway, key construction details) is enough to proceed. Ask for an image only when the garment can't be pictured from the words, since a reference is the strongest visual anchor.
 
 If the reference is a flat lay or product shot with no model, note it and proceed — the model will be implied or generic.
 
@@ -51,12 +51,12 @@ If the user provides these inline with their request, skip the questions and pro
 
 ### Step 3 — Design the shot sequence
 
-Build a sequence totalling **exactly 15 seconds**. Streetwear editorial is fast and punchy by default:
+Build a sequence totalling **exactly 15 seconds** (the format's default length; for Seedance 2.5, `seedance-25-director` sets the clip length). Streetwear editorial is fast and punchy by default:
 
 - **Default to 6–7 shots** at **2–3 seconds each** (maximum 4 seconds per shot — tighter ceiling than standard cinematic work)
-- **Mandatory: every shot must include model movement** — name it explicitly in the copy. Range from subtle (shifting weight, slow chin raise, fingers brushing fabric) to full-body (turn, stride, lean push-off). No shot where the model is completely static.
-- **Mandatory: at least one negative space wide** — subject occupying ≤30% of frame, architecture, sky, or empty ground dominant
-- **Mandatory: at least one bold attitude beat** — model staring directly and confidently into the lens; name this explicitly ("locks eyes with camera, chin lifted, expression charged", "direct eye contact, jaw set, unflinching")
+- **Every shot includes model movement**, named explicitly in the copy, because the format's energy comes from constant movement and clothes reacting to the body. Range from subtle (shifting weight, slow chin raise, fingers brushing fabric) to full-body (turn, stride, lean push-off); avoid a completely static model.
+- **At least one negative space wide** — subject occupying ≤30% of frame, architecture, sky, or empty ground dominant. It gives the garment scale and breaks the rhythm of the close shots.
+- **At least one bold attitude beat** — model staring directly and confidently into the lens, since direct-to-camera attitude is the core of the campaign look; name this explicitly ("locks eyes with camera, chin lifted, expression charged", "direct eye contact, jaw set, unflinching")
 - **Handheld or shaky handheld is the default camera movement** — static camera is allowed only when the model's own movement carries the shot
 - **Cut to.** between every shot
 
@@ -77,23 +77,23 @@ Output the entire sequence as **one flowing paragraph**. No line breaks, no list
 
 Distribute garment references across the sequence — mention silhouette in wides, hardware or texture in close-ups, colorway against environment in establishing shots. After the first shot, use "she", "he", "they", or "the model" for subject references to save characters.
 
-**Always end with this exact line:**
+**End with this exact line:**
 `Gritty realism, natural framing. Audio: diegetic sound only — urban ambience, footsteps, fabric movement, environmental foley.`
 
-This line is non-negotiable (~108 chars). Plan for it in the budget.
+Keep it word for word (~108 chars) and plan for it in the budget: it sets the realism register and keeps the audio diegetic, with no music or voice added.
 
 ---
 
 ### Step 5 — Count and deliver
 
-Count the final prompt characters. If over 1,000, trim in this order:
+Count the final prompt characters. If over the cap, trim in this order:
 
 1. **Compress atmospheric padding** — "warm golden light spills softly across" → "warm rim light across"
 2. **Merge shared location elements** — state environment once, reference it after
 3. **Shorten subject references** — "she" / "the model" after first mention
 4. **Shorten garment references** — "the jacket" after the first full description
 5. **Drop lens mm last resort only** — it informs the render; cut adjectives before cutting specs
-6. **Never cut:** shot size / angle / movement specs, the model movement descriptor in each shot, the negative space wide, the attitude eye-contact beat, or the closing audio line
+6. **Keep, whatever else goes:** shot size / angle / movement specs, the model movement descriptor in each shot, the negative space wide, the attitude eye-contact beat, or the closing audio line
 
 Output the prompt in a **single fenced code block** — no commentary inside it.
 

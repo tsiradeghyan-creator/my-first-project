@@ -11,8 +11,6 @@
 > genre. This is a Stage-4 (camera rules) companion — pick your genre
 > block, paste the move phrasing into your prompt's camera section, and
 > pair it with the suggested lens from Stage 3.
->
-> **[中文版 →](./genre-camera-sop.zh.md)**
 
 ---
 

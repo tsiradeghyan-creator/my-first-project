@@ -10,8 +10,6 @@
 > field if it has one; otherwise read the compatibility table — several
 > tools need positive-only phrasing instead, and a couple will summon the
 > very thing you list if you write "no ___".
->
-> **[中文版 →](./negative-prompts.zh.md)**
 
 ---
 

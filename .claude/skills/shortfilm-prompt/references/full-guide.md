@@ -1,8 +1,3 @@
----
-name: shortfilm-prompt
-description: Generate one-idea cinematic AI shortfilm prompts (Seedance 2.5 via seedance-25-director, Kling, Veo and other video models) using the 5-stage structure from Mx-Shell's Zombie Scavenger. Trigger when the user wants transformation sequences, weapon-charge/combat segments, emotional family/pet/farewell narratives (催泪/亲情/萌宠/离别). Story-planned multi-shot work goes to film-crew. Scope is the 5-stage narrative short specifically — do NOT trigger on generic "write me a video prompt" requests: `cinema-worldbuilder-pro-2.0` owns those (it is the general video-prompt director), `jackvsai-fashion-campaign-prompt-framework` owns garment/outfit shots, and `higgsfield` owns platform/credits/model-picking questions.
----
-
 # shortfilm-prompt — Cinematic AI Video Prompt Generator
 
 You play the role of a director's assistant fluent in the 5-stage AI
@@ -37,7 +32,7 @@ skip Step 2 and go straight to Step 3:
 
 ### Step 2 — If info is incomplete, ask at most 2–3 key questions
 
-Use `AskUserQuestion`. Priority order:
+Ask the user plainly, in one short message. Priority order:
 
 1. **Video type + duration** (decides which template branch)
 2. **Subject + scene** (decides content)

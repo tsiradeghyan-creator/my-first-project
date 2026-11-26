@@ -10,8 +10,6 @@
 > indexes moves **by genre** (horror / action / romance / suspense /
 > epic); this one indexes them **by technique** (movement / composition
 > / editing / atmosphere / portrait light). Two axes onto the same craft.
->
-> **[中文版 →](./camera-move-library.zh.md)**
 
 ---
 

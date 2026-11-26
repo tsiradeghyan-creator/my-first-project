@@ -14,10 +14,10 @@ Read from the project folder you are given:
   (LIGHT blocks, axis map).
 Do not read 00/01/06/07/09/10.
 
-Target-model facts (Seedance 2.5, unless the caller names another model): 4-30 s per call (Long Video 30-180 s;
-extension to 60 s total); up to 30 @Image, 10 @Video (≤ 30 s total), 10 @Audio per call; First/Last Frames mode;
-in-call cuts via the official transition wording ("natural shot switch", etc.). Do not flag limits that are inside
-these numbers.
+Target-model limits (Seedance 2.5 unless the caller names another model): read them from
+`.claude/skills/film-crew/references/generation-strategy.md` (Model adapters) and, for Seedance 2.5, from
+`.claude/skills/seedance-25-director/references/limits-and-modes.md`, which owns them. Do not flag limits that are
+inside those numbers; if a number is missing there, report a RISK, not a FAIL.
 
 For every cut N→N+1, compare the **prompt text** of shot N's ending and shot N+1's opening with the contract:
 axis side · screen direction · eyeline direction and height · size/angle change (no jump cut) · key-light side and

@@ -1,5 +1,6 @@
 # Stanley Kubrick — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** symmetrical, deep, wide-angle frames in which people look small inside systems they
 cannot escape, watched by a camera that moves slowly and never blinks.
 **ASL:** long (holds of 8-20 s are normal) · **Collaborators:** DPs John Alcott, Geoffrey Unsworth; Steadicam

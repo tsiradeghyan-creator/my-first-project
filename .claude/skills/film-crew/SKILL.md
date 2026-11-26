@@ -22,7 +22,10 @@ the story, the world, the light, the cut before it and the cut after it. This sk
 - **Every image/video prompt is in English** (dialogue stays in the character's language — see the target
   model's language limits).
 
-## The crew and the order — never change it
+## The crew and the order
+
+Keep this order: each department reads the ones before it (the Reads column), so reordering makes a department
+decide without the inputs it needs.
 
 | # | Department | Decides | File | Reads |
 |---|---|---|---|---|
@@ -83,8 +86,11 @@ Editor) · consistency of all of the above from the first shot to the last (cont
 - **Any filmmaker works — the library is only a cache.** The user may name any director (or a cinematographer, an
   editor, a single film, a period: "early Scorsese", "Peleshyan's distance montage", "like *In the Mood for
   Love*"). Resolve the lens in this order:
-  1. a card in `styles/` that matches the name *and* the period → use it;
-  2. otherwise **research a new card from real sources** — never write a lens from memory alone:
+  1. a card in `styles/` that matches the name *and* the period → use it. The 12 seed cards (`Status: seed, not
+     source-checked`) are fine for drafts and personal work; before a client job in one of those lenses, run
+     `film-style-researcher` (or the web-search path below) to source-check and refresh the card, then set its
+     status to `researched-unreviewed`;
+  2. otherwise **research a new card from real sources** rather than writing a lens from memory alone:
      - Claude Code: dispatch the `film-style-researcher` subagent (name, period/films, project genre, save folder).
        Research is an independent path that reads many pages and returns one compact card — the case where a
        subagent pays off. Read the returned card, spot-check two sourced claims, then use it.
@@ -99,8 +105,7 @@ Editor) · consistency of all of the above from the first shot to the last (cont
 
 ## Architecture — what stays in the loop, what is a tool, what is a subagent
 
-Based on Anthropic's "When to fold subagents into your main agent loop" (2026-10-22) and on measured runs
-(`evals/ARCHITECTURE.md`):
+Based on Anthropic's "When to fold subagents into your main agent loop" (2026-10-22) and on test runs of this skill:
 
 - **Main loop (everything creative).** All seven departments, assembly and the generation plan run here. They chain
   on each other's output, read the same bible and are always called together — the article's definition of
@@ -125,8 +130,8 @@ Based on Anthropic's "When to fold subagents into your main agent loop" (2026-10
 
 ## Files and modes
 
-- **Files:** with a filesystem, create a project folder (default `~/Desktop/film-crew/<project-slug>/`; if that is
-  not writable, a `<project-slug>/` folder in the current directory — tell the user the exact path) and write one
+- **Files:** with a filesystem, create a project folder (default `./film-crew/<project-slug>/` in the current project —
+  tell the user the exact path) and write one
   file per department using `references/templates.md`. Without one, deliver the same documents as sections of one
   document in the same order.
 - **Mode:** default *full run* — all departments, then the review, then hand over. *Step mode* on request — stop

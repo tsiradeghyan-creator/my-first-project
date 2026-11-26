@@ -15,8 +15,6 @@
 > (no license — inspiration only) and audio-sync notes in
 > [geekjourneyx/awesome-ai-video-prompts](https://github.com/geekjourneyx/awesome-ai-video-prompts)
 > (MIT).*
->
-> **[中文版 →](./music-video.zh.md)**
 
 ---
 

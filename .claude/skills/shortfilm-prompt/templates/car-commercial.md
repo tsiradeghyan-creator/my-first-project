@@ -13,8 +13,6 @@
 > structure): commercial/product patterns in
 > [LichAmnesia/awesome-ad-video-prompts](https://github.com/LichAmnesia/awesome-ad-video-prompts)
 > (CC BY 4.0).*
->
-> **[中文版 →](./car-commercial.zh.md)**
 
 ---
 

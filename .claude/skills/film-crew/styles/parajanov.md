@@ -1,5 +1,6 @@
 # Sergei Parajanov — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** the film as a sequence of living icons and illuminated manuscripts — frontal, static
 tableaux in which symbolic objects and ritual gestures replace dialogue and plot.
 **ASL:** very long static tableaux in The Color of Pomegranates (Sayat Nova); more mobile, colourful folk energy in

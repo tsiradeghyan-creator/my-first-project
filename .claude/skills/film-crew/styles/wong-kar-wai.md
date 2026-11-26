@@ -1,5 +1,6 @@
 # Wong Kar-wai — style card
 
+**Status:** seed, not source-checked · **Built:** 2026-10-29 from knowledge · source-check with `film-style-researcher` before a client job
 **Signature in one line:** longing in confined, neon- or lamp-lit spaces — smeared motion, slow motion, repeated
 music and time folding back on itself.
 **ASL:** mixed and elliptical; slow-motion holds alternate with jump-cut fragments · **Collaborators:** DP

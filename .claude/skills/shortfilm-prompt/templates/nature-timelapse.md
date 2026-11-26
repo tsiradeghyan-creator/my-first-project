@@ -16,8 +16,6 @@
 > (CC0) and the camera/grade notes in
 > [khanof89/awesome-video-prompts](https://github.com/khanof89/awesome-video-prompts)
 > (MIT).*
->
-> **[中文版 →](./nature-timelapse.zh.md)**
 
 ---
 

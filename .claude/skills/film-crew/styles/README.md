@@ -5,7 +5,10 @@ researched from real sources (`film-style-researcher` in Claude Code, web search
 saved here as `researched-unreviewed` until the user approves. One lens per film. Every department applies it.
 Prompts carry the translated craft, never the name.
 
-<!-- status of the 12 seed cards: written from knowledge 2026-10-29, not source-checked — re-research before relying on a detail -->
+**Seed cards.** The 12 cards from `kubrick.md` to `leone.md` were written from knowledge on 2026-10-29 and carry
+`Status: seed, not source-checked`. They are usable for drafts and personal work. Before a client job in one of these
+lenses, run `film-style-researcher` (or the web-search path in SKILL.md › Style lens) to source-check and refresh the
+card, then set its status to `researched-unreviewed`; mark it `approved` only when the user confirms.
 
 | Card | Feels like | Best for | ASL |
 |---|---|---|---|

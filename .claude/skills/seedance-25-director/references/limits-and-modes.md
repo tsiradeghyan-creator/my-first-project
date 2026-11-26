@@ -10,7 +10,7 @@ UI shows different numbers, the UI wins — tell the user.
 | Duration (Omni / frames) | -1 or 4-15 s (97-361 frames) | **-1 or 4-30 s (97-721 frames)** |
 | Long Video | — | **30-180 s in one pass** |
 | Extension | — | source < 30 s, +4-30 s per step, nested up to **60 s** total |
-| Resolution | — | **480p, 720p** |
+| Resolution | — | **480p, 720p** (verify live in the Dreamina UI: launch coverage says up to 4K) |
 
 `-1` = let the model choose the length.
 
