@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# ARCHIVED 2026-11-26: Tigran works cloud-only now; kept only in case a Mac is used again. See CLAUDE.md.
 # Restore Tigran's workspace on a new Mac: tools, logins, repos, ~/.memory,
 # skills library, the scheduled LaunchAgents, and the key / MCP checklist.
 #

@@ -4,6 +4,8 @@ description: Read recent Claude conversation logs (~/.claude/projects/**/*.jsonl
 metadata:
   version: 1.3.0
 ---
+> **Paused (2026-11-26):** Tigran works cloud-only now, with no local Claude Code. It reads local Claude Code chat logs, which exist only on a computer that runs Claude Code. Cloud sessions keep their decisions in NOTES.md instead. Re-enable only if a local setup comes back (see `scripts/NEW-MAC.md`).
+
 
 # Consolidate Memory Skill
 

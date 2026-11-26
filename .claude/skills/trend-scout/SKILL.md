@@ -19,24 +19,16 @@ trends only — Armenian-market trends are explicitly out of scope.
   SKILL.md          ← this file
 ```
 
-The scheduled runner is gone. The old one (`~/.claude/trend-scout-run.sh`, a headless
-`claude -p` call started by the LaunchAgent `com.maghakian.trend-scout` at 08:30) lived only
-on the old Mac; the old runner was not committed. It must be recreated on the new computer
-(runner script + schedule) before daily runs resume. Until then, run the procedure below by
-hand.
+## Schedule (cloud-only since 2026-11-26)
+Tigran works cloud-only now (no local Mac setup). A cloud scheduled task starts a fresh
+session three times a week (Mon, Wed, Fri morning, Yerevan time) and runs the procedure below.
+The old Mac runner and LaunchAgent are retired; `scripts/trend-scout-run.sh` is kept only as
+an archive in case a Mac is used again.
 
 ## Output — single source of truth
-`memory/trends-radar.md` in my-first-project.
-
-The old Obsidian path (`~/Documents/Obsidian Vault/Claude/wiki/trends-radar.md`) was blocked
-by macOS privacy and is no longer used.
-
-Where to write it:
-- On the laptop, write `~/.memory/trends-radar.md`. `scripts/sync-from-laptop.sh` copies
-  `~/.memory/` into `memory/` nightly with `rsync --delete`, so a copy written only into the
-  repo's `memory/` would be removed at the next sync.
-- On Cloud, `memory/` is read-only (CLAUDE.md). Read the page there; a manual Cloud run gives
-  its new entries in chat, or posts them to BRIDGE.md for the laptop to add.
+`memory/trends-radar.md` in my-first-project. Write it directly in the repo, then commit and
+push to main with a NOTES.md line. The repo's `memory/` is the source of memory now (the
+laptop sync is retired), so Cloud writes there.
 
 Structure of the page (keep these sections, newest entries on top, every entry dated):
 
@@ -76,7 +68,7 @@ later.com/blog, buffer.com/resources, hootsuite blog, socialmediatoday.com,
 variety.com, hollywoodreporter.com, tubefilter.com, YouTube/TikTok creator news.
 
 ## Run procedure (scheduled or manual)
-1. Read the current `memory/trends-radar.md` (on the laptop: `~/.memory/trends-radar.md`; create it there if missing).
+1. Read the current `memory/trends-radar.md` (create it if missing).
 2. Web-search each beat with **current-month** queries (e.g. "trending reels formats
    <Month Year>"). Global/English sources.
 3. **Deduplicate:** skip anything already on the page; only add genuinely new

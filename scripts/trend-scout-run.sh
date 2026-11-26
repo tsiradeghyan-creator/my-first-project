@@ -1,4 +1,5 @@
 #!/bin/bash
+# ARCHIVED 2026-11-26: Tigran works cloud-only now; kept only in case a Mac is used again. See CLAUDE.md.
 # Headless trend-scout run (global trend radar). Replaces the lost ~/.claude/trend-scout-run.sh.
 # Scheduled by ~/Library/LaunchAgents/com.maghakian.trend-scout.plist (daily 08:30),
 # created by scripts/setup-new-mac.sh. Manual run: bash ~/my-first-project/scripts/trend-scout-run.sh

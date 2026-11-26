@@ -23,7 +23,7 @@ from typing import Optional
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 HOME = Path.home()
-MEMORY_DIR = HOME / ".memory"
+MEMORY_DIR = Path(os.environ["MEMORY_DIR"]).expanduser() if os.environ.get("MEMORY_DIR") else HOME / ".memory"
 LONG_TERM  = MEMORY_DIR / "long-term-memory.md"
 PROJECT    = MEMORY_DIR / "project-memory.md"
 # The log sits next to this script, so it works from ~/.claude/skills/auto-learn

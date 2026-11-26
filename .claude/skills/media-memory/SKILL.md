@@ -4,6 +4,8 @@ description: Log and search media files (images, PDFs, video, audio) seen in con
 metadata:
   version: 1.2.0
 ---
+> **Paused (2026-11-26):** Tigran works cloud-only now, with no local Claude Code. Its hook and `~/.media-memory/` index live on a local computer. Re-enable only if a local setup comes back (see `scripts/NEW-MAC.md`).
+
 
 # Media Memory Skill
 

@@ -2,6 +2,8 @@
 description: Read and answer the VS Code ⇄ Cloud mailbox in BRIDGE.md, or post a new message to the other side.
 argument-hint: "[optional: a new question to send to the other side]"
 ---
+> **Archived 2026-11-26:** Tigran works cloud-only now, so there is no VS Code side. If called, say the bridge is archived and offer to put the note in NOTES.md instead.
+
 
 You are one side of a shared workspace. Work out which side you are: if the environment is a cloud container (for example the path starts with /home/user/ and CLAUDE_CODE_REMOTE or a similar remote marker is set, or there is no macOS `sw_vers`), you are **Cloud**; on Tigran's laptop you are **VS Code**.
 

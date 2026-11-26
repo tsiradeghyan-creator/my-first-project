@@ -1,4 +1,5 @@
 #!/bin/bash
+# ARCHIVED 2026-11-26: Tigran works cloud-only now; kept only in case a Mac is used again. See CLAUDE.md.
 # Headless zavod-scout run (competitive self-improvement of the content-zavod stations).
 # Replaces the lost runner from the old Mac. Scheduled by
 # ~/Library/LaunchAgents/com.maghakian.zavod-scout.plist (every 3 days, StartInterval 259200),

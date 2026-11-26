@@ -1,6 +1,6 @@
 ---
 name: auto-learn
-description: Automated daily web research that keeps ~/.memory/ current with facts about the studio's active projects and work — series reception, buyers and platforms, development funds, labs and festival deadlines, Armenian and diaspora industry news, children's publishing, Wikipedia and knowledge-panel work — and appends only genuinely new findings. Use when running or debugging the scheduled memory-refresh job, or when the user asks to pull fresh external information about the studio's projects into memory. Not for global content, platform or AI-tool trends (use trend-scout).
+description: Automated daily web research that keeps the memory files current (`memory/` in my-first-project; `~/.memory/` on a Mac) with facts about the studio's active projects and work — series reception, buyers and platforms, development funds, labs and festival deadlines, Armenian and diaspora industry news, children's publishing, Wikipedia and knowledge-panel work — and appends only genuinely new findings. Use when running or debugging the scheduled memory-refresh job, or when the user asks to pull fresh external information about the studio's projects into memory. Not for global content, platform or AI-tool trends (use trend-scout).
 metadata:
   version: 1.4.0
 ---
@@ -84,7 +84,14 @@ python3 .claude/skills/auto-learn/auto-learn.py --mode promote --test
 tail -50 .claude/skills/auto-learn/auto-learn.log
 ```
 
-## Launchd Schedule
+## Cloud schedule (cloud-only since 2026-11-26)
+A cloud scheduled task runs this once a week (Tuesday). In Cloud there is no Tavily key, so the
+session does the research itself with its web tools, following the beats and the noise filter
+above, and appends only new findings to `memory/project-memory.md` / `memory/long-term-memory.md`
+in the repo (format: "Output Format" below), then commits and pushes to main. The script can
+also run against the repo copy: `MEMORY_DIR=memory python3 .claude/skills/auto-learn/auto-learn.py`.
+
+## Launchd Schedule (archived, old Mac)
 
 These LaunchAgents ran on the old Mac and are not installed on the new one yet; the
 new-Mac setup recreates them.

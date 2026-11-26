@@ -58,12 +58,17 @@ Platform/AI: `playbook.md` · `carousel-template.md` · `ai-pipeline.md` · `gro
    is now stale (model version, platform spec, market number), correct it.
    Station files live in the zavod-om repo (`tsiradeghyan-creator/zavod-om`, folder
    `skills/zavod-craft/`); make the edit there and push it there. Never edit the
-   `.claude/skills/content-zavod/` snapshot in my-first-project: the laptop sync overwrites it.
+   `.claude/skills/content-zavod/` snapshot first: edit the canon, push it, then copy the changed
+   files into the snapshot in my-first-project so both match (in Cloud, attach the repo with
+   `add_repo` and clone it if it is not checked out).
 5. **Glyph gate** the touched files (`python` homoglyph scan, must be CLEAN).
-6. **Log + scoreboard** — update `scoreboard.md` (below) and the wiki
-   ([[zavod-craft-audit-2026-06]] lineage; append a dated `## [date] scout | <station>` to
-   the vault `log.md`). Note any change that needs Ani's call (rights, budget) as a flagged
+6. **Log + scoreboard** — update `scoreboard.md` (below) and add a dated line to NOTES.md (the Obsidian vault log was on
+   the old Mac and is retired). Note any change that needs Ani's call (rights, budget) as a flagged
    proposal instead of an auto-apply.
+
+## Schedule (cloud-only since 2026-11-26)
+A cloud scheduled task runs this once a week (Saturday). The old Mac runner is retired;
+`scripts/zavod-scout-run.sh` is kept only as an archive.
 
 ## Escalation (don't auto-apply these)
 Things that cost money, sign rights, or change brand identity → write a one-line proposal in

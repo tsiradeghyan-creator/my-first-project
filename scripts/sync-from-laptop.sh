@@ -1,4 +1,5 @@
 #!/bin/bash
+# ARCHIVED 2026-11-26: Tigran works cloud-only now; kept only in case a Mac is used again. See CLAUDE.md.
 # Daily laptop -> GitHub sync for the shared workspace (VS Code <-> Cloud).
 # Copies ~/.memory, ~/.claude/skills-library and the zavod canon snapshots into
 # this repo, scans the staged diff for secrets, and pushes to main only if

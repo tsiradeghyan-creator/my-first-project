@@ -1,3 +1,5 @@
+> **Archived 2026-11-26:** Tigran chose cloud-only (no local setup). Use this only if a Mac setup is needed again.
+
 Նոր Mac-ի կարգավորում. սկզբում գործարկիր սկրիպտը առանց `--apply`, ստուգիր, հետո՝ `--apply`։
 
 # New Mac checklist
