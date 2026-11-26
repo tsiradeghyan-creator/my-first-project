@@ -1,0 +1,107 @@
+# Sources: Cristian Mungiu
+
+101 sources (100 web, 1 pdf), 157,926 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+
+Format: id | title | url | date | words
+
+- S001 | Cannes 2022 Interview: Cristian Mungiu / Film Comment | https://www.filmcomment.com/cannes-2022-interview-cristian-mungiu-rmn/ | 2022-05 | 1872
+- S002 | As Close As Possible to Reality: An Interview with Cristian Mungiu | https://mubi.com/notebook/posts/as-close-as-possible-to-reality-an-interview-with-cristian-mungiu | 2017-04-06 | 3124
+- S003 | Interview: Director Cristian Mungiu on the sound design of Graduation | https://seventh-row.com/2017/06/01/cristian-mungiu-sound-graduation/ | 2017-06-01 | 2588
+- S005 | Cristian Mungiu on the Poetics of the Camera, Being Inspired by Life Rather than Cinema, and ‘Graduation’ | https://thefilmstage.com/features/cristian-mungiu-on-the-poetics-of-the-camera-being-inspired-by-life-rather-than-cinema-and-graduation/ | 2017-04-07 | 4748
+- S006 | Cristian Mungiu on Palme d’Or Glory, Gaspar Noé’s ‘Climax,’ and the Romanian New Wave | https://thefilmstage.com/cristian-mungiu-on-palme-dor-glory-gaspar-noes-climax-and-the-romanian-new-wave | 2018-12-19 | 1948
+- S007 | Cristian Mungiu on Fjörd, Family, Sebastian Stan, and the State of the World | https://thefilmstage.com/cristian-mungiu-on-fjord-family-sebastian-stan-and-the-state-of-the-world | 2025-10-22 | 2054
+- S008 | “I’m Not Defending Any Ideology”: Cristian Mungiu on Fjord | https://thefilmstage.com/im-not-defending-any-ideology-cristian-mungiu-on-fjord/ | 2026-10-08 | 3204
+- S009 | R.M.N. Is an Explosive Drama About Xenophobia in Rural Romania | https://www.anothermag.com/design-living/15127/rmn-cristian-mungiu-interview | 2023-09-22 | 1287
+- S010 | Director Cristian Mungiu Talks About Xenophobia and the Dangers of “Politically Correct” Filmmaking - High On Films | https://www.highonfilms.com/cristian-mungiu-interview-r-m-n-xenophobia/ | 2023-04-29 | 3397
+- S011 | Interview: Cristian Mungiu on Romania's Lost Generation and Going "Beyond the Hills" - The Moveable Fest | https://moveablefest.com/cristian-mungiu-beyond-the-hills-interview | 2013-03-05 | 2799
+- S012 | Beyond the Hills: Christian Mungiu interview | https://www.sbs.com.au/whats-on/article/beyond-the-hills-christian-mungiu-interview/zopc6unbx | 2013-08-08 | 1063
+- S013 | Interview: Christian Mungiu, Director of Beyond the Hills | https://thefader.com/2013/03/11/interview-christian-mungiu-director-of-beyond-the-hills | 2013-03-11 | 1498
+- S014 | Cristian Mungiu - Screen Comment | https://screencomment.com/2012/07/cristian-mungiu-interview/ | 2012-07-12 | 931
+- S015 | Interview: Cristian Mungiu (4 months, 3 Weeks and 2 Days) - IONCINEMA.com | https://www.ioncinema.com/?p=17379 | 2008-01-25 | 3670
+- S017 | 'Graduation': Cristian Mungiu on 'Preserving Life's Ambiguity' with Realist Cinema | https://nofilmschool.com/2016/10/graduation-cristian-mungiu-interview | 2016-10-17 | 4082
+- S018 | Romania’s new wave Palme d’Or winner returns | https://www.dazeddigital.com/artsandculture/article/35472/1/graduation-film-cristian-mungiu-interview | 2017-04-12 | 1217
+- S019 | Graduation (Bacalaureat) director Cristian Mungiu in conversation on Cannes, wild dogs, and the UK - Eye For Film | https://www.eyeforfilm.co.uk/feature/2017-03-28-graduation-bacalaureat-director-cristian-mungiu-in-conversation-on-cannes-wild-dogs-and-the-uk-feature-story-by-anne-katrin-titze | 2017-03-28 | 1818
+- S020 | Cristian Mungiu in conversation on Graduation (Bacalaureat) - Eye For Film | https://www.eyeforfilm.co.uk/feature/2017-02-13-cristian-mungiu-in-conversation-on-graduation-bacalaureat-feature-story-by-anne-katrin-titze | 2017-02-13 | 2286
+- S021 | Cristian Mungiu: We’re a Country of Decent Folks Who Sidestep the Law | https://www.scena9.ro/en/article/cristian-mungiu-were-a-country-of-decent-folks-who-sidestep-the-law | 2016-05 | 2352
+- S022 | INTERVIEW WITH CRISTIAN MUNGIU | https://artsmania.ca/2016/11/13/interview-with-cristian-mungiu/ | 2016-11-13 | 3385
+- S023 | Conversations: Cristian Mungiu - Salon.com | https://www.salon.com/2008/01/29/mungiu/ | 2008-01-29 | 278
+- S024 | "It is always the other who is guilty, never us": Movie "R.M.N." examines what drives xenophobia | https://www.salon.com/2023/04/28/rmn-christian-mungiu | 2023-04-28 | 2804
+- S025 | Cristian Mungiu's amazing true stories | https://www.theglobeandmail.com/arts/film/cristian-mungius-amazing-true-stories/article1214887/ | 2010-10-13 | 898
+- S026 | Palme-d'Or winner remembers life in Romania under Nicolae Ceausescu | https://www.straight.com/node/47808 | 2007-10-31 | 832
+- S027 | Would you believe? | https://www.irishtimes.com/culture/film/would-you-believe-1.1325904 | 2013-03-15 | 1292
+- S028 | RMN: Palme d’Or winner Cristian Mungiu on his powerful Transylvanian tale of migrants and bears | https://www.irishtimes.com/culture/film/2023/09/21/rmn-palme-dor-winner-cristian-mungiu-on-his-powerful-transylvanian-tale-of-migrants-and-bears | 2023-09-21 | 1500
+- S029 | The last word on the 'golden age' | https://www.irishtimes.com/culture/film/the-last-word-on-the-golden-age-1.764429 | 2009-10-31 | 1803
+- S030 | Film Director Cristian Mungiu | https://theartsdesk.com/film-director-cristian-mungiu | 2009-10 | 1631
+- S031 | East is best / Hotpress | https://hotpress.com/culture/east-is-best-5933836 | 2009-10-29 | 1129
+- S032 | Pregnant Pause | https://www.clevescene.com/?p=185456 | 2008-02-06 | 1944
+- S033 | Romanian director Cristian Mungiu on his film 'R.M.N.' | https://www.npr.org/2023/05/06/1174468814/romanian-director-cristian-mungiu-on-his-film-r-m-n | 2023-05-06 | 1356
+- S034 | Cristian Mungiu: ‘I Pass as Being Radical in the States, but Here I’m Very Mainstream’ | https://ca.news.yahoo.com/cristian-mungiu-pass-being-radical-173046426.html | 2023-04-28 | 1233
+- S035 | Empathy and fear, the present and human nature: interview with director Cristian Mungiu / Part 1 - United World Project | https://www.unitedworldproject.org/en/watch/empathy-and-fear-the-present-and-human-nature-interview-with-director-cristian-mungiu-part-1/ | 2023-07-11 | 1029
+- S036 | Cristian Mungiu Converses with the Press at the V FICM | https://moreliafilmfest.com/en/english-cristian-mungiu-converses-with-the-press-at-the-v-ficm | 2007-09-10 | 700
+- S037 | Cristian Mungiu talks about 4 Months, 3Weeks and 2 Days - Cinema Without Borders | https://cinemawithoutborders.com/1453-cristian-mungiu-talks-about-4-months-3weeks-and-2-days/ | 2008-01-27 | 2009
+- S038 | INTERVIEW: Cristian Mungiu: "I try not to follow the same formula twice" - Festival de Cannes | https://www.festival-cannes.com/en/2013/interview-cristian-mungiu-i-try-not-to-follow-the-same-formula-twice/ | 2013-05-16 | 778
+- S039 | Press Conference: “4 Months, 3 Weeks and 2 Days” - Festival de Cannes | https://www.festival-cannes.com/en/2007/press-conference-4-months-3-weeks-and-2-days/ | 2007-05-16 | 712
+- S040 | Press conference with the team of Cristian Mungiu's Graduation - Festival de Cannes | https://www.festival-cannes.com/en/2016/press-conference-with-the-team-of-cristian-mungiu-s-graduation/ | 2016-05-19 | 437
+- S041 | Cristian Mungiu shares his doubts and compromises in Baccalaureat (Graduation) - Festival de Cannes | https://www.festival-cannes.com/en/2016/cristian-mungiu-shares-his-doubts-and-compromises-in-baccalaureat-graduation/ | 2016-05-19 | 347
+- S042 | Interview with Cristian Mungiu, President of the Cinéfondation and Short Films Jury - Festival de Cannes | https://www.festival-cannes.com/en/2017/interview-with-cristian-mungiu-president-of-the-cinefondation-and-short-films-jury/ | 2017-05-28 | 889
+- S043 | Director Cristian Mungiu discusses <em>R.M.N.</em> | https://www.dga.org/events/2023/august2023/gcs_rmn_0723 | 2023-07-06 | 408
+- S044 | Ethics, Memory, and the Responsibility of Storytelling: Notes on Cristian Mungiu’s Masterclass at the Venice Film Festival: Caligari | https://caligari.com.ar/en/ethics-memory-and-the-responsibility-of-storytelling-notes-on-cristian-mungius-masterclass-at-the-venice-film-festival/ | 2025-09 | 1133
+- S045 | Cristian Mungiu: "I try to talk about human nature, but without imposing my own conclusions" | https://www.seminci.com/en/2022/semincis-authors/cristian-mungiu-i-try-to-talk-about-human-nature-but-without-imposing-my-own-conclusions/ | 2022-10-27 | 910
+- S046 | Film Comment: Prophet Without Honor (Harlan Jacobson interview, Nov-Dec 2012) | https://talkcinema.com/wp-content/uploads/2024/07/Mungiu.pdf | 2012-11 | 1681
+- S047 | Fjord: Interview with Romanian Director Cristian Mungiu (Cannes Film Fest 2026) | https://emanuellevy.com/interviews/fjord-interview-with-romanian-director-cristian-mungiu-cannes-film-fest-2026/ | 2026-05 | 2089
+- S048 | Cristian Mungiu on his controversial Palme d'Or winner Fjord: The Skinny | https://www.theskinny.co.uk/film/interviews/cristian-mungiu-on-fjord | 2026-11-09 | 924
+- S049 | Cristian Mungiu on Fjord: “We need to keep our freedom to express doubts on any kind of issues, including the sensitive ones” | https://nordiskfilmogtvfond.com/news/stories/cristian-mungiu-on-fjord-we-need-to-keep-our-freedom-to-express-doubts-on-any-kind-of-issues-including-the-sensitive-ones | 2026-05-19 | 1529
+- S050 | Writer/Director Cristian Mungiu on “Fjord” and the High Cost of Living Inside Political Echo Chambers | https://www.motionpictures.org/2026/10/writer-director-cristian-mungiu-on-fjord-and-the-high-cost-of-living-inside-political-echo-chambers/ | 2026-10-22 | 1626
+- S051 | 'Fjord,' Cristian Mungiu's Palme d'Or winner, strikes a nerve while asking questions of progressives | https://www.news4jax.com/entertainment/2026/10/07/fjord-cristian-mungius-palme-dor-winner-strikes-a-nerve-while-asking-questions-of-progressives/ | 2026-10-07 | 1102
+- S052 | Cristian Mungiu tells The Guardian: ‘We make too many films that tell us who is right.’ On Fjord, communism and intolerance | https://spotmedia.ro/en/news/leisure/cristian-mungiu-tells-the-guardian-we-make-too-many-films-that-tell-us-who-is-right-on-fjord-communism-and-intolerance | 2026-11-06 | 880
+- S053 | How a Romanian and Norwegian crew joined forces for Cristian Mungiu's ‘Fjord' | https://www.screenglobalproduction.com/news/2026/06/19/how-romanian-norwegian-crew-joined-forces-cristian-mungiu-film-fjord | 2026-06-19 | 793
+- S055 | Cristian Mungiu Calls for Structural Changes in Romanian Film Industry - FilmNewEurope.com | https://filmneweurope.com/news/romania-news/item/127965-cristian-mungiu-calls-for-structural-changes-in-romanian-film-industry | 2026-06-04 | 696
+- S056 | After second Palme d'Or, Mungiu says Romanian cinema still struggles for state funding - AGERPRES | https://agerpres.ro/english/2026/05/25/after-second-palme-d-or-mungiu-says-romanian-cinema-still-struggles-for-state-funding--1559532 | 2026-05 | 2619
+- S057 | Cristian Mungiu brings “Fjord” to romanian audiences earlier | https://www.mediafax.ro/english/cristian-mungiu-brings-fjord-to-romanian-audiences-earlier-23747125 | 2026-06-01 | 996
+- S058 | Director Cristian Mungiu, following his triumph at Cannes - Radio Romania International | https://www.rri.ro/en/news-and-current-affairs/today-in-the-news/director-cristian-mungiu-following-his-triumph-at-cannes-id1024212.html | 2026-06-02 | 524
+- S059 | „Jaful secolului”, filmul după un scenariu scris de regizorul Cristian Mungiu, în cinematografe, din această primăvară | https://www.euronews.ro/articole/interviu-cristian-mungiu-film-sebastian-stan-fjord-jaful-secolului | 2025-01-15 | 4297
+- S060 | „Caravana a devenit norma”. Cristian Mungiu critică lipsa sălilor de cinema din România | https://www.euronews.ro/articole/caravana-a-devenit-norma-cristian-mungiu-critica-lipsa-salilor-de-cinema-din-roma | 2026-06-01 | 774
+- S061 | Cristian Mungiu, despre noul său film, nominalizat la Cannes: „E făcut să te îndemne să te îndoiești din când în când de părerile tale” | https://www.digi24.ro/magazin/timp-liber/cultura/cristian-mungiu-despre-noul-sau-film-nominalizat-la-cannes-e-facut-sa-te-indemne-sa-te-indoiesti-din-cand-in-cand-de-parerile-tale-3722109 | 2026-04-11 | 1384
+- S062 | Cristian Mungiu critică lipsa de sprijin pentru filmul românesc: „Statul să îşi facă treaba. Medalii am deja” | https://www.digi24.ro/magazin/timp-liber/film/cristian-mungiu-critica-lipsa-de-sprijin-pentru-filmul-romanesc-statul-sa-isi-faca-treaba-medalii-am-deja-3784127 | 2026-05-24 | 1069
+- S063 | INTERVIU EXCLUSIV. „Fjord”, filmul lui Cristian Mungiu despre ruptura din societate: „Trăim un clivaj major” | https://observatornews.ro/exclusiv-observator/interviu-exclusiv-fjord-filmul-lui-cristian-mungiu-despre-ruptura-din-societate-traim-un-clivaj-major-653212.html | 2026-04-30 | 4340
+- S064 | Cristian Mungiu: Fondul cinematografic - subfinanțat, deoarece unele dintre fonduri nu sunt încasate | https://agerpres.ro/cultura-media/2026/06/01/cristian-mungiu-fondul-cinematografic---subfinantat-deoarece-unele-dintre-fonduri-nu-sunt-incasate--1561941 | 2026-06 | 1966
+- S065 | Cristian Mungiu: Le mulțumesc pentru acest „sănătos șut în fund”. • Newsweek România | https://newsweek.ro/cultura/cristian-mungiu-le-multumesc-pentru-acest-sanatos-sut-in-fund | 2025-10-29 | 1039
+- S066 | Cristian Mungiu : « L’exception culturelle française protège les... | https://www.cnc.fr/cinema/actualites/cristian-mungiu---lexception-culturelle-francaise-protege-les-artistes_890705 | 2018 | 618
+- S067 | Cristian Mungiu: "Daca nu facem fiecare dintre noi cate un efort cultural macar din cand in cand, o sa ne manelizam cu totul" - HotNews.ro | https://hotnews.ro/cristian-mungiu-daca-nu-facem-fiecare-dintre-noi-cate-un-efort-cultural-macar-din-cand-in-cand-o-sa-ne-manelizam-cu-totul-709489 | 2010-10-07 | 1063
+- S068 | VIDEO Cristian Mungiu: In ultimii ani, daca politicienii au inteles ceva este ca poti sa exprimi opinii despre orice, dar nu despre biserica - HotNews.ro | https://hotnews.ro/?p=620478 | 2012-10-30 | 1438
+- S069 | VIDEO Corespondenta de la Cannes. Interviuri cu Cristian Mungiu si Maria Dragus. Filmele romanesti continua sa fie favorite - HotNews.ro | https://hotnews.ro/?p=472200 | 2016-05-20 | 722
+- S071 | Corespondenta de la Cannes VIDEO Cristian Mungiu: Incerc sa nu critic pe nimeni - HotNews.ro | https://hotnews.ro/?p=638070 | 2012-05-19 | 1082
+- S072 | Actorii din "Dupa dealuri" despre Cristian Mungiu: "E unul dintre putinii regizori care isi vede premiera inainte de a da primul motor - HotNews.ro | https://hotnews.ro/?p=640831 | 2012-04-26 | 1121
+- S073 | Proiecte de Cristian Mungiu si Catalin Mitulescu au obtinut cele mai mari finantari de la Centrul National al Cinematografiei - HotNews.ro | https://hotnews.ro/?p=567004 | 2014-04-09 | 577
+- S074 | Avortati comunismul! - HotNews.ro | https://hotnews.ro/?p=821558 | 2007-06-07 | 613
+- S075 | Cannes 2026: Cristian Mungiu explică de ce l-a ras pe cap pe Sebastian Stan pentru rolul dramatic din „Fjord”, câștigător Palme d’Or. „Mai aproape de Mihai” - H | https://hotnews.ro/?p=2253892 | 2026-05-24 | 817
+- S076 | Sebastian Stan spune că noul său film l-a reconectat cu rădăcinile românești: „Am plecat într-un mod foarte haotic” - HotNews.ro | https://hotnews.ro/?p=2250291 | 2026-05-19 | 888
+- S077 | Cristian Mungiu, la întoarcerea în țară: „Avem niște șanse la Oscar”. Ce reproșează statului român - HotNews.ro | https://hotnews.ro/?p=2254290 | 2026-05-24 | 673
+- S078 | Cristi Mungiu explică „Fjord”, filmul cu care a luat Palme d’Or la Cannes: „Nu este o diferență atât de mare între fundamentalismul de dreapta și cel de stânga” | https://hotnews.ro/?p=2253846 | 2026-05-24 | 822
+- S079 | Cristian Mungiu, la Cannes: Palme d | https://adevarul.ro/stil-de-viata/cultura/cristian-mungiu-la-cannes-palme-dor-mi-a-1863549.html | 2018-05-12 | 523
+- S080 | INTERVIU Cristian Mungiu: „Nu avem șanse să fim pe o listă scurtă la Oscar” | https://www.cotidianul.ro/cristian-mungiu-interviu-cotidianul-lista-oscar/ | 2025-11-01 | 2935
+- S081 | De la povestea basarabeană a bunicii la țara în care intelectualii au fost deja înfrânți: "Individual, nu te împiedică nimeni să reușești. Ca societate, am rata | https://spotmedia.ro/stiri/politica/de-la-povestea-basarabeana-a-bunicii-la-tara-in-care-intelectualii-au-fost-deja-infranti-individual-nu-te-impiedica-nimeni-sa-reusesti-ca-societate-am-ratat-interviu-video-cu-cristian-mungiu | 2023-09-21 | 6344
+- S082 | Cristian Mungiu, în The Guardian: Facem prea multe filme care ne arată cine are dreptate. Despre „Fjord”, comunism și intoleranță | https://spotmedia.ro/stiri/timp-liber/cristian-mungiu-in-the-guardian-facem-prea-multe-filme-care-ne-arata-cine-are-dreptate-despre-fjord-comunism-si-intoleranta | 2026-11-06 | 979
+- S083 | Marele regizor român Cristian Mungiu ne cucereşte prin onestitate | https://www.financiarul.ro/2016/05/31/marele-regizor-roman-cristian-mungiu-ne-cucereste-prin-onestitate/ | 2016-05-31 | 587
+- S084 | Banii cinematografiei în 2012: „După dealuri” de Cristian Mungiu - Forbes.ro | https://www.forbes.ro/?p=52128 | 2013-03-21 | 505
+- S085 | Cristian Mungiu: „Am făcut un film care vorbește mai mult despre nevoia de a ne implica prin fapte, nu prin vorbe” - Forbes.ro | https://www.forbes.ro/?p=503088 | 2026-05-25 | 682
+- S086 | Cristian Mungiu, despre şansele filmului "Jaful Secolului" la Premiile Oscar: "În această competiţie apărem paraşutaţi cu un buget de promovare cât dau alţii pe | https://economedia.ro/?p=300954 | 2025-11-02 | 1180
+- S087 | Mungiu: Bugetul Ministerului Culturii raportat la PIB începe cu doi de 0. Singurul din Europa | https://observatornews.ro/eveniment/mungiu-bugetul-ministerului-culturii-raportat-la-pib-incepe-cu-doi-de-0-singurul-din-europa-656249.html | 2026-06-01 | 1630
+- S088 | Cristian Mungiu şi filmul său "După dealuri", elogiaţi în Le Figaro: Un film "al dracului de bun". Cinema-ul pare să fi fost creat pentru Mungiu | https://www.mediafax.ro/?p=10341228 | 2012-11-21 | 1294
+- S089 | EXCLUSIVE: Cristian Mungiu to Shoot Fjord in Norway with Sebastian Stan and Renate Reinsve - FilmNewEurope.com | https://filmneweurope.com/news/romania-news/item/126557-exclusive-cristian-mungiu-to-shoot-fjord-in-norway-with-sebastian-stan-and-renate-reinsve | 2025-01-30 | 686
+- S090 | FNE at Cannes Film Festival 2026: Cristian Mungiu’s Fjord Sold in Over 50 Territories - FilmNewEurope.com | https://filmneweurope.com/news/romania-news/item/127868-fne-at-cannes-film-festival-2026-cristian-mungiu-s-fjord-sold-in-over-50-territories | 2026-05-10 | 731
+- S091 | Cristian Mungiu holds a mirror up to humanity in R.M.N. - Festival de Cannes | https://www.festival-cannes.com/en/2022/cristian-mungiu-holds-a-mirror-up-to-humanity-in-r-m-n/ | 2022-05-21 | 733
+- S094 | ‘Of course, corruption is not good. But people are complex’ | https://www.irishtimes.com/culture/film/of-course-corruption-is-not-good-but-people-are-complex-1.3018924 | 2017-03-29 | 1239
+- S095 | Tall tales from Ceausescu era | https://www.irishtimes.com/culture/tall-tales-from-ceausescu-era-1.726927 | 2009-03-20 | 302
+- S096 | Cristian Mungiu : "Savoir ce qu'est le bien, ce qu'est le mal, est notre fardeau dans la vie" | https://www.lalibre.be/culture/cinema/2016/12/21/cristian-mungiu-savoir-ce-quest-le-bien-ce-quest-le-mal-est-notre-fardeau-dans-la-vie-QPAE5XNKUZCEJM6UEOELGZZ7EE/ | 2016-12-21 | 1425
+- S097 | Rencontre avec Cristian Mungiu et Cristina Flutur | https://www.timeout.fr/paris/films/rencontre-avec-cristian-mungiu | 2012-11-19 | 2298
+- S098 | Cannes 2012: Director Cristian Mungiu on Returning to the Fest With ‘Beyond the Hills’ | https://www.hollywoodreporter.com/movies/movie-news/cannes-film-festival-cristian-mungiu-beyond-hills-326591 | 2012-05-19 | 1285
+- S099 | Cristian Mungiu o la resurrección del cine rumano | https://es.rollingstone.com/cristian-mungiu-o-la-resurreccion-del-cine-rumano/ | 2023-07-26 | 1197
+- S101 | Cristian Mungiu (Cannes 2012) | https://unspokencinema.blogspot.com/2012/05/cristian-mungiu-cannes-2012.html | 2012-05-20 | 380
+- S102 | Behind the Scenes of BEYOND THE HILLS - interviews • Movies.ie - Irish Cinema Site | https://www.movies.ie/behind-the-scenes-of-beyond-the-hills/ | 2013-03-04 | 897
+- S103 | Sebastian Stan ‘rebonds’ with his Romanian past in family drama ‘Fjord’ | https://www.gulftoday.ae/culture/2026/05/21/sebastian-stan-rebonds-with-his-romanian-past-in-family-drama-fjord | 2026-05-21 | 748
+- S105 | Oppression and Abortion in Mungiu's '4 Months' | https://freshair.com/segments/oppression-and-abortion-mungius-4-months | 2008-02-07 | 8330
+- S107 | We speak to Cristian Mungiu about Universal Themes and his new film Graduation | https://www.flaunt.com/blog/we-speak-to-cristian-mungiu-about-universal-themes-and-his-new-film-graduation | 2017-04 | 1371
+- S108 | Interview: Cristian Mungiu, 'Beyond the Hills' | https://cine-vue.com/2013/06/interview-cristian-mungiu-beyond-the-hills.html | 2013-06-24 | 917
+- S109 | Cristian Mungiu on Beyond the Hills: East European Film Bulletin | https://eefb.org/interviews/on-beyond-the-hills/ | 2012-05 | 1170
+- S110 | Cristian Mungiu on his stark, stunning 'Beyond the Hills': San Francisco Bay Guardian Archive 1966: 2014 | https://sfbgarchive.48hills.org/?p=27452 | 2013-03-12 | 1421
