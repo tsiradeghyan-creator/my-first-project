@@ -1,5 +1,18 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (second blind grader + gpt-image refresh)
+**Did:**
+- Unblinded a second grader's votes (pasted by Tigran): with skills 10, without 4, tie 1; it agrees with our judge on 10 of 15. Both agree skills win on Seedance, film-crew multi-shot and most video. Disagreements are mostly banana-pro.
+- Checked OpenAI docs: GPT Image 2.5 (2026-09-08, Flare/Sunburst) and 2.6 exist, transparency is supported on 2.5 and a preview on 2, gpt-image-1 shut down 2026-10-23. gpt-image-prompting updated in zavod-om and mirrored.
+- banana-pro: compositing plates neutral.
+- film-crew: reads `projects/` and project memory for locked character facts, and offers a non-generative route when it fits better.
+
+**Left:**
+- Brand-original visual ideas for Maghakian promos.
+- A character bible per project.
+- Real generations.
+- Tigran's title policy (overlay vs rendered).
+
 ## 2026-11-26 — Cloud (eval losses fixed and re-tested)
 **Did:**
 - Fixed the 3 eval losses:

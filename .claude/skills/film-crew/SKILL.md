@@ -51,6 +51,12 @@ so the axis holds") — no note ping-pong.
 
 ## Step 0 — producer intake (`00_brief.md`)
 
+Before planning, look for what the studio already decided about this project: its folder in `projects/`
+(concept, gates, character notes) and `memory/project-memory.md`. Locked facts there (a character's age, look,
+role, the period, the place) win over guesses, so the same character stays the same across tasks. If a job is
+better done without generation (a colour isolation, a crop, a text overlay on an existing photo), say so and
+offer that route first.
+
 Lock, and state every assumption:
 
 - **What:** idea / logline / script pages / existing scene, and the deliverable (scene, short, trailer, ad, MV).
@@ -143,7 +149,8 @@ For one still or one clip with no cuts. It runs before any single image or video
 decided by the crew, not by the prompt alone.
 
 1. **Producer brief** in a few lines: what it is, format (aspect ratio, duration for video), target model, style
-   lens if any.
+   lens if any. Check `projects/` and `memory/project-memory.md` for locked facts about the characters and world
+   first (see Step 0).
 2. **One compact pass**, a line or two per department:
    - Director: the beat and what it means, in 1-2 lines.
    - Production design and costume: the set, key props and the locked character look.

@@ -63,3 +63,23 @@
 - What is left is a policy choice. The skill leaves the Armenian title out of the image, as clean space for an overlay, because AI image models often break Armenian letters (the studio's glyph rule). The judge prefers rendering the title in the image.
 - The judge also liked shaping each kid from the meaning of the names (Մտմտիկ = the thinker, Պրպտիկ = the digger). This is a small improvement to add.
 - Decision for Tigran: overlay the Armenian title, or try rendering it with a fallback.
+
+## Second blind grader (another AI agent, pasted by Tigran, all 15 tasks, original runs)
+
+- **Unblinded:** with skills wins 10, without wins 4, 1 tie. It agrees with the model judge on 10 of 15 tasks.
+- **Both graders agree skills win:** S1, S2, S3 (Seedance), F1, F2 (film-crew multi-shot), G1, G3, C2, C3.
+- **Disagreements cluster on:**
+  - banana-pro: B1, B2, B3;
+  - G2, the transparency fact;
+  - C1.
+
+**Actions taken after this review (2026-11-26):**
+- **G2:** the grader was right that "gpt-image-2 returns 400 for transparent" was outdated; per OpenAI's reference, transparency is a preview on gpt-image-2 and supported on the 2.5 models. The check also found that the skill did not know GPT Image 2.5 (released 2026-09-08, Flare and Sunburst) or 2.6, and that gpt-image-1 shut down on 2026-10-23. Fixed in the zavod-om canon and mirrored.
+- **B3:** both graders faulted grain and grade baked into a compositing plate. banana-pro now keeps compositing plates neutral.
+- **Character continuity across tasks** (flagged as critical): film-crew Step 0 now reads `projects/` and `memory/project-memory.md` for locked character facts first.
+- **Generation vs post:** film-crew now offers a non-generative route first when it fits better (e.g. G3's colour isolation in Photoshop).
+
+**Still open:**
+- Brand originality: F1 used stock film imagery (pen, clapper).
+- A persistent character bible file per project.
+- Real generations to test images and videos rather than prompts.

@@ -676,6 +676,7 @@ Mid-gray seamless studio backdrop applied uniformly across all six panels — ev
 Two flavors:
 
 - **3A — Character-in-environment plate:** placing one or more locked characters into a fully realized environment. Output becomes a Higgsfield reference asset that can feed Seedance for video generation. Camera language matches the cinema mode the eventual video will use.
+- **3B for compositing:** when the user says the plate is for compositing, keying or later layering, keep it neutral so post can match it: flat, even exposure, no film grain, no vignette, no bloom or diffusion, no colour grade, and leave clean space where people will be placed. State the key-light direction so the actor shoot can match it. The cinema-prose look applies to finished frames, not to compositing plates.
 - **3B — Pure environment plate:** no characters in frame. Pure location, lighting, atmosphere, set dressing. Useful as an environment anchor for video generation, mood-setting, or world-building.
 
 **Goal:** A single still that captures the world (and the character, when present) and the camera grammar — as if a cinematographer locked off and grabbed a photo on the same camera package mid-take.
