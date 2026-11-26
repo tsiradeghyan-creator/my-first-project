@@ -132,3 +132,31 @@ Either film-crew gets a short single-shot mode and all prompt skills defer to it
 3. Run the calm-wording and trigger cleanup on MED items.
 4. Delete or fold the candidates.
 5. Run real evals (`claude plugin eval --ablation with-without`, or skill-creator) on the top 5 skills: seedance-25-director, film-crew, gpt-image-prompting, banana-pro, cinema-worldbuilder.
+
+## 6. Fix pass, 2026-11-26 (Cloud): status
+
+Tigran chose **option A**: film-crew got a short single-shot mode, and every prompt skill now runs film-crew first and takes its plan as input.
+
+**HIGH items fixed:**
+
+| # | Fix | Check |
+|---|---|---|
+| 1 | maghakian-brand: new palette, «Maghakian Scripts», 48 / 2,300+ / since 2016, signature wordmark with the logo file paths | |
+| 2 | content-zavod: same brand fixes, router fallback, film-crew line, Sora and DALL·E 3 retired | Fixed in the zavod-om canon (pushed to zavod-om main, `00f80f7` and `04c819d`) and mirrored here |
+| 3 | higgsfield: `seedance_2_5` added to the specs, so the linter preflight passes | `validate.py` ALL CHECKS PASSED (73 issues before) |
+| 4 | Seedance 2.5 is the default; 2.0 guides carry a "2.0 only" note | |
+| 5 | cinema-worldbuilder and shortfilm: 2.0 limits and Sora removed | |
+| 6 | gpt-image-prompting: transparent-background caveat | Fixed in the canon |
+| 7 | film-crew agents use the repo path | |
+| 8 | fal-ai-media: ids and parameters verified against fal.ai; official MCP `mcp-relay` with OAuth | |
+| 9 | agent-reach checks that its CLI is installed first | |
+| 10 | cli-hub path | |
+| 11 | zavod-scout and trend-scout: canon and output paths | zavod-scout frontmatter YAML repaired |
+
+**Still open:**
+- Scheduled jobs and keys must be rebuilt on the new computer (section 4).
+- Two projects are missing from the portfolio lists: the brand list has 46 of 48 and the zavod filmography has 47.
+- Hashtag `#MaghakianSWA` → `#MaghakianScripts`?
+- The «Խաղալիք» carousel pack keeps its own show palette.
+- The director-desk description is 1,365 characters, over the limit (MED).
+- Not yet done: the MED and LOW items, the deletions, and the real evals.

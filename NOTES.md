@@ -1,5 +1,20 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (fix pass: HIGH items from the skill audit)
+**Did:** Tigran chose option A: film-crew runs first for every visual or video prompt and now has a short single-shot mode. Fixed all HIGH items; status is in section 6 of `bridge/skill-audit-2026-11-26.md`:
+- maghakian-brand rebranded;
+- zavod canon fixed in zavod-om (pushed there) and mirrored into content-zavod and gpt-image-prompting;
+- higgsfield: Seedance 2.5 is the default, the linter knows `seedance_2_5`, and `validate.py` passes;
+- cinema-worldbuilder and shortfilm moved off Seedance 2.0 and Sora;
+- fal-ai-media ids verified;
+- film-crew agents use the repo path;
+- agent-reach, cli-hub, zavod-scout and trend-scout paths fixed.
+
+**Left:**
+- rebuild the scheduled jobs and keys on the new computer;
+- Tigran: the 2 missing portfolio projects, the hashtag, the «Խաղալիք» palette;
+- MED and LOW items, deletions and real evals.
+
 ## 2026-11-26 — Cloud (new computer + full skill audit)
 **Did:** Tigran replaced his laptop. Listed what must move to the new machine (folders, LaunchAgents, keys by name, MCP config, CLIs); the last laptop sync was 2026-11-23. Then ran a read-only audit of all 29 skills + 9 agents (5 parallel reviewers, HIGH findings re-checked by hand). Report: `bridge/skill-audit-2026-11-26.md`. Main HIGH items: maghakian-brand and content-zavod still use the old purple palette and old figures/name; higgsfield linter rejects `seedance_2_5` and ~20 places default to Seedance 2.0; cinema-worldbuilder/shortfilm use Seedance 2.0 limits and Sora; film-crew agents point to the old laptop path `~/.claude/skills/film-crew/`; fal-ai-media model ids are wrong; all scheduled jobs (auto-learn, trend-scout, zavod-scout, consolidate-memory, sync) are dead until rebuilt on the new machine. seedance-25-director, bab-production, studio, director-desk are current.
 **Left:** Tigran decides whether film-crew runs for single shots (CLAUDE.md rule vs every skill); then fix HIGH items (zavod fixes in zavod-om, not here); restore section 4 of the report on the new computer; then real evals on the top 5 skills. Still OPEN: BRIDGE C6.
