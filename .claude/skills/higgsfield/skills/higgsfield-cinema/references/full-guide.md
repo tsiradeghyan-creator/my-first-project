@@ -5,7 +5,9 @@
 This file preserves the original long-form craft doctrine that previously lived in `SKILL.md`.
 Read only the sections needed for the current request.
 
-# Higgsfield Cinema Studio 2.5
+# Higgsfield Cinema Studio
+
+> Covers Cinema Studio 2.5, 3.0 and 3.5. Cinema Studio 4.0 exists (verify live) and is not yet covered in this guide.
 
 ## QUICK FACTS
 *Generated-checked block (scripts/build_index.py verifies anchors). Read the linked sections for full context — these lines are routing aids, not the rules themselves.*

@@ -1,62 +1,20 @@
 ---
 name: higgsfield-cinema
-description: Higgsfield cinema craft guide for cinematic image/video direction, camera language, lighting, continuity, and realism checks. Use for cinematic Higgsfield outputs.
+description: "Higgsfield Cinema Studio guide (versions 2.5, 3.0 and 3.5; 4.0 exists, verify live): version detection, Elements, Soul Cast, genre/style/camera settings, the 512-character prompt cap, shot modes, color grading and output settings. Use when the user works in Cinema Studio or needs its settings for a planned shot."
+user-invocable: true
 metadata:
-  version: 1.1.0
+  version: 1.2.0
+  updated: 2026-11-26
+  parent: higgsfield
   architecture: progressive-disclosure
 ---
 
-# Higgsfield Cinema Studio 2.5
+# Higgsfield Cinema Studio
 
-This skill has been converted to progressive disclosure. The complete original craft guide is preserved in `references/full-guide.md`.
+Read the relevant sections of `references/full-guide.md` before giving final settings, prompts or steps; broad routing starts at the parent `higgsfield` skill.
 
-## When To Use
-
-Use this skill when the request specifically needs `higgsfield-cinema` knowledge inside a Higgsfield media workflow. For broad routing, start from the parent `higgsfield` skill; for final prompt or workflow instructions, read the full guide first.
-
-## Required Reference Loading
-
-Read `references/full-guide.md` before producing final prompts, model instructions, workflow steps, or QA decisions.
-
-For quick navigation, search the full guide for:
-
-- `Workflow`
-- `Prompt`
-- `Reference`
-- `Model`
-- `Quality`
-- `QA`
-- `Safety`
-- `Troubleshoot`
-
-## Operating Contract
-
-1. Identify the target output: image, video, audio, character, campaign asset, or pipeline handoff.
-2. Identify the target engine/model and do not assert time-sensitive capabilities unless they are current or verified in the active Higgsfield specs.
-3. Read only the relevant section of the full guide.
-4. Produce a concrete artifact: prompt, prompt repair, routing decision, checklist, or workflow.
-5. Include a short verification note tied to the requested artifact.
-
-## Output Contract
-
-Return the smallest useful complete result:
-
-- target engine/model or "not specified",
-- mode/workflow selected,
-- required references or inputs,
-- final prompt or actionable steps,
-- QA checks and unresolved risks.
-
-## Verification
-
-Before final answer:
-
-- prompt/workflow matches the selected mode,
-- required references are named in order,
-- model limits are not guessed when they matter,
-- safety-sensitive items are flagged,
-- expected output can be checked by the user or a later agent.
-
-## Safety Boundaries
-
-Do not spend credits, publish, modify accounts, approve rights/likeness/location/brand use, or claim a model capability as current without verification. Escalate those decisions to the user.
+- **For:** running shots in Cinema Studio: picking the version, Elements (@Characters/@Locations/@Props), Soul Cast, the settings strip, prompt limits and output controls. The guide covers 2.5, 3.0 and 3.5; Cinema Studio 4.0 exists and is not yet covered here, so verify its settings live.
+- **Use when:** the user names Cinema Studio, or a film-crew plan needs to be set up and run there. Ask which version they have before giving settings.
+- **Guide sections** (`references/full-guide.md`): Version Detection · The 10-Step Workflow · Elements System · Soul Cast · Color Grading · Optical Physics · Director Panel · Shot Modes · Reference Anchor System · Hero Frame · Prompt Character Limit (512) · Model Selection · Cinema Studio 3.0 · Cinema Studio 3.5 · Resolution Decision Matrix.
+- **Hands off to:** shot planning comes from `film-crew`, and prompt text from the model skill (`seedance-25-director` for Seedance 2.5); identity locks to `higgsfield-soul`; multi-shot formatting to `higgsfield-shotlist-director`.
+- **Limits:** do not spend credits, publish, change accounts or approve rights/likeness use without the user's go-ahead; verify time-sensitive model facts against `../../specs/` or live before stating them.

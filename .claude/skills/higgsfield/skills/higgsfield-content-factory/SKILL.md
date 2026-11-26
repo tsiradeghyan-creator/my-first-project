@@ -5,11 +5,13 @@ user-invocable: true
 metadata:
   tags: [higgsfield_content_factory, higgsfield, workflow, verification]
   version: 3.1.0
-  updated: 2026-08-25
+  updated: 2026-11-26
   parent: higgsfield
 ---
 
 # Higgsfield Content Factory
+
+**Routing:** multi-format production (posts, carousels, reels, scripts, films) lives in `content-zavod`; this sub-skill covers only running a campaign's generations on Higgsfield.
 
 Concise entrypoint for this Higgsfield sub-skill. The complete older playbook is preserved in `references/full-guide.md`.
 

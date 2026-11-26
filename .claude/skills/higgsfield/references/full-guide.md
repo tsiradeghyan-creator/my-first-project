@@ -132,7 +132,7 @@ budget constraints, client work), **confirm before generating:**
 |------------|----------|
 | User unsure which workspace/tool fits, or asks "what should I use for X" | `higgsfield-workspaces` |
 | Write or improve a prompt | `film-crew` first (single-shot mode for one shot), then the model skill; `higgsfield-prompt` + relevant sub-skills for Higgsfield platform specifics |
-| Develop a character / world / story / premise before prompting, build a character sheet / story bible, lock a visual style ("visual DNA"), keep a character consistent across many shots, or "I keep getting generic AI characters" | `higgsfield-character-design` |
+| Higgsfield character sheet, Soul ID / Soul Cast plan, lock a character's visual style ("visual DNA"), keep a character consistent across many shots, or "I keep getting generic AI characters" (story or series development → `ani-screenwriting-workflow`; production decisions → `bab-production`) | `higgsfield-character-design` |
 | Cinematic still image prompt (shot framing, angles) | `higgsfield-image-shots` |
 | GPT Image 2.0 / gpt-image-2 prompt, UI mockup, infographic, character/reference sheet, layout-dense image, or static-ad recreation | `higgsfield-gpt-image-2` |
 | Choose the right model | `higgsfield-models` |
@@ -152,7 +152,7 @@ budget constraints, client work), **confirm before generating:**
 | Artistic style transformation, preset stacking | `higgsfield-mixed-media` |
 | Higgsfield Assist (GPT-5 copilot) | `higgsfield-assist` |
 | Credit optimization, plan selection, budget strategy | `higgsfield-assist` |
-| Cinema Studio 2.5 / Cinema Studio 3.0 / Cinema Studio 3.5 / multi-shot sequence workflow / Soul Cast | `higgsfield-cinema` |
+| Cinema Studio 2.5 / 3.0 / 3.5 / 4.0 (4.0 not yet covered by the guide; verify live) / Cinema Studio settings for a film-crew shot plan / Soul Cast | `higgsfield-cinema` |
 | Optical physics, camera bodies, lenses, Hero Frame | `higgsfield-cinema` |
 | Elements system (@Characters/@Locations/@Props) | `higgsfield-cinema` |
 | Director Panel, Speed Ramp, shot modes, Popcorn | `higgsfield-cinema` |
@@ -180,7 +180,7 @@ budget constraints, client work), **confirm before generating:**
 | Seedance 2.0 / Pro prompt, flagged prompt, credit waste on Seedance | `higgsfield-seedance` |
 | **Transform footage the user already has** (video-to-video): "make a Seedance prompt for this video/clip", add a VFX element (set my head/hair on fire, transform my hand, make a limb invisible), swap the world/background around a preserved subject (desert, clouds, lava, neon city), put a giant creature behind me or on a landmark, relight/regrade to match, sync a crash-zoom/push-in to a line — a **real source clip** is the starting point | `higgsfield-seedance-vfx` |
 | Precise facial expression / FACS / Action Unit codes (AU12, AU6…), forced or uncanny or mixed expression, close-up micro-performance, monologue/dialogue facial acting, "which AU code for anger/fear", FACS reference sheet | `higgsfield-facs` |
-| "Make a shotlist", break a script/brief/treatment into many connected Seedance prompts, director's shotlist, global style prefix + `@`-glossary + named per-scene prompts as one editable HTML | `higgsfield-shotlist-director` |
+| Format an existing `film-crew` plan as a Higgsfield shotlist: global style prefix + `@`-glossary + named per-scene prompts and settings as one editable HTML (planning the shots themselves → `film-crew` first) | `higgsfield-shotlist-director` |
 | User has Higgsfield CLI / MCP / bundled skills installed and asks how this skill works alongside them | `higgsfield-stack` |
 | User mentions `higgsfield auth login`, `higgsfield generate create`, `mcp.higgsfield.ai/mcp`, `/higgsfield:generate`, or asks "do I need both" | `higgsfield-stack` |
 | User asks where the prompt construction ends and the CLI/MCP execution begins (handoff questions) | `higgsfield-stack` |
@@ -195,7 +195,7 @@ The routing table says *where*; this says *how much*. Loads are cumulative — e
 |-----------|------|
 | Simple creative prompt (Fast Path) | root `SKILL.md` + `skills/higgsfield-prompt/SKILL.md` — nothing else |
 | Any Seedance prompt | + `skills/higgsfield-seedance/SKILL.md` (+ the matching `templates/seedance/` file when the request is technique-shaped) |
-| Multi-scene / sequence / script breakdown | + `higgsfield-shotlist-director` + `higgsfield-pipeline` |
+| Multi-scene / sequence / script breakdown | `film-crew` plans it first; then + `higgsfield-shotlist-director` (format) + `higgsfield-pipeline` |
 | Model choice unclear or contested | + `higgsfield-models` + `specs/` (the generated spec for the output type) |
 | User reports a generation result | + `higgsfield-recall` (ledger write) |
 | Budget / credits / plan question | + `higgsfield-assist` |
@@ -345,14 +345,14 @@ Result. Ratios and budgeting: `skills/higgsfield-assist/SKILL.md`.
 | `higgsfield-motion` | Named preset requests (Explosion, Werewolf, VFX, etc.) |
 | `higgsfield-style` | Visual style / aesthetic questions |
 | `higgsfield-soul` | Character consistency / Soul ID |
-| `higgsfield-character-design` | Pre-production story bible — premise / world / 9-question character / story spine / visual DNA (before prompting) |
+| `higgsfield-character-design` | Higgsfield character sheet, visual DNA and Soul ID plan for a consistent character (before prompting) |
 | `higgsfield-apps` | One-click app recommendations |
 | `higgsfield-recipes` | Genre scene templates |
 | `higgsfield-troubleshoot` | Failed generations / quality issues |
 | `higgsfield-moodboard` | Moodboard / Soul Hex / project-level style consistency |
 | `higgsfield-mixed-media` | Artistic preset overlays (Noir, Sketch, Particles, etc.) |
 | `higgsfield-assist` | Higgsfield Assist copilot / credit optimization / plan selection |
-| `higgsfield-cinema` | Cinema Studio 2.5 + 3.0 + 3.5 / Soul Cast / color grading / optical physics / multi-shot / Elements / Smart mode / @ references / Style Settings / Camera Settings / Manual Style |
+| `higgsfield-cinema` | Cinema Studio 2.5 + 3.0 + 3.5 (4.0 exists, verify live) / Soul Cast / color grading / optical physics / multi-shot / Elements / Smart mode / @ references / Style Settings / Camera Settings / Manual Style |
 | `higgsfield-marketing-studio` | Marketing Studio / DTC Ads / ad video / UGC video / Hyper Motion / TV Spot / Wild Card / Pro Virtual Try On / hook + setting picklists / 4–15s ad video / `marketing_studio_video` MCP / cross-surface workflow |
 | `higgsfield-content-factory` | Campaign pipeline (research → plan → generate → publish → report) / UGC-first 5-format mix / batch generation gate / Meta Ads scheduling / cost-savings report |
 | `higgsfield-canvas` | Node-based Canvas workspace / infinite board / chain prompts→images→videos / named canvas patterns / build-free generate-paid cost model / Shared Canvas live collaboration |
@@ -363,7 +363,7 @@ Result. Ratios and budgeting: `skills/higgsfield-assist/SKILL.md`.
 | `higgsfield-audio` | Audio design, dialogue, SFX, ambient sound for audio-capable models |
 | `higgsfield-seedance` | Seedance 2.0 / Pro prompt director + content-filter preflight linter (linter also covers Seedance 2.5; for 2.5 prompt syntax use `seedance-25-director`) |
 | `higgsfield-seedance-vfx` | Video-to-video footage transformation, written for Seedance 2.0 (for new work use Seedance 2.5, verify live) — preserve a real subject + camera move, add a VFX element / swap the environment / drop a photoreal creature / relight to match / sync a timed zoom, run in std 4K |
-| `higgsfield-shotlist-director` | Brief/script → one connected Seedance shotlist (style prefix + `@`-glossary + named per-scene prompts) as editable HTML |
+| `higgsfield-shotlist-director` | Formats a `film-crew` plan into one connected Higgsfield shotlist (style prefix + `@`-glossary + named per-scene prompts and settings) as editable HTML |
 | `higgsfield-facs` | FACS Action Unit codes for precise facial expressions, written for Seedance 2.0 (for new work use Seedance 2.5, verify live) — forced/uncanny/mixed expressions, close-up dialogue facial acting, emotion→AU recipes, FACS reference sheets |
 | `higgsfield-stack` | User mentions the Higgsfield CLI / MCP connector / bundled skills, or asks how this skill coexists with those execution surfaces |
 

@@ -5,11 +5,13 @@ user-invocable: true
 metadata:
   tags: [higgsfield_gpt_image_2, higgsfield, workflow, verification]
   version: 3.1.0
-  updated: 2026-08-25
+  updated: 2026-11-26
   parent: higgsfield
 ---
 
 # Higgsfield GPT Image 2
+
+**Routing:** prompt craft for GPT Image lives in `gpt-image-prompting`; this sub-skill covers only running it on Higgsfield (model choice, settings, credits, the run).
 
 Concise entrypoint for this Higgsfield sub-skill. The complete older playbook is preserved in `references/full-guide.md`.
 

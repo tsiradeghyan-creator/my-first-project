@@ -36,13 +36,7 @@ anchors instead of archaeology. Link format: `path#anchor`.
 
 ## skills/higgsfield-audio/SKILL.md
 
-- [Higgsfield Audio Prompting Guide](skills/higgsfield-audio/SKILL.md#higgsfield-audio-prompting-guide)
-  - [When To Use](skills/higgsfield-audio/SKILL.md#when-to-use)
-  - [Required Reference Loading](skills/higgsfield-audio/SKILL.md#required-reference-loading)
-  - [Operating Contract](skills/higgsfield-audio/SKILL.md#operating-contract)
-  - [Output Contract](skills/higgsfield-audio/SKILL.md#output-contract)
-  - [Verification](skills/higgsfield-audio/SKILL.md#verification)
-  - [Safety Boundaries](skills/higgsfield-audio/SKILL.md#safety-boundaries)
+- [Higgsfield Audio](skills/higgsfield-audio/SKILL.md#higgsfield-audio)
 
 ## skills/higgsfield-camera/SKILL.md
 
@@ -85,13 +79,7 @@ anchors instead of archaeology. Link format: `path#anchor`.
 
 ## skills/higgsfield-cinema/SKILL.md
 
-- [Higgsfield Cinema Studio 2.5](skills/higgsfield-cinema/SKILL.md#higgsfield-cinema-studio-25)
-  - [When To Use](skills/higgsfield-cinema/SKILL.md#when-to-use)
-  - [Required Reference Loading](skills/higgsfield-cinema/SKILL.md#required-reference-loading)
-  - [Operating Contract](skills/higgsfield-cinema/SKILL.md#operating-contract)
-  - [Output Contract](skills/higgsfield-cinema/SKILL.md#output-contract)
-  - [Verification](skills/higgsfield-cinema/SKILL.md#verification)
-  - [Safety Boundaries](skills/higgsfield-cinema/SKILL.md#safety-boundaries)
+- [Higgsfield Cinema Studio](skills/higgsfield-cinema/SKILL.md#higgsfield-cinema-studio)
 
 ## skills/higgsfield-content-factory/SKILL.md
 
@@ -105,12 +93,6 @@ anchors instead of archaeology. Link format: `path#anchor`.
 ## skills/higgsfield-facs/SKILL.md
 
 - [Higgsfield FACS Director](skills/higgsfield-facs/SKILL.md#higgsfield-facs-director)
-  - [When To Use](skills/higgsfield-facs/SKILL.md#when-to-use)
-  - [Required Reference Loading](skills/higgsfield-facs/SKILL.md#required-reference-loading)
-  - [Operating Contract](skills/higgsfield-facs/SKILL.md#operating-contract)
-  - [Output Contract](skills/higgsfield-facs/SKILL.md#output-contract)
-  - [Verification](skills/higgsfield-facs/SKILL.md#verification)
-  - [Safety Boundaries](skills/higgsfield-facs/SKILL.md#safety-boundaries)
 
 ## skills/higgsfield-gpt-image-2/SKILL.md
 
@@ -123,23 +105,11 @@ anchors instead of archaeology. Link format: `path#anchor`.
 
 ## skills/higgsfield-image-shots/SKILL.md
 
-- [Higgsfield Cinematic Image Prompting](skills/higgsfield-image-shots/SKILL.md#higgsfield-cinematic-image-prompting)
-  - [When To Use](skills/higgsfield-image-shots/SKILL.md#when-to-use)
-  - [Required Reference Loading](skills/higgsfield-image-shots/SKILL.md#required-reference-loading)
-  - [Operating Contract](skills/higgsfield-image-shots/SKILL.md#operating-contract)
-  - [Output Contract](skills/higgsfield-image-shots/SKILL.md#output-contract)
-  - [Verification](skills/higgsfield-image-shots/SKILL.md#verification)
-  - [Safety Boundaries](skills/higgsfield-image-shots/SKILL.md#safety-boundaries)
+- [Higgsfield Cinematic Image Shots](skills/higgsfield-image-shots/SKILL.md#higgsfield-cinematic-image-shots)
 
 ## skills/higgsfield-marketing-studio/SKILL.md
 
 - [Higgsfield Marketing Studio](skills/higgsfield-marketing-studio/SKILL.md#higgsfield-marketing-studio)
-  - [When To Use](skills/higgsfield-marketing-studio/SKILL.md#when-to-use)
-  - [Required Reference Loading](skills/higgsfield-marketing-studio/SKILL.md#required-reference-loading)
-  - [Operating Contract](skills/higgsfield-marketing-studio/SKILL.md#operating-contract)
-  - [Output Contract](skills/higgsfield-marketing-studio/SKILL.md#output-contract)
-  - [Verification](skills/higgsfield-marketing-studio/SKILL.md#verification)
-  - [Safety Boundaries](skills/higgsfield-marketing-studio/SKILL.md#safety-boundaries)
 
 ## skills/higgsfield-mixed-media/SKILL.md
 
@@ -195,22 +165,10 @@ anchors instead of archaeology. Link format: `path#anchor`.
 ## skills/higgsfield-pipeline/SKILL.md
 
 - [Higgsfield Production Pipeline](skills/higgsfield-pipeline/SKILL.md#higgsfield-production-pipeline)
-  - [When To Use](skills/higgsfield-pipeline/SKILL.md#when-to-use)
-  - [Required Reference Loading](skills/higgsfield-pipeline/SKILL.md#required-reference-loading)
-  - [Operating Contract](skills/higgsfield-pipeline/SKILL.md#operating-contract)
-  - [Output Contract](skills/higgsfield-pipeline/SKILL.md#output-contract)
-  - [Verification](skills/higgsfield-pipeline/SKILL.md#verification)
-  - [Safety Boundaries](skills/higgsfield-pipeline/SKILL.md#safety-boundaries)
 
 ## skills/higgsfield-prompt/SKILL.md
 
 - [Higgsfield Prompt Engineering](skills/higgsfield-prompt/SKILL.md#higgsfield-prompt-engineering)
-  - [When To Use](skills/higgsfield-prompt/SKILL.md#when-to-use)
-  - [Required Reference Loading](skills/higgsfield-prompt/SKILL.md#required-reference-loading)
-  - [Operating Contract](skills/higgsfield-prompt/SKILL.md#operating-contract)
-  - [Output Contract](skills/higgsfield-prompt/SKILL.md#output-contract)
-  - [Verification](skills/higgsfield-prompt/SKILL.md#verification)
-  - [Safety Boundaries](skills/higgsfield-prompt/SKILL.md#safety-boundaries)
 
 ## skills/higgsfield-recall/SKILL.md
 
@@ -233,13 +191,7 @@ anchors instead of archaeology. Link format: `path#anchor`.
 
 ## skills/higgsfield-seedance/SKILL.md
 
-- [Higgsfield Seedance Director](skills/higgsfield-seedance/SKILL.md#higgsfield-seedance-director)
-  - [When To Use](skills/higgsfield-seedance/SKILL.md#when-to-use)
-  - [Required Reference Loading](skills/higgsfield-seedance/SKILL.md#required-reference-loading)
-  - [Operating Contract](skills/higgsfield-seedance/SKILL.md#operating-contract)
-  - [Output Contract](skills/higgsfield-seedance/SKILL.md#output-contract)
-  - [Verification](skills/higgsfield-seedance/SKILL.md#verification)
-  - [Safety Boundaries](skills/higgsfield-seedance/SKILL.md#safety-boundaries)
+- [Higgsfield Seedance Director (Seedance 2.0)](skills/higgsfield-seedance/SKILL.md#higgsfield-seedance-director-seedance-20)
 
 ## skills/higgsfield-seedance-vfx/SKILL.md
 
@@ -254,7 +206,7 @@ anchors instead of archaeology. Link format: `path#anchor`.
 ## skills/higgsfield-shotlist-director/SKILL.md
 
 - [Higgsfield Shotlist Director](skills/higgsfield-shotlist-director/SKILL.md#higgsfield-shotlist-director)
-  - [Required Reference](skills/higgsfield-shotlist-director/SKILL.md#required-reference)
+  - [Where it sits](skills/higgsfield-shotlist-director/SKILL.md#where-it-sits)
   - [Operating Contract](skills/higgsfield-shotlist-director/SKILL.md#operating-contract)
   - [Output Contract](skills/higgsfield-shotlist-director/SKILL.md#output-contract)
   - [Verification](skills/higgsfield-shotlist-director/SKILL.md#verification)
@@ -263,12 +215,6 @@ anchors instead of archaeology. Link format: `path#anchor`.
 ## skills/higgsfield-soul/SKILL.md
 
 - [Higgsfield Soul ID — Character Consistency](skills/higgsfield-soul/SKILL.md#higgsfield-soul-id-character-consistency)
-  - [When To Use](skills/higgsfield-soul/SKILL.md#when-to-use)
-  - [Required Reference Loading](skills/higgsfield-soul/SKILL.md#required-reference-loading)
-  - [Operating Contract](skills/higgsfield-soul/SKILL.md#operating-contract)
-  - [Output Contract](skills/higgsfield-soul/SKILL.md#output-contract)
-  - [Verification](skills/higgsfield-soul/SKILL.md#verification)
-  - [Safety Boundaries](skills/higgsfield-soul/SKILL.md#safety-boundaries)
 
 ## skills/higgsfield-stack/SKILL.md
 

@@ -15,7 +15,7 @@ Read only the sections needed for the current request.
 - Build in 8 passes: Concept → Project script → Scene breakdown → Shot list → Image prompts → Video prompts → Review → Fix [→](#step-10-build-the-project-in-passes)
 - Use the EXACT same character description (copy-paste) in every Popcorn prompt — continuity without Soul ID [→](#stage-1-storyboard-with-popcorn)
 - Seedream edits the image, not the video — always edit the Hero Frame before animating, never after [→](#stage-2-image-editing-with-seedream)
-- Model by scene type: Sora 2 for stunts/epic ("one continuous shot, no cuts"), Kling 2.6 portraits, Seedance quiet interiors [→](#stage-3-animate-by-scene-type)
+- Model by scene type: Seedance 2.5 or Veo 3.1 for stunts/epic ("one continuous shot, no cuts"; Sora closed 2026-09), Kling 2.6 portraits, Seedance quiet interiors [→](#stage-3-animate-by-scene-type)
 - Recast swaps identity while preserving motion, camera, and lighting; the "prompt" is the reference image you upload [→](#stage-4-recast-character-swap)
 - Audio routing: existing video + speech → Lipsync Studio; new content with audio → Kling 3.0; talking head → Kling Avatars 2.0 [→](#stage-5-lipsync-audio)
 - Higgsfield has no native timeline editor — assemble in DaVinci Resolve / Premiere / CapCut [→](#stage-8-assembly)
@@ -399,7 +399,7 @@ branded content, and any multi-shot sequence that needs character continuity:
 ```
 [1] POPCORN          → Storyboard / key frame images (consistent character + framing)
 [2] SEEDREAM / SOUL  → Edit / style the image (transform appearance, fix details)
-[3] ANIMATE          → Bring the image to motion (Veo 3.1 / Seedance / Sora 2 / Kling)
+[3] ANIMATE          → Bring the image to motion (Veo 3.1 / Seedance 2.5 / Kling)
 [4] RECAST           → Swap character if needed (maintain motion, change identity)
 [5] LIPSYNC          → Add audio performance (speech, sound, emotion)
 [6] VIBE MOTION      → Add motion graphic layers (titles, captions, CTAs)
@@ -491,10 +491,10 @@ Choose the animation model based on what the scene requires:
 | Scene type | Best model | Key prompt note |
 |------------|-----------|----------------|
 | Character emotional reaction | Veo 3.1 / Kling 2.6 | Lead with camera mount position |
-| Car/vehicle action | Veo 3.1 / Sora 2 | Specify camera mount explicitly |
-| Physical stunt / crash | Sora 2 | "One continuous shot, no cuts" |
+| Car/vehicle action | Veo 3.1 / Seedance 2.5 | Specify camera mount explicitly |
+| Physical stunt / crash | Seedance 2.5 (verify live) | "One continuous shot, no cuts" |
 | Quiet interior moment | Seedance / Kling 2.6 | Minimal motion, camera Dolly In |
-| Epic reveal / scale | Sora 2 | Crane Up or Super Dolly Out |
+| Epic reveal / scale | Seedance 2.5 / Veo 3.1 | Crane Up or Super Dolly Out |
 | Portrait / reaction close-up | Kling 2.6 | Head Tracking or Dolly In |
 
 **I2V animation prompt structure:**
@@ -523,7 +523,7 @@ Expression twists from curiosity to fear. Eyes dart wildly.
 He begins trembling and jerking his head, as if losing control.
 Claustrophobic tension. Handheld realism, shallow DOF, eerie silence."
 
-Scene 3 animation (Sora 2):
+Scene 3 animation (Seedance 2.5; this example was written for Sora 2, now closed):
 "A speeding sedan on an empty highway — camera tracking rig, low to ground.
 Air shimmers with heat. Car veers — front tire catches rough asphalt.
 The car lurches, tilts, flips violently through the air.
@@ -599,7 +599,6 @@ Run finished clips through Higgsfield's Topaz-integrated upscale before delivery
 - Upscale from 720p to 1080p or 4K
 - Sharpens detail lost in generation
 - Reduces generation artifacts
-- Use Sora 2 Upscale specifically for Sora 2 outputs
 
 ---
 

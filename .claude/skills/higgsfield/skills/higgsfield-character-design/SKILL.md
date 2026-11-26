@@ -1,11 +1,11 @@
 ---
 name: higgsfield-character-design
-description: "Pre-production story-and-character development for Higgsfield projects — the upstream layer that decides WHAT to prompt before any model runs. Use when the user wants to build a character, design a world, develop a story or premise, create a character sheet / character bible / story bible, lock a visual style or 'visual DNA', plan a multi-shot narrative with consistent characters, or says things like 'help me design a character', 'build the world', 'I need a backstory', 'make this character consistent across shots', 'develop my film/series concept', or 'I keep getting generic AI characters'. Routes the locked outputs into higgsfield-prompt + the right model. Adapted from Higgsfield's official character-design framework by @vavavinca."
+description: "Higgsfield character design: builds the character sheet, visual DNA (hex palette + forbidden list) and Soul ID / Soul Cast plan that keep one character consistent across Higgsfield generations, plus a cheap screen-test audition before paid scenes. Use when the user wants a Higgsfield character sheet, a Soul ID or Soul Cast identity, a locked visual style for a recurring character, or says 'make this character consistent across shots' or 'I keep getting generic AI characters'. Not for story or series development (use ani-screenwriting-workflow) or production decisions (use bab-production); multi-shot planning goes to film-crew. Adapted from Higgsfield's official character-design framework by @vavavinca."
 user-invocable: true
 metadata:
   tags: [higgsfield, character-design, story, worldbuilding, character-sheet, story-bible, visual-dna, pre-production, consistency, narrative]
-  version: 1.1.0
-  updated: 2026-07-05
+  version: 1.2.0
+  updated: 2026-11-26
   parent: higgsfield
 ---
 
@@ -13,31 +13,33 @@ metadata:
 
 The rest of this skill library answers *"how do I prompt this?"* This skill answers the question upstream of it: *"what am I prompting, and why this and not generic AI slop?"* It is the pre-production layer — premise, world, character, story, and a locked visual style — that you build **before** writing a single generation prompt, then hand off to `higgsfield-prompt` and the model guides.
 
+**Not for:** story or series development (loglines, bibles, episode outlines) goes to `ani-screenwriting-workflow`; production decisions (budget, greenlight, department calls) go to `bab-production`; planning a sequence of shots goes to `film-crew`. The premise, world and story steps below are kept short on purpose: they exist to give one character a consistent look on Higgsfield.
+
 > **Attribution.** The framework, worksheet structure, and the "world first" method are adapted from Higgsfield's official *Character Design* materials by **@vavavinca**. We reuse the *schemas and method*; all examples here are original. Credit Vinca when sharing.
 
 ## QUICK FACTS
 *Routing aids — read the linked sections for the actual method.*
-- **World first, always.** Lock the world before you cast a character; the world is the gravity that shapes who they have to become [→](#the-method-world-first)
+- **World first.** Lock the world before you cast a character; the world is the gravity that shapes who they have to become [→](#the-method-world-first)
 - Six steps, each locks an output you do not revisit: Premise → World → Character → Story Spine → Style Sheet → hand-off [→](#the-method-world-first)
 - The flagship artifact is the **9-Question Character Sheet** — thematic role, external/internal goal, psychological/moral need, wound, spark, silhouette, contradiction [→](#step-3-character-9-questions-the-web)
-- The strongest anti-slop tool is the **Forbidden List** in the Style Sheet — naming what the world is NOT is often more useful than the palette [→](#step-5-style-sheet-visual-dna-forbidden-list)
+- The strongest anti-slop tool is the **Forbidden List** in the Style Sheet — naming what the world is not is often more useful than the palette [→](#step-5-style-sheet-visual-dna-forbidden-list)
 - Specificity beats adjectives: if *any* character could say it, it's a stereotype; keep asking **"why?"** until the answer surprises you [→](#anti-generic-drills)
 - Fillable worksheets live in `../../templates/character-design/` — hand them to the user or fill them together [→](#templates)
 - Once the character **looks** right, don't jump to scenes — run a **screen test**: casting read → role options → playable lines → voice triggers → one audition prompt [EMPIRICAL] [→](#screen-test-audition)
-- This skill produces inputs; it does **not** generate. Hand the locked Visual DNA + character sheet to `higgsfield-prompt` [→](#step-6-hand-off-to-generation)
+- This skill produces inputs; it does **not** generate. Hand the locked Visual DNA + character sheet to `film-crew`, then the model skill and `higgsfield-prompt` [→](#step-6-hand-off-to-generation)
 
 ---
 
 ## The method: world first
 
-A world is **a system of constraints**. Decide what the world will not let a character do, and you have decided who they have to become. So the order is not negotiable — each step locks an output the later steps depend on, and you don't loop back to relitigate it:
+A world is **a system of constraints**. Decide what the world will not let a character do, and you have decided who they have to become. So the order matters: each step locks an output the later steps depend on, and you don't loop back to relitigate it:
 
 ```
 1. PREMISE      one arguable sentence, no characters yet
 2. WORLD        six dimensions, filled before anyone is cast
 3. CHARACTER    9 questions + a relationship web
-4. STORY SPINE  10–20 beats, "therefore / but", never "and then"
-5. STYLE SHEET  palette + lighting + materials + a FORBIDDEN list (the Visual DNA)
+4. STORY SPINE  10–20 beats, "therefore / but", not "and then"
+5. STYLE SHEET  palette + lighting + materials + a forbidden list (the Visual DNA)
 6. HAND OFF     feed the locked sheets into higgsfield-prompt + a model
 ```
 
@@ -56,13 +58,13 @@ One sentence, **no character names**. It states an arguable claim about people o
 3. **The counter-argument** — the opposing truth the story must honor, *or the theme is propaganda.* *"Some people are kept out no matter what they build."*
 4. **Emotional promise** — one word + one line. *"Defiance — the thrill of a door forced open."*
 
-**Pressure test (all five):** compresses to ONE sentence (no "and", no semicolon) · contains NO character names · is arguable · has a real counter-argument · names a feeling, not just an event.
+**Pressure test (all five):** compresses to one sentence (no "and", no semicolon) · contains no character names · is arguable · has a real counter-argument · names a feeling, not just an event.
 
 ---
 
 ## Step 2 — World Sheet (six dimensions)
 
-Fill **all six** before casting anyone (worksheet: `../../templates/character-design/world-sheet.md`). Each answer must be specific and must not change when characters arrive.
+Fill all six before casting anyone (worksheet: `../../templates/character-design/world-sheet.md`). Each answer must be specific and must not change when characters arrive.
 
 | Dimension | The question it answers | Original example |
 |-----------|-------------------------|------------------|
@@ -85,8 +87,8 @@ The framework's flagship artifact (worksheet: `../../templates/character-design/
 1. **Thematic role** — what they prove or disprove about the premise. *"That belonging can be built — he builds a crew out of other discards."*
 2. **External goal** — a specific, currently-impossible want. *"Buy the deed to a square meter of dry land before the next Surge season."*
 3. **Internal goal** — what reaching it would mean about themselves. *"Proof he's worth keeping, not just useful to keep around."*
-4. **Psychological need** — the flaw that hurts THEM. *"He treats every kindness as a debt he has to discharge before it's used against him."*
-5. **Moral need** — the flaw that hurts OTHERS. *"He recruits people for their use, then can't admit when he's done using them."*
+4. **Psychological need** — the flaw that hurts them. *"He treats every kindness as a debt he has to discharge before it's used against him."*
+5. **Moral need** — the flaw that hurts others. *"He recruits people for their use, then can't admit when he's done using them."*
 6. **Wound** — the specific past event that taught them the world hurts. *"At nine, watched his mother trade her water ration to a landlord who let her drown anyway."*
 7. **Spark** — the specific past event that taught them what to become. *"A stranger pulled him out of the tide and asked his name — the first person who wanted it."*
 8. **Silhouette** — what their shape says across a room. *"Always half-crouched at a doorway, weight on the back foot, ready to bolt or bargain."*
@@ -105,7 +107,7 @@ Characters reveal themselves in friction, never alone (worksheet: `../../templat
 Beat N: [character] [does / discovers / loses] [thing]. Result: [the next problem].
 ```
 
-Connect beats with **"therefore"** or **"but"** — never "and then" (that's a list, not a story). Mark the **Midpoint Turn**: which beat flips the premise against the lead. Stop when the premise is proven — don't pad to hit 20.
+Connect beats with "therefore" or "but" rather than "and then", because "and then" makes a list, not a story. Mark the **Midpoint Turn**: which beat flips the premise against the lead. Stop when the premise is proven — don't pad to hit 20.
 
 ---
 
@@ -120,9 +122,9 @@ Lock the look once, then inject it verbatim into every prompt (worksheet: `../..
 - **Age & proportion** — the build/era language for characters.
 - **Real-life refs** — 2–3 actors / paintings / films for the look (treat as *look* references, not identity to copy).
 
-**The Forbidden List is the most valuable field** — name what the world is **NOT**. It's often more useful than the palette and it's your strongest anti-slop lever:
+**The Forbidden List is the most valuable field**: name what the world is not. It's often more useful than the palette and it's your strongest anti-slop lever:
 
-> *NO generic flooded-city teal-and-orange. NO neon. NO pristine surfaces — everything is salt-scarred. NO clear blue sky. NO photoreal celebrity faces. NO pure-black shadows; use deep indigo instead.*
+> *No generic flooded-city teal-and-orange. No neon. No pristine surfaces; everything is salt-scarred. No clear blue sky. No photoreal celebrity faces. No pure-black shadows; use deep indigo instead.*
 
 This Visual DNA — hex palette + forbidden list — is what gets pasted into prompts to keep a series consistent. See `higgsfield-soul` (Soul HEX) and `higgsfield-style` for how the color lock is applied at generation time.
 
@@ -132,9 +134,9 @@ This Visual DNA — hex palette + forbidden list — is what gets pasted into pr
 
 This skill produces inputs; it does not generate. When the bible is locked, route forward:
 
-- **The prompt** → `higgsfield-prompt` (MCSLA structure). Inject the Visual DNA (hex + forbidden list) verbatim, and pull the subject from the character's Silhouette + Contradiction, the action from the relevant Story Spine beat.
+- **The prompt** → before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input; if a film-crew plan already exists, use it. The model skill then writes the final text, and `higgsfield-prompt` (MCSLA structure) adds the Higgsfield settings. Inject the Visual DNA (hex + forbidden list) verbatim, and pull the subject from the character's Silhouette + Contradiction, the action from the relevant Story Spine beat.
 - **The model** → `model-guide.md` / `image-models.md`. For a character who recurs across many shots, train a **Soul ID / Soul Cast** identity (`higgsfield-soul`) rather than re-rolling one-offs; for a single hero image that won't reappear, a one-off generation is fine.
-- **Multi-shot sequences** → `higgsfield-cinema` (Cinema Studio) for shot-by-shot continuity; the Story Spine beats become the shot list.
+- **Multi-shot sequences** → `film-crew`, which plans the shots (single-shot mode for one, full mode for several) and takes the locked sheets and Story Spine beats as input; `higgsfield-shotlist-director` then formats that plan for Higgsfield, and `higgsfield-cinema` covers Cinema Studio settings.
 - **Generic prompts get generic characters.** A thin prompt ("a young man's portrait, cyberpunk") cannot recover what the sheet would have supplied — the locked sheet is the difference between a function and a person on screen.
 
 ---
@@ -145,12 +147,12 @@ This skill produces inputs; it does not generate. When the bible is locked, rout
 
 The bible tells you who the character *is*; the generated stills tell you they *look* right. Neither tells you how they **move, speak, and react** — and that is what every scene generation you are about to pay for depends on. So before spending on real scenes, run one cheap audition video and watch the character *act*. This is the same thesis as `../../templates/ad-asset-prep.md`'s generate-many → **test-in-motion** → lock-the-winner loop, applied to a person instead of a product: consistent-looking is not the same as castable.
 
-Six steps, in order — the user chooses at step 5; never skip ahead to the final prompt:
+Six steps, in order. The user chooses at step 5, so wait for that choice before writing the final prompt:
 
 1. **Casting read.** Interpret the locked character sheet as casting material, not lore: presence, playable age range, status, inner wound, external mask, likely voice, likely movement. Pull straight from the 9 questions — Silhouette and Contradiction do most of the work here.
 2. **Role options (3–6).** Offer contrasting role types the character could be cast as — lead, antagonist, mentor, tragic hero, villain-with-restraint, silent presence… Each option must state **what the audition has to prove** ("can he menace without raising his voice?"). An option with nothing to prove is not an option.
-3. **Three audition lines.** Real scene dialogue with subtext, implying an off-camera reader, each playable more than one way. **Not trailer narration, not lore recitation** — if it sounds like a voice-over, it cannot be *acted*.
-4. **Three voice triggers.** Each is **≤3 comma-separated qualities** ("authoritative, grief, controlled") — a *how*, never the spoken line itself. The three must contrast with each other, not be synonyms.
+3. **Three audition lines.** Real scene dialogue with subtext, implying an off-camera reader, each playable more than one way. Avoid trailer narration and lore recitation: if it sounds like a voice-over, it cannot be *acted*.
+4. **Three voice triggers.** Each is up to 3 comma-separated qualities ("authoritative, grief, controlled"): a *how*, not the spoken line itself. The three must contrast with each other, not be synonyms.
 5. **The user picks** one role + one line + one trigger (blending is allowed — the blend still obeys ≤3 qualities).
 6. **One final audition prompt, under 3500 characters.** Build a playable scene, not a showcase:
    - **Simple setting** — the audition room, not the movie: one location, no spectacle competing with the face.
@@ -217,6 +219,7 @@ Fillable worksheets in `../../templates/character-design/` (hand them to the use
 ## Related skills
 - `higgsfield-prompt` — turns the locked sheet into an MCSLA generation prompt (the primary hand-off)
 - `higgsfield-soul` — Soul ID / Soul Cast for recurring-character consistency; Soul HEX for the palette lock
-- `higgsfield-cinema` — Cinema Studio multi-shot sequences; Story Spine → shot list
+- `film-crew` — plans multi-shot sequences from the Story Spine (run it before any prompt)
+- `higgsfield-cinema` — Cinema Studio settings for those shots
 - `higgsfield-style` — applying the Visual DNA / forbidden list at generation time
 - `model-guide.md` · `image-models.md` — picking the model for the character/scene

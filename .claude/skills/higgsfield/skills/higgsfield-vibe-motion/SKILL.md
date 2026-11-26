@@ -5,10 +5,13 @@ user-invocable: true
 metadata:
   tags: [higgsfield_vibe_motion, routing, verification, workflow]
   version: 3.1.0
-  updated: 2026-08-25
+  updated: 2026-11-26
+  parent: higgsfield
 ---
 
 # Higgsfield Vibe Motion
+
+**Routing:** code-driven motion (React / Remotion compositions) lives in `remotion-video-creation`; this sub-skill covers Higgsfield's Vibe Motion tool.
 
 This concise entrypoint routes the task and defines the contract. The complete older playbook is preserved in `references/full-guide.md`.
 

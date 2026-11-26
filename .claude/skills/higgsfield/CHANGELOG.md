@@ -8,6 +8,13 @@
 - **Sora 2 closed:** OpenAI ended the Sora app and API (API ended 2026-09-24); removed as a recommendation in `higgsfield-models` and the root guide.
 - **validate.py** reads routing, the sub-skill roster and HARD RULES from `references/full-guide.md` as well as root SKILL.md; missing `user-invocable` / `metadata.parent` / `metadata.updated` on sub-skills are now warnings.
 
+### Changed (MED pass, same day)
+- **Calmer wording, clearer lanes.** `higgsfield-character-design` 1.2.0: shouty caps and "never/not negotiable" phrasing restated calmly; triggers narrowed to Higgsfield character sheets, Soul ID and character consistency, with a "Not for" line (story or series development → `ani-screenwriting-workflow`, production decisions → `bab-production`); the multi-shot handoff and the prompt handoff now go to `film-crew` first. `higgsfield-shotlist-director` 1.2.0 is reframed as the formatter that turns a `film-crew` plan into a Higgsfield shotlist with settings (SKILL.md, full-guide description, workflow step 1). Routing rows and roster in `references/full-guide.md` and `scripts/sub_skill_descriptions.py` updated to match.
+- **`higgsfield-stack`** (updated 2026-11-26): the prompt comes from `film-crew` and the model skill, not from "our skill"; the old "don't call `model list`" rule now says to check the live model list when the specs snapshot is older than ~30 days or the model is new (matches HARD RULE 3).
+- **Routing notes on duplicates:** `higgsfield-gpt-image-2` → `gpt-image-prompting`, `higgsfield-vibe-motion` → `remotion-video-creation`, `higgsfield-content-factory` → `content-zavod`, `higgsfield-image-shots` → `banana-pro-director-2.0`.
+- **Nine boilerplate wrappers** (audio, cinema, facs, image-shots, marketing-studio, pipeline, prompt, seedance, soul) 1.2.0: the generic "search the full guide for `Workflow`…" body is replaced by a short contract (what it is for, when to use it, the guide's key sections, what it hands off to); frontmatter gains `user-invocable`, `metadata.parent` and `metadata.updated`. `higgsfield-cinema` is retitled "Cinema Studio" (the guide covers 2.5–3.5; Cinema Studio 4.0 exists, verify live). The pipeline contract flags the guide's Sora 2 picks as outdated.
+- **Note:** `.github/workflows/` (`validate.yml`, `spec-drift.yml`) inside this skill folder never runs, because GitHub only reads workflows at the repository root. Left in place; run `scripts/validate.py`, pytest and `sync_specs.py --check` by hand.
+
 ## Unreleased (local) — 2026-10-29
 
 ### Changed

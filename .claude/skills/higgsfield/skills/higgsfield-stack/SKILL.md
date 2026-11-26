@@ -5,7 +5,7 @@ user-invocable: true
 metadata:
   tags: [higgsfield, stack, cli, mcp, official-skills, coexistence, handoff, environment]
   version: 1.2.1
-  updated: 2026-05-18
+  updated: 2026-11-26
   parent: higgsfield
 ---
 
@@ -15,7 +15,7 @@ metadata:
 
 "The Higgsfield stack" means Higgsfield's own official execution tooling: their command-line interface (CLI), their custom MCP connector for claude.ai and the Claude desktop app, and their three bundled skills (`higgsfield-generate`, `higgsfield-soul`, `higgsfield-product-photoshoot`). Any one of those tools — or any combination — may be present in the user's environment alongside this prompt skill. This sub-skill documents how the two surfaces coexist, what each one owns, and how a clean handoff looks.
 
-The core principle is a layer split. This skill is the prompt-construction + production-discipline layer: MCSLA structure, named platform vocabulary, model selection criteria, Seedance preflight, Cinema Studio depth, Soul Character Anchor Block, Two-Tool Refinement Pipeline guidance, anti-bombast register, shared negative constraints. Their stack is the execution layer: authentication, file uploads, job submission, polling, retries, returning a result URL. Different jobs, no overlap. Our skill never invokes their CLI; their stack never invents prompt logic. The user gets one prompt from us and one execution path from them.
+The core principle is a layer split. This skill is the prompt-construction + production-discipline layer: MCSLA structure, named platform vocabulary, model selection criteria, Seedance preflight, Cinema Studio depth, Soul Character Anchor Block, Two-Tool Refinement Pipeline guidance, anti-bombast register, shared negative constraints. Their stack is the execution layer: authentication, file uploads, job submission, polling, retries, returning a result URL. Different jobs, no overlap. Our skill never submits jobs through their CLI (read-only checks such as `model list` / `model get` are fine); their stack never invents prompt logic. The user gets one prompt from us and one execution path from them.
 
 ---
 
@@ -122,17 +122,17 @@ EXECUTION SURFACE (one of):
 RESULT
 ```
 
-The prompt always comes from us. The execution always comes from one of the four surfaces above. Nothing crosses the boundary in either direction.
+The prompt comes from the studio's prompt chain (`film-crew` first, then the model skill). The execution comes from one of the four surfaces above. Nothing crosses the boundary in either direction.
 
 ---
 
 ## Coexistence rules
 
-1. **Our skill always produces the prompt.** Regardless of which execution surface the user has installed, prompt construction is this skill's job. MCSLA structure, named-vocabulary discipline, anti-bombast register, and the negative-constraints appendage all stay in our lane. If their bundled skill or their MCP tool wants a `--prompt` string, that string is our output, not theirs.
+1. **The prompt comes from our chain, not from their tools.** Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input; the model skill (`seedance-25-director`, `banana-pro-director-2.0`, `cinema-worldbuilder-pro-2.0`, …) then writes the final text, and this skill adds the Higgsfield-specific settings (model choice, presets, parameters, preflight). If a film-crew plan already exists, use it. Whichever execution surface the user has installed, MCSLA structure, named-vocabulary discipline, the calm register and the negative-constraints appendage stay on our side. If their bundled skill or their MCP tool wants a `--prompt` string, that string is our output, not theirs.
 
-2. **Their skills, CLI, and MCP never produce the prompt logic.** Do not let `higgsfield-generate` or any MCP tool invent prompts on its own. If it offers to generate prompt text from a brief, route the brief through our skill first, then pass the resulting prompt down.
+2. **Their skills, CLI, and MCP never produce the prompt logic.** Do not let `higgsfield-generate` or any MCP tool invent prompts on its own. If it offers to generate prompt text from a brief, route the brief through `film-crew` and the model skill first, then pass the resulting prompt down.
 
-3. **Do not duplicate their model-list call.** Their CLI exposes `higgsfield model list --json`. This skill maintains its own curated model-selection criteria in `../../model-guide.md` and `../../image-models.md`. Do not shell out to `model list` from this skill — the curation is the value. If the user needs ground-truth current model IDs (e.g., a new model just shipped), point them to their CLI; do not try to keep our files in sync at runtime.
+3. **Curated guides for choosing, the live list for checking.** Their CLI exposes `higgsfield model list --json`. This skill keeps its own model-selection criteria in `../../model-guide.md` and `../../image-models.md`, and `../../specs/model-specs.yaml` holds a dated snapshot of parameters. Use the curation to choose a model. Check the live model list (`higgsfield model list --json`, `higgsfield model get <model>`, or `models_explore` over MCP) when the specs snapshot is older than ~30 days or the model is new, as the router's HARD RULE 3 asks. Record what you verified; do not rewrite the guides at runtime.
 
 4. **Do not bypass their CLI by calling `api.higgsfield.ai` directly.** This is a hard rule. Auth, uploads, retries, polling, and rate-limit handling are non-trivial and live inside their CLI. This skill never shell-curls the API or writes code that calls the API directly. If the user has the CLI, route through it; if not, the user pastes into higgsfield.ai by hand.
 

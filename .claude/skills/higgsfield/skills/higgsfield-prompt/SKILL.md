@@ -1,62 +1,20 @@
 ---
 name: higgsfield-prompt
-description: Higgsfield prompt router for production-grade image/video prompt composition, prompt QA, engine adaptation, and model-specific constraints. Use for Higgsfield prompt writing or prompt repair.
+description: "Higgsfield prompt settings and repair: the MCSLA layers, prompt types, length targets, identity-vs-motion split, iteration and diagnostic rules, and engine constraints. Use to adapt a planned prompt to Higgsfield or to fix a Higgsfield prompt that misfires."
+user-invocable: true
 metadata:
-  version: 1.1.0
+  version: 1.2.0
+  updated: 2026-11-26
+  parent: higgsfield
   architecture: progressive-disclosure
 ---
 
 # Higgsfield Prompt Engineering
 
-This skill has been converted to progressive disclosure. The complete original craft guide is preserved in `references/full-guide.md`.
+Read the relevant sections of `references/full-guide.md` before giving final settings, prompts or steps; broad routing starts at the parent `higgsfield` skill.
 
-## When To Use
-
-Use this skill when the request specifically needs `higgsfield-prompt` knowledge inside a Higgsfield media workflow. For broad routing, start from the parent `higgsfield` skill; for final prompt or workflow instructions, read the full guide first.
-
-## Required Reference Loading
-
-Read `references/full-guide.md` before producing final prompts, model instructions, workflow steps, or QA decisions.
-
-For quick navigation, search the full guide for:
-
-- `Workflow`
-- `Prompt`
-- `Reference`
-- `Model`
-- `Quality`
-- `QA`
-- `Safety`
-- `Troubleshoot`
-
-## Operating Contract
-
-1. Identify the target output: image, video, audio, character, campaign asset, or pipeline handoff.
-2. Identify the target engine/model and do not assert time-sensitive capabilities unless they are current or verified in the active Higgsfield specs.
-3. Read only the relevant section of the full guide.
-4. Produce a concrete artifact: prompt, prompt repair, routing decision, checklist, or workflow.
-5. Include a short verification note tied to the requested artifact.
-
-## Output Contract
-
-Return the smallest useful complete result:
-
-- target engine/model or "not specified",
-- mode/workflow selected,
-- required references or inputs,
-- final prompt or actionable steps,
-- QA checks and unresolved risks.
-
-## Verification
-
-Before final answer:
-
-- prompt/workflow matches the selected mode,
-- required references are named in order,
-- model limits are not guessed when they matter,
-- safety-sensitive items are flagged,
-- expected output can be checked by the user or a later agent.
-
-## Safety Boundaries
-
-Do not spend credits, publish, modify accounts, approve rights/likeness/location/brand use, or claim a model capability as current without verification. Escalate those decisions to the user.
+- **For:** the Higgsfield layer of a prompt: MCSLA structure (Model, Camera, Subject, Look, Action), length and one-action limits, the identity/motion split for Soul ID, and the one-variable iteration rule.
+- **Use when:** a prompt is headed for a Higgsfield model and needs its settings, or a Higgsfield result misfires and needs diagnosis. Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input. If a film-crew plan already exists, use it.
+- **Guide sections** (`references/full-guide.md`): The MCSLA Formula · Prompt Types · Narrative Structure · High-Performing Prompt Patterns · The Pre-Prompt Checklist · One Action Per Scene · Generic-Emotion Decomposition · Identity vs. Motion Separation · Conflict resolution between sub-skills · Common Prompt Mistakes · Systematic or Stochastic? · The Iteration Rule · Seedance 2.0 sections.
+- **Hands off to:** the model skill writes the final text (`seedance-25-director`, `banana-pro-director-2.0`, `cinema-worldbuilder-pro-2.0`); model choice to `higgsfield-models`; engine detail to `higgsfield-seedance` (2.0) or `higgsfield-cinema`.
+- **Limits:** do not spend credits, publish, change accounts or approve rights/likeness use without the user's go-ahead; verify time-sensitive model facts against `../../specs/` or live before stating them.

@@ -1,6 +1,6 @@
 ---
 name: higgsfield-shotlist-director
-description: "Turns a brief, script, scene breakdown, treatment, or story idea into ONE connected director's shotlist for Seedance 2.0 — a single editable HTML artifact with a global Style Prefix, an @-asset glossary, and named per-scene prompts (1a, 1b, 2a…) each in Style → Characters → Scene → CUT 1..N form. Use whenever the user says 'make a shotlist', 'break this script into prompts', 'generate Seedance prompts for this ad/film', 'turn this brief into a shot list', 'director's shotlist', or wants many connected scene prompts rather than one. Also use to revise an existing shotlist (edit-once-propagates: 'change the style prefix everywhere', 'rewrite scene 4', 'split prompt 6'). Each prompt targets 15s; longer scenes split across 1a/1b/1c under one scene number."
+description: "Formats a film-crew shot plan into ONE connected Higgsfield shotlist — a single editable HTML artifact with a global Style Prefix, an @-asset glossary, and named per-scene prompts (1a, 1b, 2a…) each in Style → Characters → Scene → CUT 1..N form, plus per-scene Higgsfield settings. Use when a film-crew plan exists and the user says 'make a shotlist', 'turn this plan into Seedance prompts', 'director's shotlist', or wants to revise an existing shotlist (edit-once-propagates: 'change the style prefix everywhere', 'rewrite scene 4', 'split prompt 6'). Planning the shots belongs to film-crew. Each Seedance 2.0 prompt targets 15s; longer scenes split across 1a/1b/1c under one scene number."
 user-invocable: true
 metadata:
   tags: [higgsfield, seedance, seedance-2.0, shotlist, director, style-prefix, ad, commercial, artifact, html]
@@ -13,7 +13,9 @@ metadata:
 
 > Commands below use Seedance 2.0 (`seedance_2_0`). For new work, use Seedance 2.5 (`seedance_2_5`, verify live) and the `seedance-25-director` skill for prompt syntax.
 
-Turn a brief into **one connected shotlist** — not a pile of separate prompts.
+Turn a `film-crew` plan into **one connected shotlist** — not a pile of separate prompts.
+The shots themselves are planned by `film-crew` first (if no plan exists, run it
+and take its plan as input); this guide formats that plan for Higgsfield.
 The deliverable is a single editable HTML artifact the user opens in a browser,
 ticks scenes off as they shoot, and comes back to you to revise. This is the
 artifact-shaped workflow a fully-AI commercial actually runs on: lock a global
@@ -193,14 +195,16 @@ into the rest of the repo, which is the whole point:
 
 ## Workflow
 
-1. **Read the brief as a director, not a transcriber.** Find the dramatic shape —
-   where each scene turns, lands, and breathes.
+1. **Start from the film-crew plan.** Its shot order, beats and handoff contracts
+   are the dramatic shape. If there is no plan, run `film-crew` first; if the plan
+   has a gap, send it back there rather than inventing shots here.
 2. **Lock the Style Prefix.** Custom from the conversation, or the template
    default.
 3. **Build the `@`-glossary.** One entry per recurring asset; multi-state variants
    get their own locked entry.
-4. **Block the scenes.** Number them; decide how many 15s prompts each beat needs
-   (honest assessment — a 40s confession is `5a/5b/5c`).
+4. **Number the scenes** from the plan; decide how many prompts each beat needs
+   (15s per prompt on Seedance 2.0; Seedance 2.5 allows longer clips, see
+   `seedance-25-director`).
 5. **Write each prompt** in the per-scene law (Style → Characters → Scene → CUT
    1..N), in **English** even if the user wrote in another language.
 6. **Preflight every prompt** and flag high-risk shots.
@@ -287,8 +291,8 @@ scene number as a string):
 
 - `higgsfield-seedance` — the prompt grammar this skill emits (six-slot formula,
   Prompt-Craft Laws, Reference Roles, preflight linter, engine + failure modes)
-- `higgsfield-pipeline` — upstream multi-shot production planning the shotlist
-  slots into
+- `film-crew` — plans the shots this guide formats (run it first)
+- `higgsfield-pipeline` — production handoffs around the shotlist
 - `higgsfield-audio` — `@music_track` beat-sync + diegetic-only convention
 - `higgsfield-soul` — locked character sheets the `@`-glossary points at
 - `higgsfield-recall` — log kept/rejected take outcomes as you shoot the list
