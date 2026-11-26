@@ -52,3 +52,16 @@ Edit 2, օձիքը և դաշույնը.
 ```
 Edit this character sheet. Change only two things, in every panel where they appear. First, remove the bulky fur collar from the coat: the coat's neckline becomes a flat border of the same gold-woven lozenge band as the coat's front edges. Second, make the dagger a short straight dagger hanging vertically at his right hip from the belt, with a slim plain hilt and a small flat gold pommel, no round knob; in the detail panel his hand rests on this slim hilt. Keep everything else exactly the same: the face, hair, beard, diadem, clothing colours, lighting, gray backdrop and the layout of all six panels.
 ```
+
+---
+
+## Կողպված (2026-11-26)
+
+Edit 1-ից և 2-ից հետո ստացված թերթը Արշակ-թագավորի կանոնական ռեֆերենսն է։ Թերթի ֆայլը Տիգրանի մոտ է։ Կողպված է.
+- նեղ սպիտակ մետաքսե թագ՝ մեկ շարք մարգարիտով և երկու նեղ ժապավենով մեջքին;
+- խորը ծիրանի մետաքսե տունիկա՝ շրջանաձև նախշով և ոսկեգործ լոզանջե եզրերով;
+- բաց վերարկու՝ ոսկեզարդ եզրով, առանց մորթու;
+- ծիրանի տաբատ՝ ոսկե շերտով, մուգ կարմիր կոշիկներ;
+- կաշվե գոտի՝ քառակուսի թիթեղներով, կարճ դաշույն աջ ազդրին;
+- կարնելիանե կնիք-մատանի։
+Բանտարկյալ Արշակը և տարբեր տարիքները կառուցվում են այս թերթից՝ որպես դելտա։
