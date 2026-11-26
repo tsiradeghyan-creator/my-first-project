@@ -1,65 +1,103 @@
 # Sources: Jason Blum
 
-59 sources (54 web, 5 video), 114,752 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+97 sources (97 web), 173,002 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
 
 Format: id | title | url | date | words
 
-- S001 | With ‘Halloween,’ Blumhouse Crosses $4 Billion at Global Box Office | https://variety.com/2018/film/news/halloween-box-office-jason-blum-interview-1203019818 | 2018-11-06 | 1361
+- S001 | With ‘Halloween,’ Blumhouse Crosses $4 Billion at Global Box Office | https://variety.com/2018/film/news/halloween-box-office-jason-blum-interview-1203019818 | 2018-11-06 | 1331
 - S002 | Interview with horror Producer extraordinaire Jason Blum / Love Horror film reviews and news | https://lovehorror.co.uk/horror-features/32952/interview-with-horror-producer-extraordinaire-jason-blum/ | 2013-04-05 | 2128
 - S003 | The Craft Reboot Was "One of the Best Pitches I've Ever Heard" / Den of Geek | https://www.denofgeek.com/movies/the-craft-reboot-pitch-jason-blum | 2020-03-03 | 534
 - S004 | Forum Executive Conversation: Five Keys to Blumhouse's Success - Film Independent | https://www.filmindependent.org/blog/forum-executive-conversation-five-keys-to-blumhouses-success/ | 2015-10-26 | 1584
 - S005 | Jason Blum on 15 Years of Horror Hits, Losing ‘Texas Chainsaw,’ Reinventing ‘Saw’ and More | https://au.variety.com/2025/film/features/jason-blum-blumhouse-interview-28712 | 2025-10-08 | 2909
 - S006 | Jason Blum Says Jordan Peele ‘Has No Intention’ of Making a ‘Get Out’ Sequel | https://ca.news.yahoo.com/jason-blum-says-jordan-peele-185722608.html | 2020-02-22 | 514
-- S007 | ‘Happy Death Day 2U’ Producer Jason Blum Wants to Make 10 More ‘Halloween’ Movies | https://moviefone.com/news/happy-death-day-2u-jason-blum-interview | 2019-02-13 | 1772
-- S008 | In the FOXlight: 'Paranormal Activity' and 'Insidious' Producer Jason Blum Makes Movie Magic on a Tiny Budget | https://www.foxnews.com/entertainment/in-the-foxlight-paranormal-activity-and-insidious-producer-jason-blum-makes-movie-magic-on-a-tiny-budget | 2017-02-21 | 836
+- S007 | ‘Happy Death Day 2U’ Producer Jason Blum Wants to Make 10 More ‘Halloween’ Movies | https://moviefone.com/news/happy-death-day-2u-jason-blum-interview | 2019-02-13 | 1770
+- S008 | In the FOXlight: 'Paranormal Activity' and 'Insidious' Producer Jason Blum Makes Movie Magic on a Tiny Budget | https://www.foxnews.com/entertainment/in-the-foxlight-paranormal-activity-and-insidious-producer-jason-blum-makes-movie-magic-on-a-tiny-budget | 2017-02-21 | 828
 - S009 | Blumhouse: Minimizing Costs in the Film Industry: Sound Economics | https://blogs.pugetsound.edu/econ/?p=3186 | 2017-04-02 | 361
 - S010 | With A Little Magic, Small Budget Horror Films Pack A Big Punch | https://www.npr.org/transcripts/491984305 | 2016-08-30 | 1081
-- S011 | Jason Blum: A Brief History of Blumhouse | https://www.youtube.com/watch?v=jy7b1H1tsSk | 2021-10-09 | 736
-- S012 | 53. Jason Blum: The Business of Blumhouse | https://www.youtube.com/watch?v=VgscxYDQ7uM | 2022-08-15 | 9590
-- S013 | Jason Blum Talks Blumhouse Movie Slate, The Future Of Horror, and Appearing On Shark Tank | https://www.youtube.com/watch?v=YJNnw3j7sv4 | 2023-10-20 | 967
-- S014 | Jason Blum’s New EXORCIST Franchise, SPAWN Movie, More HALLOWEEN! Exclusive Interview! | https://www.youtube.com/watch?v=hRsOcwPVE8I | 2023-09-29 | 663
-- S015 | Building Blumhouse: A chat with Jason Blum / Walker Webcast with Willy Walker | https://www.walkerdunlop.com/webcast/building-blumhouse-chat-jason-blum | 2025-06-25 | 728
-- S016 | Walker Webcast: Jason Blum on the Blumhouse Model’s Success - Connect CRE | https://www.connectcre.com/stories/walker-webcast-jason-blum-on-the-blumhouse-models-success/ | 2023-10-18 | 824
-- S017 | Jason Blum At ‘The Big Screen Is Back’: “The Theatrical Moviegoing Experience Matters” Amid Industry’s Sea Of Change | https://www.yahoo.com/entertainment/jason-blum-big-screen-back-204626361.html | 2021-05-19 | 779
-- S018 | Jason Blum / The Ben Shapiro Show Sunday Special Ep. 87: Ben Shapiro: Rosetta | https://rosetta.to/u/benshapiro/jason-blum-the-ben-shapiro-show-sunday-special-ep-87 | 2020-03-22 | 12007
-- S019 | Jason Blum: Secrets to Successful Low-Budget Films - IFH | https://indiefilmhustle.com/jason-blum/ | 2021-10-10 | 9625
-- S020 | Secrets to Successful Low-Budget Films with Jason Blum - BPS | https://bulletproofscreenwriting.tv/jason-blum/ | 2022-01-12 | 9298
-- S021 | Episode 650: The Business Genius Behind Get Out | https://www.npr.org/transcripts/521950337 | 2017-03-29 | 4798
-- S022 | Episode 650: The Business Genius Behind Get Out | https://www.kasu.org/2017-03-29/episode-650-the-business-genius-behind-get-out | 2017-03-29 | 270
-- S023 | Hollywood is broken. Jason Blum, the king of low-budget horror, has the fix. / Fortune | https://fortune.com/longform/jason-blum-exorcist-blumhouse-low-budget-horror-films | 2023-10-03 | 4375
-- S024 | The Horror and the Glory | https://www.wmagazine.com/story/jason-blum-blumhouse-films | 2015-01-07 | 2222
-- S025 | Jason Blum is scaring Hollywood to death, in a good way | https://www.theglobeandmail.com/arts/film/article-jason-blum-is-scaring-hollywood-to-death-in-a-good-way/ | 2020-10-07 | 1277
-- S026 | Jason Blum Works Out of a Ford Van and 9 Other Surprising Facts About 'Get Out' Producer | https://thewrap.com/jason-blum-ford-van-get-out-producer | 2017-05-11 | 523
-- S028 | Interview: Jason Blum - Nightmare Magazine | https://www.nightmare-magazine.com/nonfiction/interview-jason-blum-2/ | 2015-11-25 | 4960
-- S029 | Interview with Producer Jason Blum / Den of Geek | https://www.denofgeek.com/movies/interview-with-producer-jason-blum/ | 2013-09-09 | 1987
-- S030 | An Interview with Jason Blum - Horror Asylum | https://www.horror-asylum.com/interviews/an-interview-with-jason-blum-2 | 2014-08-05 | 1408
-- S031 | Jason Blum on Producing, Creating Modern Scares, and the Blumhouse Legacy - FilmSpeak | https://filmspeak.net/interviews/2020/10/12/jason-blum-on-producing-creating-modern-scares-and-the-blumhouse-legacy | 2020-10-12 | 877
-- S032 | Blumhouse | https://www.slashfilm.com/1252067/blumhouses-future-riding-exorcist-jason-blums-riskiest-movie | 2023-04-07 | 952
-- S033 | Jason Blum Agreed to ‘Halloween Kills’ Peacock Release After Box Office Failure of ‘Freaky’ | https://thewrap.com/why-halloween-kills-streaming-on-peacock-jason-blum | 2021-09-30 | 461
-- S034 | Jason Blum on How 'The Black Phone' Will Test Box Office for Original Horror Movies | https://www.thewrap.com/jason-blum-black-phone-original-horror | 2022-06-23 | 877
-- S035 | Jason Blum Opens Up About Welcome To The Blumhouse, The Future Of Happy Death Day, And More - Exclusive Interview - Looper | https://www.looper.com/621284/jason-blum-opens-up-about-welcome-to-the-blumhouse-the-future-of-happy-death-day-and-more-exclusive-interview | 2021-10-01 | 1736
-- S036 | Jason Blum on Why He Loves Horror Movies and What's Coming Up for Blumhouse - The Nerds of Color | https://thenerdsofcolor.org/2023/10/28/jason-blum-on-why-he-loves-horror-movies-and-whats-coming-up-for-blumhouse/ | 2023-10-28 | 1193
-- S037 | Blumhouse-Atomic Monster Merger Is ‘Dangerously Close,’ Jason Blum Says (Exclusive) | https://www.thewrap.com/blumhouse-atomic-monster-merger-close-jason-blum | 2023-06-27 | 325
-- S038 | A groundbreaking Hollywood alliance could change horror movies forever | https://www.inverse.com/entertainment/blumhouse-james-wan-merger | 2024-02-20 | 790
-- S039 | Jason Blum Tells NY Comic Con Fans The Blumhouse-Atomic Monster Merger Is “Very Close” To Closing; Co-Production ‘Night Swim’ Among Films In The Spotlight | https://ca.news.yahoo.com/jason-blum-tells-ny-comic-235925571.html | 2023-10-12 | 478
-- S040 | Jason Blum is looking forward to adapting more horror games | https://gamesradar.com/jason-blum-blumhouse-atomic-monster-merger-video-games | 2023-07-05 | 683
-- S041 | Jason Blum on the State of Horror Cinema and What's Next for Blumhouse in 2025 / Den of Geek | https://www.denofgeek.com/movies/jason-blum-on-the-state-of-the-horror-and-whats-next-for-blumhouse-in-2025/ | 2024-12-03 | 1726
-- S042 | Jason Blum Talks ‘Drop,’ ‘Five Nights at Freddy’s 2,’ and Blumhouse’s Biggest Year - The Nerds of Color | https://thenerdsofcolor.org/2025/03/24/jason-blum-talks-drop-five-nights-at-freddys-2-and-blumhouses-biggest-year/ | 2025-03-24 | 844
-- S043 | Jason Blum Opens Up About AI and the State of Horror | https://nofilmschool.com/jason-blum-ai-future-horror | 2025-10-09 | 908
-- S044 | Mega-Producer Jason Blum Revealed The | https://www.cinemablend.com/movies/jason-blum-revealed-two-biggest-failures-still-make-heart-hurt-the-hunt-jem-and-the-holograms | 2025-10-10 | 913
-- S045 | Jason Blum Thinks Sinners And Weapons | https://www.slashfilm.com/1985007/jason-blum-weapons-sinners-success-horror-movie-problem | 2025-11-09 | 990
-- S046 | Jason Blum wants to keep Obsession away from streaming for as long as possible | https://www.thepopverse.com/movies-obsession-blumhouse-streaming-date-jason-blum | 2026-05-27 | 809
-- S047 | Blumhouse Wants to Be Perfectly Balanced for Horror Fans | https://gizmodo.com/blumhouse-wants-to-be-perfectly-balanced-for-horror-fans-2000728153 | 2026-03-01 | 327
-- S048 | 'Hollywood Is Like Charlie Sheen.' Someone Asked Jason Blum If Horror Is 'Oversaturated' Right Now, And I Did Not Expect His Response / Cinemablend | https://www.cinemablend.com/movies/hollywood-charlie-sheen-jason-blum-horror-oversaturated-not-expect-response | 2025-10-09 | 827
-- S049 | Jason Blum Open To Exhibitors’ Ticket Price Hikes For Tentpoles, Theatrical Day & Date; Teases ‘Five Nights At Freddy’s’: SXSW Studio | https://deadline.com/video/jason-blum-open-to-exhibitors-ticket-price-hikes-for-tentpoles-theatrical-day-teases-five-nights-at-freddys | 2022-03-13 | 690
-- S050 | How Jason Blum and Jennifer Salke Brought the Blumhouse Experience to Amazon | https://hollywoodreporter.com/heat-vision/how-jason-blum-and-jennifer-salke-brought-the-blumhouse-experience-to-amazon | 2020-10-30 | 1537
-- S051 | Watch the Sessions from the 2026 Produced By Conference / Producers Guild | https://producersguild.org/watch-sessions-from-the-2026-produced-by-conference/ | 2026-06-18 | 920
-- S053 | How Paranormal Activity was Made: Tetragrammaton with Rick Rubin: Rosetta | https://rosetta.to/u/tetragrammaton_now/how-paranormal-activity-was-made | 2024-01-19 | 3291
-- S054 | SXSW 2019: Jason Blum in Conversation With John Pierson / Shuffle Online | https://shuffleonline.net/2019/03/13/sxsw-2019-jason-blum-in-conversation-with-john-pierson/ | 2019-03-14 | 868
-- S055 | Things That Go Bump in the Blumhouse | https://www.austinchronicle.com/daily/screens/2014-04-11/things-that-go-bump-in-the-blumhouse | 2014-04-11 | 1290
-- S056 | Jason Blum on Reviving ‘Halloween,’ Ignoring Hollywood Rules and Enduring “Psychological Toll” From Weinstein | https://www.hollywoodreporter.com/features/jason-blum-rebooting-halloween-working-weinstein-1152748 | 2018-10-18 | 3834
-- S057 | ‘Get Out’ Producer Jason Blum on Hollywood’s Leadership Crisis and Missing Out on ‘La La Land’ | https://www.hollywoodreporter.com/heat-vision/get-producer-jason-blum-hollywoods-leadership-crisis-missing-la-la-land-985861 | 2017-03-16 | 1412
-- S058 | ‘M3GAN’ Producers Jason Blum and James Wan Talk Potential Merger, AI-Driven Filmmaking and ‘The Invisible Man’ Sequel | https://www.hollywoodreporter.com/movies/movie-features/m3gan-james-wan-jason-blum-1235288287/ | 2022-12-28 | 2795
-- S059 | Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future | https://www.hollywoodreporter.com/movies/movie-news/jason-blum-james-wan-obsession-backrooms-success-horror-1236609599/ | 2026-05-31 | 779
-- S060 | Jason Blum - Tetragrammaton with Rick Rubin / iHeart | https://www.iheart.com/podcast/269-tetragrammaton-with-rick-r-108866100/episode/jason-blum-143553194 | 2024-01 | 608
-- S061 | Jason Blum on 'Sharp Objects,' 'The Purge' TV Series, & More! / Close Up with THR | https://www.youtube.com/watch?v=Vz2NoqejJiQ | 2018-07-19 | 895
+- S011 | Building Blumhouse: A chat with Jason Blum / Walker Webcast with Willy Walker | https://www.walkerdunlop.com/webcast/building-blumhouse-chat-jason-blum | 2025-06-25 | 728
+- S012 | Jason Blum At ‘The Big Screen Is Back’: “The Theatrical Moviegoing Experience Matters” Amid Industry’s Sea Of Change | https://www.yahoo.com/entertainment/jason-blum-big-screen-back-204626361.html | 2021-05-19 | 779
+- S013 | Jason Blum / The Ben Shapiro Show Sunday Special Ep. 87: Ben Shapiro: Rosetta | https://rosetta.to/u/benshapiro/jason-blum-the-ben-shapiro-show-sunday-special-ep-87 | 2020-03-22 | 12007
+- S014 | Jason Blum: Secrets to Successful Low-Budget Films / IFH | https://indiefilmhustle.com/jason-blum/ | 2021-10-10 | 9648
+- S016 | Episode 650: The Business Genius Behind Get Out | https://www.npr.org/transcripts/521950337 | 2017-03-29 | 4798
+- S018 | Hollywood is broken. Jason Blum, the king of low-budget horror, has the fix. / Fortune | https://fortune.com/longform/jason-blum-exorcist-blumhouse-low-budget-horror-films | 2023-10-03 | 4375
+- S019 | The Horror and the Glory | https://www.wmagazine.com/story/jason-blum-blumhouse-films | 2015-01-07 | 2222
+- S020 | Jason Blum is scaring Hollywood to death, in a good way | https://www.theglobeandmail.com/arts/film/article-jason-blum-is-scaring-hollywood-to-death-in-a-good-way/ | 2020-10-07 | 1273
+- S021 | Jason Blum Works Out of a Ford Van and 9 Other Surprising Facts About 'Get Out' Producer | https://thewrap.com/jason-blum-ford-van-get-out-producer | 2017-05-11 | 523
+- S023 | Interview: Jason Blum - Nightmare Magazine | https://www.nightmare-magazine.com/nonfiction/interview-jason-blum-2/ | 2015-11-25 | 4977
+- S024 | Interview with Producer Jason Blum / Den of Geek | https://www.denofgeek.com/movies/interview-with-producer-jason-blum/ | 2013-09-09 | 1987
+- S025 | An Interview with Jason Blum - Horror Asylum | https://www.horror-asylum.com/interviews/an-interview-with-jason-blum-2 | 2014-08-05 | 1408
+- S026 | Jason Blum on Producing, Creating Modern Scares, and the Blumhouse Legacy - FilmSpeak | https://filmspeak.net/interviews/2020/10/12/jason-blum-on-producing-creating-modern-scares-and-the-blumhouse-legacy | 2020-10-12 | 877
+- S027 | Blumhouse's Future Is Riding On The Exorcist, Jason Blum's 'Riskiest' Movie Yet - SlashFilm | https://www.slashfilm.com/1252067/blumhouses-future-riding-exorcist-jason-blums-riskiest-movie | 2023-04-07 | 952
+- S028 | Jason Blum Agreed to ‘Halloween Kills’ Peacock Release After Box Office Failure of ‘Freaky’ | https://thewrap.com/why-halloween-kills-streaming-on-peacock-jason-blum | 2021-09-30 | 461
+- S029 | Jason Blum on How 'The Black Phone' Will Test Box Office for Original Horror Movies | https://www.thewrap.com/jason-blum-black-phone-original-horror | 2022-06-23 | 877
+- S030 | Jason Blum Opens Up About Welcome To The Blumhouse, The Future Of Happy Death Day, And More - Exclusive Interview - Looper | https://www.looper.com/621284/jason-blum-opens-up-about-welcome-to-the-blumhouse-the-future-of-happy-death-day-and-more-exclusive-interview | 2021-10-01 | 1736
+- S031 | Jason Blum on Why He Loves Horror Movies and What's Coming Up for Blumhouse - The Nerds of Color | https://thenerdsofcolor.org/2023/10/28/jason-blum-on-why-he-loves-horror-movies-and-whats-coming-up-for-blumhouse/ | 2023-10-28 | 1193
+- S032 | Blumhouse-Atomic Monster Merger Is ‘Dangerously Close,’ Jason Blum Says (Exclusive) | https://www.thewrap.com/blumhouse-atomic-monster-merger-close-jason-blum | 2023-06-27 | 325
+- S033 | A groundbreaking Hollywood alliance could change horror movies forever | https://www.inverse.com/entertainment/blumhouse-james-wan-merger | 2024-02-20 | 790
+- S034 | Jason Blum Tells NY Comic Con Fans The Blumhouse-Atomic Monster Merger Is “Very Close” To Closing; Co-Production ‘Night Swim’ Among Films In The Spotlight | https://ca.news.yahoo.com/jason-blum-tells-ny-comic-235925571.html | 2023-10-12 | 478
+- S035 | Jason Blum is looking forward to adapting more horror games | https://gamesradar.com/jason-blum-blumhouse-atomic-monster-merger-video-games | 2023-07-05 | 661
+- S036 | Jason Blum on the State of Horror Cinema and What's Next for Blumhouse in 2025 / Den of Geek | https://www.denofgeek.com/movies/jason-blum-on-the-state-of-the-horror-and-whats-next-for-blumhouse-in-2025/ | 2024-12-03 | 1726
+- S037 | Jason Blum Talks ‘Drop,’ ‘Five Nights at Freddy’s 2,’ and Blumhouse’s Biggest Year - The Nerds of Color | https://thenerdsofcolor.org/2025/03/24/jason-blum-talks-drop-five-nights-at-freddys-2-and-blumhouses-biggest-year/ | 2025-03-24 | 844
+- S038 | Jason Blum Opens Up About AI and the State of Horror | https://nofilmschool.com/jason-blum-ai-future-horror | 2025-10-09 | 916
+- S039 | Mega-Producer Jason Blum Revealed The | https://www.cinemablend.com/movies/jason-blum-revealed-two-biggest-failures-still-make-heart-hurt-the-hunt-jem-and-the-holograms | 2025-10-10 | 925
+- S040 | Jason Blum Thinks Sinners And Weapons' Success Actually Showcases A Major Horror Problem - SlashFilm | https://www.slashfilm.com/1985007/jason-blum-weapons-sinners-success-horror-movie-problem | 2025-11-09 | 990
+- S041 | Jason Blum wants to keep Obsession away from streaming for as long as possible | https://www.thepopverse.com/movies-obsession-blumhouse-streaming-date-jason-blum | 2026-05-27 | 809
+- S042 | 'Hollywood Is Like Charlie Sheen.' Someone Asked Jason Blum If Horror Is 'Oversaturated' Right Now, And I Did Not Expect His Response / Cinemablend | https://www.cinemablend.com/movies/hollywood-charlie-sheen-jason-blum-horror-oversaturated-not-expect-response | 2025-10-09 | 848
+- S043 | Jason Blum Open To Exhibitors’ Ticket Price Hikes For Tentpoles, Theatrical Day & Date; Teases ‘Five Nights At Freddy’s’: SXSW Studio | https://deadline.com/video/jason-blum-open-to-exhibitors-ticket-price-hikes-for-tentpoles-theatrical-day-teases-five-nights-at-freddys | 2022-03-13 | 670
+- S044 | How Jason Blum and Jennifer Salke Brought the Blumhouse Experience to Amazon | https://hollywoodreporter.com/heat-vision/how-jason-blum-and-jennifer-salke-brought-the-blumhouse-experience-to-amazon | 2020-10-30 | 1547
+- S047 | How Paranormal Activity was Made: Tetragrammaton with Rick Rubin: Rosetta | https://rosetta.to/u/tetragrammaton_now/how-paranormal-activity-was-made | 2024-01-19 | 3291
+- S048 | SXSW 2019: Jason Blum in Conversation With John Pierson / Shuffle Online | https://shuffleonline.net/2019/03/13/sxsw-2019-jason-blum-in-conversation-with-john-pierson/ | 2019-03-14 | 868
+- S049 | Things That Go Bump in the Blumhouse | https://www.austinchronicle.com/daily/screens/2014-04-11/things-that-go-bump-in-the-blumhouse | 2014-04-11 | 1290
+- S050 | Jason Blum on Reviving ‘Halloween,’ Ignoring Hollywood Rules and Enduring “Psychological Toll” From Weinstein | https://www.hollywoodreporter.com/features/jason-blum-rebooting-halloween-working-weinstein-1152748 | 2018-10-18 | 3844
+- S051 | ‘Get Out’ Producer Jason Blum on Hollywood’s Leadership Crisis and Missing Out on ‘La La Land’ | https://www.hollywoodreporter.com/heat-vision/get-producer-jason-blum-hollywoods-leadership-crisis-missing-la-la-land-985861 | 2017-03-16 | 1422
+- S052 | ‘M3GAN’ Producers Jason Blum and James Wan Talk Potential Merger, AI-Driven Filmmaking and ‘The Invisible Man’ Sequel | https://www.hollywoodreporter.com/movies/movie-features/m3gan-james-wan-jason-blum-1235288287/ | 2022-12-28 | 2805
+- S053 | Jason Blum, James Wan on ‘Obsession’ and ‘Backrooms’ “Saving Our Industry” and Blumhouse-Atomic Monster “Disney of Horror” Future | https://www.hollywoodreporter.com/movies/movie-news/jason-blum-james-wan-obsession-backrooms-success-horror-1236609599/ | 2026-05-31 | 818
+- S057 | Jason Blum On His ‘Exorcist’ Remake, The Evolution Of Blumhouse & His Desire To Win An Oscar | https://www.vassar.edu/news/blumhouse-ceo-and-founder-jason-blum-91-talks-deadline-advance-receiving-locarno-film | 2022-08-06 | 939
+- S058 | Jason Blum on The Gift, Jem and the Holograms, More | https://collider.com/jason-blum-talks-the-gift-jem-and-the-holograms-purge-3-more/ | 2015-08-10 | 2986
+- S059 | 'You Should Have Left' Producer Jason Blum On The Future Of Movie Theaters And Which Filmmakers Fit The Blumhouse Mold [Interview] - SlashFilm | https://www.slashfilm.com/574850/jason-blum-interview/ | 2020-06-25 | 2156
+- S060 | 'The Purge Forever' Producer Jason Blum On Returning To Theaters And Planning Five Years Ahead [Interview] - SlashFilm | https://www.slashfilm.com/582072/jason-blum-interview-forever-purge | 2021-07-01 | 2022
+- S061 | Jason Blum interview: The Purge: Anarchy, Paranormal Activity 5 and more / Den of Geek | https://www.denofgeek.com/?p=390902 | 2014-07-22 | 2625
+- S062 | 'The Black Phone' Producer Jason Blum Laments Rising Film Budgets: 'I Don't Think It's Good for Business' | https://www.thewrap.com/blumhouse-jason-blum-rising-budgets-black-phone | 2022-06-24 | 1298
+- S063 | Jason Blum reveals how coronavirus is changing movies: now and forever | https://inverse.com/entertainment/blumhouse-jason-blum-interview | 2020-11-09 | 1008
+- S064 | Jason Blum: Social Media Interview | https://www.gamesradar.com/uk/jason-blum-social-media-interview | 2014-07-24 | 1008
+- S065 | Jason Blum on His New Partnership with James Wan and Telling New Horror Stories / The Mary Sue | https://www.themarysue.com/jason-blum-nycc-interview/ | 2023-10-17 | 516
+- S066 | I'm Jason Blum, and I'm in the business of nightmares. / BestofAMA | https://bestofama.herokuapp.com/amas/3fvvv8 | undated | 6320
+- S067 | Blumhouse Productions Creator Reveals the Movie He Most Regrets Passing On | https://comicbook.com/movies/news/blumhouse-productions-regrets-passing-blair-witch | 2022-12-09 | 870
+- S068 | Award Winning Film and TV Producer Jason Blum ’91 to Deliver Commencement Address | https://stories.vassar.edu/2020/award-winning-film-and-tv-producer-jason-blum-91-to-deliver-commencement-address.html | undated | 449
+- S072 | Can Budget-Slasher Jason Blum Prove the Way Hollywood Makes Movies Is Horrifyingly Wrong? - LA Weekly | https://www.laweekly.com/can-budget-slasher-jason-blum-prove-the-way-hollywood-makes-movies-is-horrifyingly-wrong/ | 2015-10-19 | 5477
+- S073 | Producer Jason Blum on The Lazarus Effect, Paranormal Activity, and loving horror | https://www.avclub.com/producer-jason-blum-on-the-lazarus-effect-paranormal-a-1798281224 | 2015-06-30 | 2164
+- S074 | All Fired Up | https://emmys.com/node/596411 | 2021-09-09 | 2768
+- S075 | Insidious: Chapter 2 Producer Jason Blum Admits Horror Haters Fuel His Drive | https://cinemablend.com/new/Insidious-Chapter-2-Producer-Jason-Blum-Admits-Horror-Haters-Fuel-His-Drive-39384.html | 2013-09-13 | 2673
+- S076 | 4 Vital Producing Tips from Ridley Scott, Judd Apatow, Amy Pascal and More | https://nofilmschool.com/2018/02/ridley-scott-judd-apatow-amy-pascal-jason-blum-seth-rogen | 2018-02-23 | 1039
+- S077 | READ >> A Scrappier Model for Netflix Might Be More Sustainable - Glass Eye Pix | https://glasseyepix.com/cutting-room/read-a-scrappier-model-for-netflix-might-be-more-sustainable | 2022-05-03 | 606
+- S078 | Heroes of Horror, Sci-Fi and Supervillains: The Genre Roundtable | https://www.hollywoodreporter.com/features/fanboys-fangirls-are-loudest-voice-genre-roundtable-1127307 | 2018-07-18 | 2755
+- S079 | Producer Roundtable: Judd Apatow, Amy Pascal on Harvey Weinstein and the Perils of Email Post-Sony Hack | https://www.hollywoodreporter.com/features/producer-roundtable-judd-apatow-amy-pascal-harvey-weinstein-perils-email-post-sony-hack-1053151 | 2017-11-02 | 1903
+- S081 | Do filmmakers still go to the movies? Sometimes. | https://marketplace.org/2017/10/06/do-filmmakers-still-go-movies-sometimes | 2017-10-06 | 1681
+- S082 | Jason Blum Says Hollywood's Biggest Problem Is Making Movies Young People Don't Want | https://www.comicbasics.com/?p=175159 | 2026-07-15 | 756
+- S083 | Jason Blum on Deals, Sequels & AI: 'TV and Movies are Better if Artists Have Equity' - The Ankler | https://theankler.com/jason-blum-blumhouse-deals-sequels-ai/ | 2024-10-29 | 1110
+- S086 | Jason Blum on The First Purge and Halloween's R Rating | https://collider.com/jason-blum-interview-first-purge-halloween/ | 2018-10-02 | 1792
+- S087 | Halloween Kills Producer Jason Blum On Why Sequels Are Difficult [Interview] - SlashFilm | https://www.slashfilm.com/634281/halloween-kills-producer-jason-blum-on-why-sequels-are-difficult-interview | 2021-10-15 | 1742
+- S088 | Blumhouse Budgets Are Getting Bigger | https://www.darkhorizons.com/?p=173970 | 2024-03-11 | 297
+- S089 | Jason Blum Reassures Vassar Grads During COVID-19 Times: “Don’t Let Moments Of Failure And Frustration Distract You” | https://www.yahoo.com/entertainment/jason-blum-reassures-vassar-grads-170039636.html | 2020-05-24 | 1548
+- S090 | Jason Blum Addresses The Graduates Of Vassar College | https://www.ibtimes.com/jason-blum-delivers-powerful-message-graduates-be-true-who-you-are-2981880?amp=1 | 2020-05-25 | 634
+- S092 | Jason Blum on the surge of horror and the genre's future | https://laist.com/news/arts-and-entertainment/jason-blum-on-the-surge-of-horror-trends | 2024-10-31 | 501
+- S093 | Soul Searching Begins at Blumhouse After Cold Streak Capped by ‘M3GAN 2.0’: “Not the Sequel Audiences Wanted” | https://www.hollywoodreporter.com/movies/movie-features/m3gan-2-0-blumhouse-bomb-1236304358/ | 2025-07-02 | 1422
+- S094 | Jason Blum interview: Ouija: Origin Of Evil, cinema trends, Halloween parties / Den of Geek | https://www.denofgeek.com/?p=389137 | 2016-10-20 | 1787
+- S095 | The Lazarus Effect producer Jason Blum: Interview / Den of Geek | https://www.denofgeek.com/?p=98315 | 2015-02-26 | 2102
+- S096 | Blumhouse's Jason Blum Says Frugality Pays When It Comes to Making Horror Films | https://thewrap.com/blumhouses-jason-blum-says-frugality-pays-for-horror-films | 2017-02-14 | 541
+- S097 | There’s One Thing That Would Make Jason Blum Quit the Industry | https://www.indiewire.com/video/jason-blum-interview-screen-talk-1234824411/ | 2023-03-31 | 2256
+- S098 | Blumhouse's Jason Blum says AI won't replace filmmakers anytime soon, but content creators have more to worry about | https://www.shopifreaks.com/blumhouses-jason-blum-says-ai-wont-replace-filmmakers-anytime-soon-but-content-creators-have-more-to-worry-about/ | 2026-04-15 | 314
+- S099 | Video: Jason Blum Delivers Commencement Speech to Vassar Class of 2020 | https://www.dreadcentral.com/news/328064/video-jason-blum-delivers-commencement-speech-to-vassar-class-of-2020 | 2020-05-24 | 269
+- S100 | Jason Blum (Award Winning Producer) discusses Halloween, Streaming, Research, & More! - Don't Kill the Messenger with Movie Strategist Kevin Goetz | https://dontkillthemessenger.kevingoetz360.com/2026579/11522817 | 2022 | 8577
+- S101 | ‘Paranormal Activity’ franchise producer Jason Blum on making art work: no matter the medium | https://www.broadwaynews.com/paranormal-activity-franchise-producer-jason-blum-on-making-art-work-no-matter-the-medium/ | 2026-09-02 | 284
+- S102 | How Jason Blum Makes Horror Movies With A Message | https://www.nylon.com/jason-blum-interview | 2019-09-20 | 796
+- S103 | Deadline’s Strike Talk Podcast Week 14: Billy Ray Engages Craig Mazin, Lilly Wachowski & Jason Blum On Hollywood’s Post-Strike Path Forward | https://uk.news.yahoo.com/deadline-strike-talk-podcast-week-182142853.html | 2023-08-04 | 319
+- S104 | Down on the Movie Biz? Don’t Be, Says Jason Blum | https://uk.news.yahoo.com/down-movie-biz-don-t-183144660.html | 2022-09-21 | 647
+- S107 | Jason Blum and James Wan Discuss Why Horror Is Hollywood’s Hottest Genre | https://au.variety.com/?p=42745 | 2026-11-19 | 766
+- S108 | Why Blumhouse’s Jason Blum Wanted to Make Happy Death Day 2U / Den of Geek | https://www.denofgeek.com/?p=18486 | 2019-02-15 | 2059
+- S109 | Jason Blum Interview: Paranormal Activity, Amityville & more / Den of Geek | https://www.denofgeek.com/movies/jason-blum-interview-paranormal-activity-amityville-more/ | 2015-06-24 | 2304
+- S110 | Jason Blum and Reinventing the Haunted House in You Should Have Left / Den of Geek | https://www.denofgeek.com/?p=596832 | 2020-06-22 | 2054
+- S111 | Halloween Kills Is “Intense” and “Huge” Says Jason Blum / Den of Geek | https://www.denofgeek.com/movies/halloween-kills-jason-blum-interview | 2020-02-27 | 752
+- S112 | How Jason Blum Changed Horror Movies / Den of Geek | https://www.denofgeek.com/movies/how-jason-blum-changed-horror-movies | 2020-03-03 | 1774
+- S113 | Jason Blum is in the House - FilmInk | https://www.filmink.com.au/?p=31592 | 2017-10-12 | 1426
+- S115 | Do the Hustle | https://emmys.com/node/599331 | 2021-09-15 | 1182
