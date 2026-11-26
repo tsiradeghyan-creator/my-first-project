@@ -6,6 +6,7 @@ metadata:
   tags: [higgsfield_moodboard, research, workflow, verification]
   version: 3.1.0
   updated: 2026-08-25
+  parent: higgsfield
 ---
 
 # Higgsfield Moodboard

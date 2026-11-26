@@ -451,8 +451,17 @@ class Renderer:
     """HTML -> PDF through headless Chromium: Node Playwright (render_pdf.js), or Python Playwright if installed."""
 
     def __enter__(self):
-        with open(os.path.join(HERE, "fit.js"), "w", encoding="utf-8") as f:
-            f.write(FIT_JS)
+        # fit.js is tracked in git and read by render_pdf.js; rewrite it only if it changed,
+        # so a render never dirties the skill folder.
+        path = os.path.join(HERE, "fit.js")
+        try:
+            with open(path, encoding="utf-8") as f:
+                same = f.read() == FIT_JS
+        except OSError:
+            same = False
+        if not same:
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(FIT_JS)
         return self
 
     def __exit__(self, *exc):

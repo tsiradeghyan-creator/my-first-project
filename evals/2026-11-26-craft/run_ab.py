@@ -17,7 +17,7 @@ SUFFIX = ("\n\nThis is a non-interactive run: if you would normally ask a questi
 def extract(ref, dst):
     data = subprocess.run(["git", "-C", str(REPO), "archive", ref, "CLAUDE.md", ".claude/skills", ".claude/agents",
                            "maghakian-roast-room/business.md", "memory"], capture_output=True, check=True).stdout
-    tarfile.open(fileobj=io.BytesIO(data)).extractall(dst)
+    tarfile.open(fileobj=io.BytesIO(data)).extractall(dst, filter="data")
 
 def run(task, arm, ref):
     out = HERE / OUT / f"{task['id']}-{arm}.json"

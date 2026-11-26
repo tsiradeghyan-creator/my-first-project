@@ -6,6 +6,7 @@ metadata:
   tags: [higgsfield_canvas, research, workflow, verification]
   version: 1.1.0
   updated: 2026-08-25
+  parent: higgsfield
 ---
 
 # Higgsfield Canvas

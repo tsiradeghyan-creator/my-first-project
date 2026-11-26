@@ -1,4 +1,4 @@
-# shortfilm-prompt — Cinematic AI Video Prompt Generator
+# Five-stage short-film method (from the retired shortfilm-prompt skill)
 
 You play the role of a director's assistant fluent in the 5-stage AI
 shortfilm prompt structure (first proven by Mx-Shell in *Zombie Scavenger*).
@@ -73,38 +73,38 @@ tune. Examples:
 
 ## Template library (load the matching one)
 
-This repo ships a `templates/` directory with deeper skeletons and
+This repo ships a `genre-templates/` directory with deeper skeletons and
 genre-specific phrasing. Pick by branch and `Read` it before Step 3 —
 don't reinvent a skeleton the library already has. Paths are relative to
 the plugin/repo root.
 
 | If the user wants… | Load |
 |---|---|
-| 15s single-shot transformation | `templates/15s-transformation.md` |
-| Multi-shot edited narrative | `templates/multi-shot-narrative.md` |
-| **Emotional narrative (family · pet · farewell)** | `templates/pet-lifetime-narrative.md` (full worked example) |
-| **Product commercial / hero ad** | `templates/product-commercial.md` (beat-driven worked example) |
-| **Food ASMR / sensory close-up** (native synced audio) | `templates/food-asmr.md` (worked example) |
-| **Talking-animal vlog** (selfie POV, synced dialogue) | `templates/animal-vlog.md` (worked example) |
-| **Cinematic teaser trailer** (escalating multi-shot) | `templates/movie-trailer.md` (worked example) |
-| **Cyberpunk city / atmospheric environment** | `templates/cyberpunk-city.md` (worked example) |
-| **Stop-motion / claymation** (stylized; deliberately breaks the breathing rule) | `templates/claymation.md` (worked example) |
-| **Nature / landscape timelapse** (time compression, locked grade) | `templates/nature-timelapse.md` (worked example) |
-| **CCTV / found-footage horror** (degraded-cam look; breaks the breathing rule) | `templates/found-footage-horror.md` (worked example) |
-| **Anime / 2D → live-action** (medium translation; heavy on IP-safety) | `templates/anime-to-real.md` (worked example) |
-| **Music video / performance** (beat-synced; music IS wanted) | `templates/music-video.md` (worked example) |
-| **High-speed slow-motion sports** (Phantom/high-fps; decisive moment) | `templates/sports-slowmo.md` (worked example) |
-| **Fashion film / editorial** (movement-as-subject; no narrative) | `templates/fashion-film.md` (worked example) |
-| **Travel vlog / sense of place** (handheld montage) | `templates/travel-vlog.md` (worked example) |
-| **Drone / FPV aerial** (continuous flight; the move is the content) | `templates/drone-fpv.md` (worked example) |
-| **Vertical micro-drama** (竖屏短剧; hook + shot-reverse-shot + cliffhanger) | `templates/micro-drama.md` (worked example) |
-| **Hard sci-fi space / zero-G** (weightless physics; vacuum silence) | `templates/sci-fi-space.md` (worked example) |
-| **Car commercial** (reflective surfaces; automotive rig) | `templates/car-commercial.md` (worked example) |
-| **Dance film** (continuous full-body motion; body-to-beat) | `templates/dance.md` (worked example) |
-| How the camera should move, by genre | `templates/genre-camera-sop.md` |
-| Camera-move phrasing, by technique (50 moves) | `templates/camera-move-library.md` |
-| Atmosphere / quality paragraph, by genre | `templates/atmosphere-prefabs.md` |
-| Negative-prompt block + per-model routing | `templates/negative-prompts.md` |
+| 15s single-shot transformation | `genre-templates/15s-transformation.md` |
+| Multi-shot edited narrative | `genre-templates/multi-shot-narrative.md` |
+| **Emotional narrative (family · pet · farewell)** | `genre-templates/pet-lifetime-narrative.md` (full worked example) |
+| **Product commercial / hero ad** | `genre-templates/product-commercial.md` (beat-driven worked example) |
+| **Food ASMR / sensory close-up** (native synced audio) | `genre-templates/food-asmr.md` (worked example) |
+| **Talking-animal vlog** (selfie POV, synced dialogue) | `genre-templates/animal-vlog.md` (worked example) |
+| **Cinematic teaser trailer** (escalating multi-shot) | `genre-templates/movie-trailer.md` (worked example) |
+| **Cyberpunk city / atmospheric environment** | `genre-templates/cyberpunk-city.md` (worked example) |
+| **Stop-motion / claymation** (stylized; deliberately breaks the breathing rule) | `genre-templates/claymation.md` (worked example) |
+| **Nature / landscape timelapse** (time compression, locked grade) | `genre-templates/nature-timelapse.md` (worked example) |
+| **CCTV / found-footage horror** (degraded-cam look; breaks the breathing rule) | `genre-templates/found-footage-horror.md` (worked example) |
+| **Anime / 2D → live-action** (medium translation; heavy on IP-safety) | `genre-templates/anime-to-real.md` (worked example) |
+| **Music video / performance** (beat-synced; music IS wanted) | `genre-templates/music-video.md` (worked example) |
+| **High-speed slow-motion sports** (Phantom/high-fps; decisive moment) | `genre-templates/sports-slowmo.md` (worked example) |
+| **Fashion film / editorial** (movement-as-subject; no narrative) | `genre-templates/fashion-film.md` (worked example) |
+| **Travel vlog / sense of place** (handheld montage) | `genre-templates/travel-vlog.md` (worked example) |
+| **Drone / FPV aerial** (continuous flight; the move is the content) | `genre-templates/drone-fpv.md` (worked example) |
+| **Vertical micro-drama** (竖屏短剧; hook + shot-reverse-shot + cliffhanger) | `genre-templates/micro-drama.md` (worked example) |
+| **Hard sci-fi space / zero-G** (weightless physics; vacuum silence) | `genre-templates/sci-fi-space.md` (worked example) |
+| **Car commercial** (reflective surfaces; automotive rig) | `genre-templates/car-commercial.md` (worked example) |
+| **Dance film** (continuous full-body motion; body-to-beat) | `genre-templates/dance.md` (worked example) |
+| How the camera should move, by genre | `genre-templates/genre-camera-sop.md` |
+| Camera-move phrasing, by technique (50 moves) | `genre-templates/camera-move-library.md` |
+| Atmosphere / quality paragraph, by genre | `genre-templates/atmosphere-prefabs.md` |
+| Negative-prompt block + per-model routing | `genre-templates/negative-prompts.md` |
 
 Use the template for structure and phrasing; run the **Seven hard rules**
 and **30-second checklist** below on the result regardless of which
@@ -119,7 +119,7 @@ template you started from.
 The 5-stage method carries across genres — the same imperfection +
 restraint discipline that makes a transformation feel real makes an
 emotional piece *land*. Three genre-specific moves (full worked example:
-`templates/pet-lifetime-narrative.md`):
+`genre-templates/pet-lifetime-narrative.md`):
 
 - **Mark time with season + light, lock ONE grade.** A different filter
   per shot is the #1 way emotional multi-shot edits break. Invert it:

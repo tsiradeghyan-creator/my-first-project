@@ -22,9 +22,9 @@ holding 77 nested skills. Search recursively, not just one level deep.
 ## DAILY set (already loaded from `.claude/skills/`, so there is no need to search the library for these; 29 on 2026-11-26)
 agent-reach · auto-learn · bab-production · banana-pro-director-2.0 · cinema-worldbuilder-pro-2.0 ·
 cli-hub · consolidate-memory · content-zavod · copywriting · director-desk · fal-ai-media · film-crew ·
-gpt-image-prompting · graphify · higgsfield · jackvsai-fashion-campaign-prompt-framework · llm-council ·
+gpt-image-prompting · graphify · higgsfield · jackvsai-fashion-campaign-prompt-framework ·
 maghakian-brand · media-memory · mini-scenario · remotion-video-creation · seedance-25-director ·
-seo-audit · shortfilm-prompt · skill-library · skill-router · studio · trend-scout · zavod-scout
+seo-audit · skill-library · skill-router · studio · trend-scout · zavod-scout
 
 ## How to use the library
 Commands below use the laptop path; on Cloud replace `~/.claude/skills-library/` with `.claude/skills-library/`.

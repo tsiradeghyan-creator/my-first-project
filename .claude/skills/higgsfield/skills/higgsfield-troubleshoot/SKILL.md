@@ -6,6 +6,7 @@ metadata:
   tags: [higgsfield_troubleshoot, routing, verification, workflow]
   version: 3.1.0
   updated: 2026-08-25
+  parent: higgsfield
 ---
 
 # Higgsfield Troubleshooting

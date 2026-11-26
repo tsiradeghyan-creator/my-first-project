@@ -1,5 +1,19 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (LOW items and deletions)
+**Did:**
+- **Deleted** shortfilm-prompt (its genre templates and five-stage method are now in `film-crew/references/genre-templates/`), llm-council (replaced by the Roast Room and bab-production; the zavod canon was updated in zavod-om and mirrored), and the 7 unused film-crew department agents. 27 skills remain.
+- **LOW fixes:**
+  - director-desk: fit.js is written only if it changed; dept_sheets docstring;
+  - higgsfield: `.github` removed, parent metadata added; validate 1 warning, 120 tests pass;
+  - cli-hub: name fixed;
+  - eval harness: tar filter.
+- **Memory:** 152 lines cleaned with sources kept, and 64 junk lines archived in `memory/archive/`.
+
+**Left:**
+- Higgsfield specs refresh (needs live access).
+- Real generations when Tigran wants.
+
 ## 2026-11-26 — Cloud (25 examples → prompt-craft guide, A/B tested)
 **Did:**
 - Saved Tigran's 24 example prompts and 1 system prompt (FRAMEWORK) verbatim with analysis in `.claude/skills/film-crew/references/tigran-examples/`.

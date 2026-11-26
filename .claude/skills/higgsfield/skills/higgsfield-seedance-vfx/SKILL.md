@@ -6,6 +6,7 @@ metadata:
   tags: [higgsfield_seedance_vfx, media, generation, workflow]
   version: 1.1.0
   updated: 2026-08-25
+  parent: higgsfield
 ---
 
 # Higgsfield Seedance VFX

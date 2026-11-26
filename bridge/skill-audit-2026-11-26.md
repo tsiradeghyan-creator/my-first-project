@@ -192,3 +192,30 @@ Tigran chose **option A**: film-crew got a short single-shot mode, and every pro
   - Added to `maghakian-brand/portfolio.md` (now 48 rows; totals 2,330–2,339+ episodes, ≈81,770–82,165+ pages; public line "80,000+ pages") and to the zavod canon `filmography.md` (48 rows).
   - The children's series name now follows the site: «Մտմտիկ և Պրպտիկ».
 - **Hashtag** stays `#MaghakianSWA`, and the «Խաղալիք» carousel palette stays as it is (Tigran: not important).
+
+## 9. LOW items and deletions, 2026-11-26 (Cloud): status
+
+**Deleted:**
+- **shortfilm-prompt**, after its 27 genre templates and five-stage method moved to `film-crew/references/genre-templates/` (MIT licence kept);
+- **llm-council**, replaced by the Roast Room and bab-production; references updated in router, library, studio, director-desk and the zavod canon;
+- **7 film-crew department agents**, which film-crew never dispatched (it runs departments in one context). film-continuity-verifier and film-style-researcher stay.
+
+**Kept:**
+- higgsfield-shotlist-director: the MED pass reframed it as the formatter from a film-crew plan to Higgsfield shot lists.
+
+**LOW items fixed:**
+- **director-desk:**
+  - pack_design.py no longer rewrites the tracked fit.js on every render;
+  - the dept_sheets.py docstring no longer promises a PDF.
+- **higgsfield:**
+  - the dead `.github/` folder inside the skill is removed;
+  - `metadata.parent` is added to 10 sub-skills;
+  - validate.py now shows 1 warning, the specs snapshot age, which needs a live models_explore;
+  - 120 tests pass.
+- **cli-hub:** the frontmatter name now matches the folder.
+- **Eval harness:** tar extraction uses the data filter.
+- **Memory:** 152 auto-learn lines cleaned (HTML entities, breadcrumbs; source links kept), and 64 junk lines moved to `memory/archive/2026-11-26-junk-removed.md` (not lost).
+
+**Left:**
+- Refresh the higgsfield specs with a live `models_explore` dump.
+- Real generations.

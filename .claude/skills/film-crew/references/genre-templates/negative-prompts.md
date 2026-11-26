@@ -121,7 +121,7 @@ signage, architecture that boils between frames. Hold the geometry stable.
 
 ## See also
 
-- [`../skills/shortfilm-prompt/SKILL.md`](../skills/shortfilm-prompt/SKILL.md)
+- `film-crew` (this folder is part of it since 2026-11-26)
   — the Skill that assembles full prompts; it pulls from this block when a
   target model has a negative field.
 - [`../methodology.md`](../methodology.md) — the 5-stage structure these

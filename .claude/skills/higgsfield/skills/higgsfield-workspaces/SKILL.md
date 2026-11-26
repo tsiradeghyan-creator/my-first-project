@@ -6,6 +6,7 @@ metadata:
   tags: [higgsfield_workspaces, routing, verification, workflow]
   version: 1.3.0
   updated: 2026-08-25
+  parent: higgsfield
 ---
 
 # Higgsfield Workspaces

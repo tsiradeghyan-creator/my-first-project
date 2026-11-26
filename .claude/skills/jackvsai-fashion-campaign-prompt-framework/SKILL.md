@@ -11,7 +11,7 @@ This skill generates high-energy multi-shot video prompts for streetwear and edi
 
 Use this for: streetwear prompts, fashion campaign prompts, editorial prompts, shot sequences for an outfit, cinematic direction from a fashion reference image, garment-led ads, negative space fashion videos, attitude beats, macro fabric detail, and urban editorial energy.
 
-Route elsewhere for: general video prompts (`cinema-worldbuilder-pro-2.0`), 5-stage narrative shorts (`shortfilm-prompt`), or Higgsfield platform/model/credit questions (`higgsfield`).
+Route elsewhere for: general video prompts (`cinema-worldbuilder-pro-2.0`), 5-stage narrative shorts (`film-crew`, genre templates), or Higgsfield platform/model/credit questions (`higgsfield`).
 
 Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input. If a film-crew plan already exists, use it. Here the film-crew plan sets the beats, look and camera; this skill compresses them into the fashion-campaign format below.
 

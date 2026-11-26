@@ -41,7 +41,7 @@ Load only what the request needs. Never read `official-guide-lark.md` whole; use
   and take its plan as input. If a film-crew plan already exists, use it. Feature questions and fixes to an
   existing result need no film-crew pass.
 - Another model or "any model" → `cinema-worldbuilder-pro-2.0`. Still images → `banana-pro-director-2.0`.
-  Higgsfield platform questions → `higgsfield`. Full narrative short-film package → `shortfilm-prompt` for
+  Higgsfield platform questions → `higgsfield`. Full narrative short-film package → `film-crew` (genre templates in its `references/genre-templates/`) for
   story, then this skill for the Seedance 2.5 execution. If a story/shot plan already exists, keep its intent,
   shots and continuity, and only adapt it to Seedance 2.5 modes, references, timing and syntax.
 - Limits in this skill are for Seedance 2.5 on Dreamina. Other hosts (API, Higgsfield, fal) can differ — say so.

@@ -6,6 +6,7 @@ metadata:
   tags: [higgsfield_motion, routing, workflow, verification]
   version: 3.2.0
   updated: 2026-08-25
+  parent: higgsfield
 ---
 
 # Higgsfield Motion Presets

@@ -4,7 +4,7 @@
 python3 dept_sheets.py master.xlsx --days days.txt --out DIR [--extra extra.json]
 days.txt lines: <day no>|<date>|<scene ids comma separated>
 extra.json (optional, written from the scripts): {"<scene id>": {"costume": {"ԱՐՇԱԿ": "..."}, "props": ["..."], "makeup": "..."}}
-Outputs: Կոստյում_Ռեկվիզիտ.xlsx (one sheet per day + Կոստյումների պլան + Ռեկվիզիտի ցանկ) and a branded PDF.
+Outputs: Կոստյում_Ռեկվիզիտ.xlsx (one sheet per day + Կոստյումների պլան + Ռեկվիզիտի ցանկ). A branded PDF is not produced yet.
 Costume plot rule: one change per character per story day (Օր); 1984 flashbacks (X) are period costume.
 """
 import argparse, collections, json, os, re, sys

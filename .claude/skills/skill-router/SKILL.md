@@ -42,7 +42,6 @@ Vermette, Murch, buyers Bloys/Quinn/Bajaria) with Tigran's own line-producer sea
 | `seedance-25-director` | Final Seedance 2.5 prompt + UI settings | Default video model for our work |
 | `cinema-worldbuilder-pro-2.0` | Final prompt for Veo, Kling, other engines | Use when the model is not Seedance |
 | `higgsfield` | Higgsfield platform: model/preset choice, Soul ID, Cinema Studio, credits | Platform questions, not prompt craft |
-| `shortfilm-prompt` | One-idea 5-stage shorts: transformation, emotional, combat | After film-crew; story-planned multi-shot work stays in film-crew |
 | `jackvsai-fashion-campaign-prompt-framework` | Fashion/streetwear campaign videos | Only for clothing |
 | `remotion-video-creation` | Motion graphics, captions, animated text in code | For titles, lyric/kinetic text, explainers |
 | `fal-ai-media` | Actually generating images/video/voice via fal.ai | Needs FAL_KEY |
@@ -77,7 +76,7 @@ Vermette, Murch, buyers Bloys/Quinn/Bajaria) with Tigran's own line-producer sea
 | `director-desk` (treatment) | Pitch deck / treatment structure + gap audit + branded PDF | Use with ani-digital-marketing for the words |
 | `copywriting` | Landing pages, headlines, CTAs, website copy | Conversion-focused |
 | `seo-audit` | Site SEO problems (maghakianscripts.com) | |
-| Roast Room (`maghakian-roast-room/`) / `bab-production` / `llm-council` | Pressure-test a big decision, offer, price, pitch | Studio and business calls go to the Roast Room, film/TV project calls to bab-production; llm-council only for quick general-purpose tests |
+| Roast Room (`maghakian-roast-room/`) / `bab-production` | Pressure-test a big decision, offer, price, pitch | Studio and business calls go to the Roast Room, film/TV project calls to bab-production |
 | `anthropic-skills:humanizer` | Make any text sound human | Last step for anything published |
 | archive: `market-research`, `brand-strategist`, `brand-voice`, `copy-editing`, `email-ops`, `lead-intelligence`, `seo` | | via `skill-library` |
 

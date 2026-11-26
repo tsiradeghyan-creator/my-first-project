@@ -57,6 +57,9 @@ role, the period, the place) win over guesses, so the same character stays the s
 better done without generation (a colour isolation, a crop, a text overlay on an existing photo), say so and
 offer that route first.
 
+If the brief matches a genre (trailer, music video, product ad, transformation, horror, travel vlog…), read its
+template in `references/genre-templates/` and take its beats and camera habits into the plan.
+
 Lock, and state every assumption:
 
 - **What:** idea / logline / script pages / existing scene, and the deliverable (scene, short, trailer, ad, MV).
@@ -237,7 +240,7 @@ Record results and changes in `10_review.md`. Do not hand over with an open FAIL
 
 Single prompt → single-shot mode here first, then `seedance-25-director` (Seedance 2.5), `banana-pro-director-2.0`
 (stills) or `cinema-worldbuilder-pro-2.0` (other models) writes the final text. Stills for keyframes in depth →
-`banana-pro-director-2.0`. Story development before a crew is needed → `shortfilm-prompt` or
+`banana-pro-director-2.0`. Genre beats for one-idea shorts → `references/genre-templates/` (the five-stage method, moved here from the retired shortfilm-prompt). Story development before a crew is needed →
 the screenwriting skills. Maghakian brand content end-to-end → `content-zavod`, which may call this crew for its film
 work.
 

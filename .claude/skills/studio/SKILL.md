@@ -47,7 +47,7 @@ Before making documents for someone, `director-desk` asks who they are for (`.cl
 ### C. AI ֆիլմ (rule: every image/video prompt goes through `film-crew` first)
 | # | Stage | Skill |
 |---|---|---|
-| 1 | Գաղափար և սցենար | `ani-screenwriting-workflow` or `shortfilm-prompt` (one-idea shorts) |
+| 1 | Գաղափար և սցենար | `ani-screenwriting-workflow`; one-idea shorts via `film-crew` genre templates |
 | 2 | Ռասկադրովկա և ոճ | `film-crew` (director + style lens) → `director-desk` §3 storyboard sheet |
 | 3 | Հերոս և աշխարհ | `film-crew` (production + costume) → `banana-pro-director-2.0` (character sheets, plates) |
 | 4 | Կադրեր և լույս | `film-crew` (DP) → `banana-pro-director-2.0` |
@@ -61,7 +61,7 @@ Before making documents for someone, `director-desk` asks who they are for (`.cl
 | 1 | Pitch deck, treatment, bible | `director-desk` §4 / §4b |
 | 2 | Նամակներ պլատֆորմներին, պրոդյուսերներին | `anthropic-skills:ani-digital-marketing` |
 | 3 | Instagram, պոստեր, ռիլս | `content-zavod`, `mini-scenario`, `trend-scout` |
-| 4 | Ստուգել մեծ որոշումը (գին, առաջարկ) | `llm-council` / Roast Room |
+| 4 | Ստուգել մեծ որոշումը (գին, առաջարկ) | Roast Room (`maghakian-roast-room/`) |
 | 5 | Վերջին տեքստ | `anthropic-skills:humanizer` |
 
 Brand rules (`maghakian-brand`) are on for everything that leaves the studio.

@@ -41,4 +41,4 @@ season arc · tone + comps · production scale (locations, cast) · audience/pla
 - Quick branded PDF: `scripts/treatment_pdf.py` (this skill).
 - Deck Tigran will edit himself: Artifact Slides type, Canva or Adobe Express connector, or `pptx` skill.
   Take the content from the same Markdown. Avoid Canva's first-listed templates (everyone uses them).
-- Before sending to a big buyer: `llm-council` / Roast Room pass, then `humanizer` on the text.
+- Before sending to a big buyer: Roast Room pass (`maghakian-roast-room/`), then `humanizer` on the text.
