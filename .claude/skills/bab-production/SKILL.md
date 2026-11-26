@@ -21,6 +21,9 @@ BAB is a set of seats plus a department layer on top of the Roast Room in `magha
 | Vermette (`vermette`) | Production design | Does this world feel real, and can we build it? | `film-crew` design + costume depts, `banana-pro-director-2.0` plates, props/costume sheets |
 | Murch (`murch`) | Edit and post | Will this cut together, and what is the emotion of each cut? | `film-crew` editor + sound depts, `remotion-video-creation` |
 | Bloys (`bloys`), Quinn (`quinn`), Bajaria (`bajaria`) | Buying | Would they buy it, and by which route? | `pack.py` 02 Platform, 07 International, 08 Competition |
+| Levi (`levi`) | Selling formats from a small market | Can this story travel as a format, and how do we sell it? | `pack.py` 07 International, bible |
+| Mungiu (`mungiu`) | Low-budget auteur cinema, co-production | Can we make this small, true and finished, with European money? | `pack.py` 08 Competition and fund applications, `plan.py` |
+| Line Producer (`lineprod`) | Industry line-producing practice (composite) | What do the best production companies do here? | `director-desk` breakdown, `plan.py` |
 
 They are ordinary Roast Room seats in `roster.json`. Tigran's seat has no special powers: it speaks in the same rounds as everyone, in parallel, and its weight comes from `seats.md` like any seat's. For a money, days or production call it usually gets a 3, and it is the downside seat the board recommendation asks for.
 
@@ -90,7 +93,27 @@ A BAB seat's knowledge must be built the way `/newroaster` builds every seat:
 
 Depth: standard (30 to 50 sources, 250k+ words) at least; `--deep` (80+ sources) where the person's public work allows, to match the original seven.
 
-**State on 2026-11-26** (words in `maghakian-roast-room/.claude/skills/roast-room/brains/<seat>/*.md`). Murch 19,877 and Villeneuve 16,324: partly rebuilt (WIP rebuild commits; `_hot.md` is still the short quick-web version). Rhimes 3,902, Blum 2,777, Deakins 2,201, Bloys 2,098, Vermette 2,040, Bajaria 1,357, Tigran 1,247, Quinn 1,058: still quick-web builds or only their `sources.md` rebuilt. The original seats have 35 to 246 sources and 10,700 to 19,100 words. Until a seat is rebuilt, its council answers are thin, and the Chair says so in the verdict.
+**State on 2026-11-26, after the rebuild** (brain words; every quote passes `check_quotes.mjs` with 0 errors):
+
+| Seat | Sources | Brain words | Note |
+|---|---|---|---|
+| Villeneuve | 126 | 22,247 | |
+| Murch | 94 | 20,565 | 2020–2026 video talks unreachable (YouTube), no AI position |
+| Rhimes | 113 | 16,722 | |
+| Deakins | 95 | 13,943 | |
+| Bloys | 129 | 13,406 | corpus 132k words: no books, podcasts paywalled |
+| Quinn | 79 | 12,559 | corpus 124k words: same reason |
+| Mungiu (new) | 101 | 12,499 | Low-budget auteur cinema and co-production; on call |
+| Blum | 97 | 12,010 | |
+| Bajaria | 81 | 10,501 | Netflix 2016–2026 philosophy; corpus 90k words |
+| Line Producer (composite) | 66 | 10,385 | industry practice, Armenia rebate decision 412-N |
+| Levi (new) | 32 | 9,349 | Selling formats from a small market; on call; thin English record, corpus 51k words |
+| Tigran | 7 | 4,206 | grows from his own material, see `sources/tigran/HOW-TO-FEED.md` |
+| Vermette | | 2,040 | kept light on purpose (Tigran, 2026-11-26) |
+
+Seats with a corpus under 250k words are thinner on recent views; the Chair says so when such a seat decides a crux. Default board: Rhimes, Villeneuve, Blum, Murch, Bloys, Tigran. Villeneuve against Mungiu is the intended big-film vs small-film tension.
+
+**BAB Room page** (https://claude.ai/artifact/ViA4NX26TzgBE6gKhiAvtW, source `maghakian-roast-room/bab-room/`). Tigran types the decision, picks 4–9 seats, and watches the Chair, R1, R2 and R3 stream live, then gets the scored verdict. Councils are saved in the page's db. After any brain changes: `python3 maghakian-roast-room/bab-room/build_data.py`, then republish `data/seats.json` and `data/context.json` with publish_files (patch mode).
 - **Where to rebuild.** From the cloud (cloud-only since 2026-11-26): fetching works with
   `NODE_USE_ENV_PROXY=1 node .claude/skills/newroaster/scripts/fetch.mjs build/<slug> --list sources/<slug>/urls.txt`.
   YouTube refuses cloud IPs, so talks need transcript pages instead. Use `/newroaster <name>` in refresh mode on the same

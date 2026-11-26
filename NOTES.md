@@ -1,5 +1,40 @@
 # Handoff log
 
+## 2026-11-26 — Cloud (BAB Production final form + Arshak series draft)
+**Did:**
+- **BAB board, final (Tigran's picks).**
+  - Kept: Rhimes, Blum, Murch, Deakins; Villeneuve for cinema.
+  - Added Hagai Levi (format selling, the studio's script-sales model) and Cristian Mungiu (the low-budget film counterweight to Villeneuve).
+  - Vermette is kept light. Bajaria is kept as "Netflix 2016–2026 buying philosophy" (she left in October 2026).
+- **Brains rebuilt from the cloud with the /newroaster pipeline.** Each seat passes check_quotes with 0 errors.
+  - 22k words: Villeneuve
+  - 21k words: Murch
+  - 17k words: Rhimes
+  - 14k words: Deakins
+  - 13k words: Bloys
+  - 12–13k words: Quinn, Mungiu, Blum
+  - 10–11k words: Bajaria, Line Producer (a composite of industry practice)
+  - 9k words: Levi
+  - 4k words: Tigran (built from his own material; feed it more, see sources/tigran/HOW-TO-FEED.md)
+  - The table and gaps are in bab-production SKILL.md.
+- **Quote check fixed** for Armenian and «…» quotes (check_quotes.mjs and .py).
+- **BAB Room page** (https://claude.ai/artifact/ViA4NX26TzgBE6gKhiAvtW, source maghakian-roast-room/bab-room/).
+  - Tigran writes the decision there and watches the council run live: Chair, R1, R2 with cruxes, R3, then the scored verdict.
+  - History is saved, and there is a copy-as-markdown button.
+  - The data was republished with the new brains, and the Playwright test passes.
+- **Arshak II micro-series draft** «Արգելված անունը» (projects/arshak-series/season-1-draft.md). It has:
+  - the format rule: 3 shorts of about 2 minutes = one 6–7 minute YouTube episode;
+  - the weekly rhythm;
+  - an 8-episode season map;
+  - the full episode 1 script.
+  - It is built from Buzand and Khorenatsi, because Zoryan's novel is under copyright until the end of 2037.
+
+**Left:**
+- Tigran's call on the Arshak series: stay with Buzand or license Zoryan from his heirs. Approve episode 1, then the visual prompts go through film-crew and seedance-25.
+- Re-run «Թարգմանչուհին» (projects/bab-feature-01) Gate 1 and Gate 2 as standard councils with the new brains.
+- Seats with thin corpora (Levi, Bajaria, Quinn, Bloys) can grow if Tigran has podcasts or transcripts.
+- Tigran's seat grows as he adds his own material.
+
 ## 2026-11-26 — Cloud (LOW items and deletions)
 **Did:**
 - **Deleted** shortfilm-prompt (its genre templates and five-stage method are now in `film-crew/references/genre-templates/`), llm-council (replaced by the Roast Room and bab-production; the zavod canon was updated in zavod-om and mirrored), and the 7 unused film-crew department agents. 27 skills remain.
