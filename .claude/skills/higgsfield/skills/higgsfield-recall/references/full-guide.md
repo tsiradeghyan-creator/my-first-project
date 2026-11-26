@@ -22,6 +22,8 @@ metadata:
 
 # Higgsfield Recall — Pre-Generation Memory Check
 
+> Commands below use Seedance 2.0 (`seedance_2_0`). For new work, use Seedance 2.5 (`seedance_2_5`, verify live) and the `seedance-25-director` skill for prompt syntax.
+
 ## Purpose
 
 Before writing any Higgsfield prompt, query both memory databases to find relevant

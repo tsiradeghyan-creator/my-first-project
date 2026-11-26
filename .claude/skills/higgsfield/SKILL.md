@@ -1,6 +1,6 @@
 ---
 name: higgsfield
-description: "Use for Higgsfield platform work: routing to sub-skills, model/preset choice, prompt refinement, Cinema Studio, Soul ID, Apps, troubleshooting, credit strategy, specs, and platform verification."
+description: "Use for Higgsfield platform work: routing to sub-skills, model/preset choice, Higgsfield-specific prompt settings (presets, parameters, preflight), Cinema Studio, Soul ID, Apps, troubleshooting, credit strategy, specs, running generations, and platform verification. A new visual or video prompt goes to film-crew first, then to the model skill (seedance-25-director, banana-pro-director-2.0, cinema-worldbuilder-pro-2.0); Higgsfield then handles model choice, credits and the run."
 user-invocable: true
 metadata:
   tags: [higgsfield, routing, workflow, verification]
@@ -19,8 +19,9 @@ This is the concise entrypoint. The older full playbook is preserved in `referen
 ## Operating Contract
 
 - Read `references/full-guide.md` first, then read the routed sub-skill SKILL.md files for the user's exact task.
-- For prompt requests, read `skills/higgsfield-prompt/SKILL.md` plus any relevant camera, style, motion, model, Soul, or Seedance sub-skill.
-- `skills/higgsfield-seedance` predates Seedance 2.5. When the model is Seedance 2.5, take prompt craft and limits from the `seedance-25-director` skill (official ByteDance 2.5 guide) and keep this skill for Higgsfield platform specifics, which may differ from Dreamina's limits.
+- A visual or video prompt request goes to `film-crew` first (single-shot mode for one shot, full mode for several), then to the model skill that writes the final text (`seedance-25-director` for Seedance 2.5, `banana-pro-director-2.0` for stills, `cinema-worldbuilder-pro-2.0` for other video engines). If a film-crew plan already exists, use it. This skill covers the Higgsfield side: platform, model choice, credits and running the generation.
+- For Higgsfield-specific prompt settings, read `skills/higgsfield-prompt/SKILL.md` plus any relevant camera, style, motion, model, Soul, or Seedance sub-skill.
+- Seedance 2.5 (`seedance_2_5`, verify live) is the default video model. `skills/higgsfield-seedance` predates Seedance 2.5. When the model is Seedance 2.5, take prompt craft and limits from the `seedance-25-director` skill (official ByteDance 2.5 guide) and keep this skill for Higgsfield platform specifics, which may differ from Dreamina's limits.
 - Verify named model parameters, enums, costs, app names, and platform limits against specs or live tools when they affect success or spend.
 - Keep deliverables in the skill workspace folders when handling files.
 

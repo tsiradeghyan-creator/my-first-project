@@ -58,6 +58,16 @@ FRONTMATTER_REQUIRED = {"name", "description", "user-invocable"}
 # `parent` is required on sub-skills only — the root dispatcher has no parent.
 METADATA_REQUIRED = {"version", "updated"}
 METADATA_REQUIRED_SUBSKILL = {"parent"}
+# Since the 2026-08-25 slimming, root SKILL.md is a short entrypoint and the
+# routing table, sub-skill roster and HARD RULES live in references/full-guide.md.
+# Routing and HARD RULES checks read both files.
+ROUTING_SOURCES = (ROOT / "SKILL.md", ROOT / "references" / "full-guide.md")
+
+
+def routing_text() -> str:
+    """Root SKILL.md plus references/full-guide.md (whichever exist)."""
+    return "\n".join(p.read_text(encoding="utf-8")
+                     for p in ROUTING_SOURCES if p.exists())
 # Canonical root-level reference docs. Bare backtick refs to these names (no
 # path prefix) are validated to resolve at the repo root; other bare filenames
 # are treated as prose citations and left unchecked (see check_relative_paths).
@@ -162,10 +172,18 @@ def check_frontmatter(skill_file: Path):
         check(False, f"{rel}: missing frontmatter")
         return
     fm = match.group(1)
-    for field in FRONTMATTER_REQUIRED:
+    is_root = skill_file.parent == ROOT
+    # Root gaps fail. Sub-skill gaps in user-invocable / metadata.parent /
+    # metadata.updated are warnings: the sub-skills are routed from the root
+    # dispatcher and references/full-guide.md, not from their own frontmatter.
+    report = check if is_root else (lambda ok, label: ok or warn(label))
+    for field in sorted(FRONTMATTER_REQUIRED):
         present = re.search(rf"^{field}:", fm, re.MULTILINE) is not None
         if not present:
-            check(False, f"{rel}: missing frontmatter field '{field}'")
+            if field in ("name", "description"):
+                check(False, f"{rel}: missing frontmatter field '{field}'")
+            else:
+                report(False, f"{rel}: missing frontmatter field '{field}'")
     # tags should be nested inside metadata, not at the top level
     if re.search(r"^tags:", fm, re.MULTILINE):
         check(False, f"{rel}: tags should be inside metadata, not at top level")
@@ -174,11 +192,13 @@ def check_frontmatter(skill_file: Path):
     if re.search(r"^metadata:\s*$", fm, re.MULTILINE) is None:
         check(False, f"{rel}: missing 'metadata:' block")
         return
-    is_root = skill_file.parent == ROOT
     required = METADATA_REQUIRED if is_root else METADATA_REQUIRED | METADATA_REQUIRED_SUBSKILL
     for field in sorted(required):
         if re.search(rf"^\s+{field}:", meta, re.MULTILINE) is None:
-            check(False, f"{rel}: missing metadata.{field}")
+            if is_root or field == "version":
+                check(False, f"{rel}: missing metadata.{field}")
+            else:
+                report(False, f"{rel}: missing metadata.{field}")
 
 
 def check_relative_paths(skill_file: Path):
@@ -348,7 +368,8 @@ def check_version_consistency():
 
 
 def check_dispatcher_parity():
-    """Reconcile the skills/ directory against the root SKILL.md dispatcher.
+    """Reconcile the skills/ directory against the root dispatcher (root
+    SKILL.md plus references/full-guide.md, where the routing table lives).
 
     Every buildable sub-skill on disk must be referenced from root SKILL.md
     (otherwise it is orphaned — unreachable from the dispatcher), and every
@@ -362,19 +383,19 @@ def check_dispatcher_parity():
         d.name for d in skills_dir.iterdir()
         if d.is_dir() and d.name != "shared" and (d / "SKILL.md").exists()
     )
-    skill_text = (ROOT / "SKILL.md").read_text(encoding="utf-8")
-    referenced = set(re.findall(r"higgsfield-[a-z0-9-]+", skill_text))
+    referenced = set(re.findall(r"higgsfield-[a-z0-9-]+", routing_text()))
 
     for name in disk_skills:
         ok = name in referenced
         check(ok, f"dispatcher routes '{name}'",
-              "" if ok else "built on disk but never referenced in root SKILL.md")
+              "" if ok else "built on disk but never referenced in root SKILL.md "
+                         "or references/full-guide.md")
     for name in sorted(referenced):
         if name == "higgsfield":  # the skill-family root token, not a sub-skill
             continue
         ok = (skills_dir / name).is_dir()
         check(ok, f"dispatcher ref '{name}' exists on disk",
-              "" if ok else "referenced in root SKILL.md but no matching skills/ dir")
+              "" if ok else "referenced in the dispatcher but no matching skills/ dir")
 
 
 def parse_args():
@@ -728,10 +749,16 @@ def check_hard_rules_canonical():
     canonical-home pointer and must not cite a rule number that doesn't
     exist — the drift mode where a rule gets added/removed in SKILL.md and
     a stale '#9' (or a re-stated checklist) lives on elsewhere."""
-    skill_text = (ROOT / "SKILL.md").read_text(encoding="utf-8")
-    section = re.search(r"^## HARD RULES.*?(?=^## )", skill_text,
-                        re.MULTILINE | re.DOTALL)
-    if not check(bool(section), "root SKILL.md has a HARD RULES section"):
+    section = None
+    for src in ROUTING_SOURCES:
+        if src.exists():
+            section = re.search(r"^## HARD RULES.*?(?=^## )",
+                                src.read_text(encoding="utf-8"),
+                                re.MULTILINE | re.DOTALL)
+            if section:
+                break
+    if not check(bool(section),
+                 "HARD RULES section in root SKILL.md or references/full-guide.md"):
         return
     rule_numbers = [int(n) for n in
                     re.findall(r"^(\d+)\.\s+\*\*", section.group(0), re.MULTILINE)]

@@ -117,7 +117,7 @@ cli-anything-kdenlive --json project create --name my-project
 ## This workspace (Maghakian)
 
 - Install everything (CLI-Hub, all harness CLIs, backend apps): `bash scripts/install-cli-anything.sh`. Cloud containers are fresh each session, so run it first there if `cli-hub` is missing.
-- Per-CLI skill docs are archived in `.claude/skills-library/cli-anything/cli-anything-<name>/SKILL.md`. Read the one you need before using a CLI.
+- Per-CLI skill docs are not stored in this repo. `scripts/install-cli-anything.sh` clones HKUDS/CLI-Anything to `~/.cache/cli-anything-src` (or `$CLI_ANYTHING_SRC`), and each CLI's doc is at `<name>/agent-harness/cli_anything/<name>/skills/SKILL.md` there (for example `blender/agent-harness/cli_anything/blender/skills/SKILL.md`; names vary, e.g. `QGIS/.../cli_anything/qgis/`, so list them with `find ~/.cache/cli-anything-src -path '*skills/SKILL.md'`). Run the script first if that folder is missing, then read the one you need before using a CLI.
 - Always pass `--json` when an agent reads the output.
 - The builder plugin (`/cli-anything <path-or-repo>`, `/cli-anything:refine`, `:test`, `:validate`, `:list`) is enabled in `.claude/settings.json` from the HKUDS/CLI-Anything marketplace.
 - Studio priorities: kdenlive / shotcut (editable edit projects), blender, gimp, inkscape, krita, audacity, calibre + libreoffice (publishing), musescore, mermaid / drawio.

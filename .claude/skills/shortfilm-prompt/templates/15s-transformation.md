@@ -8,8 +8,8 @@
 >
 > **How to use**: replace the `{{...}}` placeholders with your own
 > design and you're ready to run.
-> Single-shot one-take only. **Do not** use the Seedance 2.0 Fast
-> variant.
+> Single-shot one-take only. Target Seedance 2.5 via
+> `seedance-25-director` (up to 30 s per clip).
 >
 > **[中文版 →](./15s-transformation.zh.md)**
 

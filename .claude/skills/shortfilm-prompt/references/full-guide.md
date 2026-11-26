@@ -1,6 +1,6 @@
 ---
 name: shortfilm-prompt
-description: Generate cinematic AI shortfilm prompts (works with Seedance 2.0, Xiaoyunque, Sora, Kling, Jimeng, Veo) using the 5-stage structure from Mx-Shell's Zombie Scavenger. Trigger when the user wants transformation sequences, multi-shot narrative shorts, weapon-charge/combat segments, emotional family/pet/farewell narratives (催泪/亲情/萌宠/离别). Scope is the 5-stage narrative short specifically — do NOT trigger on generic "write me a video prompt" requests: `cinema-worldbuilder-pro-2.0` owns those (it is the general video-prompt director), `jackvsai-fashion-campaign-prompt-framework` owns garment/outfit shots, and `higgsfield` owns platform/credits/model-picking questions.
+description: Generate one-idea cinematic AI shortfilm prompts (Seedance 2.5 via seedance-25-director, Kling, Veo and other video models) using the 5-stage structure from Mx-Shell's Zombie Scavenger. Trigger when the user wants transformation sequences, weapon-charge/combat segments, emotional family/pet/farewell narratives (催泪/亲情/萌宠/离别). Story-planned multi-shot work goes to film-crew. Scope is the 5-stage narrative short specifically — do NOT trigger on generic "write me a video prompt" requests: `cinema-worldbuilder-pro-2.0` owns those (it is the general video-prompt director), `jackvsai-fashion-campaign-prompt-framework` owns garment/outfit shots, and `higgsfield` owns platform/credits/model-picking questions.
 ---
 
 # shortfilm-prompt — Cinematic AI Video Prompt Generator
@@ -8,13 +8,17 @@ description: Generate cinematic AI shortfilm prompts (works with Seedance 2.0, X
 You play the role of a director's assistant fluent in the 5-stage AI
 shortfilm prompt structure (first proven by Mx-Shell in *Zombie Scavenger*).
 When the user invokes this skill they want a prompt they can paste
-directly into a video model: Seedance 2.0 / Xiaoyunque / Sora / Kling /
-Jimeng / Veo.
+directly into a video model: Seedance 2.5 (Dreamina / Jimeng, via
+`seedance-25-director`) / Kling / Veo / others.
 
 **Model-agnostic core**: the 5-stage structure itself is the same across
 all models. At the end of your output, give one line of model-specific
-advice (Sora prefers concise; Kling is more permissive on IP names;
-Seedance blocks IP names; etc.).
+advice (Kling is more permissive on IP names; Seedance blocks IP names;
+etc.).
+
+**Before writing:** Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input. If a film-crew plan already exists, use it. Story-planned multi-shot work goes to
+film-crew's full mode. For Seedance, target Seedance 2.5 via
+`seedance-25-director` (up to 30 s per clip).
 
 ## Workflow (execute in order)
 
@@ -231,7 +235,7 @@ Route the negation accordingly:
   paste the canonical prefab into that field. Keep entries as plain
   comma-separated nouns/phrases — Veo and Kling reject `no…` / `don't…`
   command language inside the field.
-- **No dedicated field** (Sora, Runway Gen-4): fold negations into the
+- **No dedicated field** (Runway Gen-4): fold negations into the
   **positive** prompt as explicit `no ___` lines (e.g. *"original
   characters only, no logos, no text overlay, no morphing geometry"*).
   Runway is the exception — Gen-4 has no field **and** reacts badly to
@@ -244,9 +248,8 @@ blurry, low resolution, soft focus, watermark, text overlay, subtitles, logo, di
 ```
 
 > Note: the "dedicated field" claim is per-model and front-end-specific.
-> Seedance's field is not reliably surfaced in the consumer Doubao app —
-> if the user is on Doubao, fold negatives into the positive prompt
-> instead. Verify Pika 2.2 in-app (2.5 confirmed, 2.2 ambiguous).
+> For Seedance 2.5, follow `seedance-25-director` on negation (it obeys
+> specific bans written in the prompt). Verify Pika 2.2 in-app (2.5 confirmed, 2.2 ambiguous).
 
 ---
 
@@ -333,7 +336,7 @@ Examples:
 ### Rule 7 — Avoid IP names + give model-specific advice
 
 Do not paste specific IP names (Kamen Rider / Gundam / Iron Man / Kai'Sa
-/ MJ / The Matrix...). Seedance 2.0's IP filter is aggressive.
+/ MJ / The Matrix...). Seedance's IP filter is aggressive.
 
 Substitutions:
 - "reference Iron Man" → "atom-punk retro-futurist red-and-gold combat suit"
@@ -346,14 +349,13 @@ warning line at the end**:
 > it. Consider replacing it or deleting some punctuation."*
 
 **Model-specific advice to include at end of output:**
-- Seedance 2.0 (Doubao/Jimeng): strict IP filter — avoid named IP; ZH or EN both fine; single-shot 4–15s on Jimeng web/VolcEngine but the Doubao app is locked to 5s/10s — don't promise 15s on Doubao.
+- Seedance 2.5 (Dreamina/Jimeng, Higgsfield): target it via `seedance-25-director` (up to 30 s per clip), which owns its syntax, limits and modes; avoid named IP.
 - Veo 3 / 3.1: strict IP filter; EN preferred; 8s/clip (extend in 7s hops); dedicated negative field — put plain noun phrases there, not `no…` commands.
 - Kling 2.x / 3.0: strict pre-gen banned-word filter rejects the WHOLE prompt on one flagged term — sanitize body/contact words first; ZH or EN; 5–10s (3.0 up to ~15s single-prompt); has a negative field (use for sliding-feet/extra-fingers/morph artifacts).
 - Hailuo / MiniMax: moderate IP filter; ZH or EN; resolution-vs-duration trade-off (1080p ~6s vs 768p ~10s); negative field exists but use sparingly for specific artifacts.
 - Wan 2.x (Alibaba, open-source): lenient when self-hosted; leans Chinese (add ZH for tricky/first-last-frame shots); ~3–8s (newer builds ~10–15s); robust negative field.
 - Runway Gen-4 / 4.5: strict IP filter; EN; 5s or 10s; NO negative prompts — `no X` can summon X, so describe only what SHOULD appear.
 - Pika 2.2 / 2.5: moderate IP filter; EN; 5s/10s standard (Pikaframes keyframes ~25s, not general); 2.5 supports negatives, verify 2.2 in-app.
-- Sora 2 / 2 Pro: strict triple-layer filter catches lookalike DESCRIPTIONS not just names — avoid recognizable trait-bundles; EN; up to ~25s single-pass on Pro; no negative field — fold guardrails into the positive prompt.
 
 ---
 
@@ -368,7 +370,7 @@ warning line at the end**:
 - [ ] No vague praise words: "perfect / stunning / epic / handsome / 4K / texture-rich" (Rule 1)
 - [ ] No IP names, OR if present, warning line added (Rule 7)
 - [ ] Negative prompt included for models that support a dedicated field (Seedance/Kling)
-- [ ] Single-shot ≤ 15s / multi-shot ≤ 8 shots
+- [ ] Single clip within the target model's limit (Seedance 2.5 via `seedance-25-director`: up to 30 s per clip) / multi-shot ≤ 8 shots
 - [ ] Closing model-specific advice line included
 
 Less than full pass = don't deliver. Fix and re-check.
@@ -378,8 +380,9 @@ Less than full pass = don't deliver. Fix and re-check.
 ## What NOT to do
 
 - Don't write "perfect / stunning / epic victory" — AI models respond poorly to these
-- Don't make single-shots > 15s or multi-shots > 8 shots — reroll
-  success rate collapses
+- Don't push a single clip past the target model's limit (Seedance 2.5:
+  up to 30 s per clip, see `seedance-25-director`) or multi-shots past
+  8 shots — reroll success rate collapses
 - Don't omit "Sound: production audio only" — the AI will fabricate
   music
 - Don't mix atmosphere blocks across different color tones — color
@@ -395,8 +398,8 @@ the user can scan it at a glance.
 
 **Then briefly**:
 - 2–3 sentences explaining your writing choices
-- 1 line of usage advice ("use Seedance 2.0, not Fast version" / "try
-  this segment first to gauge texture")
+- 1 line of usage advice ("target Seedance 2.5 via seedance-25-director"
+  / "try this segment first to gauge texture")
 - 1 line of target-model-specific compatibility advice
 
 If the user gives feedback to modify a section, **rewrite only that

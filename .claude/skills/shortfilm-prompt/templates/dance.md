@@ -112,6 +112,6 @@ blurry, low resolution, watermark, text overlay, subtitles, logo, stiff mocap mo
 real weight and stays whole in frame (no cropped limbs, no mocap stiffness),
 the entry and resolve frame it. Keep it one continuous move.
 
-**Model:** Kling is excellent at full-body human motion; Veo 3 and Sora 2
-give strong realism + native music handling. Watch for bent/broken joints
+**Model:** Kling is excellent at full-body human motion; Veo 3
+gives strong realism + native music handling. Watch for bent/broken joints
 and limb morphing on fast moves — negate them and keep the body framed whole.

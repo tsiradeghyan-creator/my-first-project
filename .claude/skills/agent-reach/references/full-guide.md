@@ -1,14 +1,13 @@
 ---
 name: agent-reach
 description: >
-  MUST USE when user wants to 调研/research/搜索/search/查/找/look up anything
-  on the internet — e.g. 全网调研 X / 帮我调研一下 X / 查一下 X / 搜搜 X /
-  看看大家怎么评价 X / X 上有什么讨论 / research this topic。
-
-  Also MUST USE when user mentions any platform or shares any URL/链接:
-  小红书/xiaohongshu/xhs, Twitter/推特/X, B站/bilibili, Reddit, Facebook,
-  Instagram, V2EX, LinkedIn/领英/招聘/求职/jobs, YouTube, GitHub code search, 小宇宙播客,
-  雪球/股票行情, RSS feeds, or any web URL.
+  Use when the user needs content from a logged-in social platform or a
+  platform CLI, and the agent-reach CLI is installed (check `command -v agent-reach`
+  or `agent-reach doctor` first): 小红书/xiaohongshu/xhs, Twitter/推特/X,
+  B站/bilibili, Reddit, Facebook, Instagram, V2EX, LinkedIn, YouTube transcripts,
+  小宇宙播客, 雪球. General web research, search and reading an ordinary URL stay
+  with the built-in web tools (WebSearch, Perplexity, Firecrawl); use those too
+  when the CLI is not installed.
 
   15 platforms, multi-backend routing (OpenCLI / per-platform CLIs / APIs).
   Zero config for 6 channels. Run `agent-reach doctor --json` to see which
@@ -20,8 +19,8 @@ description: >
   【路由方式】SKILL.md 包含路由表和常用命令，复杂场景需按需阅读对应分类的 references/*.md。
   分类：search / social (小红书/推特/B站/V2EX/Reddit/Facebook/Instagram) / career(LinkedIn) / dev(github) / web(网页/文章/RSS) / video(YouTube/B站/播客)。
 triggers:
-  - research: 调研/全网调研/帮我调研/研究一下/research/深入了解
-  - search: 搜/查/找/search/搜索/查一下/帮我搜/看看大家怎么说
+  # General research/search/web reading triggers were removed on 2026-11-26:
+  # those go to the built-in web tools (WebSearch, Perplexity, Firecrawl).
   - social:
     - 小红书: xiaohongshu/xhs/小红书/红书
     - Twitter: twitter/推特/x.com/推文
@@ -32,7 +31,6 @@ triggers:
     - Instagram: instagram/ig
   - career: 招聘/职位/求职/linkedin/领英/找工作
   - dev: github/代码/仓库/gh/issue/pr/分支/commit
-  - web: 网页/链接/文章/rss/读一下/打开这个
   - video: youtube/视频/播客/字幕/小宇宙/转录/yt
   - finance: 雪球/股票/stock/xueqiu/行情/基金
 metadata:
@@ -42,7 +40,7 @@ metadata:
 
 # Agent Reach — 互联网能力路由器
 
-15 平台、多后端。**本 skill 存在时必须用它访问这些平台，不要自己发明方案。**
+15 平台、多后端。先确认 `agent-reach` CLI 已安装（`command -v agent-reach` 或 `agent-reach doctor`）。已安装时，访问需要登录的社交平台和平台 CLI（推特/Reddit/B站/小红书/YouTube 字幕等）用本 skill 的命令，不要自己发明方案；未安装时，或只是一般网页调研/读链接，用内置网页工具（WebSearch、Perplexity、Firecrawl）。
 
 ## 常驻规则（全程适用）
 

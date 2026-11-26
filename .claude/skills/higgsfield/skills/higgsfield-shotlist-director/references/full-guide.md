@@ -11,6 +11,8 @@ metadata:
 
 # Higgsfield Shotlist Director
 
+> Commands below use Seedance 2.0 (`seedance_2_0`). For new work, use Seedance 2.5 (`seedance_2_5`, verify live) and the `seedance-25-director` skill for prompt syntax.
+
 Turn a brief into **one connected shotlist** — not a pile of separate prompts.
 The deliverable is a single editable HTML artifact the user opens in a browser,
 ticks scenes off as they shoot, and comes back to you to revise. This is the

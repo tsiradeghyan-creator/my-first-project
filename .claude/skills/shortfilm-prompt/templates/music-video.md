@@ -124,7 +124,7 @@ song, generate to temp/silence and sync the real track in post. Keep
 performers' faces consistent across cuts (generate the hook frame first to
 lock the look).
 
-**Model:** Veo 3 and Sora 2 handle performance motion and (if you want it)
+**Model:** Veo 3 handles performance motion and (if you want it)
 native audio best; Kling 3.0 is strong on rhythmic action and multilingual
 dialogue. For real lip-sync to your own track, lay it in post rather than
 trusting generated vocals.

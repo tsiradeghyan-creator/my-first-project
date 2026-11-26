@@ -1,5 +1,7 @@
 # Full Craft Guide
 
+> Commands below use Seedance 2.0 (`seedance_2_0`). For new work, use Seedance 2.5 (`seedance_2_5`, verify live) and the `seedance-25-director` skill for prompt syntax.
+
 This file preserves the original long-form craft doctrine that previously lived in `SKILL.md`.
 Read only the sections needed for the current request.
 

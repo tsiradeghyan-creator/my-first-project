@@ -37,20 +37,19 @@ in-prompt negation guidance below.
 
 Mechanics differ more than people expect. Some tools have a dedicated box,
 some need the negatives folded into the positive prompt as guardrail
-phrases, and **two (Runway Gen-4, and to a degree Seedance's consumer app)
-do not reliably support negation at all** — on Runway, "no X" can actively
-summon X.
+phrases, and **Runway Gen-4 does not reliably support negation at all** —
+on Runway, "no X" can actively summon X. Seedance 2.5 negation and limits
+live in `seedance-25-director`.
 
 | Model | Dedicated negative field? | How to negate | Single-shot max | IP filter | Lang |
 |---|---|---|---|---|---|
-| **Seedance 2.0** (Doubao / Jimeng-Xiaoyunque, ByteDance) | Partial — no reliable field in the consumer app | Describe what you DO want; fold avoidance phrasing in-prompt | ~10–15s (Doubao app locked to 5s/10s buttons; Jimeng web & VolcEngine console expose 4–15s) | Strict (domestic ByteDance is harsher than most Western tools) | Either (native ZH safest) |
+| **Seedance 2.5** (Dreamina / Jimeng, Higgsfield; ByteDance) | See `seedance-25-director` | Describe what you DO want; specific bans per `seedance-25-director` | Up to 30 s per clip — target it via `seedance-25-director` | Strict (verify live) | See `seedance-25-director` |
 | **Veo 3 / 3.1** (Google) | **Yes** | Plain noun/phrase list in the field — **no "no/don't" commands** | 8s (4/6/8s); Extend stacks 7s hops up to ~148s, quality drops after 4–5 | Strict | EN |
 | **Kling 2.x / 3.0** (Kuaishou) | **Yes** | Best for stability artifacts (sliding feet, extra fingers, morphing), not generic "quality" words | 2.5: 5–10s (Pro ~12s); 3.0: ~15s single-prompt | Strict (banned-word filter rejects the WHOLE prompt on one match) | Either |
 | **Hailuo / MiniMax** (Hailuo 02 / 2.3) | **Yes** | Use sparingly — boundary-setting for specific artifacts, not a primary lever | ~6–10s (1080p ~6s; 768p ~10s) | Moderate | Either |
 | **Wan 2.x** (Alibaba, open-source) | **Yes** (robust) | Documented defaults: morphing, warping, face deformation, flickering, jittering, inconsistent lighting | 2.2: ~3–8s; 2.5/2.6: ~10–15s | Lenient when self-hosted | Native ZH (EN-only can underperform) |
 | **Runway Gen-4 / 4.5** | **No** | Positive-only — describe only what SHOULD appear; "no X" can produce the opposite | 5s or 10s | Strict | EN |
 | **Pika (2.2 / 2.5)** | Partial — yes on 2.5, unclear on 2.2 | 2.5 accepts "no morphing, no extra limbs…"; verify in-app on 2.2 | 5s/10s; Pikaframes keyframes up to ~25s | Moderate | EN |
-| **Sora 2 / 2 Pro** (OpenAI) | **No** dedicated box | Negate in-prompt with guardrail phrases ("original characters only, no logos or text") | Up to ~25s on Pro (standard tier shorter) | Strict (triple-layer; catches lookalikes, not just names) | EN |
 
 **Three rules that trip people up:**
 
@@ -61,14 +60,14 @@ summon X.
 2. **Dedicated fields take descriptions, not commands.** In Veo/Kling/Wan,
    put `extra limbs, glitch morphs, text overlays` — never
    `no extra limbs`. The "no" wastes a token and can confuse the parser.
-3. **Seedance's consumer Doubao app has no surfaced negative field and is
-   locked to 5s/10s buttons.** Don't promise 15s or a negative box there;
-   the full 4–15s range and finer control live on Jimeng web / VolcEngine.
+3. **Seedance limits live in `seedance-25-director`.** Target Seedance 2.5
+   there (up to 30 s per clip); the old Seedance 2.0 notes (Doubao 5s/10s
+   buttons, 4–15s range) no longer apply.
 
 > Confidence: durations and negative-prompt mechanics are medium-high for
-> Veo 3.1, Runway Gen-4, Kling, Wan, and Sora (consistent across 2026
-> vendor/help docs); medium for Seedance 2.0 and Hailuo (mostly third-party
-> guides). Veo's ~148s and Sora/Pika's ~25s come from extension/keyframe
+> Veo 3.1, Runway Gen-4, Kling and Wan (consistent across 2026
+> vendor/help docs); medium for Hailuo (mostly third-party guides).
+> Veo's ~148s and Pika's ~25s come from extension/keyframe
 > features, **not** plain single-shot generation. IP-filter "strictness"
 > labels are qualitative judgments, not formal vendor classifications.
 

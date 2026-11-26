@@ -1,20 +1,28 @@
 ---
 name: agent-reach
-description: "Use for internet research or platform lookup across web, social, video, GitHub, jobs, RSS, and market-discussion sources when the user asks to search, research, look up, or inspect a URL/platform."
+description: "Use for lookups on logged-in social platforms and platform CLIs: X/Twitter, Reddit, Bilibili, Xiaohongshu, YouTube transcripts and the like, when the agent-reach CLI is installed. General web research and URL reading stay with the normal web tools (WebSearch, Perplexity, Firecrawl)."
 user-invocable: true
 metadata:
   tags: [agent_reach, research, workflow, verification]
-  version: 1.1.0
-  updated: 2026-08-25
+  version: 1.2.0
+  updated: 2026-11-26
 ---
 
 # Agent Reach
 
 This concise entrypoint preserves routing and safety. The complete older guide is stored in `references/full-guide.md`.
 
+## Scope
+
+This skill covers platforms that need a login or a platform CLI: X/Twitter, Reddit, Bilibili, Xiaohongshu, YouTube transcripts, and similar. General web research, search and reading a URL stay with the built-in web tools (WebSearch, Perplexity, Firecrawl).
+
+## First: Is the CLI Installed?
+
+Before reading `references/full-guide.md`, check for the CLI: `command -v agent-reach` (or `agent-reach doctor`). If it is not installed, do not use this skill's commands; use the built-in web tools (WebSearch, Perplexity, Firecrawl) instead and say which platform could not be reached directly.
+
 ## Required Reference
 
-Read `references/full-guide.md` before user-facing work from this skill.
+When the CLI is installed, read `references/full-guide.md` before user-facing work from this skill.
 
 ## Operating Contract
 

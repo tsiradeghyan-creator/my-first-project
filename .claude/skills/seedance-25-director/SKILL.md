@@ -1,6 +1,6 @@
 ---
 name: seedance-25-director
-description: Seedance 2.5 (Dreamina / Jimeng, ByteDance) video director. Turns an idea, storyboard or @Image/@Video/@Audio references into a copy-ready Seedance 2.5 prompt plus exact UI settings. Covers Omni Reference, First/Last Frames, exact-timestamp 4-30 s clips, Long Video (30-180 s), video extension (to 60 s), Smart Edit / Edit with marks / Edit Video, Clay Renderer (white-model, Blender/Maya), seamless transitions, multi-grid storyboards, green screen, BGM/subtitle removal, voice (tone) reference, multi-person locking and realistic humans. Use whenever the target model is Seedance 2.5, or the user writes "Seedance 2.5", "sd2.5", "Dreamina 2.5", "Jimeng 2.5", "Սիդանս 2.5", "Сиданс 2.5", asks to fix a failed Seedance 2.5 result, or asks how a Seedance 2.5 feature works. Not for a multi-shot scene/film/ad planned shot by shot or "in the style of" a named director (use film-crew, which then uses this skill for the prompts), other video models (cinema-worldbuilder-pro-2.0), stills, or submitting generations.
+description: Seedance 2.5 (Dreamina / Jimeng, ByteDance) video director. Turns an idea, storyboard or @Image/@Video/@Audio references into a copy-ready Seedance 2.5 prompt plus exact UI settings. Covers Omni Reference, First/Last Frames, exact-timestamp 4-30 s clips, Long Video (30-180 s), video extension (to 60 s), Smart Edit / Edit with marks / Edit Video, Clay Renderer (white-model, Blender/Maya), seamless transitions, multi-grid storyboards, green screen, BGM/subtitle removal, voice (tone) reference, multi-person locking and realistic humans. Use whenever the target model is Seedance 2.5, or the user writes "Seedance 2.5", "sd2.5", "Dreamina 2.5", "Jimeng 2.5", "Սիդանս 2.5", "Сиданс 2.5", asks to fix a failed Seedance 2.5 result, or asks how a Seedance 2.5 feature works. For a new prompt, film-crew runs first and this skill writes the final text from its plan; feature questions and fixes come here directly. Not for other video models (cinema-worldbuilder-pro-2.0), stills, or submitting generations.
 metadata:
   version: 1.0.0
   updated: 2026-10-29
@@ -35,8 +35,9 @@ Load only what the request needs. Never read `official-guide-lark.md` whole; use
 
 - This skill writes prompts, plans, diagnoses and settings. It never submits a generation or spends credits; if
   the user wants to generate, hand the finished prompt to `fal-ai-media`, `higgsfield`, or the Dreamina UI.
-- A multi-shot scene/short/ad whose shots must cut together → `film-crew` first (it plans the departments and
-  every cut, then uses this skill's rules for the Seedance 2.5 prompts).
+- Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md,
+  and take its plan as input. If a film-crew plan already exists, use it. Feature questions and fixes to an
+  existing result need no film-crew pass.
 - Another model or "any model" → `cinema-worldbuilder-pro-2.0`. Still images → `banana-pro-director-2.0`.
   Higgsfield platform questions → `higgsfield`. Full narrative short-film package → `shortfilm-prompt` for
   story, then this skill for the Seedance 2.5 execution. If a story/shot plan already exists, keep its intent,
@@ -164,7 +165,7 @@ list what changed, then the revised prompt).
 
 ## Notes carried over from the user's earlier Seedance 2.0 rules
 
-The user's `seedance_2_rules.docx` (Seedance 2.0) still holds for: declaring every @file with its purpose at the top,
+The user's earlier Seedance 2.0 rules still hold for: declaring every @file with its purpose at the top,
 strict identity phrasing ("use @Image 1 as strict identity reference"), banning vague words (cool, nice,
 beautiful), not mixing too many scenes, avoiding real celebrities/copyrighted characters, softening violence when
 moderation blocks, and giving a per-second translation after the prompt. It is **superseded** for: 15 s max

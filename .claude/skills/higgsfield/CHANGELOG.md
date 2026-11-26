@@ -1,9 +1,22 @@
 # Changelog
 
+## Unreleased (local) — 2026-11-26
+
+### Changed
+- **Seedance 2.5 is the default video model** (`seedance_2_5`, verify live; on Higgsfield since 2026-08-06: up to 30 s, 4K, 21:9–9:16, 50 reference files). `scripts/sync_specs.py` gained `MANUAL_MODELS`, a hand-verified entry used until a fresh `models_explore` dump includes the model; `specs/` regenerated, so `seedance_lint.py --preflight --model seedance_2_5` works. Defaults updated in the root guide (Fast Path, routing rows), `higgsfield-motion-design` (up to 30 s) and `higgsfield-stack` (linter for 2.0, 2.5 and Pro). The Seedance 2.0 guides (seedance, seedance-vfx, facs, shotlist-director, cinema, recall) carry a note pointing new work to 2.5 and `seedance-25-director`.
+- **film-crew first:** a visual or video prompt request goes to `film-crew`, then to the model skill; this skill covers platform, model choice, credits and running generations (root SKILL.md, full guide).
+- **Sora 2 closed:** OpenAI ended the Sora app and API (API ended 2026-09-24); removed as a recommendation in `higgsfield-models` and the root guide.
+- **validate.py** reads routing, the sub-skill roster and HARD RULES from `references/full-guide.md` as well as root SKILL.md; missing `user-invocable` / `metadata.parent` / `metadata.updated` on sub-skills are now warnings.
+
 ## Unreleased (local) — 2026-10-29
 
 ### Changed
 - Root SKILL.md Operating Contract: `skills/higgsfield-seedance` predates Seedance 2.5 — for Seedance 2.5 prompt craft and limits, defer to the separate `seedance-25-director` skill (official ByteDance 2.5 guide); Higgsfield platform specifics stay here.
+
+## v3.21.0 — 2026-08-25
+
+### Changed
+- Root SKILL.md slimmed to a short entrypoint; the routing table, sub-skill roster and HARD RULES moved to `references/full-guide.md`. (Entry added 2026-11-26 to match the version already in SKILL.md.)
 
 ## v3.20.1 — 2026-07-06
 

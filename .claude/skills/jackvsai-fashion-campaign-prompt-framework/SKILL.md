@@ -13,6 +13,8 @@ Use this for: streetwear prompts, fashion campaign prompts, editorial prompts, s
 
 Route elsewhere for: general video prompts (`cinema-worldbuilder-pro-2.0`), 5-stage narrative shorts (`shortfilm-prompt`), or Higgsfield platform/model/credit questions (`higgsfield`).
 
+Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input. If a film-crew plan already exists, use it. Here the film-crew plan sets the beats, look and camera; this skill compresses them into the fashion-campaign format below.
+
 **Hard rule: the final prompt must be 1,000 characters or fewer.** Non-negotiable. This is a compressed format designed for AI video generators with strict prompt-length limits.
 
 ---

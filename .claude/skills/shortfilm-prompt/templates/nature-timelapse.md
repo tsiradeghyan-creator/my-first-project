@@ -117,7 +117,7 @@ transition stays on one grade and doesn't flicker, the full arc will hold.
 Watch for "timelapse flicker" (exposure jumping frame to frame) — negate it
 explicitly. Keep the camera locked.
 
-**Model:** Veo 3 and Sora 2 give the best photoreal skies and light
+**Model:** Veo 3 gives the best photoreal skies and light
 transitions; Kling and Seedance handle the motion well but watch for
 flicker on long light changes. This genre wants real dynamic range — avoid
 the HDR/oversaturation default.

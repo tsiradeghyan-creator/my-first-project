@@ -2,13 +2,13 @@
 name: higgsfield-models
 description: >
   Use when the user asks which model to use, wants to compare models,
-  or needs guidance on selecting between Kling, Sora 2, Wan, Seedance,
+  or needs guidance on selecting between Kling, Wan, Seedance,
   Veo 3, Minimax Hailuo, Soul, Nano Banana, or other Higgsfield engines.
 user-invocable: true
 metadata:
   references:
     - MODELS-DEEP-REFERENCE.md
-  tags: [higgsfield, models, Kling, Sora, Wan, Seedance, Veo, Soul, NanoBanana]
+  tags: [higgsfield, models, Kling, Wan, Seedance, Veo, Soul, NanoBanana]
   version: 3.2.0
   updated: 2026-07-05
   parent: higgsfield
@@ -30,7 +30,7 @@ Fast lookup — for detailed comparisons see the full tables below.
 | Need | Recommended Model | Tier |
 |------|-------------------|------|
 | Top-tier cinematic video + audio | Kling 3.0 | Premium |
-| Epic scale / spectacle | Sora 2 | Premium |
+| Epic scale / spectacle | Seedance 2.5 (`seedance_2_5`, verify live; up to 30s, 4K) | Premium (verify live) |
 | Nature / landscapes + ref images | Veo 3.1 | Premium |
 | Artistic / stylized video | Wan 2.6 | Mid |
 | Fast video iteration | Seedance 2.0 Pro | Mid |
@@ -58,7 +58,8 @@ Fast lookup — for detailed comparisons see the full tables below.
 | Kling 3.0 Motion Control | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★☆☆ | 3–30s | Optional | Motion transfer from reference video |
 | Kling 2.6 (legacy) | ★★★★★ | ★★★★★ | ★★★★☆ | ★★★☆☆ | 5–10s | ❌ | Character drama, realism (no audio) |
 | Kling 2.5 Turbo | ★★★★☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ | 5–10s | ❌ | Fast Kling iteration |
-| Sora 2 | ★★★★☆ | ★★★☆☆ | ★★★★★ | ★★★★☆ | — | ❌ | Epic scale, physics, action |
+| Seedance 2.5 | — | — | — | — | 4–30s | (verify live) | Up to 4K, 21:9–9:16, up to 50 reference files; prompt syntax via `seedance-25-director` |
+| Sora 2 (closed) | — | — | — | — | — | — | Closed: OpenAI shut the Sora app and API (API ended 2026-09-24). Do not recommend |
 | Wan 2.7 | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★★★ | 2–15s | ✅ | 60fps, T2V/I2V/R2V/edit, first+last frame |
 | Wan 2.6 | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★★ | 5–15s | ❌ | Artistic, stylized, improved physics |
 | Wan 2.5 | ★★★★☆ | ★★★☆☆ | ★★★★☆ | ★★★★★ | 5–10s | ✅ | Native audio, artistic, fantasy |
@@ -117,11 +118,12 @@ Is this image or video?
     │   └── Artistic, painterly, fantasy → Wan 2.5/2.6
     │
     ├── Is it action/spectacle?
-    │   ├── Epic scale, crowds, physics → Sora 2
+    │   ├── Epic scale, crowds, physics → Seedance 2.5 (verify live; Sora 2 is closed)
     │   ├── VFX, anime, fluid motion → Minimax Hailuo 2.3
     │   └── Dance, sports, budget motion → Minimax Hailuo 02
     │
     ├── Need maximum reference control?
+    │   ├── Up to 50 reference files → Seedance 2.5 (verify live)
     │   ├── Up to 12 assets (images+video+audio) → Seedance 2.0
     │   ├── Up to 7 image refs → Kling O1 Video
     │   ├── Image + video refs with native audio (4–10s, 720p) → Gemini Omni Flash

@@ -2,15 +2,15 @@
 name: higgsfield
 description: >
   Use this skill whenever the user asks anything about Higgsfield AI — writing or
-  refining video/image prompts, choosing a model (Kling, Sora 2, Veo, Wan, Seedance,
+  refining video/image prompts, choosing a model (Kling, Veo, Wan, Seedance,
   Minimax Hailuo, DoP, Soul, Nano Banana, Seedream, Flux, GPT Image, etc.), camera
   controls, named motion presets, Soul ID character consistency, Cinema Studio 2.5/3.0,
   Vibe Motion, troubleshooting failed generations, credit optimization, Photodump,
   or any mention of higgsfield.ai. Scope is the PLATFORM — models, controls, presets,
-  credits, UI, troubleshooting. Prompt CRAFT now lives elsewhere: route generic
-  "write me a video prompt" to `cinema-worldbuilder-pro-2.0` and generic "write me an
-  image prompt" to `banana-pro-director-2.0`; both are engine-agnostic and cover
-  Higgsfield's models as their default target. Stay in this skill for choosing WHICH
+  credits, UI, troubleshooting. Prompt CRAFT now lives elsewhere: any visual or video
+  prompt request goes to `film-crew` first (single-shot mode for one shot), then to the
+  model skill (`seedance-25-director` for Seedance 2.5, `cinema-worldbuilder-pro-2.0`
+  for other video engines, `banana-pro-director-2.0` for stills). Stay in this skill for choosing WHICH
   Higgsfield model or preset to run and for anything about the platform itself.
 user-invocable: true
 metadata:
@@ -57,8 +57,8 @@ These rules apply to every Higgsfield response. They are written as a pre-delive
 
 Higgsfield is a cinematic AI video and image generation platform built for filmmakers and
 creators. Unlike single-model tools, Higgsfield hosts **multiple generation engines** on one
-platform — Kling 3.0/3.0 Omni/3.0 Motion Control, Sora 2 incl. Pro/Max/Pro Max tiers (UI-only — confirmed in the UI 2026-07-06, absent from the API/MCP catalog), Google Veo 3.1/3.1 Lite, Wan 2.7/2.6/2.5,
-Seedance 2.0/Pro, Minimax Hailuo 2.3/02, Higgsfield DoP (Lite/Standard/Turbo) for video; Soul 2.0, Soul Cinema Preview,
+platform — Kling 3.0/3.0 Omni/3.0 Motion Control (Kling 4.0 in the app, verify live), Google Veo 3.1/3.1 Lite, Wan 2.7/2.6/2.5,
+Seedance 2.5/2.0/Pro, Minimax Hailuo 2.3/02, Higgsfield DoP (Lite/Standard/Turbo) for video; Soul 2.0, Soul Cinema Preview,
 Soul Cast, Nano Banana Pro/2, Kling Image 3.0/Omni, Seedream 4.0, GPT Image 2.0,
 Flux 2/Kontext for images — plus a library of 100+ named **Motion Presets**, a **Soul ID**
 character consistency system, **Cinema Studio 2.5**, **Cinema Studio 3.0** (Business/Team plan), and **Cinema Studio 3.5** with Soul Cast AI actors, native dual-channel stereo audio, and 80+
@@ -88,6 +88,8 @@ Rules:
 If the user provides a clear creative intent ("write me a prompt for a car chase at night")
 with no specific constraints, **generate immediately** using these sensible defaults:
 
+> **Visual or video prompt?** Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input. If a film-crew plan already exists, use it. The model skill then writes the final text (`seedance-25-director` for Seedance 2.5). This skill covers the platform side: model choice, credits and running the generation.
+
 > **Fast Path still requires reading `skills/higgsfield-prompt/SKILL.md` first — Fast Path means skip clarifying questions, NOT skip the file read.**
 
 | Parameter | Default |
@@ -95,7 +97,7 @@ with no specific constraints, **generate immediately** using these sensible defa
 | Aspect ratio | 16:9 |
 | Duration | 8s |
 | Style | Cinematic |
-| Video model | Kling 3.0 (character-focused) or Seedance 2.0 (action/scale/references) |
+| Video model | Seedance 2.5 (`seedance_2_5`, verify live; prompt text via `seedance-25-director`) by default. For Kling: Kling 3.x on API, Kling 4.0 in the app (verify live) |
 | Image model | Soul 2.0 (portrait) or Nano Banana 2 (everything else) |
 
 Do not ask clarifying questions. Deliver a ready-to-paste prompt. Mention the defaults
@@ -129,7 +131,7 @@ budget constraints, client work), **confirm before generating:**
 | User wants | Route to |
 |------------|----------|
 | User unsure which workspace/tool fits, or asks "what should I use for X" | `higgsfield-workspaces` |
-| Write or improve a prompt | `higgsfield-prompt` + relevant sub-skills |
+| Write or improve a prompt | `film-crew` first (single-shot mode for one shot), then the model skill; `higgsfield-prompt` + relevant sub-skills for Higgsfield platform specifics |
 | Develop a character / world / story / premise before prompting, build a character sheet / story bible, lock a visual style ("visual DNA"), keep a character consistent across many shots, or "I keep getting generic AI characters" | `higgsfield-character-design` |
 | Cinematic still image prompt (shot framing, angles) | `higgsfield-image-shots` |
 | GPT Image 2.0 / gpt-image-2 prompt, UI mockup, infographic, character/reference sheet, layout-dense image, or static-ad recreation | `higgsfield-gpt-image-2` |
@@ -174,6 +176,7 @@ budget constraints, client work), **confirm before generating:**
 | **Extend / continue an existing clip** — "make it longer", "what happens next / before", prequel, last-frame handoff, extension chains | `higgsfield-seedance` (§ Extension Prompting) + `higgsfield-pipeline` (§ Continuation & Extension Handoff) |
 | **Prep assets / reference sheets before video** — character sheet, prop three-view, location plate, "build my elements", variety sheet for crowds | `templates/ad-asset-prep.md` + `higgsfield-gpt-image-2` (props) + `higgsfield-soul` (people & crowds) |
 | Audition / screen-test a designed character (how they move, speak, react) before scene generation | `higgsfield-character-design` (§ Screen Test / Audition) |
+| Seedance 2.5 prompt (the default Seedance model) | `seedance-25-director` (prompt syntax and limits) + `higgsfield-seedance` (Higgsfield platform side, preflight linter `--model seedance_2_5`) |
 | Seedance 2.0 / Pro prompt, flagged prompt, credit waste on Seedance | `higgsfield-seedance` |
 | **Transform footage the user already has** (video-to-video): "make a Seedance prompt for this video/clip", add a VFX element (set my head/hair on fire, transform my hand, make a limb invisible), swap the world/background around a preserved subject (desert, clouds, lava, neon city), put a giant creature behind me or on a landmark, relight/regrade to match, sync a crash-zoom/push-in to a line — a **real source clip** is the starting point | `higgsfield-seedance-vfx` |
 | Precise facial expression / FACS / Action Unit codes (AU12, AU6…), forced or uncanny or mixed expression, close-up micro-performance, monologue/dialogue facial acting, "which AU code for anger/fear", FACS reference sheet | `higgsfield-facs` |
@@ -358,10 +361,10 @@ Result. Ratios and budgeting: `skills/higgsfield-assist/SKILL.md`.
 | `higgsfield-motion-design` | Animated-ad flow brief → storyboard → Seedance video (**AI pixel render**, not code; classicMD/highMD) |
 | `higgsfield-recall` | Pre-generation memory check / apply past failure fixes |
 | `higgsfield-audio` | Audio design, dialogue, SFX, ambient sound for audio-capable models |
-| `higgsfield-seedance` | Seedance 2.0 / Pro prompt director + content-filter preflight linter |
-| `higgsfield-seedance-vfx` | Video-to-video footage transformation for Seedance 2.0 — preserve a real subject + camera move, add a VFX element / swap the environment / drop a photoreal creature / relight to match / sync a timed zoom, run in std 4K |
+| `higgsfield-seedance` | Seedance 2.0 / Pro prompt director + content-filter preflight linter (linter also covers Seedance 2.5; for 2.5 prompt syntax use `seedance-25-director`) |
+| `higgsfield-seedance-vfx` | Video-to-video footage transformation, written for Seedance 2.0 (for new work use Seedance 2.5, verify live) — preserve a real subject + camera move, add a VFX element / swap the environment / drop a photoreal creature / relight to match / sync a timed zoom, run in std 4K |
 | `higgsfield-shotlist-director` | Brief/script → one connected Seedance shotlist (style prefix + `@`-glossary + named per-scene prompts) as editable HTML |
-| `higgsfield-facs` | FACS Action Unit codes for precise facial expressions in Seedance 2.0 — forced/uncanny/mixed expressions, close-up dialogue facial acting, emotion→AU recipes, FACS reference sheets |
+| `higgsfield-facs` | FACS Action Unit codes for precise facial expressions, written for Seedance 2.0 (for new work use Seedance 2.5, verify live) — forced/uncanny/mixed expressions, close-up dialogue facial acting, emotion→AU recipes, FACS reference sheets |
 | `higgsfield-stack` | User mentions the Higgsfield CLI / MCP connector / bundled skills, or asks how this skill coexists with those execution surfaces |
 
 > Full vocabulary in `vocab.md`

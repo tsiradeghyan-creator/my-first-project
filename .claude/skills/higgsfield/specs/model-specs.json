@@ -1,6 +1,7 @@
 {
   "generator_version": 1,
   "image_models": "see specs/IMAGE-MODEL-SPECS.md (snapshot 2026-07-05); this file covers video models only.",
+  "manual_refresh": "Snapshot refreshed for Seedance 2.5 on 2026-11-26: seedance_2_5 added by hand (MANUAL_MODELS in scripts/sync_specs.py) until a fresh models_explore dump includes it. Fields listed in its verify_live are (verify live).",
   "models": [
     {
       "aliases": [],
@@ -1329,6 +1330,77 @@
       "resolutions": [
         "480p",
         "720p"
+      ]
+    },
+    {
+      "aliases": [],
+      "aspect_ratios": [
+        "auto",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "1:1",
+        "21:9"
+      ],
+      "constraints": [],
+      "duration": {
+        "max": 30,
+        "min": 4
+      },
+      "id": "seedance_2_5",
+      "manual": true,
+      "max_references": 50,
+      "media_roles": {
+        "medias": [
+          "start_image",
+          "end_image",
+          "image_references",
+          "video_references",
+          "audio_references"
+        ]
+      },
+      "modes": [],
+      "name": "Seedance 2.5",
+      "output_type": "video",
+      "params": [
+        {
+          "description": "Duration in seconds (4-30).",
+          "max": 30,
+          "min": 4,
+          "name": "duration",
+          "required": "optional",
+          "type": "number"
+        },
+        {
+          "description": "Output resolution, up to 4K. Exact options (verify live).",
+          "name": "resolution",
+          "options": [
+            "480p",
+            "720p",
+            "1080p",
+            "4k"
+          ],
+          "required": "optional",
+          "type": "string"
+        }
+      ],
+      "provider": "Bytedance",
+      "resolutions": [
+        "480p",
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "source": "higgsfield.ai/seedance/2.5 (on Higgsfield since 2026-08-06; generator param model=seedance_2_5). Prompt syntax and limits: seedance-25-director skill.",
+      "verified": "2026-11-26",
+      "verify_live": [
+        "id (confirm with models_explore / higgsfield model get)",
+        "resolutions below 4K",
+        "aspect_ratios (verified range is 21:9 to 9:16; auto unverified)",
+        "modes (none listed, so mode is not checked)",
+        "media_roles",
+        "params other than duration"
       ]
     },
     {

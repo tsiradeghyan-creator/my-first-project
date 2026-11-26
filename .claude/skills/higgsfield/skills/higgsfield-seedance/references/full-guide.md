@@ -1,5 +1,7 @@
 # Full Craft Guide
 
+> Commands below use Seedance 2.0 (`seedance_2_0`). For new work, use Seedance 2.5 (`seedance_2_5`, verify live) and the `seedance-25-director` skill for prompt syntax.
+
 This file preserves the original long-form craft doctrine that previously lived in `SKILL.md`.
 Read only the sections needed for the current request.
 
@@ -20,7 +22,7 @@ Read only the sections needed for the current request.
 - Working modes: Exploration / Continuation / Bridging / Repair (distinct from prompt modes) [→](#working-modes-vs-prompt-modes-two-taxonomies)
 - Layer 1 briefing vs Layer 2 production prompt — never paste Layer 1 into the prompt box [→](#two-layer-prompt-authoring)
 - Native **4K** is available in `mode=std` only; `mode=fast` (Seedance 2.0 Fast) caps at 480p/720p — in Cinema Studio the model is still capped at 1080p [→](#pre-flight-linter)
-- Always preflight: `python3 scripts/seedance_lint.py --preflight --model seedance_2_0 "<prompt>"` — enums come from `../../specs/model-specs.json` (fast+1080p/4K and Kling 21:9 are auto-caught) [→](#pre-flight-linter)
+- Always preflight: `python3 scripts/seedance_lint.py --preflight --model seedance_2_0 "<prompt>"` for Seedance 2.0, or `python3 scripts/seedance_lint.py --preflight --model seedance_2_5 "<prompt>"` for Seedance 2.5 (its spec entry is hand-added, verify live) — enums come from `../../specs/model-specs.json` (fast+1080p/4K and Kling 21:9 are auto-caught) [→](#pre-flight-linter)
 - 480p drafts validate the prompt, NOT the take — no seed param; pin Hero Frame + start/end frames to carry a look [→](#drafts-validate-the-prompt-not-the-take)
 - ZH prompts: hard 1,800-char cap; ZH antislop list enforced by the linter [→](#multi-language-prompt-workarounds)
 - Flagged prompt → rewrite playbook per linter rule, then voice pass [→](#the-rewrite-playbook)

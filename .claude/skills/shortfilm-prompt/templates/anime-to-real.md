@@ -113,7 +113,7 @@ cel shading, anime shading, flat 2D look, cartoon, enlarged anime eyes, impossib
   posed = cosplay. Worn fabric, scuffed prop, flyaway hair, real skin =
   live-action film. The wear is what sells it.
 - **Heavy on Rule 7 — describe traits, never the IP.** A recognisable
-  trait-bundle (the name, the exact iconic outfit) is exactly what Sora's
+  trait-bundle (the name, the exact iconic outfit) is exactly what Veo's
   lookalike filter and Seedance's IP filter catch. Use {{silhouette}} +
   {{signature}} as *descriptions*, not the character's name.
 - **Restrained close (Rule 6).** A human breath, not a power-up pose.
@@ -122,9 +122,8 @@ cel shading, anime shading, flat 2D look, cartoon, enlarged anime eyes, impossib
 **Usage:** generate the *detail* beat (0–3s) first — if the skin, hair and
 fabric read as genuinely real there, the full reveal will hold. If it comes
 out plasticky or cel-shaded, push the negative field hard. **Sanitise any
-IP-recognisable wording** before running on Seedance/Sora.
+IP-recognisable wording** before running on Seedance/Veo.
 
-**Model:** Veo 3 and Sora 2 give the best photoreal skin/material
-translation; both have strict lookalike filters, so keep it trait-described,
-not named. Kling and Seedance also work — Seedance especially will reject a
+**Model:** Veo 3 gives the best photoreal skin/material translation; it
+has a strict lookalike filter, so keep it trait-described, not named. Kling and Seedance also work — Seedance especially will reject a
 named IP outright, so describe only.

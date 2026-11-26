@@ -7,7 +7,7 @@ Read only the sections needed for the current request.
 
 The locked cinematography grammar for AI video prompts on **any** engine. This skill is mode-aware, reference-aware, composition-aware, and audio-aware. It reads what the user gives you, picks the right cinema mode, extracts wardrobe and identity from reference images by visual description, maps the frame, locks every character to a screen position and state, choreographs the motion, fixes the closing composition, and outputs a production-ready video prompt with diegetic audio only.
 
-**Engine-agnostic by design.** The ten-block grammar below is craft, not syntax — it holds for Seedance, Veo, Kling, Sora, Wan, Hailuo, Runway, Luma, and whatever ships next. Only the thin reference-tagging and delivery layer changes per engine. Seedance is the default target because it reads inline `@imageN` tags and labeled blocks natively; see **TARGET ENGINE ADAPTER** below to retarget. Throughout this document, read "Seedance prompt" as "video prompt for the target engine" unless the passage is explicitly about `@imageN` syntax.
+**Engine-agnostic by design.** The ten-block grammar below is craft, not syntax — it holds for Veo, Kling, Seedance, Wan, Hailuo, Runway, Luma, and whatever ships next. Only the thin reference-tagging and delivery layer changes per engine. There is no default engine: ask for it (see **TARGET ENGINE ADAPTER**). Seedance 2.5 execution — syntax, reference limits, durations — belongs to `seedance-25-director`; the craft blocks here feed it. Throughout this document, read "Seedance prompt" as "video prompt for the target engine" unless the passage is explicitly about `@imageN` syntax.
 
 Pro 2.0 is built around density discipline: shorter prompts render better than longer ones. Every block does work. Nothing is decorative. The Camera Capture spec is one trimmed line at the bottom — never doubled. The Subject Lock trusts the reference image to carry wardrobe and identity, naming only what the model cannot read from the image itself (pose, gaze, state, contact points, what stays unchanged).
 
@@ -31,7 +31,7 @@ A great prompt is not a beautiful sentence. It is a production document. Seedanc
 
 **The craft is universal. The syntax is not.** Everything else in this document — the five modes, the ten blocks, Frame Map, Subject Lock, Cross-Frame Rules, the four movement layers, Last Frame, Capture Realism, the negative→positive rewrites, the QA pass — is cinematography discipline and applies unchanged to every engine. This section is the only place the output shape changes.
 
-**Step 1 — establish the target engine, once per session.** If the user names a model, use it. If they don't, ask once, in the pre-prompt check: *"Which engine is this running on?"* Default to Seedance if they don't care. Once established, carry it for the session and stop asking.
+**Step 1 — establish the target engine, once per session.** If the user names a model, use it. If they don't, ask once, in the pre-prompt check: *"Which engine is this running on?"* If they don't care, suggest Kling or Veo. If they want Seedance, hand the execution to `seedance-25-director` (it owns Seedance 2.5 syntax and limits) and give it this skill's shot intent and continuity as input. Once established, carry it for the session and stop asking.
 
 **Step 2 — adapt these four things, and only these four:**
 
@@ -46,9 +46,8 @@ A great prompt is not a beautiful sentence. It is a production document. Seedanc
 
 | Engine | Reference anchoring | Block formatting | Sound Bed |
 |---|---|---|---|
-| **Seedance** (default) | Inline `@image1`–`@image9`, hard cap 9 | Labeled blocks verbatim | Native — live instruction |
+| **Seedance 2.5** | Hand to `seedance-25-director` — it owns reference syntax and limits | Per `seedance-25-director` | Per `seedance-25-director` |
 | **Veo** | Descriptor-based; few reference slots — pick the highest-value refs and describe the rest | Labeled blocks verbatim; handles long structured prose well | Native, dialogue-capable — live instruction |
-| **Sora** | Descriptor-based, uploaded refs / cameo | Prose-leaning; keep block order, soften labels | Native — live instruction |
 | **Kling** | Descriptor-based; start/end frame + element refs | Prose; collapse labels, honor the character cap | Silent — post spec |
 | **Wan / Hailuo** | Descriptor-based, typically one subject ref | Compressed prose; density rule bites hardest here | Silent — post spec |
 | **Runway / Luma** | Descriptor-based, image-to-video keyframe | Prose; Last Frame maps naturally onto end-frame conditioning | Silent — post spec |
@@ -72,22 +71,22 @@ The workflow is the same every time:
 
 **Step 3 — Confirm the pre-prompt summary.** Claude returns a bulleted pre-prompt check listing every reference image attached (first bullet), the cinema mode, scene, characters, frame map, camera, and runtime (last bullet) — for a quick check before writing the full prompt.
 
-**Step 4 — Receive the three-part delivery.** Claude returns (a) a numbered bulleted list of reference images to attach in Higgsfield/Seedance in order (max 9 — Seedance hard cap), (b) a bolded English title line stating the runtime, and (c) a single fenced English code block containing the full prompt with discrete labeled blocks **always in this exact order, every prompt, no exceptions** — Scene & Mood → Frame Map → Subject Lock(s) → Cross-Frame Rules → Movement → Last Frame → World Plate → Sound Bed → Capture Realism → Camera Capture — and inline `@image1` through `@image9` tags placed wherever each reference image anchors. Numbers match the order of the bullet list at the top.
+**Step 4 — Receive the three-part delivery.** Claude returns (a) a numbered bulleted list of reference images to attach in the target engine in order (capped at that engine's reference limit — verify live), (b) a bolded English title line stating the runtime, and (c) a single fenced English code block containing the full prompt with discrete labeled blocks **always in this exact order, every prompt, no exceptions** — Scene & Mood → Frame Map → Subject Lock(s) → Cross-Frame Rules → Movement → Last Frame → World Plate → Sound Bed → Capture Realism → Camera Capture — and, on engines with inline tag syntax, `@imageN` tags placed wherever each reference image anchors (on other engines, the visual descriptors carry the anchoring). Numbers match the order of the bullet list at the top.
 
-**Step 5 — Run it.** Attach the reference images from the bullet list into the engine's UI in the exact order listed (image 1 first, image 2 second, etc.), then paste the English code block into the prompt field. On Seedance the `@image1`, `@image2` tags inside the prompt are functional syntax — the model reads them and applies the corresponding uploaded reference at each anchor point. On engines without inline tag syntax, the visual descriptors carry the anchoring instead (see TARGET ENGINE ADAPTER); the attach order still matters wherever the engine assigns roles by slot.
+**Step 5 — Run it.** Attach the reference images from the bullet list into the engine's UI in the exact order listed (image 1 first, image 2 second, etc.), then paste the English code block into the prompt field. On engines with inline tag syntax the `@image1`, `@image2` tags inside the prompt are functional syntax — the model reads them and applies the corresponding uploaded reference at each anchor point. On engines without inline tag syntax, the visual descriptors carry the anchoring instead (see TARGET ENGINE ADAPTER); the attach order still matters wherever the engine assigns roles by slot.
 
 ---
 
 ## SESSION OPENER — CHARACTER GATE
 
-The first time the user asks for a Seedance prompt in a session, ask once:
+The first time the user asks for a video prompt in a session, ask once:
 
 > "Any recurring characters in this batch? If so, are they already built (reference images locked) or do we need to develop them first?"
 
 Branch on the answer:
 
 - **Yes / built →** ask for the reference image upload(s). Study and lock — face, bone structure, skin tone, hair, identity markers, body proportions. Mirror back the locked spec in plain language for confirmation. Carry the lock through the rest of the session.
-- **Yes / needs developing →** kick over to banana-pro-director's character development flow. Lock the character first, then return to the Seedance prompt request.
+- **Yes / needs developing →** kick over to banana-pro-director's character development flow. Lock the character first, then return to the video prompt request.
 - **No recurring characters / one-off / extras only / pure environment →** skip the gate. Proceed normally.
 
 Once asked, do not ask again in the same session.
@@ -103,7 +102,7 @@ Every NEW scene gets a pre-prompt summary before the full prompt is written. The
 ```
 Pre-prompt check:
 - **References attached:** [list every reference image the user uploaded for this scene by short visual descriptor. If none attached, write "none — pure text composition."]
-- **Engine:** [target video model — ask once per session if unstated, then carry it. Default Seedance.]
+- **Engine:** [target video model — ask once per session if unstated, then carry it. If the user doesn't care, suggest Kling or Veo; Seedance goes to `seedance-25-director`.]
 - **Mode:** [M1 Narrative / M2 Studio / M3 Action / M4 Performance / M5 Atmospheric]
 - **Scene:** [one-line scene description]
 - **Characters:** [who's in frame, abbreviated by visual marker; or "none / environment plate"]
@@ -136,9 +135,9 @@ For all new scenes: confirmation is not optional.
 
 Every video prompt is delivered in three parts, in this order:
 
-**1. Numbered bulleted list of references to attach.** Each reference gets a number and a short visual descriptor. Cap the list at the target engine's reference limit — 9 on Seedance, fewer on most others. When the engine takes fewer references than the scene wants, keep the highest-identity-value refs (character canonicals first, then the world plate) and carry the rest as written description.
+**1. Numbered bulleted list of references to attach.** Each reference gets a number and a short visual descriptor. Cap the list at the target engine's reference limit (verify live in its UI). When the engine takes fewer references than the scene wants, keep the highest-identity-value refs (character canonicals first, then the world plate) and carry the rest as written description.
 
-**2. Title line with engine and runtime.** Bolded English. Example: `**Seedance prompt — 12s**` / `**Video prompt — Kling, 10s**`
+**2. Title line with engine and runtime.** Bolded English. Example: `**Video prompt — Kling, 10s**`
 
 **3. English code block with discrete labeled blocks.** On tag-syntax engines, drop `@image1` through `@imageN` wherever that reference is being referred to in the prompt; the number matches the reference list — bullet 1 = `@image1`, bullet 5 = `@image5`. On engines without tag syntax, each subject is anchored by a unique visual descriptor used verbatim in every block that names it, and the block labels flex per the TARGET ENGINE ADAPTER.
 

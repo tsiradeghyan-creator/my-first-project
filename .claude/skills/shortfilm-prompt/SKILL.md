@@ -1,6 +1,6 @@
 ---
 name: shortfilm-prompt
-description: "Use for cinematic AI short-film prompts that need the 5-stage structure: transformation, multi-shot narrative, emotional family/pet/farewell, weapon-charge/combat, or tightly storyboarded video sequences."
+description: "Use for one-idea AI short-film prompts in the 5-stage structure: transformation, emotional family/pet/farewell, weapon-charge/combat, or a genre one-off from the template library. Story-planned multi-shot work (a scene, short, ad or trailer cut shot by shot) goes to film-crew. Seedance 2.5 execution goes to seedance-25-director."
 user-invocable: true
 metadata:
   tags: [shortfilm_prompt, routing, workflow, verification]
@@ -11,6 +11,12 @@ metadata:
 # Shortfilm Prompt
 
 This is the concise entrypoint. The older full playbook is preserved in `references/full-guide.md` and must be loaded only when this skill is actually routed.
+
+## Before Writing
+
+- Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input. If a film-crew plan already exists, use it.
+- Story-planned multi-shot work (a scene, short, ad or trailer whose shots must cut together) is film-crew's full mode, not this skill.
+- Target Seedance 2.5 via `seedance-25-director` (up to 30 s per clip); it owns Seedance syntax, limits and modes. Sora is closed (API ended 2026-09-24): do not recommend it.
 
 ## Required Reference
 

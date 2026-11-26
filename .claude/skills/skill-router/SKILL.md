@@ -21,7 +21,8 @@ every time. Your job: notice the domain, show him what he owns for it, recommend
      ask with AskUserQuestion, recommended option first, then continue with the answer.
 4. **Chain** skills when needed and say the order in one line (e.g. film-crew → seedance-25-director → humanizer).
 5. **Fixed rules that override the menu:**
-   - Any image or video prompt → `film-crew` first, then the model skill (CLAUDE.md rule, 2026-11-03).
+   - Any image or video prompt → `film-crew` first (single-shot mode for one still or clip, full mode for several),
+     then the model skill writes the final prompt from its plan (CLAUDE.md rule, 2026-11-03).
    - Anything published in the studio's or Ani's name → `maghakian-brand` (look/voice) is always on.
    - Text Tigran will publish or send → finish with `anthropic-skills:humanizer` if it reads stiff.
 6. If nothing in his collection fits, check `skill-library` (archive) and say so; only then work without a skill.
@@ -36,11 +37,11 @@ Vermette, Murch, buyers Bloys/Quinn/Bajaria) with Tigran's own line-producer sea
 ### Video
 | Skill | Best for | Notes |
 |---|---|---|
-| `film-crew` | Any shot, scene, trailer, ad, music video. 7 departments, style lenses (Kubrick, Parajanov, Tarkovsky, The King…) | **Always first** for video/image prompts |
+| `film-crew` | Any shot, scene, trailer, ad, music video. 7 departments, style lenses (Kubrick, Parajanov, Tarkovsky, The King…) | **Always first** for video/image prompts: single-shot mode for one clip, full mode for several |
 | `seedance-25-director` | Final Seedance 2.5 prompt + UI settings | Default video model for our work |
-| `cinema-worldbuilder-pro-2.0` | Final prompt for Veo, Kling, Sora, other engines | Use when the model is not Seedance |
+| `cinema-worldbuilder-pro-2.0` | Final prompt for Veo, Kling, other engines | Use when the model is not Seedance |
 | `higgsfield` | Higgsfield platform: model/preset choice, Soul ID, Cinema Studio, credits | Platform questions, not prompt craft |
-| `shortfilm-prompt` | 5-stage short films: transformation, emotional, combat | Narrower than film-crew; good for viral one-idea shorts |
+| `shortfilm-prompt` | One-idea 5-stage shorts: transformation, emotional, combat | After film-crew; story-planned multi-shot work stays in film-crew |
 | `jackvsai-fashion-campaign-prompt-framework` | Fashion/streetwear campaign videos | Only for clothing |
 | `remotion-video-creation` | Motion graphics, captions, animated text in code | For titles, lyric/kinetic text, explainers |
 | `fal-ai-media` | Actually generating images/video/voice via fal.ai | Needs FAL_KEY |
@@ -50,7 +51,7 @@ Vermette, Murch, buyers Bloys/Quinn/Bajaria) with Tigran's own line-producer sea
 ### Image / visual / design
 | Skill | Best for | Notes |
 |---|---|---|
-| `film-crew` | Shapes every still (look, costume, light) | **Always first** |
+| `film-crew` | Shapes every still (look, costume, light) in single-shot mode | **Always first** |
 | `banana-pro-director-2.0` | Photoreal stills: characters, outfit refs, character sheets, plates | Our default still-image prompt skill |
 | `gpt-image-prompting` | Only when GPT image model is chosen; text in images, infographics, mockups | Best at readable text inside images |
 | `anthropic-skills:poster-design` | Posters, key art | |

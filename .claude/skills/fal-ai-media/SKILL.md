@@ -4,8 +4,8 @@ description: "Use when the user asks to generate or iterate AI media through fal
 user-invocable: true
 metadata:
   tags: [fal_ai_media, media, generation, workflow]
-  version: 0.2.0
-  updated: 2026-08-25
+  version: 0.3.0
+  updated: 2026-11-26
 ---
 
 # fal.ai Media Generation
@@ -14,11 +14,21 @@ Route the request to fal.ai model discovery, cost estimation, generation, or res
 
 ## Required Reference
 
-Before acting, read `references/full-guide.md`. The reference preserves the older detailed playbook, examples, and platform notes. Use it as historical operating knowledge, then verify any model names, pricing, platform availability, or resolution limits that may have changed.
+Before acting, read `references/full-guide.md`. It holds the MCP setup, model ids and parameters checked on fal.ai on 2026-11-26 (Seedance 2.5 as the default video model, Kling v3, Veo 3.1, Nano Banana 2 / Pro), and examples. Verify any model names, pricing, platform availability, or resolution limits that may have changed since.
+
+## Film-Crew First
+
+Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input. If a film-crew plan already exists, use it. The model skill (`seedance-25-director`, `banana-pro-director-2.0`, `cinema-worldbuilder-pro-2.0`…) writes the final prompt text; this skill sends it to fal.
+
+## Which MCP Server
+
+- Official hosted fal MCP: `https://mcp.fal.ai/mcp-relay` (OAuth sign-in, no API key). Tools: `search_models`, `get_model_schema`, `get_pricing`, `search_docs`, `recommend_model`, `run_model`, `submit_job`, `check_job`, `get_job_result`, `cancel_job`, `upload_file`.
+- Third-party `npx fal-ai-mcp-server` (legacy): tools `search`, `find`, `models`, `generate`, `result`, `status`, `cancel`, `upload`, `estimate_cost`… These names apply only if that package is the one installed.
+- Check the connected tool list first; the guide has a name-to-name map.
 
 ## Operating Contract
 
-- Use the MCP model search/find tools before relying on standing model IDs when a model name, price, parameter, or availability matters.
+- Use the MCP model search and schema tools (`search_models` / `get_model_schema`, or `search` / `find` on the third-party server) before relying on standing model IDs when a model name, price, parameter, or availability matters.
 - Estimate cost before expensive video/audio generations or batch jobs.
 - Upload only files the user provided or explicitly authorized for this workflow.
 - Prefer low-cost drafts before high-fidelity final generations.

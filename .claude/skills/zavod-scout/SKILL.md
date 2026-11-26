@@ -1,9 +1,9 @@
 ---
 name: zavod-scout
-description: Competitive self-improvement scout for the content-zavod. Every 3 days (or on demand) it researches the world's strongest equivalent of each zavod station across Reddit, GitHub (awesome-skills lists, marketplaces), GPT/skill stores, and domain tools, finds where a zavod position is weaker than the best-known external agent, and upgrades that station to surpass it — then logs the move. Triggers: "zavod scout", "competitive audit", "որտեղ ենք թույլ", scheduled 3-day run. (The bare word "scout" is NOT a trigger — it collided with `trend-scout`, the other scheduled scout.)
+description: "Competitive self-improvement scout for the content-zavod. Every 3 days (or on demand) it researches the world's strongest equivalent of each zavod station across Reddit, GitHub (awesome-skills lists, marketplaces), GPT/skill stores, and domain tools, finds where a zavod position is weaker than the best-known external agent, and upgrades that station to surpass it — then logs the move. Triggers: \"zavod scout\", \"competitive audit\", \"որտեղ ենք թույլ\", scheduled 3-day run. (The bare word \"scout\" is NOT a trigger — it collided with `trend-scout`, the other scheduled scout.)"
 metadata:
   version: 1.0.0
-  owner: Ani Maghakyan / Maghakian Script Writing Agency
+  owner: Ani Maghakyan / Maghakian Scripts
   cadence: every 3 days
 ---
 
@@ -47,15 +47,18 @@ Platform/AI: `playbook.md` · `carousel-template.md` · `ai-pipeline.md` · `gro
    sooner.) On demand, audit a named station instead.
    **PRIORITY — `storyboard.md` is re-checked EVERY run** (owner's standing order): it must
    stay the best раскадровка station in the world. Each run, re-scan StudioBinder / Boords /
-   Katalist / LTX Studio / Sora-Storyboard / any new tool for a frame-annotation field or
+   Katalist / LTX Studio / any new tool for a frame-annotation field or
    workflow we lack, and fold the best into the maximal per-frame card.
 2. **Find the strongest rival** for each focus station (web search + fetch the top 1–2).
 3. **Gap test** — for each station score it vs the rival on: craft depth · currency (2026
    models/specs) · uniqueness (voice/Armenian moat) · execution path. Flag any axis where the
    rival is ahead.
-4. **Surpass it** — write the specific upgrade INTO the station file so we lead on that axis
+4. **Surpass it** — write the specific upgrade into the station file so we lead on that axis
    (steal the technique, then add our voice/Armenian/no-faces edge the rival lacks). If a fact
    is now stale (model version, platform spec, market number), correct it.
+   Station files live in the zavod-om repo (`tsiradeghyan-creator/zavod-om`, folder
+   `skills/zavod-craft/`); make the edit there and push it there. Never edit the
+   `.claude/skills/content-zavod/` snapshot in my-first-project: the laptop sync overwrites it.
 5. **Glyph gate** the touched files (`python` homoglyph scan, must be CLEAN).
 6. **Log + scoreboard** — update `scoreboard.md` (below) and the wiki
    ([[zavod-craft-audit-2026-06]] lineage; append a dated `## [date] scout | <station>` to

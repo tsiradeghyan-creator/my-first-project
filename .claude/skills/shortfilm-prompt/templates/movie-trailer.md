@@ -120,7 +120,6 @@ lock the grade and the ending; build the escalation between them. Keep
 the whole thing ≤6 shots — teasers fail when they over-explain. Stitch in
 post and do the sound design on the timeline.
 
-**Model:** Veo 3 and Sora 2 give the strongest world-coherence and native
+**Model:** Veo 3 gives the strongest world-coherence and native
 sound for the wide beats; Kling is excellent for the action escalation
-cuts. Keep each shot ≤8s. On the Doubao app, plan around the 5s/10s
-preset lock per shot.
+cuts. Keep each shot ≤8s.

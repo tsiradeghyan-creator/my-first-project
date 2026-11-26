@@ -199,14 +199,12 @@ across a multi-shot edit — color drift wrecks the cut).
 
 ## Per-model phrasing notes
 
-- **Seedance 2.0**: ZH or EN both fine; keep move phrasing concrete
-  ("slow push-in", not "dramatic camera"); Doubao app locks 5s/10s.
+- **Seedance 2.5**: target via `seedance-25-director` (up to 30 s per
+  clip); keep move phrasing concrete ("slow push-in", not "dramatic camera").
 - **Kling 2.x / 3.0**: best at smooth orbits and follow-tracking; one
   banned word rejects the whole prompt — keep phrasing clean.
 - **Veo 3.1**: EN preferred; excels at crane/parallax establishing;
   8s/clip, extend in hops.
-- **Sora 2**: fold any "no shaky cam" guardrail into the positive
-  prompt — no negative field.
 - **Runway Gen-4**: describe only the move you WANT; `no X` can summon
   X.
 

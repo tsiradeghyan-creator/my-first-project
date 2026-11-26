@@ -1,6 +1,6 @@
 ---
 name: film-crew
-description: AI film crew for multi-shot film, scene, trailer, music-video or ad pre-production. Seven departments work in a fixed order — Director, Production Designer, Costume Designer, Cinematographer (DP), Editor, Camera Operator, Sound Designer — so each shot is planned knowing the shots around it and the generated clips cut together. Delivers director's script, world bible, camera & light plan, pre-edit with a handoff contract per cut, exact camera moves, sound plan, storyboard, keyframe + video prompts and a generation plan, in the style of any named director, cinematographer or film — 12 lenses ready (Kubrick, Tarantino, Parajanov, Tarkovsky…), any other researched from real sources. Use for any multi-shot scene, even when the target is Seedance 2.5: "make a film/scene/ad with AI", "30-s scene in X style", storyboard / раскадровка / ռասկադրովկա, director's script, "in the style of" a named director, կինո AI-ով. Not for one isolated prompt (seedance-25-director, cinema-worldbuilder-pro-2.0).
+description: AI film crew for film, scene, trailer, music-video or ad pre-production. Seven departments work in a fixed order — Director, Production Designer, Costume Designer, Cinematographer (DP), Editor, Camera Operator, Sound Designer — so each shot is planned knowing the shots around it and the clips cut together. Full mode delivers director's script, world bible, camera & light plan, pre-edit with handoff contracts, camera moves, sound plan, storyboard, prompts and a generation plan, in the style of any named director or film (12 lenses ready, others researched from real sources). A short single-shot mode runs first before any single image or video prompt; the model skill (seedance-25-director, banana-pro-director-2.0, cinema-worldbuilder-pro-2.0…) then writes the final prompt. Use for any visual or video prompt, one shot or many, even for Seedance 2.5 — "make a film/scene/ad with AI", "30-s scene in X style", storyboard / раскадровка / ռասկադրովկա, director's script, կինո AI-ով.
 metadata:
   version: 1.0.0
   updated: 2026-10-29
@@ -130,7 +130,29 @@ Based on Anthropic's "When to fold subagents into your main agent loop" (2026-10
   file per department using `references/templates.md`. Without one, deliver the same documents as sections of one
   document in the same order.
 - **Mode:** default *full run* — all departments, then the review, then hand over. *Step mode* on request — stop
-  after the Director (and after the Editor) for approval.
+  after the Director (and after the Editor) for approval. *Single-shot mode* for one still or one clip — see below.
+
+## Single-shot mode
+
+For one still or one clip with no cuts. It runs before any single image or video prompt, so even one shot is
+decided by the crew, not by the prompt alone.
+
+1. **Producer brief** in a few lines: what it is, format (aspect ratio, duration for video), target model, style
+   lens if any.
+2. **One compact pass**, a line or two per department:
+   - Director: the beat and what it means, in 1-2 lines.
+   - Production design and costume: the set, key props and the locked character look.
+   - DP: lens, light key, angle, palette and grade.
+   - Camera operator (video only): start frame, move, end frame.
+   - Sound (video only): diegetic layers and music policy.
+3. **Skip** the editor, handoff contracts, files 00-10, the table read and the validator. Output one compact shot
+   plan in chat, or a `shot.md` file only if the user asks for a file.
+4. **Hand the plan to the model skill** for the final prompt: `seedance-25-director` (Seedance 2.5),
+   `banana-pro-director-2.0` (photoreal stills), `cinema-worldbuilder-pro-2.0` (other video models), or the
+   skill for the model the user named.
+
+If the user already has a shot plan, use it as the Director's pass and fill only what is missing. When there is
+more than one shot, switch to full mode.
 
 ## The rule that makes clips cut together
 
@@ -190,7 +212,8 @@ Record results and changes in `10_review.md`. Do not hand over with an open FAIL
 
 ## Neighbours
 
-Single prompt → `seedance-25-director` (Seedance 2.5) or `cinema-worldbuilder-pro-2.0` (other models). Stills for
-keyframes in depth → `banana-pro-director-2.0`. Story development before a crew is needed → `shortfilm-prompt` or
+Single prompt → single-shot mode here first, then `seedance-25-director` (Seedance 2.5), `banana-pro-director-2.0`
+(stills) or `cinema-worldbuilder-pro-2.0` (other models) writes the final text. Stills for keyframes in depth →
+`banana-pro-director-2.0`. Story development before a crew is needed → `shortfilm-prompt` or
 the screenwriting skills. Maghakian brand content end-to-end → `content-zavod`, which may call this crew for its film
 work.

@@ -1,6 +1,6 @@
 ---
 name: cinema-worldbuilder-pro-2.0
-description: Engine-agnostic AI video prompt director for cinematic scene prompts, reference-aware shot design, character/environment locking, motion, final-frame control, and diegetic sound specs. Use for video-generation prompts; not for still-image prompts, full short-film production pipelines, or platform/account troubleshooting.
+description: Engine-agnostic AI video prompt director for cinematic scene prompts, reference-aware shot design, character/environment locking, motion, final-frame control, and diegetic sound specs. Use for video-generation prompts on engines other than Seedance 2.5 (that goes to seedance-25-director); not for still-image prompts, full short-film production pipelines, or platform/account troubleshooting.
 metadata:
   version: 2.1.0
   architecture: progressive-disclosure
@@ -18,9 +18,13 @@ Use this skill for:
 - cinematic scene breakdowns for video generation,
 - narrative shots, action shots, performance scenes, fashion films, music-video-style scenes, and atmospheric environment plates,
 - reference-aware character/environment locking,
-- engine retargeting across Seedance, Veo, Kling, Wan, Hailuo, Runway, Luma, Sora-like tools, or future models.
+- engine retargeting across Veo, Kling, Wan, Hailuo, Runway, Luma, or future models (Seedance 2.5 execution goes to `seedance-25-director`).
 
 Do not use it for still images, full multi-stage short-film production, Higgsfield account/UI/model-picking support, or garment-led fashion campaigns when a more specific fashion skill applies.
+
+## Before Writing
+
+Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input. If a film-crew plan already exists, use it.
 
 ## Required Reference Loading
 
@@ -42,7 +46,7 @@ Search the full guide for these anchors:
 
 ## Operating Contract
 
-1. Establish target engine and runtime. If unspecified, ask once or default to Seedance only when the user does not care. If the target is **Seedance 2.5** (Dreamina/Jimeng), hand the model-specific execution — modes, limits, @-reference binding, timestamps, extension/edit/Long Video syntax — to `seedance-25-director`; keep this skill's shot intent and continuity as its input. If the request is a **multi-shot sequence** (scene, short, ad, trailer, storyboard/раскадровка) whose shots must cut together, route to `film-crew` — it plans every department and every cut before any prompt is written.
+1. Establish target engine and runtime. If unspecified, ask once which engine it runs on; if the user does not care, suggest Kling or Veo. If the target is **Seedance** (Seedance 2.5 on Dreamina/Jimeng/Higgsfield), hand the model-specific execution — modes, limits, @-reference binding, timestamps, extension/edit/Long Video syntax — to `seedance-25-director`; keep this skill's shot intent and continuity as its input. A **multi-shot sequence** (scene, short, ad, trailer, storyboard/раскадровка) is planned by `film-crew` in full mode first; this skill then writes the per-shot prompts for non-Seedance engines.
 2. Read attached references and lock only what matters: identity, wardrobe, environment, props, screen position, and continuity anchors.
 3. Choose the closest mode from the full guide.
 4. Build the prompt around the ten production blocks in order:

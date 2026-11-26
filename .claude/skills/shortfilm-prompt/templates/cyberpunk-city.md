@@ -115,7 +115,7 @@ blurry, low resolution, soft focus, watermark, text overlay, subtitles, logo, ov
 reflections, neon smear and haze read as real there, the rest holds.
 Keep it one slow continuous move; this genre dies when the camera races.
 
-**Model:** Kling and Seedance 2.0 handle wet-neon motion and reflections
+**Model:** Kling and Seedance 2.5 (via `seedance-25-director`) handle wet-neon motion and reflections
 well; Veo 3 gives the cleanest volumetric light and native ambient sound.
 Watch for warped on-screen sign text — put "warped signage text" in the
 negative field, or keep signs abstract/non-textual.

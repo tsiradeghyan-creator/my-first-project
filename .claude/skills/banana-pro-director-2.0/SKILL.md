@@ -25,6 +25,10 @@ Use this skill for:
 
 Do not use it for video prompts, OpenAI image API parameters, Higgsfield account/UI questions, or platform credit troubleshooting.
 
+## Before Writing
+
+Before writing a prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md, and take its plan as input. If a film-crew plan already exists, use it.
+
 ## Required Reference Loading
 
 Read `references/full-guide.md` before writing final prompts. For simple routing or quick diagnosis, use this `SKILL.md` first and open the full guide only after the target mode is known.

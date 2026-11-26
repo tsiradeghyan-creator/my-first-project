@@ -110,6 +110,6 @@ blurry, low resolution, watermark, text overlay, subtitles, logo, oversaturated 
 true-black/starfield read as real orbital footage, the rest holds. Keep
 motion slow; this genre dies on fast or jittery movement.
 
-**Model:** Veo 3 and Sora 2 give the best photoreal space, reflections and
+**Model:** Veo 3 gives the best photoreal space, reflections and
 diegetic audio; Kling and Seedance handle the slow motion well. Lean on the
 negative field to kill twinkling stars, space-haze and gravity-bound motion.

@@ -112,6 +112,6 @@ the fabric moves; if the drape and the hard light read as real there, the
 rest holds. Keep the model's look consistent across cuts (generate the hold
 frame first to lock it).
 
-**Model:** Veo 3 and Sora 2 give the best fabric physics and editorial
+**Model:** Veo 3 gives the best fabric physics and editorial
 skin/light; Kling is strong on the movement. If you want a runway music
 bed, lay it in post (see [music-video.md](./music-video.md) for beat-sync).

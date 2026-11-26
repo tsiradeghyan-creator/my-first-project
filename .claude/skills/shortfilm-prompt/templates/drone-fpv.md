@@ -115,6 +115,5 @@ the launch and reveal frame it. Keep it one continuous move; cuts kill the
 FPV feel.
 
 **Model:** Kling and Seedance handle fast continuous motion well; Veo 3
-and Sora 2 give the best photoreal terrain, depth haze and native wind
-audio. Watch for "rubber-sheet" warping on fast low passes — negate it and
+gives the best photoreal terrain, depth haze and native wind audio. Watch for "rubber-sheet" warping on fast low passes — negate it and
 keep surfaces textured.

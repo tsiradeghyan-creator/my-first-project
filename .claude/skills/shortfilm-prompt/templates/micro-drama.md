@@ -114,6 +114,6 @@ acting is restrained (not soap-opera), build the confrontation and
 cliffhanger around it. Keep faces large; shoot/think 9:16 throughout.
 Sanitise any IP-recognisable wording before running.
 
-**Model:** Veo 3 and Sora 2 are strongest for synced dialogue and grounded
+**Model:** Veo 3 is strongest for synced dialogue and grounded
 faces; Kling 3.0 supports multilingual dialogue. Keep dialogue lines short
 so lip-sync holds; cut away on the reverse if a take's sync drifts.

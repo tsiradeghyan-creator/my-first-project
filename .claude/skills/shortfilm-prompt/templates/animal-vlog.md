@@ -123,7 +123,7 @@ face and the voice; if the lip-sync and the breed read right there, the
 cutaway and punchline will hold. Keep the bit short — one joke, one
 collapse.
 
-**Model:** Veo 3 and Sora 2 are strongest for synced spoken dialogue —
-use one of them for the talking shots. Kling 3.0 supports multilingual
-dialogue. Seedance 2.0 has native synced audio but verify the lip-sync
+**Model:** Veo 3 is strongest for synced spoken dialogue — use it for
+the talking shots. Kling 3.0 supports multilingual dialogue. Seedance 2.5
+(via `seedance-25-director`) has native synced audio but verify the lip-sync
 on the talking beats; cut away to B-roll if a take's sync drifts.

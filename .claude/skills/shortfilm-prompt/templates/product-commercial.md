@@ -125,7 +125,6 @@ and specular highlight read as real there, the rest will hold. Keep the
 human contact to hands only (a full face triggers stricter likeness
 filters and isn't needed). Stitch the 4 beats in post.
 
-**Model:** Seedance 2.0 and Kling are strong on tactile macro motion;
-Veo 3 gives the cleanest specular/lighting realism (use its negative
-field with plain noun phrases). On the Doubao app, remember the 5s/10s
-preset lock — plan beats around 10s total.
+**Model:** Seedance 2.5 (via `seedance-25-director`) and Kling are strong
+on tactile macro motion; Veo 3 gives the cleanest specular/lighting
+realism (use its negative field with plain noun phrases).

@@ -22,4 +22,4 @@ Written 2026-10-29. The text of this skill is original; the facts and formulas c
 
 ## The user's own material
 
-- `~/Downloads/seedance_2_rules.docx` (Seedance 2.0 rules, Russian) — reconciled in SKILL.md, last section.
+- The user's earlier Seedance 2.0 rules (Russian, a private document not kept in this repo) — reconciled in SKILL.md, last section.

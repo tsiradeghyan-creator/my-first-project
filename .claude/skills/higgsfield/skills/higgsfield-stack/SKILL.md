@@ -192,11 +192,13 @@ If multiple surfaces are present, pick the one that fits the user's stated workf
 
 ## Seedance preflight integration
 
-The one place where this skill's tooling earns its keep inside the integrated flow is `../../scripts/seedance_lint.py`. Seedance 2.0's content filter rejects instant-fail prompts before they reach the GPU, and the user gets charged credits regardless of whether the rewrite was the issue. The linter catches the predictable rejection patterns at prompt-construction time, before submission.
+The one place where this skill's tooling earns its keep inside the integrated flow is `.claude/skills/higgsfield/scripts/seedance_lint.py`. Seedance's content filter rejects instant-fail prompts before they reach the GPU, and the user gets charged credits regardless of whether the rewrite was the issue. The linter catches the predictable rejection patterns at prompt-construction time, before submission.
 
-When the CLI is present AND the prompt being constructed is for Seedance 2.0 or Seedance Pro, append a recommendation:
+When the CLI is present AND the prompt being constructed is for Seedance 2.0, Seedance 2.5 or Seedance Pro, append a recommendation with the matching model id:
 
-> `Run python3 scripts/seedance_lint.py "<prompt>" before submitting to catch content-filter rejections. The filter is voice-based, not a keyword blacklist — see ../higgsfield-seedance/SKILL.md for the full diagnostic.`
+> `Run python3 .claude/skills/higgsfield/scripts/seedance_lint.py --preflight --model seedance_2_5 "<prompt>" before submitting (use --model seedance_2_0 for Seedance 2.0) to catch content-filter rejections and illegal settings. The filter is voice-based, not a keyword blacklist — see .claude/skills/higgsfield/skills/higgsfield-seedance/SKILL.md for the full diagnostic.`
+
+The seedance_2_5 entry in the specs was added by hand on 2026-11-26; confirm the model id live (`models_explore` / `higgsfield model get`) before paid runs.
 
 This is a recommendation to the user. This skill does not run the linter on the user's behalf and does not require the linter to have run before delivering the prompt.
 

@@ -1,11 +1,11 @@
 ---
 name: higgsfield-motion-design
-description: "End-to-end motion-design / animated-ad creation flow on Higgsfield via the MCP connector. Use when the user wants to create motion design, animate a logo, make a video from an image, build an animated ad or brand promo, turn a product into motion, or says 'make a motion', 'motion design', 'animate this', 'make a video from my logo', 'animated brand', 'motion graphics', 'brand motion', 'kinetic graphics', 'promo video', or 'ad video'. Drives a storyboard-first pipeline: brief → storyboard sheet (GPT Image 2) → video (Seedance 2.0) — an AI-generated pixel video clip. Distinct from higgsfield-motion (the named camera/motion preset library) and from higgsfield-vibe-motion (deterministic Remotion code with crisp text); use vibe-motion instead when the text/logo must stay perfectly crisp, editable, and deployable as code."
+description: "End-to-end motion-design / animated-ad creation flow on Higgsfield via the MCP connector. Use when the user wants to create motion design, animate a logo, make a video from an image, build an animated ad or brand promo, turn a product into motion, or says 'make a motion', 'motion design', 'animate this', 'make a video from my logo', 'animated brand', 'motion graphics', 'brand motion', 'kinetic graphics', 'promo video', or 'ad video'. Drives a storyboard-first pipeline: brief → storyboard sheet (GPT Image 2) → video (Seedance 2.5; Seedance 2.0 as fallback) — an AI-generated pixel video clip. Distinct from higgsfield-motion (the named camera/motion preset library) and from higgsfield-vibe-motion (deterministic Remotion code with crisp text); use vibe-motion instead when the text/logo must stay perfectly crisp, editable, and deployable as code."
 user-invocable: true
 metadata:
   tags: [higgsfield, motion-design, animated-ad, logo-animation, brand, motion-graphics, storyboard, classicMD, highMD]
   version: 1.1.0
-  updated: 2026-08-25
+  updated: 2026-11-26
   parent: higgsfield
 ---
 
@@ -20,9 +20,9 @@ A full motion-design creation flow run through the Higgsfield MCP connector. Fol
 - Two flows: **classicMD** (smooth, elegant, cinematic) vs **highMD** (fast cuts, extreme dynamics, CGI energy) — pick before anything else [→](#step-0-determine-the-flow-type)
 - Ask **all** brief questions in ONE message — never split intake into rounds [→](#step-1-brief-intake-one-message)
 - Storyboard = **one** image: a single grid sheet with all N panels via GPT Image 2 — never N separate images [→](#step-3-generate-the-storyboard)
-- Final video = **Seedance 2.0** (`seedance_2_0`); confirm the model id with `models_explore` if unsure [→](#step-4-generate-the-video)
+- Final video = **Seedance 2.5** (`seedance_2_5`, verify live); confirm the model id with `models_explore` / `higgsfield model get`. Seedance 2.0 (`seedance_2_0`) stays as the fallback [→](#step-4-generate-the-video)
 - highMD rule: no realistic humans — silhouettes, chrome figures, or 3D abstract shapes only [→](#notes-rules)
-- highMD rule: the logo lock is a static hold proportional to clip length (~1s / ~2s / ~2–3s for 5 / 10 / 15s) [→](#step-4-generate-the-video)
+- highMD rule: the logo lock is a static hold proportional to clip length (~1s / ~2s / ~2–3s for 5 / 10 / 15s; at least ~2–3s for longer clips) [→](#step-4-generate-the-video)
 
 ---
 
@@ -43,7 +43,7 @@ If the request makes the flow obvious, proceed silently. If ambiguous, ask once:
 Ask all of these in a **single** message (never split into rounds). Save every answer before proceeding:
 
 1. **Existing assets?** — Yes (upload logo / product photo / reference) · No (help me create the visual)
-2. **Duration** — 5s (teaser / logo sting) · 10s (standard post / stories) · 15s (promo / product video)
+2. **Duration** — 5s (teaser / logo sting) · 10s (standard post / stories) · 15s (promo / product video) · up to 30s (longer promo; Seedance 2.5 only)
 3. **Frame format** — 16:9 (horizontal) · 9:16 (vertical Reels/TikTok/Stories) · 1:1 (square feed)
 4. **Mood / style** *(free input)* — e.g. energetic, minimalist, luxury, technological, atmospheric, aggressive, cinematic
 5. **Brand / product name and tagline** *(if any)*
@@ -82,16 +82,16 @@ Display with `job_display`, then present a short storyboard summary (Frame 1…N
 
 ## STEP 4 — Generate the video
 
-Once the storyboard is approved, generate the final video with **Seedance 2.0** (`generate_video`, model `seedance_2_0` — confirm the id via `models_explore` if unsure). Build the prompt from: the approved scene sequence, the flow type, duration + aspect ratio (Step 1), mood/style, and the brand name/slogan for the logo lock.
+Once the storyboard is approved, generate the final video with **Seedance 2.5** (`generate_video`, model `seedance_2_5`, verify live — confirm the id via `models_explore` / `higgsfield model get`). Use Seedance 2.0 (`seedance_2_0`, 4–15s) only as a fallback. For 2.5 prompt syntax and limits, use the `seedance-25-director` skill. Before writing the prompt, run `film-crew` (single-shot mode for one shot, full mode for several) per CLAUDE.md and take its plan as input; then build the prompt from that plan plus: the approved scene sequence, the flow type, duration + aspect ratio (Step 1), mood/style, and the brand name/slogan for the logo lock.
 
 - **classicMD:** `smooth motion design, [scene flow], elegant transitions, [mood] atmosphere, cinematic camera movement, [duration]s, brand reveal at end: [brand], [aspect ratio]`
 - **highMD:** `high-intensity kinetic motion, [scene flow], extreme camera speed, aggressive match-cuts, peak-action freeze frames, [mood] CGI aesthetic, neon contrast, [duration]s, hard-stop logo lock: [brand], [aspect ratio]`
 
-For highMD, the final seconds must be a **static hold** on the brand/logo — build it into the prompt explicitly, scaled to clip length (~1s for 5s, ~2s for 10s, ~2–3s for 15s).
+For highMD, the final seconds must be a **static hold** on the brand/logo — build it into the prompt explicitly, scaled to clip length (~1s for 5s, ~2s for 10s, ~2–3s for 15s and longer).
 
-Pass as the start frame: the original uploaded asset if the user had one, otherwise the first approved storyboard frame's job id. Seedance 2.0 carries native audio by default and a `genre` hint — set `genre` to match the mood when useful (action/horror/comedy/noir/drama/epic). Display with `job_display`.
+Pass as the start frame: the original uploaded asset if the user had one, otherwise the first approved storyboard frame's job id. Seedance 2.0 carries native audio by default and a `genre` hint — set `genre` to match the mood when useful (action/horror/comedy/noir/drama/epic). For Seedance 2.5, check its parameters (audio, genre) with `models_explore` before relying on them (verify live). Display with `job_display`.
 
-> **Resolution note:** Seedance 2.0 reaches 4K only in `mode=std`; `mode=fast` caps at 720p. See `higgsfield-seedance` / the specs layer.
+> **Resolution note:** Seedance 2.5 goes up to 4K and 30s (resolution and mode options: verify live). Seedance 2.0 reaches 4K only in `mode=std`; `mode=fast` caps at 720p. See `seedance-25-director`, `higgsfield-seedance` and the specs layer.
 
 ---
 
@@ -105,7 +105,7 @@ Present the render and ask: **Love it ✅** (done) · **Different edit** (regene
 
 - Ask **all** Step 1 questions at once; never split intake.
 - **Storyboard = one grid image** via GPT Image 2; never N separate images. No separate moodboard step — go brief → storyboard.
-- **Image model:** GPT Image 2 (`gpt_image_2`). **Video model:** Seedance 2.0 (`seedance_2_0`).
+- **Image model:** GPT Image 2 (`gpt_image_2`). **Video model:** Seedance 2.5 (`seedance_2_5`, verify live); Seedance 2.0 (`seedance_2_0`) as fallback.
 - **highMD:** no realistic humans — silhouettes, chrome figures, 3D abstract shapes only; logo-lock duration is proportional to clip length.
 - **classicMD logo** can appear as opener, closer, or both — ask if unspecified.
 - Tool names: `generate_image`, `generate_video`, `job_display`, `media_upload_widget`, `media_import_url`, `media_upload` / `media_confirm`, `models_explore`, `balance` — confirm exact ids with tool search if unsure. Check credits with `balance` if the user seems concerned about usage.
@@ -127,6 +127,7 @@ Present the render and ask: **Love it ✅** (done) · **Different edit** (regene
 - `higgsfield-motion` — the named camera/motion preset library (different skill)
 - `higgsfield-vibe-motion` — deterministic Remotion **code** motion graphics (crisp text, exact colors, deployable). Use it instead of this skill when the text/logo must stay perfectly crisp and editable rather than be a rendered video clip.
 - `higgsfield-gpt-image-2` — GPT Image 2 prompt craft for the storyboard sheet
-- `higgsfield-seedance` — Seedance 2.0 prompt formula, modes, and preflight linter
+- `seedance-25-director` — Seedance 2.5 prompt syntax and limits (the default video model here)
+- `higgsfield-seedance` — Seedance 2.0 prompt formula, modes, and preflight linter (the linter also takes `--model seedance_2_5`)
 - `higgsfield-marketing-studio` — one-click product-ad surface (alternative to this manual flow)
 - `higgsfield-apps` — MCP connector tooling (media upload, job display, balance)

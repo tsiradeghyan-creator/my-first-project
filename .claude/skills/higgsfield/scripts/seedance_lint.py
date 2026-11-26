@@ -2,7 +2,7 @@
 """
 seedance_lint.py
 ================
-Pre-flight linter for Seedance 2.0 / Seedance Pro prompts.
+Pre-flight linter for Seedance 2.0 / 2.5 / Seedance Pro prompts.
 
 Seedance's content filter is an LLM reading full-scene intent, not a keyword
 blacklist. But it still reliably flags prompts on a handful of patterns — this
@@ -26,6 +26,7 @@ Usage:
   python3 scripts/seedance_lint.py --model seedance_2_0 "<prompt>"   # + structural lint
   python3 scripts/seedance_lint.py --model kling3_0 --ar 21:9 "<prompt>"
   python3 scripts/seedance_lint.py --preflight --model seedance_2_0 "<prompt>"
+  python3 scripts/seedance_lint.py --preflight --model seedance_2_5 "<prompt>"
                                                       # filter + structure + memory recall
   python3 scripts/seedance_lint.py --log "<prompt text>"      # log FAIL to filter-memory
   python3 scripts/seedance_lint.py --confirmed "<prompt>"     # log as confirmed workaround
@@ -781,7 +782,7 @@ def log_to_filter_memory(prompt: str, findings: list[Finding], confirmed: bool) 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Preflight linter for Seedance 2.0 (and specs-known) prompts."
+        description="Preflight linter for Seedance 2.0 / 2.5 (and specs-known) prompts."
     )
     parser.add_argument("prompt", nargs="?", help="Prompt text (or use --file / stdin)")
     parser.add_argument("--file", "-f", help="Read prompt from file")

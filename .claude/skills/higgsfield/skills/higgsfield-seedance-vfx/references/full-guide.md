@@ -11,6 +11,8 @@ metadata:
 
 # Higgsfield Seedance VFX — Footage Transformation
 
+> Commands below use Seedance 2.0 (`seedance_2_0`). For new work, use Seedance 2.5 (`seedance_2_5`, verify live) and the `seedance-25-director` skill for prompt syntax.
+
 This skill is for **editing a clip the user already has**: keep a real subject and the
 real camera move, change only what they ask for. It is the video-to-video sibling of
 `../higgsfield-seedance/SKILL.md` (the general Seedance director). It **reuses that skill's

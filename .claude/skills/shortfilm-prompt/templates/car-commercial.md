@@ -111,6 +111,6 @@ tire grip and environment streaking read as real there, the surface and
 hero beats frame it. Watch for warped reflections and wrong wheel rotation;
 negate them.
 
-**Model:** Veo 3 and Sora 2 give the best reflective-surface and motion
+**Model:** Veo 3 gives the best reflective-surface and motion
 realism; Kling is strong on the tracking pass. Watch wheels rotating the
 wrong way at speed — keep passes short or add the wheel-direction negative.

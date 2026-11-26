@@ -4,7 +4,7 @@
 > structure to **food ASMR** — the genre where *native synced audio*
 > is the entire point, not an afterthought. This is the template that
 > best exercises the modern engines' native audio-video sync (Seedance
-> 2.0, Veo 3, Sora 2).
+> 2.5, Veo 3).
 >
 > Concept: cutting into a just-seared steak, extreme macro, crisp synced
 > foley. Swap the dish and you have a reusable food-ASMR skeleton.
@@ -122,8 +122,7 @@ blurry, low resolution, soft focus, watermark, text overlay, subtitles, logo, ov
 payoff; if the texture-reveal and the synced sound land there, build the
 rest around it. This genre rewards engines with strong native audio.
 
-**Model:** Seedance 2.0's native synced audio is its standout strength —
+**Model:** Seedance 2.5's native synced audio (via `seedance-25-director`) is its standout strength —
 this is the genre to use it on. Veo 3 also does excellent native audio
 (describe the soundscape in the prompt; use the negative field for
-artifacts). Kling 3.0 handles the motion well but verify audio sync. On
-the Doubao app, plan for the 5s/10s preset lock.
+artifacts). Kling 3.0 handles the motion well but verify audio sync.

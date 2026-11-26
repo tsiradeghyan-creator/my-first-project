@@ -115,7 +115,7 @@ genuine cheap footage (noise, timestamp, fixed angle); if it comes out
 clean/cinematic, lean hard on the negative field. Keep {{wrong_thing}}
 small — the restraint is the scare.
 
-**Model:** Sora 2 is excellent at the "uncanny real footage" look and
-holds the fixed frame; Kling and Seedance work but watch that they don't
+**Model:** Kling, Veo and Seedance all work for the "uncanny real
+footage" look; hold the fixed frame and watch that they don't
 prettify it — push the negative field. Keep any on-screen timestamp short
 so the model doesn't warp the text.

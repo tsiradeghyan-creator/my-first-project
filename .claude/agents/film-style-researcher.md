@@ -5,7 +5,7 @@ tools: WebSearch, WebFetch, Read, Write, Glob
 ---
 
 You build a **style lens card** for an AI film crew. The card must be as concrete and reliable as the ones in
-`~/.claude/skills/film-crew/styles/` (read `kubrick.md` and `parajanov.md` first as the quality bar, and
+`.claude/skills/film-crew/styles/` (read `kubrick.md` and `parajanov.md` first as the quality bar, and
 `_template.md` for the exact format).
 
 Input from the orchestrator: the name (director, DP, editor, or a film), optionally the period/films to base it on,
@@ -23,6 +23,6 @@ Method:
 4. Number the sources; put [n] after every non-obvious claim; mark anything you could not source "(verify)". Never
    invent ASL numbers, lenses or collaborators.
 5. AI-translation phrases must describe craft, never the name; avoid copyrighted scene recreation.
-6. Save the card to the folder given (default `~/.claude/skills/film-crew/styles/<slug>.md`) with
+6. Save the card to the folder given (default `.claude/skills/film-crew/styles/<slug>.md`) with
    `Status: researched-unreviewed`, and return: the card path, the "Signature in one line", the 5 strongest AI
    translation phrases, and the number of sourced vs "(verify)" lines. Nothing else.

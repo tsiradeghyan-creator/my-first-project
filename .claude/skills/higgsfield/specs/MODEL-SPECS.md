@@ -4,6 +4,8 @@
 
 Image models: see specs/IMAGE-MODEL-SPECS.md (snapshot 2026-07-05); this file covers video models only.
 
+Snapshot refreshed for Seedance 2.5 on 2026-11-26: seedance_2_5 added by hand (MANUAL_MODELS in scripts/sync_specs.py) until a fresh models_explore dump includes it. Fields listed in its verify_live are (verify live).
+
 | Model | id (aliases) | Duration | Resolutions | Modes | Aspect ratios | Media roles | Constraints |
 |-------|--------------|----------|-------------|-------|---------------|-------------|-------------|
 | Bytedance Video Upscale | bytedance_video_upscale | — | 1080p, 2k, 4k | — | — | medias: video_references | — |
@@ -26,6 +28,7 @@ Image models: see specs/IMAGE-MODEL-SPECS.md (snapshot 2026-07-05); this file co
 | Seedance 1.5 Pro | seedance1_5 (seedance_1_5) | 4/8/12s | 480p, 720p, 1080p | — | auto, 16:9, 9:16, 4:3, 3:4, 1:1, 21:9 | medias: start_image, end_image | — |
 | Seedance 2.0 | seedance_2_0 (video_standard) | 4–15s | 480p, 720p, 1080p, 4k | std, fast | auto, 16:9, 9:16, 4:3, 3:4, 1:1, 21:9 | medias: start_image, end_image, image_references, video_references, audio_references | mode=fast forbids resolution 1080p/4k |
 | Seedance 2.0 Mini | seedance_2_0_mini | 4–15s | 480p, 720p | — | auto, 16:9, 9:16, 4:3, 3:4, 1:1, 21:9 | medias: start_image, end_image, image_references, video_references, audio_references | — |
+| Seedance 2.5 | seedance_2_5 | 4–30s | 480p, 720p, 1080p, 4k | — | auto, 16:9, 9:16, 4:3, 3:4, 1:1, 21:9 | medias: start_image, end_image, image_references, video_references, audio_references | — |
 | Topaz | topaz_video | — | 1080p, 2160p | — | auto, 21:9, 16:9, 4:3, 1:1, 3:4, 9:16 | medias: input_video | — |
 | Google Veo 3 | veo3 | — | — | — | 16:9, 9:16 | medias: start_image | — |
 | Google Veo 3.1 | veo3_1 | 4/6/8s | — | — | 16:9, 9:16 | medias: start_image | — |

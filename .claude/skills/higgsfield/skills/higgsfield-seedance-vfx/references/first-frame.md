@@ -1,5 +1,7 @@
 # Reference — First / start-frame workflow
 
+> Commands below use Seedance 2.0 (`seedance_2_0`). For new work, use Seedance 2.5 (`seedance_2_5`, verify live) and the `seedance-25-director` skill for prompt syntax.
+
 Video credits are the expensive part of a footage transform. When the *look* is uncertain —
 a new creature, an unfamiliar relight, an environment you haven't tried — lock it as a **still
 first**, then animate from that still. You approve a single image cheaply, then hand it to

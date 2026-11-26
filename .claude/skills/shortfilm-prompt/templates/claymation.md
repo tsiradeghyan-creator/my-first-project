@@ -115,7 +115,7 @@ stepped motion and the clay texture read correctly — if it comes out
 smooth/CG, strengthen "12fps stepped, frame boil, no motion blur" and
 re-roll. Keep moves locked-off.
 
-**Model:** Kling and Seedance 2.0 handle stylized stepped motion well;
+**Model:** Kling and Seedance 2.5 (via `seedance-25-director`) handle stylized stepped motion well;
 Veo 3 can do it but watch for it defaulting to smooth interpolation —
 lean hard on the negative field ("smooth CG, motion blur, 60fps").
 Pika is also strong for stylized short-form animation.

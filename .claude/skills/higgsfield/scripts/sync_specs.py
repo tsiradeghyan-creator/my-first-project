@@ -8,7 +8,9 @@ snapshot dump (Higgsfield MCP, action=list). Stdlib only.
 The specs layer exists because hand-maintained model tables drift from the
 live platform (model-guide.md shipped "Seedance 2.0 — 10s" while the live API
 said 4-15s). Every model fact in specs/ comes from the snapshot JSON — this
-script normalizes, it never invents.
+script normalizes, it never invents. The one exception is MANUAL_MODELS:
+hand-verified models the newest snapshot lacks (Seedance 2.5, added
+2026-11-26), each carrying a `verify_live` list for its unverified fields.
 
 Inputs:
   specs/models_explore_snapshot_<YYYY-MM-DD>.json   (verbatim MCP tool output)
@@ -70,6 +72,58 @@ HISTORICAL_IDS = {
     "seedance1_5": ["seedance_1_5"],       # renamed in the 2026-07-05 catalog
     "recraft_v4_1": ["recraft-v4-1"],      # renamed in the 2026-07-05 catalog
     "seedance_2_0": ["video_standard"],    # dup id dropped from the 2026-07-05 catalog
+}
+
+# Models that are live on Higgsfield but absent from the newest committed
+# models_explore snapshot. Each entry holds only facts verified on its
+# `verified` date; anything not verified is listed in `verify_live`. An entry
+# is used only while the snapshot lacks that id: once a fresh dump contains
+# it, the snapshot record wins and the manual entry is ignored.
+MANUAL_REFRESH_NOTE = (
+    "Snapshot refreshed for Seedance 2.5 on 2026-11-26: seedance_2_5 added by "
+    "hand (MANUAL_MODELS in scripts/sync_specs.py) until a fresh models_explore "
+    "dump includes it. Fields listed in its verify_live are (verify live).")
+MANUAL_MODELS = {
+    "video": [
+        {
+            "id": "seedance_2_5",
+            "aliases": [],
+            "name": "Seedance 2.5",
+            "provider": "Bytedance",
+            "output_type": "video",
+            "resolutions": ["480p", "720p", "1080p", "4k"],
+            "modes": [],
+            "aspect_ratios": ["auto", "16:9", "9:16", "4:3", "3:4", "1:1", "21:9"],
+            "duration": {"min": 4, "max": 30},
+            "media_roles": {
+                "medias": ["start_image", "end_image", "image_references",
+                           "video_references", "audio_references"],
+            },
+            "params": [
+                {"name": "duration", "required": "optional", "type": "number",
+                 "description": "Duration in seconds (4-30).",
+                 "min": 4, "max": 30},
+                {"name": "resolution", "required": "optional", "type": "string",
+                 "description": "Output resolution, up to 4K. Exact options (verify live).",
+                 "options": ["480p", "720p", "1080p", "4k"]},
+            ],
+            "constraints": [],
+            "max_references": 50,
+            "manual": True,
+            "verified": "2026-11-26",
+            "source": ("higgsfield.ai/seedance/2.5 (on Higgsfield since 2026-08-06; "
+                       "generator param model=seedance_2_5). Prompt syntax and "
+                       "limits: seedance-25-director skill."),
+            "verify_live": [
+                "id (confirm with models_explore / higgsfield model get)",
+                "resolutions below 4K",
+                "aspect_ratios (verified range is 21:9 to 9:16; auto unverified)",
+                "modes (none listed, so mode is not checked)",
+                "media_roles",
+                "params other than duration",
+            ],
+        },
+    ],
 }
 
 # Mode/param constraints are extracted ONLY when a parameter description
@@ -264,6 +318,12 @@ def normalize_models(snapshot: dict, output_type: str = "video") -> list[dict]:
             ],
             "constraints": extract_constraints(m),
         })
+    # Hand-verified models missing from this snapshot (see MANUAL_MODELS).
+    known = {m["id"] for m in models} | {a for m in models for a in m["aliases"]}
+    for manual in MANUAL_MODELS.get(output_type, []):
+        if manual["id"] not in known:
+            models.append(json.loads(json.dumps(manual)))
+    models.sort(key=lambda m: m["id"])
     return models
 
 
@@ -278,6 +338,8 @@ def build_spec(snapshot_path: Path, output_type: str = "video") -> dict:
         "snapshot_sha256": hashlib.sha256(raw).hexdigest(),
         "models": normalize_models(snapshot, output_type),
     }
+    if any(m.get("manual") for m in spec["models"]):
+        spec["manual_refresh"] = MANUAL_REFRESH_NOTE
     if output_type == "video":
         # The image-side marker lives in the video spec. It was a TODO until a
         # type=image snapshot existed (Brief #2 item 9); once one is committed
@@ -353,6 +415,8 @@ def emit_yaml(spec: dict) -> str:
         f"{spec['snapshot_date']}).",
         "# Regenerate: python3 scripts/sync_specs.py   Verify: python3 scripts/sync_specs.py --check",
     ]
+    if spec.get("manual_refresh"):
+        lines.append(f"# {spec['manual_refresh']}")
     _yemit(spec, 0, lines)
     return "\n".join(lines) + "\n"
 
@@ -379,6 +443,8 @@ def emit_markdown(spec: dict) -> str:
     ]
     if spec.get("image_models"):
         lines += [f"Image models: {spec['image_models']}", ""]
+    if spec.get("manual_refresh"):
+        lines += [f"{spec['manual_refresh']}", ""]
     lines += [
         "| Model | id (aliases) | Duration | Resolutions | Modes | Aspect ratios | Media roles | Constraints |",
         "|-------|--------------|----------|-------------|-------|---------------|-------------|-------------|",
