@@ -1,10 +1,10 @@
-# Կարճ 1. պրոմպտ նկար սարքող ագենտի համար (փորձնական)
+# Կարճ 1. պրոմպտ նկար սարքող ագենտի համար (փորձնական, տարբերակ 2)
 
 Սա տրվում է ագենտին ամբողջությամբ։ Ագենտը նախ սարքում է կերպարների, հագուստների և վայրերի առանձին ռեֆերենսները, հետո դրանցից կարճ 1-ի կադրերը, իսկ վերջում տախտակը։ Կադրերի պլանը վերցված է `ep01-storyboard.md` ֆայլից, Կարճ 1, տարբերակ 2։
 
 ```
 ROLE
-You are the image department for a historical drama micro-series. Work in four steps, in order. First build every character, costume and location as its own separate reference image. Then build the storyboard frames from those references. Then assemble one storyboard board. Photoreal, grounded, cinematic stills. Save every image as its own file with the file name given. Never put any text, letters, numbers, captions, logos or watermarks inside a generated image.
+You are the image department for a historical drama micro-series. Work in four steps, in order. First build every character, costume and location as its own separate reference image. Then build the storyboard frames from those references. Then assemble one storyboard board. Photoreal, grounded, cinematic stills. Every storyboard frame and location plate is generated at 16:9 (for example 1920x1080). Save every image as its own file with the file name given. Never put any text, letters, numbers, captions, logos or watermarks inside a generated image.
 
 PROJECT
 "The Forbidden Name", episode 1, short 1. Persia, 4th century AD, Sasanian era. A captive Armenian king is held in a remote Persian fortress called the Fortress of Oblivion, where saying his name is forbidden. His old servant, the court eunuch Drastamat, arrives with the Persian king's permission to spend one day with him.
@@ -50,7 +50,7 @@ Light rule: L3 and L4 have one warm torch from frame-left and everything else fa
 Direction rule in the cell: the door is frame-left; Drastamat looks screen-right; Arshak looks screen-left.
 
 F01 L3 - extreme close-up of the young guard's eye at the crack in the door, torchlight flickering on the wet wood, the rest dark.
-F02 L3 - medium shot in depth: the young guard leans to the door crack in the foreground centre; the old guard stands one step behind him, slightly offset; both faces inside the centre third; the torch on the left wall.
+F02 L3 - medium shot in depth: the young guard's face, pressed to the door crack in profile, is in the exact centre of the frame; the old guard stands directly behind him, his face just above and behind the young guard's helmet, also inside the centre third; the torch on the left wall.
 F03 L3 - close insert: the old guard's broad hand clamps hard over the young guard's mouth; the young guard's eyes are wide above it.
 F04 L3 - close-up, two faces cheek to cheek: the old guard whispers into the young guard's ear, his mouth hidden behind the young guard's helmet and cheek.
 F05 L3 - close-up: the young guard touches his lips with two fingers, his eyes sliding toward the door.
@@ -60,25 +60,25 @@ F08 L1, the gate - symmetrical medium-wide: the gate opens; the commander stands
 F09 L1 - over the commander's shoulder (his dark red cloak, kept close to the centre): Drastamat's calm face as he holds out a rolled parchment sealed with red wax.
 F10 - close insert: fingers break the red wax seal on the rolled parchment.
 F11 L2, gate passage - backward-tracking medium shot: the commander walks toward camera reading the letter; Drastamat walks half a step behind at his shoulder; both faces in the centre third.
-F12 L2, courtyard - medium profile tracking shot: the two men walk side by side, close together; the commander turns his head toward Drastamat; horses and guards soft behind.
+F12 L2, courtyard - medium two-shot, the camera tracking in front of them: the commander and Drastamat walk shoulder to shoulder, very close together, their two faces side by side inside the centre third; the commander turns his head toward Drastamat; the tower stair, horses and guards soft behind.
 F13 L2 - medium close-up of the commander walking, eyes narrowed at Drastamat.
 F14 L2 - medium close-up of Drastamat walking, completely deadpan.
-F15 L2 - deep shot: in the soft foreground the back of the commander's head and shoulder, just off centre; in focus behind him, a guard by the water trough failing to hold back a laugh.
+F15 L2 - deep shot along one line: in focus in the exact centre, a guard by the water trough presses a hand to his mouth, failing to hold back a laugh; the commander's head and shoulder are soft in the near foreground, overlapping the lower part of the centre third, his head turned toward the guard.
 F16 L2, foot of the tower stair - close-up: Drastamat has stopped walking and looks up toward the tower, with quiet resolve.
 F17 L2, tower door - medium close-up: the commander on the top step looks back down at him, hard and unreadable.
 F18 L4 - wide from inside the cell, almost black: the door on the left opens and a blade of torchlight cuts across the straw floor to a chain.
 F19 L4 - wide from the doorway: Arshak in his prisoner state sits slumped against the wall, head down, face hidden by his hair, the chain running to the iron ring; he is framed in the centre third.
-F20 L4, doorway - medium shot, backlit by the corridor torch: Drastamat kneels on the threshold, his silhouette rimmed with warm light.
-F21 L3 - medium shot in depth: in the corridor the young guard flinches; behind him the old guard's hand tightens on his spear.
+F20 L4 - the doorway seen from inside the cell: Drastamat kneels on the threshold in the centre of the frame, a dark silhouette, the corridor torch behind him rimming his head and shoulders with warm light. There is no torch inside the cell; the cell is lit only by the light coming through the door.
+F21 L3 - medium shot in depth: in the corridor the young guard (the same face as C4a, with his faint first moustache) flinches, his face in the centre; behind him the old guard's hand tightens on his spear.
 F22 L4 - close-up: Arshak slowly raises his head into the torchlight, recognition in his eyes.
-F23 L4 - close-up: Arshak speaking low, eyes on Drastamat, looking screen-left.
+F23 L4 - close-up: Arshak speaking low, his eyes turned screen-left toward Drastamat at the door, never toward the right.
 F24 L4 - close-up: Drastamat on his knees, eyes wet but steady, looking screen-right.
 F25 L4 - close-up: Arshak at the instant a hoarse, broken laugh stops.
-F26 L4 - two-shot in profile, the faces close together near the centre: Drastamat on the left, Arshak on the right, both lit by the torch, the rest black.
+F26 L4 - tight two-shot in profile: the two faces only a hand's width apart in the exact centre of the frame, Drastamat on the left facing right, Arshak on the right facing left, both lit by the torch from the left, the rest black.
 Two cards are layout only and are not generated: T00, a plain black title card placed after F05; F27, a plain black end card.
 
 STEP 4 - THE BOARD
-Assemble one storyboard board, 16:9, in this order: F01-F05, T00, F06-F26, F27, in 4 rows. Under each frame add only the frame number and the shot size (for example "F04 - CU"), as a layout text layer, never generated inside the image. If you cannot add a layout text layer, deliver the board with no text and keep the frame numbers in the file names.
+Assemble one storyboard board in this order: F01-F05, T00, F06-F26, F27, in 4 rows of 7. Every cell keeps the frame's own 16:9 shape: never crop or squeeze a frame to a square. Under each frame add only the frame number and the shot size (for example "F04 - CU"), as a layout text layer, never generated inside the image. If you cannot add a layout text layer, deliver the board with no text and keep the frame numbers in the file names.
 
 PHOTOGRAPHIC FINISH (applies to every image)
 Photographed, not generated: a real cinema camera with a colour-negative film look and fine 35mm grain. Lenses: 50-85mm for close-ups, 28-35mm for wides. Shallow depth of field and true atmospheric perspective, with visible haze and air density between planes. The key light has physically accurate shadow falloff into the neck, jawline, ear and nostril shadows. Skin is real, with fine pores and subsurface scattering at ear edges and nostrils: no plastic or waxy skin, no retouching. Fabric, leather and mail have real weight, weave and wear. Highlights roll off in a filmic curve and never clip; deep shadows keep their detail. No text, no watermarks, no modern objects, no fantasy elements.
