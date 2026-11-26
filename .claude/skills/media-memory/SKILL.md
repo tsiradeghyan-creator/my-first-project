@@ -2,7 +2,7 @@
 name: media-memory
 description: Log and search media files (images, PDFs, video, audio) seen in conversations to ~/.media-memory/ with metadata (path, type, size, SHA256, tags, description). Use when the user runs /media-memory, asks to log or recall a previously seen image/PDF/video/audio file, or wants to search their media history.
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Media Memory Skill
@@ -20,7 +20,8 @@ Automatically log every media file (image, PDF, video, audio) encountered in con
 ```
 
 ## When to Use
-- Automatically: triggered by PostToolUse hook on Read/Write tool calls (configured in settings.json)
+- Automatically: a PostToolUse hook on Read and Write tool calls (set up in the user's
+  `~/.claude/settings.json`, see Hook setup below)
 - Manually: `/media-memory` — log a specific file or directory
 - Query: `/media-memory search <term>` — find files by tag, type, or description
 
@@ -28,19 +29,19 @@ Automatically log every media file (image, PDF, video, audio) encountered in con
 
 ```bash
 # Log a specific file
-python3 ~/.claude/skills/media-memory/media-logger.py --file /path/to/image.png --desc "Description" --tags "tag1,tag2"
+python3 .claude/skills/media-memory/media-logger.py --file /path/to/image.png --desc "Description" --tags "tag1,tag2"
 
 # Log with file copy
-python3 ~/.claude/skills/media-memory/media-logger.py --file /path/to/image.png --copy
+python3 .claude/skills/media-memory/media-logger.py --file /path/to/image.png --copy
 
 # Search the index
-python3 ~/.claude/skills/media-memory/media-logger.py --search "maghakian"
+python3 .claude/skills/media-memory/media-logger.py --search "maghakian"
 
 # Show all entries
-python3 ~/.claude/skills/media-memory/media-logger.py --list
+python3 .claude/skills/media-memory/media-logger.py --list
 
 # Show stats
-python3 ~/.claude/skills/media-memory/media-logger.py --stats
+python3 .claude/skills/media-memory/media-logger.py --stats
 ```
 
 ## Output Contract
@@ -58,7 +59,10 @@ Each metadata entry must include: `id`, `filename`, absolute `path`, MIME `type`
 Search/list/stats operations are read-only and must not rewrite media files.
 
 ## Auto-Hook Behavior
-When configured in settings.json, the hook fires after every Read tool call on a media file (png, jpg, jpeg, gif, webp, pdf, mp4, mov, mp3, wav). It logs:
+When configured in settings.json, the hook fires after every Read or Write tool call. The
+script ignores other tools and logs only media files (the extensions in
+`MEDIA_EXTENSIONS` in `media-logger.py`: images incl. svg/psd/ai, pdf, mp4/mov/avi/mkv/webm,
+mp3/wav/aac/flac/m4a). It logs:
 - File path and name
 - File type and size
 - Timestamp
@@ -68,6 +72,43 @@ When configured in settings.json, the hook fires after every Read tool call on a
 Hook mode must fail soft: malformed JSON, unsupported tools, missing paths, missing
 files, duplicate paths, and non-media extensions should exit without breaking the
 calling conversation.
+
+## Hook setup (new Mac)
+
+The hook lived in the old laptop's user settings, so it has to be added again. Merge this
+into `~/.claude/settings.json` (keep any hooks already there). It assumes the repo is at
+`$HOME/my-first-project`; change the path if it is elsewhere.
+
+```json
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Read|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$HOME/my-first-project/.claude/skills/media-memory/media-logger.py\" --hook",
+            "async": true,
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+`--hook` makes the script read the tool-call JSON (`tool_name`, `tool_input.file_path`,
+`session_id`) from stdin. `async` keeps the hook from slowing each Read/Write; the script
+locks `metadata.json`, so overlapping runs are safe. If your Claude Code version rejects
+`async` (verify live), drop that line; the hook still works, just synchronously.
+
+Quick check after adding it:
+```bash
+echo '{"tool_name":"Read","tool_input":{"file_path":"/path/to/image.png"},"session_id":"test"}' \
+  | python3 "$HOME/my-first-project/.claude/skills/media-memory/media-logger.py" --hook
+```
 
 ## Metadata Fields
 ```json
@@ -92,9 +133,9 @@ calling conversation.
 After changing `media-logger.py`, run:
 
 ```bash
-python3 -m py_compile ~/.claude/skills/media-memory/media-logger.py
-python3 ~/.claude/skills/media-memory/media-logger.py --stats
-python3 ~/.claude/skills/media-memory/media-logger.py --search "unlikely-smoke-query"
+python3 -m py_compile .claude/skills/media-memory/media-logger.py
+python3 .claude/skills/media-memory/media-logger.py --stats
+python3 .claude/skills/media-memory/media-logger.py --search "unlikely-smoke-query"
 ```
 
 For behavior changes, run the scenarios in `evals/evals.json` manually or with a

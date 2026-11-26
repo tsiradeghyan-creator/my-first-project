@@ -1,6 +1,6 @@
 ---
 name: trend-scout
-description: Daily global trend radar — researches worldwide content/creator trends (Reels/TikTok/IG formats, viral audio, X/Twitter, YouTube long-form, podcasts, film/TV industry, platform changes, newly released AI models/tools, storytelling patterns, and GitHub repos that could strengthen the zavod) and maintains the memory/trends-radar.md page in my-first-project so any production session can use fresh trend intel. Use when the user runs /trend-scout, asks "ինչ տրենդներ կան", "what's trending", or when producing content that should ride current trends. GLOBAL trends only — the user explicitly does NOT want Armenian-market focus.
+description: Daily global trend radar — researches worldwide content/creator trends (Reels/TikTok/IG formats, viral audio, X/Twitter, YouTube long-form, podcasts, film/TV industry, platform changes, newly released AI models/tools, storytelling patterns, and GitHub repos that could strengthen the zavod) and maintains the memory/trends-radar.md page in my-first-project so any production session can use fresh trend intel. Use when the user runs /trend-scout, asks "ինչ տրենդներ կան", "what's trending", or when producing content that should ride current trends. Covers global trends only; the user has asked to leave out an Armenian-market focus. Not for facts about the studio's own projects, buyers, funds or Armenian industry news (use auto-learn).
 metadata:
   version: 1.1.0
   updated: 2026-11-26
@@ -44,15 +44,15 @@ Structure of the page (keep these sections, newest entries on top, every entry d
 2. **📈 Rising** — early signals worth testing before they peak
 3. **📉 Fading** — trends to stop using
 4. **🛠 Platform & algorithm news** — IG/TikTok/YouTube/X feature or ranking changes
-5. **🤖 AI & tools** — NEWLY released AI models/tools worldwide that would benefit
+5. **🤖 AI & tools** — newly released AI models/tools worldwide that would benefit
    our production if adopted. Only tools that exist and are usable — when a tool is
    discontinued (e.g. Sora, dead 2026), delete its entries instead of tracking it.
 6. **🎬 Film, TV & long-form** — film/series industry moves, YouTube long-form and
    podcast trends, streaming-platform shifts, storytelling formats that travel
 7. **🧰 Repos for the zavod** — GitHub repos/frameworks that could strengthen
    ZavodOM (pipelines, agents, video tooling, prompt systems). For each: 1 line on
-   what it is + what the zavod could steal. Do NOT modify the zavod here — flag the
-   repo and leave adoption to zavod-scout / the user.
+   what it is + what the zavod could steal. Leave the zavod itself unchanged here: flag
+   the repo and leave adoption to zavod-scout / the user.
 8. **🗄 Archive** — entries older than 30 days get moved here (trim archive at 90 days)
 
 Every entry: `- **[YYYY-MM-DD]** insight sentence — why it matters for us. ([source](url))`

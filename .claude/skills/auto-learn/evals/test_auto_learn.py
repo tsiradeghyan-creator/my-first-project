@@ -77,6 +77,65 @@ def test_noise_is_rejected(module):
     assert module.extract_insight(result) == ""
 
 
+# Junk that earlier runs actually saved (see auto-learn.log, 2026-04 to 2026-10).
+JUNK_CASES = [
+    # markdown table row from a GitHub README
+    {"title": "", "url": "https://github.com/x/y",
+     "snippet": "| | status | Current | | last\\_updated | 2026-07-02 | | audience | |  |  |  |  |"},
+    # Reddit page chrome
+    {"title": "", "url": "https://reddit.com/r/Filmmakers/x",
+     "snippet": "## Post details r/Filmmakers | 15 upvotes | 50 comments | Posted by u/AlphaZetaM"},
+    # slug soup
+    {"title": "", "url": "https://example.com/slugs",
+     "snippet": "videoweb free-video-generator minimax-ai free-video-creation free-video-tool minimax-video hailuo-ai"},
+    # schedule / list fragment
+    {"title": "", "url": "https://example.com/list",
+     "snippet": "– “Monk in Pieces” (5/7)      – “The Escapees” (5/21)      – “Legend of the Mountain” (6/4)"},
+    # pipe-only fragment
+    {"title": "| | |", "url": "https://example.com/pipes", "snippet": "| | | | |"},
+    # too few real words
+    {"title": "", "url": "https://example.com/short",
+     "snippet": "Top 10 AI tools 2026 #1 #2 #3 #4 #5 #6 #7 #8 #9 #10 list."},
+]
+
+
+def test_junk_is_rejected(module):
+    for case in JUNK_CASES:
+        got = module.extract_insight(case)
+        assert got == "", f"junk accepted: {got!r} from {case['snippet'][:50]!r}"
+
+
+def test_rss_entity_is_decoded(module):
+    # The headline is kept, the "&nbsp;&nbsp;Source" tail and the entity are not.
+    got = module.extract_insight({
+        "title": "",
+        "url": "https://example.com/rss2",
+        "snippet": "Armenian Berlinale title After Dreaming picked up for international sales&nbsp;&nbsp;Screen Daily",
+    })
+    assert got == "Armenian Berlinale title After Dreaming picked up for international sales", got
+    got = module.extract_insight({
+        "title": "",
+        "url": "https://example.com/rss1",
+        "snippet": "The 12 Best AI Avatar Tools for UGC Video Ads&amp;nbsp;&amp;nbsp;TechBullion",
+    })
+    assert "&" not in got and "nbsp" not in got and "TechBullion" not in got, got
+    got = module.extract_insight({
+        "title": "UK film production spend dips 11% year-on-year in first quarter | News | Screen",
+        "url": "https://example.com/t",
+        "snippet": "",
+    })
+    assert got == "UK film production spend dips 11% year-on-year in first quarter", got
+
+
+def test_good_sentence_kept(module):
+    got = module.extract_insight({
+        "title": "",
+        "url": "https://example.com/good",
+        "snippet": "The fund opens a new development call for scripted series in March. More soon",
+    })
+    assert got == "The fund opens a new development call for scripted series in March.", got
+
+
 def test_mock_research_saves_only_new(module):
     with tempfile.TemporaryDirectory() as d:
         tmp = Path(d)
@@ -105,6 +164,9 @@ def main():
         test_dry_run_does_not_write,
         test_duplicate_url_rejected,
         test_noise_is_rejected,
+        test_junk_is_rejected,
+        test_rss_entity_is_decoded,
+        test_good_sentence_kept,
         test_mock_research_saves_only_new,
     ]
     for test in tests:

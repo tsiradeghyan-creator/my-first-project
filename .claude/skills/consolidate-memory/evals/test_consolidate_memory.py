@@ -56,7 +56,7 @@ def write_jsonl(path: Path):
             "type": "assistant",
             "timestamp": now,
             "message": {
-                "content": "completed Maghakian brand routing update. created a safer memory workflow."
+                "content": "I completed the Maghakian brand routing update in the skill router. Created a safer memory workflow for the nightly consolidation job."
             },
         },
     ]
@@ -112,12 +112,62 @@ def test_real_write_updates_expected_sections(module):
         assert "Session Log" in module.PROJECT_MEM.read_text(encoding="utf-8")
 
 
+# Fragments the old regex pass wrote into project-memory.md.
+JUNK_ASSISTANT = (
+    "Done. the write via `python3` (which your `settings.local.json` allowlists broadly) and kept a copy of the\n"
+    "- in this first generation round:\n"
+    "- logos or watermarks.\n"
+    "| | status | Current | | last_updated | 2026-07-02 |\n"
+    "```python\ncreated = build(x)  # created a thing in code\n```\n"
+    "created a safer flow"
+)
+
+
+def test_junk_fragments_dropped(module):
+    from datetime import datetime, timezone
+    msg = {"role": "assistant", "content": JUNK_ASSISTANT,
+           "timestamp": datetime.now(timezone.utc), "file": "x.jsonl"}
+    facts = module.extract_facts([msg, dict(msg)])
+    for key, items in facts.items():
+        assert not items, f"{key} kept junk: {items}"
+
+
+def test_whole_sentence_and_dedupe(module):
+    from datetime import datetime, timezone
+    text = ("Created the new LaunchAgent plist for the nightly memory job. "
+            "Created the new LaunchAgent plist for the nightly memory job.")
+    msg = {"role": "assistant", "content": text,
+           "timestamp": datetime.now(timezone.utc), "file": "x.jsonl"}
+    facts = module.extract_facts([msg])
+    assert len(facts["completions"]) == 1, facts["completions"]
+    assert facts["completions"][0].endswith(
+        "Created the new LaunchAgent plist for the nightly memory job."), facts["completions"]
+
+
+def test_summarize_falls_back_without_cli(module):
+    import os
+    from datetime import datetime, timezone
+    old = os.environ.get("PATH", "")
+    os.environ["PATH"] = "/nonexistent"
+    try:
+        msg = {"role": "user", "content": "Please keep the memory short.",
+               "timestamp": datetime.now(timezone.utc), "file": "x.jsonl"}
+        with tempfile.TemporaryDirectory() as d:
+            sandbox(module, Path(d))
+            assert module.summarize_with_claude([msg]) is None
+    finally:
+        os.environ["PATH"] = old
+
+
 def main():
     module = load_module()
     tests = [
         test_malformed_jsonl_ignored_and_facts_extracted,
         test_dry_run_does_not_write,
         test_real_write_updates_expected_sections,
+        test_junk_fragments_dropped,
+        test_whole_sentence_and_dedupe,
+        test_summarize_falls_back_without_cli,
     ]
     for test in tests:
         test(module)

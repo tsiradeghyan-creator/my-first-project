@@ -26,7 +26,9 @@ HOME = Path.home()
 MEMORY_DIR = HOME / ".memory"
 LONG_TERM  = MEMORY_DIR / "long-term-memory.md"
 PROJECT    = MEMORY_DIR / "project-memory.md"
-SKILL_DIR  = HOME / ".claude" / "skills" / "auto-learn"
+# The log sits next to this script, so it works from ~/.claude/skills/auto-learn
+# or from the repo copy at .claude/skills/auto-learn.
+SKILL_DIR  = Path(__file__).resolve().parent
 LOG_FILE   = SKILL_DIR / "auto-learn.log"
 
 # ── Config ────────────────────────────────────────────────────────────────────
@@ -116,6 +118,11 @@ TRUSTED_GLOBAL_DOMAINS = [
     "github.com",
     "news.ycombinator.com",
     "reddit.com",
+    # studio-relevant: European co-production, Armenian diaspora press, publishing
+    "cineuropa.org",
+    "armenianweekly.com",
+    "publishersweekly.com",
+    "thebookseller.com",
 ]
 
 
@@ -169,8 +176,13 @@ def log(msg: str):
 def extract_topics() -> list:
     """
     Build a list of search queries from long-term-memory.md and project-memory.md.
-    Returns varied global queries: world cinema, platform strategy, advertising,
-    creative industries, content trends, and production tools.
+
+    Lane: active projects and facts the studio can act on (buyers, funds, labs,
+    festival and market deadlines, Armenian and diaspora industry news, children's
+    publishing, Wikipedia / knowledge-panel work). Global trends (formats, platforms,
+    algorithms, creator economy, new AI tools, storytelling patterns) belong to the
+    trend-scout skill, so they are not searched here.
+    Project topics come first so they are not cut off by --topics.
     """
     topics = []
     proj_text = PROJECT.read_text("utf-8") if PROJECT.exists() else ""
@@ -178,29 +190,6 @@ def extract_topics() -> list:
     combined  = proj_text + "\n" + lt_text
 
     year, prev_year = _year_terms()
-
-    # ── Always-on global industry topics ─────────────────────────────────────
-    base = [
-        f"global film industry trends {year} streaming production screenwriting",
-        f"world cinema festival market trends {year} film production",
-        f"global TV series production trends {year} scripted drama microdrama",
-        f"global advertising industry trends {year} creative campaigns agencies",
-        f"global marketing trends {year} social media content strategy",
-        f"global creative industry trends {year} design entertainment production",
-        f"global content trends {year} short form video creator economy",
-        f"instagram tiktok youtube x algorithm updates creators {year}",
-        f"youtube long form podcast trends creators {year}",
-        f"screenwriting storytelling trends {year} television film social video",
-        f"AI video production tools film advertising {year}",
-        f"AI agents content production marketing creative workflows {year}",
-        f"reddit screenwriting filmmaking marketing community hot posts {year}",
-        f"hackernews storytelling creative tools AI media {year}",
-        f"wikipedia articles for creation approval tips creatives {year}",
-        f"social media SEO personal brand filmmaker {year}",
-        f"armenian screenwriting industry news {year}",
-        f"armenian tv series production trends {year}",
-    ]
-    topics.extend(base)
 
     # ── Extract series titles from project memory ─────────────────────────────
     for pattern in [
@@ -220,6 +209,23 @@ def extract_topics() -> list:
         topics.append(f"telegram channel growth strategy creators {year}")
     if "Reddit" in combined:
         topics.append(f"reddit AMA screenwriting promotion strategy {year}")
+
+    # ── Always-on studio topics (after the project topics above) ──────────────
+    base = [
+        f"screenwriting development funds labs open calls deadlines {year}",
+        f"film festival market co-production forum submission deadlines {year}",
+        f"platforms broadcasters buying scripted series script deals {year}",
+        f"russian-language streaming platforms original series commissions {year}",
+        f"armenian screenwriting industry news {year}",
+        f"armenian tv series production news {year}",
+        f"armenian film funding grants co-production {year}",
+        f"armenian diaspora film series streaming {year}",
+        f"children's book publishing print on demand small batch {year}",
+        f"armenian children's books publishing {year}",
+        f"wikipedia articles for creation approval tips creatives {year}",
+        f"google knowledge panel imdb screenwriter profile {year}",
+    ]
+    topics.extend(base)
 
     # ── SEO keyword expansion ─────────────────────────────────────────────────
     seo_kw = re.findall(r'`([^`]+)`', lt_text)
@@ -291,7 +297,10 @@ def search_google_news_rss(query: str) -> list:
             desc   = d_el.text or "" if d_el is not None else ""
             url_m  = re.search(r'href="(https?://[^"]+)"', desc)
             url_s  = url_m.group(1) if url_m else ""
-            snippet = re.sub(r'<[^>]+>', '', desc).strip()[:400] or title
+            # The description is "<a>Title</a>&nbsp;&nbsp;<font>Source</font>":
+            # decode entities and keep only the part before the &nbsp; gap.
+            snippet = html_mod.unescape(re.sub(r'<[^>]+>', '', desc))
+            snippet = re.split(r'\xa0{1,}', snippet)[0].strip()[:400] or title
             # Trim " - Source" suffix from title
             title = re.sub(r'\s*[-–]\s*[^-–]{3,50}$', '', title).strip()
             if url_s:
@@ -394,14 +403,73 @@ _NOISE_PATTERNS = re.compile(
 _NOISE_CONTAINS = re.compile(
     r'(please check your network connection|subscribe for daily|'
     r'stay up-to-date with the latest|reddit rules\s+privacy policy|'
-    r'user agreement\s+accessibility|sign up with google|continue in app)',
+    r'user agreement\s+accessibility|sign up with google|continue in app|'
+    r'post details|\d+\s+upvotes|\d+\s+comments\b)',
     re.IGNORECASE,
 )
 
+MIN_REAL_WORDS = 6   # an insight needs at least this many real words
+# A "real word" is letters only (Latin, Cyrillic, Armenian), 2+ chars, with an
+# optional apostrophe. Slugs like "free-video-generator", numbers and symbols
+# do not count.
+_REAL_WORD = re.compile(r"^[A-Za-zÀ-ÿ\u0400-\u04FF\u0531-\u058F]{2,}(?:['’][A-Za-z]+)?$")
+
+
+def clean_text(text: str) -> str:
+    """Decode HTML entities, drop tags, markdown escapes and heading marks,
+    and collapse whitespace."""
+    import html as html_mod
+    s = html_mod.unescape(html_mod.unescape(text or ""))   # handles &amp;nbsp;
+    # Google News glues "Title&nbsp;&nbsp;Source": keep the title part only.
+    s = re.split(r'\xa0{2,}', s)[0]
+    s = s.replace("\xa0", " ")
+    s = re.sub(r'<[^>]+>', ' ', s)
+    s = re.sub(r'\\([_*`#\[\]()|-])', r'\1', s)              # last\_updated → last_updated
+    s = re.sub(r'(^|\s)#{1,6}\s+', r'\1', s)                 # "## Post details"
+    s = re.sub(r'\s+(Source|Sources|Via):?\s*$', '', s, flags=re.IGNORECASE)
+    return re.sub(r'\s+', ' ', s).strip()
+
+
+def strip_breadcrumbs(text: str) -> str:
+    """'Headline here | News | Screen' → 'Headline here'. Only trims short trailing
+    segments after a long first segment; anything else is left for is_junk()."""
+    parts = [p.strip() for p in text.split("|")]
+    if len(parts) > 1 and len(parts[0].split()) >= MIN_REAL_WORDS \
+            and all(len(p.split()) <= 3 for p in parts[1:]):
+        return parts[0]
+    return text
+
+
+def is_junk(text: str) -> bool:
+    """True for fragments that are not a readable sentence or headline:
+    markdown table rows, pipe-only fragments, list or schedule fragments,
+    slug soup, cut-off text, and anything under MIN_REAL_WORDS real words."""
+    s = text.strip()
+    if not s:
+        return True
+    if "|" in s:                                   # table rows, pipe fragments
+        return True
+    if re.match(r'^[-–—•*·>]', s):                 # starts as a list item
+        return True
+    if len(re.findall(r'\s[–—]\s', s)) >= 2:       # "– A (5/7) – B (5/21) – C"
+        return True
+    if s.endswith(("...", "…")):                   # cut off mid-sentence
+        return True
+    if re.search(r'&[a-z]+;|&#\d+;', s):           # entity left undecoded
+        return True
+    tokens = s.split()
+    real = [t for t in (w.strip('.,;:!?"“”‘’()[]') for w in tokens) if _REAL_WORD.match(t)]
+    if len(real) < MIN_REAL_WORDS:
+        return True
+    if len(real) / max(len(tokens), 1) < 0.6:      # mostly slugs, numbers, symbols
+        return True
+    return False
+
+
 def extract_insight(result: dict) -> str:
     """Pull the most informative sentence from the result snippet."""
-    snippet = result.get("snippet", "").strip()
-    title   = result.get("title", "").strip()
+    snippet = clean_text(result.get("snippet", ""))
+    title   = strip_breadcrumbs(clean_text(result.get("title", "")))
     url     = result.get("url", "")
 
     # Reject freelancer/job-board results
@@ -412,7 +480,12 @@ def extract_insight(result: dict) -> str:
         return ""
 
     best = ""
-    for sentence in re.split(r'(?<=[.!?])\s+', snippet):
+    sentences = re.split(r'(?<=[.!?])\s+', snippet)
+    # Backends cut snippets at ~400 chars, so the last piece is often a
+    # half sentence. Drop it unless it ends like a sentence.
+    if len(sentences) > 1 and not re.search(r'[.!?"”\')]$', sentences[-1].strip()):
+        sentences = sentences[:-1]
+    for sentence in sentences:
         s = sentence.strip()
         if len(s) < 40 or len(s) > 250:
             continue
@@ -421,7 +494,8 @@ def extract_insight(result: dict) -> str:
         if _NOISE_CONTAINS.search(s):
             continue
         s = re.sub(r'^(Image|Photo)\s+\d+[:\s-]+', '', s, flags=re.IGNORECASE).strip()
-        if len(s) < 40 or _NOISE_CONTAINS.search(s):
+        s = strip_breadcrumbs(s)
+        if len(s) < 40 or _NOISE_CONTAINS.search(s) or is_junk(s):
             continue
         # Prefer sentences with actionable/informational words
         score = sum(1 for w in ("update", "strategy", "algorithm", "tips",
@@ -443,7 +517,8 @@ def extract_insight(result: dict) -> str:
         re.IGNORECASE,
     )
     if title and not generic_title.match(title.strip()) \
-            and not _NOISE_PATTERNS.match(title) and len(title) > 20:
+            and not _NOISE_PATTERNS.match(title) and not _NOISE_CONTAINS.search(title) \
+            and not is_junk(title) and len(title) > 20:
         return title[:180]
     return ""
 

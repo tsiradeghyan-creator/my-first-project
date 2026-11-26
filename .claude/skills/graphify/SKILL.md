@@ -1,13 +1,15 @@
 ---
 name: graphify
-description: "Use for questions about a codebase, folder, architecture, file relationships, or project content, especially when graphify-out/graph.json exists. Builds or queries a persistent knowledge graph with audit trails, community detection, HTML, GraphRAG JSON, and GRAPH_REPORT.md."
+description: "Builds or queries a persistent knowledge graph of a codebase or folder (audit trails, community detection, HTML, GraphRAG JSON, GRAPH_REPORT.md). Use when graphify-out/graph.json already exists and the user asks about that corpus, or when the user asks to build, update, query or export a graph (/graphify). Not for ordinary code questions in a folder with no graph; answer those with normal file search."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # Graphify
 
 Concise entrypoint for graph-backed project understanding. The complete legacy runbook is preserved in `references/full-guide.md`; load it before executing anything beyond a simple existing-graph query.
+
+This copy was written against graphify 0.9.25 (`.graphify_version`) (verify live: compare with the installed `graphifyy` package before relying on flags or defaults).
 
 ## Fast Routing
 
